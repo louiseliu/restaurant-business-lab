@@ -8,7 +8,9 @@
 
 - 已接收并检查上传的 Skill v0.3：仅含四个 Markdown 文件，无可执行脚本、二进制或依赖。
 - 仓库级 Skill 位于 [`.agents/skills/restaurant-business-model-lab/`](.agents/skills/restaurant-business-model-lab/SKILL.md)。这是版本化的项目配置，不等同于宿主全局注册或已启动后台进程。
+- 首个公开证据包与计算已准备，题目为[门店扩张能证明加盟商赚钱吗？](research/2026-10-27-franchise-evidence/provisional-research.md)。已保留原始来源台账、可复算代码和结果，结论仍属初步研究。
 - 首次研究闭环尚未完成；尚未核实真实 GPT Pro 研究会话。访问恢复后必须确认实际模型、获取回复并进行独立证据核查。
+- GitHub 内容写入已在授权更新后实际恢复：[初始化提交](https://github.com/louiseliu/restaurant-business-lab/commit/b863243f9d53b8265fad42d2e5645cabef32c8f9)。首次研究仍未完成 Pro 协作，不因仓库写入成功而视为闭环完成。
 - 没有创建自动运行服务、定时任务或付费资源。
 
 ## 工作原则
@@ -25,7 +27,7 @@
 - [研究规范](methods/research-standard.md)
 - [当前进度](state/current.md)
 - [研究日志](logs/2026-10-27-initialization.md)
-- `research/`：后续经过审查的研究问题、来源台账、分析与验证成果。
+- [首个研究证据包](research/2026-10-27-franchise-evidence/provisional-research.md)：来源台账、分析、已运行计算及尚未发送的 Pro 问题。
 
 ## 首次闭环验收
 
@@ -34,3 +36,4 @@
 ## 使用 Skill
 
 将仓库的 `.agents/skills/restaurant-business-model-lab/` 作为项目级 Skill 交给支持相应目录约定的宿主；应以宿主实际发现结果为准。本文件不承诺跨宿主自动加载。需要全局安装时，使用宿主支持的安装方式，并另外核验发现结果。
+

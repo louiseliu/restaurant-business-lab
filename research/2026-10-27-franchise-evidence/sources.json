@@ -1,0 +1,37 @@
+{
+  "retrieved_at_utc": "2026-10-27T06:23:00Z",
+  "scope": "Public original issuer disclosures; provisional evidence pack, not a completed Pro collaboration loop.",
+  "sources": [
+    {
+      "id": "S1", "issuer": "MIXUE Group", "title": "Interim Report 2026",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300280.pdf",
+      "publication_date": "2026-09-23", "publication_date_basis": "HKEX title-search publication record, 16:30 Hong Kong time",
+      "results_announcement_date": "2026-08-27", "period": "Six months ended 2026-06-30; store counts as of 2026-06-30 and 2025-06-30",
+      "locations": {"group_financials": "printed p5", "store_bridge": "printed p18", "revenue_definition_and_components": "printed p60"},
+      "metrics": {"group_revenue_2026_rmb_thousand":15215804,"group_revenue_2025_rmb_thousand":14874809,"group_profit_2026_rmb_thousand":2319272,"group_profit_2025_rmb_thousand":2718214,"franchise_stores_2026_end":63951,"franchise_stores_2025_end":52996,"franchise_stores_2026_start":59785,"franchise_openings_2026_h1":5455,"franchise_closures_2026_h1":1289,"goods_revenue_2026_rmb_thousand":14264907,"equipment_revenue_2026_rmb_thousand":532656,"franchise_services_revenue_2026_rmb_thousand":418241},
+      "definition_note": "Company revenue is from goods/equipment and franchise services; franchisees bear their own store results. Period-end stores are not store-days or an average operating denominator.",
+      "limits": "Issuer-reported unaudited interim results; independent review is not a full audit. No franchisee profit distribution verified in this review."
+    },
+    {
+      "id":"S2", "issuer":"Luckin Coffee Inc.", "title":"Second Quarter 2026 Financial Results",
+      "url":"https://investor.luckincoffee.com/news-releases/news-release-details/luckin-coffee-announces-second-quarter-2026-financial-results/",
+      "publication_date":"2026-08-03", "period":"Three months ended 2026-06-30",
+      "locations":{"growth":"Second Quarter Highlights","revenue_components":"Second Quarter Financial Results","definitions":"Key Definitions"},
+      "metrics":{"company_net_revenue_yoy_pct":28.5,"self_operated_same_store_sales_yoy_pct":-5.3,"partnership_stores_2026_end":12576,"partnership_stores_2025_end":9238,"partnership_company_revenue_mn_rmb":3667.8,"materials_mn_rmb":2402.2,"delivery_services_mn_rmb":542.1,"profit_sharing_and_royalty_mn_rmb":492.1,"equipment_mn_rmb":203.4,"franchise_other_services_mn_rmb":28.0},
+      "definition_note":"Partnership-store revenue is the company's sales/services/fees earned from partner stores, not partner store retail turnover. Same-store sales metric is self-operated only; definition changed in Q1 2026 and comparative figures were restated.",
+      "limits":"Company explanation attributes same-store decline primarily to prior-year delivery-subsidy comparison base; not an independently identified causal effect. No partner-store profit inferred."
+    },
+    {
+      "id":"S3", "issuer":"Yum China Holdings, Inc.", "title":"Second Quarter 2026 Results",
+      "url":"https://ir.yumchina.com/news-releases/news-release-details/yum-china-reports-second-quarter-2026-results",
+      "publication_date":"2026-07-30", "period":"Quarter ended 2026-06-30",
+      "locations":{"store_growth":"Second Quarter Highlights","definition":"Use of Non-GAAP Measures / Restaurant Profit"},
+      "metrics":{"net_new_stores":560,"franchise_share_of_net_new_pct":41,"franchise_share_of_ending_stores_pct":18,"restaurant_margin_pct":16.1},
+      "definition_note":"Restaurant profit and margin use company-owned restaurant sales less specified restaurant costs. The disclosed margin is not franchisee margin.",
+      "limits":"No franchisee profit or return distribution verified. Restaurant formats and geography differ from tea/coffee; these cases test accounting boundaries, not an industry performance ranking."
+    }
+  ],
+  "publication_metadata_source":"https://www1.hkexnews.hk/search/titlesearch.xhtml?category=0&lang=EN&market=SEHK&stockId=1000249228",
+  "additional_original_release_crosscheck":"https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0827/2026082700177.pdf",
+  "latest_period_note":"2026 interim/Q2 original filings were found. No claim is made that every issuer's newest announcement was exhaustively searched. No 2026 Q3 performance is inferred."
+}
