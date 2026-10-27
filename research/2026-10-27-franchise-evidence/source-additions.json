@@ -1,0 +1,61 @@
+{
+  "review_date": "2026-10-27",
+  "purpose": "Additional original sources for the independent MIXUE network-day bounds check; preserves sources.json unchanged.",
+  "sources": [
+    {
+      "id": "S4",
+      "issuer": "MIXUE Group",
+      "title": "2025 Interim Report (Chinese)",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0923/2025092300255_c.pdf",
+      "publication_date": null,
+      "publication_date_basis": "Not independently verified in this supplemental review; the linked file path alone is not treated as publication-date evidence.",
+      "period": "Six months ended 2025-06-30",
+      "locations": {
+        "franchise_store_bridge": "printed p16",
+        "goods_revenue_and_recognition": "printed pp46-47"
+      },
+      "metrics": {
+        "franchise_start": 46462,
+        "openings": 7721,
+        "closures": 1187,
+        "franchise_end": 52996,
+        "goods_revenue_rmb_thousand": 13843184
+      },
+      "limitation": "Group franchise network and group merchandise sales, not a proven constant-brand or constant-channel scope. Goods delivery and acceptance is not terminal consumer sale timing."
+    },
+    {
+      "id": "S5",
+      "issuer": "MIXUE Group",
+      "title": "2025 Annual Report",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0423/2026042301901.pdf",
+      "publication_date": null,
+      "publication_date_basis": "Not independently verified in this supplemental review; the linked file path alone is not treated as publication-date evidence.",
+      "period": "Year ended 2025-12-31",
+      "locations": {
+        "acquisition_and_annual_store_bridge": "printed p13"
+      },
+      "metrics": {
+        "franchise_start": 46462,
+        "openings": 14496,
+        "acquisition_additions": 1354,
+        "closures": 2527,
+        "franchise_end": 59785
+      },
+      "acquisition_completion_date": "2025-12-01",
+      "limitation": "1,354 is the acquired franchise-store count at completion; subsequent openings and closures are included in annual flows. It is not 2026 H1 average stores or store-days."
+    }
+  ],
+  "existing_source_crosscheck": {
+    "id": "S1",
+    "locations": "2026 interim report pp18, 59-60",
+    "metrics": {
+      "franchise_start": 59785,
+      "openings": 5455,
+      "closures": 1289,
+      "franchise_end": 63951,
+      "goods_revenue_rmb_thousand": 14264907
+    }
+  },
+  "bounds_condition": "Disclosed bridge must cover all network entry and exit events. Arithmetic closure does not prove economic-event completeness.",
+  "date_caution": "Where publication metadata was not independently checked, the date remains document-linked rather than separately verified. No claim of exhaustive latest-announcement coverage."
+}

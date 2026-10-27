@@ -1,0 +1,39 @@
+{
+  "inputs": {
+    "2025": {
+      "start": 46462,
+      "openings": 7721,
+      "closures": 1187,
+      "end": 52996,
+      "goods_rmb_thousand": 13843184,
+      "days": 181,
+      "store_days_min": 8194775,
+      "store_days_max": 9807123
+    },
+    "2026": {
+      "start": 59785,
+      "openings": 5455,
+      "closures": 1289,
+      "end": 63951,
+      "goods_rmb_thousand": 14264907,
+      "days": 181,
+      "store_days_min": 10587776,
+      "store_days_max": 11808440
+    }
+  },
+  "goods_growth_pct": 3.0464306477469347,
+  "network_day_growth_lower_pct": 7.9600612738312755,
+  "network_day_growth_upper_pct": 44.09718387631143,
+  "implied_intensity_ratio_lower": 0.7151175885310764,
+  "implied_intensity_ratio_upper": 0.9544865891320555,
+  "minimum_intensity_decline_pct": 4.551341086794445,
+  "extra_goods_revenue_needed_rmb_thousand": 680202.9286492073,
+  "extra_goods_revenue_needed_as_pct_reported_2026": 4.768365672830586,
+  "excess_2026_network_days_vs_timing_null": 481885.7992657614,
+  "equivalent_full_half_year_stores_to_exclude_if_zero_associated_revenue": 2662.3524821312785,
+  "minimum_actual_operating_share_ratio_2026_over_2025_for_unchanged_per_operating_day_revenue": 0.7151175885310764,
+  "maximum_actual_operating_share_ratio_2026_over_2025_for_unchanged_per_operating_day_revenue": 0.9544865891320555,
+  "operating_share_ratio_note": "Upper bound is necessary, not sufficient alone; existence in continuous unrestricted timing/operating model requires q in [r/hi,r/lo]. For fixed actual network days q must equal r divided by the actual exposure ratio.",
+  "constant_aggregate_goods_intensity_timing_only_null_feasible": false,
+  "caution": "Conditional accounting diagnostic, not causal or statistical rejection. Scope/product price, revenue recognition, inventory and actual trading days may vary."
+}

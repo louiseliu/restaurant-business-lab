@@ -8,10 +8,10 @@
 
 - 已接收并检查上传的 Skill v0.3：仅含四个 Markdown 文件，无可执行脚本、二进制或依赖。
 - 仓库级 Skill 位于 [`.agents/skills/restaurant-business-model-lab/`](.agents/skills/restaurant-business-model-lab/SKILL.md)。这是版本化的项目配置，不等同于宿主全局注册或已启动后台进程。
-- 首个公开证据包与计算已准备，题目为[门店扩张能证明加盟商赚钱吗？](research/2026-10-27-franchise-evidence/provisional-research.md)。已保留原始来源台账、可复算代码和结果，结论仍属初步研究。
-- 首次研究闭环尚未完成；尚未核实真实 GPT Pro 研究会话。访问恢复后必须确认实际模型、获取回复并进行独立证据核查。
-- GitHub 内容写入已在授权更新后实际恢复：[初始化提交](https://github.com/louiseliu/restaurant-business-lab/commit/b863243f9d53b8265fad42d2e5645cabef32c8f9)。首次研究仍未完成 Pro 协作，不因仓库写入成功而视为闭环完成。
-- 没有创建自动运行服务、定时任务或付费资源。
+- 首次实际研究已由通用口径边界推进到[蜜雪商品收入与加盟网络店日的条件性检验](research/2026-10-27-franchise-evidence/final-report.md)：构造指标至少下降约 4.55%，不能推断终端需求或加盟商利润下降。
+- 两轮真实 Pro 回复、公开原始资料回查、独立计算和措辞纠错已完成，详见[协作记录](research/2026-10-27-franchise-evidence/pro-collaboration.md)与[判断修订](research/2026-10-27-franchise-evidence/judgment-revision.md)。最终成果发布仍以实际远端提交核验为准。
+- GitHub 内容写入已恢复，[首轮公开证据包提交](https://github.com/louiseliu/restaurant-business-lab/commit/204eb60c727f7d9fa1ebdd35e96f47b44c35aa0a)已核实；本版本在其上补充实际 Pro 往返及新的边界检验。
+- 已配置自 2026-10-28 起每日早间研究检查（Asia/Shanghai），尚未完成首次定时运行验证。按证据价值和可用额度选择 Pro，不是 24 小时后台进程。没有新增付费资源。
 
 ## 工作原则
 
@@ -27,7 +27,9 @@
 - [研究规范](methods/research-standard.md)
 - [当前进度](state/current.md)
 - [研究日志](logs/2026-10-27-initialization.md)
-- [首个研究证据包](research/2026-10-27-franchise-evidence/provisional-research.md)：来源台账、分析、已运行计算及尚未发送的 Pro 问题。
+- [本轮研究结论](research/2026-10-27-franchise-evidence/final-report.md)：条件性边界结果、反例、经营意义与未解问题。
+- [原始初查稿](research/2026-10-27-franchise-evidence/provisional-research.md)：历史初始判断，保留其写作时状态；不要将其中尚未咨询的描述当作当前状态。
+- [独立边界复核](research/2026-10-27-franchise-evidence/bounds-check-findings.md)、[来源补充](research/2026-10-27-franchise-evidence/source-additions.json)、[可运行代码](research/2026-10-27-franchise-evidence/bounds-check.py)。
 
 ## 首次闭环验收
 
