@@ -1,0 +1,113 @@
+{
+  "surface": "report",
+  "title": "门店越开越多，老板就一定赚得更多吗？",
+  "generatedAt": "2026-10-27T07:00:00Z",
+  "status": "reviewed",
+  "buildStatus": "complete",
+  "exportPreferences": {
+    "selected": null,
+    "destinations": []
+  },
+  "filters": [],
+  "report": {
+    "asOf": "2026-09-23"
+  },
+  "queries": {
+    "network": {
+      "rows": [
+        {
+          "period": "2025H1",
+          "start": 46462,
+          "openings": 7721,
+          "closures": 1187,
+          "end": 52996,
+          "goods_rmb_thousand": 13843184,
+          "days": 181,
+          "store_days_min": 8194775,
+          "store_days_max": 9807123
+        },
+        {
+          "period": "2026H1",
+          "start": 59785,
+          "openings": 5455,
+          "closures": 1289,
+          "end": 63951,
+          "goods_rmb_thousand": 14264907,
+          "days": 181,
+          "store_days_min": 10587776,
+          "store_days_max": 11808440
+        }
+      ],
+      "source": {
+        "label": "蜜雪集团公开中期报告及独立边界复算",
+        "files": [
+          "2025 中报 p16、46–47",
+          "2026 中报 p18、59–60",
+          "bounds-check.py"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "在网店日边界",
+            "definition": "181×(期初店−闭店) 至 181×(期初店+开业)；需门店桥覆盖全部入退网事件。不是实际营业店日。",
+            "componentIds": [
+              "network-comparison",
+              "methods"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "原始披露",
+            "detail": "2025 与 2026 中报；集团境内外加盟网络，商品收入为集团商品收入。"
+          },
+          {
+            "title": "独立复算",
+            "detail": "bounds-check.py 使用有理数计算最有利时点边界，非因果识别。"
+          },
+          {
+            "title": "固定版本复现",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/tree/e855c67e53e80165f968efed9ef7ba91029cdc1a/research/2026-10-27-franchise-evidence；bounds-check.py 与结果 JSON。"
+          }
+        ]
+      }
+    },
+    "comparison": {
+      "rows": [
+        {
+          "measure": "商品收入（披露值）",
+          "index": 103.04643064774693
+        },
+        {
+          "measure": "在网店日（最低边界）",
+          "index": 107.96006127383127
+        }
+      ],
+      "source": {
+        "label": "2026H1 相对 2025H1；各指标自身基期=100",
+        "files": [
+          "bounds-check-results.json"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "比较指数",
+            "definition": "商品收入103.046为观测值；在网店日107.960为可能区间107.960–144.097的下界，不是观测值。",
+            "componentIds": [
+              "network-comparison"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "计算",
+            "detail": "收入指数=14264907/13843184×100；在网日最低指数=10587776/9807123×100。"
+          },
+          {
+            "title": "固定版本复现",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/tree/e855c67e53e80165f968efed9ef7ba91029cdc1a/research/2026-10-27-franchise-evidence；bounds-check.py 与结果 JSON。"
+          }
+        ]
+      }
+    }
+  },
+  "id": "report:1545b34d-dcc1-4a73-b392-44ace230a41e"
+}

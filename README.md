@@ -23,6 +23,8 @@
 
 ## 目录
 
+- [给餐饮老板的图文 HTML 报告](reports/README.md)：下载后浏览器打开，含图解、经营问题与证据边界。
+
 - [Skill 与参考文件](.agents/skills/restaurant-business-model-lab/SKILL.md)
 - [研究规范](methods/research-standard.md)
 - [当前进度](state/current.md)
