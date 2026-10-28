@@ -1,0 +1,9 @@
+{
+  "assumption": "Illustration using approximate published equipment total; not actual contract cash flow",
+  "equipment_total_rmb": "200000",
+  "upfront_rmb": "130000.00",
+  "deferred_rmb": "70000.00",
+  "installment_count": 24,
+  "monthly_rmb_unrounded": "2916.666666666666666666666667",
+  "total_check": true
+}
