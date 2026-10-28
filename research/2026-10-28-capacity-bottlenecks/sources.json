@@ -1,0 +1,52 @@
+{
+  "research_date": "2026-10-28",
+  "topic": "星巴克2025年设备产能、人员部署与订单排序的历史策略修正",
+  "scope": "历史管理层判断及部署方向，不是截至核验日的现行政策或投资回报结论",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Starbucks Q1 2025 Earnings Call — Corrected Transcript",
+      "url": "https://investor.starbucks.com/files/doc_financials/2025/q1/SBUX_Q1_2025_Corrected_Transcript.pdf",
+      "host": "Starbucks Investor Relations",
+      "transcript_provider": "FactSet CallStreet",
+      "source_type": "上市公司投资者关系网站托管的管理层电话会逐字稿",
+      "document_and_call_date": "2025-01-28",
+      "date_basis": "PDF封面及页眉；文件首次上传日期未独立核实",
+      "fiscal_period": "FY2025 Q1",
+      "pages_one_based": [5, 16],
+      "claims": [
+        "管理层将多数门店的瓶颈归于流程、人员部署与订单排序，而非产能不足。",
+        "当时拟将Siren设备安装集中于交易量最高四分位门店。"
+      ],
+      "limitations": [
+        "管理层自报，不是独立对照研究。",
+        "部署方向随后由S2更新，不作为核验日的现行政策。"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Starbucks Q2 2025 Earnings Call — Corrected Transcript",
+      "url": "https://s203.q4cdn.com/326826266/files/doc_financials/2025/q2/SBUX-2Q25-Corrected-Transcript.pdf",
+      "host": "Starbucks Investor Relations / Q4 CDN",
+      "transcript_provider": "FactSet CallStreet",
+      "source_type": "上市公司投资者关系材料中的管理层电话会逐字稿",
+      "document_and_call_date": "2025-04-29",
+      "date_basis": "PDF封面及页眉；文件首次上传日期未独立核实",
+      "fiscal_period": "FY2025 Q2",
+      "pages_one_based": [5, 6, 12],
+      "claims": [
+        "第12页：CEO修正此前减少门店人工、寄望设备抵消的假设。",
+        "第6页：暂停继续铺设重资本Siren冷饮和食品设备，Clover Vertica咖啡机仍继续推进。",
+        "第5页：测试门店店内订单平均等待缩短2分钟，高峰期75%的店内订单等待低于4分钟。"
+      ],
+      "limitations": [
+        "测试服务结果为管理层自报，未配对完整实际工时、订单及成本数据。",
+        "不可将同时变化的人员、流程、算法效果分离，亦不代表停止所有设备。"
+      ]
+    }
+  ],
+  "calculation_status": "未新增数字推演；保留原文披露数值，不从等待时间反推产能或劳动生产率。",
+  "verification_status": "已阅读PDF文本并核对页码和上下文；两份均非供应商营销材料。",
+  "pro_status": "本轮未咨询Pro",
+  "publication_status": "由仓库提交历史核验发布状态"
+}
