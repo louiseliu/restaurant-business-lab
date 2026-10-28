@@ -1,0 +1,28 @@
+{
+  "status": "conditional_calculation_not_observed_cost_change",
+  "periods": [
+    "2025Q2",
+    "2026Q2"
+  ],
+  "source": "https://ir.yumchina.com/news-releases/news-release-details/yum-china-reports-second-quarter-2026-results",
+  "mix_definition": "delivery accounting sales / total Company sales; not delivery order share",
+  "input_precision": "approximate published percentages; outputs must be presented as approximate",
+  "old_mix": "0.45",
+  "new_mix": "0.54",
+  "identity": "rider_cost/total_sales = delivery_sales_mix * rider_cost_per_delivery_order / delivery_accounting_sales_per_delivery_order",
+  "required_new_to_old_cost_per_order_divided_by_delivery_ticket_ratio": "0.8333333333333333333333333333",
+  "required_relative_reduction": "0.1666666666666666666666666667",
+  "required_relative_reduction_percent_display": "approximately 16.7%",
+  "assumptions": [
+    "All variables refer to the same restaurant scope and accounting period.",
+    "Delivery sales and rider costs are consistently defined in both periods.",
+    "Rider cost rate is held constant, not estimated from disclosed margins.",
+    "Accounting delivery sales per order is not verified net merchant cash receipts."
+  ],
+  "not_inferred": [
+    "Actual rider cost reduction",
+    "Actual delivery contribution margin",
+    "Causation from the separate 2025 management commentary",
+    "Platform commission, packaging, discount, or kitchen capacity costs"
+  ]
+}
