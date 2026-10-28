@@ -1,0 +1,39 @@
+{
+  "2025H1": {
+    "start": 4868,
+    "added": 1338,
+    "exited": 331,
+    "end": 5875,
+    "bridge_ok": true,
+    "conditional_start_cohort_retention_lower": "0.9320049301561216105176663928",
+    "conditional_start_cohort_retention_upper": "1"
+  },
+  "2025FY": {
+    "start": 4868,
+    "added": 2488,
+    "exited": 681,
+    "end": 6675,
+    "bridge_ok": true,
+    "conditional_start_cohort_retention_lower": "0.8601068200493015612161051767",
+    "conditional_start_cohort_retention_upper": "1"
+  },
+  "2026H1": {
+    "start": 6675,
+    "added": 800,
+    "exited": 322,
+    "end": 7153,
+    "bridge_ok": true,
+    "conditional_start_cohort_retention_lower": "0.9517602996254681647940074906",
+    "conditional_start_cohort_retention_upper": "1"
+  },
+  "2026H1_counterexample": {
+    "all_exits_are_starters": {
+      "remaining_starters": 6353,
+      "remaining_new": 800
+    },
+    "all_exits_are_new": {
+      "remaining_starters": 6675,
+      "remaining_new": 478
+    }
+  }
+}
