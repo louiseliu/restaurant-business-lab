@@ -9,9 +9,10 @@
 - 已接收并检查上传的 Skill v0.3：仅含四个 Markdown 文件，无可执行脚本、二进制或依赖。
 - 仓库级 Skill 位于 [`.agents/skills/restaurant-business-model-lab/`](.agents/skills/restaurant-business-model-lab/SKILL.md)。这是版本化的项目配置，不等同于宿主全局注册或已启动后台进程。
 - 首次实际研究已由通用口径边界推进到[蜜雪商品收入与加盟网络店日的条件性检验](research/2026-10-27-franchise-evidence/final-report.md)：构造指标至少下降约 4.55%，不能推断终端需求或加盟商利润下降。
-- 两轮真实 Pro 回复、公开原始资料回查、独立计算和措辞纠错已完成，详见[协作记录](research/2026-10-27-franchise-evidence/pro-collaboration.md)与[判断修订](research/2026-10-27-franchise-evidence/judgment-revision.md)。最终成果发布仍以实际远端提交核验为准。
-- GitHub 内容写入已恢复，[首轮公开证据包提交](https://github.com/louiseliu/restaurant-business-lab/commit/204eb60c727f7d9fa1ebdd35e96f47b44c35aa0a)已核实；本版本在其上补充实际 Pro 往返及新的边界检验。
-- 已配置自 2026-10-28 起每日早间研究检查（Asia/Shanghai），尚未完成首次定时运行验证。按证据价值和可用额度选择 Pro，不是 24 小时后台进程。没有新增付费资源。
+- 两轮真实 Pro 回复、公开原始资料回查、独立计算和措辞纠错已完成，详见[协作记录](research/2026-10-27-franchise-evidence/pro-collaboration.md)与[判断修订](research/2026-10-27-franchise-evidence/judgment-revision.md)。[最终研究提交](https://github.com/louiseliu/restaurant-business-lab/commit/e855c67e53e80165f968efed9ef7ba91029cdc1a)已在远端核验。
+- [老板版图文 HTML 归档提交](https://github.com/louiseliu/restaurant-business-lab/commit/b9150cb2369b2d6add851a112ae5256b4b43cfb1)已在远端核验，原研究与离线报告均保留。
+- 2026-10-28 首次每日早间定时研究已实际执行（Asia/Shanghai）：完成蜜雪证据缺口的有界复查，以及[古茗盈亏平衡与加盟回本口径研究](research/2026-10-28-franchise-payback-definitions/research-note.md)。这是历史招股书核验，不是当天新闻；本轮没有新的 Pro 请求或回复。
+- 按证据价值和可用额度选择 Pro，不是 24 小时后台进程。首次执行不等于未来每次运行均已验证。没有新增付费资源。
 
 ## 工作原则
 

@@ -1,0 +1,57 @@
+{
+  "research_date": "2026-10-28",
+  "source": {
+    "issuer": "古茗控股有限公司",
+    "document": "招股章程",
+    "publication_date": "2025-02-04",
+    "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2025/0204/2025020400012_c.pdf",
+    "pdf_pages": 592,
+    "sha256": "1cf2e952203c545a1f5e9c3984f8a0927e6ab8eeb60178e2e0a2501356450fe0"
+  },
+  "checks": [
+    {
+      "printed_page": 40,
+      "pdf_page": 50,
+      "method": "text and rendered page",
+      "claims": [
+        "365-day annualized store-day profit definition",
+        "reported/estimated costs and independent verification limitation"
+      ]
+    },
+    {
+      "printed_page": 177,
+      "pdf_page": 187,
+      "method": "text and rendered page",
+      "claims": [
+        "367 and 445 departing franchisees whose stores continued under other franchisees"
+      ]
+    },
+    {
+      "printed_page": 178,
+      "pdf_page": 188,
+      "method": "text",
+      "claims": [
+        "eligible operating days typically exceed actual operating days"
+      ]
+    },
+    {
+      "printed_page": 179,
+      "pdf_page": 189,
+      "method": "text and rendered page",
+      "claims": [
+        "survivor-conditioned existing-store profitability statistic",
+        "survivor-conditioned new-store break-even statistic",
+        "30-day positive profit criterion",
+        "first-month-zero binning",
+        "2023 profit and margin figures"
+      ]
+    }
+  ],
+  "publication_scope": "Only note and manifest proposed for repository, not full copyrighted source PDF or rendered pages",
+  "limitations": [
+    "No current franchise profitability estimate",
+    "No unconditional payback probability",
+    "No new Pro consultation",
+    "No independent verification of franchisee accounts"
+  ]
+}
