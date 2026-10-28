@@ -1,0 +1,24 @@
+{
+  "entity": "Domino's Pizza Group plc",
+  "market": "UK",
+  "fiscal_period": "52 weeks ended 2019-12-29",
+  "source_published": "2020-03-05",
+  "source_url": "https://investors.dominos.co.uk/system/files/press/prelims-results-2019.pdf",
+  "source_pages": {
+    "growth_rates": 1,
+    "definitions_footnotes_2_and_7": 2
+  },
+  "inputs_are_reported_rounded_percentages": true,
+  "excluding_splits_growth_percent": "3.7",
+  "including_splits_growth_percent": "1.9",
+  "formula": "3.7 - 1.9",
+  "definition_gap_percentage_points": "1.8",
+  "interpretation": "Difference between reported growth rates with different sample exclusions.",
+  "not_identified": [
+    "Causal effect of store splitting",
+    "Growth of the excluded donor-store cohort",
+    "Amount of transferred or lost sales",
+    "Franchisee profit or return on investment"
+  ],
+  "cross_period_limit": "No projection of this FY2019 UK gap to FY2025 UK & Ireland."
+}
