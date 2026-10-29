@@ -1,0 +1,62 @@
+{
+  "research_date_utc": "2026-10-29",
+  "scope": "广告评估应看包含自然流量的总结果；只核一个候选",
+  "remote_write_status": "以仓库提交历史为准",
+  "pro_status": "本轮未使用",
+  "sources": [
+    {
+      "id": "dai-kim-luca-author-march-2022",
+      "type": "作者公开原稿",
+      "authors": [
+        "Weijia (Daisy) Dai",
+        "Hyunjin Kim",
+        "Michael Luca"
+      ],
+      "title": "Which Firms Gain from Online Advertising? Evidence from a Field Experiment",
+      "url": "https://daisywdai.com/s/YelpAds.pdf",
+      "document_date": "2022-03",
+      "document_date_basis": "封面 This draft: March 2022；不是用抓取日期或PDF生成日期替代稿件日期",
+      "experiment_period": {
+        "start": "2015-08-01",
+        "end": "2015-10-31"
+      },
+      "accessed_date_utc": "2026-10-29",
+      "version_limit": "仅核2022作者稿；最终发表版全文未核，不代表当前Yelp产品",
+      "locators": [
+        {
+          "section": "2.2 Sample, Treatment, and Randomization",
+          "printed_pages": "5-6",
+          "pdf_pages_1_based": "6-7",
+          "supports": "样本、日期、随机单位与分层"
+        },
+        {
+          "section": "2.3 Outcomes and Conversion Rates",
+          "printed_page": 6,
+          "pdf_page_1_based": 7,
+          "supports": "付费浏览可能替代自然浏览，记录自然与总浏览"
+        },
+        {
+          "section": "Table 1",
+          "printed_page": 19,
+          "pdf_page_1_based": 20,
+          "supports": "总浏览及订单处理效应、95% bootstrap区间、子样本口径"
+        },
+        {
+          "section": "Appendix A, Table A1",
+          "printed_page": null,
+          "pdf_page_1_based": 24,
+          "supports": "互斥子样本、EAT24餐厅数及随机分配"
+        }
+      ],
+      "local_validation": {
+        "download": "通过公开作者URL正常下载成功",
+        "pdf_pages": 48,
+        "bytes": 3073021,
+        "sha256": "fd6c8aba24d67b29e880d3f952d7890534bac762d7c04ae24c6a64a0b9779836",
+        "text_extraction": "pdftotext -layout 成功",
+        "visual_check": "pdftoppm 渲染PDF第20页并使用view_image目视核表1；总浏览与订单效应及区间一致"
+      },
+      "calculation_status": "只引用原表，不含新增推算"
+    }
+  ]
+}
