@@ -1,0 +1,110 @@
+{
+  "surface": "report",
+  "title": "AI减损之前，先跑通厨房记录与调整",
+  "generatedAt": "2026-10-29T06:14:00Z",
+  "status": "reviewed",
+  "buildStatus": "complete",
+  "exportPreferences": {
+    "selected": null,
+    "destinations": []
+  },
+  "filters": [],
+  "report": {},
+  "queries": {
+    "diagram-research-2026-10-29-ai-food-waste-note": {
+      "rows": [
+        {
+          "title": "称重与识别",
+          "text": "秤测重量；视觉AI识别食物。不要把普通称重也算成AI。"
+        },
+        {
+          "title": "形成记录",
+          "text": "知道丢了什么、多少、为什么。抽查漏记和识别错误。"
+        },
+        {
+          "title": "厨师判断",
+          "text": "由负责人结合客流、菜单和班次，判断该改什么。"
+        },
+        {
+          "title": "执行小调整",
+          "text": "改变备餐批量、补货或采购安排；记录实际做了什么。"
+        },
+        {
+          "title": "复测与回看",
+          "text": "同时检查浪费、工时和服务；结果回到下一轮判断。"
+        }
+      ],
+      "source": {
+        "label": "从看见浪费，到真正改变厨房",
+        "files": [
+          "research/2026-10-29-ai-food-waste/note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "机制和口径",
+            "definition": "流程示意，不是因果实测。依据供应商访谈整理；复测与比较为本研究建议。 这是‘工具—数据—行动—复核’链条，不是五步各有已测效益。若记录没有触发行动，不能预设换成AI就会解决问题。",
+            "componentIds": [
+              "diagram-research-2026-10-29-ai-food-waste-note"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "固定公开研究版本",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/327353e38ea3b8981bd2ea8937e9d1aaa0ad28e2/research/2026-10-29-ai-food-waste/note.md"
+          },
+          {
+            "title": "展示边界",
+            "detail": "流程示意，不是因果实测。依据供应商访谈整理；复测与比较为本研究建议。 这是‘工具—数据—行动—复核’链条，不是五步各有已测效益。若记录没有触发行动，不能预设换成AI就会解决问题。"
+          }
+        ]
+      }
+    },
+    "diagram-research-2026-10-29-ai-food-waste-note:second": {
+      "rows": [
+        {
+          "title": "60%：公司披露的强度变化",
+          "text": "FY25相对FY17，生产环节食物浪费克/客餐下降60%。分母是客餐数，不是总重量或利润。"
+        },
+        {
+          "title": "402店：工具采用规模",
+          "text": "报告称402家店安装Winnow AI工具。这说明应用范围，不证明每店同效或AI独立贡献。"
+        },
+        {
+          "title": "AI增量与净收益：尚未知",
+          "text": "现有资料未分离AI、人员参与和流程改变的贡献，也无可复算的全成本净收益。"
+        },
+        {
+          "title": "有限保证：不能整体外推",
+          "text": "Waste Generated与厨房克/客餐不是同一指标；保证不覆盖基期数字。不能写成‘AI减废60%经独立审计确认’。"
+        }
+      ],
+      "source": {
+        "label": "把证据放回各自的范围",
+        "files": [
+          "research/2026-10-29-ai-food-waste/note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "机制和口径",
+            "definition": "四类信息不能互相替代：企业披露、技术机制、未识别效果与保证范围。不是效果拆分图。 依据FY25报告p43、79、98–99与2026-10-22官方刊载供应商访谈。不是说完全没有AI证据或没有鉴证，而是已有证据不足以支持更强的归因与回报结论。",
+            "componentIds": [
+              "diagram-research-2026-10-29-ai-food-waste-note:second"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "固定公开研究版本",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/327353e38ea3b8981bd2ea8937e9d1aaa0ad28e2/research/2026-10-29-ai-food-waste/note.md"
+          },
+          {
+            "title": "展示边界",
+            "detail": "四类信息不能互相替代：企业披露、技术机制、未识别效果与保证范围。不是效果拆分图。 依据FY25报告p43、79、98–99与2026-10-22官方刊载供应商访谈。不是说完全没有AI证据或没有鉴证，而是已有证据不足以支持更强的归因与回报结论。"
+          }
+        ]
+      }
+    }
+  },
+  "id": "report:public-ai-food-waste"
+}

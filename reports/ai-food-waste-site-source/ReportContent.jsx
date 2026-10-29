@@ -1,0 +1,30 @@
+import React, { useEffect, useState } from 'react';
+import { RichNarrative } from '../../data-app-public.jsx';
+import { LegacyReport } from './LegacyReport.jsx';
+import catalog from './articles.json';
+import './timeline.css';
+import { IllustratedArticle } from './IllustratedArticle.jsx';
+import stories from './illustrated-stories.json';
+import { SampleCards, SampleReader, sampleIds } from './Samples.jsx';
+const sections=[['research','研究文章'],['support','核验与补充'],['methods','方法工具'],['history','历史草稿'],['logs','研究日志'],['about','研究院说明']];
+const route=()=>decodeURIComponent(location.hash.replace(/^#read\//,''));
+const when=t=>t?new Intl.DateTimeFormat('zh-CN',{timeZone:'Asia/Shanghai',year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',hour12:false}).format(new Date(t)):'未标注';
+export function ReportContent(){
+ const [selected,setSelected]=useState(route),[section,setSection]=useState('research'),[topic,setTopic]=useState('all'),[search,setSearch]=useState('');
+ useEffect(()=>{const f=()=>{setSelected(route());window.scrollTo({top:0,behavior:'instant'});};window.addEventListener('hashchange',f);return()=>window.removeEventListener('hashchange',f);},[]);
+ const item=catalog.articles.find(x=>x.id===selected);const list=catalog.articles.filter(x=>x.section===section&&(topic==='all'||x.topics.includes(topic))&&`${x.title} ${x.excerpt}`.toLowerCase().includes(search.toLowerCase()));
+ const back=<a className="timeline-back" href="#">← 返回文章时间线</a>;
+ if(selected==='samples')return <article>{back}<SampleCards/></article>;
+ if(sampleIds.includes(selected))return <SampleReader id={selected}/>;
+ if(selected==='illustrated-report')return <div className="timeline-reader">{back}<div className="timeline-caution">2026-10-27 图文阅读版 · 历史快照。后续核验和最新判断请同时查看时间线中的更新文章。</div><LegacyReport/>{back}</div>;
+ if(item&&stories[item.id])return <IllustratedArticle item={item} story={stories[item.id]} back={back} when={when}/>;
+ if(item)return <article className="timeline-reader" aria-label={item.title}>{back}<header><div className="timeline-kicker">{sections.find(x=>x[0]===item.section)?.[1]}</div><p className="timeline-meta">首次入库 {when(item.publishedAt)}（北京时间）<br/>最后更新 {when(item.updatedAt)} · 内容核验日期见原文</p>{item.section==='history'&&<p className="timeline-caution">历史草稿，不代表当前结论。请以最新研究及其限制为准。</p>}{item.section==='support'&&<p className="timeline-caution">核验与协作记录，不是独立的已证实商业结论。</p>}<a href={item.sourceUrl} target="_blank" rel="noreferrer">查看固定版本原文 ↗</a></header><RichNarrative id={`article:${item.id}`} value={item.body}/><footer className="timeline-reader-footer">{back}<a href={item.sourceUrl} target="_blank" rel="noreferrer">原始文件及完整证据 ↗</a></footer></article>;
+ if(selected && selected!=='')return <article className="timeline-reader">{back}<h1>没有找到这篇文章</h1><p>此链接不在当前已同步索引中，请返回时间线选择文章。</p></article>;
+ return <article className="timeline-home"><header className="timeline-hero"><div className="timeline-kicker">RESTAURANT BUSINESS LAB / 餐饮研究院</div><h1>把餐饮生意，<br/>一篇一篇研究清楚。</h1><p>商业模式 × AI 在餐饮。按时间回看判断如何形成、被验证，又如何修正。</p><div className="timeline-stats"><span><b>{catalog.articles.filter(x=>x.section==='research').length}</b> 篇研究文章</span><span>逐篇图文阅读</span><span>来源可追溯</span></div></header>
+ <a className="timeline-back" href="#read/samples">实战样板：条件测算与 AI 模拟演示 →</a>
+ <section className="timeline-feature"><div><span className="timeline-kicker">从这里开始</span><h2>门店越开越多，老板就一定赚得更多吗？</h2><p>保留原图文报告：两本账、店日边界与老板的现金对账。</p></div><a href="#read/illustrated-report">打开图文版 →</a></section>
+ <section aria-label="文章筛选"><div className="timeline-topics">{[['all','全部主题'],['business-model','商业模式'],['ai','AI 在餐饮']].map(([v,l])=><button key={v} aria-pressed={topic===v} onClick={()=>setTopic(v)}>{l}</button>)}</div><label className="timeline-search">搜索标题或摘要<input type="search" value={search} onChange={e=>setSearch(e.target.value)} placeholder="例如：加盟、现金流、广告"/></label><nav className="timeline-tabs" aria-label="内容类型">{sections.map(([v,l])=><button key={v} aria-pressed={section===v} onClick={()=>setSection(v)}>{l}<span>{catalog.articles.filter(x=>x.section===v).length}</span></button>)}</nav></section>
+ <section aria-label="文章时间线" className="timeline-list"><div className="timeline-list-header"><h2>{sections.find(x=>x[0]===section)?.[1]}</h2><span>首次入库时间 · 新 → 旧</span></div>{!list.length&&<div className="timeline-empty"><h3>{topic==='ai'?'AI 在餐饮：研究主线已设立':'没有匹配的文章'}</h3><p>{topic==='ai'?'当前已同步的公开文章中，还没有 AI 专题文章。后续将关注真实应用、经营价值与验证证据，不把普通自动化或广告实验强行归类为 AI。':'可以更换分类或清空搜索。'}</p></div>}{list.map(x=><article key={x.id} className="timeline-entry"><time dateTime={x.publishedAt}>{when(x.publishedAt)}</time><div><div className="timeline-tags">{x.topics.map(t=><span key={t}>{t==='ai'?'AI 在餐饮':'商业模式'}</span>)}{x.section==='history'&&<span>非最新结论</span>}</div><h3><a href={`#read/${x.id}`}>{x.title}</a></h3><p>{(stories[x.id]?.lead||x.excerpt).replace(/\*\*/g,'')}</p>{x.updatedAt!==x.publishedAt&&<p className="timeline-update">更新于 {when(x.updatedAt)} · 阅读原文中的补充与修订</p>}<a className="timeline-read" href={`#read/${x.id}`}>{stories[x.id]?'阅读图文报告 →':'阅读全文 →'}</a></div></article>)}</section>
+ <SampleCards/>
+ <footer className="timeline-foot"><p>本页是公开研究的静态同步，不是实时自动刷新。首次入库时间来自 Git 提交，不等于原始写作或对外发布的精确时间；正文保留其来源、核验日期和结论限制。</p><p>本轮研究同步版本 <a href={`https://github.com/louiseliu/restaurant-business-lab/tree/${catalog.sourceCommit}`} target="_blank" rel="noreferrer">{catalog.sourceCommit.slice(0,12)} ↗</a> · 各篇来源版本见原文链接；既有日志与说明保留其快照。所有时间以北京时间展示。日志、方法和历史草稿分区，不计为最新研究结论。</p></footer></article>;
+}
