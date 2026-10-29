@@ -1,0 +1,57 @@
+{
+  "research_date": "2026-10-29",
+  "status": "reviewed_original_sources",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Ingka Group Annual Summary and Sustainability Report FY25",
+      "url": "https://assets.site.ingka.com/ingka-com/reports/IngkaGroup_AnnualSummaryandSustainabilityReport_FY25.pdf",
+      "published_date": "2026-01-29",
+      "publication_date_evidence": "https://www.ingka.com/newsroom/ingka-group-scales-buyback-by-39-achieves-60-zero-emission-home-deliveries-and-95-renewable-electricity-sourcing/",
+      "accessed_date": "2026-10-29",
+      "pages": [
+        43,
+        79,
+        98,
+        99
+      ],
+      "grade": "企业原始经营披露；附独立有限保证但范围不能外推",
+      "verified_claims": [
+        "FY25生产食物浪费按克/客餐相比FY17降低60%",
+        "402店安装Winnow AI工具",
+        "Waste Generated定义与厨房浪费强度不同；鉴证不保证基期数据"
+      ],
+      "limitations": [
+        "不能识别AI单独因果贡献",
+        "没有可复算的设备全成本与净ROI",
+        "不能将其他指标有限保证视为60%及AI效果审计"
+      ],
+      "publishable": true
+    },
+    {
+      "id": "S2",
+      "title": "What can the food we don’t serve teach us?",
+      "url": "https://www.ingka.com/newsroom/what-can-the-food-we-dont-serve-teach-us/",
+      "published_date": "2026-10-22",
+      "accessed_date": "2026-10-29",
+      "locator": "全文访谈：手动记录历史、现行流程、AI作用三组问答",
+      "grade": "官方刊载供应商访谈，自报机制",
+      "verified_claims": [
+        "创始人回顾触屏系统已在包括IKEA的场所使用，参与积极时有效",
+        "其描述计算机视觉识别与称重结合，减少人工记录摩擦",
+        "其强调持续日常运营调整"
+      ],
+      "limitations": [
+        "不是人工与AI对照试验",
+        "不引用营销效益数字",
+        "不采用访谈食品安全或感官判断建议"
+      ],
+      "publishable": true
+    }
+  ],
+  "method_notes": [
+    "公开原始资料核验",
+    "未新增Pro咨询",
+    "试点方案为研究者建议，不是已验证最佳实践"
+  ]
+}
