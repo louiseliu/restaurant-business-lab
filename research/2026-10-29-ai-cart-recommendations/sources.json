@@ -1,0 +1,69 @@
+{
+  "verified_on": "2026-10-29",
+  "scope": "Public original evidence on restaurant AI menu cross-selling; no contact, login, payment or submission",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Offline Evaluation using Interactions to Decide Cross-selling Recommendations Algorithm for Online Food Delivery",
+      "author": "Manchit Madan",
+      "affiliation": "Delivery Hero",
+      "publication_year": 2023,
+      "venue": "LERI workshop at RecSys 2023",
+      "url": "https://ceur-ws.org/Vol-3590/short3.pdf",
+      "type": "Original industry-authored workshop paper",
+      "inspection": "Full six-page text read; key evidence in page 2 section 3 and page 5 table 1 / section 4.3.2",
+      "evidence_class": "Author-reported live A/B tests; random allocation implementation not disclosed",
+      "supports": [
+        "note.md overseas evidence paragraph"
+      ],
+      "unknowns": [
+        "Online experiment sample sizes",
+        "Actual test dates and durations",
+        "Allocation unit and randomization implementation",
+        "Absolute baseline values",
+        "Operating and model costs",
+        "Merchant contribution profit",
+        "Longitudinal repeat-purchase effect"
+      ],
+      "interpretation_controls": [
+        "ABV percent changes, not percentage points",
+        "Order Share is not total order volume",
+        "Offline sample is not online experiment sample",
+        "Deployment duration is not controlled follow-up duration",
+        "No recommendation-free baseline",
+        "Nonsignificance is not proof of no effect"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "外卖套餐搭配的探索和应用",
+      "authors": [
+        "瑞玉",
+        "文斌",
+        "杨林",
+        "懋地"
+      ],
+      "publisher": "美团技术团队",
+      "published_on": "2021-05-27",
+      "url": "https://tech.meituan.com/2021/05/27/Set-Meal-Recommendation.html",
+      "type": "Original company technical article",
+      "inspection": "Full article read, especially sections 2, 3 and 5",
+      "evidence_class": "Technical deployment evidence, not an auditable financial effect estimate",
+      "supports": [
+        "note.md China evidence paragraph"
+      ],
+      "unknowns": [
+        "Randomized comparison",
+        "Quantified business effects",
+        "Merchant costs and net contribution",
+        "Repeat purchase",
+        "Independent small-restaurant ROI"
+      ]
+    }
+  ],
+  "review": {
+    "new_pro_review": false,
+    "notes": "No new Pro review was requested or claimed. Original source text and key PDF table independently checked."
+  },
+  "calculations": "None: no unsupported financial extrapolation made"
+}
