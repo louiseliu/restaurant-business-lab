@@ -1,0 +1,77 @@
+[
+  {
+    "file": "source-final/reviewed-data.json",
+    "bytes": 32804,
+    "sha256": "7dad446e0cb87aa383f7a5d10db8d343608100b658d963e1f79fe618db1761c8"
+  },
+  {
+    "file": "source-final/BUILD.md",
+    "bytes": 3478,
+    "sha256": "b32d4130d348d9cfe445f4f55036533ec68c901b9ac3d17b9a929626a9fd00ec"
+  },
+  {
+    "file": "source-final/illustrated-stories.json",
+    "bytes": 91785,
+    "sha256": "a94b73c0c4a408ae54fc446f49852c5b3fa88750c224484419185c3bd516b4a3"
+  },
+  {
+    "file": "source-final/sanitize_public.py",
+    "bytes": 1871,
+    "sha256": "2a9a9069395938ed99b89056c79e95aca94e5eef31bcba8623815246abaa087d"
+  },
+  {
+    "file": "source-final/validate_illustrated.py",
+    "bytes": 1440,
+    "sha256": "5ce9ab10ae4a39de9e30c6962579c1271b18aca755f438f94548ce9b44d16688"
+  },
+  {
+    "file": "source-final/IllustratedArticle.jsx",
+    "bytes": 7653,
+    "sha256": "16b5b7a53c0eb325e53cb2f8736a3cd39ff49c733ed455e96acd6ab58f8da8d8"
+  },
+  {
+    "file": "source-final/generate_index.py",
+    "bytes": 4066,
+    "sha256": "bc509fb692a1098bbd74267d70dbc614108f99741861a1dca0f01ca2eb734910"
+  },
+  {
+    "file": "source-final/articles.json",
+    "bytes": 115298,
+    "sha256": "f8b0052808137ea3ef220cea82c5623b60faf90ab733c76987e293e3d405ab0b"
+  },
+  {
+    "file": "source-final/ReportContent.jsx",
+    "bytes": 6384,
+    "sha256": "fa826575e4537ab79a2bf542fef9d9d51bf2dd1af23f952436fd0511f61f6159"
+  },
+  {
+    "file": "source-final/LegacyReport.jsx",
+    "bytes": 14456,
+    "sha256": "b6d318dc823db4219b3827da6b2729b3b3014958923e79049080e99d67e6e0f2"
+  },
+  {
+    "file": "source-final/timeline.css",
+    "bytes": 5809,
+    "sha256": "6adb431d248f71676b9c063140e08b0b0e2403760d2221279a5801e5c838f910"
+  },
+  {
+    "file": "source-final/illustrated.css",
+    "bytes": 6928,
+    "sha256": "bd164363f615a580c21a7ced152727c89a06b549623dd49506d3462e9028e60d"
+  },
+  {
+    "file": "source-final/report.css",
+    "bytes": 11730,
+    "sha256": "f630c147ffc04dac932df3dcd61d4a49e03d8bb30acc582adc76c420d0e8a0ad"
+  },
+  {
+    "file": "source-final/sync_illustrated_queries.py",
+    "bytes": 1455,
+    "sha256": "8aa26a5d4fa601342c3ed87b24c49d144b23ddf0884104546b876a89c83ca793"
+  },
+  {
+    "file": "restaurant-research-illustrated.html",
+    "bytes": 3141200,
+    "sha256": "9c257f8d191b169b3dab44ec076db6365dcbb4f00ba1ef447357e68c7595037b"
+  }
+]

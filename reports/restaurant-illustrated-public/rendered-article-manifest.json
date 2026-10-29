@@ -1,0 +1,174 @@
+{
+  "sourceCommit": "9bea06e407eadbcbbc5fcb56a8116158eebd2e65",
+  "notice": "originalBodySha256 is the original public repository text before private-link redaction; renderedBodySha256 below hashes the archived redacted Markdown body, not byte-identical original or rendered DOM. Private collaboration URLs are replaced with 私人协作会话，未公开.",
+  "articles": [
+    {
+      "id": "research-2026-10-29-advertising-total-outcomes-note",
+      "path": "research/2026-10-29-advertising-total-outcomes/note.md",
+      "originalBodySha256": "d5186d56e85be17bd317210dbc32011ac60dcac2e36aa13d8ba4e5e5e6f81714",
+      "renderedBodySha256": "d5186d56e85be17bd317210dbc32011ac60dcac2e36aa13d8ba4e5e5e6f81714"
+    },
+    {
+      "id": "research-2026-10-28-capacity-bottlenecks-note",
+      "path": "research/2026-10-28-capacity-bottlenecks/note.md",
+      "originalBodySha256": "40cb32436f911936b3b5d05a51f93632df54881b8ee4d23c57ebca48b5ecb335",
+      "renderedBodySha256": "40cb32436f911936b3b5d05a51f93632df54881b8ee4d23c57ebca48b5ecb335"
+    },
+    {
+      "id": "research-2026-10-28-same-store-splits-note",
+      "path": "research/2026-10-28-same-store-splits/note.md",
+      "originalBodySha256": "56e0aba32ea63b3ede6ed406fc22073320ea62291c3ebd1655084bc23f9dfd47",
+      "renderedBodySha256": "56e0aba32ea63b3ede6ed406fc22073320ea62291c3ebd1655084bc23f9dfd47"
+    },
+    {
+      "id": "research-2026-10-28-delivery-mix-note",
+      "path": "research/2026-10-28-delivery-mix/note.md",
+      "originalBodySha256": "4c539f85d76feba8bb401bda5c943845ff23de02c62cdf4270d30897566b9e27",
+      "renderedBodySha256": "4c539f85d76feba8bb401bda5c943845ff23de02c62cdf4270d30897566b9e27"
+    },
+    {
+      "id": "research-2026-10-28-entry-cashflow-note",
+      "path": "research/2026-10-28-entry-cashflow/note.md",
+      "originalBodySha256": "e9b7066535f5bcf17279ed75a767cfefceb0a144df8cfabce717af69fc2f7de0",
+      "renderedBodySha256": "e9b7066535f5bcf17279ed75a767cfefceb0a144df8cfabce717af69fc2f7de0"
+    },
+    {
+      "id": "research-2026-10-28-franchise-payback-definitions-continuation-note",
+      "path": "research/2026-10-28-franchise-payback-definitions/continuation-note.md",
+      "originalBodySha256": "db6ff60758186f7537b49891365a0ed835c9e2732961eb457a44f318af37acf1",
+      "renderedBodySha256": "db6ff60758186f7537b49891365a0ed835c9e2732961eb457a44f318af37acf1"
+    },
+    {
+      "id": "research-2026-10-28-franchise-payback-definitions-research-note",
+      "path": "research/2026-10-28-franchise-payback-definitions/research-note.md",
+      "originalBodySha256": "e40e875961080584ab3ed381f7474cd2be9f71031438d1b49c51606e338fb525",
+      "renderedBodySha256": "e40e875961080584ab3ed381f7474cd2be9f71031438d1b49c51606e338fb525"
+    },
+    {
+      "id": "logs-2026-10-28-first-scheduled-research",
+      "path": "logs/2026-10-28-first-scheduled-research.md",
+      "originalBodySha256": "e0066649d64834a4032a207bffb9bffc83dad91f501f8b389093b28eabb41fbc",
+      "renderedBodySha256": "51d1763af8f99036370afb5d0be531d724c1c8b8aef10412a4cbac76334c69e5"
+    },
+    {
+      "id": "reports-readme",
+      "path": "reports/README.md",
+      "originalBodySha256": "26db496d71fabaf4fb563e17f61f925577f7be47f500b191ce8b359668486d08",
+      "renderedBodySha256": "1b985d0cd71e4b5099e461c6e67e27906b7f160eac71a47379324db9d89240c7"
+    },
+    {
+      "id": "reports-owner-report-source-build",
+      "path": "reports/owner-report-source/BUILD.md",
+      "originalBodySha256": "8695e69fa412008be243651bac8e95ae5026088047578c8b19e1276ee44c9adc",
+      "renderedBodySha256": "8695e69fa412008be243651bac8e95ae5026088047578c8b19e1276ee44c9adc"
+    },
+    {
+      "id": "research-2026-10-27-franchise-evidence-pro-collaboration",
+      "path": "research/2026-10-27-franchise-evidence/pro-collaboration.md",
+      "originalBodySha256": "091730685350fc0565d94a9ee5f622778745ba4c297d4ce0f01a42f13e398d3e",
+      "renderedBodySha256": "2ee91f5fa70ea9a15a47a4ca71b2cf3628aea95ec25c0facd7c4bd714ae762bc"
+    },
+    {
+      "id": "research-2026-10-27-franchise-evidence-judgment-revision",
+      "path": "research/2026-10-27-franchise-evidence/judgment-revision.md",
+      "originalBodySha256": "5f08ed327f101461ebff660d61b1a05345908b78cc01d39bb5947b06a8701b17",
+      "renderedBodySha256": "5f08ed327f101461ebff660d61b1a05345908b78cc01d39bb5947b06a8701b17"
+    },
+    {
+      "id": "research-2026-10-27-franchise-evidence-final-report",
+      "path": "research/2026-10-27-franchise-evidence/final-report.md",
+      "originalBodySha256": "0e67a70379bcd9717a022fde0656a3023d545d77db1e9f860952be8d138222c6",
+      "renderedBodySha256": "d1786831d5935c453d82076d4dd62764ce7bfcfaccd89642e9d06298eefc8189"
+    },
+    {
+      "id": "research-2026-10-27-franchise-evidence-bounds-check-findings",
+      "path": "research/2026-10-27-franchise-evidence/bounds-check-findings.md",
+      "originalBodySha256": "023cbc11908c2083e8a5794de4ca7bf7e2adf886f87db0188d6f3ec622b561be",
+      "renderedBodySha256": "023cbc11908c2083e8a5794de4ca7bf7e2adf886f87db0188d6f3ec622b561be"
+    },
+    {
+      "id": "logs-2026-10-27-pro-input-recovery",
+      "path": "logs/2026-10-27-pro-input-recovery.md",
+      "originalBodySha256": "0c682ad9283010f07dd13527692c496c73133235d323a6ffde76fe7043a12a10",
+      "renderedBodySha256": "5ee0ca1ed9a600a3f7916580dc32865adde6056790df7f36b9aa29f71ada3fbe"
+    },
+    {
+      "id": "changelog",
+      "path": "CHANGELOG.md",
+      "originalBodySha256": "3328c0538cd10270286a51cde595d4ec595ef8d7b7f49d2cb00f0d6080f73ace",
+      "renderedBodySha256": "3328c0538cd10270286a51cde595d4ec595ef8d7b7f49d2cb00f0d6080f73ace"
+    },
+    {
+      "id": "state-current",
+      "path": "state/current.md",
+      "originalBodySha256": "1d4564fcddc7fcef25f1f563c725210cb1f7c42dcb17eb0d048e1b49919f8356",
+      "renderedBodySha256": "ad119d4522416b74f875bba6a845727c94b26f5bf8457af84bc28620ad95d7c7"
+    },
+    {
+      "id": "research-2026-10-27-franchise-evidence-qa",
+      "path": "research/2026-10-27-franchise-evidence/QA.md",
+      "originalBodySha256": "50891cbe4fbf24f9944700eebb1f66671fa83792021f4456c2ed86daadf43a81",
+      "renderedBodySha256": "50891cbe4fbf24f9944700eebb1f66671fa83792021f4456c2ed86daadf43a81"
+    },
+    {
+      "id": "research-2026-10-27-franchise-evidence-provisional-research",
+      "path": "research/2026-10-27-franchise-evidence/provisional-research.md",
+      "originalBodySha256": "88de884443d7feea0ad3c02682e4def0bf61fa42aa9b7908317c3847209b0d29",
+      "renderedBodySha256": "88de884443d7feea0ad3c02682e4def0bf61fa42aa9b7908317c3847209b0d29"
+    },
+    {
+      "id": "research-2026-10-27-franchise-evidence-pro-prompt-pending",
+      "path": "research/2026-10-27-franchise-evidence/pro-prompt-pending.md",
+      "originalBodySha256": "a74904878fd0b8fd76a346e2716d1eb21438ed58b912f7e91e2ddc8bb6539977",
+      "renderedBodySha256": "393d6c774874cabe733344bc77f7989556c0bf531a10973ef24f81da53a520ff"
+    },
+    {
+      "id": "methods-research-standard",
+      "path": "methods/research-standard.md",
+      "originalBodySha256": "e2b68794dcd56a9df35427ca439edbccf4c9bcd9522471a84bd982d571bd0796",
+      "renderedBodySha256": "e2b68794dcd56a9df35427ca439edbccf4c9bcd9522471a84bd982d571bd0796"
+    },
+    {
+      "id": "logs-2026-10-27-initialization",
+      "path": "logs/2026-10-27-initialization.md",
+      "originalBodySha256": "e13ec94554a81d4c40b16f6c1cb1b8d51fcf8618ad4e9e61ff696067f088b3a8",
+      "renderedBodySha256": "e13ec94554a81d4c40b16f6c1cb1b8d51fcf8618ad4e9e61ff696067f088b3a8"
+    },
+    {
+      "id": "agents-skills-restaurant-business-model-lab-skill",
+      "path": ".agents/skills/restaurant-business-model-lab/SKILL.md",
+      "originalBodySha256": "ba0b6b9d2238c05e86e940e77396c129fa901aec7fac735dbe5ac38a951f0bbd",
+      "renderedBodySha256": "ba0b6b9d2238c05e86e940e77396c129fa901aec7fac735dbe5ac38a951f0bbd"
+    },
+    {
+      "id": "agents-skills-restaurant-business-model-lab-references-state-template",
+      "path": ".agents/skills/restaurant-business-model-lab/references/state-template.md",
+      "originalBodySha256": "496a0b362b565e2bfd7411053270d404cf601a9e007aca67c889b7aa995c9b3f",
+      "renderedBodySha256": "496a0b362b565e2bfd7411053270d404cf601a9e007aca67c889b7aa995c9b3f"
+    },
+    {
+      "id": "agents-skills-restaurant-business-model-lab-references-restaurant-evidence",
+      "path": ".agents/skills/restaurant-business-model-lab/references/restaurant-evidence.md",
+      "originalBodySha256": "e099917e94153c12051869dd76b8dcfe22cdef580b7b74f75548c8633c0b3279",
+      "renderedBodySha256": "e099917e94153c12051869dd76b8dcfe22cdef580b7b74f75548c8633c0b3279"
+    },
+    {
+      "id": "agents-skills-restaurant-business-model-lab-references-pro-collaboration",
+      "path": ".agents/skills/restaurant-business-model-lab/references/pro-collaboration.md",
+      "originalBodySha256": "4f9e26b9ddfe23314cb34f9875aaff42d74210fa289456edbe0410d022bbd1e9",
+      "renderedBodySha256": "4f9e26b9ddfe23314cb34f9875aaff42d74210fa289456edbe0410d022bbd1e9"
+    },
+    {
+      "id": "agents",
+      "path": "AGENTS.md",
+      "originalBodySha256": "2d28f7cfda0165cdbca2008977ca61801cd11c0fc3645790c40491b3ee63e95b",
+      "renderedBodySha256": "2d28f7cfda0165cdbca2008977ca61801cd11c0fc3645790c40491b3ee63e95b"
+    },
+    {
+      "id": "readme",
+      "path": "README.md",
+      "originalBodySha256": "31cd94a7a7f753c01ccf0f6517ae4eca6f25a805726e4ef1d2214df07745ac8f",
+      "renderedBodySha256": "c7eacf3c2f6674cb4f6906e32b4053a2f9cbe20edf6be3bf6bab3e7690d7411b"
+    }
+  ]
+}

@@ -1,0 +1,777 @@
+{
+  "surface": "report",
+  "title": "餐饮研究院｜文章时间线",
+  "generatedAt": "2026-10-29T03:02:00Z",
+  "status": "reviewed",
+  "buildStatus": "complete",
+  "exportPreferences": {
+    "selected": null,
+    "destinations": []
+  },
+  "filters": [],
+  "report": {},
+  "queries": {
+    "network": {
+      "rows": [
+        {
+          "period": "2025H1",
+          "start": 46462,
+          "openings": 7721,
+          "closures": 1187,
+          "end": 52996,
+          "goods_rmb_thousand": 13843184,
+          "days": 181,
+          "store_days_min": 8194775,
+          "store_days_max": 9807123
+        },
+        {
+          "period": "2026H1",
+          "start": 59785,
+          "openings": 5455,
+          "closures": 1289,
+          "end": 63951,
+          "goods_rmb_thousand": 14264907,
+          "days": 181,
+          "store_days_min": 10587776,
+          "store_days_max": 11808440
+        }
+      ],
+      "source": {
+        "label": "蜜雪集团公开中期报告及独立边界复算",
+        "files": [
+          "2025 中报 p16、46–47",
+          "2026 中报 p18、59–60",
+          "bounds-check.py"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "在网店日边界",
+            "definition": "181×(期初店−闭店) 至 181×(期初店+开业)；需门店桥覆盖全部入退网事件。不是实际营业店日。",
+            "componentIds": [
+              "network-comparison",
+              "methods"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "原始披露",
+            "detail": "2025 与 2026 中报；集团境内外加盟网络，商品收入为集团商品收入。"
+          },
+          {
+            "title": "独立复算",
+            "detail": "bounds-check.py 使用有理数计算最有利时点边界，非因果识别。"
+          },
+          {
+            "title": "固定版本复现",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/tree/e855c67e53e80165f968efed9ef7ba91029cdc1a/research/2026-10-27-franchise-evidence；bounds-check.py 与结果 JSON。"
+          }
+        ]
+      }
+    },
+    "comparison": {
+      "rows": [
+        {
+          "measure": "商品收入（披露值）",
+          "index": 103.04643064774693
+        },
+        {
+          "measure": "在网店日（最低边界）",
+          "index": 107.96006127383127
+        }
+      ],
+      "source": {
+        "label": "2026H1 相对 2025H1；各指标自身基期=100",
+        "files": [
+          "bounds-check-results.json"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "比较指数",
+            "definition": "商品收入103.046为观测值；在网店日107.960为可能区间107.960–144.097的下界，不是观测值。",
+            "componentIds": [
+              "network-comparison"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "计算",
+            "detail": "收入指数=14264907/13843184×100；在网日最低指数=10587776/9807123×100。"
+          },
+          {
+            "title": "固定版本复现",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/tree/e855c67e53e80165f968efed9ef7ba91029cdc1a/research/2026-10-27-franchise-evidence；bounds-check.py 与结果 JSON。"
+          }
+        ]
+      }
+    },
+    "diagram-research-2026-10-27-franchise-evidence-final-report": {
+      "rows": [
+        {
+          "title": "顾客",
+          "text": "付款买饮品"
+        },
+        {
+          "title": "加盟门店",
+          "text": "记录终端销售；尚未卖出的进货可能留在库存"
+        },
+        {
+          "title": "总部",
+          "text": "向门店供货并确认相应收入"
+        }
+      ],
+      "source": {
+        "label": "同一杯饮品，经过两本不同的账",
+        "files": [
+          "research/2026-10-27-franchise-evidence/final-report.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "无金额",
+            "definition": "概念图｜箭头不代表等额或同步的收入确认；无品牌实际现金流金额。 付款流为概念示意，非会计确认时点示意。 不得从该图推断总部、门店收入或利润等额。",
+            "componentIds": [
+              "diagram-research-2026-10-27-franchise-evidence-final-report"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "固定公开研究版本",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/9bea06e407eadbcbbc5fcb56a8116158eebd2e65/research/2026-10-27-franchise-evidence/final-report.md"
+          },
+          {
+            "title": "展示边界",
+            "detail": "概念图｜箭头不代表等额或同步的收入确认；无品牌实际现金流金额。 付款流为概念示意，非会计确认时点示意。 不得从该图推断总部、门店收入或利润等额。"
+          }
+        ]
+      }
+    },
+    "visual-research-2026-10-27-franchise-evidence-final-report": {
+      "rows": [
+        {
+          "label": "商品收入",
+          "value": 103.046431,
+          "display": "103.05",
+          "fullLabel": "集团商品收入（披露值复算）"
+        },
+        {
+          "label": "店日下界",
+          "value": 107.960061,
+          "display": "107.96",
+          "fullLabel": "在网加盟店日（条件下界）"
+        }
+      ],
+      "source": {
+        "label": "商品收入增幅，低于在网店日的最低增幅",
+        "files": [
+          "research/2026-10-27-franchise-evidence/final-report.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "指数，2025H1=100",
+            "definition": "2026H1 / 2025H1；各指标自身2025H1=100；两期各181天。 第二条只画下界，不是实际观测量；在网店日指数可行区间为107.960—144.097。前提是集团加盟门店桥覆盖全部入退网事件；在网不等于营业，未做恒品牌恒渠道调整。该对照不代表加盟商利润。",
+            "componentIds": [
+              "visual-research-2026-10-27-franchise-evidence-final-report"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "固定公开研究版本",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/9bea06e407eadbcbbc5fcb56a8116158eebd2e65/research/2026-10-27-franchise-evidence/final-report.md"
+          },
+          {
+            "title": "展示边界",
+            "detail": "2026H1 / 2025H1；各指标自身2025H1=100；两期各181天。 第二条只画下界，不是实际观测量；在网店日指数可行区间为107.960—144.097。前提是集团加盟门店桥覆盖全部入退网事件；在网不等于营业，未做恒品牌恒渠道调整。该对照不代表加盟商利润。"
+          }
+        ]
+      }
+    },
+    "diagram-research-2026-10-28-franchise-payback-definitions-research-note": {
+      "rows": [
+        {
+          "title": "同期开业的所有新店",
+          "text": "完整批次及其退出结果，本研究未取得"
+        },
+        {
+          "title": "2023年起开业且期末仍存续",
+          "text": "这是披露统计的条件集合；分母不反算"
+        },
+        {
+          "title": "3,550家／披露98%",
+          "text": "连续30日正经营利润；并非资本已收回"
+        }
+      ],
+      "source": {
+        "label": "98%的分母，是筛选后的存续新店",
+        "files": [
+          "research/2026-10-28-franchise-payback-definitions/research-note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "家；披露比例%",
+            "definition": "企业历史披露｜观察截止2024-09-30；节点为样本筛选逻辑，不按图形面积表示门店数。 98%是原文披露比例，不反算精确分母。 未观察全体新加盟者的现金回本结果。",
+            "componentIds": [
+              "diagram-research-2026-10-28-franchise-payback-definitions-research-note"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "固定公开研究版本",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/9bea06e407eadbcbbc5fcb56a8116158eebd2e65/research/2026-10-28-franchise-payback-definitions/research-note.md"
+          },
+          {
+            "title": "展示边界",
+            "detail": "企业历史披露｜观察截止2024-09-30；节点为样本筛选逻辑，不按图形面积表示门店数。 98%是原文披露比例，不反算精确分母。 未观察全体新加盟者的现金回本结果。"
+          }
+        ]
+      }
+    },
+    "diagram-research-2026-10-28-franchise-payback-definitions-research-note:second": {
+      "rows": [
+        {
+          "title": "经营盈亏平衡钟",
+          "text": "连续30日正经营利润；首月达标记第0个月；披露均值0.25个月"
+        },
+        {
+          "title": "投资回本钟",
+          "text": "累计可回收现金是否覆盖全部投入？本研究没有所需现金流，时间未知"
+        }
+      ],
+      "source": {
+        "label": "两只钟，终点不同",
+        "files": [
+          "research/2026-10-28-franchise-payback-definitions/research-note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "月份规则；现金金额未知",
+            "definition": "经营盈亏平衡钟为原披露规则；投资回本钟为待核问题。两种计时不能互换。 0.25个月不是精确经过7.5天，也不是投资回收期。 未知回本轨道不填示例金额，避免被误读为品牌表现。",
+            "componentIds": [
+              "diagram-research-2026-10-28-franchise-payback-definitions-research-note:second"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "固定公开研究版本",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/9bea06e407eadbcbbc5fcb56a8116158eebd2e65/research/2026-10-28-franchise-payback-definitions/research-note.md"
+          },
+          {
+            "title": "展示边界",
+            "detail": "经营盈亏平衡钟为原披露规则；投资回本钟为待核问题。两种计时不能互换。 0.25个月不是精确经过7.5天，也不是投资回收期。 未知回本轨道不填示例金额，避免被误读为品牌表现。"
+          }
+        ]
+      }
+    },
+    "diagram-research-2026-10-28-franchise-payback-definitions-continuation-note": {
+      "rows": [
+        {
+          "title": "加盟商人数",
+          "text": "6,675＋800−322＝7,153 名"
+        },
+        {
+          "title": "门店数量",
+          "text": "13,554＋1,318−521＝14,351 家"
+        }
+      ],
+      "source": {
+        "label": "同一期间，两座不能混用的桥",
+        "files": [
+          "research/2026-10-28-franchise-payback-definitions/continuation-note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "名加盟商／家门店",
+            "definition": "2026H1，古茗企业披露；第一排单位“名加盟商”，第二排单位“家门店”。 桥勾稽只确认总量算术，不核验身份、留存或经营质量。 全年与半年不能直接比较退出率。",
+            "componentIds": [
+              "diagram-research-2026-10-28-franchise-payback-definitions-continuation-note"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "固定公开研究版本",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/9bea06e407eadbcbbc5fcb56a8116158eebd2e65/research/2026-10-28-franchise-payback-definitions/continuation-note.md"
+          },
+          {
+            "title": "展示边界",
+            "detail": "2026H1，古茗企业披露；第一排单位“名加盟商”，第二排单位“家门店”。 桥勾稽只确认总量算术，不核验身份、留存或经营质量。 全年与半年不能直接比较退出率。"
+          }
+        ]
+      }
+    },
+    "visual-research-2026-10-28-franchise-payback-definitions-continuation-note": {
+      "rows": [
+        {
+          "label": "A期初退出",
+          "value": 95.17602996,
+          "display": "95.18%",
+          "fullLabel": "A：退出者全来自期初人群"
+        },
+        {
+          "label": "B新增退出",
+          "value": 100,
+          "display": "100.00%",
+          "fullLabel": "B：退出者全来自新增人群"
+        }
+      ],
+      "source": {
+        "label": "相同期末人数，两种期初人群留存情景",
+        "files": [
+          "research/2026-10-28-franchise-payback-definitions/continuation-note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "期初人群留存率（%）",
+            "definition": "假设分配，非实际观察。期初6,675名，新增800名，退出322名。 两种情景期末均为7,153名。附加假设：身份独立、一人只计一次、无退出再进入。95.18%—100%仅为假设下的算术范围，不是实际留存率或统计置信区间。",
+            "componentIds": [
+              "visual-research-2026-10-28-franchise-payback-definitions-continuation-note"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "固定公开研究版本",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/9bea06e407eadbcbbc5fcb56a8116158eebd2e65/research/2026-10-28-franchise-payback-definitions/continuation-note.md"
+          },
+          {
+            "title": "展示边界",
+            "detail": "假设分配，非实际观察。期初6,675名，新增800名，退出322名。 两种情景期末均为7,153名。附加假设：身份独立、一人只计一次、无退出再进入。95.18%—100%仅为假设下的算术范围，不是实际留存率或统计置信区间。"
+          }
+        ]
+      }
+    },
+    "diagram-research-2026-10-28-entry-cashflow-note": {
+      "rows": [
+        {
+          "title": "首付款时点",
+          "text": "65%≈13万元"
+        },
+        {
+          "title": "次月开始",
+          "text": "剩余35%≈7万元进入分期"
+        },
+        {
+          "title": "连续24期",
+          "text": "每期约2,916.67元，无息"
+        }
+      ],
+      "source": {
+        "label": "20万元设备，拆成两段付款",
+        "files": [
+          "research/2026-10-28-entry-cashflow/note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "人民币元／万元；期",
+            "definition": "算术示例，非真实账单｜前提是设备符合分期条件；20万元本身为页面预估。 并非精确设备报价或合同账单。 无息只说明所示设备分期利息，不表示开店所有资金无成本。",
+            "componentIds": [
+              "diagram-research-2026-10-28-entry-cashflow-note"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "固定公开研究版本",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/9bea06e407eadbcbbc5fcb56a8116158eebd2e65/research/2026-10-28-entry-cashflow/note.md"
+          },
+          {
+            "title": "展示边界",
+            "detail": "算术示例，非真实账单｜前提是设备符合分期条件；20万元本身为页面预估。 并非精确设备报价或合同账单。 无息只说明所示设备分期利息，不表示开店所有资金无成本。"
+          }
+        ]
+      }
+    },
+    "visual-research-2026-10-28-entry-cashflow-note": {
+      "rows": [
+        {
+          "label": "首付65%",
+          "value": 13,
+          "display": "13.00"
+        },
+        {
+          "label": "分24期后付35%",
+          "value": 7,
+          "display": "7.00"
+        }
+      ],
+      "source": {
+        "label": "设备预估20万元：13万元先付，7万元仍待付",
+        "files": [
+          "research/2026-10-28-entry-cashflow/note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "人民币万元",
+            "definition": "符合分期条件时的近似算术示例，不是真实合同账单。 后付7万元自首付款支付次月起分24期无息偿还，每期约2,916.67元。设备名义总额仍为20万元；图中金额不能再与33万元启动口径机械相加，需核对组成以免重复。",
+            "componentIds": [
+              "visual-research-2026-10-28-entry-cashflow-note"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "固定公开研究版本",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/9bea06e407eadbcbbc5fcb56a8116158eebd2e65/research/2026-10-28-entry-cashflow/note.md"
+          },
+          {
+            "title": "展示边界",
+            "detail": "符合分期条件时的近似算术示例，不是真实合同账单。 后付7万元自首付款支付次月起分24期无息偿还，每期约2,916.67元。设备名义总额仍为20万元；图中金额不能再与33万元启动口径机械相加，需核对组成以免重复。"
+          }
+        ]
+      }
+    },
+    "diagram-research-2026-10-28-delivery-mix-note": {
+      "rows": [
+        {
+          "title": "外卖销售占比 m",
+          "text": "外卖会计销售额 ÷ 总销售额；渠道权重越高，骑手费用对总收入的影响越大。"
+        },
+        {
+          "title": "单笔骑手费 c",
+          "text": "骑手费用 ÷ 外卖订单数；只考核这一项，容易漏掉结构变化。"
+        },
+        {
+          "title": "外卖会计客单 A",
+          "text": "外卖会计销售额 ÷ 外卖订单数；它不是已经核实的商户净收现金。"
+        },
+        {
+          "title": "总骑手费率 R",
+          "text": "R = m × c ÷ A。三个变量一起，才解释总收入中配送费用的占比。"
+        }
+      ],
+      "source": {
+        "label": "把一个降本指标，拆成三个经营杠杆",
+        "files": [
+          "research/2026-10-28-delivery-mix/note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "机制和口径",
+            "definition": "同一门店范围、同期间、同会计口径下的恒等式；不含平台佣金等其他外卖成本。 机制示意，不是对2025或2026某一季度全部变量的实测分解。",
+            "componentIds": [
+              "diagram-research-2026-10-28-delivery-mix-note"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "固定公开研究版本",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/9bea06e407eadbcbbc5fcb56a8116158eebd2e65/research/2026-10-28-delivery-mix/note.md"
+          },
+          {
+            "title": "展示边界",
+            "detail": "同一门店范围、同期间、同会计口径下的恒等式；不含平台佣金等其他外卖成本。 机制示意，不是对2025或2026某一季度全部变量的实测分解。"
+          }
+        ]
+      }
+    },
+    "visual-research-2026-10-28-delivery-mix-note": {
+      "rows": [
+        {
+          "label": "去年同期",
+          "value": 45,
+          "display": "约45%"
+        },
+        {
+          "label": "2026Q2",
+          "value": 54,
+          "display": "约54%"
+        }
+      ],
+      "source": {
+        "label": "外卖权重提高后，费率持平的门槛是什么？",
+        "files": [
+          "research/2026-10-28-delivery-mix/note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "%",
+            "definition": "2026Q2公司披露约数＋恒等式的条件计算。不是实际降本结果。 两柱只展示外卖销售占比；下方公式才是条件推演。 约16.7%是“骑手费／外卖客单”比值的必要降幅，不是只要求单笔骑手费下降16.7%。 45%和54%均为公司披露约数，不应展示多余小数精度。 条件公式：(c₁ / A₁) / (c₀ / A₀) = 45 / 54 ≈ 83.3%。",
+            "componentIds": [
+              "visual-research-2026-10-28-delivery-mix-note"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "固定公开研究版本",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/9bea06e407eadbcbbc5fcb56a8116158eebd2e65/research/2026-10-28-delivery-mix/note.md"
+          },
+          {
+            "title": "展示边界",
+            "detail": "2026Q2公司披露约数＋恒等式的条件计算。不是实际降本结果。 两柱只展示外卖销售占比；下方公式才是条件推演。 约16.7%是“骑手费／外卖客单”比值的必要降幅，不是只要求单笔骑手费下降16.7%。 45%和54%均为公司披露约数，不应展示多余小数精度。 条件公式：(c₁ / A₁) / (c₀ / A₀) = 45 / 54 ≈ 83.3%。"
+          }
+        ]
+      }
+    },
+    "diagram-research-2026-10-28-same-store-splits-note": {
+      "rows": [
+        {
+          "title": "原门店的配送商圈",
+          "text": "老店原本服务的地址范围。"
+        },
+        {
+          "title": "划出地址给新店",
+          "text": "原店成为donor store；部分配送范围转交承接新店。"
+        },
+        {
+          "title": "排除分拆的同店样本",
+          "text": "此前24个月发生分拆的原店被排除。新店也不是与原店打包后纳入。"
+        },
+        {
+          "title": "正同店 ≠ 分拆无损",
+          "text": "先弄清受影响门店是否被观察，再谈加密开店。"
+        }
+      ],
+      "source": {
+        "label": "同店的门，可能把受影响的老店挡在外面",
+        "files": [
+          "research/2026-10-28-same-store-splits/note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "机制和口径",
+            "definition": "依据DPG 2019披露脚注画出的样本筛选机制；示意不代表实际门店数量。 订单转到另一家店，与整个商圈多卖了多少，是不同问题。",
+            "componentIds": [
+              "diagram-research-2026-10-28-same-store-splits-note"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "固定公开研究版本",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/9bea06e407eadbcbbc5fcb56a8116158eebd2e65/research/2026-10-28-same-store-splits/note.md"
+          },
+          {
+            "title": "展示边界",
+            "detail": "依据DPG 2019披露脚注画出的样本筛选机制；示意不代表实际门店数量。 订单转到另一家店，与整个商圈多卖了多少，是不同问题。"
+          }
+        ]
+      }
+    },
+    "visual-research-2026-10-28-same-store-splits-note": {
+      "rows": [
+        {
+          "label": "排除分拆",
+          "value": 3.7,
+          "display": "3.7%",
+          "fullLabel": "排除分拆商圈"
+        },
+        {
+          "label": "包含分拆",
+          "value": 1.9,
+          "display": "1.9%",
+          "fullLabel": "包含分拆商圈"
+        }
+      ],
+      "source": {
+        "label": "同一年，两种样本，两个增长率",
+        "files": [
+          "research/2026-10-28-same-store-splits/note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "%",
+            "definition": "DPG 2019财年英国同店系统销售增长；披露值经四舍五入。 口径差1.8个百分点，不是扩店的因果效应。  不能用两个总体增长率推回被排除门店的增长率：还缺其销售权重和样本桥。",
+            "componentIds": [
+              "visual-research-2026-10-28-same-store-splits-note"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "固定公开研究版本",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/9bea06e407eadbcbbc5fcb56a8116158eebd2e65/research/2026-10-28-same-store-splits/note.md"
+          },
+          {
+            "title": "展示边界",
+            "detail": "DPG 2019财年英国同店系统销售增长；披露值经四舍五入。 口径差1.8个百分点，不是扩店的因果效应。  不能用两个总体增长率推回被排除门店的增长率：还缺其销售权重和样本桥。"
+          }
+        ]
+      }
+    },
+    "diagram-research-2026-10-28-capacity-bottlenecks-note": {
+      "rows": [
+        {
+          "title": "接单 → 开工",
+          "text": "先量排队等待。观察店内与移动订单如何排序、岗位是否到位。"
+        },
+        {
+          "title": "开工 → 制作完成",
+          "text": "再量制作时间。核对设备占用、制作动作、错漏重做。"
+        },
+        {
+          "title": "制作完成 → 交付",
+          "text": "最后量交付等待。检查取餐与交接，而非一概归咎于机器慢。"
+        },
+        {
+          "title": "双重验收",
+          "text": "等待是否缩短？每工时合格交付量是否改善？两者分开看。"
+        }
+      ],
+      "source": {
+        "label": "同样是“出餐慢”，堵点可能完全不同",
+        "files": [
+          "research/2026-10-28-capacity-bottlenecks/note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "机制和口径",
+            "definition": "研究者建议的诊断流程，不是公司实测工序时长；不绘制按比例时间轴。 设备、排班、排序都可能是约束；以上是待检验机制，不是已识别的贡献分摊。",
+            "componentIds": [
+              "diagram-research-2026-10-28-capacity-bottlenecks-note"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "固定公开研究版本",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/9bea06e407eadbcbbc5fcb56a8116158eebd2e65/research/2026-10-28-capacity-bottlenecks/note.md"
+          },
+          {
+            "title": "展示边界",
+            "detail": "研究者建议的诊断流程，不是公司实测工序时长；不绘制按比例时间轴。 设备、排班、排序都可能是约束；以上是待检验机制，不是已识别的贡献分摊。"
+          }
+        ]
+      }
+    },
+    "diagram-research-2026-10-28-capacity-bottlenecks-note:second": {
+      "rows": [
+        {
+          "title": "2025-01-28 · Q1",
+          "text": "认为多数门店非设备产能瓶颈；当时拟将Siren安装聚焦最高交易量四分位门店。"
+        },
+        {
+          "title": "2025-04-29 · Q2",
+          "text": "修正设备能抵消减员的假设；暂停Siren冷饮和食品设备继续铺设，保留Clover Vertica推进。"
+        },
+        {
+          "title": "Q2测试店 · 服务结果",
+          "text": "店内订单平均等待缩短2分钟；高峰75%店内订单等待低于4分钟。公司自报，未识别各项措施贡献。"
+        }
+      ],
+      "source": {
+        "label": "先有试点反馈，再修正投入方向",
+        "files": [
+          "research/2026-10-28-capacity-bottlenecks/note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "机制和口径",
+            "definition": "星巴克美国门店相关2025财年Q1、Q2电话会；历史管理层陈述，不代表当前政策。 等待指标不覆盖全部渠道，也不是“每工时多做多少单”的劳动生产率指标。",
+            "componentIds": [
+              "diagram-research-2026-10-28-capacity-bottlenecks-note:second"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "固定公开研究版本",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/9bea06e407eadbcbbc5fcb56a8116158eebd2e65/research/2026-10-28-capacity-bottlenecks/note.md"
+          },
+          {
+            "title": "展示边界",
+            "detail": "星巴克美国门店相关2025财年Q1、Q2电话会；历史管理层陈述，不代表当前政策。 等待指标不覆盖全部渠道，也不是“每工时多做多少单”的劳动生产率指标。"
+          }
+        ]
+      }
+    },
+    "diagram-research-2026-10-29-advertising-total-outcomes-note": {
+      "rows": [
+        {
+          "title": "广告处理／未处理对照",
+          "text": "随机分配用于识别增量；本研究采用餐厅级分层随机，各层处理比例不同。"
+        },
+        {
+          "title": "包含自然来源的总浏览",
+          "text": "不只统计付费入口，避免把原本会自然发生的访问当作全部新增。"
+        },
+        {
+          "title": "总线索 → 全渠道订单",
+          "text": "分别估计，不用浏览增量替代成交；原文EAT24只是订单子样本。"
+        },
+        {
+          "title": "成本与产能 → 利润判断",
+          "text": "还需广告成本、履约成本、订单质量和容量，浏览显著也不能直接推算利润。"
+        }
+      ],
+      "source": {
+        "label": "先识别新增需求，再讨论投入回报",
+        "files": [
+          "research/2026-10-29-advertising-total-outcomes/note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "机制和口径",
+            "definition": "依据原研究的总结果测量思想，转为经营评估路径；每一层都需要自己的证据。 付费入口与自然入口之间可能发生替代；渠道归因数与总体增量不是同一个量。",
+            "componentIds": [
+              "diagram-research-2026-10-29-advertising-total-outcomes-note"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "固定公开研究版本",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/9bea06e407eadbcbbc5fcb56a8116158eebd2e65/research/2026-10-29-advertising-total-outcomes/note.md"
+          },
+          {
+            "title": "展示边界",
+            "detail": "依据原研究的总结果测量思想，转为经营评估路径；每一层都需要自己的证据。 付费入口与自然入口之间可能发生替代；渠道归因数与总体增量不是同一个量。"
+          }
+        ]
+      }
+    },
+    "visual-research-2026-10-29-advertising-total-outcomes-note": {
+      "rows": [
+        {
+          "label": "总浏览量",
+          "value": 18.8,
+          "low": 17.7,
+          "high": 19.9,
+          "display": "+18.8%",
+          "scope": "总浏览指标",
+          "intervalDisplay": "[17.7%, 19.9%]"
+        },
+        {
+          "label": "EAT24订单",
+          "value": 1.5,
+          "low": -1.5,
+          "high": 4.7,
+          "display": "+1.5%",
+          "scope": "5,867家餐厅子样本",
+          "intervalDisplay": "[−1.5%, 4.7%]"
+        }
+      ],
+      "source": {
+        "label": "浏览有增量，不代表订单结论也同样清楚",
+        "files": [
+          "research/2026-10-29-advertising-total-outcomes/note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "%",
+            "definition": "Dai、Kim、Luca，March 2022作者稿表1；2015实验。区间为95% bootstrap区间，两个指标样本范围不同。 点是估计值，横线是95% bootstrap区间；虚线是零效应。样本范围不同，不能直接相减。  不是当代Yelp产品评估，不是当前餐饮市场的效果承诺。",
+            "componentIds": [
+              "visual-research-2026-10-29-advertising-total-outcomes-note"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "固定公开研究版本",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/9bea06e407eadbcbbc5fcb56a8116158eebd2e65/research/2026-10-29-advertising-total-outcomes/note.md"
+          },
+          {
+            "title": "展示边界",
+            "detail": "Dai、Kim、Luca，March 2022作者稿表1；2015实验。区间为95% bootstrap区间，两个指标样本范围不同。 点是估计值，横线是95% bootstrap区间；虚线是零效应。样本范围不同，不能直接相减。  不是当代Yelp产品评估，不是当前餐饮市场的效果承诺。"
+          }
+        ]
+      }
+    }
+  },
+  "id": "report:public-restaurant-research"
+}
