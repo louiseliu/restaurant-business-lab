@@ -55,6 +55,7 @@
 
 - [Skill 与参考文件](.agents/skills/restaurant-business-model-lab/SKILL.md)
 - [研究规范](methods/research-standard.md)
+- [来源发现方法与16主体扩充登记](methods/source-discovery.md)：中文中小餐饮与AI线索，逐项标明本轮可读范围、利益和证据边界。
 - [当前进度](state/current.md)
 - [研究日志](logs/2026-10-27-initialization.md)
 - [本轮研究结论](research/2026-10-27-franchise-evidence/final-report.md)：条件性边界结果、反例、经营意义与未解问题。
@@ -68,6 +69,7 @@
 ## 使用 Skill
 
 将仓库的 `.agents/skills/restaurant-business-model-lab/` 作为项目级 Skill 交给支持相应目录约定的宿主；应以宿主实际发现结果为准。本文件不承诺跨宿主自动加载。需要全局安装时，使用宿主支持的安装方式，并另外核验发现结果。
+
 
 
 

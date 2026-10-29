@@ -1,0 +1,363 @@
+{
+  "schema_version": "1.0",
+  "checked_date": "2026-10-29",
+  "purpose": "中文中小餐饮与AI应用的扩充发现层；保留既有HKEX、SEC及品牌IR原始核验源",
+  "scope": "只读公开网页；未登录、外联、付费、订阅或创建任务；不代表微信/抖音/小红书覆盖。访问状态仅描述本次实测。",
+  "status_definitions": {
+    "readable": "代表正文、文章、报告或产品页本轮可读，不表示所有入口可用",
+    "profile_only": "只读机构/产品能力介绍，不是研究报告覆盖",
+    "summary_only": "只读发布摘要，完整报告未读",
+    "index_only": "只有模板或索引线索，没有报告正文",
+    "fetch_failed": "本轮抓取失败，不推断登录、权限或付费限制"
+  },
+  "counts": {
+    "readable": 12,
+    "profile_only": 1,
+    "index_only": 1,
+    "fetch_failed": 1,
+    "summary_only": 1
+  },
+  "independence_warning": "16为登记主体条目，不代表16个彼此独立的证据；同机构子域或转载去重，跨机构转述同一主张亦须追溯来源",
+  "coverage_warning": "一次可读不是持续稳定抓取；不代表公众号、抖音、小红书或全网覆盖；未新增订阅/定时/权限",
+  "sources": [
+    {
+      "id": "cn-hongcan",
+      "name": "红餐网",
+      "publisher": "红餐网；样文作者王方浩（上海深海企业管理咨询有限公司创始人、红餐智库特聘专家）",
+      "home_url": "https://m.canyin88.com/hot",
+      "category": "行业媒体/门店经营专栏",
+      "use_for": "客流结构、平峰经营、菜单与复购的问题发现；优先经营专栏而非展商宣传",
+      "evidence_role": "发现线索与专家观点；样文无门店原始流水或抽样数据",
+      "access_status": "readable",
+      "representative_url": "https://m.canyin88.com/zhuanlan/wangfanghao/2026/1010/113876.html",
+      "representative_title": "客流不稳，不是流量不够，是你的结构出了问题",
+      "representative_date": "2026-10-10",
+      "limitations": [
+        "本次网页正文可读，不代表持续可用",
+        "咨询作者有服务获客利益；站点兼有展会、品牌宣传、加盟入口",
+        "经营结论需用门店数据或独立案例验证"
+      ],
+      "access_checked_at": "2026-10-29T09:16:00Z",
+      "access_observation": "正文可读",
+      "read_scope": "本轮代表正文/文章/报告可读；附加入口的失败情况另见limitations",
+      "date_semantics": "代表页公开标示日期；空值表示本次未确认，不以访问时间补填"
+    },
+    {
+      "id": "cn-watcn",
+      "name": "餐饮老板内参",
+      "publisher": "餐饮老板内参产业链平台；样文署名内参君",
+      "home_url": "https://www.watcn.com/",
+      "category": "行业媒体/一线走访/经营干货",
+      "use_for": "小店经营模式、体验设计、复购、运营问题；追踪一线走访与门店实战栏目",
+      "evidence_role": "媒体观察和二手数据，样文未提供可核验原始经营账目",
+      "access_status": "readable",
+      "representative_url": "https://www.watcn.com/art/detail/6444.html",
+      "representative_title": "真人版“胡闹厨房”，还能火多久？",
+      "representative_date": null,
+      "limitations": [
+        "页面只显示相对日期“1天前”；抓取日期与缓存时间不一致，未推算绝对发布日期",
+        "平台公开列有培训、严选加盟、供应商优选、项目孵化等商业业务",
+        "餐企老板内参不另作独立源计数；没有读取其微信/抖音私域",
+        "文中公开客流、话题量是二手引述，不能作为本研究原始数据"
+      ],
+      "access_checked_at": "2026-10-29T09:16:00Z",
+      "access_observation": "正文可读",
+      "read_scope": "本轮代表正文/文章/报告可读；附加入口的失败情况另见limitations",
+      "date_semantics": "代表页公开标示日期；空值表示本次未确认，不以访问时间补填"
+    },
+    {
+      "id": "cn-canyinj",
+      "name": "餐饮界（canyinj.com）",
+      "publisher": "餐饮界新媒体；首页列创始人鹤九为哈谷传媒CEO；样文作者阿荣",
+      "home_url": "https://www.canyinj.com/",
+      "category": "行业媒体/创业运营/供应链",
+      "use_for": "运营管理、深度访谈、门店标准化与供应链案例；周度新闻发现",
+      "evidence_role": "近期样文为新闻汇编，回溯原始公告；历史专访为经营者自述，不等于独立审计数据",
+      "access_status": "readable",
+      "representative_url": "https://www.canyinj.com/news/24746.html",
+      "representative_title": "餐饮大事件490期",
+      "representative_date": "2026-10-18",
+      "additional_verified_content": [
+        {
+          "url": "https://www.canyinj.com/news/17631.html",
+          "title": "排队2小时，15㎡单店高峰期日销1500只鸡，佬街佬味做对了什么？|案例",
+          "date": "2023-06-09",
+          "note": "实际读到员工承包、用工、巡店和供应链合作段落；数字均属专访/品牌口径，且旧样本不能代表当前"
+        }
+      ],
+      "limitations": [
+        "裸域名详情曾出现robots/cache错误，www版本本次成功",
+        "不要混同另一个域名canjie.cn的餐界/餐饮界",
+        "媒体提供供应链、加盟、论坛服务，案例可能有推广利益；专访高度正面，需寻找失败案例对照"
+      ],
+      "access_checked_at": "2026-10-29T09:16:00Z",
+      "access_observation": "正文可读",
+      "read_scope": "本轮代表正文/文章/报告可读；附加入口的失败情况另见limitations",
+      "date_semantics": "代表页公开标示日期；空值表示本次未确认，不以访问时间补填"
+    },
+    {
+      "id": "cn-canyandata",
+      "name": "窄门餐眼",
+      "publisher": "北京窄门信息技术有限公司；集团伙伴番茄资本、窄门学社；样文卿永BOB",
+      "home_url": "https://www.canyandata.com/report/",
+      "category": "商业数据平台/行业报告",
+      "use_for": "品牌、门店、开关店、品类和供应商地图；用于查找可追溯报告而不是直接下盈利结论",
+      "evidence_role": "自有公开数据结构化统计与调研、观点混合；不是门店原始POS或利润账",
+      "access_status": "readable",
+      "representative_url": "https://www.canyandata.com/report/2025-china-restaurant-annual-report/",
+      "representative_title": "新十年，重新定义｜5万字解读2025年中国餐饮全品类、全球餐饮认知及三大趋势",
+      "representative_date": "2025-11-07",
+      "limitations": [
+        "只验证公开网页报告；小程序数据库未登录未读取",
+        "门店存量/历史覆盖、统计时间与活跃门店需分开，不把累计收录数当当前开店数",
+        "番茄资本投资及学社培训带来商业利益；被投品牌案例非独立推荐",
+        "统计报告与投资人演讲观点需逐项分栏"
+      ],
+      "access_checked_at": "2026-10-29T09:16:00Z",
+      "access_observation": "正文可读",
+      "read_scope": "本轮代表正文/文章/报告可读；附加入口的失败情况另见limitations",
+      "date_semantics": "代表页公开标示日期；空值表示本次未确认，不以访问时间补填"
+    },
+    {
+      "id": "cn-chenzhi",
+      "name": "辰智大数据/商圈秀",
+      "publisher": "上海辰数信息技术有限公司（站点页脚）；辰智科技商圈秀",
+      "home_url": "https://shangquanshow.com/welcome/about/",
+      "category": "选址/商圈数据/经营咨询",
+      "use_for": "发现选址、菜品、食客、商圈供需与经营诊断研究机构及数据口径",
+      "evidence_role": "当前实读仅产品与数据能力说明，非行业研究结果；自称自建数据库但底层未公开",
+      "access_status": "profile_only",
+      "representative_url": "https://shangquanshow.com/welcome/about/",
+      "representative_title": "关于商圈秀/关于辰智（机构与数据能力介绍）",
+      "representative_date": null,
+      "limitations": [
+        "没有确认带日期的最新公开报告正文；低优先级候选，不应称已覆盖研究报告",
+        "https://www.chenzhidata.com/schd 实开仅Input占位，未取得正文",
+        "工作台与App未登录、未付费；只读到公开产品页面",
+        "商业咨询与选址产品销售利益；宣传覆盖数字未经独立验证"
+      ],
+      "access_checked_at": "2026-10-29T09:16:00Z",
+      "access_observation": "正文可读",
+      "read_scope": "仅机构及产品能力介绍，未取得带日期研究报告正文",
+      "date_semantics": "代表页公开标示日期；空值表示本次未确认，不以访问时间补填"
+    },
+    {
+      "id": "cn-shuhai",
+      "name": "蜀海供应链",
+      "publisher": "蜀海供应链官方企业网站",
+      "home_url": "https://www.shuhaisc.com/col.jsp?id=159",
+      "category": "供应链企业/仓储履约经营",
+      "use_for": "节假日备货、库存、仓储排班、运力应急的操作线索与供应链方案",
+      "evidence_role": "供应商自身方案和服务承诺；第一方自述但不是独立结果或客户原始经营数据",
+      "access_status": "readable",
+      "representative_url": "https://www.shuhaisc.com/nd.jsp?id=83",
+      "representative_title": "【蜀海方案】春节爆单不用慌！蜀海供应链助力餐饮品牌抢抓“黄金档”！",
+      "representative_date": "2026-01-30",
+      "limitations": [
+        "明确商业销售立场，只能当流程/问题发现源",
+        "时效、扩充运力与服务规模是企业自述，未做客户侧验证",
+        "偏连锁供应链；不能直接推论小店使用成本或适配性"
+      ],
+      "access_checked_at": "2026-10-29T09:16:00Z",
+      "access_observation": "正文可读",
+      "read_scope": "本轮代表正文/文章/报告可读；附加入口的失败情况另见limitations",
+      "date_semantics": "代表页公开标示日期；空值表示本次未确认，不以访问时间补填"
+    },
+    {
+      "id": "cn-cha",
+      "name": "中国饭店协会",
+      "publisher": "中国饭店协会",
+      "home_url": "https://www.chinahotel.org.cn/categories/35",
+      "category": "行业协会/消费指数/行业报告",
+      "use_for": "候选：行业消费指数、企业调研及经营成本报告；需正文恢复后使用",
+      "evidence_role": "仅发现索引线索，尚不能引用本次未读报告结论",
+      "access_status": "index_only",
+      "representative_url": "https://www.chinahotel.org.cn/categories/35",
+      "representative_title": "索引出现中国餐饮业消费指数报告（2026年7月）；非已读正文",
+      "representative_date": null,
+      "limitations": [
+        "实际打开栏目只得到Vue占位模板，首页timeout",
+        "搜索索引有报告标题与日期但不视作正文；未填推断日期",
+        "行业协会代表会员利益，调查样本可能偏规模餐企；取到报告后需核样本和方法"
+      ],
+      "access_checked_at": "2026-10-29T09:16:00Z",
+      "access_observation": "栏目模板占位及搜索索引线索；首页timeout",
+      "read_scope": "栏目返回模板占位，搜索索引仅作线索，报告正文未读",
+      "date_semantics": "代表页公开标示日期；空值表示本次未确认，不以访问时间补填"
+    },
+    {
+      "id": "cn-cca",
+      "name": "中国烹饪协会",
+      "publisher": "中国烹饪协会",
+      "home_url": "https://www.ccas.com.cn/?siteid=1",
+      "category": "行业协会/培训/技能/餐饮研究",
+      "use_for": "候选：餐饮表现指数、职业技能与培训通知；恢复访问后核原文",
+      "evidence_role": "本次无正文证据，不能作为已核实引用",
+      "access_status": "fetch_failed",
+      "representative_url": "https://www.ccas.com.cn/site/content/208290.html?siteid=1",
+      "representative_title": "尝试打开：关于举办2026年全国行业职业技能竞赛--第十届全国烹饪技能竞赛的通知",
+      "representative_date": null,
+      "limitations": [
+        "首页timeout，代表通知502；不是确认需登录，不应猜付费墙",
+        "仅搜索摘要不能当通知全文；没有确认最新报告",
+        "行业协会利益与会员样本选择偏差需标注"
+      ],
+      "access_checked_at": "2026-10-29T09:16:00Z",
+      "access_observation": "首页timeout、代表通知502；非权限拒绝，未确认登录或付费要求",
+      "read_scope": "首页超时、代表页502；未取得正文，不代表权限或登录限制",
+      "date_semantics": "代表页公开标示日期；空值表示本次未确认，不以访问时间补填"
+    },
+    {
+      "id": "keruyun-ai",
+      "name": "客如云 AI 与帮助中心",
+      "publisher": "客如云／时时同城科技（成都）有限责任公司；餐饮软件销售方",
+      "home_url": "https://www.keruyun.com/ai",
+      "category": "餐饮软件供应商",
+      "use_for": "中小餐饮语音操作、经营日报、营销文案与图像识别的产品能力及上线边界",
+      "evidence_role": "厂商一手产品说明；非独立效果验证",
+      "access_status": "readable",
+      "representative_url": "https://www.keruyun.com/ai",
+      "representative_date": null,
+      "limitations": [
+        "日期未标；智能分析诊断与个性化报告明确标后续上线；KDS等普通自动化不得全部归为AI。https://help.keruyun.com/help-center.html?appCode=KRYZX&cateId=1433532710567018496&pageName=index&srcSite=OFFICIAL-SITE 本次超时。只检查公开页，未提交咨询。一次成功不代表持续可用。"
+      ],
+      "access_checked_at": "2026-10-29T09:16:00Z",
+      "access_observation": "全文可读（产品页）；帮助中心请求超时，未认定登录限制",
+      "read_scope": "本轮代表正文/文章/报告可读；附加入口的失败情况另见limitations",
+      "date_semantics": "代表页公开标示日期；空值表示本次未确认，不以访问时间补填"
+    },
+    {
+      "id": "acewill-ai",
+      "name": "奥琦玮小奥智能运营平台",
+      "publisher": "奥琦玮；餐饮管理软件销售方",
+      "home_url": "https://www.acewill.cn/case-list.html",
+      "category": "餐饮软件供应商",
+      "use_for": "财务问数、异常排查、SOP知识传承，识别实施前置系统条件",
+      "evidence_role": "厂商一手产品与案例自报；非独立ROI验证",
+      "access_status": "readable",
+      "representative_url": "https://acewill.cn/news-detail/321.html",
+      "representative_date": "2026-03-13",
+      "limitations": [
+        "财务助手明确面向已开通云财务系统客户，不能当作零成本独立工具；行业首家仅厂商宣称。补充全文 https://gw.acewill.cn/news-detail/325.html 日期2026-03-19。不同子域合并同源。一次成功不代表持续可用。"
+      ],
+      "access_checked_at": "2026-10-29T09:16:00Z",
+      "access_observation": "全文可读（代表文章）",
+      "read_scope": "本轮代表正文/文章/报告可读；附加入口的失败情况另见limitations",
+      "date_semantics": "代表页公开标示日期；空值表示本次未确认，不以访问时间补填"
+    },
+    {
+      "id": "tcsl-ai",
+      "name": "天财商龙餐饮研究院与 LongClaw",
+      "publisher": "天财商龙；餐饮SaaS与服务销售方",
+      "home_url": "https://www.tcsl.com.cn/course/",
+      "category": "供应商实施与商家教育",
+      "use_for": "经营分析、成本管控、厨房运营、SaaS连接与人审执行流程",
+      "evidence_role": "厂商一手发布与教育材料；非独立效果验证",
+      "access_status": "readable",
+      "representative_url": "https://www.tcsl.com.cn/news/2145/",
+      "representative_date": "2026-10-23",
+      "limitations": [
+        "产品刚发布；匿名企业获利空间估算不是已实现利润；依赖商龙SaaS和企业数据，连锁客户经验不能直接外推单店。一次成功不代表持续可用。"
+      ],
+      "access_checked_at": "2026-10-29T09:16:00Z",
+      "access_observation": "全文可读（课程目录和产品发布）",
+      "read_scope": "本轮代表正文/文章/报告可读；附加入口的失败情况另见limitations",
+      "date_semantics": "代表页公开标示日期；空值表示本次未确认，不以访问时间补填"
+    },
+    {
+      "id": "tencent-restaurant-ml",
+      "name": "腾讯云餐饮行业实施案例",
+      "publisher": "腾讯云；云服务销售方",
+      "home_url": "https://cloud.tencent.com/document/product/583/60457",
+      "category": "云供应商技术实施文档",
+      "use_for": "营业额预测数据抽取、异常处理、LightGBM训练与滚动预测，以及AI和普通云自动化区分",
+      "evidence_role": "技术实施一手厂商案例；效果厂商自报",
+      "access_status": "readable",
+      "representative_url": "https://cloud.tencent.com/document/product/583/60457",
+      "representative_date": "2024-12-12",
+      "limitations": [
+        "日期是最后更新时间，不是实施日期；客户匿名且140余家门店；87%准确度缺明确误差口径和独立验证；云打印及规则画像不是默认AI。一次成功不代表持续可用。"
+      ],
+      "access_checked_at": "2026-10-29T09:16:00Z",
+      "access_observation": "全文可读",
+      "read_scope": "本轮代表正文/文章/报告可读；附加入口的失败情况另见limitations",
+      "date_semantics": "页面最后更新时间，不是实施日期"
+    },
+    {
+      "id": "meituan-merchant-research",
+      "name": "美团商家教育、经营研究与AI工具",
+      "publisher": "美团；外卖及到店平台，具商家留存与交易增长利益",
+      "home_url": "https://mri.meituan.com/research/report?typeCodeOne=3",
+      "category": "平台商家教育与经营分析",
+      "use_for": "中国小店AI经营工具、选址与菜品分析、平台经营指标、商家培训线索",
+      "evidence_role": "平台一手经营数据及产品自报；非独立验证",
+      "access_status": "readable",
+      "representative_url": "https://www.meituan.com/news/NN260206199002398",
+      "representative_date": "2026-02-05",
+      "limitations": [
+        "选址准确率等平台自报缺外部验证；https://xue.meituan.com/ 搜索可见但直接请求超时。研究补充《中国餐饮年度观察和大数据2025》目录日期2025-06-12，全文PDF https://s3plus.meituan.net/v1/mss_531b5a3906864f438395a28a5baec011/official-website/148e0ba2-9d4c-4bd8-8eee-12f916dc6436 。平台商户样本不能当全国全量；不同域名合并同源。一次成功不代表持续可用。"
+      ],
+      "access_checked_at": "2026-10-29T09:16:00Z",
+      "access_observation": "全文可读（新闻和研究目录、代表研究PDF）；餐饮课堂首页抓取超时",
+      "read_scope": "本轮代表正文/文章/报告可读；附加入口的失败情况另见limitations",
+      "date_semantics": "代表页公开标示日期；空值表示本次未确认，不以访问时间补填"
+    },
+    {
+      "id": "sic-restaurant-digital",
+      "name": "国家信息中心餐饮业数字化研究",
+      "publisher": "国家信息中心；公共研究机构，政策研究视角",
+      "home_url": "https://bigdata.sic.gov.cn/sic/83/260/1016/20241016170527502057613_pc.html",
+      "category": "公共研究",
+      "use_for": "区分线上化、平台化、智能化；建立餐饮AI落地前提和区域差异框架",
+      "evidence_role": "机构原始研究发布摘要；不是AI项目独立验证",
+      "access_status": "summary_only",
+      "representative_url": "https://bigdata.sic.gov.cn/sic/83/260/1016/20241016170527502057613_pc.html",
+      "representative_date": "2024-10-16",
+      "limitations": [
+        "完整PDF https://www.sic.gov.cn/sic/83/260/1016/2c97b8cb-8d20be1e-0192-949324c4-2e51.pdf 及datasec同路径均超时，未绕过；不是登录限制。数字化/机器人不等于AI。一次成功不代表持续可用。"
+      ],
+      "access_checked_at": "2026-10-29T09:16:00Z",
+      "access_observation": "仅摘要（发布页全文可读，完整PDF本次超时）",
+      "read_scope": "研究发布摘要；完整报告PDF本次未读",
+      "date_semantics": "代表页公开标示日期；空值表示本次未确认，不以访问时间补填"
+    },
+    {
+      "id": "foodsky-research",
+      "name": "FoodSky 中国饮食大模型原始研究",
+      "publisher": "中科院计算所、中国科学院大学等作者团队；部分作者同时任职中科深健（苏州）科技有限公司；arXiv承载",
+      "home_url": "https://arxiv.org/abs/2406.10261",
+      "category": "高校科研与原始技术论文",
+      "use_for": "中餐知识语料、RAG、厨师知识问答评测方法；审查大模型能力边界",
+      "evidence_role": "作者原始实验预印本；不是独立复现或门店实证",
+      "access_status": "readable",
+      "representative_url": "https://arxiv.org/html/2406.10261v1",
+      "representative_date": "2024-06-11",
+      "limitations": [
+        "考试准确度不等于商用安全、厨师替代或门店ROI；无独立复现核验，营养健康建议不可直接用于顾客。未访问演示IP、未测试工具。一次成功不代表持续可用。"
+      ],
+      "access_checked_at": "2026-10-29T09:16:00Z",
+      "access_observation": "全文可读（HTML）",
+      "read_scope": "本轮代表正文/文章/报告可读；附加入口的失败情况另见limitations",
+      "date_semantics": "所列v1作者稿日期，不代表同行评审或门店实施日期"
+    },
+    {
+      "id": "beijing-smallshop-ai",
+      "name": "首都文明网／朝阳报小店AI现场报道",
+      "publisher": "首都精神文明建设委员会办公室网站转载朝阳报；地方政策推广与活动报道视角",
+      "home_url": "https://www.bjwmb.gov.cn/wmdt/cyq/",
+      "category": "地方一线报道与培训线索",
+      "use_for": "定位中国社区小店试点、公益课程、真实线下商家活动与落地访谈线索",
+      "evidence_role": "活动报道；引用平台与主管部门信息，不是独立业绩验证",
+      "access_status": "readable",
+      "representative_url": "https://www.bjwmb.gov.cn/wmdt/cyq/10130676.html",
+      "representative_date": "2026-07-03",
+      "limitations": [
+        "报道确认活动与20家示范商户，但未列完整商户或可审计财务指标；美团效果主张不能因政府转载升级为独立证据，与美团源在产品主张上相关。一次成功不代表持续可用。"
+      ],
+      "access_checked_at": "2026-10-29T09:16:00Z",
+      "access_observation": "全文可读（代表报道）",
+      "read_scope": "本轮代表正文/文章/报告可读；附加入口的失败情况另见limitations",
+      "date_semantics": "代表页公开标示日期；空值表示本次未确认，不以访问时间补填"
+    }
+  ]
+}
