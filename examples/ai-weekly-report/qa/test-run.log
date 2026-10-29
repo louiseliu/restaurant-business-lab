@@ -1,0 +1,21 @@
+test_conflicting_duplicate_rejected (__main__.Checks.test_conflicting_duplicate_rejected) ... ok
+test_duplicate_grain_different_id_rejected (__main__.Checks.test_duplicate_grain_different_id_rejected) ... ok
+test_independent_sql_recompute (__main__.Checks.test_independent_sql_recompute) ... ok
+test_missing_partition_rejected (__main__.Checks.test_missing_partition_rejected) ... ok
+test_missing_value_rejected (__main__.Checks.test_missing_value_rejected) ... ok
+test_negative_cost_rejected (__main__.Checks.test_negative_cost_rejected) ... ok
+test_normalization_preserves_amounts (__main__.Checks.test_normalization_preserves_amounts) ... ok
+test_payment_bridge_rejected (__main__.Checks.test_payment_bridge_rejected) ... ok
+test_platform_subsidy_assumption_rejected (__main__.Checks.test_platform_subsidy_assumption_rejected) ... ok
+test_refund_count_rejected (__main__.Checks.test_refund_count_rejected) ... ok
+test_report_claims_against_calculation (__main__.Checks.test_report_claims_against_calculation) ... ok
+test_schema_change_rejected (__main__.Checks.test_schema_change_rejected) ... ok
+test_shape_and_duplicate (__main__.Checks.test_shape_and_duplicate) ... ok
+test_unknown_channel_rejected (__main__.Checks.test_unknown_channel_rejected) ... ok
+test_zero_denominator_is_unknown (__main__.Checks.test_zero_denominator_is_unknown) ... ok
+test_zero_refund_count_with_amount_rejected (__main__.Checks.test_zero_refund_count_with_amount_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.044s
+
+OK

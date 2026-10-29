@@ -1,0 +1,19 @@
+{
+  "raw_rows": 57,
+  "accepted_rows": 56,
+  "passed_checks": 78,
+  "weekly": [
+    {
+      "week": "W1",
+      "orders": 1533,
+      "merchant_net_yuan": 61979.47,
+      "contribution_yuan": 32854.64
+    },
+    {
+      "week": "W2",
+      "orders": 1694,
+      "merchant_net_yuan": 63945.52,
+      "contribution_yuan": 30688.74
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline'; img-src data:; connect-src 'none'; font-src 'none'; form-action 'none'; base-uri 'none'">
+<title>外卖活动到底多赚了多少 · 条件测算器</title>
+<style>
+:root{color-scheme:light;--ink:#171b22;--secondary:#56616d;--blue:#126fc1;--pale:#f2f7fc;--border:#dce2e8;--surface:#f7f8fa;--danger:#9c3027;font-family:system-ui,-apple-system,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;font-size:16px;line-height:1.65;background:#fff;color:var(--ink)}*{box-sizing:border-box}body{margin:0}main{max-width:1160px;margin:auto;padding:32px 32px 60px}h1,h2,h3,p{margin-top:0}h1{font-size:clamp(30px,4.4vw,48px);line-height:1.25;letter-spacing:-.035em;margin:16px 0}h2{font-size:23px;line-height:1.35;margin-bottom:12px}h3{font-size:17px;margin-bottom:8px}a{color:var(--blue);text-underline-offset:3px}button,input{font:inherit}button{cursor:pointer;border:1px solid var(--border);border-radius:8px;background:#fff;padding:10px 15px;min-height:44px;color:var(--ink)}button.primary{color:#fff;background:var(--blue);border-color:var(--blue)}button:hover{filter:brightness(.96)}button:disabled{opacity:.5;cursor:not-allowed}button:focus-visible,input:focus-visible,a:focus-visible,summary:focus-visible{outline:3px solid #64a8e8;outline-offset:3px}input{background:#fff;color:var(--ink);border:1px solid #9da9b6;border-radius:7px;padding:9px 12px;width:100%;min-height:44px;font-variant-numeric:tabular-nums}input[aria-invalid=true]{border:2px solid var(--danger)}.kicker{font-size:12px;font-weight:700;letter-spacing:.1em;color:var(--secondary)}.muted{color:var(--secondary)}.small{font-size:13px;line-height:1.7}.intro{font-size:17px;max-width:790px;margin-bottom:20px}.badge{display:inline-flex;align-items:center;background:var(--pale);color:#135b98;border:1px solid #bad6f0;border-radius:5px;padding:3px 9px;font-size:12px;font-weight:650}.notice{border-left:4px solid var(--blue);background:var(--pale);padding:18px 20px;margin:24px 0}.notice p:last-child{margin-bottom:0}.notice strong{color:#154e7f}.notice ul{margin:8px 0 0;padding-left:21px}.section{border-top:1px solid var(--border);padding:30px 0}.section-tag{font-size:12px;letter-spacing:.08em;color:var(--blue);font-weight:700;display:block;margin-bottom:7px}.workspace{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:28px}.field-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}.field{min-width:0}.field label{display:block;font-size:14px;font-weight:650;margin-bottom:6px}.field .help{display:block;font-size:12px;color:var(--secondary);margin-top:5px;line-height:1.65}.full{grid-column:1/-1}.alpha-controls{display:grid;grid-template-columns:1fr 115px;gap:12px;align-items:center}.alpha-controls input[type=range]{padding:0;accent-color:var(--blue);min-height:36px;border:none}.result{border:1px solid var(--border);border-radius:14px;padding:24px;background:var(--surface);min-width:0}.metric{font-size:clamp(32px,4vw,46px);line-height:1.2;letter-spacing:-.035em;font-weight:750;margin:12px 0 10px;overflow-wrap:anywhere;font-variant-numeric:tabular-nums}.metric-label{font-size:14px;font-weight:600}.result-status{font-size:15px;margin:0 0 18px}.equation{font-family:ui-monospace,Consolas,monospace;font-size:14px;background:#fff;padding:12px;border:1px solid var(--border);border-radius:8px;overflow-wrap:anywhere}.decomposition{display:grid;grid-template-columns:1fr auto;gap:7px 12px;font-size:13px;margin:15px 0}.decomposition dt,.decomposition dd{margin:0}.decomposition dd{text-align:right;font-variant-numeric:tabular-nums}.threshold{border-top:1px solid var(--border);padding-top:15px;font-size:14px}.threshold b{display:block;font-size:20px;color:#15588f;margin:4px 0 5px}.callout{font-size:13px;border:1px solid var(--border);border-radius:7px;padding:12px;background:#fff;margin:12px 0 0}.error{color:var(--danger);font-weight:600;background:#fff1ee;border:1px solid #d5aaa4;border-radius:7px;padding:12px;font-size:14px}.actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}.chart-grid{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(220px,.7fr);gap:24px;align-items:start}.chart-panel{border:1px solid var(--border);border-radius:10px;padding:12px 12px 6px}.chart-panel svg{width:100%;height:auto;display:block}.chart-panel figcaption{padding:0 10px 7px;font-size:12px;color:var(--secondary)}figure{margin:0}.table-wrap{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:14px}th,td{padding:10px 8px;border-bottom:1px solid var(--border);text-align:right;font-variant-numeric:tabular-nums}th:first-child,td:first-child{text-align:left}thead th{color:var(--secondary);font-size:12px;font-weight:650}.current-row{background:var(--pale);font-weight:650}.builder{border:1px solid var(--border);border-radius:10px;padding:20px;margin-top:20px}.builder summary{font-size:17px;font-weight:650;cursor:pointer;min-height:44px}.builder-intro{font-size:14px;margin:12px 0}.builder-table input{min-width:90px}.builder-table td:first-child{max-width:350px}.builder-table label{font-weight:600}.builder-table .small{display:block;color:var(--secondary);font-size:12px}.builder-table th{min-width:110px}.builder-totals{font-size:15px;margin:15px 0 0}.checklist{display:grid;grid-template-columns:1fr 1fr;gap:24px}.checklist ol,.checklist ul{margin:0;padding-left:23px}.checklist li{margin-bottom:10px}.step{display:inline-block;font-size:11px;color:var(--blue);font-weight:700;margin-bottom:6px}.foot{border-top:1px solid var(--border);padding-top:20px;font-size:12px;color:var(--secondary)}[hidden]{display:none!important}.chart-axis{fill:#56616d;font-size:12px}.chart-value{fill:#171b22;font-size:12px;font-weight:650}.legend{display:flex;gap:15px;flex-wrap:wrap;font-size:12px;color:var(--secondary);margin:0 10px 6px}.line-key:before{content:"";display:inline-block;width:20px;height:3px;background:var(--blue);vertical-align:middle;margin-right:6px}.zero-key:before{content:"";display:inline-block;width:20px;border-top:2px dashed #73808e;vertical-align:middle;margin-right:6px}.state-note{min-height:22px;margin:10px 0 0}.print-only{display:none}@media(max-width:760px){main{padding:22px 18px 42px}.workspace,.chart-grid,.checklist{grid-template-columns:1fr}.workspace{gap:22px}.result{padding:20px}.section{padding:25px 0}.notice{padding:15px 16px}.intro{font-size:15px}.builder{padding:15px}.builder-table th,.builder-table input{min-width:86px}.builder-table td:first-child{min-width:145px}.field-grid{gap:15px}.metric{font-size:39px}.alpha-controls{grid-template-columns:1fr 102px}.actions button{flex:1 1 auto}h2{font-size:21px}.chart-grid{gap:15px}.table-wrap{max-width:100%}}@media(max-width:380px){.field-grid{grid-template-columns:1fr}.full{grid-column:auto}.metric{font-size:34px}}@media print{main{max-width:none;padding:0;font-size:11px}.section{padding:16px 0}.notice{padding:10px;margin:12px 0}.actions,.builder,button,.alpha-controls input[type=range],#state-note{display:none}.workspace{grid-template-columns:1fr 1fr}.chart-grid{grid-template-columns:1.4fr 1fr}.checklist{grid-template-columns:1fr 1fr}.result,.chart-panel,.notice{break-inside:avoid}.metric{font-size:30px}.print-only{display:block}h1{font-size:30px}.foot{font-size:10px}input{border:0;padding:0;min-height:20px}a{color:inherit}}
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <div class="kicker">餐饮商业研究院 / 经营决策样板 01</div>
+    <h1>外卖活动，到底多赚了多少？</h1>
+    <p class="intro">别把“平台归因的订单”全部算成新增。先扣掉本来就会来的订单所贡献的钱，再看活动是否值得。</p>
+    <span class="badge" id="data-badge">演示数据 · 非真实门店</span>
+    <span class="small muted">　纯本地计算 · 不上传 · 不自动保存 · 源码可审</span>
+  </header>
+  <aside class="notice" aria-label="使用前必须知道的限制">
+    <strong>这是条件测算，不是实测增量、预测或门店净利润。</strong>
+    <ul class="small">
+      <li>只适用于：非增量活动单替代同类原价订单，且没有额外挤走堂食、其他渠道或其他时段的订单。</li>
+      <li>单均贡献必须按真实结算与变动成本核对；已从结算中扣掉的佣金、配送、商家折扣等，不能再扣一次。</li>
+      <li>真实增量比例 α 未知时，只看不同假设。不能用平台“活动归因订单数”直接证明活动多赚了钱。</li>
+    </ul>
+  </aside>
+  <noscript><p class="error">需要在浏览器中启用 JavaScript 才能计算。此文件没有网络请求。</p></noscript>
+  <section class="section" aria-labelledby="inputs-title">
+    <span class="section-tag">01 / 先填五个数</span>
+    <h2 id="inputs-title">以同一门店、同一活动期间为范围</h2>
+    <p class="small muted">金额单位：人民币元。初始值全部为教学演示；没有使用任何真实客户经营数据。</p>
+    <div class="workspace">
+      <form id="inputs" novalidate>
+        <div class="field-grid">
+          <div class="field full"><label for="N">活动归因订单 N（单）</label><input id="N" name="N" type="number" min="0" max="10000000" step="1" value="1000" inputmode="numeric" aria-describedby="N-help"><span class="help" id="N-help">活动标签下、已完成并按退款规则归集的订单。只是模型范围，不等于活动新增订单。</span></div>
+          <div class="field full"><label for="alpha">假设的真实增量比例 α（%）</label><div class="alpha-controls"><input type="range" id="alpha-range" min="0" max="100" step="0.1" value="40" aria-label="调整假设的真实增量比例"><input id="alpha" name="alpha" type="number" min="0" max="100" step="any" value="40" inputmode="decimal" aria-describedby="alpha-help"></div><span class="help" id="alpha-help">指归因订单中，若无活动就不会发生、且未从其他订单转移而来的比例。未知时不要擅填“100%”；滑动看情景。</span></div>
+          <div class="field"><label for="cp">活动单均贡献 cₚ（元/单）</label><input id="cp" name="cp" type="number" min="-1000000" max="1000000" step="any" value="8" inputmode="decimal" aria-describedby="cp-help"><span class="help" id="cp-help">活动订单平均结算减未扣的变动成本。可为负数。</span></div>
+          <div class="field"><label for="cb">原价单均贡献 cᵦ（元/单）</label><input id="cb" name="cb" type="number" min="-1000000" max="1000000" step="any" value="12" inputmode="decimal" aria-describedby="cb-help"><span class="help" id="cb-help">被替代的同类原价订单，在无活动时本可贡献的钱。不是全店随意平均。</span></div>
+          <div class="field full"><label for="F">活动固定增量支出 F（元）</label><input id="F" name="F" type="number" min="0" max="10000000000" step="any" value="2000" inputmode="decimal" aria-describedby="F-help"><span class="help" id="F-help">只填因这次活动新增、尚未计入单均贡献的固定支出，如额外制作与固定投放费；不要再加原本就要付的房租。</span></div>
+        </div>
+        <div class="actions"><button type="button" id="reset">恢复演示</button><button type="button" id="export">下载当前测算记录</button><button type="button" id="print">打印 / 存为 PDF</button></div>
+        <p class="small muted state-note" id="state-note" role="status">演示默认：1,000 单，α=40%，活动/原价贡献为 8/12 元，固定支出 2,000 元。</p>
+      </form>
+      <div class="result" id="result" aria-live="polite" aria-atomic="true">
+        <div class="metric-label">相对“不做活动”的条件增量贡献</div>
+        <div class="metric" id="delta">—</div>
+        <p class="result-status" id="verdict">等待计算</p>
+        <div class="equation">Δ = N × [cₚ − (1 − α) × cᵦ] − F</div>
+        <dl class="decomposition" id="decomposition"></dl>
+        <div class="threshold"><span>达到持平，需要多少订单是真正新增？</span><b id="threshold">—</b><span class="small" id="threshold-note"></span></div>
+        <p class="callout" id="decision-note"></p>
+      </div>
+      <div id="invalid-result" class="error" role="alert" hidden>请检查输入。</div>
+    </div>
+  </section>
+  <section class="section" aria-labelledby="sensitivity-title">
+    <span class="section-tag">02 / 不知道真实增量，就看结论会不会翻转</span>
+    <h2 id="sensitivity-title">α 从 0% 到 100%，会差多少钱？</h2>
+    <p class="small muted">保持其余四个输入不变。蓝线是条件情景，不是已观测数据、置信区间或概率分布。</p>
+    <div id="sensitivity" class="chart-grid">
+      <figure class="chart-panel">
+        <div class="legend"><span class="line-key">条件增量贡献</span><span class="zero-key">持平线（0 元）</span></div>
+        <svg id="chart" viewBox="0 0 620 300" role="img" aria-labelledby="chart-title chart-desc"><title id="chart-title">不同真实增量比例下的条件增量贡献</title><desc id="chart-desc">数据见右侧情景表。</desc></svg>
+        <figcaption>横轴：假设的真实增量比例 α。纵轴：条件增量贡献（元）。圆点是当前输入。</figcaption>
+      </figure>
+      <div class="table-wrap"><table><thead><tr><th scope="col">真实增量比例</th><th scope="col">条件增量贡献</th></tr></thead><tbody id="scenario-rows"></tbody></table><p class="small muted">显示金额四舍五入到分；计算使用未四舍五入值。百分比阈值为近似显示，不宜作为精确投放目标。</p></div>
+    </div>
+    <p id="sensitivity-invalid" class="small muted" hidden>输入无效时，图和表已隐藏，避免沿用上次结果。</p>
+  </section>
+  <section class="section" aria-labelledby="contribution-title">
+    <span class="section-tag">03 / 不确定每单赚多少？先对结算</span>
+    <h2 id="contribution-title">只减“还没有扣过”的成本</h2>
+    <p>单均贡献 = 同口径单均结算收入 − 结算里尚未扣除的各项变动成本。<strong>同一笔成本只扣一次。</strong></p>
+    <p class="small muted">按活动单、被替代的原价单分别汇总，再各自除以匹配订单数。原价单不是标价收入；活动补贴只有确认由平台承担且实际到账的部分才计入结算。同一币种、含税/不含税口径、退款观察窗必须一致。</p>
+    <details class="builder" id="builder">
+      <summary>展开单均贡献辅助计算（可改，点击后应用到上方）</summary>
+      <p class="builder-intro">以下也是演示。以“平台最终商户结算”为起点：佣金、配送、商家折扣若已扣，下列对应项填 0。食材和包装等按尚未扣的真实成本填。<strong>不能拿顾客实付或平台成交额冒充结算。</strong></p>
+      <div class="table-wrap"><table class="builder-table"><thead><tr><th scope="col">元 / 单</th><th scope="col">活动订单</th><th scope="col">被替代的原价订单</th></tr></thead><tbody id="builder-rows"></tbody></table></div>
+      <p class="builder-totals" id="builder-totals"></p>
+      <p id="builder-error" class="error" role="alert" hidden></p>
+      <div class="actions"><button type="button" class="primary" id="apply-builder">把辅助结果填入 cₚ / cᵦ</button></div>
+      <p class="small muted">辅助表不会悄悄覆盖上方输入。应用后再改辅助表，上方仍保留上次值，需再次点击应用。它不能核验平台是否已经扣费，必须人工对账。</p>
+    </details>
+  </section>
+  <section class="section" aria-labelledby="checklist-title">
+    <span class="section-tag">04 / 把假设变成可核验的经营问题</span>
+    <h2 id="checklist-title">取数清单与最小验证办法</h2>
+    <div class="checklist">
+      <div><h3>先向内部取这些数</h3><ul>
+        <li><strong>订单底表：</strong>活动标记、时间、门店、菜品、退款/取消状态；避免同一单被多个活动重复归因。</li>
+        <li><strong>结算对账：</strong>顾客实付、平台补贴、商家承担、佣金、配送、其他扣费、退款，逐项映射到最终商户结算。</li>
+        <li><strong>真实成本：</strong>食材、包装、增量人工、按单费用和活动专属固定支出；保留金额、期间、来源及去重规则。</li>
+        <li><strong>被替代订单：</strong>同菜品/时段/渠道/客群的无活动贡献，说明为什么可比；差异大时分组测算再求和。</li>
+        <li><strong>全店护栏：</strong>各渠道总订单与贡献、出餐/等待时间、取消退款、缺货、跨日回购，检查转移与挤占。</li>
+      </ul></div>
+      <div><h3>验证 α，不是猜一个“乐观值”</h3><ol>
+        <li>有权限开展试验时，预先确定随机活动/保留组、观察窗和主要指标。控制同一顾客跨组、商圈溢出及产能串扰；不要直接改变真实经营系统。</li>
+        <li>看同范围的<strong>总订单与总贡献</strong>差异，不只看活动标签、点击或核销。确认新增量确实落在 N 覆盖的订单集合内，才能用其估计 α；否则重建范围。</li>
+        <li>报告样本量、差异的不确定性与异常。若估计超出 0%–100%，先检查噪声、溢出或范围失配，不要直接裁剪成有效证据。</li>
+        <li>暂不能试验：保留低/中/高情景，说明未知。历史同期、活动前后或“做活动的店更好”只是线索，不能简单相减就认定因果。</li>
+      </ol></div>
+    </div>
+    <div class="notice"><strong>出现这些情况，先停用这个简化结论。</strong><p class="small">活动挤走堂食或其他时段订单；新增与替代订单的菜品结构、客单或变动成本明显不同；员工加班有阶梯成本；退款未结清；长期复购/品牌效应重要；跨店、跨活动重复归因。应分组并增加机会成本/动态成本模型，不要把本页当作实际净利润或加盟投资回报。</p></div>
+  </section>
+  <footer class="foot">
+    <p><strong>模型身份：</strong>研究院自建条件测算，v1.0.0（2026-10-29）。公开研究提示了会计销售、商户结算与贡献利润的边界；并未提供这里的参数或验证活动的真实增量。参考：<a href="https://github.com/louiseliu/restaurant-business-lab/blob/main/research/2026-10-28-delivery-mix/note.md" target="_blank" rel="noopener noreferrer">外卖销售结构与配送费率研究</a>。</p>
+    <p>离线可用，无外部脚本/字体/追踪，无数据上传或本地存储。刷新会恢复演示；需要留档请下载当前测算记录。打开上述参考链接才会访问外部网站。源码与测试随包附带。本工具不代替真实结算、试验评估或投资判断。</p>
+  </footer>
+</main>
+<script id="delivery-model">/* MODEL_SOURCE */</script>
+<script id="delivery-ui">/* UI_SOURCE */</script>
+</body></html>

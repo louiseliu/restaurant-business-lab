@@ -1,0 +1,63 @@
+{
+  "sample-delivery": {
+    "id": "sample-delivery",
+    "title": "外卖活动：订单多了，究竟多赚了多少？",
+    "label": "条件测算 · 非实测利润",
+    "summary": "把活动贡献、原价订单替代和固定投入分开，检查“真实增量比例”达到多少才持平。",
+    "boundary": "默认数字仅为示例；真实增量比例需要另行验证。输出是条件增量贡献，不是门店净利润或活动效果实测。",
+    "version": "1.0.0",
+    "sha256": "1249c7df7ce57b38e7a565b170de0757b6a8d13b4c1ca8025de930516cdfb7a0",
+    "files": [
+      {
+        "name": "index.html",
+        "label": "独立HTML",
+        "mime": "text/html",
+        "encoding": "base64",
+        "sha256": "1249c7df7ce57b38e7a565b170de0757b6a8d13b4c1ca8025de930516cdfb7a0"
+      },
+      {
+        "name": "README.md",
+        "label": "说明与口径",
+        "mime": "text/markdown",
+        "encoding": "base64",
+        "sha256": "bba91274d1250f23dc1a717746b9730ba3d20bd35afeffe1cb385bd1f0e436a9"
+      },
+      {
+        "name": "delivery-decision-sample.zip",
+        "label": "完整可复算包",
+        "mime": "application/zip",
+        "encoding": "base64",
+        "sha256": "a829fe6b9424cd60b5ae4d0c6b917e7c0fc8dd2707772eb9a739504eef500bbf"
+      }
+    ],
+    "repositoryDirectory": "tools/delivery-campaign",
+    "entrypoint": "index.html"
+  },
+  "sample-ai-weekly": {
+    "id": "sample-ai-weekly",
+    "title": "AI经营周报：从模拟CSV到可复核判断",
+    "label": "模拟演示 · 非门店实测",
+    "summary": "展示先计算、再解释、最后回查证据的工作方式；不把AI写出的文字当成新的经营事实。",
+    "boundary": "全部经营数据为模拟；未测得省时或准确率提升。不接受真实CSV上传，不调用模型API。",
+    "version": "1.0.0",
+    "files": [
+      {
+        "name": "case-demo.html",
+        "label": "独立HTML",
+        "mime": "text/html",
+        "encoding": "base64",
+        "sha256": "874bbcd866ae7949f1cd47ec70a56a18b574d92105aace7fe7deb380fa8ae82e"
+      },
+      {
+        "name": "ai-weekly-practice-pack.zip",
+        "label": "CSV、Python与复算结果包",
+        "mime": "application/zip",
+        "encoding": "base64",
+        "sha256": "19556f682a1a84ba74b478a6dcc58ba283d52500d599cb4371ed72576347fb54"
+      }
+    ],
+    "sha256": "874bbcd866ae7949f1cd47ec70a56a18b574d92105aace7fe7deb380fa8ae82e",
+    "repositoryDirectory": "examples/ai-weekly-report",
+    "entrypoint": "case-demo.html"
+  }
+}

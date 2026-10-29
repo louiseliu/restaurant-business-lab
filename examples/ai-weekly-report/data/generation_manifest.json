@@ -1,0 +1,41 @@
+{
+  "classification": "synthetic_only",
+  "generation": "Deterministic formulas in src/generate_sample.py; no external or private data",
+  "period": [
+    "2026-10-12",
+    "2026-10-25"
+  ],
+  "timezone": "Asia/Shanghai business-date convention; no event timestamps",
+  "stores": {
+    "S01": "溪桥店（虚构）",
+    "S02": "长青店（虚构）"
+  },
+  "canonical_rows": 56,
+  "raw_rows": 57,
+  "injected_faults": [
+    {
+      "csv_line": 3,
+      "kind": "channel_alias",
+      "raw": "外卖",
+      "normalized": "delivery"
+    },
+    {
+      "csv_line": 7,
+      "kind": "trim_store_id"
+    },
+    {
+      "csv_line": 14,
+      "kind": "trim_business_date"
+    },
+    {
+      "csv_line": 35,
+      "kind": "trim_record_id"
+    },
+    {
+      "csv_line": 58,
+      "kind": "exact_duplicate",
+      "first_csv_line": 11
+    }
+  ],
+  "sha256": "02ece4bad88570b057e17384352c8e8d79da018ce3c004a1538b2d9b3497e747"
+}

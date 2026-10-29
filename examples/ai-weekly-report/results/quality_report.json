@@ -1,0 +1,444 @@
+{
+  "raw_rows": 57,
+  "accepted_rows": 56,
+  "actions": [
+    {
+      "csv_line": 3,
+      "record_id": "SIM-20261012-S01-DL",
+      "action": "documented_alias",
+      "field": "channel",
+      "before": "外卖",
+      "after": "delivery"
+    },
+    {
+      "csv_line": 7,
+      "record_id": "SIM-20261013-S01-DL",
+      "action": "trim_whitespace",
+      "field": "store_id",
+      "before": " S01 ",
+      "after": "S01"
+    },
+    {
+      "csv_line": 14,
+      "record_id": "SIM-20261015-S01-DI",
+      "action": "trim_whitespace",
+      "field": "business_date",
+      "before": " 2026-10-15 ",
+      "after": "2026-10-15"
+    },
+    {
+      "csv_line": 35,
+      "record_id": "SIM-20261020-S01-DL",
+      "action": "trim_whitespace",
+      "field": "record_id",
+      "before": " SIM-20261020-S01-DL ",
+      "after": "SIM-20261020-S01-DL"
+    },
+    {
+      "csv_line": 58,
+      "record_id": "SIM-20261014-S01-DL",
+      "action": "drop_exact_duplicate",
+      "kept_csv_line": 11
+    }
+  ],
+  "checks": [
+    {
+      "check": "partition_coverage",
+      "passed": true,
+      "detail": "2 stores × 14 complete business days × 2 channels; 28 rows per week"
+    },
+    {
+      "check": "unique_grain",
+      "passed": true,
+      "detail": "Exactly one accepted row per day/store/channel"
+    },
+    {
+      "check": "normalized_raw_row_accounting",
+      "passed": true,
+      "detail": "57 raw = 56 accepted + 1 exact duplicate; no silently discarded business rows"
+    },
+    {
+      "check": "channel_to_total_W1_fulfilled_orders",
+      "passed": true,
+      "detail": "Mutually exclusive channels reconcile"
+    },
+    {
+      "check": "store_to_total_W1_fulfilled_orders",
+      "passed": true,
+      "detail": "Mutually exclusive stores reconcile"
+    },
+    {
+      "check": "channel_to_total_W1_refunded_orders",
+      "passed": true,
+      "detail": "Mutually exclusive channels reconcile"
+    },
+    {
+      "check": "store_to_total_W1_refunded_orders",
+      "passed": true,
+      "detail": "Mutually exclusive stores reconcile"
+    },
+    {
+      "check": "channel_to_total_W1_gross_sales_cents",
+      "passed": true,
+      "detail": "Mutually exclusive channels reconcile"
+    },
+    {
+      "check": "store_to_total_W1_gross_sales_cents",
+      "passed": true,
+      "detail": "Mutually exclusive stores reconcile"
+    },
+    {
+      "check": "channel_to_total_W1_merchant_discount_cents",
+      "passed": true,
+      "detail": "Mutually exclusive channels reconcile"
+    },
+    {
+      "check": "store_to_total_W1_merchant_discount_cents",
+      "passed": true,
+      "detail": "Mutually exclusive stores reconcile"
+    },
+    {
+      "check": "channel_to_total_W1_platform_discount_cents",
+      "passed": true,
+      "detail": "Mutually exclusive channels reconcile"
+    },
+    {
+      "check": "store_to_total_W1_platform_discount_cents",
+      "passed": true,
+      "detail": "Mutually exclusive stores reconcile"
+    },
+    {
+      "check": "channel_to_total_W1_customer_paid_cents",
+      "passed": true,
+      "detail": "Mutually exclusive channels reconcile"
+    },
+    {
+      "check": "store_to_total_W1_customer_paid_cents",
+      "passed": true,
+      "detail": "Mutually exclusive stores reconcile"
+    },
+    {
+      "check": "channel_to_total_W1_refund_cents",
+      "passed": true,
+      "detail": "Mutually exclusive channels reconcile"
+    },
+    {
+      "check": "store_to_total_W1_refund_cents",
+      "passed": true,
+      "detail": "Mutually exclusive stores reconcile"
+    },
+    {
+      "check": "channel_to_total_W1_platform_subsidy_cents",
+      "passed": true,
+      "detail": "Mutually exclusive channels reconcile"
+    },
+    {
+      "check": "store_to_total_W1_platform_subsidy_cents",
+      "passed": true,
+      "detail": "Mutually exclusive stores reconcile"
+    },
+    {
+      "check": "channel_to_total_W1_food_cost_cents",
+      "passed": true,
+      "detail": "Mutually exclusive channels reconcile"
+    },
+    {
+      "check": "store_to_total_W1_food_cost_cents",
+      "passed": true,
+      "detail": "Mutually exclusive stores reconcile"
+    },
+    {
+      "check": "channel_to_total_W1_packaging_cost_cents",
+      "passed": true,
+      "detail": "Mutually exclusive channels reconcile"
+    },
+    {
+      "check": "store_to_total_W1_packaging_cost_cents",
+      "passed": true,
+      "detail": "Mutually exclusive stores reconcile"
+    },
+    {
+      "check": "channel_to_total_W1_platform_fee_cents",
+      "passed": true,
+      "detail": "Mutually exclusive channels reconcile"
+    },
+    {
+      "check": "store_to_total_W1_platform_fee_cents",
+      "passed": true,
+      "detail": "Mutually exclusive stores reconcile"
+    },
+    {
+      "check": "channel_to_total_W1_payment_fee_cents",
+      "passed": true,
+      "detail": "Mutually exclusive channels reconcile"
+    },
+    {
+      "check": "store_to_total_W1_payment_fee_cents",
+      "passed": true,
+      "detail": "Mutually exclusive stores reconcile"
+    },
+    {
+      "check": "channel_to_total_W1_delivery_cost_cents",
+      "passed": true,
+      "detail": "Mutually exclusive channels reconcile"
+    },
+    {
+      "check": "store_to_total_W1_delivery_cost_cents",
+      "passed": true,
+      "detail": "Mutually exclusive stores reconcile"
+    },
+    {
+      "check": "channel_to_total_W1_advertising_cost_cents",
+      "passed": true,
+      "detail": "Mutually exclusive channels reconcile"
+    },
+    {
+      "check": "store_to_total_W1_advertising_cost_cents",
+      "passed": true,
+      "detail": "Mutually exclusive stores reconcile"
+    },
+    {
+      "check": "channel_to_total_W1_merchant_net_revenue_cents",
+      "passed": true,
+      "detail": "Mutually exclusive channels reconcile"
+    },
+    {
+      "check": "store_to_total_W1_merchant_net_revenue_cents",
+      "passed": true,
+      "detail": "Mutually exclusive stores reconcile"
+    },
+    {
+      "check": "channel_to_total_W1_specified_costs_cents",
+      "passed": true,
+      "detail": "Mutually exclusive channels reconcile"
+    },
+    {
+      "check": "store_to_total_W1_specified_costs_cents",
+      "passed": true,
+      "detail": "Mutually exclusive stores reconcile"
+    },
+    {
+      "check": "channel_to_total_W1_contribution_cents",
+      "passed": true,
+      "detail": "Mutually exclusive channels reconcile"
+    },
+    {
+      "check": "store_to_total_W1_contribution_cents",
+      "passed": true,
+      "detail": "Mutually exclusive stores reconcile"
+    },
+    {
+      "check": "payment_bridge_W1",
+      "passed": true,
+      "detail": "gross − merchant discount − platform discount = customer paid before refund"
+    },
+    {
+      "check": "net_revenue_bridge_W1",
+      "passed": true,
+      "detail": "customer paid − customer refund + settled platform subsidy = merchant net revenue"
+    },
+    {
+      "check": "contribution_bridge_W1",
+      "passed": true,
+      "detail": "net revenue − six specified costs; excludes fixed labor/rent/tax etc."
+    },
+    {
+      "check": "channel_to_total_W2_fulfilled_orders",
+      "passed": true,
+      "detail": "Mutually exclusive channels reconcile"
+    },
+    {
+      "check": "store_to_total_W2_fulfilled_orders",
+      "passed": true,
+      "detail": "Mutually exclusive stores reconcile"
+    },
+    {
+      "check": "channel_to_total_W2_refunded_orders",
+      "passed": true,
+      "detail": "Mutually exclusive channels reconcile"
+    },
+    {
+      "check": "store_to_total_W2_refunded_orders",
+      "passed": true,
+      "detail": "Mutually exclusive stores reconcile"
+    },
+    {
+      "check": "channel_to_total_W2_gross_sales_cents",
+      "passed": true,
+      "detail": "Mutually exclusive channels reconcile"
+    },
+    {
+      "check": "store_to_total_W2_gross_sales_cents",
+      "passed": true,
+      "detail": "Mutually exclusive stores reconcile"
+    },
+    {
+      "check": "channel_to_total_W2_merchant_discount_cents",
+      "passed": true,
+      "detail": "Mutually exclusive channels reconcile"
+    },
+    {
+      "check": "store_to_total_W2_merchant_discount_cents",
+      "passed": true,
+      "detail": "Mutually exclusive stores reconcile"
+    },
+    {
+      "check": "channel_to_total_W2_platform_discount_cents",
+      "passed": true,
+      "detail": "Mutually exclusive channels reconcile"
+    },
+    {
+      "check": "store_to_total_W2_platform_discount_cents",
+      "passed": true,
+      "detail": "Mutually exclusive stores reconcile"
+    },
+    {
+      "check": "channel_to_total_W2_customer_paid_cents",
+      "passed": true,
+      "detail": "Mutually exclusive channels reconcile"
+    },
+    {
+      "check": "store_to_total_W2_customer_paid_cents",
+      "passed": true,
+      "detail": "Mutually exclusive stores reconcile"
+    },
+    {
+      "check": "channel_to_total_W2_refund_cents",
+      "passed": true,
+      "detail": "Mutually exclusive channels reconcile"
+    },
+    {
+      "check": "store_to_total_W2_refund_cents",
+      "passed": true,
+      "detail": "Mutually exclusive stores reconcile"
+    },
+    {
+      "check": "channel_to_total_W2_platform_subsidy_cents",
+      "passed": true,
+      "detail": "Mutually exclusive channels reconcile"
+    },
+    {
+      "check": "store_to_total_W2_platform_subsidy_cents",
+      "passed": true,
+      "detail": "Mutually exclusive stores reconcile"
+    },
+    {
+      "check": "channel_to_total_W2_food_cost_cents",
+      "passed": true,
+      "detail": "Mutually exclusive channels reconcile"
+    },
+    {
+      "check": "store_to_total_W2_food_cost_cents",
+      "passed": true,
+      "detail": "Mutually exclusive stores reconcile"
+    },
+    {
+      "check": "channel_to_total_W2_packaging_cost_cents",
+      "passed": true,
+      "detail": "Mutually exclusive channels reconcile"
+    },
+    {
+      "check": "store_to_total_W2_packaging_cost_cents",
+      "passed": true,
+      "detail": "Mutually exclusive stores reconcile"
+    },
+    {
+      "check": "channel_to_total_W2_platform_fee_cents",
+      "passed": true,
+      "detail": "Mutually exclusive channels reconcile"
+    },
+    {
+      "check": "store_to_total_W2_platform_fee_cents",
+      "passed": true,
+      "detail": "Mutually exclusive stores reconcile"
+    },
+    {
+      "check": "channel_to_total_W2_payment_fee_cents",
+      "passed": true,
+      "detail": "Mutually exclusive channels reconcile"
+    },
+    {
+      "check": "store_to_total_W2_payment_fee_cents",
+      "passed": true,
+      "detail": "Mutually exclusive stores reconcile"
+    },
+    {
+      "check": "channel_to_total_W2_delivery_cost_cents",
+      "passed": true,
+      "detail": "Mutually exclusive channels reconcile"
+    },
+    {
+      "check": "store_to_total_W2_delivery_cost_cents",
+      "passed": true,
+      "detail": "Mutually exclusive stores reconcile"
+    },
+    {
+      "check": "channel_to_total_W2_advertising_cost_cents",
+      "passed": true,
+      "detail": "Mutually exclusive channels reconcile"
+    },
+    {
+      "check": "store_to_total_W2_advertising_cost_cents",
+      "passed": true,
+      "detail": "Mutually exclusive stores reconcile"
+    },
+    {
+      "check": "channel_to_total_W2_merchant_net_revenue_cents",
+      "passed": true,
+      "detail": "Mutually exclusive channels reconcile"
+    },
+    {
+      "check": "store_to_total_W2_merchant_net_revenue_cents",
+      "passed": true,
+      "detail": "Mutually exclusive stores reconcile"
+    },
+    {
+      "check": "channel_to_total_W2_specified_costs_cents",
+      "passed": true,
+      "detail": "Mutually exclusive channels reconcile"
+    },
+    {
+      "check": "store_to_total_W2_specified_costs_cents",
+      "passed": true,
+      "detail": "Mutually exclusive stores reconcile"
+    },
+    {
+      "check": "channel_to_total_W2_contribution_cents",
+      "passed": true,
+      "detail": "Mutually exclusive channels reconcile"
+    },
+    {
+      "check": "store_to_total_W2_contribution_cents",
+      "passed": true,
+      "detail": "Mutually exclusive stores reconcile"
+    },
+    {
+      "check": "payment_bridge_W2",
+      "passed": true,
+      "detail": "gross − merchant discount − platform discount = customer paid before refund"
+    },
+    {
+      "check": "net_revenue_bridge_W2",
+      "passed": true,
+      "detail": "customer paid − customer refund + settled platform subsidy = merchant net revenue"
+    },
+    {
+      "check": "contribution_bridge_W2",
+      "passed": true,
+      "detail": "net revenue − six specified costs; excludes fixed labor/rent/tax etc."
+    },
+    {
+      "check": "channel_delta_bridge",
+      "passed": true,
+      "detail": "Arithmetic contribution, not causal attribution"
+    }
+  ],
+  "checks_passed": 78,
+  "critical_failures": 0,
+  "limitations": [
+    "Synthetic arithmetic validation, not real-store reconciliation",
+    "No order-level IDs: drilldown ends at raw day/store/channel aggregate",
+    "No invoice or platform statement supplied",
+    "No saved labor-time or AI accuracy evaluation; no external model API call"
+  ]
+}

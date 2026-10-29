@@ -1,0 +1,72 @@
+{
+  "model": "delivery-incremental-contribution",
+  "version": "1.0.0",
+  "savedAt": "2026-10-29T03:20:05.500Z",
+  "status": "演示数据，非真实门店",
+  "currency": "CNY",
+  "inputs": {
+    "N": 1000,
+    "alpha": 0.4,
+    "cp": 8,
+    "cb": 12,
+    "F": 2000
+  },
+  "formula": "N * (cp - (1-alpha) * cb) - F",
+  "results": {
+    "delta": -1199.9999999999993,
+    "threshold": 0.5,
+    "thresholdState": "within-range",
+    "scenarios": [
+      {
+        "alpha": 0,
+        "delta": -6000
+      },
+      {
+        "alpha": 0.25,
+        "delta": -3000
+      },
+      {
+        "alpha": 0.5,
+        "delta": 0
+      },
+      {
+        "alpha": 0.75,
+        "delta": 3000
+      },
+      {
+        "alpha": 1,
+        "delta": 6000
+      }
+    ]
+  },
+  "restrictions": [
+    "仅非增量活动单替代同类原价订单；无其他渠道、时段、门店额外产能挤占。",
+    "单均贡献按真实结算减尚未扣除的变动成本；同一成本只扣一次。",
+    "α 未知时只作情景；平台归因订单不等于增量订单。",
+    "非门店净利润、非因果实测、非长期收益或投资回报。"
+  ],
+  "contributionBuilderDraft": {
+    "appliedAutomatically": false,
+    "p": {
+      "settlement": "22",
+      "food": "11",
+      "packaging": "2",
+      "commission": "0",
+      "delivery": "0",
+      "discount": "0",
+      "labor": "1",
+      "other": "0"
+    },
+    "b": {
+      "settlement": "26",
+      "food": "11",
+      "packaging": "2",
+      "commission": "0",
+      "delivery": "0",
+      "discount": "0",
+      "labor": "1",
+      "other": "0"
+    }
+  },
+  "privacy": "浏览器本地生成；未上传、未自动保存。"
+}

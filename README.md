@@ -35,6 +35,14 @@
 
 公共导出将私人协作链接替换为“私人协作会话，未公开”，不改写既有仓库历史。原文字段 `originalBodySha256` 仅标识脱敏前来源；[脱敏正文校验清单](reports/restaurant-illustrated-public/rendered-article-manifest.json)另记录导出正文哈希，不能将两者混同。已做桌面与窄屏浏览器检查，未宣称 iPhone 真机或打印实测。
 
+## 实战样板（研究者示范，非经营成效实测）
+
+- [外卖活动条件计算器](tools/delivery-campaign/README.md)：可离线替换假设、查看贡献情景；默认值仅演示，活动归因订单不自动等于增量。
+- [AI 辅助经营周报](examples/ai-weekly-report/README.md)：完整模拟输入、实际执行的 Python 清洗/分析、AI 辅助文稿及逐记录追溯；不是客户实测，没有外部模型 API、真实数据上传或节时/准确率收益测量。
+- [站内样板承载源码与复建说明](reports/samples-site-source/BUILD.md)：从本仓库相对路径读取已核验 HTML/ZIP，检查哈希后生成站内载荷，不自动发布。
+
+两个样板可在原站阅读并下载各自完整包，单独计为示范，不增加 8 篇研究的计数。样板包中的“local-only／未发布”描述保留其制作冻结时状态；当前公开归档以提交历史为准。此前整站离线 HTML 仍是 **v4 固定快照**，不含本次 v5 样板入口；本次仅归档两份独立样板与可复建承载源，不声称另有最新整站离线包。v5 的连接与发布仍须官方 Data runtime 和实际验收。
+
 ## 目录
 
 - [给餐饮老板的图文 HTML 报告](reports/README.md)：下载后浏览器打开，含图解、经营问题与证据边界。
@@ -54,5 +62,6 @@
 ## 使用 Skill
 
 将仓库的 `.agents/skills/restaurant-business-model-lab/` 作为项目级 Skill 交给支持相应目录约定的宿主；应以宿主实际发现结果为准。本文件不承诺跨宿主自动加载。需要全局安装时，使用宿主支持的安装方式，并另外核验发现结果。
+
 
 

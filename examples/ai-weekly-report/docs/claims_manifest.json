@@ -1,0 +1,1263 @@
+[
+  {
+    "id": "C01",
+    "collection": "weekly",
+    "where": {
+      "week": "W2"
+    },
+    "metric": "fulfilled_orders",
+    "expected": 1694,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md"
+  },
+  {
+    "id": "C02",
+    "collection": "weekly",
+    "where": {
+      "week": "W2"
+    },
+    "metric": "merchant_net_revenue_cents",
+    "expected": 6394552,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md"
+  },
+  {
+    "id": "C03",
+    "collection": "weekly",
+    "where": {
+      "week": "W2"
+    },
+    "metric": "contribution_cents",
+    "expected": 3068874,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md"
+  },
+  {
+    "id": "C04",
+    "collection": "comparisons",
+    "where": {
+      "metric": "contribution_rate"
+    },
+    "metric": "rate_change_pp",
+    "expected": -5.016898178950618,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md"
+  },
+  {
+    "id": "C05",
+    "collection": "comparisons",
+    "where": {
+      "metric": "net_per_order_yuan"
+    },
+    "metric": "W2",
+    "expected": 37.748240850059034,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md"
+  },
+  {
+    "id": "C06",
+    "collection": "comparisons",
+    "where": {
+      "metric": "contribution_per_order_yuan"
+    },
+    "metric": "W2",
+    "expected": 18.116139315230225,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md"
+  },
+  {
+    "id": "C07",
+    "collection": "channel_weekly",
+    "where": {
+      "week": "W2",
+      "channel": "delivery"
+    },
+    "metric": "contribution_cents",
+    "expected": 514225,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md"
+  },
+  {
+    "id": "C08",
+    "collection": "channel_delta_bridge",
+    "where": {
+      "channel": "delivery"
+    },
+    "metric": "contribution_delta_cents",
+    "expected": -195099,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md"
+  },
+  {
+    "id": "C09",
+    "collection": "channel_weekly",
+    "where": {
+      "week": "W2",
+      "channel": "delivery"
+    },
+    "metric": "merchant_discount_rate",
+    "expected": 0.17000033419109045,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md"
+  },
+  {
+    "id": "C10",
+    "collection": "store_channel_weekly",
+    "where": {
+      "week": "W2",
+      "channel": "delivery",
+      "store_id": "S02"
+    },
+    "metric": "refund_order_rate",
+    "expected": 0.06043956043956044,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md"
+  },
+  {
+    "id": "CHK-011",
+    "collection": "weekly",
+    "where": {
+      "week": "W1"
+    },
+    "metric": "fulfilled_orders",
+    "expected": 1533,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md / case-demo.html"
+  },
+  {
+    "id": "CHK-012",
+    "collection": "weekly",
+    "where": {
+      "week": "W1"
+    },
+    "metric": "merchant_net_revenue_cents",
+    "expected": 6197947,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md / case-demo.html"
+  },
+  {
+    "id": "CHK-013",
+    "collection": "weekly",
+    "where": {
+      "week": "W1"
+    },
+    "metric": "contribution_cents",
+    "expected": 3285464,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md / case-demo.html"
+  },
+  {
+    "id": "CHK-014",
+    "collection": "weekly",
+    "where": {
+      "week": "W1"
+    },
+    "metric": "contribution_rate",
+    "expected": 0.5300890762699326,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md / case-demo.html"
+  },
+  {
+    "id": "CHK-015",
+    "collection": "weekly",
+    "where": {
+      "week": "W1"
+    },
+    "metric": "specified_costs_cents",
+    "expected": 2912483,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md / case-demo.html"
+  },
+  {
+    "id": "CHK-016",
+    "collection": "weekly",
+    "where": {
+      "week": "W2"
+    },
+    "metric": "fulfilled_orders",
+    "expected": 1694,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md / case-demo.html"
+  },
+  {
+    "id": "CHK-017",
+    "collection": "weekly",
+    "where": {
+      "week": "W2"
+    },
+    "metric": "merchant_net_revenue_cents",
+    "expected": 6394552,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md / case-demo.html"
+  },
+  {
+    "id": "CHK-018",
+    "collection": "weekly",
+    "where": {
+      "week": "W2"
+    },
+    "metric": "contribution_cents",
+    "expected": 3068874,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md / case-demo.html"
+  },
+  {
+    "id": "CHK-019",
+    "collection": "weekly",
+    "where": {
+      "week": "W2"
+    },
+    "metric": "contribution_rate",
+    "expected": 0.47992009448042644,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md / case-demo.html"
+  },
+  {
+    "id": "CHK-020",
+    "collection": "weekly",
+    "where": {
+      "week": "W2"
+    },
+    "metric": "specified_costs_cents",
+    "expected": 3325678,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md / case-demo.html"
+  },
+  {
+    "id": "CHK-021",
+    "collection": "channel_weekly",
+    "where": {
+      "week": "W1",
+      "channel": "delivery"
+    },
+    "metric": "fulfilled_orders",
+    "expected": 637,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md / case-demo.html"
+  },
+  {
+    "id": "CHK-022",
+    "collection": "channel_weekly",
+    "where": {
+      "week": "W1",
+      "channel": "delivery"
+    },
+    "metric": "merchant_net_revenue_cents",
+    "expected": 2199739,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md / case-demo.html"
+  },
+  {
+    "id": "CHK-023",
+    "collection": "channel_weekly",
+    "where": {
+      "week": "W1",
+      "channel": "delivery"
+    },
+    "metric": "contribution_cents",
+    "expected": 709324,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md / case-demo.html"
+  },
+  {
+    "id": "CHK-024",
+    "collection": "channel_weekly",
+    "where": {
+      "week": "W1",
+      "channel": "delivery"
+    },
+    "metric": "contribution_per_order_yuan",
+    "expected": 11.135384615384615,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md / case-demo.html"
+  },
+  {
+    "id": "CHK-025",
+    "collection": "channel_weekly",
+    "where": {
+      "week": "W1",
+      "channel": "delivery"
+    },
+    "metric": "net_per_order_yuan",
+    "expected": 34.53279434850863,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md / case-demo.html"
+  },
+  {
+    "id": "CHK-026",
+    "collection": "channel_weekly",
+    "where": {
+      "week": "W1",
+      "channel": "delivery"
+    },
+    "metric": "merchant_discount_rate",
+    "expected": 0.09000020296738315,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md / case-demo.html"
+  },
+  {
+    "id": "CHK-027",
+    "collection": "channel_weekly",
+    "where": {
+      "week": "W1",
+      "channel": "delivery"
+    },
+    "metric": "advertising_cost_cents",
+    "expected": 84000,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md / case-demo.html"
+  },
+  {
+    "id": "CHK-028",
+    "collection": "channel_weekly",
+    "where": {
+      "week": "W1",
+      "channel": "dine_in"
+    },
+    "metric": "fulfilled_orders",
+    "expected": 896,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md / case-demo.html"
+  },
+  {
+    "id": "CHK-029",
+    "collection": "channel_weekly",
+    "where": {
+      "week": "W1",
+      "channel": "dine_in"
+    },
+    "metric": "merchant_net_revenue_cents",
+    "expected": 3998208,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md / case-demo.html"
+  },
+  {
+    "id": "CHK-030",
+    "collection": "channel_weekly",
+    "where": {
+      "week": "W1",
+      "channel": "dine_in"
+    },
+    "metric": "contribution_cents",
+    "expected": 2576140,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md / case-demo.html"
+  },
+  {
+    "id": "CHK-031",
+    "collection": "channel_weekly",
+    "where": {
+      "week": "W1",
+      "channel": "dine_in"
+    },
+    "metric": "contribution_per_order_yuan",
+    "expected": 28.7515625,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md / case-demo.html"
+  },
+  {
+    "id": "CHK-032",
+    "collection": "channel_weekly",
+    "where": {
+      "week": "W1",
+      "channel": "dine_in"
+    },
+    "metric": "net_per_order_yuan",
+    "expected": 44.62285714285714,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md / case-demo.html"
+  },
+  {
+    "id": "CHK-033",
+    "collection": "channel_weekly",
+    "where": {
+      "week": "W1",
+      "channel": "dine_in"
+    },
+    "metric": "merchant_discount_rate",
+    "expected": 0.04,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md / case-demo.html"
+  },
+  {
+    "id": "CHK-034",
+    "collection": "channel_weekly",
+    "where": {
+      "week": "W1",
+      "channel": "dine_in"
+    },
+    "metric": "advertising_cost_cents",
+    "expected": 0,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md / case-demo.html"
+  },
+  {
+    "id": "CHK-035",
+    "collection": "channel_weekly",
+    "where": {
+      "week": "W2",
+      "channel": "delivery"
+    },
+    "metric": "fulfilled_orders",
+    "expected": 805,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md / case-demo.html"
+  },
+  {
+    "id": "CHK-036",
+    "collection": "channel_weekly",
+    "where": {
+      "week": "W2",
+      "channel": "delivery"
+    },
+    "metric": "merchant_net_revenue_cents",
+    "expected": 2429608,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md / case-demo.html"
+  },
+  {
+    "id": "CHK-037",
+    "collection": "channel_weekly",
+    "where": {
+      "week": "W2",
+      "channel": "delivery"
+    },
+    "metric": "contribution_cents",
+    "expected": 514225,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md / case-demo.html"
+  },
+  {
+    "id": "CHK-038",
+    "collection": "channel_weekly",
+    "where": {
+      "week": "W2",
+      "channel": "delivery"
+    },
+    "metric": "contribution_per_order_yuan",
+    "expected": 6.387888198757764,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md / case-demo.html"
+  },
+  {
+    "id": "CHK-039",
+    "collection": "channel_weekly",
+    "where": {
+      "week": "W2",
+      "channel": "delivery"
+    },
+    "metric": "net_per_order_yuan",
+    "expected": 30.181465838509318,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md / case-demo.html"
+  },
+  {
+    "id": "CHK-040",
+    "collection": "channel_weekly",
+    "where": {
+      "week": "W2",
+      "channel": "delivery"
+    },
+    "metric": "merchant_discount_rate",
+    "expected": 0.17000033419109045,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md / case-demo.html"
+  },
+  {
+    "id": "CHK-041",
+    "collection": "channel_weekly",
+    "where": {
+      "week": "W2",
+      "channel": "delivery"
+    },
+    "metric": "advertising_cost_cents",
+    "expected": 168000,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md / case-demo.html"
+  },
+  {
+    "id": "CHK-042",
+    "collection": "channel_weekly",
+    "where": {
+      "week": "W2",
+      "channel": "dine_in"
+    },
+    "metric": "fulfilled_orders",
+    "expected": 889,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md / case-demo.html"
+  },
+  {
+    "id": "CHK-043",
+    "collection": "channel_weekly",
+    "where": {
+      "week": "W2",
+      "channel": "dine_in"
+    },
+    "metric": "merchant_net_revenue_cents",
+    "expected": 3964944,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md / case-demo.html"
+  },
+  {
+    "id": "CHK-044",
+    "collection": "channel_weekly",
+    "where": {
+      "week": "W2",
+      "channel": "dine_in"
+    },
+    "metric": "contribution_cents",
+    "expected": 2554649,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md / case-demo.html"
+  },
+  {
+    "id": "CHK-045",
+    "collection": "channel_weekly",
+    "where": {
+      "week": "W2",
+      "channel": "dine_in"
+    },
+    "metric": "contribution_per_order_yuan",
+    "expected": 28.73620922384702,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md / case-demo.html"
+  },
+  {
+    "id": "CHK-046",
+    "collection": "channel_weekly",
+    "where": {
+      "week": "W2",
+      "channel": "dine_in"
+    },
+    "metric": "net_per_order_yuan",
+    "expected": 44.6000449943757,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md / case-demo.html"
+  },
+  {
+    "id": "CHK-047",
+    "collection": "channel_weekly",
+    "where": {
+      "week": "W2",
+      "channel": "dine_in"
+    },
+    "metric": "merchant_discount_rate",
+    "expected": 0.04,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md / case-demo.html"
+  },
+  {
+    "id": "CHK-048",
+    "collection": "channel_weekly",
+    "where": {
+      "week": "W2",
+      "channel": "dine_in"
+    },
+    "metric": "advertising_cost_cents",
+    "expected": 0,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md / case-demo.html"
+  },
+  {
+    "id": "CHK-049",
+    "collection": "store_weekly",
+    "where": {
+      "week": "W1",
+      "store_id": "S01"
+    },
+    "metric": "merchant_net_revenue_cents",
+    "expected": 3475537,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md / case-demo.html"
+  },
+  {
+    "id": "CHK-050",
+    "collection": "store_weekly",
+    "where": {
+      "week": "W1",
+      "store_id": "S01"
+    },
+    "metric": "contribution_cents",
+    "expected": 1858452,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md / case-demo.html"
+  },
+  {
+    "id": "CHK-051",
+    "collection": "store_weekly",
+    "where": {
+      "week": "W1",
+      "store_id": "S02"
+    },
+    "metric": "merchant_net_revenue_cents",
+    "expected": 2722410,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md / case-demo.html"
+  },
+  {
+    "id": "CHK-052",
+    "collection": "store_weekly",
+    "where": {
+      "week": "W1",
+      "store_id": "S02"
+    },
+    "metric": "contribution_cents",
+    "expected": 1427012,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md / case-demo.html"
+  },
+  {
+    "id": "CHK-053",
+    "collection": "store_weekly",
+    "where": {
+      "week": "W2",
+      "store_id": "S01"
+    },
+    "metric": "merchant_net_revenue_cents",
+    "expected": 3569454,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md / case-demo.html"
+  },
+  {
+    "id": "CHK-054",
+    "collection": "store_weekly",
+    "where": {
+      "week": "W2",
+      "store_id": "S01"
+    },
+    "metric": "contribution_cents",
+    "expected": 1728434,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md / case-demo.html"
+  },
+  {
+    "id": "CHK-055",
+    "collection": "store_weekly",
+    "where": {
+      "week": "W2",
+      "store_id": "S02"
+    },
+    "metric": "merchant_net_revenue_cents",
+    "expected": 2825098,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md / case-demo.html"
+  },
+  {
+    "id": "CHK-056",
+    "collection": "store_weekly",
+    "where": {
+      "week": "W2",
+      "store_id": "S02"
+    },
+    "metric": "contribution_cents",
+    "expected": 1340440,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md / case-demo.html"
+  },
+  {
+    "id": "CHK-057",
+    "collection": "store_channel_weekly",
+    "where": {
+      "week": "W1",
+      "store_id": "S01",
+      "channel": "delivery"
+    },
+    "metric": "fulfilled_orders",
+    "expected": 343,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md / case-demo.html"
+  },
+  {
+    "id": "CHK-058",
+    "collection": "store_channel_weekly",
+    "where": {
+      "week": "W1",
+      "store_id": "S01",
+      "channel": "delivery"
+    },
+    "metric": "refunded_orders",
+    "expected": 14,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md / case-demo.html"
+  },
+  {
+    "id": "CHK-059",
+    "collection": "store_channel_weekly",
+    "where": {
+      "week": "W1",
+      "store_id": "S01",
+      "channel": "delivery"
+    },
+    "metric": "refund_order_rate",
+    "expected": 0.04081632653061224,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md / case-demo.html"
+  },
+  {
+    "id": "CHK-060",
+    "collection": "store_channel_weekly",
+    "where": {
+      "week": "W1",
+      "store_id": "S01",
+      "channel": "dine_in"
+    },
+    "metric": "fulfilled_orders",
+    "expected": 497,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md / case-demo.html"
+  },
+  {
+    "id": "CHK-061",
+    "collection": "store_channel_weekly",
+    "where": {
+      "week": "W1",
+      "store_id": "S01",
+      "channel": "dine_in"
+    },
+    "metric": "refunded_orders",
+    "expected": 7,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md / case-demo.html"
+  },
+  {
+    "id": "CHK-062",
+    "collection": "store_channel_weekly",
+    "where": {
+      "week": "W1",
+      "store_id": "S01",
+      "channel": "dine_in"
+    },
+    "metric": "refund_order_rate",
+    "expected": 0.014084507042253521,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md / case-demo.html"
+  },
+  {
+    "id": "CHK-063",
+    "collection": "store_channel_weekly",
+    "where": {
+      "week": "W1",
+      "store_id": "S02",
+      "channel": "delivery"
+    },
+    "metric": "fulfilled_orders",
+    "expected": 294,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md / case-demo.html"
+  },
+  {
+    "id": "CHK-064",
+    "collection": "store_channel_weekly",
+    "where": {
+      "week": "W1",
+      "store_id": "S02",
+      "channel": "delivery"
+    },
+    "metric": "refunded_orders",
+    "expected": 14,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md / case-demo.html"
+  },
+  {
+    "id": "CHK-065",
+    "collection": "store_channel_weekly",
+    "where": {
+      "week": "W1",
+      "store_id": "S02",
+      "channel": "delivery"
+    },
+    "metric": "refund_order_rate",
+    "expected": 0.047619047619047616,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md / case-demo.html"
+  },
+  {
+    "id": "CHK-066",
+    "collection": "store_channel_weekly",
+    "where": {
+      "week": "W1",
+      "store_id": "S02",
+      "channel": "dine_in"
+    },
+    "metric": "fulfilled_orders",
+    "expected": 399,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md / case-demo.html"
+  },
+  {
+    "id": "CHK-067",
+    "collection": "store_channel_weekly",
+    "where": {
+      "week": "W1",
+      "store_id": "S02",
+      "channel": "dine_in"
+    },
+    "metric": "refunded_orders",
+    "expected": 7,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md / case-demo.html"
+  },
+  {
+    "id": "CHK-068",
+    "collection": "store_channel_weekly",
+    "where": {
+      "week": "W1",
+      "store_id": "S02",
+      "channel": "dine_in"
+    },
+    "metric": "refund_order_rate",
+    "expected": 0.017543859649122806,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md / case-demo.html"
+  },
+  {
+    "id": "CHK-069",
+    "collection": "store_channel_weekly",
+    "where": {
+      "week": "W2",
+      "store_id": "S01",
+      "channel": "delivery"
+    },
+    "metric": "fulfilled_orders",
+    "expected": 441,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md / case-demo.html"
+  },
+  {
+    "id": "CHK-070",
+    "collection": "store_channel_weekly",
+    "where": {
+      "week": "W2",
+      "store_id": "S01",
+      "channel": "delivery"
+    },
+    "metric": "refunded_orders",
+    "expected": 14,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md / case-demo.html"
+  },
+  {
+    "id": "CHK-071",
+    "collection": "store_channel_weekly",
+    "where": {
+      "week": "W2",
+      "store_id": "S01",
+      "channel": "delivery"
+    },
+    "metric": "refund_order_rate",
+    "expected": 0.031746031746031744,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md / case-demo.html"
+  },
+  {
+    "id": "CHK-072",
+    "collection": "store_channel_weekly",
+    "where": {
+      "week": "W2",
+      "store_id": "S01",
+      "channel": "dine_in"
+    },
+    "metric": "fulfilled_orders",
+    "expected": 483,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md / case-demo.html"
+  },
+  {
+    "id": "CHK-073",
+    "collection": "store_channel_weekly",
+    "where": {
+      "week": "W2",
+      "store_id": "S01",
+      "channel": "dine_in"
+    },
+    "metric": "refunded_orders",
+    "expected": 7,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md / case-demo.html"
+  },
+  {
+    "id": "CHK-074",
+    "collection": "store_channel_weekly",
+    "where": {
+      "week": "W2",
+      "store_id": "S01",
+      "channel": "dine_in"
+    },
+    "metric": "refund_order_rate",
+    "expected": 0.014492753623188406,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md / case-demo.html"
+  },
+  {
+    "id": "CHK-075",
+    "collection": "store_channel_weekly",
+    "where": {
+      "week": "W2",
+      "store_id": "S02",
+      "channel": "delivery"
+    },
+    "metric": "fulfilled_orders",
+    "expected": 364,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md / case-demo.html"
+  },
+  {
+    "id": "CHK-076",
+    "collection": "store_channel_weekly",
+    "where": {
+      "week": "W2",
+      "store_id": "S02",
+      "channel": "delivery"
+    },
+    "metric": "refunded_orders",
+    "expected": 22,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md / case-demo.html"
+  },
+  {
+    "id": "CHK-077",
+    "collection": "store_channel_weekly",
+    "where": {
+      "week": "W2",
+      "store_id": "S02",
+      "channel": "delivery"
+    },
+    "metric": "refund_order_rate",
+    "expected": 0.06043956043956044,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md / case-demo.html"
+  },
+  {
+    "id": "CHK-078",
+    "collection": "store_channel_weekly",
+    "where": {
+      "week": "W2",
+      "store_id": "S02",
+      "channel": "dine_in"
+    },
+    "metric": "fulfilled_orders",
+    "expected": 406,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md / case-demo.html"
+  },
+  {
+    "id": "CHK-079",
+    "collection": "store_channel_weekly",
+    "where": {
+      "week": "W2",
+      "store_id": "S02",
+      "channel": "dine_in"
+    },
+    "metric": "refunded_orders",
+    "expected": 7,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md / case-demo.html"
+  },
+  {
+    "id": "CHK-080",
+    "collection": "store_channel_weekly",
+    "where": {
+      "week": "W2",
+      "store_id": "S02",
+      "channel": "dine_in"
+    },
+    "metric": "refund_order_rate",
+    "expected": 0.017241379310344827,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md / case-demo.html"
+  },
+  {
+    "id": "CHK-081",
+    "collection": "channel_delta_bridge",
+    "where": {
+      "channel": "dine_in"
+    },
+    "metric": "contribution_delta_cents",
+    "expected": -21491,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md / case-demo.html"
+  },
+  {
+    "id": "CHK-082",
+    "collection": "channel_delta_bridge",
+    "where": {
+      "channel": "dine_in"
+    },
+    "metric": "orders_delta",
+    "expected": -7,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md / case-demo.html"
+  },
+  {
+    "id": "CHK-083",
+    "collection": "channel_delta_bridge",
+    "where": {
+      "channel": "delivery"
+    },
+    "metric": "contribution_delta_cents",
+    "expected": -195099,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md / case-demo.html"
+  },
+  {
+    "id": "CHK-084",
+    "collection": "channel_delta_bridge",
+    "where": {
+      "channel": "delivery"
+    },
+    "metric": "orders_delta",
+    "expected": 168,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md / case-demo.html"
+  },
+  {
+    "id": "CHK-085",
+    "collection": "cost_delta_bridge",
+    "where": {
+      "component": "merchant_net_revenue_cents"
+    },
+    "metric": "contribution_effect_cents",
+    "expected": 196605,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md / case-demo.html"
+  },
+  {
+    "id": "CHK-086",
+    "collection": "cost_delta_bridge",
+    "where": {
+      "component": "food_cost_cents"
+    },
+    "metric": "contribution_effect_cents",
+    "expected": -229126,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md / case-demo.html"
+  },
+  {
+    "id": "CHK-087",
+    "collection": "cost_delta_bridge",
+    "where": {
+      "component": "packaging_cost_cents"
+    },
+    "metric": "contribution_effect_cents",
+    "expected": -30100,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md / case-demo.html"
+  },
+  {
+    "id": "CHK-088",
+    "collection": "cost_delta_bridge",
+    "where": {
+      "component": "platform_fee_cents"
+    },
+    "metric": "contribution_effect_cents",
+    "expected": -18390,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md / case-demo.html"
+  },
+  {
+    "id": "CHK-089",
+    "collection": "cost_delta_bridge",
+    "where": {
+      "component": "payment_fee_cents"
+    },
+    "metric": "contribution_effect_cents",
+    "expected": -1179,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md / case-demo.html"
+  },
+  {
+    "id": "CHK-090",
+    "collection": "cost_delta_bridge",
+    "where": {
+      "component": "delivery_cost_cents"
+    },
+    "metric": "contribution_effect_cents",
+    "expected": -50400,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md / case-demo.html"
+  },
+  {
+    "id": "CHK-091",
+    "collection": "cost_delta_bridge",
+    "where": {
+      "component": "advertising_cost_cents"
+    },
+    "metric": "contribution_effect_cents",
+    "expected": -84000,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md / case-demo.html"
+  },
+  {
+    "id": "CHK-092",
+    "collection": "comparisons",
+    "where": {
+      "metric": "fulfilled_orders"
+    },
+    "metric": "absolute_change",
+    "expected": 161,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md / case-demo.html"
+  },
+  {
+    "id": "CHK-093",
+    "collection": "comparisons",
+    "where": {
+      "metric": "fulfilled_orders"
+    },
+    "metric": "relative_change",
+    "expected": 0.1050228310502283,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md / case-demo.html"
+  },
+  {
+    "id": "CHK-094",
+    "collection": "comparisons",
+    "where": {
+      "metric": "merchant_net_revenue_cents"
+    },
+    "metric": "absolute_change",
+    "expected": 196605,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md / case-demo.html"
+  },
+  {
+    "id": "CHK-095",
+    "collection": "comparisons",
+    "where": {
+      "metric": "merchant_net_revenue_cents"
+    },
+    "metric": "relative_change",
+    "expected": 0.03172098761089761,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md / case-demo.html"
+  },
+  {
+    "id": "CHK-096",
+    "collection": "comparisons",
+    "where": {
+      "metric": "contribution_cents"
+    },
+    "metric": "absolute_change",
+    "expected": -216590,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md / case-demo.html"
+  },
+  {
+    "id": "CHK-097",
+    "collection": "comparisons",
+    "where": {
+      "metric": "contribution_cents"
+    },
+    "metric": "relative_change",
+    "expected": -0.06592371731968452,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md / case-demo.html"
+  },
+  {
+    "id": "CHK-098",
+    "collection": "comparisons",
+    "where": {
+      "metric": "net_per_order_yuan"
+    },
+    "metric": "absolute_change",
+    "expected": -2.681941798342791,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md / case-demo.html"
+  },
+  {
+    "id": "CHK-099",
+    "collection": "comparisons",
+    "where": {
+      "metric": "net_per_order_yuan"
+    },
+    "metric": "relative_change",
+    "expected": -0.0663351393107992,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md / case-demo.html"
+  },
+  {
+    "id": "CHK-100",
+    "collection": "comparisons",
+    "where": {
+      "metric": "contribution_per_order_yuan"
+    },
+    "metric": "absolute_change",
+    "expected": -3.3154588582857585,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md / case-demo.html"
+  },
+  {
+    "id": "CHK-101",
+    "collection": "comparisons",
+    "where": {
+      "metric": "contribution_per_order_yuan"
+    },
+    "metric": "relative_change",
+    "expected": -0.1546995623678137,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md / case-demo.html"
+  },
+  {
+    "id": "CHK-102",
+    "collection": "comparisons",
+    "where": {
+      "metric": "refund_order_rate"
+    },
+    "metric": "absolute_change",
+    "expected": 0.002118678332875098,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md / case-demo.html"
+  },
+  {
+    "id": "CHK-103",
+    "collection": "comparisons",
+    "where": {
+      "metric": "refund_order_rate"
+    },
+    "metric": "relative_change",
+    "expected": 0.07733175914994107,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md / case-demo.html"
+  },
+  {
+    "id": "CHK-104",
+    "collection": "comparisons",
+    "where": {
+      "metric": "contribution_rate"
+    },
+    "metric": "absolute_change",
+    "expected": -0.050168981789506184,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md / case-demo.html"
+  },
+  {
+    "id": "CHK-105",
+    "collection": "comparisons",
+    "where": {
+      "metric": "contribution_rate"
+    },
+    "metric": "relative_change",
+    "expected": -0.0946425497814995,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md / case-demo.html"
+  },
+  {
+    "id": "C11-extra_food_cost_cents",
+    "collection": "sensitivity",
+    "where": {},
+    "metric": "extra_food_cost_cents",
+    "expected": 71400,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md"
+  },
+  {
+    "id": "C11-W2_contribution_after_extra_cost_cents",
+    "collection": "sensitivity",
+    "where": {},
+    "metric": "W2_contribution_after_extra_cost_cents",
+    "expected": 2997474,
+    "source": "results/analysis.json",
+    "report": "docs/weekly_report.md"
+  }
+]

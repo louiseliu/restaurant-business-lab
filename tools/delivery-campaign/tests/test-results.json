@@ -1,0 +1,189 @@
+{
+  "executedAt": "2026-10-29T03:27:34.407Z",
+  "nodeVersion": "v24.22.1",
+  "command": "node tests/test-model.cjs",
+  "passed": 45,
+  "failed": 0,
+  "results": [
+    {
+      "name": "默认演示：-1200 元，50% 持平",
+      "status": "pass"
+    },
+    {
+      "name": "α=0：-6000 元",
+      "status": "pass"
+    },
+    {
+      "name": "α=0.25：-3000 元",
+      "status": "pass"
+    },
+    {
+      "name": "α=0.5：0 元",
+      "status": "pass"
+    },
+    {
+      "name": "α=0.75：3000 元",
+      "status": "pass"
+    },
+    {
+      "name": "α=1：6000 元",
+      "status": "pass"
+    },
+    {
+      "name": "N=0,F>0：仅扣固定支出，不算阈值",
+      "status": "pass"
+    },
+    {
+      "name": "N=0,F=0：零值且曲线为常数",
+      "status": "pass"
+    },
+    {
+      "name": "cb=0：α 无影响，阈值不适用",
+      "status": "pass"
+    },
+    {
+      "name": "cb<0：斜率反转，不给最低比例阈值",
+      "status": "pass"
+    },
+    {
+      "name": "cp<0：保留亏损值，不截断为0",
+      "status": "pass"
+    },
+    {
+      "name": "阈值低于0：全区间为正",
+      "status": "pass"
+    },
+    {
+      "name": "阈值等于0",
+      "status": "pass"
+    },
+    {
+      "name": "阈值等于1：100%才持平",
+      "status": "pass"
+    },
+    {
+      "name": "阈值超过1：不可达，不裁剪为100%",
+      "status": "pass"
+    },
+    {
+      "name": "近零cb导致阈值溢出：明确标记数值精度限制",
+      "status": "pass"
+    },
+    {
+      "name": "拒绝无效输入：负订单",
+      "status": "pass"
+    },
+    {
+      "name": "拒绝无效输入：小数订单",
+      "status": "pass"
+    },
+    {
+      "name": "拒绝无效输入：订单越上限",
+      "status": "pass"
+    },
+    {
+      "name": "拒绝无效输入：负固定费",
+      "status": "pass"
+    },
+    {
+      "name": "拒绝无效输入：固定费越上限",
+      "status": "pass"
+    },
+    {
+      "name": "拒绝无效输入：α小于0",
+      "status": "pass"
+    },
+    {
+      "name": "拒绝无效输入：α大于100%",
+      "status": "pass"
+    },
+    {
+      "name": "拒绝无效输入：NaN",
+      "status": "pass"
+    },
+    {
+      "name": "拒绝无效输入：Infinity",
+      "status": "pass"
+    },
+    {
+      "name": "拒绝无效输入：空白",
+      "status": "pass"
+    },
+    {
+      "name": "拒绝无效输入：只有空格",
+      "status": "pass"
+    },
+    {
+      "name": "拒绝无效输入：null",
+      "status": "pass"
+    },
+    {
+      "name": "拒绝无效输入：undefined",
+      "status": "pass"
+    },
+    {
+      "name": "拒绝无效输入：布尔值",
+      "status": "pass"
+    },
+    {
+      "name": "拒绝无效输入：非数字",
+      "status": "pass"
+    },
+    {
+      "name": "拒绝无效输入：超大单均贡献",
+      "status": "pass"
+    },
+    {
+      "name": "各零输入均为合法，不把0当缺失",
+      "status": "pass"
+    },
+    {
+      "name": "支持技术上限且全部输出有限",
+      "status": "pass"
+    },
+    {
+      "name": "默认辅助构成：22-11-2-1=8",
+      "status": "pass"
+    },
+    {
+      "name": "已扣成本填0不重复扣；未扣佣金填3后贡献为5",
+      "status": "pass"
+    },
+    {
+      "name": "辅助构成允许最终负贡献",
+      "status": "pass"
+    },
+    {
+      "name": "辅助构成拒绝负数",
+      "status": "pass"
+    },
+    {
+      "name": "辅助构成拒绝缺失",
+      "status": "pass"
+    },
+    {
+      "name": "分解恒等式与直算相符（100个确定性输入）",
+      "status": "pass"
+    },
+    {
+      "name": "持平阈值未四舍五入，代回为0（99个确定性输入）",
+      "status": "pass"
+    },
+    {
+      "name": "离线HTML内嵌模型与审计源码逐字一致",
+      "status": "pass"
+    },
+    {
+      "name": "离线HTML内嵌UI与审计源码逐字一致",
+      "status": "pass"
+    },
+    {
+      "name": "离线与无上传静态检查",
+      "status": "pass"
+    },
+    {
+      "name": "关键风险标签在可见HTML而非仅折叠区域",
+      "status": "pass"
+    }
+  ]
+}

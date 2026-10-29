@@ -1,0 +1,26 @@
+{
+  "method": "SQLite SUM from independently normalized DISTINCT raw rows",
+  "columns": [
+    "week",
+    "row_count",
+    "fulfilled_orders",
+    "merchant_net_revenue_cents",
+    "contribution_cents"
+  ],
+  "rows": [
+    [
+      "W1",
+      28,
+      1533,
+      6197947,
+      3285464
+    ],
+    [
+      "W2",
+      28,
+      1694,
+      6394552,
+      3068874
+    ]
+  ]
+}

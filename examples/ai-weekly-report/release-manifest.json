@@ -1,0 +1,190 @@
+{
+  "package": "ai-weekly",
+  "classification": "fully synthetic; no private business data",
+  "report_period": "2026-10-19—2026-10-25",
+  "comparison_period": "2026-10-12—2026-10-18",
+  "refund_observation_cutoff": "2026-10-28",
+  "repository_norms_read_at": "4c721daeb5b35b5d81f2ddecff8cd05a535626b0",
+  "data_origin": "src/generate_sample.py deterministic synthetic formulas; no external data",
+  "ai_assistance": "Current assistant drafted from actually executed local results; no external model API",
+  "offline_html": "case-demo.html",
+  "not_included": [
+    "entire authoring app runtime",
+    "node_modules",
+    "private config/paths",
+    "credentials",
+    "real customer/merchant data"
+  ],
+  "verification": {
+    "raw_rows": 57,
+    "clean_rows": 56,
+    "aggregation_reconciliation_checks": 78,
+    "unit_tests": 16,
+    "frozen_numeric_expectations": 107,
+    "independent_SQL_recompute": "passed",
+    "external_resource_tags_in_html": 0,
+    "browser_review": "see qa/verification.md"
+  },
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 5349,
+      "sha256": "87e0e786f1730f4f870effe73a34f00c354ed313701d06e081ac11acd148cc1f"
+    },
+    {
+      "path": "case-demo.html",
+      "bytes": 3174732,
+      "sha256": "874bbcd866ae7949f1cd47ec70a56a18b574d92105aace7fe7deb380fa8ae82e"
+    },
+    {
+      "path": "data/generation_manifest.json",
+      "bytes": 922,
+      "sha256": "2071a0fc7971afaa9d23b8dd44ab23e60609fcb2690a15a23c8c38c0438ef1c4"
+    },
+    {
+      "path": "data/simulated_daily_raw.csv",
+      "bytes": 6560,
+      "sha256": "02ece4bad88570b057e17384352c8e8d79da018ce3c004a1538b2d9b3497e747"
+    },
+    {
+      "path": "docs/build.md",
+      "bytes": 2080,
+      "sha256": "c287d47364d69096e53383c90490248fa178569c5448834e2072f8f6e161d6ee"
+    },
+    {
+      "path": "docs/claims_manifest.json",
+      "bytes": 31123,
+      "sha256": "5143d8b4a1d0bf95fc7585435f804de243bd4d0a7efee496f77ae5d169584892"
+    },
+    {
+      "path": "docs/data_dictionary.md",
+      "bytes": 5331,
+      "sha256": "097901233d9353f1f8e68c98031d105d77ef1d88b4b82da5ba5b380cfbe8b9b4"
+    },
+    {
+      "path": "docs/prompts.md",
+      "bytes": 2727,
+      "sha256": "94582475078ff7de50b18f1bb16c6ed723801e1a9227c6e813622418e2cdc039"
+    },
+    {
+      "path": "docs/review_checklist.md",
+      "bytes": 2408,
+      "sha256": "468af877979225d1916f148b90afeec5c4a899cb25a26b3f78e9dee7d4263729"
+    },
+    {
+      "path": "docs/weekly_report.md",
+      "bytes": 5729,
+      "sha256": "0786b755a663782d60c0a72a5d790c2f7307cb3a06e2161adefd7a24325ecffd"
+    },
+    {
+      "path": "html-source/ReportContent.jsx",
+      "bytes": 14415,
+      "sha256": "2963e120069355a14494fb04df3358429c5066a523667ec7b8a98552ed1408cb"
+    },
+    {
+      "path": "html-source/report.css",
+      "bytes": 5426,
+      "sha256": "f3473b9df4063aca844e84939f07c29f27a43b791ab414062ef56b5cfabbff71"
+    },
+    {
+      "path": "qa/analysis-run.log",
+      "bytes": 341,
+      "sha256": "95742e0b8a12048ba509fafe9845bc92490e0257786df74332991073c2bfb05f"
+    },
+    {
+      "path": "qa/independent_recompute.json",
+      "bytes": 377,
+      "sha256": "ce68ad9a5184aecd9e1b4a496b5dba28df6742809bb9a41f4a0dd699e8761a93"
+    },
+    {
+      "path": "qa/independent_recompute.sql",
+      "bytes": 1495,
+      "sha256": "1c5c06b8901677ff37265aa64b38f7e0cb6670154edf06d5637815ef18d9fc31"
+    },
+    {
+      "path": "qa/test-run.log",
+      "bytes": 1563,
+      "sha256": "995d14cc64912162a05d5a76ff32adc3be8d4cf1526bed2df05db6ffadcb9ab1"
+    },
+    {
+      "path": "qa/verification.md",
+      "bytes": 1834,
+      "sha256": "b530fcc541f1bd7fc3c3521bfaa0f4dbbdb0f6f9022ba358118daff6cd09c7b7"
+    },
+    {
+      "path": "results/analysis.json",
+      "bytes": 48252,
+      "sha256": "3646fccbccdb6487caacdd03d7d5887bfe8621345b22a4ed29e05f7a8026dcc8"
+    },
+    {
+      "path": "results/channel_weekly.csv",
+      "bytes": 2836,
+      "sha256": "cd848f64a12bf07be6514ab531d91bb4132ff6463c9c52d8049b4f0a6645a500"
+    },
+    {
+      "path": "results/cleaned_daily.csv",
+      "bytes": 7982,
+      "sha256": "2690300ae24f136d6837019e477dc1c888df10871be1ed1f0884d851a8c91400"
+    },
+    {
+      "path": "results/daily_summary.csv",
+      "bytes": 5032,
+      "sha256": "12c0a4dc8907c6a3e11a565997354c874f7e5d1d1106757243712f05c6fffff2"
+    },
+    {
+      "path": "results/metric_comparisons.csv",
+      "bytes": 696,
+      "sha256": "0aa68e4b410f0c64db733731edef2536fabeab1500771b0cf808131da73d552c"
+    },
+    {
+      "path": "results/quality_report.json",
+      "bytes": 12999,
+      "sha256": "070c104a90079b9e9a75b5f9cc994baaf84f15d26495c1bed51a436a9faaeeec"
+    },
+    {
+      "path": "results/store_channel_weekly.csv",
+      "bytes": 3676,
+      "sha256": "a74a940f5dba5503b6ce2fd9a6fc185039e10fff4017d28c734c18ccbe8b6a55"
+    },
+    {
+      "path": "results/store_weekly.csv",
+      "bytes": 2895,
+      "sha256": "35781fb3905d6684a8315e95c2c09cfd9e23197ad8cf85a357380af7deb80434"
+    },
+    {
+      "path": "results/weekly_summary.csv",
+      "bytes": 2452,
+      "sha256": "72a31ce4bd1357f0a3501f82634c665c040e2abef8e6a029dbefbad8faacb34a"
+    },
+    {
+      "path": "reviewed-snapshot.json",
+      "bytes": 294050,
+      "sha256": "f9331d360334c43bd8cbadb2b53156560d1ec481f6188fdca36ae5720006c13a"
+    },
+    {
+      "path": "src/analyze.py",
+      "bytes": 11432,
+      "sha256": "99a4c7897828b5bd9183a6d99da046efddcc3f968f9644fc83d3b58efdeab150"
+    },
+    {
+      "path": "src/generate_sample.py",
+      "bytes": 3770,
+      "sha256": "7a5e3e5aee402ce3a4028de5f5b2290053f1c16e0a28bc997d48518dcf73531b"
+    },
+    {
+      "path": "src/prepare_snapshot.py",
+      "bytes": 4627,
+      "sha256": "1fc3719a9403b41f7b7282309610da3d9940ac19edde1560a38e3006be9f5158"
+    },
+    {
+      "path": "src/run_all.py",
+      "bytes": 336,
+      "sha256": "8cbe953033525085500f8a358e27a49b0f301726f76cdf2f8a81df574c92f785"
+    },
+    {
+      "path": "src/test_analysis.py",
+      "bytes": 5264,
+      "sha256": "33d4cf200775d2d4b9c35185f90766c1f00118c66b7a519f65a42338cdbfb7fa"
+    }
+  ]
+}
