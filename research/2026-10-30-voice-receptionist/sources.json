@@ -1,6 +1,6 @@
 {
   "article_id": "voice-receptionist",
-  "title": "AI接电话能省什么 哪些事仍要人接手",
+  "title": "AI电话接待值不值得买，先看前厅的服务瓶颈",
   "verified_at": "2026-10-30",
   "locale": "zh-CN",
   "scope": "海外具名案例、产品定价与流程边界；不提供本土成效证明，不启动试点，公开归档以Git提交记录为准。",
@@ -76,25 +76,10 @@
     }
   ],
   "editorial_controls": {
-    "fact_labels": [
-      "案例事实",
-      "成本事实",
-      "功能事实"
-    ],
-    "inference_labels": [
-      "判断",
-      "推断"
-    ],
-    "recommendation_labels": [
-      "建议索取完整费用清单",
-      "验收建议"
-    ],
-    "unknown_labels": [
-      "仍未知"
-    ],
     "numerical_model": "无数字推演；不计算58%对应通话数，不推算节省工资或回本周期。",
     "copyright": "正文使用独立短述，无全文复制、无原文引语；HTML应提炼而非叠加长篇来源复述，同源派生总量须控制。",
-    "privacy": "未使用客户资料、私人链接或凭据。"
+    "privacy": "未使用客户资料、私人链接或凭据。",
+    "presentation": "以自然语言区分事实、机制分析与未执行建议；关键限制就近说明，其余未知集中在研究说明。"
   },
   "suggested_original_diagrams": [
     {
@@ -120,5 +105,11 @@
       ],
       "annotation": "产品事实限S3描述的OpenTable场景；投诉直达为S4案例做法，采用与否属于建议；其他收费项需询价，不声称均为Slang加收费。"
     }
-  ]
+  ],
+  "editorial_revision": {
+    "date": "2026-10-30",
+    "scope": "经营命题、机制论证与表达重写；沿用原四份来源，不新增证据核验或 Pro 咨询。",
+    "original_first_commit": "e7575c5632a6bd4e1fd1752ff4e954fee29f615c",
+    "original_first_commit_time": "2026-10-30T04:06:26Z"
+  }
 }
