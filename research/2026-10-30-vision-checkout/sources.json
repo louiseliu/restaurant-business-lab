@@ -1,0 +1,99 @@
+{
+  "checked_at": "2026-10-30",
+  "status": "reviewed_public_research",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "2025年度中国零售数字化及新技术应用创新案例，前台案例13",
+      "url": "https://pdf.dfcfw.com/pdf/H3_AP202512041793604795_1.pdf?1764843573000.pdf=",
+      "publisher": "中国连锁经营协会案例集；东方财富公开镜像",
+      "date": "2025",
+      "date_semantics": "年度；不使用镜像文件名推断官方发布日期",
+      "pages": "印刷页34–35，PDF页38–39",
+      "evidence_role": "供应商食方申报材料，非协会独立效果测量",
+      "access": "PDF 13,601,814 bytes; web size limit, direct curl download and pdftotext succeeded; page39 rendered and inspected",
+      "supports": [
+        "具名合肥化府小碗菜大溪地总店",
+        "外置摄像头接POS的产品路径",
+        "厂商报告非高峰收银人员可兼其他工作"
+      ],
+      "limits": [
+        "未独立验证客户效果、工资、部署范围和日期",
+        "混有烘焙店文字，不采用识别率/队列/成效数字",
+        "不可将2023食方手册配置视为该项目实际配置"
+      ],
+      "local_sha256": "95c96c397bf9582d889a35efee20e95f7270782d115906e7c49d1d756d6556ee"
+    },
+    {
+      "id": "S2",
+      "title": "2025年度中国零售数字化及新技术应用创新案例发布",
+      "url": "https://www.ccfa.org.cn/portal/cn/xiangxi.jsp?id=446831&ks=%E9%9B%B6%E5%94%AE&type=10004",
+      "publisher": "中国连锁经营协会",
+      "date": "2025-11-19",
+      "date_semantics": "协会目录显示发布日期，非案例实际部署日",
+      "access": "search returned full announcement/list; direct open timeout",
+      "supports": [
+        "案例13申报方为杭州食方科技有限公司"
+      ],
+      "limits": [
+        "仅核对申报及收录，不升级为独立结果",
+        "完整案例获取二维码未操作"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "银豹AI智慧收银",
+      "url": "https://www.pospal.cn/landing/AI/",
+      "publisher": "银豹，产品销售方",
+      "date": null,
+      "access": "HTML全文实读",
+      "supports": [
+        "认菜匹配模型价格且菜品可见",
+        "认盘以形状颜色对应价格，不识别里面食物",
+        "相对固定且更新不频繁的品类适用条件"
+      ],
+      "limits": [
+        "不采用营销准确率/速度/节省数字",
+        "未确认价格、接口收费或ROI",
+        "与烘焙手册同机构不当独立验证"
+      ]
+    },
+    {
+      "id": "S4",
+      "title": "银豹烘焙AI半自助收银系统使用说明（PC版）",
+      "url": "https://blog.pospal.cn/kb/9739",
+      "publisher": "银豹，产品销售方",
+      "date": "2025-07-24",
+      "access": "HTML全文实读",
+      "supports": [
+        "相似外观可改包装加标签或排除识别",
+        "包装变化清理旧图重学",
+        "需要学习样本维护"
+      ],
+      "limits": [
+        "仅烘焙PC版本，不能外推成化府实际配置",
+        "不建议用户安装旧操作系统，不提供购买或安装建议",
+        "没有独立表现测量"
+      ]
+    },
+    {
+      "id": "S5",
+      "title": "菜品识别操作说明",
+      "url": "https://help.shifang.co/Settlement%20desk/dish/",
+      "publisher": "食方，产品销售方",
+      "date": "2023-02-19",
+      "date_semantics": "页面最后更新时间",
+      "access": "HTML全文实读",
+      "supports": [
+        "记录人工确认流程及另有自动支付选项",
+        "非标品数字/图片点选加价",
+        "遮挡光照影响、重识别、撤单与退款操作"
+      ],
+      "limits": [
+        "不等于所有模式必须人工确认",
+        "不是2025化府案例验收记录",
+        "未确认最新版本/现实准确率/硬件与服务价格"
+      ]
+    }
+  ]
+}
