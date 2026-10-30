@@ -1,0 +1,53 @@
+{
+  "sourceCommit": "6becd8035a336f37598f918a0089893dacd66337",
+  "files": [
+    {
+      "path": "BUILD.md",
+      "bytes": 2648,
+      "sha256": "beb901fe268f00191cf5055448a346cb1ffaf5ff27f0c7597070f6031855e151",
+      "repositoryPath": "reports/robot-kitchen-site-source/BUILD.md"
+    },
+    {
+      "path": "article_topics.json",
+      "bytes": 512,
+      "sha256": "801fd854a50175fedba299340272e000ed05acc8bb3d878d84a3ae3396fe7e7e",
+      "repositoryPath": "reports/robot-kitchen-site-source/article_topics.json"
+    },
+    {
+      "path": "robot-kitchen/article-entry.json",
+      "bytes": 7548,
+      "sha256": "b0da4b33d6aa34889df5a784d1765ee204f876b35be766567dd19f206956b511",
+      "repositoryPath": "reports/robot-kitchen-site-source/robot-kitchen/article-entry.json"
+    },
+    {
+      "path": "robot-kitchen/article-reviewed-data.json",
+      "bytes": 4430,
+      "sha256": "6550b1e6a3591a9d329a3c9531c90b06755dd08939436b5e7a4a6aa5f99712bd",
+      "repositoryPath": "reports/robot-kitchen-site-source/robot-kitchen/article-reviewed-data.json"
+    },
+    {
+      "path": "robot-kitchen/illustrated-story.json",
+      "bytes": 6885,
+      "sha256": "c1f8f5d01ce88a44cf419f42f6e7ef5fc0c59696e9372eb8222396f17d27ae5c",
+      "repositoryPath": "reports/robot-kitchen-site-source/robot-kitchen/illustrated-story.json"
+    },
+    {
+      "path": "robot-kitchen/report.html",
+      "bytes": 2913577,
+      "sha256": "9918c348a34e1b978eb8eae7624de80e06e550fe14865c742f9e9c476023b796",
+      "repositoryPath": "research/2026-10-30-robot-kitchen/report.html"
+    },
+    {
+      "path": "test_reader_routes.mjs",
+      "bytes": 2276,
+      "sha256": "b784bcbdb1edce213f11616b3019df66858fd7524f6f65f2969dc5e449569afa",
+      "repositoryPath": "reports/robot-kitchen-site-source/test_reader_routes.mjs"
+    },
+    {
+      "path": "test_robot.py",
+      "bytes": 1057,
+      "sha256": "3d0336b92667c8a54d301f054f6e0adef3a50de35ae365c7374f06f5e3f41918",
+      "repositoryPath": "reports/robot-kitchen-site-source/test_robot.py"
+    }
+  ]
+}

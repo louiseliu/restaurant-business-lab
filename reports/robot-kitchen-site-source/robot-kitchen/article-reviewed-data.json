@@ -1,0 +1,102 @@
+{
+  "surface": "report",
+  "title": "炒菜机器人值不值得买 先看高峰时段整条出餐线",
+  "generatedAt": "2026-10-30T05:07:00Z",
+  "status": "reviewed",
+  "buildStatus": "complete",
+  "exportPreferences": {
+    "selected": null,
+    "destinations": []
+  },
+  "filters": [],
+  "report": {},
+  "id": "report:public-research-2026-10-30-robot-kitchen-note",
+  "queries": {
+    "diagram-research-2026-10-30-robot-kitchen-note": {
+      "rows": [
+        {
+          "title": "菜单项覆盖",
+          "text": "多少种菜可以交给机器？回答菜谱范围，但未说明这些菜实际卖多少。"
+        },
+        {
+          "title": "订单销量覆盖",
+          "text": "机器适做菜占实际销量的多少？少数畅销菜可能比许多冷门菜更重要。"
+        },
+        {
+          "title": "高峰工时覆盖",
+          "text": "可交给设备的工序占忙时劳动多少？仍需核对实际接手、等待和配套劳动，不等于已释放工时。"
+        }
+      ],
+      "source": {
+        "label": "三个覆盖口径，决定机器有没有放在关键位置",
+        "files": [
+          "research/2026-10-30-robot-kitchen/note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "机制和口径",
+            "definition": "原创概念示意，非案例统计；没有比例长度或虚构观测数值。 三个分母分别核实，不能互相替换。为了提高机器菜覆盖率而改变畅销菜、损害品质或复购，利用率上升也未必值得。",
+            "componentIds": [
+              "diagram-research-2026-10-30-robot-kitchen-note"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "固定公开研究版本",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/6becd8035a336f37598f918a0089893dacd66337/research/2026-10-30-robot-kitchen/note.md"
+          },
+          {
+            "title": "展示边界",
+            "detail": "原创概念示意，非案例统计；没有比例长度或虚构观测数值。 三个分母分别核实，不能互相替换。为了提高机器菜覆盖率而改变畅销菜、损害品质或复购，利用率上升也未必值得。"
+          }
+        ]
+      }
+    },
+    "diagram-research-2026-10-30-robot-kitchen-note:second": {
+      "rows": [
+        {
+          "title": "备料",
+          "text": "切配、规格与按份分装先就绪；来不及备齐，设备会等料。"
+        },
+        {
+          "title": "投料",
+          "text": "人工和设备按实际操作衔接；批次节奏须与高峰订单组合相容。"
+        },
+        {
+          "title": "炒制",
+          "text": "设备接手部分锅内动作；这一段加速，不能保证全线交付同步加速。"
+        },
+        {
+          "title": "装盘交付",
+          "text": "熟菜要有人接住并交付；下游没有余量，可能由机器等人或出菜口积压。"
+        }
+      ],
+      "source": {
+        "label": "把锅放回整条出餐线，才看得到真正瓶颈",
+        "files": [
+          "research/2026-10-30-robot-kitchen/note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "机制和口径",
+            "definition": "原创机制示意，非现场测量，也不是案例门店设备图。箭头表示工序衔接，不表达已测速度或产能。 清洁与补料贯穿批次之间，故障与返工也占用时间。NEXT ROBOT手册只用于另一品牌的功能参照，不是案例设备，不证明AI增益。",
+            "componentIds": [
+              "diagram-research-2026-10-30-robot-kitchen-note:second"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "固定公开研究版本",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/6becd8035a336f37598f918a0089893dacd66337/research/2026-10-30-robot-kitchen/note.md"
+          },
+          {
+            "title": "展示边界",
+            "detail": "原创机制示意，非现场测量，也不是案例门店设备图。箭头表示工序衔接，不表达已测速度或产能。 清洁与补料贯穿批次之间，故障与返工也占用时间。NEXT ROBOT手册只用于另一品牌的功能参照，不是案例设备，不证明AI增益。"
+          }
+        ]
+      }
+    }
+  }
+}
