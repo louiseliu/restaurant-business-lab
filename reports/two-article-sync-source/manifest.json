@@ -1,0 +1,18 @@
+{
+  "BUILD.md": {
+    "bytes": 1790,
+    "sha256": "df8b539e34d4ec7a812801887d9e3a53efb9c7638de264bb9692787b4377a237"
+  },
+  "article_topics.json": {
+    "bytes": 929,
+    "sha256": "9e1888bd28f721bca96c5e54f07c9a5c25fda2ae7deda33dcfccf5a15fe420ed"
+  },
+  "publication-receipt.json": {
+    "bytes": 977,
+    "sha256": "c6bad0f471f317d2a1911cbfbd94f646a004a201875a840818d6d12c46000f9b"
+  },
+  "test_reader_routes.mjs": {
+    "bytes": 2280,
+    "sha256": "e1e55c3ef37406cf34495b44253cce249bbb51529312906b461f271866ac93c2"
+  }
+}

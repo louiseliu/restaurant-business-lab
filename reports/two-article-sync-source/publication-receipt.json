@@ -1,0 +1,33 @@
+{
+  "status": "published-and-verified",
+  "version": 18,
+  "siteUrl": "https://restaurant-owner-evidence-20261027.liuguolin2008.chatgpt.site",
+  "verifiedAt": "2026-10-30T18:18:00Z",
+  "counts": {
+    "research": 19,
+    "originalMaterials": 39,
+    "samples": 2,
+    "ai": 8
+  },
+  "preserved": {
+    "stories": 17,
+    "originals": 37,
+    "downloadPayloads": 5,
+    "ui": true,
+    "legacy": true,
+    "presentation": true
+  },
+  "snapshotSHA256": "a1e1542d78e8f5060979da2d3adf75474af2a94b09d231a10cb3486e59fc7526",
+  "snapshotBytes": 79953,
+  "hostedHTMLSHA256": "66a3c4f7f85513e718420d8bf103217571caf45c880d4d70e44911616acaf918",
+  "hostedHTMLBytes": 12354550,
+  "queryCount": 40,
+  "rowCount": 124,
+  "anonymousSnapshotStatus": 200,
+  "anonymousPresentationStatus": 200,
+  "anonymousCanEdit": false,
+  "decodedPrivacyPayloadsChecked": 53,
+  "newGithubHTMLBlobs": 0,
+  "expenseArchiveStillPending": true,
+  "priorHTTP400Cause": "unknown; not reproduced in this attempt"
+}
