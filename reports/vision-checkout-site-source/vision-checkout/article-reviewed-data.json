@@ -1,0 +1,98 @@
+{
+  "surface": "report",
+  "title": "小碗菜上 AI 收银，先决定让机器认菜还是认盘",
+  "generatedAt": "2026-10-30T15:02:15Z",
+  "status": "reviewed",
+  "buildStatus": "complete",
+  "exportPreferences": {
+    "selected": null,
+    "destinations": []
+  },
+  "filters": [],
+  "report": {},
+  "id": "report:vision-checkout-20261030",
+  "queries": {
+    "diagram-research-2026-10-30-vision-checkout-note": {
+      "rows": [
+        {
+          "title": "认菜｜外观 → 商品 → 价格",
+          "text": "菜品需要可见，并与已有模型匹配。相同容器可装不同价商品，但菜单、外观与资料变化要有人维护。"
+        },
+        {
+          "title": "认盘｜盘型与颜色 → 价格",
+          "text": "根据餐具映射计价，不判断盘中食物。当天换菜可不改变盘型分类，但必须守住盛装与价格规则。"
+        }
+      ],
+      "source": {
+        "label": "认菜与认盘：维护工作留在哪里",
+        "files": [
+          "research/2026-10-30-vision-checkout/note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "机制和口径",
+            "definition": "依据银豹官方产品说明整理的机制对照；不是化府门店配置图，也不是准确率或成本实测。 认对盘也可能算错账：贵菜误装便宜盘时，问题在盛装规则。此为研究院的机制推论，不是已发生的客户事件。两条路线均不能自动证明重量、配料或完整支付正确。",
+            "componentIds": [
+              "diagram-research-2026-10-30-vision-checkout-note"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "固定公开研究版本",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/98b377faa73538f6fd0168ceba7e7ec2f53faf8d/research/2026-10-30-vision-checkout/note.md"
+          },
+          {
+            "title": "展示边界",
+            "detail": "依据银豹官方产品说明整理的机制对照；不是化府门店配置图，也不是准确率或成本实测。 认对盘也可能算错账：贵菜误装便宜盘时，问题在盛装规则。此为研究院的机制推论，不是已发生的客户事件。两条路线均不能自动证明重量、配料或完整支付正确。"
+          }
+        ]
+      }
+    },
+    "diagram-research-2026-10-30-vision-checkout-note:second": {
+      "rows": [
+        {
+          "title": "输入与识别",
+          "text": "商品或餐盘进入镜头；遮挡、光照异常可要求重识别。记录这类订单，不从试用样本剔除。"
+        },
+        {
+          "title": "价格与例外",
+          "text": "核对映射和价格；非标商品、临时加购或修改进入人工点选、追加或更正。"
+        },
+        {
+          "title": "支付与确认",
+          "text": "识别结果、人工确认、付款成功分别观察；手册同时记录有人核价流程与自动支付选项。"
+        },
+        {
+          "title": "撤单与退款",
+          "text": "付款前取消应清除待付订单；付款后发现差额则进入退款或更正及顾客沟通，不能只统计重识别秒数。"
+        }
+      ],
+      "source": {
+        "label": "快结算，要把例外接回流程",
+        "files": [
+          "research/2026-10-30-vision-checkout/note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "机制和口径",
+            "definition": "研究院提出的试用观察框架，结合食方历史手册可见操作；不是同一门店已部署的完整架构，也不表示所有模式强制人工确认。 建议记录全程耗时、人工介入订单与介入耗时、付款前后差错。图示没有测得效果数字；2023手册不代表2025具名案例或当前版本的真实配置。",
+            "componentIds": [
+              "diagram-research-2026-10-30-vision-checkout-note:second"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "固定公开研究版本",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/98b377faa73538f6fd0168ceba7e7ec2f53faf8d/research/2026-10-30-vision-checkout/note.md"
+          },
+          {
+            "title": "展示边界",
+            "detail": "研究院提出的试用观察框架，结合食方历史手册可见操作；不是同一门店已部署的完整架构，也不表示所有模式强制人工确认。 建议记录全程耗时、人工介入订单与介入耗时、付款前后差错。图示没有测得效果数字；2023手册不代表2025具名案例或当前版本的真实配置。"
+          }
+        ]
+      }
+    }
+  }
+}
