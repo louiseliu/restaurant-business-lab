@@ -1,0 +1,106 @@
+{
+  "surface": "report",
+  "title": "自动订货前 先查四张基础表和人工退出开关",
+  "generatedAt": "2026-10-30T04:07:00Z",
+  "status": "reviewed",
+  "buildStatus": "complete",
+  "exportPreferences": {
+    "selected": null,
+    "destinations": []
+  },
+  "filters": [],
+  "report": {},
+  "id": "report:public-research-2026-10-30-restocking-controls-note",
+  "queries": {
+    "diagram-research-2026-10-30-restocking-controls-note": {
+      "rows": [
+        {
+          "title": "销售清单＋预估营业额",
+          "text": "确认参考门店、日期与数据处理口径；借用他店历史不证明新店预测有效。"
+        },
+        {
+          "title": "食品份数",
+          "text": "手册允许调整份数。人工改动应保留原因，不把默认值当作已核事实。"
+        },
+        {
+          "title": "食品成本卡",
+          "text": "按菜品配方拆解；缺卡回退只适用于特定物料转食品情形，不能无限推广。"
+        },
+        {
+          "title": "物料预估",
+          "text": "得到业务建议并不等于已经向供应商下单，也不代表已验证需求。"
+        }
+      ],
+      "source": {
+        "label": "建议量从哪里来：沿四步追溯",
+        "files": [
+          "research/2026-10-30-restocking-controls/note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "机制和口径",
+            "definition": "依据厂商公开手册的业务流程概括；不是预测准确率、真实采用或节损效果图。 菜单中的“智能”或AI品牌导航，不足以判定计算过程是AI，更不足以判定AI成功。",
+            "componentIds": [
+              "diagram-research-2026-10-30-restocking-controls-note"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "固定公开研究版本",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/e7575c5632a6bd4e1fd1752ff4e954fee29f615c/research/2026-10-30-restocking-controls/note.md"
+          },
+          {
+            "title": "展示边界",
+            "detail": "依据厂商公开手册的业务流程概括；不是预测准确率、真实采用或节损效果图。 菜单中的“智能”或AI品牌导航，不足以判定计算过程是AI，更不足以判定AI成功。"
+          }
+        ]
+      }
+    },
+    "diagram-research-2026-10-30-restocking-controls-note:second": {
+      "rows": [
+        {
+          "title": "先生成建议",
+          "text": "暂不继续自动流转；保留建议值及对应原始记录。"
+        },
+        {
+          "title": "人复核后确认",
+          "text": "授权人调整数量，记录理由和操作者；正常路径才进入确认流转。"
+        },
+        {
+          "title": "异常时暂停",
+          "text": "关闭自动流转，明确谁接手；先查关闭前是否已有下游单据。"
+        },
+        {
+          "title": "修正或人工处理",
+          "text": "核对账实、配方与单位，避免重复补单；修正后重新验收，不直接恢复全自动。"
+        }
+      ],
+      "source": {
+        "label": "退出不是一个按钮，而是一条可演示的回退路径",
+        "files": [
+          "research/2026-10-30-restocking-controls/note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "机制和口径",
+            "definition": "原创验收示意，尚未执行；不声称所有产品已经具备全部功能。 厂商文档描述可取消自动生成门店要货申请单参数并人工下推；图中更完整的留痕与异常检查是本文提出的采购验收要求。",
+            "componentIds": [
+              "diagram-research-2026-10-30-restocking-controls-note:second"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "固定公开研究版本",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/e7575c5632a6bd4e1fd1752ff4e954fee29f615c/research/2026-10-30-restocking-controls/note.md"
+          },
+          {
+            "title": "展示边界",
+            "detail": "原创验收示意，尚未执行；不声称所有产品已经具备全部功能。 厂商文档描述可取消自动生成门店要货申请单参数并人工下推；图中更完整的留痕与异常检查是本文提出的采购验收要求。"
+          }
+        ]
+      }
+    }
+  }
+}

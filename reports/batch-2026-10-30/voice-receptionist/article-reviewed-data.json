@@ -1,0 +1,102 @@
+{
+  "surface": "report",
+  "title": "AI接电话能省什么 哪些事仍要人接手",
+  "generatedAt": "2026-10-30T04:07:00Z",
+  "status": "reviewed",
+  "buildStatus": "complete",
+  "exportPreferences": {
+    "selected": null,
+    "destinations": []
+  },
+  "filters": [],
+  "report": {},
+  "id": "report:public-research-2026-10-30-voice-receptionist-note",
+  "queries": {
+    "diagram-research-2026-10-30-voice-receptionist-note": {
+      "rows": [
+        {
+          "title": "接通",
+          "text": "记录来电类型、漏接与放弃。接上电话不代表已完成顾客任务。"
+        },
+        {
+          "title": "任务完成",
+          "text": "分别核对回答、预订记录与转接结果；转给员工也可能是正确完成路径。"
+        },
+        {
+          "title": "员工时间减少",
+          "text": "扣除复核、更新知识与接手难题的工时，看饭点打断是否真正减少。"
+        },
+        {
+          "title": "付薪排班改变",
+          "text": "只有实际付薪安排发生可核减少，才讨论现金节省；体验改善单独记录。"
+        }
+      ],
+      "source": {
+        "label": "从接通到省钱，中间有四道验收",
+        "files": [
+          "research/2026-10-30-voice-receptionist/note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "机制和口径",
+            "definition": "原创经营验收链，非实测效果图；不能把案例的自动处理比例套用到后续环节。 Titan案例为具名自述经媒体报道，非独立审计；集团未因系统裁员。不能将无需员工介入直接写成工资下降。",
+            "componentIds": [
+              "diagram-research-2026-10-30-voice-receptionist-note"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "固定公开研究版本",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/e7575c5632a6bd4e1fd1752ff4e954fee29f615c/research/2026-10-30-voice-receptionist/note.md"
+          },
+          {
+            "title": "展示边界",
+            "detail": "原创经营验收链，非实测效果图；不能把案例的自动处理比例套用到后续环节。 Titan案例为具名自述经媒体报道，非独立审计；集团未因系统裁员。不能将无需员工介入直接写成工资下降。"
+          }
+        ]
+      }
+    },
+    "diagram-research-2026-10-30-voice-receptionist-note:second": {
+      "rows": [
+        {
+          "title": "常规回答",
+          "text": "营业与活动信息要准确且持续更新；听起来流利不能替代核对实际答案。"
+        },
+        {
+          "title": "明确人工入口",
+          "text": "座机无法接收短信确认及支付链接、涉及取消费的操作可能需要人接；每班明确接手者与替补。"
+        },
+        {
+          "title": "完整成本清单",
+          "text": "订阅用量、实施超时、电话短信、平台集成、税汇与退出逐项询价；另记店内培训、更新和复核工时。"
+        }
+      ],
+      "source": {
+        "label": "自动服务、人工兜底、完整费用：一起验收",
+        "files": [
+          "research/2026-10-30-voice-receptionist/note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "机制和口径",
+            "definition": "流程与采购清单示意，非费用实测。产品功能事实只限已上线OpenTable集成的相应场景。 清单是待询价项目，不表示全部实际另收费。预订功能边界不是菜品退款或POS接单能力的证明。",
+            "componentIds": [
+              "diagram-research-2026-10-30-voice-receptionist-note:second"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "固定公开研究版本",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/e7575c5632a6bd4e1fd1752ff4e954fee29f615c/research/2026-10-30-voice-receptionist/note.md"
+          },
+          {
+            "title": "展示边界",
+            "detail": "流程与采购清单示意，非费用实测。产品功能事实只限已上线OpenTable集成的相应场景。 清单是待询价项目，不表示全部实际另收费。预订功能边界不是菜品退款或POS接单能力的证明。"
+          }
+        ]
+      }
+    }
+  }
+}

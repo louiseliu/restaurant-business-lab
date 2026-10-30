@@ -1,0 +1,102 @@
+{
+  "surface": "report",
+  "title": "AI菜品图的增长，先问和谁比较",
+  "generatedAt": "2026-10-30T04:07:00Z",
+  "status": "reviewed",
+  "buildStatus": "complete",
+  "exportPreferences": {
+    "selected": null,
+    "destinations": []
+  },
+  "filters": [],
+  "report": {},
+  "id": "report:public-research-2026-10-30-food-images-note",
+  "queries": {
+    "diagram-research-2026-10-30-food-images-note": {
+      "rows": [
+        {
+          "title": "原本缺图",
+          "text": "对照真实实拍：检验补齐商品信息是否有帮助。不是AI独有效果。"
+        },
+        {
+          "title": "真实实拍",
+          "text": "作为内容真实、份量准确的基线。价格、菜名、促销与可售状态保持一致。"
+        },
+        {
+          "title": "同一实拍的AI辅助处理",
+          "text": "对照真实实拍：检验额外制作或经营价值。不能增加实际没有的食材、配菜或份量。"
+        }
+      ],
+      "source": {
+        "label": "两种比较，回答不同的经营问题",
+        "files": [
+          "research/2026-10-30-food-images/note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "机制和口径",
+            "definition": "原创试点设计示意，非已执行实验。仅对原本缺图、出品稳定且平台允许的菜品考虑，不撤掉已有好图。 三个展示方案不是优劣排名。同期随机分流优先；无法分流时，只作记录条件差异的方向性观察。",
+            "componentIds": [
+              "diagram-research-2026-10-30-food-images-note"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "固定公开研究版本",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/e7575c5632a6bd4e1fd1752ff4e954fee29f615c/research/2026-10-30-food-images/note.md"
+          },
+          {
+            "title": "展示边界",
+            "detail": "原创试点设计示意，非已执行实验。仅对原本缺图、出品稳定且平台允许的菜品考虑，不撤掉已有好图。 三个展示方案不是优劣排名。同期随机分流优先；无法分流时，只作记录条件差异的方向性观察。"
+          }
+        ]
+      }
+    },
+    "diagram-research-2026-10-30-food-images-note:second": {
+      "rows": [
+        {
+          "title": "合格曝光",
+          "text": "试点前定义可售、能够正常下单的展示，组间计数一致。"
+        },
+        {
+          "title": "菜单→购物车",
+          "text": "项目方自报添加图片后提高6%—8%。未披露样本量、时长及随机分配细节。"
+        },
+        {
+          "title": "付款",
+          "text": "该演讲未报告对应付款增长。加购不是成交。"
+        },
+        {
+          "title": "退款、差评、复购",
+          "text": "该演讲未报告这些结果。各组需保留同样长的后续观察时间。"
+        }
+      ],
+      "source": {
+        "label": "证据停在哪一步，就别把结论推到下一步",
+        "files": [
+          "research/2026-10-30-food-images/note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "机制和口径",
+            "definition": "无比例的阶段图。6%—8%来自项目方公开演讲；未明确是相对增幅还是百分点，不能据此绘制可比较的增长柱。 这不是实测转化漏斗；节点宽度和箭头不表达人数、转化率或因果效果。",
+            "componentIds": [
+              "diagram-research-2026-10-30-food-images-note:second"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "固定公开研究版本",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/e7575c5632a6bd4e1fd1752ff4e954fee29f615c/research/2026-10-30-food-images/note.md"
+          },
+          {
+            "title": "展示边界",
+            "detail": "无比例的阶段图。6%—8%来自项目方公开演讲；未明确是相对增幅还是百分点，不能据此绘制可比较的增长柱。 这不是实测转化漏斗；节点宽度和箭头不表达人数、转化率或因果效果。"
+          }
+        ]
+      }
+    }
+  }
+}

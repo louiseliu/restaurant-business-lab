@@ -1,0 +1,155 @@
+{
+  "sourceCommit": "e7575c5632a6bd4e1fd1752ff4e954fee29f615c",
+  "files": [
+    {
+      "path": "BUILD.md",
+      "bytes": 3714,
+      "sha256": "e9be15a06a28b9ce62f885c781fabf5e785657f690ef808fddf0b92d5a53f08d",
+      "repositoryPath": "reports/batch-2026-10-30/BUILD.md"
+    },
+    {
+      "path": "food-images/article-entry.json",
+      "bytes": 4412,
+      "sha256": "eff6758c333cd10a3ea4d87f9484fd279dbca82177676ce536c84cb2adfe1a1e",
+      "repositoryPath": "reports/batch-2026-10-30/food-images/article-entry.json"
+    },
+    {
+      "path": "food-images/article-reviewed-data.json",
+      "bytes": 4300,
+      "sha256": "aa403933bd3edb86710c5e0c6f3264e172ccb866737a4aae16bc2aa3048897fa",
+      "repositoryPath": "reports/batch-2026-10-30/food-images/article-reviewed-data.json"
+    },
+    {
+      "path": "food-images/illustrated-story.json",
+      "bytes": 5068,
+      "sha256": "3e791ab77c68209e02a1ef2c25613eb125f229ae055af6b5c8df17e75d74c3eb",
+      "repositoryPath": "reports/batch-2026-10-30/food-images/illustrated-story.json"
+    },
+    {
+      "path": "food-images/report.html",
+      "bytes": 2908526,
+      "sha256": "897777c82612a530f765c2e2eba90540bea535c105371b047b83eb22623c8537",
+      "repositoryPath": "research/2026-10-30-food-images/report.html"
+    },
+    {
+      "path": "restocking-controls/article-entry.json",
+      "bytes": 4471,
+      "sha256": "526bf5984927d334a1f0ed6081ba5ef6c907bcdd99c729eb7a4afb8f53a298aa",
+      "repositoryPath": "reports/batch-2026-10-30/restocking-controls/article-entry.json"
+    },
+    {
+      "path": "restocking-controls/article-reviewed-data.json",
+      "bytes": 4495,
+      "sha256": "8d6edf8684844813a5ff5f6b46211aae65ee90102a151bc85119e5a34be58abc",
+      "repositoryPath": "reports/batch-2026-10-30/restocking-controls/article-reviewed-data.json"
+    },
+    {
+      "path": "restocking-controls/illustrated-story.json",
+      "bytes": 5460,
+      "sha256": "f4f2dd8455931cd10ab2c4bdfe850e0f070583ee2c1bc792c90ea61be75d6b55",
+      "repositoryPath": "reports/batch-2026-10-30/restocking-controls/illustrated-story.json"
+    },
+    {
+      "path": "restocking-controls/report.html",
+      "bytes": 2909155,
+      "sha256": "32e6ab5b7e9cceb8607785f48dabaf69b00e453ff3b20e15bc4d405ae0a25dfe",
+      "repositoryPath": "research/2026-10-30-restocking-controls/report.html"
+    },
+    {
+      "path": "shared/StandaloneArticle.jsx",
+      "bytes": 701,
+      "sha256": "7b7a027f195f640321ad91f8b38899832003064d740a71bd444af0a161666c17",
+      "repositoryPath": "reports/batch-2026-10-30/shared/StandaloneArticle.jsx"
+    },
+    {
+      "path": "shared/StandaloneReader.jsx",
+      "bytes": 8904,
+      "sha256": "ba01f0ad2136be0a8ee7785878bce4ceb2d397e6f5e1c034fed9c519605a6bcb",
+      "repositoryPath": "reports/batch-2026-10-30/shared/StandaloneReader.jsx"
+    },
+    {
+      "path": "shared/apply_batch.py",
+      "bytes": 1714,
+      "sha256": "fabd0de8df85f2a2fc2b34848817bf1228efdd26b33e1c14dbefe091d42fee02",
+      "repositoryPath": "reports/batch-2026-10-30/shared/apply_batch.py"
+    },
+    {
+      "path": "shared/article_topics.json",
+      "bytes": 437,
+      "sha256": "fe12192abba655d8d1401481257524983ede14ec0b1540108b3a08b41d5b5cc1",
+      "repositoryPath": "reports/batch-2026-10-30/shared/article_topics.json"
+    },
+    {
+      "path": "shared/illustrated.css",
+      "bytes": 10058,
+      "sha256": "d3391e118259960e9878f8d41df48bcd906cff09709aa00322c1089911cd25d7",
+      "repositoryPath": "reports/batch-2026-10-30/shared/illustrated.css"
+    },
+    {
+      "path": "shared/prepare_article.py",
+      "bytes": 1490,
+      "sha256": "c2d3fe8e99d48fec531c1c88277db3a003798ea76a444b5ac1e91ebadb7e0fed",
+      "repositoryPath": "reports/batch-2026-10-30/shared/prepare_article.py"
+    },
+    {
+      "path": "shared/sanitize_export.py",
+      "bytes": 354,
+      "sha256": "bcbd75fc74c9dd034facec8dec22780a1106966d167c215734b2a5ca8c840832",
+      "repositoryPath": "reports/batch-2026-10-30/shared/sanitize_export.py"
+    },
+    {
+      "path": "shared/sync_illustrated_queries.py",
+      "bytes": 1455,
+      "sha256": "8aa26a5d4fa601342c3ed87b24c49d144b23ddf0884104546b876a89c83ca793",
+      "repositoryPath": "reports/batch-2026-10-30/shared/sync_illustrated_queries.py"
+    },
+    {
+      "path": "shared/test_batch.py",
+      "bytes": 1636,
+      "sha256": "d21d6a3d15292383c3ab97fb6ad4a19d95a3dcc862321d0bfa049869d494315f",
+      "repositoryPath": "reports/batch-2026-10-30/shared/test_batch.py"
+    },
+    {
+      "path": "shared/test_reader_routes.mjs",
+      "bytes": 2281,
+      "sha256": "4a1bb0abd47d094183db062832d3d0f5c713d3e2104d3cc1182a870f430b3d0a",
+      "repositoryPath": "reports/batch-2026-10-30/shared/test_reader_routes.mjs"
+    },
+    {
+      "path": "shared/timeline.css",
+      "bytes": 7344,
+      "sha256": "c161178b2bcd859893d2e82e953666fd28cfa98a160630daf88e5016f9a135e7",
+      "repositoryPath": "reports/batch-2026-10-30/shared/timeline.css"
+    },
+    {
+      "path": "shared/validate_illustrated.py",
+      "bytes": 1440,
+      "sha256": "5ce9ab10ae4a39de9e30c6962579c1271b18aca755f438f94548ce9b44d16688",
+      "repositoryPath": "reports/batch-2026-10-30/shared/validate_illustrated.py"
+    },
+    {
+      "path": "voice-receptionist/article-entry.json",
+      "bytes": 4885,
+      "sha256": "1f61911b089be071f4334223a486b72139da2a7c1f9150ed0bae32d49706017f",
+      "repositoryPath": "reports/batch-2026-10-30/voice-receptionist/article-entry.json"
+    },
+    {
+      "path": "voice-receptionist/article-reviewed-data.json",
+      "bytes": 4436,
+      "sha256": "0f7314ab302835dd64bbe8ba59e4a6a3316a34d2adfb82b2c7aca178c84f26b0",
+      "repositoryPath": "reports/batch-2026-10-30/voice-receptionist/article-reviewed-data.json"
+    },
+    {
+      "path": "voice-receptionist/illustrated-story.json",
+      "bytes": 5774,
+      "sha256": "bc7d69885b2627699a3de0135aab7e3f4b0ea6a013f33d5c69376103ce17baee",
+      "repositoryPath": "reports/batch-2026-10-30/voice-receptionist/illustrated-story.json"
+    },
+    {
+      "path": "voice-receptionist/report.html",
+      "bytes": 2909800,
+      "sha256": "cde913bf348df560e3d88f0d08a858eb0ddda17837eefc289e7c660e4b9872bb",
+      "repositoryPath": "research/2026-10-30-voice-receptionist/report.html"
+    }
+  ]
+}
