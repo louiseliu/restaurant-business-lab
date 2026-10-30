@@ -1,0 +1,53 @@
+{
+  "sourceCommit": "1dd3d0510b28581dc12bc6b50cf9f4ff691b2c36",
+  "files": [
+    {
+      "path": "BUILD.md",
+      "bytes": 2549,
+      "sha256": "42ba01f8570b04fdcf1dcf3211fd53db0117f92c89bd458d5545bfb11a523066",
+      "repositoryPath": "reports/software-exit-site-source/BUILD.md"
+    },
+    {
+      "path": "article_topics.json",
+      "bytes": 587,
+      "sha256": "6a03587b12f26bc6d7b0dba7f64c856bc385626e11109e3f5db20179c7dfb845",
+      "repositoryPath": "reports/software-exit-site-source/article_topics.json"
+    },
+    {
+      "path": "software-exit/article-entry.json",
+      "bytes": 6851,
+      "sha256": "641e71695a03bd58410a8947a90ae6947ad41515ff28f771333e11b06b6b0baf",
+      "repositoryPath": "reports/software-exit-site-source/software-exit/article-entry.json"
+    },
+    {
+      "path": "software-exit/article-reviewed-data.json",
+      "bytes": 4641,
+      "sha256": "e7eec5c6d8f6eac62ca3d34ac3ae9d7d4700473743ba91f5c7c14ed300ec71d6",
+      "repositoryPath": "reports/software-exit-site-source/software-exit/article-reviewed-data.json"
+    },
+    {
+      "path": "software-exit/illustrated-story.json",
+      "bytes": 7159,
+      "sha256": "dc9cbdf8340ab13fc1273e9702f99d05bc04ff0b4885eb68a909127dca48d3a3",
+      "repositoryPath": "reports/software-exit-site-source/software-exit/illustrated-story.json"
+    },
+    {
+      "path": "software-exit/report.html",
+      "bytes": 2913368,
+      "sha256": "0d5d57f41a577968023b79730b4a9c10e4f94fb5e076abecacb18f3150bc10c7",
+      "repositoryPath": "research/2026-10-30-software-exit/report.html"
+    },
+    {
+      "path": "test_article.py",
+      "bytes": 1041,
+      "sha256": "504e16c7cb5c1f3f55e7e396d4d25dfebacb5cf3938fbaca760f09ea7092e6d1",
+      "repositoryPath": "reports/software-exit-site-source/test_article.py"
+    },
+    {
+      "path": "test_reader_routes.mjs",
+      "bytes": 2276,
+      "sha256": "a52dd8e9acadb31c4888b26041b06fccc7475ae9f896508247bd81146fb6462a",
+      "repositoryPath": "reports/software-exit-site-source/test_reader_routes.mjs"
+    }
+  ]
+}

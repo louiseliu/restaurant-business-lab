@@ -1,0 +1,98 @@
+{
+  "surface": "report",
+  "title": "换餐饮系统前 先验收数据能否接着用",
+  "generatedAt": "2026-10-30T06:16:00Z",
+  "status": "reviewed",
+  "buildStatus": "complete",
+  "exportPreferences": {
+    "selected": null,
+    "destinations": []
+  },
+  "filters": [],
+  "report": {},
+  "id": "report:public-research-2026-10-30-software-exit-note",
+  "queries": {
+    "diagram-research-2026-10-30-software-exit-note": {
+      "rows": [
+        {
+          "title": "导出入口",
+          "text": "正常服务期间能找到操作路径，按所需范围取得文件；官方有导出说明，不等于每家店的字段与权限都已核验。"
+        },
+        {
+          "title": "可还原账",
+          "text": "在原界面之外，解释收款、折扣与跨日退款关系；原单、商品与门店标识能对应，差额有口径说明。"
+        },
+        {
+          "title": "迁移接续",
+          "text": "只为今后仍需作出的经营判断映射关键关系。新旧报表不必每栏相同，但必要信息与合理差异应可解释。"
+        }
+      ],
+      "source": {
+        "label": "拿到文件之后，还要跨过两道经营验收",
+        "files": [
+          "research/2026-10-30-software-exit/note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "机制和口径",
+            "definition": "原创验收关系示意，非产品已支持能力矩阵；退款样本为测试设计，不是实际客户记录或已发现的产品缺陷。 下载成功、勾稽成功与业务接续是不同验收结果；没有实测字段，不据此断言某家产品做不到。",
+            "componentIds": [
+              "diagram-research-2026-10-30-software-exit-note"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "固定公开研究版本",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/1dd3d0510b28581dc12bc6b50cf9f4ff691b2c36/research/2026-10-30-software-exit/note.md"
+          },
+          {
+            "title": "展示边界",
+            "detail": "原创验收关系示意，非产品已支持能力矩阵；退款样本为测试设计，不是实际客户记录或已发现的产品缺陷。 下载成功、勾稽成功与业务接续是不同验收结果；没有实测字段，不据此断言某家产品做不到。"
+          }
+        ]
+      }
+    },
+    "diagram-research-2026-10-30-software-exit-note:second": {
+      "rows": [
+        {
+          "title": "试用或续费前",
+          "text": "用授权脱敏数据或模拟样本演练完整结算关系；明确本店必须保留的判断与字段。"
+        },
+        {
+          "title": "到期或停止前",
+          "text": "正常导出入口不代表终止后仍可使用。另行确认适用产品的访问期限、范围、格式、费用与双方责任。"
+        },
+        {
+          "title": "切换后",
+          "text": "按事先约定取得并核对交付；解释新旧口径差异，检查关键关联是否接续，不假定仍能随时回原系统取数。"
+        }
+      ],
+      "source": {
+        "label": "在仍可正常服务时，把退出安排谈具体",
+        "files": [
+          "research/2026-10-30-software-exit/note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "机制和口径",
+            "definition": "有条件的检查时点示意，不是统一法定窗口、免费服务承诺或固定退出天数。 银豹官方问答说明正常后台销售单据与商品资料有导出入口；通用协议未承诺统一免费只读导出窗口，具体产品安排另核。两者同时成立，不等于实际锁数、立即删除或拒绝所有导出。",
+            "componentIds": [
+              "diagram-research-2026-10-30-software-exit-note:second"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "固定公开研究版本",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/1dd3d0510b28581dc12bc6b50cf9f4ff691b2c36/research/2026-10-30-software-exit/note.md"
+          },
+          {
+            "title": "展示边界",
+            "detail": "有条件的检查时点示意，不是统一法定窗口、免费服务承诺或固定退出天数。 银豹官方问答说明正常后台销售单据与商品资料有导出入口；通用协议未承诺统一免费只读导出窗口，具体产品安排另核。两者同时成立，不等于实际锁数、立即删除或拒绝所有导出。"
+          }
+        ]
+      }
+    }
+  }
+}
