@@ -1,0 +1,47 @@
+{
+  "checked_at": "2026-10-30",
+  "article": "餐饮报销上AI前，先保住原始凭证与单价口径",
+  "evidence_status": "供应商具名客户案例；无独立实测或访谈；发布日期未确认",
+  "sources": [
+    {
+      "url": "https://hosecloud.com/cases/76.html",
+      "publisher": "合思",
+      "type": "供应商客户案例",
+      "customer": "新发现餐饮",
+      "published_at": null,
+      "supported_facts": [
+        "餐链未入库类食材报销回传货品档案、单位换算并比对公斤口径标准单价。",
+        "对异常给出驳回建议；不能据此认定自主拒付。",
+        "已有电子档案仍打印附件拍照上传，供应商称影响识别，并推动取消该要求。"
+      ],
+      "source_locations": "正文‘精准破局’与‘额外增益’，网页提取行231、219、240—242",
+      "not_supported": ["独立验证的经营收益", "客户完整审批权限及付款授权", "完整部署架构", "全部纸质档案可以销毁", "2026年新发布", "零错漏或绝对识别能力"],
+      "reuse_budget": "仅派生上述三项事实；正文约150中文字加事实边界，图文需继续压缩同源事实，不扩写原文；总量控制在200英文词等量以内"
+    },
+    {
+      "url": "https://www.hosecloud.com/blog/665535.html",
+      "publisher": "合思",
+      "title": "从‘规则搬运工’到‘制度解读者’：合思AI如何让大模型真正‘读懂’财务",
+      "published_at": "2026-09-17T10:00:00",
+      "use": "仅交叉核验并识别统计口径冲突；不采用效果数据、架构介绍或其他客户事实",
+      "conflicts": [
+        "案例页写每年3万+单据，博客写每月超3万张，时间分母冲突，未能确认统计范围。",
+        "博客同时呈现超过1个月到1周内与6.8天到1.7天两组审核周期，案例页采用前一组；是否对应不同流程阶段未知。"
+      ],
+      "editorial_resolution": "正文及配图不使用任何单量、节省、时长、准确率数字；不把有冲突口径择优包装为效果。"
+    }
+  ],
+  "analysis_not_case_facts": [
+    "识别、规则计算与业务异常判断的分层。",
+    "规格、净毛重、价格生效期、门店范围及配送加工等是一般性比较条件，并非新发现的已知具体异常。",
+    "差异解释链及试点方法为本文建议，不代表客户实际完整系统架构。",
+    "小店结构化表可能足够；已有可靠输入者应优先检查业务规则。"
+  ],
+  "checks": {
+    "source_claims_separated_from_analysis": true,
+    "no_quantified_outcome_claims": true,
+    "no_legal_or_tax_advice": true,
+    "no_new_product_or_testing_claims": true,
+    "body_chinese_character_count": 1748
+  }
+}
