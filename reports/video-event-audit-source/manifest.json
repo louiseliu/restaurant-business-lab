@@ -1,0 +1,22 @@
+{
+  "BUILD.md": {
+    "bytes": 1613,
+    "sha256": "91fb2eaee7db8a472fb1c8e34fd7da859265f57b00a141776c3678b5bd276708"
+  },
+  "test_article.py": {
+    "bytes": 1649,
+    "sha256": "ca152ef67502e18b09f7b36fcfa8b17e62c57670a21fe20e6b4ad6b611023be9"
+  },
+  "video-event-audit/article-entry.json": {
+    "bytes": 8081,
+    "sha256": "72ec359fc04e629c20af56a8bfc74d1f9a017c4140ce5c42f362b5adc1bfbf12"
+  },
+  "video-event-audit/article-reviewed-data.json": {
+    "bytes": 4987,
+    "sha256": "ed15eb23c72db5367ee12004ee6732aa4073404f886d29e933382f89cf9fe3b6"
+  },
+  "video-event-audit/illustrated-story.json": {
+    "bytes": 7362,
+    "sha256": "ef45602bc6e95b68bc7b5da45992ae3c07d50c87164afe63ea8e54f60c53f433"
+  }
+}

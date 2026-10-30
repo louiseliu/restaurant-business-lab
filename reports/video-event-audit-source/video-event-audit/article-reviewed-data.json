@@ -1,0 +1,106 @@
+{
+  "surface": "report",
+  "title": "餐饮 AI 巡店，先把告警变成可核查的事件",
+  "generatedAt": "2026-10-30T18:06:06Z",
+  "status": "reviewed",
+  "buildStatus": "complete",
+  "exportPreferences": {
+    "selected": null,
+    "destinations": []
+  },
+  "filters": [],
+  "report": {},
+  "id": "report:video-event-audit-20261030",
+  "queries": {
+    "diagram-research-2026-10-30-video-event-audit-note": {
+      "rows": [
+        {
+          "title": "案例披露｜生成候选",
+          "text": "视频检测与过滤缩小查找范围；这是需要核查的线索，不是已确认的经营问题。"
+        },
+        {
+          "title": "案例披露｜接上记录",
+          "text": "结合POS记录、提供视频时间标记，供人工回溯。匹配规则与核查结果未公开。"
+        },
+        {
+          "title": "建议｜人工解释差异",
+          "text": "先查记录是否可对应，再区分数据故障、规则不适合与尚待调查；保留“不构成问题”的出口。"
+        },
+        {
+          "title": "建议｜必要时处理与复查",
+          "text": "只有核清并确认需处理，才安排责任与复查。不能从候选告警直接跳到对个人的不利评价。"
+        }
+      ],
+      "source": {
+        "label": "从“看到了”到“解释清楚”，证据不能跳级",
+        "files": [
+          "research/2026-10-30-video-event-audit/note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "机制和边界",
+            "definition": "原创机制示意。前两步概括2024年供应商申报案例披露；后两步是研究院的验收建议，不是正新已公开验证的整改闭环。 正新资料为供应商申报，不是协会独立审计。图中没有准确率、节时或损失效果；未展示真实人员画面。",
+            "componentIds": [
+              "diagram-research-2026-10-30-video-event-audit-note"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "固定公开研究版本",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/9ba2df51078bbd601df171b7025dbbd851529f96/research/2026-10-30-video-event-audit/note.md"
+          },
+          {
+            "title": "展示边界",
+            "detail": "原创机制示意。前两步概括2024年供应商申报案例披露；后两步是研究院的验收建议，不是正新已公开验证的整改闭环。 正新资料为供应商申报，不是协会独立审计。图中没有准确率、节时或损失效果；未展示真实人员画面。"
+          }
+        ]
+      }
+    },
+    "diagram-research-2026-10-30-video-event-audit-note:second": {
+      "rows": [
+        {
+          "title": "连接可用 × 有人复核",
+          "text": "可以选一个边界清楚的问题试验。记录查找时间、解释时间及积压，再判断完整工作是否改善。"
+        },
+        {
+          "title": "连接可用 × 无人承接",
+          "text": "先明确复核责任或缩小范围。更快产生待核任务，可能只是把工作压给忙碌店长。"
+        },
+        {
+          "title": "连接不稳 × 有人复核",
+          "text": "先核对时间、接口和记账规则。不要用技术故障制造的红点考核“发现能力”。"
+        },
+        {
+          "title": "连接不稳 × 无人承接",
+          "text": "优先统一记录与抽样核账。若现有方式已够便宜、问题很少，采购建议可以反转。"
+        }
+      ],
+      "source": {
+        "label": "两项条件，决定先试AI还是先补基础",
+        "files": [
+          "research/2026-10-30-video-event-audit/note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "机制和边界",
+            "definition": "研究院建议的采购决策矩阵：比较数据连接可靠性与人工复核承接能力，不是门店分组实测或客户现状。 “连接可用”不能只看接口通不通，还需能对应正确门店、时间和交易。误配、漏配等反例需在自己的授权场景核验。",
+            "componentIds": [
+              "diagram-research-2026-10-30-video-event-audit-note:second"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "固定公开研究版本",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/9ba2df51078bbd601df171b7025dbbd851529f96/research/2026-10-30-video-event-audit/note.md"
+          },
+          {
+            "title": "展示边界",
+            "detail": "研究院建议的采购决策矩阵：比较数据连接可靠性与人工复核承接能力，不是门店分组实测或客户现状。 “连接可用”不能只看接口通不通，还需能对应正确门店、时间和交易。误配、漏配等反例需在自己的授权场景核验。"
+          }
+        ]
+      }
+    }
+  }
+}
