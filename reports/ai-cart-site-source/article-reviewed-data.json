@@ -1,0 +1,98 @@
+{
+  "surface": "report",
+  "title": "AI加购是否真正提高餐饮门店利润",
+  "generatedAt": "2026-10-29T22:05:00Z",
+  "status": "reviewed",
+  "buildStatus": "complete",
+  "exportPreferences": {
+    "selected": null,
+    "destinations": []
+  },
+  "filters": [],
+  "report": {},
+  "queries": {
+    "diagram-research-2026-10-29-ai-cart-recommendations-note": {
+      "rows": [
+        {
+          "title": "ABV +1%",
+          "text": "订单金额合计 ÷ 已成订单数。回答‘成单后平均买多少’，没有把未成交访客纳入分母。"
+        },
+        {
+          "title": "Order Share +8%",
+          "text": "含推荐加购商品的订单数 ÷ 总订单数。回答‘推荐加购渗透多少订单’，不是总订单多了8%。"
+        }
+      ],
+      "source": {
+        "label": "同一轮实验，两个分母不同的答案",
+        "files": [
+          "research/2026-10-29-ai-cart-recommendations/note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "机制和口径",
+            "definition": "2023年论文报告：五国购物车推荐，规则推荐对照CatBoost。两组都有推荐；下列为相对变化，不是百分点。 作者报告两项达到95%统计显著性，但未披露线上样本量、实际实验日期时长、随机分流实施与利润。不能据此推出门店净收益或无推荐对照效果。图为指标口径对照，非同尺度效果排名。",
+            "componentIds": [
+              "diagram-research-2026-10-29-ai-cart-recommendations-note"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "固定公开研究版本",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/5c14b9b034b8ecab34fbae4c38523126b0c4cb6c/research/2026-10-29-ai-cart-recommendations/note.md"
+          },
+          {
+            "title": "展示边界",
+            "detail": "2023年论文报告：五国购物车推荐，规则推荐对照CatBoost。两组都有推荐；下列为相对变化，不是百分点。 作者报告两项达到95%统计显著性，但未披露线上样本量、实际实验日期时长、随机分流实施与利润。不能据此推出门店净收益或无推荐对照效果。图为指标口径对照，非同尺度效果排名。"
+          }
+        ]
+      }
+    },
+    "diagram-research-2026-10-29-ai-cart-recommendations-note:second": {
+      "rows": [
+        {
+          "title": "先定合格访客",
+          "text": "进入指定点餐阶段且可被推荐；未成交者也保留。不按事后点击或购买筛选。"
+        },
+        {
+          "title": "再看成交与替代",
+          "text": "核对成单、取消和原有菜品被替代；推荐归因不自动等于新增需求。"
+        },
+        {
+          "title": "计算每客贡献",
+          "text": "扣除门店优惠后的实收，再扣对应食材、包装、佣金及尚未扣除的退款和增量履约成本，除以全部合格访客。"
+        },
+        {
+          "title": "扣系统成本、看护栏",
+          "text": "另计模型与接入维护费用，检查出餐、缺货和复购；避免重复扣费。"
+        }
+      ],
+      "source": {
+        "label": "把‘加购’一路核对到‘净增量’",
+        "files": [
+          "research/2026-10-29-ai-cart-recommendations/note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "机制和口径",
+            "definition": "验证设计示意，尚未执行门店试验。四步需要同一批合格访客、同一评价窗口和可比经营条件。 只有净增量覆盖系统成本且关键运营指标没有不可接受恶化，才讨论扩展。没有样本与成本输入，就保留未知，不补造利润或回本期。",
+            "componentIds": [
+              "diagram-research-2026-10-29-ai-cart-recommendations-note:second"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "固定公开研究版本",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/5c14b9b034b8ecab34fbae4c38523126b0c4cb6c/research/2026-10-29-ai-cart-recommendations/note.md"
+          },
+          {
+            "title": "展示边界",
+            "detail": "验证设计示意，尚未执行门店试验。四步需要同一批合格访客、同一评价窗口和可比经营条件。 只有净增量覆盖系统成本且关键运营指标没有不可接受恶化，才讨论扩展。没有样本与成本输入，就保留未知，不补造利润或回本期。"
+          }
+        ]
+      }
+    }
+  },
+  "id": "report:public-ai-cart-recommendations"
+}

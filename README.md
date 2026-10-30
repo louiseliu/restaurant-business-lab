@@ -29,7 +29,7 @@
 
 ## 全文与图文时间线
 
-原站已升级为文章时间线：9 篇研究均有独立图文读本（每篇至少两幅有信息价值的图），同时保留 29 份 Markdown 全文、方法及历史记录和原蜜雪老板版。当前原站研究内容基准已增量更新至 `327353e38ea3b8981bd2ea8937e9d1aaa0ad28e2`；按首次 Git 提交时间倒序、显示北京时间，不冒充来源发布日期。
+原站已升级为文章时间线：10 篇研究均有独立图文读本（每篇至少两幅有信息价值的图），同时保留 30 份 Markdown 全文、方法及历史记录和原蜜雪老板版。当前原站研究内容基准已增量更新至 `5c14b9b034b8ecab34fbae4c38523126b0c4cb6c`；按首次 Git 提交时间倒序、显示北京时间，不冒充来源发布日期。
 
 [下载公共安全图文 HTML](reports/restaurant-illustrated-public/restaurant-research-illustrated.html)，用启用 JavaScript 的现代浏览器打开；无需外部 CDN。[作者源码与维护流程](reports/restaurant-illustrated-public/source-final/BUILD.md)。这是静态同步，不是实时抓取，不新增定时任务；AI 专题已有首篇[食物减损机制研究](research/2026-10-29-ai-food-waste/note.md)，[独立离线图文](research/2026-10-29-ai-food-waste/report.html)与[作者增量源](reports/ai-food-waste-site-source/BUILD.md)已归档；原站 v6 已发布验收。后续研究须先核验证据，再制作逐篇图文与来源/未知/行动说明，不能用装饰图或虚构数字替代分析。
 
@@ -41,7 +41,9 @@
 - [AI 辅助经营周报](examples/ai-weekly-report/README.md)：完整模拟输入、实际执行的 Python 清洗/分析、AI 辅助文稿及逐记录追溯；不是客户实测，没有外部模型 API、真实数据上传或节时/准确率收益测量。
 - [站内样板承载源码与复建说明](reports/samples-site-source/BUILD.md)：从本仓库相对路径读取已核验 HTML/ZIP，检查哈希后生成站内载荷，不自动发布。
 
-两个样板可在原站阅读并下载各自完整包，单独计为示范，不增加 9 篇研究的计数。样板包中的“local-only／未发布”描述保留其制作冻结时状态；当前公开归档以提交历史为准。此前整站离线 HTML 仍是 **v4 固定快照**，不含 v5 样板入口或 v6 新文章；后续分别归档两份独立样板、可复建承载源及新文章独立 HTML/增量源，不声称另有最新整站离线包。v5 的连接与发布仍须官方 Data runtime 和实际验收。
+两个样板可在原站阅读并下载各自完整包，单独计为示范，不增加 10 篇研究的计数。样板包中的“local-only／未发布”描述保留其制作冻结时状态；当前公开归档以提交历史为准。此前整站离线 HTML 仍是 **v4 固定快照**，不含 v5 样板入口或 v6 新文章；后续分别归档两份独立样板、可复建承载源及新文章独立 HTML/增量源，不声称另有最新整站离线包。v5 的连接与发布仍须官方 Data runtime 和实际验收。
+
+新增第 10 篇 [AI 加购研究](research/2026-10-29-ai-cart-recommendations/note.md)，附[独立离线图文](research/2026-10-29-ai-cart-recommendations/report.html)与[作者增量源](reports/ai-cart-site-source/BUILD.md)。原站 v8 已发布并验收，10 篇研究/30 份全文/2 项样板，保留 v7 阅读体验。历史平台 A/B 是作者报告，不是本项目门店实测；不能将客单提升视为小店利润提升。当前更新是静态增量，不是自动同步；旧 v4 整站离线 HTML 快照保持不变，也不含本篇。
 
 ## 阅读界面维护
 
