@@ -1,0 +1,53 @@
+{
+  "sourceCommit": "2d35d3947a51ebafdf8097d393ce49d6db457411",
+  "files": [
+    {
+      "path": "BUILD.md",
+      "bytes": 2546,
+      "sha256": "6fc369c534db1f2ee52818662dcebc01047bb1919bca801d300cd06df079d458",
+      "repositoryPath": "reports/qsmart-site-source/BUILD.md"
+    },
+    {
+      "path": "article_topics.json",
+      "bytes": 665,
+      "sha256": "53d02dbddc0f2702530e8686e9dff7f91d3a7aaacf533d7cf171d42fd3dd0e36",
+      "repositoryPath": "reports/qsmart-site-source/article_topics.json"
+    },
+    {
+      "path": "qsmart/article-entry.json",
+      "bytes": 7740,
+      "sha256": "c41d51c939902d0bb00a70c3de5359a0826238ec0397b566c1d8facaa350fa48",
+      "repositoryPath": "reports/qsmart-site-source/qsmart/article-entry.json"
+    },
+    {
+      "path": "qsmart/article-reviewed-data.json",
+      "bytes": 4666,
+      "sha256": "a37231c5bdf885a8694ad2b34422e0f4d48b7cf23025fd0f9a304bcb5f4fe427",
+      "repositoryPath": "reports/qsmart-site-source/qsmart/article-reviewed-data.json"
+    },
+    {
+      "path": "qsmart/illustrated-story.json",
+      "bytes": 6930,
+      "sha256": "0478255727d2d47ab88d371e505973d90443932b014876864476618d1845388d",
+      "repositoryPath": "reports/qsmart-site-source/qsmart/illustrated-story.json"
+    },
+    {
+      "path": "qsmart/report.html",
+      "bytes": 2914086,
+      "sha256": "1970d7a6b2135ddcdd6a0f94151fbcf5732c757fc2ac2b7f299f889a5af18d52",
+      "repositoryPath": "research/2026-10-30-qsmart/report.html"
+    },
+    {
+      "path": "test_article.py",
+      "bytes": 1092,
+      "sha256": "d54a0486c8bf6b0744b2a5792ecd7ad8ebf66790d369164d43701e169a5a6fc7",
+      "repositoryPath": "reports/qsmart-site-source/test_article.py"
+    },
+    {
+      "path": "test_reader_routes.mjs",
+      "bytes": 2269,
+      "sha256": "39d4f246b466ede5113740812214b1bd975e2f800309cec0a25c32ab0590db36",
+      "repositoryPath": "reports/qsmart-site-source/test_reader_routes.mjs"
+    }
+  ]
+}
