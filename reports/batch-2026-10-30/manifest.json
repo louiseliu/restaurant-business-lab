@@ -3,8 +3,8 @@
   "files": [
     {
       "path": "BUILD.md",
-      "bytes": 3714,
-      "sha256": "e9be15a06a28b9ce62f885c781fabf5e785657f690ef808fddf0b92d5a53f08d",
+      "bytes": 4082,
+      "sha256": "f4aaf0bd3c5fbb7041a333bbeb8c8107b01da62d02c5e613817b0a4c66b2eabb",
       "repositoryPath": "reports/batch-2026-10-30/BUILD.md"
     },
     {
@@ -105,8 +105,8 @@
     },
     {
       "path": "shared/test_batch.py",
-      "bytes": 1636,
-      "sha256": "d21d6a3d15292383c3ab97fb6ad4a19d95a3dcc862321d0bfa049869d494315f",
+      "bytes": 1751,
+      "sha256": "27612b374ed693d526c21f3960f41ea5e08da6f0f83e979be082b4fbfd78dddc",
       "repositoryPath": "reports/batch-2026-10-30/shared/test_batch.py"
     },
     {
@@ -129,27 +129,50 @@
     },
     {
       "path": "voice-receptionist/article-entry.json",
-      "bytes": 4885,
-      "sha256": "1f61911b089be071f4334223a486b72139da2a7c1f9150ed0bae32d49706017f",
+      "bytes": 8012,
+      "sha256": "2da0a12a4401e7b39db337a2773e7b9626bb35605bb9eed335b1a59806d793a3",
       "repositoryPath": "reports/batch-2026-10-30/voice-receptionist/article-entry.json"
     },
     {
       "path": "voice-receptionist/article-reviewed-data.json",
-      "bytes": 4436,
-      "sha256": "0f7314ab302835dd64bbe8ba59e4a6a3316a34d2adfb82b2c7aca178c84f26b0",
+      "bytes": 4961,
+      "sha256": "551987fbd7e2da4cfa355348279292af180627da78a96b0e7c407e4ddbfc6ab1",
       "repositoryPath": "reports/batch-2026-10-30/voice-receptionist/article-reviewed-data.json"
     },
     {
       "path": "voice-receptionist/illustrated-story.json",
-      "bytes": 5774,
-      "sha256": "bc7d69885b2627699a3de0135aab7e3f4b0ea6a013f33d5c69376103ce17baee",
+      "bytes": 7629,
+      "sha256": "ce33f2e70d4197ed132bca3f18b8b9dd18ff99123aa07cd8a9db496b3a6cc662",
       "repositoryPath": "reports/batch-2026-10-30/voice-receptionist/illustrated-story.json"
     },
     {
       "path": "voice-receptionist/report.html",
-      "bytes": 2909800,
-      "sha256": "cde913bf348df560e3d88f0d08a858eb0ddda17837eefc289e7c660e4b9872bb",
+      "bytes": 2915295,
+      "sha256": "ff687ea6a47267e3dea9f8100f338daa07585507293a712336d10d31908a0436",
       "repositoryPath": "research/2026-10-30-voice-receptionist/report.html"
+    },
+    {
+      "path": "voice-receptionist/update-guard.json",
+      "bytes": 362,
+      "sha256": "0b70542b2037e30e5b8c33916301423bd017f3491a636c13ca9c993889a8f99d",
+      "repositoryPath": "reports/batch-2026-10-30/voice-receptionist/update-guard.json"
+    },
+    {
+      "path": "shared/update_article.py",
+      "bytes": 1747,
+      "sha256": "3580cf1a394eb1eb9e43e7c443c62a2969405c4662e95fe03eb3873b42acd127",
+      "repositoryPath": "reports/batch-2026-10-30/shared/update_article.py"
+    },
+    {
+      "path": "EDITORIAL-UPDATE.md",
+      "bytes": 842,
+      "sha256": "7b956860d032d0e43cfeacf4c8651ed8d38826da6d9ad662058adde73a927224",
+      "repositoryPath": "reports/batch-2026-10-30/EDITORIAL-UPDATE.md"
     }
-  ]
+  ],
+  "editorialRevision": {
+    "sourceCommit": "e6f524b36e3efd43e7c7d43ee43439852030412c",
+    "scope": "voice-receptionist only; first commit unchanged",
+    "updatedAt": "2026-10-30T04:23:39Z"
+  }
 }

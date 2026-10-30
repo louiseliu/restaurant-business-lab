@@ -1,7 +1,7 @@
 {
   "surface": "report",
-  "title": "AI接电话能省什么 哪些事仍要人接手",
-  "generatedAt": "2026-10-30T04:07:00Z",
+  "title": "AI电话接待值不值得买，先看前厅的服务瓶颈",
+  "generatedAt": "2026-10-30T04:25:00Z",
   "status": "reviewed",
   "buildStatus": "complete",
   "exportPreferences": {
@@ -15,31 +15,31 @@
     "diagram-research-2026-10-30-voice-receptionist-note": {
       "rows": [
         {
-          "title": "接通",
-          "text": "记录来电类型、漏接与放弃。接上电话不代表已完成顾客任务。"
+          "title": "来电落在什么时段",
+          "text": "是否与迎宾、结账最紧张的餐段重叠？空闲时段的常规问答，与高峰的反复打断不是同一种损失。"
         },
         {
-          "title": "任务完成",
-          "text": "分别核对回答、预订记录与转接结果；转给员工也可能是正确完成路径。"
+          "title": "员工正在做什么",
+          "text": "同一人同时接电话与服务到店客人，电话占用的不只是通话本身，还可能中断现场服务。"
         },
         {
-          "title": "员工时间减少",
-          "text": "扣除复核、更新知识与接手难题的工时，看饭点打断是否真正减少。"
+          "title": "释放时间去哪里",
+          "text": "员工继续迎宾、解释菜品或结账，可能改善服务连贯性；并不自动减少排班。"
         },
         {
-          "title": "付薪排班改变",
-          "text": "只有实际付薪安排发生可核减少，才讨论现金节省；体验改善单独记录。"
+          "title": "分别确认两类价值",
+          "text": "服务改善独立观察；只有实际减少付薪工时或其他现金人工支出，才确认人工现金节省。"
         }
       ],
       "source": {
-        "label": "从接通到省钱，中间有四道验收",
+        "label": "同样一通来电，为什么对两家店的价值不同？",
         "files": [
           "research/2026-10-30-voice-receptionist/note.md"
         ],
         "metricDefinitions": [
           {
             "label": "机制和口径",
-            "definition": "原创经营验收链，非实测效果图；不能把案例的自动处理比例套用到后续环节。 Titan案例为具名自述经媒体报道，非独立审计；集团未因系统裁员。不能将无需员工介入直接写成工资下降。",
+            "definition": "前厅工作机制示意，非Titan已测得结果；没有人数、分钟或利润比例含义。 不能用前厅工资平均摊到电话，再乘自动处理量，就宣称节省工资。该算法把兼任多项工作的员工误当成专职接线员。",
             "componentIds": [
               "diagram-research-2026-10-30-voice-receptionist-note"
             ]
@@ -48,11 +48,11 @@
         "evidenceFlow": [
           {
             "title": "固定公开研究版本",
-            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/e7575c5632a6bd4e1fd1752ff4e954fee29f615c/research/2026-10-30-voice-receptionist/note.md"
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/e6f524b36e3efd43e7c7d43ee43439852030412c/research/2026-10-30-voice-receptionist/note.md"
           },
           {
             "title": "展示边界",
-            "detail": "原创经营验收链，非实测效果图；不能把案例的自动处理比例套用到后续环节。 Titan案例为具名自述经媒体报道，非独立审计；集团未因系统裁员。不能将无需员工介入直接写成工资下降。"
+            "detail": "前厅工作机制示意，非Titan已测得结果；没有人数、分钟或利润比例含义。 不能用前厅工资平均摊到电话，再乘自动处理量，就宣称节省工资。该算法把兼任多项工作的员工误当成专职接线员。"
           }
         ]
       }
@@ -60,27 +60,27 @@
     "diagram-research-2026-10-30-voice-receptionist-note:second": {
       "rows": [
         {
-          "title": "常规回答",
-          "text": "营业与活动信息要准确且持续更新；听起来流利不能替代核对实际答案。"
+          "title": "简单且确定的问答",
+          "text": "先保证知识准确、有人维护。能回答时间却漏掉活动形式，仍可能增加顾客后续求助。"
         },
         {
-          "title": "明确人工入口",
-          "text": "座机无法接收短信确认及支付链接、涉及取消费的操作可能需要人接；每班明确接手者与替补。"
+          "title": "重要或需判断的需求",
+          "text": "投诉、私人活动咨询、明确找人等，应结合本店业务决定接手优先级，不被大量简单问答的成绩掩盖。"
         },
         {
-          "title": "完整成本清单",
-          "text": "订阅用量、实施超时、电话短信、平台集成、税汇与退出逐项询价；另记店内培训、更新和复核工时。"
+          "title": "人工路径真的接得住",
+          "text": "指定当班接手者与替补，连看转接等待、接通与顾客放弃。复杂来电仍挤到饭点同一员工，瓶颈可能只是后移。"
         }
       ],
       "source": {
-        "label": "自动服务、人工兜底、完整费用：一起验收",
+        "label": "自动化不是把电话留在机器里，而是把任务送到合适的人",
         "files": [
           "research/2026-10-30-voice-receptionist/note.md"
         ],
         "metricDefinitions": [
           {
             "label": "机制和口径",
-            "definition": "流程与采购清单示意，非费用实测。产品功能事实只限已上线OpenTable集成的相应场景。 清单是待询价项目，不表示全部实际另收费。预订功能边界不是菜品退款或POS接单能力的证明。",
+            "definition": "原创任务与接手机制图，尚未实施门店试点；不把所有转接视为成功，也不把转接本身视为失败。 Titan后来采用混合电话菜单，提示知识维护与流程设计要同时做。一个及时转人且完成任务的方案，可能比只追求高自动处理率更适合某家店；这是机制判断，不是已证明的效果排名。",
             "componentIds": [
               "diagram-research-2026-10-30-voice-receptionist-note:second"
             ]
@@ -89,11 +89,11 @@
         "evidenceFlow": [
           {
             "title": "固定公开研究版本",
-            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/e7575c5632a6bd4e1fd1752ff4e954fee29f615c/research/2026-10-30-voice-receptionist/note.md"
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/e6f524b36e3efd43e7c7d43ee43439852030412c/research/2026-10-30-voice-receptionist/note.md"
           },
           {
             "title": "展示边界",
-            "detail": "流程与采购清单示意，非费用实测。产品功能事实只限已上线OpenTable集成的相应场景。 清单是待询价项目，不表示全部实际另收费。预订功能边界不是菜品退款或POS接单能力的证明。"
+            "detail": "原创任务与接手机制图，尚未实施门店试点；不把所有转接视为成功，也不把转接本身视为失败。 Titan后来采用混合电话菜单，提示知识维护与流程设计要同时做。一个及时转人且完成任务的方案，可能比只追求高自动处理率更适合某家店；这是机制判断，不是已证明的效果排名。"
           }
         ]
       }

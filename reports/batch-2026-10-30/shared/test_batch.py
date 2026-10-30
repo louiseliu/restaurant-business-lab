@@ -7,7 +7,8 @@ for file in entries:
  a=json.loads(file.read_text());s=json.loads((file.parent/'illustrated-story.json').read_text());d=json.loads((file.parent/'article-reviewed-data.json').read_text())
  assert a['id']==s['id'];assert a['publishedAt']=='2026-10-30T04:06:26Z'
  assert hashlib.sha256(a['body'].encode()).hexdigest()==a['originalBodySha256']
- assert '/e7575c5632a6bd4e1fd1752ff4e954fee29f615c/' in a['sourceUrl']
+ expected='e6f524b36e3efd43e7c7d43ee43439852030412c' if file.parent.name=='voice-receptionist' else 'e7575c5632a6bd4e1fd1752ff4e954fee29f615c'
+ assert '/'+expected+'/' in a['sourceUrl']
  for diagram in ['diagram','secondDiagram']:assert len(s[diagram]['nodes'])>=3
  assert len(d['queries'])==2
  if file.parent.name=='restocking-controls':assert a['topics']==['business-model']

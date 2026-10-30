@@ -43,3 +43,7 @@ python shared/prepare_article.py food-images "$EXPORT_PROJECT/src"
 ## Git 归档路径
 
 本目录只归档作者增量。三个独立 HTML 位于仓库 `research/2026-10-30-<主题>/report.html`，主题为 food-images、restocking-controls、voice-receptionist，不在本目录重复保存。复建时仍生成到主题目录，清理元数据并核验后再复制至对应研究路径。manifest 的 path 是原冻结包相对路径，repositoryPath 是实际仓库路径；HTML 哈希不因移动改变。
+
+## 后续同篇修订
+
+电话篇已有研究院风格修订，来源固定为 `e6f524b36e3efd43e7c7d43ee43439852030412c`，首次入库时间不变。当前条目以 manifest 及[同篇更新说明](EDITORIAL-UPDATE.md)为准；已有旧版时使用带旧内容哈希保护的更新脚本，不用追加脚本强行覆盖。其余两篇来源及离线 HTML 未变。
