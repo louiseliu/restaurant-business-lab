@@ -1,0 +1,66 @@
+{
+  "article_title": "AI店务助手该先接手哪项工作？从百胜Q-Smart看任务兑现",
+  "verified_at": "2026-10-30",
+  "verification_method": "直接打开官方PDF并逐段核对；公开企业自述，非独立现场实测",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Yum China 2025 Investor Day Transcript",
+      "publisher": "Yum China",
+      "date": "2025-11-16",
+      "url": "https://ir.yumchina.com/static-files/24cb5cb5-1316-4368-af06-18a388f3d5b2",
+      "pages": "印刷33—35页（PDF第33—35页）",
+      "supported_claims": [
+        {
+          "claim": "自动补货系统由AI建议、RGM确认",
+          "locator": "印刷33页；PDF零基P32，行1170—1173",
+          "boundary": "不同系统的披露；不可推断Q-Smart所有操作均适用此确认机制。"
+        },
+        {
+          "claim": "Q-Smart可对可能售罄发出警报并生成生产计划",
+          "locator": "印刷35页；PDF零基P34，行1213—1216",
+          "boundary": "公司能力描述，不代表生产已自动执行或销售结果改善。"
+        },
+        {
+          "claim": "Q-Smart于2025年6月启动，投资者日时正在数家试点门店测试",
+          "locator": "印刷35页；PDF零基P34，行1218—1220",
+          "boundary": "历史披露，不代表2026年10月完整部署现状。"
+        }
+      ],
+      "derived_content_budget": "文章对本源的事实转述约一个短段，控制在200英文词等量以内；无长引文。",
+      "date_basis": "文字稿封面日期；活动北京时间为2025年11月17日，正文仅按2025年11月叙述。"
+    },
+    {
+      "id": "S2",
+      "title": "Yum China 4Q25 Financial Results Earnings Call Transcript",
+      "publisher": "Yum China",
+      "date": "2026-02-04",
+      "url": "https://ir.yumchina.com/static-files/270ae508-bd53-4dde-9a2f-563ad32dbc6f",
+      "pages": "PDF第4页（零基P3）",
+      "supported_claims": [
+        {
+          "claim": "当时Q-Smart仍在试点，并整合劳动力和库存等运营数据",
+          "locator": "行96—99",
+          "boundary": "未披露覆盖门店数或完整技术架构。"
+        },
+        {
+          "claim": "公司举例：发现缺员、建议替补人员、发起电话",
+          "locator": "行99—101",
+          "boundary": "事实链止于电话发起；未披露拨号前确认、员工答应、班表写入、到岗及成功率。"
+        }
+      ],
+      "derived_content_budget": "文章对本源的事实转述约一个短段，控制在200英文词等量以内；无长引文。"
+    }
+  ],
+  "analysis_not_company_claims": [
+    "适用条件：记录可靠、替补资源可用、任务结果可观察。",
+    "由店长确认联系对象、超时转人工等均是研究院试验设计。",
+    "验收终点、完整任务分母、例外成本、人工对照等均是研究院建议。",
+    "未测算利润、现金节省或回本周期，未宣称AI替代店长。"
+  ],
+  "limitations": [
+    "没有独立门店效果核验。",
+    "不以截至2026年2月的披露推断发表时最新部署状态。",
+    "相关性、能力演示不等于结果因果或全流程闭环。"
+  ]
+}
