@@ -1,0 +1,95 @@
+{
+  "title": "AI菜品图的增长，先问和谁比较",
+  "artifact_type": "short_case_study_source_manifest",
+  "language": "zh-CN",
+  "verified_at": "2026-10-30",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "AI for Food Image Generation in Production: How & Why",
+      "url": "https://www.infoq.com/presentations/ai-food-image-generation/",
+      "publisher": "InfoQ",
+      "speaker": "Iaroslav Amerkhanov",
+      "speaker_role_at_talk": "Leading development of AI solutions at Delivery Hero",
+      "source_type": "Primary practitioner presentation with public transcript",
+      "access_status": "Public transcript read on 2026-10-30",
+      "source_limit": "Single project-owner self-report; no independent replication reviewed.",
+      "claims_used": [
+        {
+          "claim": "The speaker reported a 6% to 8% increase in menu-to-cart conversion after adding an image to a product in an A/B test.",
+          "locator": "Transcript: What About the Results?; browser text L283",
+          "evidence_class": "Vendor/project-owner reported result",
+          "do_not_infer": [
+            "AI-generated images beat real photography",
+            "Paid-order conversion or sales increased by 6% to 8%",
+            "The figure is an increase of 6 to 8 percentage points",
+            "Refunds, repeat purchase or net profit improved",
+            "The result generalizes to a Chinese restaurant or platform"
+          ]
+        },
+        {
+          "claim": "Regional content expertise was used to select images in the MVP workflow.",
+          "locator": "Transcript: How the MVP Was Built; browser text L222",
+          "evidence_class": "Reported operating process"
+        },
+        {
+          "claim": "The speaker recommended measuring generative-system quality before optimizing the generative component.",
+          "locator": "Transcript: Key Takeaways; browser text L289",
+          "evidence_class": "Speaker recommendation"
+        }
+      ],
+      "unreported_in_reviewed_transcript": [
+        "A/B sample size",
+        "A/B test duration",
+        "Randomization details",
+        "Whether 6% to 8% means a relative lift or an absolute percentage-point change",
+        "Direct AI-image versus real-photograph comparison",
+        "Paid-order, refund, review, retention or net-profit outcomes"
+      ]
+    }
+  ],
+  "author_analysis": [
+    "Filling an information gap and demonstrating an AI advantage are distinct hypotheses.",
+    "A comparison against missing images does not isolate AI-specific value over real photography.",
+    "Production efficiency and restaurant operating gains should be assessed separately."
+  ],
+  "author_recommendations_not_test_results": [
+    "Where permitted and technically feasible, compare initially missing images, real photography and AI-assisted editing of the same real dish.",
+    "Keep ingredients, portion, pricing, promotions and selling conditions consistent; do not create a misleading portrayal.",
+    "Prefer concurrent randomized assignment when supported. Nonrandom time comparisons are directional only and require recording possible confounders.",
+    "Predefine qualified exposure, an observation window, insufficient-data treatment and a stop condition for image–dish mismatch complaints.",
+    "Use consistent exposure, cart, payment and post-purchase outcome definitions across groups, with equal follow-up windows.",
+    "Track production and review labor separately from paid-order economics."
+  ],
+  "limitations": [
+    "No field pilot conducted.",
+    "No new sales, profit or statistical estimates calculated.",
+    "Applicability to Chinese restaurants and platforms is unknown.",
+    "Current platform requirements require separate verification; the article makes no legal determination.",
+    "No inference is drawn from SSRN 6711039 or unavailable Meituan policy pages."
+  ],
+  "html_visual_handoff": {
+    "recommended_visual": "Qualitative three-arm comparison map plus an unscaled outcome chain",
+    "arms": [
+      "原本缺图",
+      "真实实拍",
+      "同一实拍的AI辅助处理"
+    ],
+    "comparison_labels": [
+      "缺图对实拍：检验补齐信息的价值",
+      "实拍对AI辅助处理：检验额外价值"
+    ],
+    "outcome_chain": [
+      "合格曝光",
+      "加购",
+      "付款",
+      "退款／差评／复购"
+    ],
+    "required_label": "示意：试点设计建议，非实测结果；无比例含义",
+    "avoid": [
+      "Numeric conversion bars that suggest invented observations",
+      "Displaying 6–8% as paid-order or net-profit uplift",
+      "Using a real-versus-AI visual as proof of relative business performance"
+    ]
+  }
+}
