@@ -1,0 +1,96 @@
+{
+  "research_date": "2026-10-30",
+  "status": "reviewed_public_research",
+  "decision": "approved_mechanism_article",
+  "primary_thesis": "Existing authorized video plus POS records can support a human-audited exception queue; unmatched signals are not proof of wrongdoing or quantified savings.",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "2024年中国零售数字化及新技术应用创新案例：3.12 大模型AI巡检赋能连锁门店运营提效",
+      "url": "https://pdf.dfcfw.com/pdf/H3_AP202412251641428462_1.pdf?1735154530000.pdf=",
+      "publisher": "中国连锁经营协会案例集；东方财富全文镜像",
+      "claim_origin": "杭州海康威视数字技术股份有限公司申报",
+      "source_class": "supplier_submitted_case_in_association_collection_not_independent_validation",
+      "access_observed": "2026-10-30",
+      "access_status": "full_pdf_downloaded_text_extracted_and_pages_visually_verified",
+      "printed_pages": [
+        128,
+        129
+      ],
+      "pdf_pages_one_based": [
+        132,
+        133
+      ],
+      "sha256": "6a41c68f0723fd2a810db6505d0c4a9f8aaa836e129cb30f138d321e3ca6a6ff",
+      "supports": [
+        "正新原有视频联网及线上巡检团队",
+        "核心门店引入海康观澜CV大模型",
+        "边缘小模型首次检测、云端大模型二次过滤",
+        "结合POS记录触发告警并为稽核人员提供视频打点回溯"
+      ],
+      "exclusions": [
+        "不引用未给明口径的检准率提升和事件数量",
+        "不能推广为全门店部署",
+        "不证明实际损失减少",
+        "不证明当前仍运行",
+        "不披露人工核查结果及整改闭环"
+      ],
+      "unknowns": [
+        "门店数及具体上线时间",
+        "时钟同步和POS匹配窗口",
+        "迟录、拆合单等例外处理",
+        "误报和漏报率分母",
+        "实施总成本与人工工时"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "《2024年中国零售数字化及新技术应用创新案例》发布",
+      "url": "https://www.ccfa.org.cn/portal/cn/xiangxi.jsp?id=446282&type=10004",
+      "publisher": "中国连锁经营协会",
+      "source_class": "association_announcement_provenance_only",
+      "access_observed": "2026-10-30",
+      "access_status": "search_index_readable_direct_open_timed_out",
+      "supports": [
+        "该案例申报单位为杭州海康威视数字技术股份有限公司"
+      ],
+      "independent_of_S1": false
+    },
+    {
+      "id": "S3",
+      "title": "慧运营AI巡店、AI培训",
+      "url": "https://www.hyunying.com/mobile/newsdetail-i31830.html",
+      "publisher": "慧运营／江苏睿博数据技术有限公司",
+      "source_class": "vendor_product_description",
+      "access_observed": "2026-10-30",
+      "access_status": "full_html_readable",
+      "publication_date": null,
+      "supports": [
+        "针对误报设置指定人员复核，属实后才发出整改单"
+      ],
+      "exclusions": [
+        "不是正新部署的功能证据",
+        "不证明误报率低",
+        "不证明整改闭环经营效果",
+        "不使用泛化的效率百分比"
+      ],
+      "unknowns": [
+        "采购价格",
+        "安装与复核成本",
+        "实际误报数据",
+        "整改完成和复查结果"
+      ]
+    }
+  ],
+  "analysis_boundary": [
+    "时钟偏差、延迟录单、拆合单是建议验证的假设反例，并非案例已发生事实",
+    "人工结果分类、复查与暂停条件为作者建议",
+    "不提出扩张监控、识别私人身份或自动员工处罚",
+    "无采访、门店实测或因果ROI结论",
+    "不复制案例截图以免公开重新展示工作人员"
+  ],
+  "render_plan": [
+    "原创示意：视频候选事件→POS对照→待核队列→人工解释→必要时整改与复查；区分案例披露与作者建议",
+    "原创决策表：数据连接可靠性×复核承接能力，不加入虚构数字"
+  ]
+}
