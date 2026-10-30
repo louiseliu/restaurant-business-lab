@@ -1,0 +1,114 @@
+{
+  "article_title": "换餐饮系统前 先验收数据能否接着用",
+  "article_type": "正式采购机制研究",
+  "verified_on": "2026-10-30",
+  "language": "zh-CN",
+  "status": "reviewed_original_sources",
+  "editorial_standard": "methods/editorial-standard.md",
+  "business_question": "在签约、续约或换餐饮系统时，是否应将数据的可接续使用纳入采购验收，以及不同复杂度门店应投入多少退出准备。",
+  "conditional_conclusion": "依赖历史销售、退款关联和跨店口径的企业，应在正常服务或试用期内验证关键数据离开原界面后能否核对与映射；低复杂度门店可以必要备份和口径说明满足接续要求，不必重建整套系统。",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "银豹官网 协议与政策 有效协议目录",
+      "publisher": "银豹",
+      "url": "https://www.pospal.cn/agree.html",
+      "date_type": "directory_update_date",
+      "date": "2026-08-12",
+      "verified_on": "2026-10-30",
+      "verification_method": "读取官网目录，核对有效协议及历史协议的分区。",
+      "supports": [
+        "当前有效协议区列示《银豹服务协议》，更新日期为2026-08-12。",
+        "当前目录链接指向 /landing/agree/documentation/ybfwxy.html。"
+      ],
+      "limitations": [
+        "目录更新时间与协议生效时间不是同一概念。",
+        "目录本身不能证明特定商户采购适用的产品协议、套餐、订单或补充约定。"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "银豹服务协议",
+      "publisher": "准动网络科技（厦门）有限公司及关联公司",
+      "url": "https://www.pospal.cn/landing/agree/documentation/ybfwxy.html",
+      "date_type": "effective_date",
+      "date": "2026-08-22",
+      "verified_on": "2026-10-30",
+      "verification_method": "获取并读取完整公开 HTML（pdf2htmlEX 转换页面）及提取文本，核对协议范围和终止条款，检索导出、只读、数据与删除等关键词。网页读取曾超时，不据此推断正文不可访问。",
+      "supports": [
+        {
+          "locator": "标题、1.1",
+          "claim": "生效日为2026-08-22；独立产品协议另行适用。"
+        },
+        {
+          "locator": "11.2.3、11.2.4",
+          "claim": "届满或收费服务欠付可触发终止。"
+        },
+        {
+          "locator": "11.4.1",
+          "claim": "一般文本未承担终止后提供账号信息的义务，法律明确要求时除外。"
+        },
+        {
+          "locator": "11.4.2第1项",
+          "claim": "终止后的信息留存或删除仍受法律规定约束。"
+        },
+        {
+          "locator": "采购分析边界",
+          "claim": "未见统一免费只读导出窗口承诺。"
+        }
+      ],
+      "limitations": [
+        "不能由通用协议推断所有产品或商户的具体终止安排。",
+        "不能推断终止后必定立即删除数据、供应商不让正常导出，或实际发生过锁数据事件。",
+        "不评价条款法律效力，不作法律意见。",
+        "未核查具体订单、套餐、产品独立协议或商户补充协议。"
+      ],
+      "use_in_article": "压缩说明协议边界与采购问题，不复刻协议或把条款当成发生过的事件。",
+      "evidence_hashes": {
+        "html_sha256": "960ebde59e9248fcfa4dad69dc018e3294b9dbbfdff59e57513d5780837b4263",
+        "text_sha256": "ef010a730947226090e698c78239f54d58eb51b3b5c25e883b08fe3ceff4783d"
+      }
+    },
+    {
+      "id": "S3",
+      "title": "怎么导出以excle形式显示的一天的销售数据？",
+      "publisher": "银豹博客",
+      "author": "银豹运营-YF",
+      "url": "https://blog.pospal.cn/kb/10279",
+      "date_type": "publication_date",
+      "date": "2025-07-28",
+      "verified_on": "2026-10-30",
+      "verification_method": "读取官方 FAQ 问题及两条完整回答。",
+      "supports": [
+        "官方帮助说明后台销售单据可按时间查询并导出。",
+        "同页说明商品资料也有导出入口。"
+      ],
+      "limitations": [
+        "是供应商操作说明，不是本研究的登录或导出实测。",
+        "没有核实字段完整性、套餐与过期权限、导出收费、行数限制及跨系统可用性。",
+        "不能由正常导出入口推断终止后仍提供相同功能或免费窗口。"
+      ]
+    }
+  ],
+  "analysis_and_recommendations_not_source_facts": [
+    "订阅门槛与迁移成本应分开评价；编码、关联和报表口径的重建会影响买方续约选择。",
+    "用完整结算周期样本检验金额关联及关键标识映射；折扣与跨日退款例子均为模拟测试设计。",
+    "按真实业务依赖程度确定退出准备范围；低复杂度门店不必为了退出准备重建全部历史功能。",
+    "停止服务后的交付范围、格式、期限、费用及责任应提前具体化，不能通过实际停付或注销来测试。"
+  ],
+  "not_performed": [
+    "未登录产品",
+    "未导出或迁移真实商户数据",
+    "未采访供应商或客户",
+    "未计算数字化 ROI",
+    "未验证具体迁移成功案例"
+  ],
+  "privacy_boundary": "仅建议使用获授权的脱敏数据或模拟样本；原账号中个人和会员信息须按有权处理、最小必要原则处理，不应为验收公开。",
+  "review_checks": {
+    "evidence": "每项厂商事实附官方链接；协议法律例外、独立产品协议和未实测限制已保留。",
+    "business": "有独立采购命题、转换成本机制、完整样本验收、低复杂度建议反转与三项采购决定。",
+    "copyright": "正文以独立经营分析为主，各来源仅作短篇幅概述，未复刻全文。",
+    "scope": "不泛化到全部 AI 工具，不宣称 AI 成功案例，不提出未经授权的真实数据操作。"
+  },
+  "publication_status": "公开归档以 Git 提交历史为准；图文及站点同步另行核验。"
+}
