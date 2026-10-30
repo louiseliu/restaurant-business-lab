@@ -1,0 +1,20 @@
+{
+  "purpose": "minimal public-content sanitization patch",
+  "files": [
+    {
+      "path": "sanitize_site_content.py",
+      "bytes": 5533,
+      "sha256": "1166b7164b3bceb8c9fe056a92fe04bc609dcfc87ee5081344a9ff549739bf52"
+    },
+    {
+      "path": "test_sanitization.py",
+      "bytes": 2689,
+      "sha256": "d6131c06c9cf2b549de24e32c36451a780282159bbe4d82c18cefb095a2f7571"
+    },
+    {
+      "path": "BUILD.md",
+      "bytes": 3601,
+      "sha256": "0968093bc0cf34c13440403697bb148a7857482a0e458d2eea7f1ed8326f6ad6"
+    }
+  ]
+}
