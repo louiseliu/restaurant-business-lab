@@ -1,0 +1,96 @@
+{
+  "research_date": "2026-10-31",
+  "access_observed": "2026-10-30T23:57:27Z",
+  "status": "reviewed_public_research",
+  "decision": "approved_mechanism_article",
+  "primary_thesis": "评价规模和复盘能力具备时，AI可用于把顾客反馈定位到具体菜品及属性；是否改菜仍需区别出品偏差、产品定位与顾客预期，不能将负面词频直接当成所有顾客需求。",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "线上搓虾子、线下嘬虾子，美团智能掌柜帮小龙虾店看评价、盯排队、做分析",
+      "url": "https://m.canyin88.com/zixun/2026/05/07/111845.html",
+      "publisher": "红餐网",
+      "author": "红餐编辑部",
+      "published_at": "2026-05-07 17:48:14",
+      "source_class": "industry_media_report_with_named_operator_self_reports",
+      "access_status": "full_text_readable_this_run",
+      "supports": [
+        "靓靓蒸虾黄丹晖自述新品评价集中反映太辣，随后调整口味",
+        "肥肥虾庄柴影举例等位久评价增加后提醒运营团队与店长复盘",
+        "口味差评后追踪酱料批次和后厨操作属于进一步核查方向，不能写成已确认根因"
+      ],
+      "exclusions": [
+        "不采用人工分析成本65%、决策效率40%或近百万元人力节省等数字",
+        "不以口味调整后销量改善自述证明因果收益",
+        "不将连锁品牌能力外推为全部中小单店可用功能",
+        "不复述源文中传统系统不能主动预警等泛化比较"
+      ],
+      "unknowns": [
+        "具体新品及配方修改幅度",
+        "试用和部署费用",
+        "原始评价及分类错误率",
+        "对应菜品销售份数和顾客构成",
+        "修正前后时间序列、对照及净经营收益"
+      ],
+      "interests_and_independence": "行业媒体，文章强产品推广色彩，具名自述未独立验证；与S3高度同文，按同一传播内容处理，不算独立验证"
+    },
+    {
+      "id": "S2",
+      "title": "细粒度情感分析在到餐场景中的应用",
+      "url": "https://tech.meituan.com/2021/12/09/Meituan-Aspect-based-Sentiment-Analysis-daodian.html",
+      "publisher": "美团技术团队",
+      "published_at": "2021-12-09",
+      "source_class": "platform_original_technical_article",
+      "access_status": "body_readable_this_run",
+      "supports": [
+        "细粒度评价对象、属性、观点词和情感极性的关联机制",
+        "原文披露品牌仪表盘、菜品信息优化、开店宝评价管理应用"
+      ],
+      "exclusions": [
+        "不能推断2026智能掌柜使用2021相同模型或架构",
+        "平台算法评测不是商家经营效果证据",
+        "不采用算法精度或提升数值推算利润",
+        "不认定历史披露等于截至本轮完整部署现状"
+      ],
+      "unknowns": [
+        "当前具体产品版本和收费",
+        "门店真实改进闭环与经营结果"
+      ],
+      "interests_and_independence": "平台内部作者技术自述；与S1产品方存在共同商业利益，不是独立商户效果验证"
+    },
+    {
+      "id": "S3",
+      "title": "线上搓虾子、线下嘬虾子！美团智能掌柜帮小龙虾店看评价、盯排队、做分析",
+      "url": "https://www.ctdsb.net/c1666_202605/2735442.html",
+      "publisher": "极目新闻",
+      "author": "通讯员 隽蒙",
+      "published_at": "2026-05-07 10:20:01",
+      "source_class": "correspondent_report_same_content_family_as_S1",
+      "access_status": "full_text_readable_this_run",
+      "role": "传播和措辞交叉核对，不增加独立证据数量",
+      "independent_of_S1": false,
+      "supports": [
+        "同文具名经营者自述与S1基本一致"
+      ],
+      "exclusions": [
+        "不把较早发布时间当成已证明原创采访来源",
+        "不重复累计同稿的效果主张"
+      ]
+    }
+  ],
+  "other_access_observations": [
+    {
+      "url": "https://www.feishu.cn/customers/daddysweety",
+      "status": "search_index_only_direct_page_zero_readable_lines",
+      "used_in_article": false,
+      "reason": "未取得正文，不能依据搜索摘要采用案例结论"
+    }
+  ],
+  "analysis_boundaries": [
+    "配方偏差、顾客预期、渠道人群变化等分支为研究分析，不是案例已确认事实",
+    "假设评论例子清楚标明示意，非真实顾客记录",
+    "菜品销售分母与原文复核是建议，案例未披露已实施",
+    "没有新增Pro咨询、外部模型调用、门店实测或因果利润估算",
+    "一次全文可读不代表持续可用；未登录、付费、外联或操作商户后台"
+  ]
+}
