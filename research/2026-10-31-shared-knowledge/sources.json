@@ -1,0 +1,10 @@
+{
+  "checked_at": "2026-10-31",
+  "evidence_type": "同一供应商公开产品文档；未登录、未实测；不构成独立效果或安全验证",
+  "sources": [
+    {"id":"S1","title":"应用端用户权限说明","url":"https://cloud.tencent.com/document/product/1759/119281","updated_at":"2026-02-26","access":"本轮正文可读","supports":["平台配置权限与终端访问权限不同","默认应用用户可访问应用全部知识范围","多角色知识权限取并集","不同应用独立配置","文档所称Multi-Agent模式不支持该权限能力"],"limits":["不证明所有多助手架构不支持权限","不证明知识正文必须复制","未核验角色权限与标签检索共同生效的优先级","无餐企使用与效果证据"]},
+    {"id":"S2","title":"知识检索相关设置","url":"https://cloud.tencent.com/document/product/1759/112704","updated_at":"2026-02-26","access":"本轮正文可读","supports":["多参数且/或以及单参数的所述检索规则均纳入未打标签知识"],"limits":["规则不能单独证明实际越权或泄露","未核验与角色权限组合后的最终范围","不是当前部署代码教程"]},
+    {"id":"S3","title":"对话端接口文档（HTTP SSE，新版）","url":"https://cloud.tencent.com/document/product/1759/129202","updated_at":"2026-09-18","access":"本轮正文可读","supports":["区分用户标识、会话标识、角色提示词","不同用户会话复用ConversationId有消息记录混杂警告"],"limits":["VisitorId弃用提示、UserId和VisitorId必填标注及示例不完全一致","不据此提供迁移代码","未验证身份鉴别或缺失时默认行为"]},
+    {"id":"S4","title":"对话端接口文档（HTTP SSE，旧版，仅版本状态证据）","url":"https://cloud.tencent.com/document/product/1759/105561","updated_at":"2026-06-04","access":"本轮正文可读","supports":["停止更新、不支持Claw新功能、宣布2026-12-31下线并链接新版"],"limits":["不得作为当前推荐实施接口"]}
+  ]
+}
