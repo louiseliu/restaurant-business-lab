@@ -1,0 +1,50 @@
+{
+  "research_status": "reviewed_public_research",
+  "checked_at": "2026-10-31T20:04:00Z",
+  "sources": [
+    {
+      "id": "michi-water-boiler",
+      "url": "https://www.michicloud.com/cases/chain-restaurant-water-boiler-energy-saving.html",
+      "publisher": "上海米尺网络技术有限公司",
+      "type": "vendor_case_self_report",
+      "publication_date": null,
+      "access_status": "本轮直接URL工具不可访问；通过上一轮已取得的同页web缓存回查完整正文223行，不代表实时源站或持续可访问",
+      "support": "L14–16、55：沪上阿姨北京加盟商门店，单一开水机，以营业时间规则与设备计量进行管理；L61：规格不通用；L192：完整项目成本未公开。",
+      "limits": "具体门店、实施日期、原始计量及品牌方确认未核验。未在文章使用节电量、电价、回收期或倒推报价。不得称AI。"
+    },
+    {
+      "id": "michi-exhaust-linkage",
+      "url": "https://www.michicloud.com/cases/chain-restaurant-exhaust-fan-cooking-linkage.html",
+      "publisher": "上海米尺网络技术有限公司",
+      "type": "vendor_case_self_report",
+      "publication_date": null,
+      "access_status": "本轮直接URL工具不可访问；通过上一轮已取得的同页web缓存回查完整正文276行，不代表实时源站或持续可访问",
+      "support": "L50、105–128、135：供应商冠名肯德基的设备状态联动机制；L249：明确未做配套实测复盘，无可公开节电量、率或费用。",
+      "limits": "具体门店、实施日期、品牌方确认未核验；与前项同供应商，不算独立证据。文章只描述状态驱动，不提供排烟操作规则或参数，不采用其对排烟用途的普遍化主张。"
+    },
+    {
+      "id": "shenzhen-technology-guide",
+      "url": "https://commerce.sz.gov.cn/attachment/1/1639/1639630/12459664.pdf",
+      "publisher": "深圳市商务局公开资料",
+      "title": "深圳市商贸流通领域节能技术应用实施指南",
+      "type": "public_technology_guide_not_independent_restaurant_effect_evaluation",
+      "publication_date": null,
+      "access_status": "2026-10-31上一轮PDF正文可读；纸面28–29页文字已复核；截图请求Cache miss，未做图像复核",
+      "support": "L676–699／纸面28页（PDF索引31）：自学习、专用芯片、格力指定机型；L700–722／纸面29页（PDF索引32）：LoRa远程与场景调节技术介绍，未披露机器学习机制。",
+      "limits": "未取得其所称第三方检测原报告，不把政府刊载当独立餐饮效果背书；没有具名餐饮门店或完整改造成本；不采用节能数字、酒店案例效果或其他页面安全绝对化说法。"
+    }
+  ],
+  "editorial_checks": {
+    "source_derivation": "正文把两篇米尺材料合并为短段，指南亦仅一短段，其余为独立条件分析；各单源派生控制约200英文词以内。",
+    "no_private_data": true,
+    "no_unsupported_profit_estimate": true,
+    "no_electrical_or_safety_operating_instructions": true,
+    "unverified": [
+      "具名餐饮AI因果效果",
+      "完整安装维护成本",
+      "独立品牌确认",
+      "门店具体身份及实施日期",
+      "实时源站访问"
+    ]
+  }
+}
