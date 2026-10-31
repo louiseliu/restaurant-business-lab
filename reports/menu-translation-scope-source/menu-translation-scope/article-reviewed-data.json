@@ -1,0 +1,94 @@
+{
+  "surface": "report",
+  "title": "给外国客人翻菜单，先决定要不要改动店内菜单",
+  "generatedAt": "2026-10-31T11:01:35Z",
+  "status": "reviewed",
+  "buildStatus": "complete",
+  "exportPreferences": {
+    "selected": null,
+    "destinations": []
+  },
+  "filters": [],
+  "report": {},
+  "id": "report:menu-translation-scope-20261031",
+  "queries": {
+    "diagram-research-2026-10-31-menu-translation-scope-note": {
+      "rows": [
+        {
+          "title": "iCHEF：顾客网站显示",
+          "text": "由客人点击翻译，译文只在网站显示；店内POS与相关单据沿用后台内容。关键词译法可指定，编辑后需在POS App套用新设定。"
+        },
+        {
+          "title": "Bee：写入或另建语言群组",
+          "text": "可在原文后附译文，或另建语言菜单群组；菜单变更发布后同步POS与线上点餐。另建群组与共用选项的组合行为仍需核对。"
+        }
+      ],
+      "source": {
+        "label": "译文放在哪里，决定要核对哪些变化",
+        "files": [
+          "research/2026-10-31-menu-translation-scope/note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "机制和边界",
+            "definition": "两家官方手册的机制对照，不是同一套流程，也不是大陆门店已部署证明。iCHEF文档涉及台湾与香港差异；微碧服务地区本轮未核实。 Bee文档分别说明共用选项会影响使用它们的品项/套餐、另建语言群组不影响原菜单；不能推断组合时一定影响原群组。同步POS也不等于已证明打印译名。",
+            "componentIds": [
+              "diagram-research-2026-10-31-menu-translation-scope-note"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "固定公开研究版本",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/0a3ceaf0796e824d919723b4156ccfaef99a051f/research/2026-10-31-menu-translation-scope/note.md"
+          },
+          {
+            "title": "展示边界",
+            "detail": "两家官方手册的机制对照，不是同一套流程，也不是大陆门店已部署证明。iCHEF文档涉及台湾与香港差异；微碧服务地区本轮未核实。 Bee文档分别说明共用选项会影响使用它们的品项/套餐、另建语言群组不影响原菜单；不能推断组合时一定影响原群组。同步POS也不等于已证明打印译名。"
+          }
+        ]
+      }
+    },
+    "diagram-research-2026-10-31-menu-translation-scope-note:second": {
+      "rows": [
+        {
+          "title": "确定服务对象",
+          "text": "客人理解为主且内部对单稳定：先比较显示层；员工也靠译名工作：比较双语字段或独立语言菜单。"
+        },
+        {
+          "title": "核对同一道菜",
+          "text": "两名员工分别拿顾客端与店内菜单，对照菜名、规格及代表性共用选项，记录哪里需要猜测或解释。"
+        },
+        {
+          "title": "明确维护责任后再扩大",
+          "text": "用一次人工修订检查发布前后的可见范围；指定谁核对译名、描述与图片。范围说不清或原菜单影响不明时停止扩大。"
+        }
+      ],
+      "source": {
+        "label": "从翻译到营业使用，中间保留三次人工核对",
+        "files": [
+          "research/2026-10-31-menu-translation-scope/note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "机制和边界",
+            "definition": "研究院建议的少量试用路径，不是两款产品共有的自动功能；仅用非营业样例和获授权信息核对，不直接修改真实经营菜单。 不假定改价、停售、图片或人工译名会自动同步/保留；打印结果、持续更新行为和完整成本尚未验证。",
+            "componentIds": [
+              "diagram-research-2026-10-31-menu-translation-scope-note:second"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "固定公开研究版本",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/0a3ceaf0796e824d919723b4156ccfaef99a051f/research/2026-10-31-menu-translation-scope/note.md"
+          },
+          {
+            "title": "展示边界",
+            "detail": "研究院建议的少量试用路径，不是两款产品共有的自动功能；仅用非营业样例和获授权信息核对，不直接修改真实经营菜单。 不假定改价、停售、图片或人工译名会自动同步/保留；打印结果、持续更新行为和完整成本尚未验证。"
+          }
+        ]
+      }
+    }
+  }
+}

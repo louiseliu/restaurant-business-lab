@@ -1,0 +1,12 @@
+{
+  "files": {
+    "BUILD.md": "0d734e4cc85c0c61912092b1612545218ce4a9a899a654d22126b6d863feedbf",
+    "article_topics.json": "9f54c978d8dad0b9917258184d9859e80093c0b4de5b50cffe4a9a7e2335cf15",
+    "menu-translation-scope/article-entry.json": "375581adfaf7ca6354ed515d826ef5ef566dfc3bb206338933bdcc268a82c1f1",
+    "menu-translation-scope/article-reviewed-data.json": "e77f7e2d94257ad19204b71bd1b094a2fba2894c4dfcfc6fb3fd91c4ccaf7262",
+    "menu-translation-scope/illustrated-story.json": "cff6bc5312ee0c5c16866a75ac933b9dadc30d21b1103bac3ab58df7878a32bb",
+    "publication-receipt.json": "15a655cde007bba37723a99499a178ec292a2f358d6a4990756e0a9cd3ca768e",
+    "test_article.py": "2cde649874c2d31d50ca929e84057c1c518916d9942fe118de4ef6d4236267cc",
+    "test_reader_routes.mjs": "78cb390c53aaa5905a80546dfdc521e7f01f3461f18b7ab6921a0289f68e82ad"
+  }
+}

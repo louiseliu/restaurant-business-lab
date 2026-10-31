@@ -1,0 +1,35 @@
+{
+  "status": "offline-delivered-site-pending",
+  "articleId": "research-2026-10-31-menu-translation-scope-note",
+  "firstGit": "0a3ceaf0796e824d919723b4156ccfaef99a051f",
+  "firstGitAt": "2026-10-31T11:01:35Z",
+  "offlineHTMLSHA256": "053e8adc59d735e3fb2f2ce80c22c40a0a6af57bb40fd6000f5cc53e9fd53cbb",
+  "offlineHTMLBytes": 2909954,
+  "siteChanged": false,
+  "lastPublishedVersion": 19,
+  "lastPublishedCounts": {
+    "research": 20,
+    "originals": 40,
+    "samples": 2,
+    "ai": 9
+  },
+  "localCounts": {
+    "research": 23,
+    "originals": 43,
+    "samples": 2,
+    "ai": 11
+  },
+  "qa": {
+    "fullFrozenBody": true,
+    "twoDiagramsDesktop": true,
+    "originalExpanded": true,
+    "fixedSourceAndTime": true,
+    "prior42Originals22Stories46QueriesPreserved": true,
+    "uiLegacyFiveDownloadsPreserved": true,
+    "decodedPrivacyPayloads": 53,
+    "routeCountsSort": true,
+    "sampleHTMLZIP": true
+  },
+  "newGithubHTMLBlobs": 0,
+  "expenseArchiveStillPending": true
+}
