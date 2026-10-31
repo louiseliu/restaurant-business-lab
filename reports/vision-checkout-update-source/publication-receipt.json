@@ -1,0 +1,38 @@
+{
+  "status": "revised-html-local-only-not-delivered-not-published",
+  "articleId": "research-2026-10-30-vision-checkout-note",
+  "firstGit": "98b377faa73538f6fd0168ceba7e7ec2f53faf8d",
+  "firstGitAt": "2026-10-30T15:02:15Z",
+  "revisionGit": "ffb0f400d7b4adae112e4a84b99e8d2eddca70ed",
+  "revisedAt": "2026-10-31T06:01:35Z",
+  "newArticles": 0,
+  "offlineHTMLSHA256": "bb2c8062e98b51423c4c1e1aaedbc94e5f1fdaa7dfbb77c55cf236534c2b80a5",
+  "offlineHTMLBytes": 2916625,
+  "oldAttachmentChanged": false,
+  "siteChanged": false,
+  "lastPublishedVersion": 19,
+  "lastPublishedCounts": {
+    "research": 20,
+    "originals": 40,
+    "samples": 2,
+    "ai": 9
+  },
+  "localIntegratedCounts": {
+    "research": 21,
+    "originals": 41,
+    "samples": 2,
+    "ai": 9
+  },
+  "qa": {
+    "frozenFullBody": true,
+    "firstTimeAndIDPreserved": true,
+    "originalExpanded": true,
+    "desktopDiagram": true,
+    "privateScan": true,
+    "other40Originals20Stories42QueriesPreserved": true,
+    "oldUIDownloadsLegacyPreserved": true,
+    "decodedPayloadsChecked": 53
+  },
+  "expenseArchiveStillPending": true,
+  "newGithubHTMLBlobs": 0
+}

@@ -1,0 +1,11 @@
+{
+  "files": {
+    "BUILD.md": "d13a3bdc463a3278ba0736d0540b2222403670c646e52d51155308d449bb2034",
+    "publication-receipt.json": "3f92b23ae658bbb52f0795670c6ed9c15fcd3501d757f933a7a3f2c53af08bb8",
+    "test_article.py": "3ea5caa7bcb3c1abf349dd7edd997a06ae2a1f4286b5908a656896dd6ac6fc4e",
+    "vision-checkout/article-entry.json": "6658f7c8463315469ad8790a04ac2f87a53c7d4101dc1fbb1e211a7ab376907d",
+    "vision-checkout/article-reviewed-data.json": "15e4ed0ee959dc818d5984d62f9dd88f6c5e1d3b9c3836c906647391af6904dd",
+    "vision-checkout/illustrated-story.json": "343f27bb004233b6a49433dd053ec461f3979cc194afe54a6af7b44ced380e07",
+    "vision-checkout/update-guard.json": "d8118bc218763c2a53305f90f9b5b3124c724b906abe0a8998d1f70087a8398e"
+  }
+}

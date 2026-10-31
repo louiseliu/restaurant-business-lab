@@ -1,0 +1,102 @@
+{
+  "surface": "report",
+  "title": "小碗菜上 AI 收银，先决定让机器认菜还是认盘",
+  "generatedAt": "2026-10-31T06:01:35Z",
+  "status": "reviewed",
+  "buildStatus": "complete",
+  "exportPreferences": {
+    "selected": null,
+    "destinations": []
+  },
+  "filters": [],
+  "report": {},
+  "id": "report:vision-checkout-20261030",
+  "queries": {
+    "diagram-research-2026-10-30-vision-checkout-note": {
+      "rows": [
+        {
+          "title": "认菜｜外观 → 商品 → 价格",
+          "text": "菜品需要可见，并与已有模型匹配。相同容器可装不同价商品，但菜单、外观与资料变化要有人维护。"
+        },
+        {
+          "title": "认盘｜盘型与颜色 → 价格",
+          "text": "根据餐具映射计价，不判断盘中食物。当天换菜可不改变盘型分类，但必须守住盛装与价格规则。"
+        }
+      ],
+      "source": {
+        "label": "认菜与认盘：维护工作留在哪里",
+        "files": [
+          "research/2026-10-30-vision-checkout/note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "机制和边界",
+            "definition": "依据银豹产品说明及2025年餐饮PC版手册的机制对照；该手册规定认菜与认盘二选一，不能同时使用。不是所有厂商的通则，也不是化府门店配置或实测。 认对盘也可能算错账：贵菜误装便宜盘时，问题在盛装规则。此为研究院的机制推论，不是已发生的客户事件。两条路线均不能自动证明重量、配料或完整支付正确。",
+            "componentIds": [
+              "diagram-research-2026-10-30-vision-checkout-note"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "修订公开研究版本",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/ffb0f400d7b4adae112e4a84b99e8d2eddca70ed/research/2026-10-30-vision-checkout/note.md"
+          },
+          {
+            "title": "首次入库版本",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/98b377faa73538f6fd0168ceba7e7ec2f53faf8d/research/2026-10-30-vision-checkout/note.md"
+          },
+          {
+            "title": "展示边界",
+            "detail": "依据银豹产品说明及2025年餐饮PC版手册的机制对照；该手册规定认菜与认盘二选一，不能同时使用。不是所有厂商的通则，也不是化府门店配置或实测。 认对盘也可能算错账：贵菜误装便宜盘时，问题在盛装规则。此为研究院的机制推论，不是已发生的客户事件。两条路线均不能自动证明重量、配料或完整支付正确。"
+          }
+        ]
+      }
+    },
+    "diagram-research-2026-10-30-vision-checkout-note:second": {
+      "rows": [
+        {
+          "title": "错认商品 → 人工替换",
+          "text": "接手员工需要选到正确菜名；忙时只选另一个同价商品，可能让金额正确而商品标签仍错误。"
+        },
+        {
+          "title": "成功收款 → 图片进入学习列表",
+          "text": "手册说明替换后成功收银，相应图片进入学习列表。收款成功因此不能单独证明这次纠错正确。"
+        },
+        {
+          "title": "错误菜名 → 学习资料混乱风险",
+          "text": "手册特别提示同价替换会使学习列表混乱；研究建议分开核验款项与商品名称，并明确异常图片复核责任。"
+        }
+      ],
+      "source": {
+        "label": "钱收对了，为什么学习资料仍可能错",
+        "files": [
+          "research/2026-10-30-vision-checkout/note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "机制和边界",
+            "definition": "仅依据银豹餐饮PC版手册“删减／替换商品”的操作机制整理，不代表所有视觉收银产品；不是化府门店已发生的事件或损失实测。 该图不证明后续识别必然变差，也不估算损失；不推断实时学习开关关闭后的行为。取消未付订单与付款后的退款／更正仍需分别处理，不能用数据维护代替交易纠错。",
+            "componentIds": [
+              "diagram-research-2026-10-30-vision-checkout-note:second"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "修订公开研究版本",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/ffb0f400d7b4adae112e4a84b99e8d2eddca70ed/research/2026-10-30-vision-checkout/note.md"
+          },
+          {
+            "title": "首次入库版本",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/98b377faa73538f6fd0168ceba7e7ec2f53faf8d/research/2026-10-30-vision-checkout/note.md"
+          },
+          {
+            "title": "展示边界",
+            "detail": "仅依据银豹餐饮PC版手册“删减／替换商品”的操作机制整理，不代表所有视觉收银产品；不是化府门店已发生的事件或损失实测。 该图不证明后续识别必然变差，也不估算损失；不推断实时学习开关关闭后的行为。取消未付订单与付款后的退款／更正仍需分别处理，不能用数据维护代替交易纠错。"
+          }
+        ]
+      }
+    }
+  }
+}
