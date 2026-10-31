@@ -1,0 +1,35 @@
+{
+  "status": "offline-delivered-site-pending",
+  "articleId": "research-2026-10-31-shared-knowledge-note",
+  "firstGit": "85444d7728fc03777de996ddf837ed8a37e3dbf1",
+  "firstGitAt": "2026-10-31T22:00:27Z",
+  "offlineHTMLSHA256": "7dde2c7e9794feffaae4fa6930ead1ee7b332caaab576dc09d6eac8217bc616a",
+  "offlineHTMLBytes": 2912849,
+  "siteChanged": false,
+  "lastPublishedVersion": 19,
+  "lastPublishedCounts": {
+    "research": 20,
+    "originals": 40,
+    "samples": 2,
+    "ai": 9
+  },
+  "localCounts": {
+    "research": 26,
+    "originals": 46,
+    "samples": 2,
+    "ai": 14
+  },
+  "qa": {
+    "fullFrozenBody": true,
+    "twoDiagramsDesktop": true,
+    "originalExpanded": true,
+    "fixedSourceAndTime": true,
+    "prior45Originals25Stories52QueriesPreserved": true,
+    "uiLegacyFiveDownloadsPreserved": true,
+    "decodedPrivacyPayloads": 53,
+    "routeCountsSort": true,
+    "sampleHTMLZIP": true
+  },
+  "newGithubHTMLBlobs": 0,
+  "expenseArchiveStillPending": true
+}

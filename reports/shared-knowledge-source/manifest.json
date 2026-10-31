@@ -1,0 +1,12 @@
+{
+  "files": {
+    "BUILD.md": "931334d7636344cc65d04e7017f02e79dff4e69492137206d9676a38607ce7cd",
+    "article_topics.json": "f24b84b7fc0c0cb0f64c67fbc550fe1905080b6de74260191646988b3e03049c",
+    "publication-receipt.json": "50f83fbcbd115d06cef500bd84fdc3999ccd0b4d5496a2508f00da5287b100fb",
+    "shared-knowledge/article-entry.json": "1e3c2df3981ea1b1cbd816ff033e68cf63c3ce4e65565fc432acd9182f95e171",
+    "shared-knowledge/article-reviewed-data.json": "bb9879c27c458cea5bc5fd9bc08bfc118800756a955ffc11c7ba0f428b0a944f",
+    "shared-knowledge/illustrated-story.json": "5688fffaf9bb354b275b3beab6c552ddc6f3e38c462321786e86d0be71208281",
+    "test_article.py": "6fb9b19b276dba3f4ef073b78d381847899ede659d45e48303f17b8af5ad494e",
+    "test_reader_routes.mjs": "fb2950ac42ec64b90ec79f8f563d787fcb6f37b02246266a71543fc596acd1f0"
+  }
+}

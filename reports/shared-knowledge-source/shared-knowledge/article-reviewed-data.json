@@ -1,0 +1,90 @@
+{
+  "surface": "report",
+  "title": "总部只维护一份知识，为什么不能让所有 AI 助手都读全套",
+  "generatedAt": "2026-10-31T22:00:27Z",
+  "status": "reviewed",
+  "buildStatus": "complete",
+  "exportPreferences": {
+    "selected": null,
+    "destinations": []
+  },
+  "filters": [],
+  "report": {},
+  "id": "report:shared-knowledge-20261031",
+  "queries": {
+    "diagram-research-2026-10-31-shared-knowledge-note": {
+      "rows": [
+        {
+          "title": "内容工作线：谁维护同一条规则",
+          "text": "统一营业时间、公开会员规则等允许共同查阅的内容；减少重复编辑，但仍要确认资料适用对象与更新责任。"
+        },
+        {
+          "title": "范围工作线：谁从哪个入口读取",
+          "text": "核对应用、使用者与资料范围，跟踪兼岗和离岗变化。助手说话像店长或顾客服务，并不证明范围已分开。"
+        }
+      ],
+      "source": {
+        "label": "共用一份底稿，还有两条不同的工作线",
+        "files": [
+          "research/2026-10-31-shared-knowledge/note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "机制和边界",
+            "definition": "假设总部为店长、员工与顾客设置助手的经营机制示意，非真实餐企部署、安全认证或已发生泄露；不是产品架构图。 共用正文与分别配置范围不矛盾；分别配置应用权限不等于必须物理复制资料。新人设、用户身份和会话记录也不是同一概念。",
+            "componentIds": [
+              "diagram-research-2026-10-31-shared-knowledge-note"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "固定公开研究版本",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/85444d7728fc03777de996ddf837ed8a37e3dbf1/research/2026-10-31-shared-knowledge/note.md"
+          },
+          {
+            "title": "展示边界",
+            "detail": "假设总部为店长、员工与顾客设置助手的经营机制示意，非真实餐企部署、安全认证或已发生泄露；不是产品架构图。 共用正文与分别配置范围不矛盾；分别配置应用权限不等于必须物理复制资料。新人设、用户身份和会话记录也不是同一概念。"
+          }
+        ]
+      }
+    },
+    "diagram-research-2026-10-31-shared-knowledge-note:second": {
+      "rows": [
+        {
+          "title": "标签检索：未分类不等于暂不可用",
+          "text": "文档介绍的标签方式中，无论单参数或多参数且/或，均包含未打标签知识。依赖该方式时，不能先全接入再假定未分类内容不会被取用。"
+        },
+        {
+          "title": "应用角色：兼岗取范围并集",
+          "text": "角色权限文档说明多角色按并集确定实际范围。临时增加角色不是自动收窄；岗位变化后哪些范围还需要，应有明确维护人。"
+        }
+      ],
+      "source": {
+        "label": "两种“范围变宽”的机制，分别核对",
+        "files": [
+          "research/2026-10-31-shared-knowledge/note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "机制和边界",
+            "definition": "腾讯两篇官方文档分别披露的规则，不画成一套已经验证的联合权限方案。不推断未标签资料必然向任何角色开放，也不作信息泄露结论。 标签与角色同时启用的完整组合优先级未实测，不能把两个框相加推断最终结果。实际采用前需核对产品模式、版本与当次配置。",
+            "componentIds": [
+              "diagram-research-2026-10-31-shared-knowledge-note:second"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "固定公开研究版本",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/85444d7728fc03777de996ddf837ed8a37e3dbf1/research/2026-10-31-shared-knowledge/note.md"
+          },
+          {
+            "title": "展示边界",
+            "detail": "腾讯两篇官方文档分别披露的规则，不画成一套已经验证的联合权限方案。不推断未标签资料必然向任何角色开放，也不作信息泄露结论。 标签与角色同时启用的完整组合优先级未实测，不能把两个框相加推断最终结果。实际采用前需核对产品模式、版本与当次配置。"
+          }
+        ]
+      }
+    }
+  }
+}
