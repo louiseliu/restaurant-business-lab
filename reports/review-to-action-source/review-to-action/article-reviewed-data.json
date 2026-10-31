@@ -1,0 +1,90 @@
+{
+  "surface": "report",
+  "title": "AI读完差评以后，老板该不该改一道菜",
+  "generatedAt": "2026-10-31T00:01:07Z",
+  "status": "reviewed",
+  "buildStatus": "complete",
+  "exportPreferences": {
+    "selected": null,
+    "destinations": []
+  },
+  "filters": [],
+  "report": {},
+  "id": "report:review-to-action-20261031",
+  "queries": {
+    "diagram-research-2026-10-31-review-to-action-note": {
+      "rows": [
+        {
+          "title": "对象：虾",
+          "text": "属性：口味；观点：“很好”；情感：正向。先保留这部分认可，不能让另一道菜的批评覆盖它。"
+        },
+        {
+          "title": "对象：配菜",
+          "text": "属性：咸度；观点：“太咸”；情感：负向。核查应回到配菜及原文，而非直接修改虾的口味。"
+        }
+      ],
+      "source": {
+        "label": "一条评价，可能同时指向两个不同对象",
+        "files": [
+          "research/2026-10-31-review-to-action/note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "机制和边界",
+            "definition": "假设示例：“虾的口味很好，但配菜太咸。”这是研究院为解释细粒度分析编写的句子，非真实顾客记录；并非智能掌柜实际识别结果。 对象、属性、观点与情感的关联参照美团2021年技术文章；不推断2026产品沿用同一模型。图示说明应保留的信息，不证明分类准确率或真实经营效果。",
+            "componentIds": [
+              "diagram-research-2026-10-31-review-to-action-note"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "固定公开研究版本",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/95ec37357d02ff957e86f36f720210b15c0feaeb/research/2026-10-31-review-to-action/note.md"
+          },
+          {
+            "title": "展示边界",
+            "detail": "假设示例：“虾的口味很好，但配菜太咸。”这是研究院为解释细粒度分析编写的句子，非真实顾客记录；并非智能掌柜实际识别结果。 对象、属性、观点与情感的关联参照美团2021年技术文章；不推断2026产品沿用同一模型。图示说明应保留的信息，不证明分类准确率或真实经营效果。"
+          }
+        ]
+      }
+    },
+    "diagram-research-2026-10-31-review-to-action-note:second": {
+      "rows": [
+        {
+          "title": "核实偏离既定标准 → 先修一致性",
+          "text": "若问题集中于某店、某时段，先核对操作、原料和制作标准。修正偏差后继续观察，不急着把局部问题改成全品牌配方。"
+        },
+        {
+          "title": "制作符合定位，但预期不同 → 先修选择",
+          "text": "比较辣度说明、点单提示与推荐客群；必要时提供选择。直接统一减辣，可能损伤老客选择这道菜的理由。"
+        }
+      ],
+      "source": {
+        "label": "读到“太辣”之后，先分清该修哪一层",
+        "files": [
+          "research/2026-10-31-review-to-action/note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "机制和边界",
+            "definition": "研究院建议的诊断分叉，不是靓靓蒸虾或肥肥虾庄已披露的统一操作流程；两条分支都需要人回查制作和顾客场景。 客群变化与出品偏差可能同时存在，不能靠评论词句二选一。无法回查或证据不足就停止扩大自动处理；食品安全反馈应及时交负责人核查，不等待词频积累。",
+            "componentIds": [
+              "diagram-research-2026-10-31-review-to-action-note:second"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "固定公开研究版本",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/95ec37357d02ff957e86f36f720210b15c0feaeb/research/2026-10-31-review-to-action/note.md"
+          },
+          {
+            "title": "展示边界",
+            "detail": "研究院建议的诊断分叉，不是靓靓蒸虾或肥肥虾庄已披露的统一操作流程；两条分支都需要人回查制作和顾客场景。 客群变化与出品偏差可能同时存在，不能靠评论词句二选一。无法回查或证据不足就停止扩大自动处理；食品安全反馈应及时交负责人核查，不等待词频积累。"
+          }
+        ]
+      }
+    }
+  }
+}

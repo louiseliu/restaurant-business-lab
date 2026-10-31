@@ -1,0 +1,38 @@
+{
+  "status": "published-and-verified",
+  "version": 19,
+  "siteUrl": "https://restaurant-owner-evidence-20261027.liuguolin2008.chatgpt.site",
+  "verifiedAt": "2026-10-31T00:05:53Z",
+  "articleId": "research-2026-10-31-review-to-action-note",
+  "firstGit": "95ec37357d02ff957e86f36f720210b15c0feaeb",
+  "firstGitAt": "2026-10-31T00:01:07Z",
+  "counts": {
+    "research": 20,
+    "originalMaterials": 40,
+    "samples": 2,
+    "ai": 9
+  },
+  "preserved": {
+    "stories": 19,
+    "originals": 39,
+    "downloadPayloads": 5,
+    "ui": true,
+    "legacy": true,
+    "presentation": true
+  },
+  "snapshotSHA256": "878a96f879c3adbd1bc78289900d35b81f004028c375e4ce3ae416e163114e5f",
+  "snapshotBytes": 84160,
+  "hostedHTMLSHA256": "81f7c5910fe01842dabba870194278365e3c8f2c3f15242544cecc8c0f69b67f",
+  "hostedHTMLBytes": 12368304,
+  "queryCount": 42,
+  "rowCount": 128,
+  "anonymousSnapshotStatus": 200,
+  "anonymousPresentationStatus": 200,
+  "anonymousCanEdit": false,
+  "decodedPrivacyPayloadsChecked": 53,
+  "offlineHTMLSHA256": "e2d9084c0b5fa7db3d17a2665f45b1a9cec6c1541c974b4222fdd0bad604353b",
+  "offlineHTMLBytes": 2910705,
+  "newGithubHTMLBlobs": 0,
+  "expenseArchiveStillPending": true,
+  "browserQA": "Desktop: both diagrams, exact original start/end, fixed source and first time, timeline20/40/2 and AI9 verified; no mobile-device claim"
+}
