@@ -1,0 +1,33 @@
+{
+  "status": "offline-complete-site-pending",
+  "articleId": "research-2026-10-31-replenishment-constraints-note",
+  "firstGit": "3f54786dbaef70486ad6c67b2324c5f18921ca3f",
+  "firstGitAt": "2026-10-31T02:01:09Z",
+  "offlineHTMLSHA256": "88363c13836def0fec20e4800cd7bc2a0a0b2adb5b29594d35e3c25a23d32cb3",
+  "offlineHTMLBytes": 2910680,
+  "siteModified": false,
+  "lastPublishedVersion": 19,
+  "lastPublishedCounts": {
+    "research": 20,
+    "originalMaterials": 40,
+    "samples": 2,
+    "ai": 9
+  },
+  "expectedAfterFutureSync": {
+    "research": 21,
+    "originalMaterials": 41,
+    "samples": 2,
+    "ai": 9
+  },
+  "qa": {
+    "fullFrozenBody": true,
+    "diagrams": 2,
+    "desktopRendering": true,
+    "originalExpanded": true,
+    "privateScanPassed": true,
+    "mobileDeviceVerified": false
+  },
+  "newGithubHTMLBlobs": 0,
+  "thirdPartyImagesCopied": false,
+  "expenseArchiveStillPending": true
+}

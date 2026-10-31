@@ -1,0 +1,10 @@
+{
+  "files": {
+    "BUILD.md": "889ff07bf0badd2afbd37887c6b5f69a80a850f9772370287434aacfdb19f0a8",
+    "publication-receipt.json": "73a235069aed970e181e58bc44105c11456171d4afe04e7c930eb6bd99b0113c",
+    "replenishment-constraints/article-entry.json": "b3e2fb0914c90f651fe6147334432af6c214453b53d70041909060ec9cf80603",
+    "replenishment-constraints/article-reviewed-data.json": "b14384c109ebf31596311bec63d17019bb4713dabb69fd40980fe86c7d42868d",
+    "replenishment-constraints/illustrated-story.json": "dea8f10f2a71a9615b721287e34485498019b96a8fe11b706e2ac173ba13612b",
+    "test_article.py": "5141f8c54618bba8ae2bdfd63fedc67507e43ebd5edb6ab6673f2067909f11b3"
+  }
+}
