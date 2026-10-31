@@ -1,0 +1,35 @@
+{
+  "status": "offline-delivered-site-pending",
+  "articleId": "research-2026-10-31-energy-control-note",
+  "firstGit": "c748b63ec97fae5b6fd93807a69dc793315f47b3",
+  "firstGitAt": "2026-10-31T20:07:57Z",
+  "offlineHTMLSHA256": "ddeb0975396f537953e3908c5b56a27b20a8535c198eb6de27a00ba9e6168399",
+  "offlineHTMLBytes": 2913506,
+  "siteChanged": false,
+  "lastPublishedVersion": 19,
+  "lastPublishedCounts": {
+    "research": 20,
+    "originals": 40,
+    "samples": 2,
+    "ai": 9
+  },
+  "localCounts": {
+    "research": 25,
+    "originals": 45,
+    "samples": 2,
+    "ai": 13
+  },
+  "qa": {
+    "fullFrozenBody": true,
+    "twoDiagramsDesktop": true,
+    "originalExpanded": true,
+    "fixedSourceAndTime": true,
+    "prior44Originals24Stories50QueriesPreserved": true,
+    "uiLegacyFiveDownloadsPreserved": true,
+    "decodedPrivacyPayloads": 53,
+    "routeCountsSort": true,
+    "sampleHTMLZIP": true
+  },
+  "newGithubHTMLBlobs": 0,
+  "expenseArchiveStillPending": true
+}

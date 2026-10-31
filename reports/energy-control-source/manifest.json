@@ -1,0 +1,12 @@
+{
+  "files": {
+    "BUILD.md": "36027b654b37c8239fa6419b65c83cd2729aed33608d1dacd93e63dca613f944",
+    "article_topics.json": "7fdf7b0f787bf4599f5d96492a30f626470b3dabfe8978253bcc911d93bcb5a9",
+    "energy-control/article-entry.json": "9abf46e765ffd34f8028f91d3e309a998014b1f04924ad82285de0afdc561dc4",
+    "energy-control/article-reviewed-data.json": "b17e2e079ead8bfb6707c2e1bc98e95f9b9e4fb4f698d940c25c5781eb26fb1f",
+    "energy-control/illustrated-story.json": "3e53806b2ed00bdff3af528473017ba2f6ab90ab1560ab4039ac3f0500deea55",
+    "publication-receipt.json": "5fe32812ad912031d64d70fe417a24fcf47d78e184ac95496fa6c2d7e937f701",
+    "test_article.py": "02b126f92d4055f6db0c843ca69dccca60a532b50adc97c838eea707edef5e70",
+    "test_reader_routes.mjs": "a5bea0f733385415041fbbebb4f503bfa6c430fec57b75741905c0673aabfb39"
+  }
+}

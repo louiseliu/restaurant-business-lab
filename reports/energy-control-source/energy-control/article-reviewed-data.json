@@ -1,0 +1,102 @@
+{
+  "surface": "report",
+  "title": "餐厅要为 AI 节能多付多少钱？先看它比现有控制多解决了什么",
+  "generatedAt": "2026-10-31T20:07:57Z",
+  "status": "reviewed",
+  "buildStatus": "complete",
+  "exportPreferences": {
+    "selected": null,
+    "destinations": []
+  },
+  "filters": [],
+  "report": {},
+  "id": "report:energy-control-20261031",
+  "queries": {
+    "diagram-research-2026-10-31-energy-control-note": {
+      "rows": [
+        {
+          "title": "时间规则｜已知日程",
+          "text": "价值假设是减少规则漏执行。日程改变却没人更新时，简单规则也会留下持续维护负担。"
+        },
+        {
+          "title": "状态规则｜设备状态",
+          "text": "价值假设是减少依赖关系与固定时间表错配。依赖不完整或状态数据不足时，仍需调查和人工判断。"
+        },
+        {
+          "title": "自学习｜历史与实时数据",
+          "text": "价值假设是适应变化负荷。数据或约束不足、增益低于持续成本时，复杂度可能不值得。"
+        }
+      ],
+      "source": {
+        "label": "同叫智能控制，购买的是三类不同能力",
+        "files": [
+          "research/2026-10-31-energy-control/note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "机制和边界",
+            "definition": "研究分析示意，不是优劣排名、升级阶梯或具名产品兼容性实测。无可执行启停动作，无实测节能百分比。 可能共存；监测不等于控制；适用性须逐设备确认。排烟、冷藏和食品安全约束不能被效率目标覆盖，本文不提供改造或运行参数。",
+            "componentIds": [
+              "diagram-research-2026-10-31-energy-control-note"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "固定公开研究版本",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/c748b63ec97fae5b6fd93807a69dc793315f47b3/research/2026-10-31-energy-control/note.md"
+          },
+          {
+            "title": "展示边界",
+            "detail": "研究分析示意，不是优劣排名、升级阶梯或具名产品兼容性实测。无可执行启停动作，无实测节能百分比。 可能共存；监测不等于控制；适用性须逐设备确认。排烟、冷藏和食品安全约束不能被效率目标覆盖，本文不提供改造或运行参数。"
+          }
+        ]
+      }
+    },
+    "diagram-research-2026-10-31-energy-control-note:second": {
+      "rows": [
+        {
+          "title": "正常换新：比较两种新机",
+          "text": "可行普通新机总成本 ↔ 候选AI新机总成本。不要把整台新机价格都归因于AI；专为算法提前换新则另计提前替换支出。"
+        },
+        {
+          "title": "旧机继续使用：比较可行控制",
+          "text": "现有可行控制总成本 ↔ 已确认兼容的AI改造总成本。读取状态、发送命令与原厂内部调节能力不是同一件事。"
+        },
+        {
+          "title": "新增价值：相同业务约束下核验",
+          "text": "比较相对替代方案的可核验节电，以及真正可避免的管理支出。释放时间不能全部等同工资节省。"
+        },
+        {
+          "title": "额外成本：把持续工作算进去",
+          "text": "包括价差适配、调试服务、维护例外、退出迁移。基础管理已有改善不重复计入；账单中的天气、时长和设备变化需另辨。"
+        }
+      ],
+      "source": {
+        "label": "只把新增能力对应的差额记到 AI 账上",
+        "files": [
+          "research/2026-10-31-energy-control/note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "机制和边界",
+            "definition": "采购比较框架，无金额或回收期，不是任何品牌收益测算。两种采购情形分别比较，不把新机内置能力外推给旧设备改造。 两个采购路径最终都比较新增价值与额外成本。设备耗电不等于可停止；设备电量下降不等于整店电费或利润同比改善。",
+            "componentIds": [
+              "diagram-research-2026-10-31-energy-control-note:second"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "固定公开研究版本",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/c748b63ec97fae5b6fd93807a69dc793315f47b3/research/2026-10-31-energy-control/note.md"
+          },
+          {
+            "title": "展示边界",
+            "detail": "采购比较框架，无金额或回收期，不是任何品牌收益测算。两种采购情形分别比较，不把新机内置能力外推给旧设备改造。 两个采购路径最终都比较新增价值与额外成本。设备耗电不等于可停止；设备电量下降不等于整店电费或利润同比改善。"
+          }
+        ]
+      }
+    }
+  }
+}
