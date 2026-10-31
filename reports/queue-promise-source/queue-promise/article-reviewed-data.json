@@ -1,0 +1,102 @@
+{
+  "surface": "report",
+  "title": "预测到号，不等于保证入座：餐厅该不该让客人按时间回来",
+  "generatedAt": "2026-10-31T16:08:16Z",
+  "status": "reviewed",
+  "buildStatus": "complete",
+  "exportPreferences": {
+    "selected": null,
+    "destinations": []
+  },
+  "filters": [],
+  "report": {},
+  "id": "report:queue-promise-20261031",
+  "queries": {
+    "diagram-research-2026-10-31-queue-promise-note": {
+      "rows": [
+        {
+          "title": "取号 → 首次叫到号",
+          "text": "T1：专利方案的训练目标。若该类记录只有总时长T1+T2而没有T1，则不用于训练；这不等于经营复盘应删除它。"
+        },
+        {
+          "title": "客人不在 → 返回并就餐",
+          "text": "T2：顾客不在后返回就餐增加的等待。不能全算模型误差，也不能一概归为门店过错。"
+        },
+        {
+          "title": "服务验收：保留所有最终状态",
+          "text": "研究建议另记返回、实际入座、取消或未返回分支。后两类既不能都算成功，也不能无证据全算流失。"
+        }
+      ],
+      "source": {
+        "label": "同一张号，两个不同的验收终点",
+        "files": [
+          "research/2026-10-31-queue-promise/note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "机制和边界",
+            "definition": "原创事件示意，无真实时长比例、分钟或现场数据。T1/T2来自美味不用等专利设计；返回与入座分别留记录是本文建议，不冒称专利已有字段。 专利为2023年授权设计证据，不证明商业部署。若验收的是“按建议时间回来后的体验”，额外等待与例外不能因训练剔除而消失。",
+            "componentIds": [
+              "diagram-research-2026-10-31-queue-promise-note"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "固定公开研究版本",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/10edb1edb9311446f8f524c62f1f9c35e390c1ed/research/2026-10-31-queue-promise/note.md"
+          },
+          {
+            "title": "展示边界",
+            "detail": "原创事件示意，无真实时长比例、分钟或现场数据。T1/T2来自美味不用等专利设计；返回与入座分别留记录是本文建议，不冒称专利已有字段。 专利为2023年授权设计证据，不证明商业部署。若验收的是“按建议时间回来后的体验”，额外等待与例外不能因训练剔除而消失。"
+          }
+        ]
+      }
+    },
+    "diagram-research-2026-10-31-queue-promise-note:second": {
+      "rows": [
+        {
+          "title": "先辨认参考信息",
+          "text": "专利设计按店与桌型、历史时间条件估计；上科大2021窗口项目用AI人数检测加平均耗时。二者都不能直接当作当前正餐桌位保证。"
+        },
+        {
+          "title": "门1：规则是否一致",
+          "text": "核对允许离店范围、过号处置、返回优先顺序。若配置与前厅承诺冲突，保留参考提示，不保证入座。"
+        },
+        {
+          "title": "门2：本店衔接是否验证",
+          "text": "同时观察返回再等、留桌空置、下一组延后及例外负担。未满足则不升级；桌型、规则或节奏变化需重新验证。"
+        },
+        {
+          "title": "只在已验证范围内试行",
+          "text": "衔接稳定且代价可接受时，再逐步试更具体回店安排。不设通用提前分钟数，不从一次答准推出全天可兑现。"
+        }
+      ],
+      "source": {
+        "label": "从参考时间到回店安排，还要过两道门",
+        "files": [
+          "research/2026-10-31-queue-promise/note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "机制和边界",
+            "definition": "全部门槛和箭头是研究建议，不是美味不用等、上科大与色卡会的联合架构；专利历史条件预测与学校人数检测估时是不同机制，不连接成同一部署。 色卡会公开规则能力启发门1问题，不证明具体门店配置；学校材料只说明历史上线自报。没有独立收益数据，也没有最佳提醒提前量。",
+            "componentIds": [
+              "diagram-research-2026-10-31-queue-promise-note:second"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "固定公开研究版本",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/10edb1edb9311446f8f524c62f1f9c35e390c1ed/research/2026-10-31-queue-promise/note.md"
+          },
+          {
+            "title": "展示边界",
+            "detail": "全部门槛和箭头是研究建议，不是美味不用等、上科大与色卡会的联合架构；专利历史条件预测与学校人数检测估时是不同机制，不连接成同一部署。 色卡会公开规则能力启发门1问题，不证明具体门店配置；学校材料只说明历史上线自报。没有独立收益数据，也没有最佳提醒提前量。"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "status": "offline-delivered-site-pending",
+  "articleId": "research-2026-10-31-queue-promise-note",
+  "firstGit": "10edb1edb9311446f8f524c62f1f9c35e390c1ed",
+  "firstGitAt": "2026-10-31T16:08:16Z",
+  "offlineHTMLSHA256": "03eb71556a53d3712cb0c0bee855fc705eba2d9356a94d85a73169293a8a2426",
+  "offlineHTMLBytes": 2915287,
+  "siteChanged": false,
+  "lastPublishedVersion": 19,
+  "lastPublishedCounts": {
+    "research": 20,
+    "originals": 40,
+    "samples": 2,
+    "ai": 9
+  },
+  "localCounts": {
+    "research": 24,
+    "originals": 44,
+    "samples": 2,
+    "ai": 12
+  },
+  "qa": {
+    "fullFrozenBody": true,
+    "twoDiagramsDesktop": true,
+    "originalExpanded": true,
+    "fixedSourceAndTime": true,
+    "prior43Originals23Stories48QueriesPreserved": true,
+    "uiLegacyFiveDownloadsPreserved": true,
+    "decodedPrivacyPayloads": 53,
+    "routeCountsSort": true,
+    "sampleHTMLZIP": true
+  },
+  "newGithubHTMLBlobs": 0,
+  "expenseArchiveStillPending": true
+}
