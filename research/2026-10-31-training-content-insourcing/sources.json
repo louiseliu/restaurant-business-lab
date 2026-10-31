@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0",
+  "checked_at": "2026-10-31T23:05:00Z",
+  "research_scope": "餐饮培训内容翻译与配音内制的实施机制；非产品实测或经营效果验证",
+  "sources": [
+    {
+      "id": "attensi-itsu-training-content",
+      "title": "itsu: AI generating impactful training content on demand",
+      "url": "https://attensi.com/customers/retail/itsu-creates-impactful-training-content-with-attensi-ai/",
+      "publisher": "Attensi",
+      "publication_date": null,
+      "date_semantics": "页面未标发布日期；访问时间不作为发布或上线日期",
+      "access_status": "readable",
+      "access_observation": "本轮公开网页相关正文完整可读；不表示持续可用",
+      "evidence_role": "供应商刊载的具名客户自述，含运营培训负责人 Francesco D’apice 与 Alba Trujillo Mora 的陈述；非独立验证",
+      "supports": [
+        "巴黎开店涉及培训翻译，原外部翻译存在返工",
+        "客户自述现使用 Creator 翻译和配音并人工复核",
+        "原有对话培训录制涉及演员与设备；现使用 AI 配音和共创助手"
+      ],
+      "limitations": [
+        "单一供应商来源，不构成独立效果验证",
+        "未标发布日期，不称为2026年新上线",
+        "没有合同报价、实际工时账、更新频次、审核错误率、岗位表现数据",
+        "未采用极快、近乎完美或节省数月等宣传性效果表述",
+        "客户提及复核一次不等于普适审核要求",
+        "不能把普通学习记录跟踪功能全部归为AI"
+      ],
+      "article_use": "仅用一段压缩案例事实，其余为明确条件分析与建议"
+    }
+  ],
+  "not_claimed": [
+    "未核算投资回报或现金节省",
+    "未验证实际培训能力提升",
+    "未验证中国可采购性、产品报价及适用性",
+    "未新增Pro协作或门店实测"
+  ],
+  "figures": "两幅原创条件/流程示意，无数值和效果估计"
+}
