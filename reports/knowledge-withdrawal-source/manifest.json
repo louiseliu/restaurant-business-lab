@@ -1,0 +1,12 @@
+{
+  "files": {
+    "BUILD.md": "4b569282c59366a03f46281d5163214029607990d03faccc4ec86a81acbea555",
+    "article_topics.json": "ab2ef1b0534e72cfa79bf0fa0a20fafc8bb20fabd6c4ed0746eaf1fc41a65f38",
+    "knowledge-withdrawal/article-entry.json": "c51ece238dfff8f086fb771a07d23696523efc73dd481ee5636d168fa3ae1a37",
+    "knowledge-withdrawal/article-reviewed-data.json": "8ffb7407e526ee1e1ef5ed5edffd4e99d825e852034869f072a802b05df7d2e7",
+    "knowledge-withdrawal/illustrated-story.json": "75efbdbf5667a47801175698c2b009c87ecc5b2115d8068331c470af6c6d038f",
+    "publication-receipt.json": "4804b14749989c53684b6acced2e68a5bf217e002b742c3267c5c3b697075909",
+    "test_article.py": "f6a6edba30a320fa24e8b64dba264fd0a04ce9168ca6feee896a033475be6506",
+    "test_reader_routes.mjs": "677190ffd85c3e1ca399524887b1698e02311cb4ca1b4998a87c322623e7302f"
+  }
+}

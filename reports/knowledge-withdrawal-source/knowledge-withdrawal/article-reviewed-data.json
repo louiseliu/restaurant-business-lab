@@ -1,0 +1,98 @@
+{
+  "surface": "report",
+  "title": "旧套餐规则划掉了，AI 为什么还可能照着答",
+  "generatedAt": "2026-10-31T09:01:42Z",
+  "status": "reviewed",
+  "buildStatus": "complete",
+  "exportPreferences": {
+    "selected": null,
+    "destinations": []
+  },
+  "filters": [],
+  "report": {},
+  "id": "report:knowledge-withdrawal-20261031",
+  "queries": {
+    "diagram-research-2026-10-31-knowledge-withdrawal-note": {
+      "rows": [
+        {
+          "title": "人看的原文",
+          "text": "旧规则仍留在文档中，用删除线表示不再执行；人能从排版理解状态。"
+        },
+        {
+          "title": "系统接收的材料",
+          "text": "直连或导入可能保留删除线内原始文本，却不保留格式；不能假定模型读到“已停用”。"
+        },
+        {
+          "title": "需要单独验收的回答",
+          "text": "明确标注规则状态并检查可取用资料，再从线上问法复核。材料含旧句不等于答案必然采用旧句。"
+        }
+      ],
+      "source": {
+        "label": "删除线传到问答系统，状态信息可能丢在哪里",
+        "files": [
+          "research/2026-10-31-knowledge-withdrawal/note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "机制和边界",
+            "definition": "假设店长用删除线标记已结束的套餐规则；不是实际餐厅事件或产品实测。依据aily连接方式文档说明格式边界。 仅说明该产品公开文档的输入限制，不推广到所有知识库；划掉、改色和移动目录都不应替代明确的撤回责任。",
+            "componentIds": [
+              "diagram-research-2026-10-31-knowledge-withdrawal-note"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "固定公开研究版本",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/c9978c300b1a8acb4c5b597c097e08022d9fd55f/research/2026-10-31-knowledge-withdrawal/note.md"
+          },
+          {
+            "title": "展示边界",
+            "detail": "假设店长用删除线标记已结束的套餐规则；不是实际餐厅事件或产品实测。依据aily连接方式文档说明格式边界。 仅说明该产品公开文档的输入限制，不推广到所有知识库；划掉、改色和移动目录都不应替代明确的撤回责任。"
+          }
+        ]
+      }
+    },
+    "diagram-research-2026-10-31-knowledge-withdrawal-note:second": {
+      "rows": [
+        {
+          "title": "标准问答库：直接匹配",
+          "text": "匹配后直接输出预设答案。前置匹配开关分开发与线上环境，变更需要重新发布才在线上生效。"
+        },
+        {
+          "title": "标准问答库：作为生成材料",
+          "text": "关闭前置匹配，已有问答对仍可参与模型生成。固定话术消失，不足以证明旧规则已撤回。"
+        },
+        {
+          "title": "知识空间：检索过滤",
+          "text": "标题词或指定链接可过滤；链接不覆盖子节点，多知识空间规则会对所有知识共同生效。其范围独立于前述问答库开关。"
+        }
+      ],
+      "source": {
+        "label": "旧内容的不同路径，要分别核对控制范围",
+        "files": [
+          "research/2026-10-31-knowledge-withdrawal/note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "机制和边界",
+            "definition": "aily官方文档的机制对照；下列不是同一开关，不是同一餐企已部署配置，也不保证最终回答一定采用旧内容。 研究建议分别检查源文档、问答对、子页面与线上发布状态。大范围过滤可能误排仍有效资料；不能从排除一个父页面推定整棵目录都已退出。",
+            "componentIds": [
+              "diagram-research-2026-10-31-knowledge-withdrawal-note:second"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "固定公开研究版本",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/c9978c300b1a8acb4c5b597c097e08022d9fd55f/research/2026-10-31-knowledge-withdrawal/note.md"
+          },
+          {
+            "title": "展示边界",
+            "detail": "aily官方文档的机制对照；下列不是同一开关，不是同一餐企已部署配置，也不保证最终回答一定采用旧内容。 研究建议分别检查源文档、问答对、子页面与线上发布状态。大范围过滤可能误排仍有效资料；不能从排除一个父页面推定整棵目录都已退出。"
+          }
+        ]
+      }
+    }
+  }
+}

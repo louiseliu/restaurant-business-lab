@@ -1,0 +1,35 @@
+{
+  "status": "offline-delivered-site-pending",
+  "articleId": "research-2026-10-31-knowledge-withdrawal-note",
+  "firstGit": "c9978c300b1a8acb4c5b597c097e08022d9fd55f",
+  "firstGitAt": "2026-10-31T09:01:42Z",
+  "offlineHTMLSHA256": "77fd3488adc249723cb31ad8f95bdc3d32831ff0b4c0ccf3910ebd33c2c369a0",
+  "offlineHTMLBytes": 2910357,
+  "siteChanged": false,
+  "lastPublishedVersion": 19,
+  "lastPublishedCounts": {
+    "research": 20,
+    "originals": 40,
+    "samples": 2,
+    "ai": 9
+  },
+  "localCounts": {
+    "research": 22,
+    "originals": 42,
+    "samples": 2,
+    "ai": 10
+  },
+  "qa": {
+    "fullFrozenBody": true,
+    "twoDiagramsDesktop": true,
+    "originalExpanded": true,
+    "fixedSourceAndTime": true,
+    "prior41Originals21Stories44QueriesPreserved": true,
+    "uiLegacyFiveDownloadsPreserved": true,
+    "decodedPrivacyPayloads": 53,
+    "routeCountsSort": true,
+    "sampleHTMLZIP": true
+  },
+  "newGithubHTMLBlobs": 0,
+  "expenseArchiveStillPending": true
+}
