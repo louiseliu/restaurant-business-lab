@@ -1,0 +1,86 @@
+{
+  "research_date": "2026-10-31",
+  "topic": "预测到号，不等于保证入座",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "基于大数据和机器学习算法的排队高峰时段预估方法，CN109902859B",
+      "url": "https://patentimages.storage.googleapis.com/66/68/5e/7f50a5b5c9a827/CN109902859B.pdf",
+      "discovery_url": "https://patents.google.com/patent/CN109902859B/zh",
+      "publisher": "国家知识产权局授权文献；Google托管副本",
+      "subject": "美味不用等（上海）信息科技股份有限公司（公告文献记载）",
+      "published_at": "2023-03-24",
+      "accessed_at": "2026-10-31",
+      "access_status": "PDF正文可读，本次观察",
+      "type": "专利设计原始文献",
+      "locations": [
+        "PDF第4页，说明书[0011]",
+        "PDF第5页，说明书[0012]",
+        "PDF第2页，权利要求4"
+      ],
+      "supports": [
+        "T1为取号至叫到号，T2为过号后再来就餐的额外时间；方案不以总时间代替T1",
+        "缺T1、只有T1+T2的样本按该方案剔除",
+        "每店每桌型训练；四项时间特征"
+      ],
+      "does_not_support": [
+        "实际商业上线、当前法律状态或权利归属判断",
+        "西贝是实际部署客户",
+        "性能增幅、经营收益、全部弃号或拼桌处理",
+        "该清洗规则适合所有体验验收目标"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "食堂人流预测系统，你了解多少？",
+      "url": "https://sist.shanghaitech.edu.cn/_t335/2021/0729/c2858a68761/page.htm",
+      "publisher": "上海科技大学信息科学与技术学院",
+      "published_at": "2021-07-29",
+      "accessed_at": "2026-10-31",
+      "access_status": "正文可读，本次观察",
+      "type": "历史实施方自报",
+      "locations": [
+        "上线公测与服务入口段",
+        "目标检测段",
+        "数据展示末段"
+      ],
+      "supports": [
+        "2021年历史公测及上线的自报",
+        "Fast R-CNN检测人数；结合试验获得的人均平均耗时估等待",
+        "遮挡与邻队干扰的处理需要"
+      ],
+      "does_not_support": [
+        "当前仍运行或保持同样架构",
+        "AI直接预测按桌入座分钟数",
+        "人物识别准确率等于时间准确率",
+        "独立验证流失、收入、利润或完整成本"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "餐厅排队系统",
+      "url": "https://www.sekahui.com/introduce/paidui_canting.php",
+      "publisher": "色卡会",
+      "published_at": null,
+      "accessed_at": "2026-10-31",
+      "access_status": "正文可读，本次观察；页面无统一发布日期",
+      "type": "供应商产品能力说明",
+      "locations": [
+        "常见问题Q3、Q4、Q5"
+      ],
+      "supports": [
+        "临号提醒和按桌型分组",
+        "过号后移、超时取消规则",
+        "设置距离限制后离开指定范围可自动取消"
+      ],
+      "does_not_support": [
+        "所有门店默认配置",
+        "AI能力或效果",
+        "已发生规则冲突或客户投诉",
+        "完整费用或实际报价"
+      ],
+      "excluded": "不采用起步价、不采用效果宣传；不把无年份更新日志当确定上线日期"
+    }
+  ],
+  "analysis_boundary": "事件分开观察、承诺升级条件及例外成本均为研究建议；无实测，无计算收益；三个来源不是同一部署。"
+}
