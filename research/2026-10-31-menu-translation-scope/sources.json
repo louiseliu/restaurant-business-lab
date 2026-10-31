@@ -1,0 +1,74 @@
+{
+  "checked_at": "2026-10-31",
+  "research_type": "public_product_mechanism_comparison",
+  "implementation_tested": false,
+  "sources": [
+    {
+      "id": "ichef-cloud-menu-translation",
+      "title": "網站與會員設定｜雲端餐廳",
+      "url": "https://support.ichefpos.com/?p=6227",
+      "publisher": "iCHEF",
+      "published_at": null,
+      "checked_at": "2026-10-31",
+      "access_status": "body_readable_at_check",
+      "source_type": "vendor_official_product_manual",
+      "independence_group": "ichef",
+      "locators": "全文132行；重点67–92行",
+      "supports": [
+        "启用后由顾客点击翻译；翻译显示于云端餐厅网站，POS和相关单据沿用后台内容",
+        "支持指定关键词译法；修改后须在POS App套用新设定",
+        "台湾与香港云端餐厅服务存在差异"
+      ],
+      "does_not_establish": [
+        "中国大陆服务可用性或大陆具名门店部署",
+        "独立验证的翻译准确率、节时、增收或利润效果",
+        "后续菜单改动的自动重译、人工译文保留、改价或停售的多语言同步",
+        "完整实施成本"
+      ]
+    },
+    {
+      "id": "weiby-bee-ai-settings",
+      "title": "〖後台操作〗老闆的好幫手！Bee AI 智能店長 操作全攻略",
+      "url": "https://help.weibyapps.com/bee-ai-settings/",
+      "publisher": "WEIBY 微碧智慧店面",
+      "published_at": null,
+      "checked_at": "2026-10-31",
+      "access_status": "body_readable_at_check",
+      "source_type": "vendor_official_product_manual",
+      "independence_group": "weiby",
+      "locators": "全文283行；付费资格40–41行；确认及发布88–110行；翻译155–176行",
+      "supports": [
+        "功能面向付费AI模块用户，未核实完整价格",
+        "译文可附加原文后，或另建语言菜单群组",
+        "菜单更改须发布才同步POS与线上点餐",
+        "文档提示共用口味及加料选项的译名会影响使用它们的品项和套餐",
+        "文档另称新建语言群组不影响原菜单"
+      ],
+      "critical_unresolved_boundary": "另建语言群组不影响原菜单与共用选项传播两条规则如何组合，未实测且文档不充分；不得推断同一次另建群组操作必然修改原群组。",
+      "does_not_establish": [
+        "具体服务地区、中国大陆可用性或具名门店部署",
+        "打印单据具体如何呈现译名",
+        "独立验证的节时、增收或利润效果",
+        "未来修改后的自动更新、人工译文保留、停售同步",
+        "完整实施成本"
+      ]
+    }
+  ],
+  "access_limitations": [
+    {
+      "url": "https://www.weibyapps.com/",
+      "checked_at": "2026-10-31",
+      "access_status": "failed_http_403",
+      "action": "停止该主站依赖；未换路径规避，未据此判断产品服务不可用"
+    }
+  ],
+  "editorial_checks": {
+    "same_vendor_sections_are_not_independent_verification": true,
+    "no_interviews_or_store_visits_claimed": true,
+    "no_medical_or_allergen_advice": true,
+    "no_operational_uploads_or_orders": true,
+    "conditional_recommendation_is_author_analysis": true,
+    "per_source_derived_body_is_bounded": "每家正文直接派生事实保持简短；主要篇幅为独立经营推理，不扩写手册。",
+    "not_a_knowledge_withdrawal_rewrite": "主命题为顾客显示层与经营菜单字段写入的经营取舍，涉及对单与语言维护，并非知识撤回或泛版本管理。"
+  }
+}
