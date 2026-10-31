@@ -1,0 +1,12 @@
+{
+  "files": {
+    "test_reader_routes.mjs": "b4812fe27d16fd56c42f355e8553f0fc1a654f123636cf858876152e81d69a77",
+    "publication-receipt.json": "d7f864a89791d3d2850484b2f7a8ee7a533b3fc4e882f00746c53c173cc374a0",
+    "test_article.py": "2e6779d138cc0ea7be44741bad900b8634f184ec0c2f9d36aa4c030759223891",
+    "BUILD.md": "f613e170dfd78ab55de8c02badfc5f24ae02917ec9285f3e61df684afb632455",
+    "article_topics.json": "64fa572bfea2a84b80dc3e9cc2ba284c3fdde8fa185984e9bd9cb2eb484b7eb8",
+    "training-content-insourcing/article-reviewed-data.json": "26b68c2e4223d4725e95f521595ce3f773f3d08f4a6e47fc72406f99d1bff590",
+    "training-content-insourcing/illustrated-story.json": "9a115c019d62e532e8dac134dd0872d29151e76d56064297b07d4384116b611f",
+    "training-content-insourcing/article-entry.json": "02592e6b811249a01338fec81eb30287ebf0fd828e4569a4459bab1dce295341"
+  }
+}

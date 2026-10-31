@@ -1,0 +1,98 @@
+{
+  "surface": "report",
+  "title": "培训内容频繁改版，何时值得把翻译和配音收回内部",
+  "generatedAt": "2026-10-31T23:08:47Z",
+  "status": "reviewed",
+  "buildStatus": "complete",
+  "exportPreferences": {
+    "selected": null,
+    "destinations": []
+  },
+  "filters": [],
+  "report": {},
+  "id": "report:training-content-insourcing-20261031",
+  "queries": {
+    "diagram-research-2026-10-31-training-content-insourcing-note": {
+      "rows": [
+        {
+          "title": "外包制作：交接与排期",
+          "text": "业务确认底稿 → 交接与排期 → 翻译或录音 → 企业审核 → 分发新版。内容稳定、需求清楚时，专业供应商仍可能合适。"
+        },
+        {
+          "title": "AI辅助内制：生成之后仍要审核",
+          "text": "业务确认底稿 → 内部生成草稿 → 内容与目标语言审核 → 分发新版。发现问题回到草稿或底稿修改；无人审稿时，生成快仍会等。"
+        }
+      ],
+      "source": {
+        "label": "一次小改版，等待可能转移到哪里",
+        "files": [
+          "research/2026-10-31-training-content-insourcing/note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "机制和边界",
+            "definition": "原创流程对照示意；不是itsu全部实际流程复原，也不代表已验证节时。两条路径都保留确认、审核与分发。 这是流程节点对照，不用箭头长度表达工时。经过时间与实际人工时间应分开记录，不把外包等待全部算作人工节省。",
+            "componentIds": [
+              "diagram-research-2026-10-31-training-content-insourcing-note"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "固定公开研究版本",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/50fa8b488fd011045582a3e4a26f92af911153c7/research/2026-10-31-training-content-insourcing/note.md"
+          },
+          {
+            "title": "展示边界",
+            "detail": "原创流程对照示意；不是itsu全部实际流程复原，也不代表已验证节时。两条路径都保留确认、审核与分发。 这是流程节点对照，不用箭头长度表达工时。经过时间与实际人工时间应分开记录，不把外包等待全部算作人工节省。"
+          }
+        ]
+      }
+    },
+    "diagram-research-2026-10-31-training-content-insourcing-note:second": {
+      "rows": [
+        {
+          "title": "低需求 × 审核不足",
+          "text": "保留简单材料；确有需要时借助专业制作，不为了演示工具增加培训需求。"
+        },
+        {
+          "title": "高需求 × 审核不足",
+          "text": "先明确审核责任，或保留专业语言服务；生成更多草稿不能替代译文判断。"
+        },
+        {
+          "title": "低需求 × 审核具备",
+          "text": "小工具或现有流程可能足够，完整平台不必优先购买。"
+        },
+        {
+          "title": "高需求 × 审核具备",
+          "text": "可试内制或混合方案，再核总成本与返工；高后果内容仍需专业审查。"
+        }
+      ],
+      "source": {
+        "label": "四种需求与审核能力组合，选择不同",
+        "files": [
+          "research/2026-10-31-training-content-insourcing/note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "机制和边界",
+            "definition": "四组合条件建议：改版与多语言需求低/高，结合审核能力不足/具备。卡片在窄屏可顺排，不是实测分界或评分模型。 需求与能力不是固定店型标签。图为研究建议，不是itsu已执行岗位方案，也不提供食品安全或设备操作方法。",
+            "componentIds": [
+              "diagram-research-2026-10-31-training-content-insourcing-note:second"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "固定公开研究版本",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/50fa8b488fd011045582a3e4a26f92af911153c7/research/2026-10-31-training-content-insourcing/note.md"
+          },
+          {
+            "title": "展示边界",
+            "detail": "四组合条件建议：改版与多语言需求低/高，结合审核能力不足/具备。卡片在窄屏可顺排，不是实测分界或评分模型。 需求与能力不是固定店型标签。图为研究建议，不是itsu已执行岗位方案，也不提供食品安全或设备操作方法。"
+          }
+        ]
+      }
+    }
+  }
+}

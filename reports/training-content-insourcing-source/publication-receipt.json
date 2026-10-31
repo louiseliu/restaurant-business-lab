@@ -1,0 +1,35 @@
+{
+  "status": "offline-delivered-site-pending",
+  "articleId": "research-2026-10-31-training-content-insourcing-note",
+  "firstGit": "50fa8b488fd011045582a3e4a26f92af911153c7",
+  "firstGitAt": "2026-10-31T23:08:47Z",
+  "offlineHTMLSHA256": "89a0aa9e2a3ef4515f885aa08ca920fe101953603b69f0a4418711f0419d8d27",
+  "offlineHTMLBytes": 2909715,
+  "siteChanged": false,
+  "lastPublishedVersion": 19,
+  "lastPublishedCounts": {
+    "research": 20,
+    "originals": 40,
+    "samples": 2,
+    "ai": 9
+  },
+  "localCounts": {
+    "research": 27,
+    "originals": 47,
+    "samples": 2,
+    "ai": 15
+  },
+  "qa": {
+    "fullFrozenBody": true,
+    "twoDiagramsDesktop": true,
+    "originalExpanded": true,
+    "fixedSourceAndTime": true,
+    "prior46Originals26Stories54QueriesPreserved": true,
+    "uiLegacyFiveDownloadsPreserved": true,
+    "decodedPrivacyPayloads": 53,
+    "routeCountsSort": true,
+    "sampleHTMLZIP": true
+  },
+  "newGithubHTMLBlobs": 0,
+  "expenseArchiveStillPending": true
+}
