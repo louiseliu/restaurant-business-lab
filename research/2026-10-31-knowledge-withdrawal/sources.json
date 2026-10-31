@@ -1,0 +1,90 @@
+{
+  "schema_version": "1.0",
+  "checked_date": "2026-10-31",
+  "scope": "公开官方产品文档机制研究；未登录、实测、购买、联系厂商或操作经营系统",
+  "independence": "全部采用证据均来自飞书 aily 同一供应商，不构成独立交叉验证",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "标准问答库",
+      "url": "https://aily.feishu.cn/hc/1u7kleqg_cwjv3mle",
+      "publisher": "飞书 aily",
+      "publication_date": null,
+      "access_status": "readable",
+      "checked_date": "2026-10-31",
+      "location": "概述；新建问答对；标准问答对的开启与关闭（本次网页行67–92、136–142）",
+      "supports": [
+        "标准问答对可用于前置匹配直接回答，或作为上下文供LLM生成",
+        "只要存在标准问答对数据，即可用于数据问答召回与LLM生成，不受前置拦截开关控制",
+        "前置匹配开关区分开发和线上环境，变更需重新发布后线上生效"
+      ],
+      "limits": [
+        "工作流应用标准问答库的产品说明，不是所有AI产品规则",
+        "没有验证任一餐企实际采用这些设置",
+        "不把关闭前置匹配写成关闭整套AI服务",
+        "未验证实际错误率、费用或节省时间"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "检索规则",
+      "url": "https://aily.feishu.cn/hc/1u7kleqg_searchfilterrules",
+      "publisher": "飞书 aily",
+      "publication_date": null,
+      "access_status": "readable",
+      "checked_date": "2026-10-31",
+      "location": "按标题中的关键词过滤；按文档链接过滤；使用说明（本次网页行60–84）",
+      "supports": [
+        "可按标题关键词或文档链接排除检索材料",
+        "按文档链接过滤仅对本身生效，子节点不被过滤",
+        "关联多个知识空间时，每个空间配置的检索规则对所有知识共同生效"
+      ],
+      "limits": [
+        "知识空间检索规则，不等于标准问答库的同一设置",
+        "多门店误排除及旧活动继续回答仅为机制推论，不是已发生事件",
+        "不同空间的具体组合与执行顺序未实测"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "直连和导入的区别与使用限制",
+      "url": "https://aily.feishu.cn/hc/1u7kleqg_knowledge_connection_mode",
+      "publisher": "飞书 aily",
+      "publication_date": null,
+      "access_status": "readable",
+      "checked_date": "2026-10-31",
+      "location": "导入和直连支持的云文档组件（本次网页行186、267）",
+      "supports": [
+        "直连与导入均不保留删除线等相关格式、只保留原始文本，文档提示可能影响语义"
+      ],
+      "limits": [
+        "直连与导入的文档组件说明，不保证模型会采用任一特定条款",
+        "不将删除线丢失外推为任何已发生餐企事故",
+        "节点同步、时延、权限差异不用于本篇"
+      ]
+    }
+  ],
+  "excluded_candidates": [
+    {
+      "url": "https://www.feishu.cn/customers/haidilao_ai_case",
+      "status": "search_result_only_for_this_check",
+      "reason": "搜索返回较长案例内容，但直接open返回零行；不作为本文案例或效果证据，也不将通用文档拼成海底捞实际配置"
+    },
+    {
+      "url": "https://supdone.com/case-hes2",
+      "status": "readable",
+      "reason": "供应商具名案例页可读，未获得知识撤回/版本控制的实际操作边界；不采用效果数字与场景化叙述"
+    },
+    {
+      "url": "https://www.asialink.sh.cn/product-case-catering.html",
+      "status": "fetch_failed",
+      "reason": "Cache miss，未读全文"
+    },
+    {
+      "url": "https://www.hiruiai.com/news/307",
+      "status": "fetch_failed",
+      "reason": "Timeout，未读全文"
+    }
+  ],
+  "analysis_boundary": "套餐结束、旧答案仍可能出现及误排除其他门店资料均为明确的假设或机制分析，不是门店事实；没有因果利润估计。"
+}
