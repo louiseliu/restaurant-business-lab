@@ -1,0 +1,106 @@
+{
+  "surface": "report",
+  "title": "盘点照片识别出来以后，能直接改库存吗？",
+  "generatedAt": "2026-11-01T13:03:33Z",
+  "status": "reviewed",
+  "buildStatus": "complete",
+  "exportPreferences": {
+    "selected": null,
+    "destinations": []
+  },
+  "filters": [],
+  "report": {},
+  "id": "report:inventory-capture-20261101",
+  "queries": {
+    "diagram-research-2026-11-01-inventory-capture-note": {
+      "rows": [
+        {
+          "title": "照片辅助识别",
+          "text": "辅助确认商品与数量；不等于已测得开封品余量。"
+        },
+        {
+          "title": "人员核对与计量",
+          "text": "修正识别结果，保留必要称量。称重是另一个现场动作，非AI自动精确称重。"
+        },
+        {
+          "title": "提交单据",
+          "text": "提交只是流程节点，不把成功提交当成库存与成本立即变化。"
+        },
+        {
+          "title": "按规则确认生效",
+          "text": "核对单据状态、审核设置与库存规则；提交≠生效。"
+        }
+      ],
+      "source": {
+        "label": "识别结果到库存可信，中间不是一步",
+        "files": [
+          "research/2026-11-01-inventory-capture/note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "机制和边界",
+            "definition": "依据餐链公开产品机制重组的流程示意；非实测时长或产品截图，具体生效规则取决配置，不代表所有客户均已上线。 厂家描述能支持操作机制，不能证明识别准确率或节时。框间顺序仅解释边界，不代表每种物料都须按同一顺序称重拍照，也不是完整操作教程。",
+            "componentIds": [
+              "diagram-research-2026-11-01-inventory-capture-note"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "固定公开研究版本",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/7754605220237525f8e76c522d747b2ade7efe41/research/2026-11-01-inventory-capture/note.md"
+          },
+          {
+            "title": "展示边界",
+            "detail": "依据餐链公开产品机制重组的流程示意；非实测时长或产品截图，具体生效规则取决配置，不代表所有客户均已上线。 厂家描述能支持操作机制，不能证明识别准确率或节时。框间顺序仅解释边界，不代表每种物料都须按同一顺序称重拍照，也不是完整操作教程。"
+          }
+        ]
+      }
+    },
+    "diagram-research-2026-11-01-inventory-capture-note:second": {
+      "rows": [
+        {
+          "title": "标准未拆包装｜规格与件数",
+          "text": "研究建议：规格可信时可沿用件数，仍要确认包装与规格对应，不能只认出名称。"
+        },
+        {
+          "title": "开封或散装｜可检验余量",
+          "text": "研究建议：保留必要称量，不把包装件数当作剩余净重。"
+        },
+        {
+          "title": "净料｜数量与配置出成率",
+          "text": "产品边界与分析：换算依配置，核对是否符合实际；配置不是本次拍照测得的事实。"
+        },
+        {
+          "title": "半成品｜数量、成本卡、加工记录",
+          "text": "产品边界与分析：保留实际加工流转依据；照片不能倒推从未记录的过程。"
+        }
+      ],
+      "source": {
+        "label": "四种盘点对象，需要不同的证据",
+        "files": [
+          "research/2026-11-01-inventory-capture/note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "机制和边界",
+            "definition": "经营判断卡片：对象、主要证据与不可省略工作；不是餐链全品类支持清单或识别准确率比较。 所有类别都需明确盘点范围：多人合并累加数量时，个别人各自报对也可能因重叠而合错。四卡不表示四种已实测效果。",
+            "componentIds": [
+              "diagram-research-2026-11-01-inventory-capture-note:second"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "固定公开研究版本",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/7754605220237525f8e76c522d747b2ade7efe41/research/2026-11-01-inventory-capture/note.md"
+          },
+          {
+            "title": "展示边界",
+            "detail": "经营判断卡片：对象、主要证据与不可省略工作；不是餐链全品类支持清单或识别准确率比较。 所有类别都需明确盘点范围：多人合并累加数量时，个别人各自报对也可能因重叠而合错。四卡不表示四种已实测效果。"
+          }
+        ]
+      }
+    }
+  }
+}

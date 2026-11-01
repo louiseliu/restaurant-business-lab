@@ -1,0 +1,35 @@
+{
+  "status": "offline-delivered-site-pending",
+  "articleId": "research-2026-11-01-inventory-capture-note",
+  "firstGit": "7754605220237525f8e76c522d747b2ade7efe41",
+  "firstGitAt": "2026-11-01T13:03:33Z",
+  "offlineHTMLSHA256": "d32c3249ba7ae2c1c00bf0d76d6e63e36ccd13fc0ffe3eb32494770548a7dc43",
+  "offlineHTMLBytes": 2910489,
+  "siteChanged": false,
+  "lastPublishedVersion": 19,
+  "lastPublishedCounts": {
+    "research": 20,
+    "originals": 40,
+    "samples": 2,
+    "ai": 9
+  },
+  "localCounts": {
+    "research": 30,
+    "originals": 50,
+    "samples": 2,
+    "ai": 16
+  },
+  "qa": {
+    "fullFrozenBody": true,
+    "twoDiagramsDesktop": true,
+    "originalExpanded": true,
+    "fixedSourceAndTime": true,
+    "prior49Originals29Stories60QueriesPreserved": true,
+    "uiLegacyFiveDownloadsPreserved": true,
+    "decodedPrivacyPayloads": 53,
+    "routeCountsSort": true,
+    "sampleHTMLZIP": true
+  },
+  "newGithubHTMLBlobs": 0,
+  "expenseArchiveStillPending": true
+}
