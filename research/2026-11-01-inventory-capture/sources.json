@@ -1,0 +1,29 @@
+{
+  "checked_at": "2026-11-01",
+  "article_status": "reviewed_public_product_mechanism_analysis",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "餐饮库存与食材成本管理｜盘点与差异核查｜餐链 Mealcome",
+      "url": "https://www.mealcome.com/products/inventory-cost",
+      "publisher": "湖南餐智科技有限公司／餐链",
+      "source_type": "vendor_product_description",
+      "access_status": "body_readable_this_run",
+      "supports": [
+        "photo-assisted item and quantity recognition with human correction",
+        "weighing workflow separately described",
+        "configured yield conversion and semifinished goods prerequisites",
+        "merged quantities accumulate",
+        "posting depends on document state and approval rules"
+      ],
+      "deployment_status": "vendor describes capability available when enabled; version, client rollout and independent use unverified",
+      "cost_status": "specific implementation and feature fees unknown",
+      "limitations": [
+        "no independent outcome validation",
+        "illustrative business data is not a real-time client result",
+        "not a hands-on product test",
+        "recognition and weighing error rates unknown"
+      ]
+    }
+  ]
+}
