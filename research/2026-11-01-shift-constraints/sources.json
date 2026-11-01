@@ -1,0 +1,45 @@
+{
+  "checked_at": "2026-11-01",
+  "sources": [
+    {
+      "id": "S1",
+      "url": "https://www.mayohr.com/tw/blog/detail/goldpig-aihrm-project",
+      "published_at": "2025-06-04",
+      "publisher": "MAYOHR",
+      "type": "supplier_primary_development_note",
+      "access": "正文可读：web.open",
+      "supports": [
+        "当时共同开发阶段",
+        "偏好与兼职可用时间等输入问题"
+      ],
+      "limits": [
+        "不是独立验证",
+        "未来营业数据联动不能视为已上线"
+      ]
+    },
+    {
+      "id": "S2",
+      "url": "https://www.mayohr.com/tw/blog/detail/case_goldpig",
+      "published_at": "2025-10-28",
+      "publisher": "MAYOHR",
+      "type": "supplier_hosted_named_customer_account",
+      "access": "web.search_query 返回标题日期及完整连续正文；直接 web.open 超时",
+      "supports": [
+        "供应商后续称模块上线",
+        "早期建议未充分反映既有安排",
+        "偏好及现场需求调整后仍有人工修正"
+      ],
+      "limits": [
+        "同机构不算独立证据",
+        "不采用70%为准确率",
+        "不采用节时作为现金收益",
+        "未核实通用商用范围及价格"
+      ]
+    }
+  ],
+  "excluded_from_article": [
+    "劳勤产品功能不嫁接金豬案例",
+    "好排班教程另留候选，不拼接为MAYOHR功能"
+  ],
+  "privacy": "未采集真实员工数据，图为机制示意，不含个人资料"
+}
