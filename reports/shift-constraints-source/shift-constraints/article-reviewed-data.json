@@ -1,0 +1,94 @@
+{
+  "surface": "report",
+  "title": "AI 班表还要改，什么情况下仍值得用？",
+  "generatedAt": "2026-11-01T14:03:18Z",
+  "status": "reviewed",
+  "buildStatus": "complete",
+  "exportPreferences": {
+    "selected": null,
+    "destinations": []
+  },
+  "filters": [],
+  "report": {},
+  "id": "report:shift-constraints-20261101",
+  "queries": {
+    "diagram-research-2026-11-01-shift-constraints-note": {
+      "rows": [
+        {
+          "title": "新信息：可用时段改变",
+          "text": "更新输入后再生成或调整，仍需必要沟通；不把未提前得知的变化直接判为算法错误。"
+        },
+        {
+          "title": "重复问题：同类限制每周重改",
+          "text": "检查规则、数据是否更新，以及约束能否表达和保存。不能只改好这一张表，让下周再出现相同问题。"
+        },
+        {
+          "title": "需求冲突：可用人员不足以覆盖",
+          "text": "显式暴露缺口并重新决策，不能让填满的表格掩盖不可行要求；不是宣称产品已经自动解决冲突。"
+        }
+      ],
+      "source": {
+        "label": "建议班表仍要改，先区分修改原因",
+        "files": [
+          "research/2026-11-01-shift-constraints/note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "机制和边界",
+            "definition": "研究建议示意，非MAYOHR产品架构、实际错误分类或效果测量；未验证规则记忆、自动学习或冲突求解能力。 验收同类修改能否减少，而不只是出表按钮有多快。“下次遵守”是核查目标，不暗示产品会自动学习人工改动。",
+            "componentIds": [
+              "diagram-research-2026-11-01-shift-constraints-note"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "固定公开研究版本",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/daa2e94fd3780500f5d3a7e3291e1a3c1df86743/research/2026-11-01-shift-constraints/note.md"
+          },
+          {
+            "title": "展示边界",
+            "detail": "研究建议示意，非MAYOHR产品架构、实际错误分类或效果测量；未验证规则记忆、自动学习或冲突求解能力。 验收同类修改能否减少，而不只是出表按钮有多快。“下次遵守”是核查目标，不暗示产品会自动学习人工改动。"
+          }
+        ]
+      }
+    },
+    "diagram-research-2026-11-01-shift-constraints-note:second": {
+      "rows": [
+        {
+          "title": "优先保留固定班表",
+          "text": "人员与岗位需求稳定，旧表大多能直接沿用；系统仍反复要求相同修正时，先改善可用时间收集与分工。"
+        },
+        {
+          "title": "值得试验建议班表",
+          "text": "多岗位与时段变化频繁，固定表经常连带重排；修正原因能成为可维护规则，并保留主管最终确认。"
+        }
+      ],
+      "source": {
+        "label": "固定班表还是建议班表，取决于改变了什么",
+        "files": [
+          "research/2026-11-01-shift-constraints/note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "机制和边界",
+            "definition": "条件判断示意，非收益测算、门店实际分类或软件推荐；台湾共创案例不能外推地区合规与所有客户权益。 共同口径：输入准备＋核对＋纠偏＋发布前确认；同时检查关键岗位覆盖。管理时间与现金支出分开，本次没有价格或回本证据。",
+            "componentIds": [
+              "diagram-research-2026-11-01-shift-constraints-note:second"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "固定公开研究版本",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/daa2e94fd3780500f5d3a7e3291e1a3c1df86743/research/2026-11-01-shift-constraints/note.md"
+          },
+          {
+            "title": "展示边界",
+            "detail": "条件判断示意，非收益测算、门店实际分类或软件推荐；台湾共创案例不能外推地区合规与所有客户权益。 共同口径：输入准备＋核对＋纠偏＋发布前确认；同时检查关键岗位覆盖。管理时间与现金支出分开，本次没有价格或回本证据。"
+          }
+        ]
+      }
+    }
+  }
+}

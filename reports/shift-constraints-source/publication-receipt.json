@@ -1,0 +1,35 @@
+{
+  "status": "offline-delivered-site-pending",
+  "articleId": "research-2026-11-01-shift-constraints-note",
+  "firstGit": "daa2e94fd3780500f5d3a7e3291e1a3c1df86743",
+  "firstGitAt": "2026-11-01T14:03:18Z",
+  "offlineHTMLSHA256": "db0e0eadff88675aabab743586a8542c8bff085511a28939e3975e122c267115",
+  "offlineHTMLBytes": 2909965,
+  "siteChanged": false,
+  "lastPublishedVersion": 19,
+  "lastPublishedCounts": {
+    "research": 20,
+    "originals": 40,
+    "samples": 2,
+    "ai": 9
+  },
+  "localCounts": {
+    "research": 31,
+    "originals": 51,
+    "samples": 2,
+    "ai": 17
+  },
+  "qa": {
+    "fullFrozenBody": true,
+    "twoDiagramsDesktop": true,
+    "originalExpanded": true,
+    "fixedSourceAndTime": true,
+    "prior50Originals30Stories62QueriesPreserved": true,
+    "uiLegacyFiveDownloadsPreserved": true,
+    "decodedPrivacyPayloads": 53,
+    "routeCountsSort": true,
+    "sampleHTMLZIP": true
+  },
+  "newGithubHTMLBlobs": 0,
+  "expenseArchiveStillPending": true
+}
