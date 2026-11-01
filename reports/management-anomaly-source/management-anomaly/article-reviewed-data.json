@@ -1,0 +1,94 @@
+{
+  "surface": "report",
+  "title": "AI提示赠菜异常，要不要收紧门店权限？",
+  "generatedAt": "2026-11-01T18:02:40Z",
+  "status": "reviewed",
+  "buildStatus": "complete",
+  "exportPreferences": {
+    "selected": null,
+    "destinations": []
+  },
+  "filters": [],
+  "report": {},
+  "id": "report:management-anomaly-20261101",
+  "queries": {
+    "diagram-research-2026-11-01-management-anomaly-note": {
+      "rows": [
+        {
+          "title": "企业公开自述｜上错菜后的补救",
+          "text": "上错菜 → 补救赠菜 → 顾客随后开卡。先核清补救与既有规则，不从共现直接限制。财经网访谈转述管理者，未见原订单或通话记录。"
+        },
+        {
+          "title": "比较假设｜为争取开卡提出优惠",
+          "text": "提出赠菜优惠 → 顾客开卡。核对优惠目的与现行规则，不预设一定违规；这不是报道查获的另一类门店行为。"
+        }
+      ],
+      "source": {
+        "label": "相同的两个字段，可能对应不同经营原因",
+        "files": [
+          "research/2026-11-01-management-anomaly/note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "机制和边界",
+            "definition": "共同记录为“赠菜＋后来开卡”。左框是企业公开自述，右框为比较假设；文字明确区分，不是两起已查获事件。 字段相同不等于业务原因相同；具体经过与规则才是评价依据。仅有先后顺序也不能推定顾客满意，无虚构频率或收益。",
+            "componentIds": [
+              "diagram-research-2026-11-01-management-anomaly-note"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "固定公开研究版本",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/c7b08c7f902a9dce275b8e98ba12f4ea66160c7d/research/2026-11-01-management-anomaly/note.md"
+          },
+          {
+            "title": "展示边界",
+            "detail": "共同记录为“赠菜＋后来开卡”。左框是企业公开自述，右框为比较假设；文字明确区分，不是两起已查获事件。 字段相同不等于业务原因相同；具体经过与规则才是评价依据。仅有先后顺序也不能推定顾客满意，无虚构频率或收益。"
+          }
+        ]
+      }
+    },
+    "diagram-research-2026-11-01-management-anomaly-note:second": {
+      "rows": [
+        {
+          "title": "若证据支持正常效率改善",
+          "text": "服务未恶化，则认可改善，再评估复制条件。不因出现AI提示就否定经营结果。"
+        },
+        {
+          "title": "若证据显示尚未解决的负担",
+          "text": "暂时支出减少伴随待处理问题，则不急于复制，先处理已核问题；不是认定案例利润来自少用人。"
+        },
+        {
+          "title": "若证据仍不足",
+          "text": "保留未知、补充记录，不强行二选一。报道没有给出该店最终原因与处理结果。"
+        }
+      ],
+      "source": {
+        "label": "利润向上之后，核查也允许“不确定”",
+        "files": [
+          "research/2026-11-01-management-anomaly/note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "机制和边界",
+            "definition": "企业自述起点：收入变化不大、利润上升，同时发现离职与超时菜异常，因果未明。以下均为研究建议：分别查成本变化、人员安排和服务过程，非小菜园实际审批流。 多指标只是缩小待查范围，不能拼成因果故事。紧迫风险由负责人按既有流程及时处理，不等待一般经营指标积累。",
+            "componentIds": [
+              "diagram-research-2026-11-01-management-anomaly-note:second"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "固定公开研究版本",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/c7b08c7f902a9dce275b8e98ba12f4ea66160c7d/research/2026-11-01-management-anomaly/note.md"
+          },
+          {
+            "title": "展示边界",
+            "detail": "企业自述起点：收入变化不大、利润上升，同时发现离职与超时菜异常，因果未明。以下均为研究建议：分别查成本变化、人员安排和服务过程，非小菜园实际审批流。 多指标只是缩小待查范围，不能拼成因果故事。紧迫风险由负责人按既有流程及时处理，不等待一般经营指标积累。"
+          }
+        ]
+      }
+    }
+  }
+}

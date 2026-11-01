@@ -1,0 +1,12 @@
+{
+  "files": {
+    "test_reader_routes.mjs": "c0e3677edd00b653f6e34cfed9c777d475a5048ca67c10e553167ac604c32f2c",
+    "BUILD.md": "28214a143a4473acc9b6504eeeb44b09f1bbeed21043c620ef3b67d5ad54d24b",
+    "article_topics.json": "c54f679419951d78ac3d08a6ee74b9f8ad8664c0ca51802342347a9d2f809918",
+    "test_article.py": "0b9d76f76a33b39f5af91ba915add41e31fd4d478724ba0d0a47e66ca7c1400f",
+    "publication-receipt.json": "a455a602026a2ed6971edf1636dcf9275dd3a47a327447556582e6f2b53913c7",
+    "management-anomaly/illustrated-story.json": "eb95b3ba277215fd28c7a3f50771ec5af90e2d2c867ce08d77773414ae200a57",
+    "management-anomaly/article-reviewed-data.json": "4999133cbe315e4d4bd377b21f5e746fe14e56e73b46b6bc39ea68397bd48e72",
+    "management-anomaly/article-entry.json": "1a0c0c14dae1271bb60b3de6e696242285721ae05e8526b2b152bc62b2e02eff"
+  }
+}

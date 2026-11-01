@@ -1,0 +1,35 @@
+{
+  "status": "offline-delivered-site-pending",
+  "articleId": "research-2026-11-01-management-anomaly-note",
+  "firstGit": "c7b08c7f902a9dce275b8e98ba12f4ea66160c7d",
+  "firstGitAt": "2026-11-01T18:02:40Z",
+  "offlineHTMLSHA256": "a410658f151b4e29ceab5d27b0d891a20c8db4c22324e6cfa7f51a477b0a09e8",
+  "offlineHTMLBytes": 2911394,
+  "siteChanged": false,
+  "lastPublishedVersion": 19,
+  "lastPublishedCounts": {
+    "research": 20,
+    "originals": 40,
+    "samples": 2,
+    "ai": 9
+  },
+  "localCounts": {
+    "research": 32,
+    "originals": 52,
+    "samples": 2,
+    "ai": 18
+  },
+  "qa": {
+    "fullFrozenBody": true,
+    "twoDiagramsDesktop": true,
+    "originalExpanded": true,
+    "fixedSourceAndTime": true,
+    "prior51Originals31Stories64QueriesPreserved": true,
+    "uiLegacyFiveDownloadsPreserved": true,
+    "decodedPrivacyPayloads": 53,
+    "routeCountsSort": true,
+    "sampleHTMLZIP": true
+  },
+  "newGithubHTMLBlobs": 0,
+  "expenseArchiveStillPending": true
+}
