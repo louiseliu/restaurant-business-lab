@@ -1,0 +1,12 @@
+{
+  "files": {
+    "test_reader_routes.mjs": "51bacd32542e7555cb9932f3da12f24b219e9cba53c92e71b10ae78488879a93",
+    "BUILD.md": "4d935c0a4effc26febfa86f253a98e145c1cee8db85cbbac740f4154b2d177d4",
+    "article_topics.json": "6fd0b50f1fdbf31fc36967be7f1a4f915aa95bb135abccf21d55c7a1f3bfa8f3",
+    "test_article.py": "5a86eef5912779a9ffab30f6a031894677399e229eab45268bb55c94a367e173",
+    "publication-receipt.json": "66c42c1c4a67f60403baada709655684e9997284765e733a9d234930bcc2bf8b",
+    "waste-resale/illustrated-story.json": "5c74fb880a98c919dae40cf6e0ae3f31dfde0eede2fd09b3ed66c30d684d4b22",
+    "waste-resale/article-reviewed-data.json": "2cb4b174ba58a84ef7e44599b93f44a43a1cf88076fa1d4f6a67abc8cdac2bc5",
+    "waste-resale/article-entry.json": "43ea3e681bf1189b98ccb6a79fefbe036f2b88d739e439a84309374783297e16"
+  }
+}

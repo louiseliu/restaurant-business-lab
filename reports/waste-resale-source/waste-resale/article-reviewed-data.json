@@ -1,0 +1,90 @@
+{
+  "surface": "report",
+  "title": "晚间盲盒卖光了，值得再加一个销售渠道吗？",
+  "generatedAt": "2026-11-01T10:03:53Z",
+  "status": "reviewed",
+  "buildStatus": "complete",
+  "exportPreferences": {
+    "selected": null,
+    "destinations": []
+  },
+  "filters": [],
+  "report": {},
+  "id": "report:waste-resale-20261101",
+  "queries": {
+    "diagram-research-2026-11-01-waste-resale-note": {
+      "rows": [
+        {
+          "title": "原有店内折扣 → 平台盲盒？",
+          "text": "可能只是渠道迁移：原本就会买折扣品的人换处下单。仍需比较实际到手和交付工作，不能把这部分全算新增。"
+        },
+        {
+          "title": "原本最终未售出 → 平台盲盒？",
+          "text": "可能增加回收：新入口触达原有办法接不住的人。是否确实减少最终未售出，需要与保留的原有办法核对。"
+        }
+      ],
+      "source": {
+        "label": "新增平台，究竟接走了哪一部分余量",
+        "files": [
+          "research/2026-11-01-waste-resale/note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "机制和边界",
+            "definition": "同一批已经形成、符合销售要求的余量之去路示意，不是酵墅实际渠道份额；没有比例或效果数值。 事实锚点仅为酵墅历史上两种渠道并存；箭头是待验证的去路假设。比较整批实际到手、额外包装与交付，以及最终未售出，不画成已证实转移。",
+            "componentIds": [
+              "diagram-research-2026-11-01-waste-resale-note"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "固定公开研究版本",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/186b8649f9776380ea16ecb88f9d6f590c0b4547/research/2026-11-01-waste-resale/note.md"
+          },
+          {
+            "title": "展示边界",
+            "detail": "同一批已经形成、符合销售要求的余量之去路示意，不是酵墅实际渠道份额；没有比例或效果数值。 事实锚点仅为酵墅历史上两种渠道并存；箭头是待验证的去路假设。比较整批实际到手、额外包装与交付，以及最终未售出，不画成已证实转移。"
+          }
+        ]
+      }
+    },
+    "diagram-research-2026-11-01-waste-resale-note:second": {
+      "rows": [
+        {
+          "title": "已经做好的余量",
+          "text": "制作支出已发生，改渠道不会使其消失，也不应在两方案重复扣减。比较可行去路的回收与后续包装、费用、交付。"
+        },
+        {
+          "title": "专门为盲盒增加生产",
+          "text": "新增原料、制作与未售出风险进入判断，重新评价产量和正常销售替代；不能沿用“卖多少都比扔掉强”。"
+        }
+      ],
+      "source": {
+        "label": "今天处理余量，与明天多做一批分开判断",
+        "files": [
+          "research/2026-11-01-waste-resale/note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "机制和边界",
+            "definition": "原创条件对照，无成本或利润估计；不宣称具名品牌为盲盒增产，也不降低食品销售要求。 拉新另看：原麦山丘人员的品牌自述仅支持可能性，未核对的未来收益不预填。美点负责人“几乎没利润”口径未知，不能据此算亏损或新增贡献为零。",
+            "componentIds": [
+              "diagram-research-2026-11-01-waste-resale-note:second"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "固定公开研究版本",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/186b8649f9776380ea16ecb88f9d6f590c0b4547/research/2026-11-01-waste-resale/note.md"
+          },
+          {
+            "title": "展示边界",
+            "detail": "原创条件对照，无成本或利润估计；不宣称具名品牌为盲盒增产，也不降低食品销售要求。 拉新另看：原麦山丘人员的品牌自述仅支持可能性，未核对的未来收益不预填。美点负责人“几乎没利润”口径未知，不能据此算亏损或新增贡献为零。"
+          }
+        ]
+      }
+    }
+  }
+}

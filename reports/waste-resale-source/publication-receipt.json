@@ -1,0 +1,36 @@
+{
+  "status": "offline-delivered-site-pending",
+  "articleId": "research-2026-11-01-waste-resale-note",
+  "firstGit": "186b8649f9776380ea16ecb88f9d6f590c0b4547",
+  "firstGitAt": "2026-11-01T10:03:53Z",
+  "offlineHTMLSHA256": "9d112cd240c0add3f81d8cb12a33c6a82885014ba21b2db779c22c7ce41f7e23",
+  "offlineHTMLBytes": 2910890,
+  "siteChanged": false,
+  "lastPublishedVersion": 19,
+  "lastPublishedCounts": {
+    "research": 20,
+    "originals": 40,
+    "samples": 2,
+    "ai": 9
+  },
+  "localCounts": {
+    "research": 29,
+    "originals": 49,
+    "samples": 2,
+    "ai": 15
+  },
+  "qa": {
+    "fullFrozenBody": true,
+    "twoDiagramsDesktop": true,
+    "originalExpanded": true,
+    "fixedSourceAndTime": true,
+    "baseline22AndRestored23To28Preserved": true,
+    "restoredSmallSourceFilesGitBlobVerified": 54,
+    "uiLegacyFiveDownloadsPreserved": true,
+    "decodedPrivacyPayloads": 53,
+    "routeCountsSort": true,
+    "sampleHTMLZIP": true
+  },
+  "newGithubHTMLBlobs": 0,
+  "expenseArchiveStillPending": true
+}
