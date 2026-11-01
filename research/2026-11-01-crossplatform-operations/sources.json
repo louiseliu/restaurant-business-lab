@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0",
+  "checked_at": "2026-11-01T03:55:45Z",
+  "research_scope": "统一接单整合后的持续操作责任与采购取舍；普通自动化，非AI效果",
+  "sources": [
+    {
+      "id": "ichef-ubereats-integration",
+      "title": "Uber Eats 整合｜iCHEF POS",
+      "url": "https://support.ichefpos.com/?p=16450",
+      "publisher": "iCHEF",
+      "publication_date": null,
+      "date_semantics": "页面未显示发布日期，访问时间不代表功能上线时间",
+      "access_status": "readable",
+      "access_observation": "本轮公开相关正文可读，不承诺持续可用",
+      "evidence_role": "单一供应商官方操作说明，非独立实测",
+      "scope": "页面适用地区表仅台湾勾选，香港未勾选；不外推大陆或其他产品",
+      "supports": [
+        "订单汇入POS与营业时仍需开启Uber Eats接单App",
+        "部分配送和临时营业调整仍在Uber Eats操作",
+        "菜单同步替换原菜单，指定商品促销每次同步后需重设",
+        "已完成交易作废先确认平台退款再在POS操作"
+      ],
+      "limitations": [
+        "不据开启App推断必须使用独立专用设备",
+        "没有实测节时、人员减少、故障率或经营收益",
+        "未核验当前适用套餐、设备及完整报价",
+        "未将未覆盖功能推断为产品失效或实际事故",
+        "不采用未读第三方资料作为独立验证"
+      ]
+    }
+  ],
+  "analysis_boundaries": [
+    "经营示例与试用设计均为研究建议，不是实际门店记录",
+    "不拼接LINE或其他产品成同一部署",
+    "不提供真实营业操作或退款测试指令",
+    "不把集成称为AI成功案例"
+  ],
+  "figures": "两幅原创责任和条件示意，无数值/利润估计"
+}
