@@ -1,0 +1,110 @@
+{
+  "research_date": "2026-11-01",
+  "article_type": "公开案例与渠道选择机制研究",
+  "ai_success_case": false,
+  "access_scope": "本轮公开资料读取，无登录、付费、外联或经营操作；一次可读不代表持续可用。",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "剩菜盲盒太火，“蹲”几周都抢不到",
+      "publisher": "扬子晚报／紫牛新闻",
+      "author": "王灿",
+      "published_date": "2023-06-24",
+      "url": "https://doss.xhby.net/zpaper/yzwb/pad/att/202306/24/e7dc09cc-d8c3-4c5b-b67b-61c55cdda54c.pdf",
+      "locator": "A5版，PDF第1页，凭什么能走红栏目",
+      "access_status": "readable",
+      "access_observation": "网页工具打开超时；同一公开URL本地完整下载3257274字节成功，文本与整页渲染视觉核对完成，无权限拒绝。",
+      "evidence_type": "具名经营者公开采访自述",
+      "supports": [
+        "公善晨为酵墅手感烘焙董事长",
+        "当时南京13家门店均加入平台",
+        "晚间剩余面包部分盲盒出售、部分商场员工折扣"
+      ],
+      "does_not_support": [
+        "目前仍执行",
+        "任一渠道份额或利润",
+        "盲盒优于既有折扣",
+        "新增生产行为"
+      ],
+      "independence": "华龙网等转载同一采访，不另算独立证据"
+    },
+    {
+      "id": "S2",
+      "title": "从“卖不掉”到抢购，“食物盲盒”为何受年轻人欢迎？",
+      "publisher": "南国早报",
+      "author": "易治平",
+      "published_date": "2024-09-13",
+      "date_basis": "URL日期及检索日期；正文记录9月12日走访，抓取页发布时间字段为空。",
+      "url": "https://www.ngzb.com.cn/news/2024/09/13/maibudiao-qianggou-shiwumanghe-weihe-nianqingren-huanying.html",
+      "locator": "商家：盲盒几无利润，初衷是减少浪费",
+      "access_status": "readable",
+      "access_observation": "本轮网页全文可读",
+      "evidence_type": "具名门店负责人公开采访自述",
+      "supports": [
+        "美点饼业长虹路万科里门店负责人沈女士称加入一个多月、持续销售、几乎无利润"
+      ],
+      "does_not_support": [
+        "完整成本或净贡献口径",
+        "门店亏损",
+        "行业利润水平",
+        "现行平台费率"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "惜食魔法袋X原麦山丘：温暖的“余量食物拯救计划”",
+      "publisher": "惜食魔法袋",
+      "published_date": null,
+      "url": "https://magicbag.xishi.life/blog/withwheat",
+      "locator": "项目总经理詹文彬自述",
+      "access_status": "readable",
+      "access_observation": "本轮网页全文可读",
+      "evidence_type": "平台刊载合作品牌自述，平台有交易与招商利益",
+      "supports": [
+        "品牌人员自述有用户通过平台认识品牌、成为忠实用户"
+      ],
+      "does_not_support": [
+        "转化人数/比率/正价消费或观察期",
+        "独立因果拉新效果",
+        "净收益或成本降低"
+      ],
+      "independence": "与平台商家页及其他案例页同机构，不当独立来源"
+    }
+  ],
+  "discovery_not_used": [
+    {
+      "url": "https://www.bsep.org.cn/newsinfo/6865658.html",
+      "status": "fetch_failed",
+      "reason": "网页打开400 Timeout，未读正文，不认定权限拒绝或把协会转述当独立数据"
+    },
+    {
+      "url": "https://finance.people.com.cn/n1/2025/0813/c1004-40541158.html",
+      "status": "index_only",
+      "reason": "搜索返回长摘要，直接打开502；匿名饮品店主动制作盲盒说法未用于正文事实"
+    },
+    {
+      "url": "https://magicbag.xishi.life/business",
+      "status": "profile_only",
+      "reason": "本轮商家营销介绍与案例可读，未见现行佣金；平台效果数字未使用"
+    },
+    {
+      "url": "https://magicbag.xishi.life/blog/jblue",
+      "status": "readable",
+      "reason": "平台案例全文可读，60kg/天无门店数和测量/对照口径，未用于文章"
+    },
+    {
+      "url": "https://togobox.cn/",
+      "status": "index_only",
+      "reason": "检索营销结果，未核主体/案例，未使用"
+    }
+  ],
+  "analysis_boundary": "真实替代项、沉没制作支出与新增生产成本、渠道迁移及最小验证是研究者分析建议；不宣称案例品牌实施这些验证。",
+  "unknowns": [
+    "当前商家合同和佣金",
+    "各门店完整成本",
+    "正价与原有折扣替代",
+    "额外人力和包装",
+    "拉新后续购买"
+  ],
+  "actions": "无新增Pro、门店实测、私人数据、外部联系或外部写入。"
+}
