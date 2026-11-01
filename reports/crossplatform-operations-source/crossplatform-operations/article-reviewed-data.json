@@ -1,0 +1,98 @@
+{
+  "surface": "report",
+  "title": "统一接单以后 能不能撤掉外卖平台值守",
+  "generatedAt": "2026-11-01T03:58:29Z",
+  "status": "reviewed",
+  "buildStatus": "complete",
+  "exportPreferences": {
+    "selected": null,
+    "destinations": []
+  },
+  "filters": [],
+  "report": {},
+  "id": "report:crossplatform-operations-20261101",
+  "queries": {
+    "diagram-research-2026-11-01-crossplatform-operations-note": {
+      "rows": [
+        {
+          "title": "iCHEF入口：集中接单与菜单管理",
+          "text": "新订单进入POS，减少人工录入。菜单同步不等于所有活动维护同时完成；跨入口的后续步骤仍需有人接手。"
+        },
+        {
+          "title": "平台入口：营业、配送与退款确认",
+          "text": "营业时接单App仍须开启，部分营业或配送调整在平台端完成。已完成订单作废前先确认平台退款，再处理POS记录。"
+        }
+      ],
+      "source": {
+        "label": "一个接单入口，两边仍有不同责任",
+        "files": [
+          "research/2026-11-01-crossplatform-operations/note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "机制和边界",
+            "definition": "依据iCHEF台湾Uber Eats整合说明整理的部分操作边界；非完整架构、硬件配置或AI流程，不画成两台设备或两个专岗。 交接关注：同步后相关商品促销可能需要重设；退款确认与本地记录维护有先后。仅限本例说明，具体版本与配置另核，不推断所有产品。",
+            "componentIds": [
+              "diagram-research-2026-11-01-crossplatform-operations-note"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "固定公开研究版本",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/7eb8843d5019f3d6c35e7e02d9b27859f16f354e/research/2026-11-01-crossplatform-operations/note.md"
+          },
+          {
+            "title": "展示边界",
+            "detail": "依据iCHEF台湾Uber Eats整合说明整理的部分操作边界；非完整架构、硬件配置或AI流程，不画成两台设备或两个专岗。 交接关注：同步后相关商品促销可能需要重设；退款确认与本地记录维护有先后。仅限本例说明，具体版本与配置另核，不推断所有产品。"
+          }
+        ]
+      }
+    },
+    "diagram-research-2026-11-01-crossplatform-operations-note:second": {
+      "rows": [
+        {
+          "title": "录单多 × 平台变化少",
+          "text": "优先试整合，观察常态录入工作是否确实减少，不只统计自动汇入订单数。"
+        },
+        {
+          "title": "录单多 × 平台变化多",
+          "text": "可以试整合，同时保留例外、活动更新和售后交接责任。"
+        },
+        {
+          "title": "录单少 × 平台变化少",
+          "text": "先比较现有简单流程与工具总费用，整合未必应优先。"
+        },
+        {
+          "title": "录单少 × 平台变化多",
+          "text": "先改善活动、配送和售后分工，不能指望只靠汇单取消平台值守。"
+        }
+      ],
+      "source": {
+        "label": "看重复录单与平台变化，不只看订单量",
+        "files": [
+          "research/2026-11-01-crossplatform-operations/note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "机制和边界",
+            "definition": "四组合条件建议，不是实际门店分类、评分模型或产品性能测试；卡片可在窄屏顺排。 四种组合都不能直接算出人数、工资或设备节省；腾出时间与减少可避免支出，应分别判断。",
+            "componentIds": [
+              "diagram-research-2026-11-01-crossplatform-operations-note:second"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "固定公开研究版本",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/7eb8843d5019f3d6c35e7e02d9b27859f16f354e/research/2026-11-01-crossplatform-operations/note.md"
+          },
+          {
+            "title": "展示边界",
+            "detail": "四组合条件建议，不是实际门店分类、评分模型或产品性能测试；卡片可在窄屏顺排。 四种组合都不能直接算出人数、工资或设备节省；腾出时间与减少可避免支出，应分别判断。"
+          }
+        ]
+      }
+    }
+  }
+}

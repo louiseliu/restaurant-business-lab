@@ -1,0 +1,12 @@
+{
+  "files": {
+    "test_reader_routes.mjs": "37f5e3deb2011bcef61d142407a4a014ed1d8ea123c367a24db45cc3b630a7b0",
+    "publication-receipt.json": "1dd731d21302ff2f10a2c23e7d84e3147c44720356b8ed21522e0f7097b92417",
+    "test_article.py": "754ee898dade7c1eadb1a50cc7dd039a7dc71ad174754fa8ba06bd0cf80affa4",
+    "BUILD.md": "764b879f3c52966ba14990566a061f3e31402b79a19ea4bba27b82f3e0b02051",
+    "article_topics.json": "1ecf990da846a4c37b4c399771c0b8af9fd38b1b14e4c3730bab706545e814a0",
+    "crossplatform-operations/article-reviewed-data.json": "0308a30dda4494e220c9a81515be8df8ee5fe82e183345784fafeb8785144ba9",
+    "crossplatform-operations/illustrated-story.json": "8ec2a20730c973ef7a3a24e38a98214d2c955a5f156e4647119dd114fd8ee3c5",
+    "crossplatform-operations/article-entry.json": "992668baff01f01b7d5460ed6fed99d9d56f9f5c168f1053e9000edd129860dc"
+  }
+}

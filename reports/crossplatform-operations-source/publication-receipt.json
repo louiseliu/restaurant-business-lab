@@ -1,0 +1,35 @@
+{
+  "status": "offline-delivered-site-pending",
+  "articleId": "research-2026-11-01-crossplatform-operations-note",
+  "firstGit": "7eb8843d5019f3d6c35e7e02d9b27859f16f354e",
+  "firstGitAt": "2026-11-01T03:58:29Z",
+  "offlineHTMLSHA256": "b123e196b83d22ea069757c0c7acc1537cfdf76a89263e3fe0188979d4723045",
+  "offlineHTMLBytes": 2910327,
+  "siteChanged": false,
+  "lastPublishedVersion": 19,
+  "lastPublishedCounts": {
+    "research": 20,
+    "originals": 40,
+    "samples": 2,
+    "ai": 9
+  },
+  "localCounts": {
+    "research": 28,
+    "originals": 48,
+    "samples": 2,
+    "ai": 15
+  },
+  "qa": {
+    "fullFrozenBody": true,
+    "twoDiagramsDesktop": true,
+    "originalExpanded": true,
+    "fixedSourceAndTime": true,
+    "prior47Originals27Stories56QueriesPreserved": true,
+    "uiLegacyFiveDownloadsPreserved": true,
+    "decodedPrivacyPayloads": 53,
+    "routeCountsSort": true,
+    "sampleHTMLZIP": true
+  },
+  "newGithubHTMLBlobs": 0,
+  "expenseArchiveStillPending": true
+}
