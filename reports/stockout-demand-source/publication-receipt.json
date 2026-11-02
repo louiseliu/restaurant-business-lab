@@ -1,0 +1,19 @@
+{
+  "articleId": "research-2026-11-02-stockout-demand-note",
+  "firstGit": "7e152c427d672618f8fab223a6ddf6e0111d356a",
+  "firstPublishedAt": "2026-11-02T14:16:18Z",
+  "htmlSha256": "2e9c047b613bfb4ae473ca930fba804766800d2a13efb9c1f6d0a5ec91aa747d",
+  "htmlBytes": 2913568,
+  "attachmentDelivery": "send accepted at 2026-11-02T14:20:02Z; user open/download not verified",
+  "localTimeline": {
+    "research": 37,
+    "originals": 57,
+    "samples": 2,
+    "ai": 22
+  },
+  "publicSite": "not synchronized; last verified v19 20/40/2 AI9",
+  "githubHtmlArchive": "not completed; no large HTML request",
+  "visualQA": "not completed: CUA net::ERR_CONNECTION_REFUSED at localhost4187; no bypass",
+  "privacyPayloads": 73,
+  "decodedZipFiles": 2
+}

@@ -1,0 +1,47 @@
+{
+  "articleId": "research-2026-11-02-stockout-demand-note",
+  "firstGit": "7e152c427d672618f8fab223a6ddf6e0111d356a",
+  "htmlSha256": "2e9c047b613bfb4ae473ca930fba804766800d2a13efb9c1f6d0a5ec91aa747d",
+  "files": [
+    {
+      "path": "BUILD.md",
+      "sha256": "b1bed96d3adc41e32d4c10475a88c3659eb393a3ea649a798a35740b1319d1dc",
+      "bytes": 1971
+    },
+    {
+      "path": "article_topics.json",
+      "sha256": "430bd6c3cb9e9f89955f62c3a4e2091fa8e83b30b104eb9f54a43f3d748c8699",
+      "bytes": 2523
+    },
+    {
+      "path": "publication-receipt.json",
+      "sha256": "e3dc2830782afc30a75a05fd6c0b815665753ef9f360a1b70888200df113ebc4",
+      "bytes": 741
+    },
+    {
+      "path": "stockout-demand/article-entry.json",
+      "sha256": "67c98e2cd481f0ea22c34e20784ab3153a0427774247045c12764eb084310975",
+      "bytes": 7122
+    },
+    {
+      "path": "stockout-demand/article-reviewed-data.json",
+      "sha256": "2c4d9eecb41d7dae1929b43b1c781f7b3a9e398824eec39dbfd4c0eaeb22f001",
+      "bytes": 4337
+    },
+    {
+      "path": "stockout-demand/illustrated-story.json",
+      "sha256": "3ee31a91e67927c3c12fb36db7d07ad1dc8ed6c09b4a2080b940977ec7243c02",
+      "bytes": 10004
+    },
+    {
+      "path": "test_article.py",
+      "sha256": "4a49d3bcb48948b810cf84bfcea65168d7c4b30a6304e40ecf361794ff00f5ef",
+      "bytes": 2099
+    },
+    {
+      "path": "test_reader_routes.mjs",
+      "sha256": "51b2f724930a4ce259e575e5dd7410849b3cff3dcbf7144ffc271d71318e5a87",
+      "bytes": 2279
+    }
+  ]
+}

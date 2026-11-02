@@ -1,0 +1,98 @@
+{
+  "surface": "report",
+  "title": "一道菜总卖不够，AI建议少备之前先查什么",
+  "generatedAt": "2026-11-02T14:16:18Z",
+  "status": "reviewed",
+  "buildStatus": "complete",
+  "exportPreferences": {
+    "selected": null,
+    "destinations": []
+  },
+  "filters": [],
+  "report": {},
+  "id": "report:6caf933a-0326-49cf-9fde-b3867b7b6316",
+  "queries": {
+    "diagram-research-2026-11-02-stockout-demand-note": {
+      "rows": [
+        {
+          "title": "早期缺料停售",
+          "text": "可售 → 原料不足 → 停售\n后续需求不能由交易直接观察。"
+        },
+        {
+          "title": "正常售至收档",
+          "text": "持续可售 → 正常收档\n低销量仍需查偏好、价格、促销和替代菜。"
+        },
+        {
+          "title": "主动限量或关渠道",
+          "text": "可售 → 经营者决定暂停\n保留原因，不自动判为缺货或需求弱。"
+        }
+      ],
+      "source": {
+        "label": "相同销量，可能来自三种可售过程",
+        "files": [
+          "research/2026-11-02-stockout-demand/note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "机制和边界",
+            "definition": "研究院原创假设情景；参考Jain、Rudi、Wang（2015）的缺货信息机制。不是门店实测，横向过程不按时间比例。 零订单 ≠ 缺货；最后一单 ≠ 停售时点。未绘真实或估计需求数量，不指佬肥猫或餐链发生任一情景。",
+            "componentIds": [
+              "diagram-research-2026-11-02-stockout-demand-note"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "固定公开研究版本",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/7e152c427d672618f8fab223a6ddf6e0111d356a/research/2026-11-02-stockout-demand/note.md"
+          },
+          {
+            "title": "展示边界",
+            "detail": "研究院原创假设情景；参考Jain、Rudi、Wang（2015）的缺货信息机制。不是门店实测，横向过程不按时间比例。 零订单 ≠ 缺货；最后一单 ≠ 停售时点。未绘真实或估计需求数量，不指佬肥猫或餐链发生任一情景。"
+          }
+        ]
+      }
+    },
+    "diagram-research-2026-11-02-stockout-demand-note:second": {
+      "rows": [
+        {
+          "title": "记录完整且正常可售",
+          "text": "查偏好、价格、陈列与替代品\n再决定是否少备。"
+        },
+        {
+          "title": "受限或主动停售",
+          "text": "查停止原因、恢复制作能力与成本\n不直接推断需求下降。"
+        },
+        {
+          "title": "时间或原因缺失",
+          "text": "先补记录，暂不据此淘汰菜品\n估计需求不能回填成真实交易。"
+        }
+      ],
+      "source": {
+        "label": "实际持续低于预估，下一步查什么？",
+        "files": [
+          "research/2026-11-02-stockout-demand/note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "机制和边界",
+            "definition": "起点：实际销量持续低于预估。下列为三条条件分支，不是连续操作；餐链案例提供预警场景，分流为研究者建议，未实测。 预测既定限量下成交，或估计持续供应时需求——目标不同。预警不单独决定菜单去留；零售理论不是餐饮产品测试。",
+            "componentIds": [
+              "diagram-research-2026-11-02-stockout-demand-note:second"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "固定公开研究版本",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/7e152c427d672618f8fab223a6ddf6e0111d356a/research/2026-11-02-stockout-demand/note.md"
+          },
+          {
+            "title": "展示边界",
+            "detail": "起点：实际销量持续低于预估。下列为三条条件分支，不是连续操作；餐链案例提供预警场景，分流为研究者建议，未实测。 预测既定限量下成交，或估计持续供应时需求——目标不同。预警不单独决定菜单去留；零售理论不是餐饮产品测试。"
+          }
+        ]
+      }
+    }
+  }
+}
