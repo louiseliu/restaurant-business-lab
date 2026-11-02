@@ -1,0 +1,26 @@
+{
+  "articleId": "research-2026-11-02-vision-feedback-timing-note",
+  "firstGit": "cb1d36b11f6d6166cf6e0cbff81bca3fc96da65b",
+  "firstIndexedAt": "2026-11-02T09:29:26Z",
+  "htmlSha256": "2be0c0b0ee08e711f87fc6e3a4f3526c85ca621ca7905a6ee90c627eb27fab45",
+  "htmlBytes": 2916015,
+  "artifactStatus": "attachment-send-accepted",
+  "localCounts": {
+    "research": 35,
+    "originals": 55,
+    "samples": 2,
+    "ai": 20
+  },
+  "publishedCounts": {
+    "research": 20,
+    "originals": 40,
+    "samples": 2,
+    "ai": 9
+  },
+  "siteStatus": "not-synced-existing-publication-unchanged",
+  "githubHtmlArchive": "not-completed-do-not-retry",
+  "visualQA": "not-completed-CUA-localhost-connection-refused",
+  "staticQA": "passed-body-diagrams-routing-order-preservation-payload-privacy",
+  "standaloneQA": "compiled HTML contains exactly frozen article 35; default component catalog.articles[0]; two diagrams and 2 reviewed queries; no portal route",
+  "deliveryAcceptedAt": "2026-11-02T09:38:49Z"
+}

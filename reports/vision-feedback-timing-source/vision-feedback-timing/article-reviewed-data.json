@@ -1,0 +1,90 @@
+{
+  "surface": "report",
+  "title": "AI品控要挡在每碗面前，还是留到复盘时用？",
+  "generatedAt": "2026-11-02T09:29:26Z",
+  "status": "reviewed",
+  "buildStatus": "complete",
+  "exportPreferences": {
+    "selected": null,
+    "destinations": []
+  },
+  "filters": [],
+  "report": {},
+  "id": "report:acbb10fd-3cf6-464b-a1c7-a7c5b7ea3f29",
+  "queries": {
+    "diagram-research-2026-11-02-vision-feedback-timing-note": {
+      "rows": [
+        {
+          "title": "同步：改变这一份",
+          "text": "制作 → 既有现场检查 → AI判断与例外处置 → 交付。有机会当份纠正，也增加等待和处置依赖。"
+        },
+        {
+          "title": "异步：改善后续出品",
+          "text": "制作 → 既有现场检查 → 交付；旁路采集分析 → 负责人复盘 → 后续班次改进。生产不等分析，但不能追回已交付差错。"
+        }
+      ],
+      "source": {
+        "label": "两条路径，改变的是不同结果",
+        "files": [
+          "research/2026-11-02-vision-feedback-timing/note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "机制和边界",
+            "definition": "研究院原创机制示意，不是遇见小面完整系统图；不表示实际耗时或所有产品部署顺序。 两条路径都不能替代法定或门店安全措施。品牌团队自述选择按日反馈，不证明日报最佳；本图是研究建议，不是品牌现场还原。",
+            "componentIds": [
+              "diagram-research-2026-11-02-vision-feedback-timing-note"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "固定公开研究版本",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/cb1d36b11f6d6166cf6e0cbff81bca3fc96da65b/research/2026-11-02-vision-feedback-timing/note.md"
+          },
+          {
+            "title": "展示边界",
+            "detail": "研究院原创机制示意，不是遇见小面完整系统图；不表示实际耗时或所有产品部署顺序。 两条路径都不能替代法定或门店安全措施。品牌团队自述选择按日反馈，不证明日报最佳；本图是研究建议，不是品牌现场还原。"
+          }
+        ]
+      }
+    },
+    "diagram-research-2026-11-02-vision-feedback-timing-note:second": {
+      "rows": [
+        {
+          "title": "当份纠正任务",
+          "text": "发现时是否仍可纠正 → 是否完成纠正 → 是否影响交付等待。"
+        },
+        {
+          "title": "后续改进任务",
+          "text": "偏差是否可解释 → 是否落实改进 → 同类偏差是否仍复发。"
+        }
+      ],
+      "source": {
+        "label": "采购验收：先选要改变哪个终点",
+        "files": [
+          "research/2026-11-02-vision-feedback-timing/note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "机制和边界",
+            "definition": "研究者建议的验收维度，不是品牌已完成的实验、指标结果或量化排名。 共同基线：保留原流程；人工检查未报警样本；记录新增处置和维护成本。不用系统自评分同时证明识别可靠与经营改善。",
+            "componentIds": [
+              "diagram-research-2026-11-02-vision-feedback-timing-note:second"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "固定公开研究版本",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/cb1d36b11f6d6166cf6e0cbff81bca3fc96da65b/research/2026-11-02-vision-feedback-timing/note.md"
+          },
+          {
+            "title": "展示边界",
+            "detail": "研究者建议的验收维度，不是品牌已完成的实验、指标结果或量化排名。 共同基线：保留原流程；人工检查未报警样本；记录新增处置和维护成本。不用系统自评分同时证明识别可靠与经营改善。"
+          }
+        ]
+      }
+    }
+  }
+}
