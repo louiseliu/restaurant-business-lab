@@ -1,0 +1,98 @@
+{
+  "surface": "report",
+  "title": "后厨 AI 每次两厘钱，小店为什么不能这样算总账",
+  "generatedAt": "2026-11-02T13:20:53Z",
+  "status": "reviewed",
+  "buildStatus": "complete",
+  "exportPreferences": {
+    "selected": null,
+    "destinations": []
+  },
+  "filters": [],
+  "report": {},
+  "id": "report:1a36d352-f25a-49d5-9769-7a067fefa2fe",
+  "queries": {
+    "diagram-research-2026-11-02-ai-camera-cost-stack-note": {
+      "rows": [
+        {
+          "title": "平台基座",
+          "text": "既有可用，或为本项目新开；不是每店必然重复购买。"
+        },
+        {
+          "title": "数据链路",
+          "text": "设备与网络 → 取图 → 必要存储/传输；仅按实际选型发生。"
+        },
+        {
+          "title": "识别与执行",
+          "text": "成功调用 → 结果流转 → 任务监测与维护；0.002元/次仅对应检测调用。"
+        }
+      ],
+      "source": {
+        "label": "两厘钱，位于整套系统的哪一层？",
+        "files": [
+          "research/2026-11-02-ai-camera-cost-stack/note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "机制和边界",
+            "definition": "研究院原创成本层次示意；来源：萤石计费文档4469、3856。不是金额占比或完整报价。 既有支出 ≠ 本次新增；低接口价 ≠ 完整交付价。不能机械叠加全部云产品价目表。",
+            "componentIds": [
+              "diagram-research-2026-11-02-ai-camera-cost-stack-note"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "固定公开研究版本",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/2adfee7edeb9b6598c38560de8d5bedfee0364f7/research/2026-11-02-ai-camera-cost-stack/note.md"
+          },
+          {
+            "title": "展示边界",
+            "detail": "研究院原创成本层次示意；来源：萤石计费文档4469、3856。不是金额占比或完整报价。 既有支出 ≠ 本次新增；低接口价 ≠ 完整交付价。不能机械叠加全部云产品价目表。"
+          }
+        ]
+      }
+    },
+    "diagram-research-2026-11-02-ai-camera-cost-stack-note:second": {
+      "rows": [
+        {
+          "title": "告警触发取图",
+          "text": "时间 ──●──────●── → 图片\n先由设备已有告警选择哪些时刻进入分析。"
+        },
+        {
+          "title": "定时设备抓拍",
+          "text": "时间 ●────●────● → 图片\n两点之间若发生完整短事件，样本可能不含它。设备支持、额度需另核。"
+        },
+        {
+          "title": "录像抽帧",
+          "text": "录像 ═════════ → 图片点 → 等待任务完成 → AI\n必须有对应录像；取图与分析是两步。"
+        }
+      ],
+      "source": {
+        "label": "同一后厨，取图方式选择不同观察时点",
+        "files": [
+          "research/2026-11-02-ai-camera-cost-stack/note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "机制和边界",
+            "definition": "三行时间轴为原创机制示意，横向时间无数值、不按比例；来源4469、5324。不是门店实测。 短事件仅为条件示意，不是实测漏检率，不评价三种方法谁一概更优，也不构成食品安全保证。抓拍额度不能当作AI免费额度。",
+            "componentIds": [
+              "diagram-research-2026-11-02-ai-camera-cost-stack-note:second"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "固定公开研究版本",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/2adfee7edeb9b6598c38560de8d5bedfee0364f7/research/2026-11-02-ai-camera-cost-stack/note.md"
+          },
+          {
+            "title": "展示边界",
+            "detail": "三行时间轴为原创机制示意，横向时间无数值、不按比例；来源4469、5324。不是门店实测。 短事件仅为条件示意，不是实测漏检率，不评价三种方法谁一概更优，也不构成食品安全保证。抓拍额度不能当作AI免费额度。"
+          }
+        ]
+      }
+    }
+  }
+}

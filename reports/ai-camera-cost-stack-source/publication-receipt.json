@@ -1,0 +1,19 @@
+{
+  "articleId": "research-2026-11-02-ai-camera-cost-stack-note",
+  "firstGit": "2adfee7edeb9b6598c38560de8d5bedfee0364f7",
+  "firstPublishedAt": "2026-11-02T13:20:53Z",
+  "htmlSha256": "cf4f325c7bb577263c348843b07353fc48511395406d3259b469165b78197fa8",
+  "htmlBytes": 2913730,
+  "attachmentDelivery": "send accepted at 2026-11-02T13:27:49Z; user open/download not verified",
+  "localTimeline": {
+    "research": 36,
+    "originals": 56,
+    "samples": 2,
+    "ai": 21
+  },
+  "publicSite": "not synchronized; last verified v19 20/40/2 AI9",
+  "githubHtmlArchive": "not completed; no large HTML request",
+  "visualQA": "not completed: CUA net::ERR_CONNECTION_REFUSED at localhost4186; no bypass",
+  "privacyPayloads": 73,
+  "decodedZipFiles": 2
+}

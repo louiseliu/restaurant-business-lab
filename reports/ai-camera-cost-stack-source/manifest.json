@@ -1,0 +1,47 @@
+{
+  "articleId": "research-2026-11-02-ai-camera-cost-stack-note",
+  "firstGit": "2adfee7edeb9b6598c38560de8d5bedfee0364f7",
+  "htmlSha256": "cf4f325c7bb577263c348843b07353fc48511395406d3259b469165b78197fa8",
+  "files": [
+    {
+      "path": "BUILD.md",
+      "sha256": "a633239737de1b1123c2363f39f30b96435466edad8daae158b09f6700bb5380",
+      "bytes": 2010
+    },
+    {
+      "path": "ai-camera-cost-stack/article-entry.json",
+      "sha256": "6e8290cff8e718e119ec368c2a45d899ec45cf22c66f4619521a7fe20448f269",
+      "bytes": 7178
+    },
+    {
+      "path": "ai-camera-cost-stack/article-reviewed-data.json",
+      "sha256": "e3fdee2ef07f0e0866d60d2d72d76ed4e9fb408e6f430a24542f0b874d217cea",
+      "bytes": 4333
+    },
+    {
+      "path": "ai-camera-cost-stack/illustrated-story.json",
+      "sha256": "32240aa7561f62d3470eef8425007e4750be67609d7400ae4648cc5d881be51c",
+      "bytes": 10131
+    },
+    {
+      "path": "article_topics.json",
+      "sha256": "ce070e0dfd903b3e85fb6c45fe2bed9304ecd2253a1a42b78af432b99761ef43",
+      "bytes": 2436
+    },
+    {
+      "path": "publication-receipt.json",
+      "sha256": "4d53040710f6c4b71e8834f97e44b2383bdbfeafa464f7573bf2fef349995d04",
+      "bytes": 746
+    },
+    {
+      "path": "test_article.py",
+      "sha256": "c025a813d2c2ea29cb9c4990ef2086ca4f4d355d9394addc6fa805b5290f7630",
+      "bytes": 2109
+    },
+    {
+      "path": "test_reader_routes.mjs",
+      "sha256": "54f79fec51293412f1903b1a881de916f9d3df9a1c07597ad99125291d0bac98",
+      "bytes": 2284
+    }
+  ]
+}
