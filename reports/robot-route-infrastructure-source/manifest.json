@@ -1,0 +1,12 @@
+{
+  "files": {
+    "BUILD.md": "4650890a037b411087281a11cbab3036865273f585905bc67510bcde2c8f2838",
+    "article_topics.json": "dc9d36212c92f52962af54b953f43769ba9b5947e75bcaa5755317e719b6ed0b",
+    "publication-receipt.json": "116b44ff9a765c9a1c6a75781046ee9173085fb3bc0570901fb82cea8170e65c",
+    "robot-route-infrastructure/article-entry.json": "f62e66e4ddd74041df1159dc88497992ea5b60bb186185d98c0d5adf81db569e",
+    "robot-route-infrastructure/article-reviewed-data.json": "faca5b70cb0581f09ee5420edeeb2c0928b0c60ec79a1d06ac1111a6f61cd3fa",
+    "robot-route-infrastructure/illustrated-story.json": "2d4f2da6b820a54a12e8c5c676490f4e0688a59f9c7d38ef5af5307b741a16ba",
+    "test_article.py": "1d5aef1fc69a2ab0e6948931ab86b5147b80ef9bdce857e06e88248071f0d477",
+    "test_reader_routes.mjs": "e554d7d269625296f98c067d5d958139c23f7f0008225e939a913fefb272e8a6"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "surface": "report",
+  "title": "跨楼层送餐，买机器人之前先看谁能改动这条路",
+  "generatedAt": "2026-11-02T06:14:57Z",
+  "status": "reviewed",
+  "buildStatus": "complete",
+  "exportPreferences": {
+    "selected": null,
+    "destinations": []
+  },
+  "filters": [],
+  "report": {},
+  "id": "report:1bf59b3c-7981-423b-9470-dacf8cf10567",
+  "queries": {
+    "diagram-research-2026-11-02-robot-route-infrastructure-note": {
+      "rows": [
+        {
+          "title": "空间约束",
+          "text": "经营方称地块狭长，需要利用空间。"
+        },
+        {
+          "title": "上下分层布局",
+          "text": "摊位在一层，用餐区放到二层。"
+        },
+        {
+          "title": "跨层运餐需求",
+          "text": "这一布局产生了向楼上运餐的问题。"
+        },
+        {
+          "title": "设备与楼宇协同",
+          "text": "引入机器人、电梯与取餐安排。"
+        }
+      ],
+      "source": {
+        "label": "先选择空间，才产生运输问题",
+        "files": [
+          "research/2026-11-02-robot-route-infrastructure/note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "机制及证据边界",
+            "definition": "Food Bayana经营方公开解释的叙述顺序；不是量化因果效果、平面图或施工建议。 依据[2024-08-19现场报道中的经营方解释](https://www.buletinmutiara.com/dining-in-penangs-industrial-zone-malaysias-first-semi-automated-food-hub-in-bayan-lepas/)。研究建议：其他餐厅先验证自己的运输问题，不按案例台数复制。",
+            "componentIds": [
+              "diagram-research-2026-11-02-robot-route-infrastructure-note"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "固定公开研究版本",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/6de175bcdd3afa7b3c5e4e72930369b55c305a8f/research/2026-11-02-robot-route-infrastructure/note.md"
+          },
+          {
+            "title": "展示边界",
+            "detail": "Food Bayana经营方公开解释的叙述顺序；不是量化因果效果、平面图或施工建议。 依据[2024-08-19现场报道中的经营方解释](https://www.buletinmutiara.com/dining-in-penangs-industrial-zone-malaysias-first-semi-automated-food-hub-in-bayan-lepas/)。研究建议：其他餐厅先验证自己的运输问题，不按案例台数复制。"
+          }
+        ]
+      }
+    },
+    "diagram-research-2026-11-02-robot-route-infrastructure-note:second": {
+      "rows": [
+        {
+          "title": "机器本体",
+          "text": "本次机型、配置、定制及版本。案例中的改装设备不能与今天销售配置直接等同。"
+        },
+        {
+          "title": "路线与设施",
+          "text": "通行条件、停靠与充电空间、楼宇接口。专用路线不等于共享路线已获验证。"
+        },
+        {
+          "title": "持续运行",
+          "text": "交接、异常替代、维护与任务安排。运输自动化并未替所有环节保证完成。"
+        }
+      ],
+      "source": {
+        "label": "采购范围，不是机器单价乘数量",
+        "files": [
+          "research/2026-11-02-robot-route-infrastructure/note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "机制及证据边界",
+            "definition": "三列为研究者分类，没有成本比例，也不是厂家整包报价或案例完整合同。 [普渡案例](https://www.pudurobotics.com/about/news/6705f7643d9093004330df68)支持专用设施与定制；[历史配件说明](https://academy.pudutech.com/zh/docs/shan-dian-xia-pei-jian)提示接口工作。研究建议：真实餐段验证全程交付，未公开分项成本，不算回本。",
+            "componentIds": [
+              "diagram-research-2026-11-02-robot-route-infrastructure-note:second"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "固定公开研究版本",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/6de175bcdd3afa7b3c5e4e72930369b55c305a8f/research/2026-11-02-robot-route-infrastructure/note.md"
+          },
+          {
+            "title": "展示边界",
+            "detail": "三列为研究者分类，没有成本比例，也不是厂家整包报价或案例完整合同。 [普渡案例](https://www.pudurobotics.com/about/news/6705f7643d9093004330df68)支持专用设施与定制；[历史配件说明](https://academy.pudutech.com/zh/docs/shan-dian-xia-pei-jian)提示接口工作。研究建议：真实餐段验证全程交付，未公开分项成本，不算回本。"
+          }
+        ]
+      }
+    }
+  }
+}

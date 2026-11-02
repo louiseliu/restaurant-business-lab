@@ -1,0 +1,40 @@
+{
+  "status": "offline-delivered-site-pending-visual-qa-incomplete",
+  "articleId": "research-2026-11-02-robot-route-infrastructure-note",
+  "firstGit": "6de175bcdd3afa7b3c5e4e72930369b55c305a8f",
+  "firstGitAt": "2026-11-02T06:14:57Z",
+  "offlineHTMLSHA256": "cb390f83ee8e883a22fdf978b4e212c769a2aa1445c0a5acb9d9cb7dcb39c004",
+  "offlineHTMLBytes": 2915130,
+  "siteChanged": false,
+  "lastPublishedVersion": 19,
+  "lastPublishedCounts": {
+    "research": 20,
+    "originals": 40,
+    "samples": 2,
+    "ai": 9
+  },
+  "localBuildCounts": {
+    "research": 34,
+    "originals": 54,
+    "samples": 2,
+    "ai": 19
+  },
+  "pendingChanges": 15,
+  "restoredSourceCommit": "21f2fd442a087584e3398910efe03a5cea6f1ca5",
+  "qa": {
+    "fullFrozenBody": true,
+    "twoDiagramsSourceBinding": true,
+    "fixedSourceAndTime": true,
+    "prior53Originals33Stories68QueriesPreserved": true,
+    "uiLegacyFiveDownloadsPreserved": true,
+    "decodedDownloads": 5,
+    "routeCountsSort": true,
+    "sampleHTMLZIPPrivacy": true,
+    "desktopVisual": "not-completed-local-preview-connection-refused",
+    "mobileVisual": "not-completed-local-preview-connection-refused",
+    "currentOnlineUserEditsVerified": false
+  },
+  "newGithubHTMLBlobs": 0,
+  "githubHTMLArchiveCompleted": false,
+  "deliveredAt": "2026-11-02T06:22:24Z"
+}
