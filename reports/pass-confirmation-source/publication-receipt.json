@@ -1,0 +1,41 @@
+{
+  "status": "offline-saved-site-pending",
+  "articleId": "research-2026-11-02-pass-confirmation-note",
+  "firstGit": "9cd2b63f454602c3af0a3f562f1fe0fa944de575",
+  "firstGitAt": "2026-11-02T03:10:39Z",
+  "offlineHTMLSHA256": "a5e6a91bc22b9dbddc77c202daf85866732ee0bc36fbaf920df8bfb1f11d0da0",
+  "offlineHTMLBytes": 2916849,
+  "siteChanged": false,
+  "lastPublishedVersion": 19,
+  "lastPublishedCounts": {
+    "research": 20,
+    "originals": 40,
+    "samples": 2,
+    "ai": 9
+  },
+  "localCounts": {
+    "research": 33,
+    "originals": 53,
+    "samples": 2,
+    "ai": 19
+  },
+  "pendingSyncItems": 14,
+  "qa": {
+    "fullFrozenBody": true,
+    "twoDiagramsDesktop": true,
+    "mobile390pxIframeVisual": true,
+    "realMobileDeviceTest": false,
+    "originalExpanded": true,
+    "fixedSourceAndTime": true,
+    "prior52Originals32Stories66QueriesPreserved": true,
+    "uiLegacyFiveDownloadsPreserved": true,
+    "decodedPrivacyPayloads": 7,
+    "allAuthoredTextAndDataPrivacy": true,
+    "routeCountsSort": true,
+    "sampleHTMLZIP": true,
+    "fullSiteBrowserHistoryAndScrollRetested": false
+  },
+  "newGithubHTMLBlobs": 0,
+  "githubHTMLArchiveComplete": false,
+  "expenseArchiveStillPending": true
+}

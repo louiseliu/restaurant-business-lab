@@ -1,0 +1,96 @@
+{
+  "surface": "report",
+  "title": "出菜口 AI 亮了绿灯，能不能少一道人工核对？",
+  "generatedAt": "2026-11-02T03:10:39Z",
+  "status": "reviewed",
+  "buildStatus": "complete",
+  "exportPreferences": {
+    "selected": null,
+    "destinations": []
+  },
+  "filters": [],
+  "report": {
+    "asOf": "2026-11-02"
+  },
+  "id": "report:pass-confirmation-20261102",
+  "queries": {
+    "diagram-research-2026-11-02-pass-confirmation-note": {
+      "rows": [
+        {
+          "title": "产品文档｜系统中的操作链",
+          "text": "AI识别提示 → 人工选择桌台 → 确认传菜 → POS显示“已上菜”。状态变化由所列操作触发。"
+        },
+        {
+          "title": "现场观察｜另行核查交付",
+          "text": "餐盘离开出菜口 → 现场交付 → 顾客收到。核对系统确认与实际送达之间的等待、换桌与返工。"
+        }
+      ],
+      "source": {
+        "label": "一次确认，两个不能混用的节点",
+        "files": [
+          "research/2026-11-02-pass-confirmation/note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "机制与建议",
+            "definition": "“系统操作链”为银豹中餐KDS手册描述；“现场交付”为研究建议观察的环节，非系统功能或实测结果。两条链不能画等号。 来源：银豹2025-07-09中餐KDS手册。不能仅凭状态证明顾客收到，是研究者推论，不是厂商重新定义，也不认定系统没有其他确认方式。",
+            "componentIds": [
+              "diagram-research-2026-11-02-pass-confirmation-note"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "固定公开研究版本",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/9cd2b63f454602c3af0a3f562f1fe0fa944de575/research/2026-11-02-pass-confirmation/note.md"
+          },
+          {
+            "title": "展示边界",
+            "detail": "“系统操作链”为银豹中餐KDS手册描述；“现场交付”为研究建议观察的环节，非系统功能或实测结果。两条链不能画等号。 来源：银豹2025-07-09中餐KDS手册。不能仅凭状态证明顾客收到，是研究者推论，不是厂商重新定义，也不认定系统没有其他确认方式。"
+          }
+        ]
+      }
+    },
+    "diagram-research-2026-11-02-pass-confirmation-note:second": {
+      "rows": [
+        {
+          "title": "识菜划单",
+          "text": "目标：减少找菜与记录。文档仍含人工选桌。建议验收：异常找单和记录负担，不能只看识别演示。"
+        },
+        {
+          "title": "出品提示",
+          "text": "文档要求维护合格与不合格图片，允许条件性人工继续。建议验收：提示复核、维护负担及明确的例外接手人。"
+        },
+        {
+          "title": "交付记录",
+          "text": "研究目标：解释顾客等待。建议验收：系统确认与实际送达是否一致；不是声明产品已提供餐桌接收凭据。"
+        }
+      ],
+      "source": {
+        "label": "采购之前，先决定接走哪份工作",
+        "files": [
+          "research/2026-11-02-pass-confirmation/note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "机制与建议",
+            "definition": "三类工作并列，不表示等级或必须递进。产品机制与研究建议区分如下，不是供应商已经交付的一套统一方案。 依据中餐KDS手册及轻餐KDS配置说明。研究决策：本店瓶颈＋剩余人工工作＋完整配置费用，决定是否扩大试用。两业态不拼成一份报价。",
+            "componentIds": [
+              "diagram-research-2026-11-02-pass-confirmation-note:second"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "固定公开研究版本",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/9cd2b63f454602c3af0a3f562f1fe0fa944de575/research/2026-11-02-pass-confirmation/note.md"
+          },
+          {
+            "title": "展示边界",
+            "detail": "三类工作并列，不表示等级或必须递进。产品机制与研究建议区分如下，不是供应商已经交付的一套统一方案。 依据中餐KDS手册及轻餐KDS配置说明。研究决策：本店瓶颈＋剩余人工工作＋完整配置费用，决定是否扩大试用。两业态不拼成一份报价。"
+          }
+        ]
+      }
+    }
+  }
+}
