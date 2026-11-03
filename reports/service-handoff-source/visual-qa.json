@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-03",
+  "surface": "official static dist preview",
+  "desktop": "passed",
+  "checks": [
+    "article title and Beijing first-Git time",
+    "state/responsibility diagram rendered without clipping",
+    "pause/progress two-line diagram rendered without clipping",
+    "directory to diagrams",
+    "directory to complete frozen original opens disclosure",
+    "return to top",
+    "diagram source overview, two reviewed rows and evidence flow",
+    "source panel closes"
+  ],
+  "mobile": "not tested: permitted browser interface has no viewport-size setter",
+  "responsiveStatic": "800px two-column state flow and 680px single-column layouts inspected",
+  "notTested": [
+    "phone device",
+    "print"
+  ],
+  "publication": "not attempted",
+  "portal": "separate checks recorded in timeline/visual-qa.json"
+}

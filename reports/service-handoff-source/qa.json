@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "singleTargetArticle": true,
+  "bodySHA256": "a0f7b6d072401409a1383388da56058901667426f8d71d8571a3dfd2afdb3332",
+  "bytes": 2921745,
+  "htmlSHA256": "94d6a0ef1a5638d632ae01699158f9072403acf754c6bebfe35bcc32e35e49b4",
+  "decodedJsonModules": 4,
+  "scannedSourceFiles": 20,
+  "diagrams": 2,
+  "queries": 2,
+  "sections": 4,
+  "sources": 3,
+  "visual": "recorded separately; static QA alone is not browser verification"
+}

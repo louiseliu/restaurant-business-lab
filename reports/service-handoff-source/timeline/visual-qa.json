@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-03",
+  "surface": "official static dist preview",
+  "desktop": "passed",
+  "checks": [
+    "40/60/2 homepage",
+    "article 40 title and both mechanism diagrams",
+    "AI25 filter",
+    "reset to 40",
+    "directory opens complete original",
+    "40 to 39 adjacent navigation",
+    "browser back and forward keep title and body consistent",
+    "return preserves AI filter"
+  ],
+  "notTested": [
+    "mobile viewport/device",
+    "print",
+    "all 40 articles visual sweep",
+    "download clicks",
+    "portal source panel in this round"
+  ],
+  "sourcePanel": "separately passed in article 40 standalone",
+  "priorVisualTodos": "article 30 revision and 34–37 retained",
+  "previewStopped": true,
+  "published": false
+}

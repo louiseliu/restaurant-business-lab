@@ -1,0 +1,128 @@
+{
+  "surface": "report",
+  "title": "店员接手以后，AI客服什么时候才能再开口",
+  "generatedAt": "2026-11-03T11:10:36Z",
+  "status": "reviewed",
+  "buildStatus": "complete",
+  "exportPreferences": {
+    "selected": null,
+    "destinations": []
+  },
+  "filters": [],
+  "report": {
+    "asOf": "2026-11-03"
+  },
+  "id": "report:service-handoff-20261103",
+  "queries": {
+    "diagram-research-2026-11-03-service-handoff-note": {
+      "rows": [
+        {
+          "title": "自动答疑",
+          "speech": "AI可答范围内问题",
+          "owner": "员工保留接手机会",
+          "check": "自动范围是否足够稳定？"
+        },
+        {
+          "title": "请求人工",
+          "speech": "确认是否需要暂停",
+          "owner": "请求不等于已有人接手",
+          "check": "谁确认接下这个问题？"
+        },
+        {
+          "title": "人工处理中",
+          "speech": "AI暂停，避免干扰",
+          "owner": "记录责任人及所等事项",
+          "check": "换班后还能找到待办吗？"
+        },
+        {
+          "title": "确认可恢复",
+          "speech": "恢复资格，不主动重答",
+          "owner": "核对处理进度与后续责任",
+          "check": "哪些已答完，哪些仍待继续？"
+        }
+      ],
+      "source": {
+        "label": "把发言状态与处理责任分开",
+        "files": [
+          "research/2026-11-03-service-handoff/note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "机制示意与限制",
+            "definition": "研究提出的责任核查示意，不是耶濃产品流程，也不要求每个问题都建立工单。 图1｜由经营者的定时暂停做法[1]引出责任核查建议。12小时只是其自报配置，不是最佳时长；图中状态与问题均为本研究提出，不证明案例采用或缺少这些机制。",
+            "componentIds": [
+              "diagram-research-2026-11-03-service-handoff-note"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "固定公开研究版本",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/98fa4044144f56ec5d6b22bf25ea5bef5e6fee74/research/2026-11-03-service-handoff/note.md"
+          },
+          {
+            "title": "[1] 超韌性大叔｜2026年10月7日经营者自述，含联盟营销披露",
+            "detail": "https://www.unclef.tw/line-ai-customer-service-small-business/"
+          }
+        ],
+        "caveats": [
+          "没有真实客户数据、效果测量或案例系统完整实现记录。"
+        ]
+      }
+    },
+    "diagram-research-2026-11-03-service-handoff-note:second": {
+      "rows": [
+        {
+          "title": "自动回复状态",
+          "start": "店员接手：暂停",
+          "middle": "固定时长到期",
+          "end": "检查后决定是否恢复",
+          "detail": "到期只说明时间过去了，不替代对未完事项的判断。"
+        },
+        {
+          "title": "咨询处理进度",
+          "start": "员工开始处理",
+          "middle": "仍等顾客／外部确认",
+          "end": "明确继续处理或已完成",
+          "detail": "谁负责、还等什么、由谁确认恢复，需要看得见。"
+        }
+      ],
+      "source": {
+        "label": "时间到了，事情未必结束",
+        "files": [
+          "research/2026-11-03-service-handoff/note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "机制示意与限制",
+            "definition": "以一项需要持续跟进的假设咨询作比较。列宽不表示时长，计时到期不代表咨询完成。 图2｜双线为原创分析，非真实工单或事故还原。恢复不自动补齐咨询，也不应把人工已答的旧问题一律重答；建议用获授权的合成对话核查。",
+            "componentIds": [
+              "diagram-research-2026-11-03-service-handoff-note:second"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "固定公开研究版本",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/98fa4044144f56ec5d6b22bf25ea5bef5e6fee74/research/2026-11-03-service-handoff/note.md"
+          },
+          {
+            "title": "[1] 超韌性大叔｜2026年10月7日经营者自述，含联盟营销披露",
+            "detail": "https://www.unclef.tw/line-ai-customer-service-small-business/"
+          },
+          {
+            "title": "[2] LINE官方｜接收消息与事件重送，核验于2026年11月3日",
+            "detail": "https://developers.line.biz/en/docs/messaging-api/receiving-messages/"
+          },
+          {
+            "title": "[3] LINE官方FAQ｜已提交发送请求的取消边界，核验于2026年11月3日",
+            "detail": "https://developers.line.biz/en/faq/tags/messaging-api/"
+          }
+        ],
+        "caveats": [
+          "没有真实客户数据、效果测量或案例系统完整实现记录。"
+        ]
+      }
+    }
+  }
+}

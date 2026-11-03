@@ -1,0 +1,32 @@
+{
+  "description": "Article 40 authored inputs; SHA256 identifies exact local input bytes, not Git publication status.",
+  "firstResearchGit": "98fa4044144f56ec5d6b22bf25ea5bef5e6fee74",
+  "firstIngestedAt": "2026-11-03T11:10:36Z",
+  "inputs": [
+    {
+      "path": "service-handoff/article-entry.json",
+      "bytes": 6183,
+      "sha256": "1731d269ed55a32b51d8074c97d007d2d1bfe1c618f74f8c9bff8e5034058af2"
+    },
+    {
+      "path": "service-handoff/illustrated-story.json",
+      "bytes": 9288,
+      "sha256": "31596a8a255820a25070abd729fedf37a041856af3f71ef0a65b7653cb78c598"
+    },
+    {
+      "path": "service-handoff/article-reviewed-data.json",
+      "bytes": 5128,
+      "sha256": "289b63fa2bb1935886da04047aed0f9309d7edd10cf2e53c256a7b161361e13c"
+    },
+    {
+      "path": "HandoffDiagrams.jsx",
+      "bytes": 1770,
+      "sha256": "81c819f0be75d1885a0cc6fbc939f007ea93b3f795f921852ecab18ee5c2f836"
+    },
+    {
+      "path": "handoff-diagrams.css",
+      "bytes": 2728,
+      "sha256": "fdee3a07ab61b50b7f96d4b228da12510fb703cdb3914b9318706f534732e561"
+    }
+  ]
+}
