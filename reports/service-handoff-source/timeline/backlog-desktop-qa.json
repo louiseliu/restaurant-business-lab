@@ -1,0 +1,69 @@
+{
+  "date": "2026-11-03",
+  "scope": "Existing complete local portal 40/60/2 AI25; not standalone attachments or published site",
+  "surface": "official static dist via sites-preview; cloud CUA",
+  "desktopScreenshotPixels": [
+    1165,
+    747
+  ],
+  "articles": [
+    {
+      "number": 30,
+      "id": "research-2026-11-01-inventory-capture-note",
+      "diagrams": 3,
+      "revision": true
+    },
+    {
+      "number": 34,
+      "id": "research-2026-11-02-robot-route-infrastructure-note",
+      "diagrams": 2
+    },
+    {
+      "number": 35,
+      "id": "research-2026-11-02-vision-feedback-timing-note",
+      "diagrams": 2
+    },
+    {
+      "number": 36,
+      "id": "research-2026-11-02-ai-camera-cost-stack-note",
+      "diagrams": 2
+    },
+    {
+      "number": 37,
+      "id": "research-2026-11-02-stockout-demand-note",
+      "diagrams": 2
+    }
+  ],
+  "passed": [
+    "All 11 diagrams visually inspected in desktop screenshots; no clipping or overlap observed",
+    "All 11 chart source menus opened and Overview definitions/source file labels checked; panels closed successfully",
+    "Each article contents button opened complete original text; revised article 30 includes continued-review section and fixed revision link",
+    "Adjacent navigation 30→31,34→35→36→37,37→36,35→34; browser back 31→30 and back/forward 36↔37 retain matching titles and body",
+    "Return to list shows 40 research / 60 originals / 2 samples",
+    "Unchanged preview dist matches authoring dist for index, snapshot and build manifest",
+    "Preservation and privacy regression rerun passed: 59 prior originals,39 prior stories,81 queries,9 shared and250 other source files,5 downloads,70 text payloads,2 ZIPs",
+    "Route static regression passed 40/60/2 AI25 and chronological order"
+  ],
+  "notes": [
+    "Article 36 title naturally wraps its last character at this desktop width; visible, not truncated; no content/style fix applied"
+  ],
+  "notTested": [
+    "mobile viewport/device",
+    "print",
+    "standalone historical attachments",
+    "published v19 site access",
+    "download clicks",
+    "external sources re-fetch/current availability",
+    "all other articles' visual sweep",
+    "source Data preview and Evidence flow tabs"
+  ],
+  "changes": "No author source, research facts, protected runtime, published site or permissions changed",
+  "previewStopped": true,
+  "published": false,
+  "hashes": {
+    "index": "cad38647b251d304d993db0db0a39d643f9fdeb6faf927f54914bb3460d39cd3",
+    "snapshot": "bf8f83b49d14ff53684c44b3f3d730d256c87820c754f7f554823b8bebeeda0a",
+    "buildManifest": "6a6cf3fa6fb49172cfb0315cfd6aa11aef4e9c4192e4e1ab15675259f45ef1c8",
+    "offline": "478cd100712d1d717ce72d9961226b70eb74142e3bd2d0f23ae3ae450e6d95d8"
+  }
+}
