@@ -1,6 +1,6 @@
 {
-  "checked_at": "2026-11-01",
-  "article_status": "reviewed_public_product_mechanism_analysis",
+  "checked_at": "2026-11-03",
+  "article_status": "reviewed_public_product_mechanism_and_historical_process_revision",
   "sources": [
     {
       "id": "S1",
@@ -23,6 +23,46 @@
         "illustrative business data is not a real-time client result",
         "not a hands-on product test",
         "recognition and weighing error rates unknown"
+      ],
+      "rechecked_at": "2026-11-03"
+    },
+    {
+      "id": "S2",
+      "title": "Back to Starbucks: Year One Milestones: Timeline",
+      "url": "https://about.starbucks.com/uploads/2025/09/Back-to-Starbucks-One-Year-Timeline.pdf",
+      "publisher": "Starbucks",
+      "source_type": "company_historical_rollout_record",
+      "published_at": "2025-09",
+      "checked_at": "2026-11-03",
+      "locator": "PDF page 4, September 2025, Rolled Out Automated Counting",
+      "access_status": "pdf_text_readable_this_run",
+      "supports": [
+        "official timeline records September 2025 rollout"
+      ],
+      "limitations": [
+        "not independent accuracy or operating outcome evidence",
+        "PDF inspected, not mirrored"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Exclusive-Starbucks scraps AI inventory tool across North America",
+      "url": "https://www.investing.com/news/stock-market-news/exclusivestarbucks-scraps-ai-inventory-tool-across-north-america-4704871?ampMode=1",
+      "publisher": "Reuters; hosted by Investing.com",
+      "author": "Waylon Cunningham",
+      "published_at": "2026-05-21",
+      "checked_at": "2026-11-03",
+      "source_type": "original_report_syndicated_copy",
+      "access_status": "body_readable_this_run",
+      "supports": [
+        "Reuters reports North American retirement following newsletter review and source confirmation",
+        "company explanation emphasizes standardizing inventory counting and consistency at scale"
+      ],
+      "limitations": [
+        "syndication is not an additional independent source",
+        "does not isolate a sole cause of retirement",
+        "no China applicability, audited benefit, error rate or financial effect established",
+        "does not imply all Starbucks AI discontinued"
       ]
     }
   ]

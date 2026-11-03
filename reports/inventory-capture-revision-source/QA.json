@@ -1,0 +1,15 @@
+{
+  "article_id": "research-2026-11-01-inventory-capture-note",
+  "only_target_article": true,
+  "body_sha256": "361ddd7a23696f9c32735d44e39051c225ebb8da80ab6085438d911cbb7166b2",
+  "first_ingested_at": "2026-11-01T13:03:33Z",
+  "old_two_diagrams_and_four_sections_preserved": true,
+  "diagram_count": 3,
+  "source_count": 3,
+  "decoded_text_payloads_checked": 19,
+  "html_sha256": "7ba64d0fbc18833fabe7888122482d84fc06f573815ed7a93bc2a1e6c9fb5ea3",
+  "html_bytes": 2919773,
+  "visual_check": "not_completed: permitted cloud browser returned net::ERR_CONNECTION_REFUSED at local preview; no workaround attempted",
+  "external_writes": false,
+  "new_revision_commit": null
+}
