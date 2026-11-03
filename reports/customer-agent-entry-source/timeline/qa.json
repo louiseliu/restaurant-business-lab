@@ -1,0 +1,20 @@
+{
+  "research": 39,
+  "fullOriginals": 59,
+  "samples": 2,
+  "ai": 24,
+  "verifiedGitBlobs": 51,
+  "preservedOriginals": 58,
+  "preservedIllustratedStories": 38,
+  "unchangedSharedFiles": 9,
+  "allOtherSourceFilesByteIdentical": true,
+  "compiledCatalogAndStories": "all 59 full bodies and 39 stories match source exactly",
+  "reviewedDiagramBindings": "passed including #30 third diagram",
+  "privacyTextPayloads": 68,
+  "zipContainers": 2,
+  "offlineBytes": 12851583,
+  "offlineSha256": "3a4f18848b1170792c936c10ab0890b71cd595ebf2a506189b7edc9791e88035",
+  "visualQA": "see visual-qa.json for observed desktop checks; mobile and other articles remain untested",
+  "published": false,
+  "largeHTMLGitArchive": "not attempted"
+}

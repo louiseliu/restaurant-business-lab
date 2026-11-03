@@ -1,0 +1,28 @@
+{
+  "checkedAt": "2026-11-03T08:02:49Z",
+  "surface": "official session-only static preview",
+  "desktop": [
+    "home counts 39/59/2",
+    "AI filter 24 and reset to 39",
+    "article39 heading and both mechanism diagrams",
+    "table of contents expands complete original",
+    "diagram source panel opens and closes",
+    "adjacent article38 navigation",
+    "browser back and forward preserve correct title and body after keyed article fix",
+    "return to filtered list preserves AI24 state"
+  ],
+  "fixed": [
+    "article39 heading orphan final character",
+    "cross-article browser-back stale title resolved with article key"
+  ],
+  "notTested": [
+    "mobile viewport or real device",
+    "print",
+    "all 39 articles visually",
+    "sample download clicks",
+    "article30 and article34-37 pending visual checks"
+  ],
+  "console": "Observed extension metadata errors; no app-specific runtime failure observed in rendered checks. This is not a claim that the browser console was error-free.",
+  "previewStopped": true,
+  "published": false
+}
