@@ -1,0 +1,14 @@
+{
+  "status": "source-static-checks-passed",
+  "bodySHA256": "2ee3e6e5d9034614a32160bfa992d3186860fa2e153164af023273fbc4a7844b",
+  "sections": 4,
+  "diagrams": 2,
+  "queries": 2,
+  "sources": 3,
+  "scannedFiles": 12,
+  "build": "not-run-missing-official-helper",
+  "html": "not-produced",
+  "visual": "not-run",
+  "formalCompletedCount": 40,
+  "formalAIcount": 25
+}

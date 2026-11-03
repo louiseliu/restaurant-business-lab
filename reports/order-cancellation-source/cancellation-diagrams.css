@@ -1,0 +1,23 @@
+.cancellation-diagram{margin:0;padding:24px;color:var(--text)}
+.cancellation-diagram figcaption h2{font-size:24px;line-height:1.4;margin:0 0 12px}
+.cancellation-diagram figcaption p{color:var(--secondary);line-height:1.7;margin:0 0 24px}
+.cancellation-stage-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.cancellation-stage{border:1px solid var(--border);border-radius:12px;padding:18px;min-width:0}
+.cancellation-time{font-size:12px;color:var(--secondary)}
+.cancellation-stage h3,.cancellation-lane h3{font-size:19px;line-height:1.5;margin:8px 0 16px}
+.cancellation-stage dl{display:flex;flex-direction:column;gap:10px;margin:0}
+.cancellation-stage dl>div{padding:12px;border-radius:8px;min-height:116px}
+.cancellation-spent{background:var(--muted);border-left:4px solid var(--secondary)}
+.cancellation-remaining{background:color-mix(in srgb,#2786bd 12%,var(--background));border-left:4px solid #2786bd}
+.cancellation-stage dt{font-size:12px;color:var(--secondary);margin-bottom:8px}
+.cancellation-stage dd{margin:0;line-height:1.6}
+.cancellation-check{font-size:14px;line-height:1.7;margin:16px 0 0}
+.cancellation-origin{text-align:center;border:1px solid var(--border);border-radius:8px;padding:12px;font-weight:650;margin:0 0 20px}
+.cancellation-lanes{display:grid;gap:16px}
+.cancellation-lane{padding:18px;border-left:4px solid #2786bd;background:var(--muted);border-radius:8px}
+.cancellation-steps{display:grid;grid-template-columns:1fr auto 1fr auto 1fr;align-items:center;gap:10px}
+.cancellation-steps p{padding:12px;background:var(--background);border:1px solid var(--border);border-radius:8px;margin:0;line-height:1.5;text-align:center}
+.cancellation-detail{font-size:13px;color:var(--secondary);line-height:1.7;margin:14px 0 0}
+.cancellation-result{border:1px dashed var(--border);padding:14px;margin-top:20px;line-height:1.7}
+@media(max-width:800px){.cancellation-stage-grid{grid-template-columns:1fr}.cancellation-stage dl>div{min-height:0}}
+@media(max-width:680px){.cancellation-diagram{padding:16px}.cancellation-steps{grid-template-columns:1fr}.cancellation-steps>span{transform:rotate(90deg);text-align:center}.cancellation-diagram figcaption h2{font-size:21px}}
