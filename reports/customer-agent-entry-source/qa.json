@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "singleTargetArticle": true,
+  "bodySHA256": "4096e9ea61b55452e68d4d79a07201324ac4ce83963c05f8f4531b39c5d66c91",
+  "bytes": 2922823,
+  "htmlSHA256": "b95a6b2ead7651f9c70b1298dccf71033f2d9347ef53eac9339633c4039283d2",
+  "decodedJsonModules": 4,
+  "scannedSourceFiles": 15,
+  "diagrams": 2,
+  "queries": 2,
+  "sections": 4,
+  "sources": 3,
+  "visual": "desktop heading, both diagrams, original-body directory jump/disclosure and source panel passed; mobile not tested (no supported viewport setter)",
+  "routes": "standalone target and 11 anchors static passed; directory to original click passed",
+  "portal": "39/59/2 not restored or tested"
+}

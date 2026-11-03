@@ -1,0 +1,24 @@
+.agent-entry-article .study-hero h1{text-wrap:balance}
+.agent-entry-diagram{margin:0;padding:20px 0;color:var(--text)}
+.agent-entry-diagram figcaption p{color:var(--secondary);font-size:14px;line-height:1.8;margin:0 0 22px}
+.agent-entry-paths{display:grid;gap:18px}
+.agent-entry-route{border:1px solid var(--border);border-radius:12px;padding:20px}
+.agent-entry-route h3{display:flex;gap:12px;align-items:center;margin:0 0 18px;font-size:18px}
+.agent-entry-route h3 span{font-size:11px;padding:4px 8px;border:1px solid var(--border);border-radius:20px;color:var(--secondary)}
+.agent-entry-steps{display:grid;grid-template-columns:1.2fr 20px 1fr 20px 1fr;gap:10px;align-items:center}
+.agent-entry-steps>div{border-left:2px solid var(--border);padding:12px;min-height:94px;box-sizing:border-box}
+.agent-entry-steps .agent-entry-prep{background:var(--muted);border-left:3px solid var(--text);border-radius:6px}
+.agent-entry-steps small,.agent-entry-goal dt{display:block;font-size:11px;color:var(--secondary);margin-bottom:6px;letter-spacing:.04em}
+.agent-entry-steps p{font-size:14px;line-height:1.75;margin:0}
+.agent-entry-arrow{font-size:19px;color:var(--secondary);text-align:center}
+.agent-entry-caveat{font-size:12px;line-height:1.8;color:var(--secondary);margin:14px 0 0}
+.agent-entry-fallback{margin:20px 0 0;padding:18px 20px;border:1px dashed var(--border);border-radius:10px;font-size:14px;line-height:1.8}
+.agent-entry-goals{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.agent-entry-goal{border-top:3px solid var(--text);padding:20px 16px 14px;background:var(--muted);border-radius:4px 4px 10px 10px}
+.agent-entry-number{font-size:11px;color:var(--secondary);letter-spacing:.1em}
+.agent-entry-goal h3{font-size:20px;margin:10px 0 14px}
+.agent-entry-question{font-size:14px;font-weight:600;line-height:1.8;margin:0 0 22px;min-height:50px}
+.agent-entry-goal dl{margin:0}
+.agent-entry-goal dd{font-size:13px;line-height:1.8;margin:0 0 16px}
+.agent-entry-limit{font-size:13px;font-weight:650;line-height:1.8;padding-top:14px;border-top:1px solid var(--border);margin:0}
+@media(max-width:680px){.agent-entry-goals{grid-template-columns:1fr;gap:14px}.agent-entry-question{min-height:0;margin-bottom:18px}.agent-entry-goal{padding:20px}.agent-entry-route{padding:16px}.agent-entry-steps{grid-template-columns:1fr;gap:6px}.agent-entry-steps>div{min-height:0;padding:12px}.agent-entry-arrow{transform:rotate(90deg);justify-self:center}.agent-entry-fallback{padding:16px}.agent-entry-diagram{padding:16px 0}}

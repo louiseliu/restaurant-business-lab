@@ -1,0 +1,127 @@
+{
+  "surface": "report",
+  "title": "给顾客的AI开个取号入口，小店该为哪种价值投入",
+  "generatedAt": "2026-11-03T07:05:31Z",
+  "status": "reviewed",
+  "buildStatus": "complete",
+  "exportPreferences": {
+    "selected": null,
+    "destinations": []
+  },
+  "filters": [],
+  "report": {
+    "asOf": "2026-11-03"
+  },
+  "id": "report:customer-agent-entry-20261103",
+  "queries": {
+    "diagram-research-2026-11-03-customer-agent-entry-note": {
+      "rows": [
+        {
+          "title": "第一次使用",
+          "preparation": "获得支持工具，再准备或加载Skill",
+          "request": "交代门店、人数与桌型",
+          "result": "确认取号结果是否正确",
+          "caveat": "把首次准备、放弃与求助纳入观察。"
+        },
+        {
+          "title": "再次使用",
+          "preparation": "已有准备条件，先确认仍可用",
+          "request": "交代这一次的用餐需求",
+          "result": "确认取号结果是否正确",
+          "caveat": "更新或状态变化可能再次产生准备工作。"
+        }
+      ],
+      "source": {
+        "label": "首次准备与再次使用，要分开观察",
+        "files": [
+          "research/2026-11-03-customer-agent-entry/note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "机制示意与限制",
+            "definition": "依据2026年4月的早期使用描述提出经营比较框架，不是当前产品界面测绘。相同节点宽度不代表相同时长。 图1｜当时加载与问答负担见[3]，一次现场体验及成熟度限制见[1]。两组顾客分别观察是本研究建议；现有证据不能给出当前哪条路径更快的统一答案。",
+            "componentIds": [
+              "diagram-research-2026-11-03-customer-agent-entry-note"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "固定公开研究版本",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/90a3b9b65e399b3df0169092f1685adb857658f9/research/2026-11-03-customer-agent-entry/note.md"
+          },
+          {
+            "title": "[1] 每日经济新闻｜2026年4月16日原始采访与一次现场取号体验",
+            "detail": "https://www.mrjjxw.com/articles/2026-04-16/4342157.html"
+          },
+          {
+            "title": "[2] 品玩｜2026年4月11日经营者采访，技术兴趣与主业取舍",
+            "detail": "https://www.pingwest.com/a/312844"
+          },
+          {
+            "title": "[3] 中新经纬采访的新浪刊载页｜2026年4月16日早期路径与未来设想",
+            "detail": "https://finance.sina.com.cn/roll/2026-04-16/doc-inhusenq1690408.shtml"
+          }
+        ]
+      }
+    },
+    "diagram-research-2026-11-03-customer-agent-entry-note:second": {
+      "rows": [
+        {
+          "title": "探索学习",
+          "question": "顾客反馈能否变成可采取的需求？",
+          "evidence": "记录具体反馈与后续改进，判断是否值得继续探索。",
+          "cost": "准备、交流、维护的预算与时间",
+          "limit": "反馈热烈 ≠ 已省人工"
+        },
+        {
+          "title": "服务改善",
+          "question": "正确完成有没有更容易？",
+          "evidence": "分别观察首次与再次使用的正确完成、求助、退出及恢复。",
+          "cost": "顾客与前厅的总负担",
+          "limit": "正确取号 ≠ 新增订单"
+        },
+        {
+          "title": "新增贡献",
+          "question": "是否带来原本不会发生的到店？",
+          "evidence": "区分原渠道迁移与真正新增到店，再计相关成本。",
+          "cost": "获客、服务和持续维护支出",
+          "limit": "调用量 ≠ 利润"
+        }
+      ],
+      "source": {
+        "label": "先说清投入目标，再选验收证据",
+        "files": [
+          "research/2026-11-03-customer-agent-entry/note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "机制示意与限制",
+            "definition": "三个目标可以并存，但不能互相借用证明。各列是研究提出的核查方式，不是金谷园已公布的分组结果。 图2｜目标取舍参考[2]，早期体验与短期经营自述边界参考[1][3]。三列并列，不表示自动升级；无收益比例、回本计算或因果效果。",
+            "componentIds": [
+              "diagram-research-2026-11-03-customer-agent-entry-note:second"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "固定公开研究版本",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/90a3b9b65e399b3df0169092f1685adb857658f9/research/2026-11-03-customer-agent-entry/note.md"
+          },
+          {
+            "title": "[1] 每日经济新闻｜2026年4月16日原始采访与一次现场取号体验",
+            "detail": "https://www.mrjjxw.com/articles/2026-04-16/4342157.html"
+          },
+          {
+            "title": "[2] 品玩｜2026年4月11日经营者采访，技术兴趣与主业取舍",
+            "detail": "https://www.pingwest.com/a/312844"
+          },
+          {
+            "title": "[3] 中新经纬采访的新浪刊载页｜2026年4月16日早期路径与未来设想",
+            "detail": "https://finance.sina.com.cn/roll/2026-04-16/doc-inhusenq1690408.shtml"
+          }
+        ]
+      }
+    }
+  }
+}
