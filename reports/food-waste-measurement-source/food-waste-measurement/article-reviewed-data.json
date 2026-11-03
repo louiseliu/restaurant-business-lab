@@ -1,0 +1,132 @@
+{
+  "surface": "report",
+  "title": "AI说这道菜剩得多，先查它在哪一步被倒掉",
+  "generatedAt": "2026-11-03T04:03:57Z",
+  "status": "reviewed",
+  "buildStatus": "complete",
+  "exportPreferences": {
+    "selected": null,
+    "destinations": []
+  },
+  "filters": [],
+  "report": {
+    "asOf": "2026-11-03"
+  },
+  "id": "report:food-waste-measurement-20261103",
+  "queries": {
+    "diagram-research-2026-11-03-food-waste-measurement-note": {
+      "rows": [
+        {
+          "title": "餐前备料",
+          "text": "切配边角料或备料损耗",
+          "check": "原料状态、加工方式"
+        },
+        {
+          "title": "餐台供应",
+          "text": "做好但未被取用的剩余",
+          "check": "上台时段、末轮补餐、摆放位置"
+        },
+        {
+          "title": "顾客餐后",
+          "text": "取用后留下的残余",
+          "check": "分量、搭配、出品；先排查混合残余难识别"
+        }
+      ],
+      "source": {
+        "label": "同样叫剩食，发生环节不同，先查的动作也不同",
+        "files": [
+          "research/2026-11-03-food-waste-measurement/note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "机制示意与限制",
+            "definition": "三阶段框架据供应商采访；顾客混合残余限制据经营者说明。右侧核查动作是研究建议，不是汉来已验证的因果。 概念分层不等于必须三桶或三台机器；关键是记录能追溯到发生环节。本图无比例与重量数值。来源：[1][2]。",
+            "componentIds": [
+              "diagram-research-2026-11-03-food-waste-measurement-note"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "固定公开研究版本",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/d6655ef13a9924efa4c6ee6998ed733c06078bd9/research/2026-11-03-food-waste-measurement/note.md"
+          },
+          {
+            "title": "[1] 知新闻：供应商现场采访｜操作机制与未来规划，非独立效果验证",
+            "detail": "https://www.knews.com.tw/news/D45F1D8C4F7030F496FEE09244CA6070"
+          },
+          {
+            "title": "[2] 中央社：汉来管理者专访｜经营者说明采集范围与纠错",
+            "detail": "https://www.cna.com.tw/news/ahel/202606120066.aspx"
+          },
+          {
+            "title": "[3] 商周：智慧雨林项目宣传｜实施线索，非独立验收",
+            "detail": "https://www.businessweekly.com.tw/business/indep/1006648"
+          }
+        ]
+      }
+    },
+    "diagram-research-2026-11-03-food-waste-measurement-note:second": {
+      "rows": [
+        {
+          "title": "人工基线",
+          "text": "现有秤＋简表 → 人工记录品项与重量",
+          "stage": "input"
+        },
+        {
+          "title": "AI辅助",
+          "text": "品项识别＋称重 → 人工校正或保留未分类",
+          "stage": "input"
+        },
+        {
+          "title": "共同前提",
+          "text": "来源环节、餐期、称重口径保持可追溯",
+          "stage": "condition"
+        },
+        {
+          "title": "留下有来源的记录",
+          "text": "不把识别不清的混合残余硬分给某道菜",
+          "stage": "review"
+        },
+        {
+          "title": "负责人核查原因",
+          "text": "一次小范围调整，同时观察剩余、缺菜与等待",
+          "stage": "action"
+        }
+      ],
+      "source": {
+        "label": "一个称重点，也要留下可用的来源信息",
+        "files": [
+          "research/2026-11-03-food-waste-measurement/note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "机制示意与限制",
+            "definition": "人工基线与后续经营核查是研究建议；AI辅助操作链参考同一项目的供应商及项目方说明，非系统架构实测。 来源：[1][3]，均属同一项目链。人工核查不能省略；图示不代表自动判断原因或自动执行备餐。",
+            "componentIds": [
+              "diagram-research-2026-11-03-food-waste-measurement-note:second"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "固定公开研究版本",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/d6655ef13a9924efa4c6ee6998ed733c06078bd9/research/2026-11-03-food-waste-measurement/note.md"
+          },
+          {
+            "title": "[1] 知新闻：供应商现场采访｜操作机制与未来规划，非独立效果验证",
+            "detail": "https://www.knews.com.tw/news/D45F1D8C4F7030F496FEE09244CA6070"
+          },
+          {
+            "title": "[2] 中央社：汉来管理者专访｜经营者说明采集范围与纠错",
+            "detail": "https://www.cna.com.tw/news/ahel/202606120066.aspx"
+          },
+          {
+            "title": "[3] 商周：智慧雨林项目宣传｜实施线索，非独立验收",
+            "detail": "https://www.businessweekly.com.tw/business/indep/1006648"
+          }
+        ]
+      }
+    }
+  }
+}

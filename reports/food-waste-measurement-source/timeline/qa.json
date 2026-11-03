@@ -1,0 +1,18 @@
+{
+  "research": 38,
+  "fullOriginals": 58,
+  "samples": 2,
+  "ai": 23,
+  "verifiedGitBlobs": 45,
+  "preservedOriginals": 42,
+  "preservedIllustratedStories": 22,
+  "unchangedSharedFiles": 9,
+  "reviewedDiagramBindings": "passed including #30 third diagram",
+  "privacyTextPayloads": 66,
+  "zipContainers": 2,
+  "offlineBytes": 12824255,
+  "offlineSha256": "a8aa1d24a4f09b70349c8d4c46b1daf7737760d93bd556be49f841b2da1bd662",
+  "visualQA": "not performed for the complete portal; static tests are not visual acceptance",
+  "published": false,
+  "largeHTMLGitArchive": "not attempted"
+}

@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "singleTargetArticle": true,
+  "bodySHA256": "f308fc35fbe0eb64c59a86e1119aa70a3a9e55e4d38b1c7dba31e588e6602a7b",
+  "bytes": 2919466,
+  "htmlSHA256": "534bc3d47bfb44ec2888547f7de504b850d40e2bb4e3e13112d1a581bf6b2571",
+  "decodedJsonModules": 4,
+  "scannedSourceFiles": 12,
+  "diagrams": 2,
+  "queries": 2,
+  "sections": 4,
+  "sources": 3,
+  "visual": {
+    "desktop": "passed: screenshot review of both diagrams and title; directory jump, complete original expansion, data source panel clicked",
+    "mobile": "unverified: no viewport-setting API; key shortcuts did not change CSS viewport",
+    "publishedSite": "not accessed or changed"
+  }
+}
