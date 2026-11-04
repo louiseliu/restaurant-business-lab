@@ -1,0 +1,17 @@
+{
+  "desktop": "passed",
+  "counts": {
+    "research": 42,
+    "all": 62,
+    "samples": 2,
+    "ai": 26
+  },
+  "navigation": "42 to 41 to 42 clicked and renders top heading correctly",
+  "article": "two readable diagrams, 3 correct source links, full original expands",
+  "preservation": "61 prior originals, 41 prior stories, 85 prior query objects identical; samples and shared reader files unchanged",
+  "privacy": "compiled HTML and decoded JSON scanned; no private paths/session/chat/Library IDs found",
+  "mobile": "not performed; supported browser API has no viewport resize",
+  "offlineSha256": "5da4fa6178dfbc360ef592ee5c2825ec965c57a6b4d6451a1f1b7acf60f4cd05",
+  "published": false,
+  "uploaded": false
+}
