@@ -1,0 +1,16 @@
+{
+  "standalone": {
+    "body": "passed",
+    "privacy": "passed",
+    "desktopReading": "passed",
+    "attachmentSend": "accepted, not proof of opened or downloaded"
+  },
+  "portal": {
+    "counts": "44/64/2, AI27",
+    "preservation": "static verification passed",
+    "adjacent44to43": "not completed; browser transport disconnected"
+  },
+  "mobile": "not tested",
+  "published": false,
+  "scope": "Independent QA and delivery reported by task coordinator; no claim of full portal interactive acceptance."
+}

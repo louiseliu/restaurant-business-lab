@@ -1,0 +1,194 @@
+{
+  "surface": "report",
+  "title": "断网还能收银，复网后谁来把这笔生意对完整",
+  "generatedAt": "2026-11-04T23:00:25Z",
+  "status": "reviewed",
+  "buildStatus": "complete",
+  "exportPreferences": {
+    "selected": null,
+    "destinations": []
+  },
+  "filters": [],
+  "report": {
+    "asOf": "2026-11-04"
+  },
+  "queries": {
+    "diagram-research-2026-11-04-offline-pos-note": {
+      "rows": [
+        {
+          "title": "现场收款与交付",
+          "cells": [
+            {
+              "label": "文档支持",
+              "text": "本地暂存、收现与打印可和后续同步分开。"
+            },
+            {
+              "label": "尚须核查",
+              "text": "已收多少、交付什么，能否保留当时交易依据。"
+            },
+            {
+              "label": "不能替代",
+              "text": "打印收据不能单独证明服务器已接受；不推定银行卡或电子支付成功。"
+            }
+          ]
+        },
+        {
+          "title": "后台接受记录",
+          "cells": [
+            {
+              "label": "文档支持",
+              "text": "恢复连接后补送；删品或改价可能触发退回，修正后可重送。"
+            },
+            {
+              "label": "尚须核查",
+              "text": "处理差异后是否仍对应实际收款与交付，未解决记录是否有负责人。"
+            },
+            {
+              "label": "不能替代",
+              "text": "让报错消失或总额相等，不能单独证明逐笔对应正确。"
+            }
+          ]
+        },
+        {
+          "title": "后厨收到订单",
+          "cells": [
+            {
+              "label": "文档支持",
+              "text": "顾客可用移动网络提交扫码订单；门店POS与KDS需等复网才可见。"
+            },
+            {
+              "label": "尚须核查",
+              "text": "备援传单能否让后厨实际收到，并避免同单重复制作。"
+            },
+            {
+              "label": "不能替代",
+              "text": "顾客下单成功不能单独证明后厨已接到制作指令。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "label": "收款、后台接纳与后厨收到，各有自己的完成依据",
+        "files": [
+          "research/2026-11-04-offline-pos/note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "产品机制与作者建议分开",
+            "definition": "依据CakeDock文档分析不同通路。下列核验建议是作者设计，不是三项已验收功能，也不涉及银豹的部署。 图1｜原创机制图。尚须核查项为研究建议，不是具名门店事故、系统缺陷或已经验证的备援组合。",
+            "componentIds": [
+              "diagram-research-2026-11-04-offline-pos-note"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "固定公开正文",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/b0f0dd59974e4b507be9dbe38bd5d0e00012c4ab/research/2026-11-04-offline-pos/note.md"
+          },
+          {
+            "title": "CakeDock｜断网时的离线收银与备援说明（页面无发布日期）",
+            "detail": "https://cakedock.com/help/network-outage"
+          },
+          {
+            "title": "银豹｜网络恢复后的销售单据同步问答（2025-07-28）",
+            "detail": "https://blog.pospal.cn/kb/21356"
+          }
+        ],
+        "caveats": [
+          "两厂商不拼成同一系统或部署。",
+          "图中验收条件是作者建议，不是实测事故或已验证产品功能。"
+        ]
+      }
+    },
+    "diagram-research-2026-11-04-offline-pos-note:second": {
+      "rows": [
+        {
+          "title": "断网期间：有限营业",
+          "cells": [
+            {
+              "label": "继续的依据",
+              "text": "收款、交付及交易留存均经过验证，只承诺这部分业务。"
+            },
+            {
+              "label": "暂停扩大的条件",
+              "text": "后厨传单或特定支付能力未验证，不据“能开单”扩大承诺。"
+            },
+            {
+              "label": "责任",
+              "text": "当班负责人确认可接受的交易与现场交付安排。"
+            }
+          ]
+        },
+        {
+          "title": "复网后：异常有人接",
+          "cells": [
+            {
+              "label": "产品说明的边界",
+              "text": "银豹PC和新版安卓有手动上传入口；旧安卓须切换网络后检测上传。失败转人工提示属于PC条目。"
+            },
+            {
+              "label": "交接完成",
+              "text": "异常已有依据、负责人和下一步；仍不代表交易已对齐。"
+            },
+            {
+              "label": "责任",
+              "text": "跨班保留未解决原因，不盲目重复录入。"
+            }
+          ]
+        },
+        {
+          "title": "逐笔核对：结果可解释",
+          "cells": [
+            {
+              "label": "对账完成",
+              "text": "相关交易正确对应后台；未解决项不混入最终结果。"
+            },
+            {
+              "label": "停止的条件",
+              "text": "无法解释差异，保留异常，暂不采用不完整总额作为最终营业结果。"
+            },
+            {
+              "label": "责任",
+              "text": "有权限的人依适用版本和供应商指导核查，不直接作废已收款订单。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "label": "限定能完成的营业范围，并把恢复工作交到具体的人",
+        "files": [
+          "research/2026-11-04-offline-pos/note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "产品机制与作者建议分开",
+            "definition": "作者设计的经营验收框架。银豹通常自动同步，异常路径按版本区分；与CakeDock并列参考，不拼接成同一系统。 图2｜原创责任示意，不是厂商已实现功能清单。网络在线、异常交接完成和对账完成是三个不同判断；没有新增效率、损失率或收益数字。",
+            "componentIds": [
+              "diagram-research-2026-11-04-offline-pos-note:second"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "固定公开正文",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/b0f0dd59974e4b507be9dbe38bd5d0e00012c4ab/research/2026-11-04-offline-pos/note.md"
+          },
+          {
+            "title": "CakeDock｜断网时的离线收银与备援说明（页面无发布日期）",
+            "detail": "https://cakedock.com/help/network-outage"
+          },
+          {
+            "title": "银豹｜网络恢复后的销售单据同步问答（2025-07-28）",
+            "detail": "https://blog.pospal.cn/kb/21356"
+          }
+        ],
+        "caveats": [
+          "两厂商不拼成同一系统或部署。",
+          "图中验收条件是作者建议，不是实测事故或已验证产品功能。"
+        ]
+      }
+    }
+  },
+  "id": "report:21b6d36f-a292-451d-ab56-8a65087a498a"
+}

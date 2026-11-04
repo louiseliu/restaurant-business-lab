@@ -1,0 +1,34 @@
+{
+  "result": "single article accepted; portal partially verified",
+  "articleSHA256": "9a7652d02b6a5b32d26c6805948f65534cb2119452149863cbcd71e97fd1e215",
+  "fixedBodyRead": "b0f0dd59974e4b507be9dbe38bd5d0e00012c4ab",
+  "desktop": [
+    "article loads",
+    "directory expands",
+    "diagram anchor scrolls",
+    "diagram 1 three columns readable",
+    "diagram scope information opens",
+    "full original shortcut opens disclosure",
+    "portal 44 research and 64 records",
+    "AI filter 27 excludes offline POS",
+    "article 44 opens",
+    "44 adjacent link targets article 43"
+  ],
+  "static": [
+    "single article test passed",
+    "full portal preservation test passed",
+    "63 old original bodies unchanged",
+    "43 old stories unchanged",
+    "89 old queries unchanged",
+    "5 downloads preserved",
+    "78 text payloads and 2 ZIP containers privacy scan passed"
+  ],
+  "limits": [
+    "No mobile viewport test: no viewport resize capability available",
+    "44 to 43 click outcome uncertain after CUA exec-server transport disconnected; no 43 to 44 click verification",
+    "Only offline HTML browser-tested; dist separate-data version not directly browser-tested",
+    "dist index contains local thread metadata; deliver sanitized offline HTML only"
+  ],
+  "browserCompletionSummary": "attempted once; no response and terminated after transport loss",
+  "published": false
+}
