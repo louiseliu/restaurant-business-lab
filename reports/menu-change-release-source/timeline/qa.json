@@ -1,0 +1,23 @@
+{
+  "research": 42,
+  "fullOriginals": 62,
+  "samples": 2,
+  "ai": 26,
+  "verifiedPriorGitBlobs": 51,
+  "preservedOriginals": 61,
+  "preservedIllustratedStories": 41,
+  "preservedQueries": 85,
+  "unchangedSharedFiles": 9,
+  "unchangedOtherSourceFiles": 254,
+  "readerChanges": "exactly one import and one menu layout branch",
+  "compiledCatalogAndStories": "all 62 full bodies and 42 stories match source exactly",
+  "reviewedDiagramBindings": "passed including article 30 third diagram and article 42 scoped queries",
+  "preservedDownloadPayloads": 5,
+  "privacyTextPayloads": 74,
+  "zipContainers": 2,
+  "offlineBytes": 12926978,
+  "offlineSha256": "5da4fa6178dfbc360ef592ee5c2825ec965c57a6b4d6451a1f1b7acf60f4cd05",
+  "visualQA": "not performed in this integration task; static checks are not visual acceptance",
+  "published": false,
+  "largeHTMLGitArchive": "not attempted"
+}

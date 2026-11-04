@@ -1,0 +1,11 @@
+# 第42篇完整门户增量
+
+按reports/order-cancellation-source/timeline/BUILD.md恢复完整41篇基线，再复制独立作者副本。51项固定JSON原始字节逐Git blob核验通过；恢复40篇安全HTML SHA256为478cd100712d1d717ce72d9961226b70eb74142e3bd2d0f23ae3ae450e6d95d8，41篇为71f488ff4529b36fa90a448151ea8056c82194a16aaf255130324be266ec88f8，均与历史验收版本完全一致。
+
+运行python integrate42.py COMPLETE_PROJECT/src reports/menu-change-release-source。仅合并三JSON、新增两query和MenuDiagrams专用组件；门户reader只增加import与menu布局分支。保留旧41图文、61全文、85queries、9共享文件与254其他旧源文件。不得用单篇reader覆盖门户。
+
+官方helper build --separate-data及export-offline通过；导出写项目.data-app-offline/exports，副本使用既有sanitize_export.py清除可选线程meta。工作包根放timeline42.html、source/verified-source-manifest.json及保持仓库原路径的recovered/51份原始JSON。运行python test_preservation.py WORK_PACKAGE BASELINE41_PROJECT/src COMPLETE_PROJECT/src，并执行node test_reader_routes.mjs COMPLETE_PROJECT/src/content/report。
+
+实际42研究/62全文/2样板、AI26；两图来源作用域、正文、倒序、路由、旧内容和5下载载荷保留通过。递归扫描74项文本载荷与2ZIP；最终HTML解码目录与图文逐对象一致。安全HTML为12926978字节，SHA256 5da4fa6178dfbc360ef592ee5c2825ec965c57a6b4d6451a1f1b7acf60f4cd05。
+
+此为本地整合。门户浏览器验收另记，静态通过不证明桌面或手机验收。本轮未访问、发布或修改受限原站权限，不上传大型HTML，不替换历史整站快照或独立附件。独立文章已交付并通过桌面验收，不能据此推断门户验收。
