@@ -1,0 +1,130 @@
+{
+  "surface": "report",
+  "title": "AI 替你改完菜单，开店前还要谁确认",
+  "generatedAt": "2026-11-04T21:08:17Z",
+  "status": "reviewed",
+  "buildStatus": "complete",
+  "exportPreferences": {
+    "selected": null,
+    "destinations": []
+  },
+  "filters": [],
+  "report": {
+    "asOf": "2026-11-04"
+  },
+  "id": "report:menu-change-release-20261104",
+  "queries": {
+    "diagram-research-2026-11-04-menu-change-release-note": {
+      "rows": [
+        {
+          "title": "对话与改动范围",
+          "fact": "AI文档：写入后台前再次确认；更新后左侧页面需手动刷新。",
+          "check": "研究建议：对照商品清单与新旧值，刷新后核实实际结果。",
+          "limit": "未确认是否提供完整差异预览。"
+        },
+        {
+          "title": "店员使用的 POS",
+          "fact": "普通设置文档：选择套用新设置登录时下载后台最新内容。",
+          "check": "研究建议：明确生效时点与负责人，在营业界面检查。",
+          "limit": "未实测AI工具是否另有自动套用行为。"
+        },
+        {
+          "title": "顾客看到的云端餐厅",
+          "fact": "云端餐厅文档：上架、供餐时段与显示名称分别设置。",
+          "check": "研究建议：在目标时段核对商品能否找到、名称与价格。",
+          "limit": "仅涉及iCHEF云端餐厅，不外推所有外卖平台。"
+        }
+      ],
+      "source": {
+        "label": "三个位置，各有自己的完成依据",
+        "files": [
+          "research/2026-11-04-menu-change-release/note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "文档机制与研究建议",
+            "definition": "并列核查位置，不表示已经实测的自动流程。AI输入能力与普通配置机制分别有文档依据。 图1｜原创研究示意。三处没有画成自动接口链；文档事实与门店验收建议分栏。实际核查范围按门店使用的营业端确定。",
+            "componentIds": [
+              "diagram-research-2026-11-04-menu-change-release-note"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "固定公开正文",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/2099f57b263929a283a34c63871923441a824836/research/2026-11-04-menu-change-release/note.md"
+          },
+          {
+            "title": "iCHEF AI｜菜单工具 Beta，2026-06-01 公告",
+            "detail": "https://support.ichefpos.com/?lang=zh-yue&p=71251"
+          },
+          {
+            "title": "iCHEF POS｜App 套用新设置，发布日期未明",
+            "detail": "https://support.ichefpos.com/?p=14186"
+          },
+          {
+            "title": "iCHEF 云端餐厅｜菜单设置，发布日期未明",
+            "detail": "https://support.ichefpos.com/?p=56222"
+          }
+        ],
+        "caveats": [
+          "三份资料同一供应商；未验证AI至营业端自动链路或经营效果。"
+        ]
+      }
+    },
+    "diagram-research-2026-11-04-menu-change-release-note:second": {
+      "rows": [
+        {
+          "title": "一组明确商品批量改价",
+          "before": "明确商品、规格和新旧价格",
+          "input": "对一组商品执行同类字段变更",
+          "after": "核对范围、实际结果与适用营业端",
+          "decision": "频繁更新且规则稳定时，更适合比较批量输入的价值。"
+        },
+        {
+          "title": "新增一道可售商品",
+          "before": "决定规格、选项、用料与供餐安排",
+          "input": "建立商品并输入可处理的资料",
+          "after": "补齐手动字段，核对库存消耗及营业端",
+          "decision": "若主要负担在业务关系与补齐，输入更快未必降低总工作量。"
+        }
+      ],
+      "source": {
+        "label": "同样是改菜单，输入之外的工作并不相同",
+        "files": [
+          "research/2026-11-04-menu-change-release/note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "文档机制与研究建议",
+            "definition": "两种假设任务的工作构成比较，没有耗时比例，也不是门店试验结果。 图2｜原创条件分析。起点同为准备改动清单，终点同为相关营业端核对完成；与本店原有批次编辑或熟练操作比较。时间释放不自动等于现金节省。",
+            "componentIds": [
+              "diagram-research-2026-11-04-menu-change-release-note:second"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "固定公开正文",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/2099f57b263929a283a34c63871923441a824836/research/2026-11-04-menu-change-release/note.md"
+          },
+          {
+            "title": "iCHEF AI｜菜单工具 Beta，2026-06-01 公告",
+            "detail": "https://support.ichefpos.com/?lang=zh-yue&p=71251"
+          },
+          {
+            "title": "iCHEF POS｜App 套用新设置，发布日期未明",
+            "detail": "https://support.ichefpos.com/?p=14186"
+          },
+          {
+            "title": "iCHEF 云端餐厅｜菜单设置，发布日期未明",
+            "detail": "https://support.ichefpos.com/?p=56222"
+          }
+        ],
+        "caveats": [
+          "三份资料同一供应商；未验证AI至营业端自动链路或经营效果。"
+        ]
+      }
+    }
+  }
+}

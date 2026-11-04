@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "singleTargetArticle": true,
+  "bodySHA256": "fe7cf3baeca717e24bf87239c0911b63dbfbd30f6010d8f7c7f7751a7d09a6c0",
+  "bytes": 2923101,
+  "htmlSHA256": "fef9387fd65aee0c98cbeefa67899d5c12a359f4da3a69a820f38360b5fa4154",
+  "decodedJsonModules": 4,
+  "scannedSourceFiles": 12,
+  "diagrams": 2,
+  "queries": 2,
+  "sections": 4,
+  "sources": 3,
+  "visual": "recorded separately; static QA is not browser verification",
+  "portal41": "unchanged; integration not performed"
+}

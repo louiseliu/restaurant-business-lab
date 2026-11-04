@@ -1,0 +1,8 @@
+{
+  "status": "passed-with-limitations",
+  "surface": "standalone official static preview",
+  "desktop": "Parent reports independent desktop acceptance passed",
+  "mobile": "not tested",
+  "delivery": "Attachment send accepted; not evidence of opening or download",
+  "publication": "not published"
+}
