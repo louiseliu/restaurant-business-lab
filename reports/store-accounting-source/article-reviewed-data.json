@@ -1,0 +1,202 @@
+{
+  "surface": "report",
+  "title": "小店自建AI经营账，谁来维护每天的“算得对”",
+  "generatedAt": "2026-11-04T21:59:53Z",
+  "status": "reviewed",
+  "buildStatus": "complete",
+  "exportPreferences": {
+    "selected": null,
+    "destinations": []
+  },
+  "filters": [],
+  "report": {
+    "asOf": "2026-11-04"
+  },
+  "id": "report:e89f8f26-3449-4f1d-a279-fc353d7e8f1c",
+  "queries": {
+    "diagram-research-2026-11-04-store-accounting-note": {
+      "rows": [
+        {
+          "title": "平台A：套餐增加饮品",
+          "cells": [
+            {
+              "label": "原来",
+              "text": "与平台B归到同一套餐及成本口径。"
+            },
+            {
+              "label": "发生变化",
+              "text": "销售内容增加饮品；商品名称可能仍很相近。"
+            },
+            {
+              "label": "旧规则的盲点",
+              "text": "数据仍可导入，销量仍可加总，却未必反映新的成本含义。"
+            },
+            {
+              "label": "建议核查",
+              "text": "确认实际内容、适用成本和生效日期，保留修改理由。"
+            }
+          ]
+        },
+        {
+          "title": "平台B：维持原组合",
+          "cells": [
+            {
+              "label": "原来",
+              "text": "与平台A出售相同商品。"
+            },
+            {
+              "label": "发生变化",
+              "text": "本平台没有增加饮品，原组合继续销售。"
+            },
+            {
+              "label": "旧规则的盲点",
+              "text": "不能因为另一平台改变，就把本平台历史与当前记录一并覆盖。"
+            },
+            {
+              "label": "建议核查",
+              "text": "明确哪些记录沿用原规则；如需重算，保留原结果与修正原因。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "label": "同一份套餐的旧映射，可能不再代表同一份成本",
+        "files": [
+          "research/2026-11-04-store-accounting/note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "假设情景与研究建议",
+            "definition": "研究假设：两个平台起初出售相同早餐套餐。下列内容变化没有在麦小农案例中被证实。 图1｜原创假设示意。销量能够相加、字段齐全或金额平衡，都不能单独证明成本选择正确；没有虚构金额、收益或事故。",
+            "componentIds": [
+              "diagram-research-2026-11-04-store-accounting-note"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "固定公开正文",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/69d95a50b4675b000df8b1e6cff146fdb6371e0e/research/2026-11-04-store-accounting/note.md"
+          },
+          {
+            "title": "WPS用户故事｜麦小农店主的经营数据实践，2026-10-22",
+            "detail": "https://forum.wps.cn/topic/100033"
+          },
+          {
+            "title": "WPS社区店主原帖｜搭建概览，2026-10-14",
+            "detail": "https://bbs.wps.cn/topic/99320"
+          }
+        ],
+        "caveats": [
+          "两篇材料属于同一WPS来源链，不是两个独立效果证据。",
+          "图示为本文假设与建议，不是该门店的已验证故障、功能或经营成效。"
+        ]
+      }
+    },
+    "diagram-research-2026-11-04-store-accounting-note:second": {
+      "rows": [
+        {
+          "title": "首次搭建",
+          "cells": [
+            {
+              "label": "需要解释",
+              "text": "原记录如何对应商品、费用与报告结果。"
+            },
+            {
+              "label": "继续的依据",
+              "text": "一段稳定业务可以与人工复核结果对照。"
+            },
+            {
+              "label": "暂停扩大的条件",
+              "text": "基本口径仍说不清，先保留原办法。"
+            }
+          ]
+        },
+        {
+          "title": "日常核验",
+          "cells": [
+            {
+              "label": "需要解释",
+              "text": "数据是否按时进入，结果是否有可追溯依据。"
+            },
+            {
+              "label": "继续的依据",
+              "text": "可核验部分正常，缺项明确保留未知。"
+            },
+            {
+              "label": "暂停扩大的条件",
+              "text": "报告缺少依据，不用零或未标注估算凑齐。"
+            }
+          ]
+        },
+        {
+          "title": "商品或费用变化",
+          "cells": [
+            {
+              "label": "需要解释",
+              "text": "变化从何时开始，影响哪些规则及记录。"
+            },
+            {
+              "label": "继续的依据",
+              "text": "熟悉门店的人能确认范围，接手者能够复核。"
+            },
+            {
+              "label": "暂停扩大的条件",
+              "text": "长期依赖搭建者逐笔解释，先修规则。"
+            }
+          ]
+        },
+        {
+          "title": "异常接手",
+          "cells": [
+            {
+              "label": "需要解释",
+              "text": "是导入、对应关系，还是原始账项与结果不一致。"
+            },
+            {
+              "label": "继续的依据",
+              "text": "原始依据、处理决定和受影响结果相互对应。"
+            },
+            {
+              "label": "暂停扩大的条件",
+              "text": "无人接手或无法解释，退回可复核的临时办法。"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "label": "搭起来以后，四类工作仍要有人负责",
+        "files": [
+          "research/2026-11-04-store-accounting/note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "假设情景与研究建议",
+            "definition": "研究建议：比较同一范围的业务核对任务。四类工作可能反复发生，不代表已实测的工时分布或该店已有功能。 图2｜原创责任示意。记录搭建、核验、变更修正、异常追溯与实际工具费用，再判断总负担。时间释放不自动等于现金支出下降。",
+            "componentIds": [
+              "diagram-research-2026-11-04-store-accounting-note:second"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "固定公开正文",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/69d95a50b4675b000df8b1e6cff146fdb6371e0e/research/2026-11-04-store-accounting/note.md"
+          },
+          {
+            "title": "WPS用户故事｜麦小农店主的经营数据实践，2026-10-22",
+            "detail": "https://forum.wps.cn/topic/100033"
+          },
+          {
+            "title": "WPS社区店主原帖｜搭建概览，2026-10-14",
+            "detail": "https://bbs.wps.cn/topic/99320"
+          }
+        ],
+        "caveats": [
+          "两篇材料属于同一WPS来源链，不是两个独立效果证据。",
+          "图示为本文假设与建议，不是该门店的已验证故障、功能或经营成效。"
+        ]
+      }
+    }
+  }
+}

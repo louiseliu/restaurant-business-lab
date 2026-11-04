@@ -1,0 +1,23 @@
+{
+  "research": 43,
+  "fullOriginals": 63,
+  "samples": 2,
+  "ai": 27,
+  "baseline": "accepted article 42 portal",
+  "preservedOriginals": 62,
+  "preservedIllustratedStories": 42,
+  "preservedQueries": 87,
+  "unchangedSharedFiles": 9,
+  "unchangedOtherSourceFiles": 256,
+  "readerChanges": "exactly one import and one accounting layout branch",
+  "compiledCatalogAndStories": "all 63 full bodies and 43 stories match source exactly",
+  "reviewedDiagramBindings": "passed including article 30 third diagram and article 43 scoped queries",
+  "preservedDownloadPayloads": 5,
+  "privacyTextPayloads": 76,
+  "zipContainers": 2,
+  "offlineBytes": 12957419,
+  "offlineSha256": "04743bccf3fc8fc18da3cda4f2282ec4387a010b93dadb35628574c8fd596f92",
+  "visualQA": "not performed in this integration task; static checks are not visual acceptance",
+  "published": false,
+  "largeHTMLGitArchive": "not attempted"
+}
