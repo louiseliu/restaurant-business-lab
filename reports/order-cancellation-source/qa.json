@@ -1,14 +1,15 @@
 {
-  "status": "source-static-checks-passed",
+  "status": "official-build-export-and-static-checks-passed",
+  "singleTargetArticle": true,
   "bodySHA256": "2ee3e6e5d9034614a32160bfa992d3186860fa2e153164af023273fbc4a7844b",
-  "sections": 4,
+  "htmlBytes": 2920512,
+  "htmlSHA256": "a83bc19af37d6aa331b115331ec62bab52f92d5a3c0a8f2330331fa6f8c711e6",
   "diagrams": 2,
   "queries": 2,
   "sources": 3,
-  "scannedFiles": 12,
-  "build": "not-run-missing-official-helper",
-  "html": "not-produced",
-  "visual": "not-run",
-  "formalCompletedCount": 40,
-  "formalAIcount": 25
+  "sections": 4,
+  "visual": "recorded separately",
+  "attachment": "send accepted; not proof of opened",
+  "sitePublication": "not attempted",
+  "largeHTMLGitArchive": "not attempted"
 }

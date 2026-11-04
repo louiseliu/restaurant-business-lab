@@ -1,0 +1,28 @@
+{
+  "result": "desktop passed; mobile not performed",
+  "testedArtifact": "portal41/dist index and complete snapshot sidecar",
+  "offlineSha256": "71f488ff4529b36fa90a448151ea8056c82194a16aaf255130324be266ec88f8",
+  "desktopViewport": [
+    1197,
+    789
+  ],
+  "checks": {
+    "timeline": "41 newest first; cancellation first, service-handoff second",
+    "newArticle": "both diagrams readable; all three source links visible; full original expands",
+    "adjacentNavigation": "41 to 40 and 40 to 41 clicked; heading and top scroll correct",
+    "aiFilter": "25, cancellation excluded",
+    "sampleChannel": "two sample cards visible",
+    "allChannel": "61 visible",
+    "staticPreservation": "independently reran test_preservation41.py, passed",
+    "staticRoutes": "independently reran test_reader_routes41.mjs, passed"
+  },
+  "mobile": "Not run: supported cloud browser API has no viewport resize/emulation capability",
+  "console": "Only browser extension metadata errors observed; no application errors in checked log",
+  "limits": [
+    "No hosted Site accessed or published",
+    "No complete portal HTML uploaded",
+    "Sample downloads preserved by byte/hash test, not browser-downloaded",
+    "External sources not revalidated in this layout QA"
+  ],
+  "minorIssue": "Diagram wrapper and internal headings repeat title; non-blocking"
+}

@@ -1,0 +1,7 @@
+{
+  "scope": "Complete local 41-article portal containing cancellation article; not a claim of separate mobile verification",
+  "result": "desktop passed; mobile not performed",
+  "detail": "timeline/visual-qa.json",
+  "minorIssue": "Diagram wrapper and internal headings repeat title; non-blocking",
+  "attachment": "Independent article HTML send accepted; not proof of user opening"
+}

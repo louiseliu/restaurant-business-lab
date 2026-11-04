@@ -1,0 +1,207 @@
+[
+  {
+    "path": "reports/ai-camera-cost-stack-source/ai-camera-cost-stack/article-entry.json",
+    "sha": "8332c634c4767423c76ad4d5c3b7916df6eb484f"
+  },
+  {
+    "path": "reports/ai-camera-cost-stack-source/ai-camera-cost-stack/article-reviewed-data.json",
+    "sha": "88072ab0afe665a8da2b7eef758e87a6b11f94d4"
+  },
+  {
+    "path": "reports/ai-camera-cost-stack-source/ai-camera-cost-stack/illustrated-story.json",
+    "sha": "65839588d49c7b4b3992c7b58164f0322db62c38"
+  },
+  {
+    "path": "reports/crossplatform-operations-source/crossplatform-operations/article-entry.json",
+    "sha": "1f5ee04a6256fbb218d4f48e1b27a7bab875dd74"
+  },
+  {
+    "path": "reports/crossplatform-operations-source/crossplatform-operations/article-reviewed-data.json",
+    "sha": "58122e276b043cf7d4771ef7abecd171298bb68a"
+  },
+  {
+    "path": "reports/crossplatform-operations-source/crossplatform-operations/illustrated-story.json",
+    "sha": "c7146305e8a5ae2060e272b551d670b658736f30"
+  },
+  {
+    "path": "reports/energy-control-source/energy-control/article-entry.json",
+    "sha": "100025b0e1a1fec7f955d60b75512f9813c64a6c"
+  },
+  {
+    "path": "reports/energy-control-source/energy-control/article-reviewed-data.json",
+    "sha": "6e0008c643af3867d229ff11ff6858e7f9340bd9"
+  },
+  {
+    "path": "reports/energy-control-source/energy-control/illustrated-story.json",
+    "sha": "6ca9f630066aa5752c1ae19f9715c389f01e0e83"
+  },
+  {
+    "path": "reports/inventory-capture-revision-source/inventory-capture/article-entry.json",
+    "sha": "83d193c1c3728bfff93ee44d03bf8cfe57a0b6fd"
+  },
+  {
+    "path": "reports/inventory-capture-revision-source/inventory-capture/article-reviewed-data.json",
+    "sha": "adfc301b37d9668b4139b2adb69e4c5ea1975b0b"
+  },
+  {
+    "path": "reports/inventory-capture-revision-source/inventory-capture/illustrated-story.json",
+    "sha": "fe2749532880bbd7e80e8e1313a24c2d5f9c2ce5"
+  },
+  {
+    "path": "reports/management-anomaly-source/management-anomaly/article-entry.json",
+    "sha": "741f369ddd55d1d3b07243e627da6aba773217f9"
+  },
+  {
+    "path": "reports/management-anomaly-source/management-anomaly/article-reviewed-data.json",
+    "sha": "5cf6f773b8f38ef2b362437ca4717a0b68395803"
+  },
+  {
+    "path": "reports/management-anomaly-source/management-anomaly/illustrated-story.json",
+    "sha": "63464b6e29d37e2d3d76c113f92342506c13fbac"
+  },
+  {
+    "path": "reports/menu-translation-scope-source/menu-translation-scope/article-entry.json",
+    "sha": "1a1f657328de1dc9a39e09602bb6da1591ce659f"
+  },
+  {
+    "path": "reports/menu-translation-scope-source/menu-translation-scope/article-reviewed-data.json",
+    "sha": "6c3fc8de67b1f29817ac96f563588bb5eaf10598"
+  },
+  {
+    "path": "reports/menu-translation-scope-source/menu-translation-scope/illustrated-story.json",
+    "sha": "a9336de4e8241325147ac7132f0f69f04c936a42"
+  },
+  {
+    "path": "reports/pass-confirmation-source/pass-confirmation/article-entry.json",
+    "sha": "45e4540c3707df5918c5f7af42d3e3fc962f9c2f"
+  },
+  {
+    "path": "reports/pass-confirmation-source/pass-confirmation/article-reviewed-data.json",
+    "sha": "5abadb87ebec7290f99691dca8d30b79a5493bf5"
+  },
+  {
+    "path": "reports/pass-confirmation-source/pass-confirmation/illustrated-story.json",
+    "sha": "a12b882e9edec3e4b649e62c02daef83fe7d50da"
+  },
+  {
+    "path": "reports/queue-promise-source/queue-promise/article-entry.json",
+    "sha": "8715644fa07214c81ef5fd5d8b77045edfd5b96a"
+  },
+  {
+    "path": "reports/queue-promise-source/queue-promise/article-reviewed-data.json",
+    "sha": "84f365054765fc3c0fdbcfc8e456fc70dbf1c62e"
+  },
+  {
+    "path": "reports/queue-promise-source/queue-promise/illustrated-story.json",
+    "sha": "e2b505da9c50216feb84f287807a1520e4a253e3"
+  },
+  {
+    "path": "reports/robot-route-infrastructure-source/robot-route-infrastructure/article-entry.json",
+    "sha": "d414813ce86fc82b05691c87062641af68c38f4e"
+  },
+  {
+    "path": "reports/robot-route-infrastructure-source/robot-route-infrastructure/article-reviewed-data.json",
+    "sha": "6d096c13b2881949b7957daf85ee1d829846cdde"
+  },
+  {
+    "path": "reports/robot-route-infrastructure-source/robot-route-infrastructure/illustrated-story.json",
+    "sha": "59d1b86b1a06043ea9213799d4699c0e7866a6d9"
+  },
+  {
+    "path": "reports/shared-knowledge-source/shared-knowledge/article-entry.json",
+    "sha": "aa597fc86b7e0b8cde7005cd60d4ef8efd4e7a60"
+  },
+  {
+    "path": "reports/shared-knowledge-source/shared-knowledge/article-reviewed-data.json",
+    "sha": "d92a326dc3fa28cee0f106fcefb5dc881f54161d"
+  },
+  {
+    "path": "reports/shared-knowledge-source/shared-knowledge/illustrated-story.json",
+    "sha": "ff321a8d630c6e5ab5edc7047c4d50e24103c3d0"
+  },
+  {
+    "path": "reports/shift-constraints-source/shift-constraints/article-entry.json",
+    "sha": "7961a9d514abe3383fca5ec2c3cef1490808f10c"
+  },
+  {
+    "path": "reports/shift-constraints-source/shift-constraints/article-reviewed-data.json",
+    "sha": "b39393fe4d8ab056a5e514e1af2352d0add8aa43"
+  },
+  {
+    "path": "reports/shift-constraints-source/shift-constraints/illustrated-story.json",
+    "sha": "0ada80ae376453672718e903a41246500ba73029"
+  },
+  {
+    "path": "reports/stockout-demand-source/stockout-demand/article-entry.json",
+    "sha": "24c3ccc160c0ad17ab840eefec3bc801aba9eb78"
+  },
+  {
+    "path": "reports/stockout-demand-source/stockout-demand/article-reviewed-data.json",
+    "sha": "3dfac7f90670e926f1d15c44256c40892841aab2"
+  },
+  {
+    "path": "reports/stockout-demand-source/stockout-demand/illustrated-story.json",
+    "sha": "90530660cfe8592ed8c8f1f6810b87a096b5b037"
+  },
+  {
+    "path": "reports/training-content-insourcing-source/training-content-insourcing/article-entry.json",
+    "sha": "703b6ca5c4f497bf82884a6ce4981943a991b5a5"
+  },
+  {
+    "path": "reports/training-content-insourcing-source/training-content-insourcing/article-reviewed-data.json",
+    "sha": "05e171749c90d9e7f3cf0daf69fda65d2c85a933"
+  },
+  {
+    "path": "reports/training-content-insourcing-source/training-content-insourcing/illustrated-story.json",
+    "sha": "cb5cffb1b3e0c8bd05e7349b108a1b5aabb57b19"
+  },
+  {
+    "path": "reports/vision-feedback-timing-source/vision-feedback-timing/article-entry.json",
+    "sha": "e902914808bd8b887de4fd9cccd4beb3d9fc77a2"
+  },
+  {
+    "path": "reports/vision-feedback-timing-source/vision-feedback-timing/article-reviewed-data.json",
+    "sha": "2166211770b8256302a5b68bc636df6d172fcd7a"
+  },
+  {
+    "path": "reports/vision-feedback-timing-source/vision-feedback-timing/illustrated-story.json",
+    "sha": "8aa6b0bda59d0dbbf485d91ea6f3afba567bcc4d"
+  },
+  {
+    "path": "reports/waste-resale-source/waste-resale/article-entry.json",
+    "sha": "93c8615ed453d093e13fb002f861b665fd467417"
+  },
+  {
+    "path": "reports/waste-resale-source/waste-resale/article-reviewed-data.json",
+    "sha": "df2c137b5453303dcb66e296b9c1d5bed58d749e"
+  },
+  {
+    "path": "reports/waste-resale-source/waste-resale/illustrated-story.json",
+    "sha": "61ed0c381db061a67301ebc9828238ba34cbe66a"
+  },
+  {
+    "path": "reports/customer-agent-entry-source/customer-agent-entry/article-entry.json",
+    "sha": "95b8e17ec4a7ebba97f413594ed814430a311d77"
+  },
+  {
+    "path": "reports/customer-agent-entry-source/customer-agent-entry/article-reviewed-data.json",
+    "sha": "35280ecb9a8957c23a50c2ae1068c4ebbdf5fec0"
+  },
+  {
+    "path": "reports/customer-agent-entry-source/customer-agent-entry/illustrated-story.json",
+    "sha": "550ebee3c85cba65d5eda5275a2a50fb3d7ce184"
+  },
+  {
+    "path": "reports/food-waste-measurement-source/food-waste-measurement/article-entry.json",
+    "sha": "bc04c28288af27bdb73c1ac1330050dff61ce7bb"
+  },
+  {
+    "path": "reports/food-waste-measurement-source/food-waste-measurement/article-reviewed-data.json",
+    "sha": "e5aa29ae1e0ae2c93ddacaed965a4f662a2ccb3f"
+  },
+  {
+    "path": "reports/food-waste-measurement-source/food-waste-measurement/illustrated-story.json",
+    "sha": "b7a3e371e71a2f52b8cbc4d74b840ca8e5c237cb"
+  }
+]
+

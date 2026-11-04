@@ -10,7 +10,7 @@ assert hashlib.sha256(a['body'].encode()).hexdigest()==sha
 assert (p/'note.md').read_text()==a['body']
 assert a['firstGit']=='49bce5efc9fbf2d69d9fd922480f7690d07eae1f'
 assert a['publishedAt']==a['updatedAt']=='2026-11-03T18:00:26Z'
-assert a['topics']==['business-model'] and d['buildStatus']=='paused'
+assert a['topics']==['business-model'] and d['buildStatus']=='complete'
 assert a['id']==s['id']=='research-2026-11-03-order-cancellation-note'
 assert len(s['sections'])==4 and len(s['sources'])==3 and len(d['queries'])==2
 for sec in s['sections']:
@@ -38,4 +38,4 @@ for f in p.rglob('*'):
  if f.is_file() and f.suffix in ['.jsx','.css','.json','.md']:
   assert not re.search(pattern,f.read_text()),f
   scanned+=1
-print(json.dumps({'status':'source-static-checks-passed','bodySHA256':sha,'sections':4,'diagrams':2,'queries':2,'sources':3,'scannedFiles':scanned,'build':'not-run-missing-official-helper','html':'not-produced','visual':'not-run','formalCompletedCount':40,'formalAIcount':25},ensure_ascii=False,indent=2))
+print(json.dumps({'status':'source-static-checks-passed','bodySHA256':sha,'sections':4,'diagrams':2,'queries':2,'sources':3,'scannedFiles':scanned,'build':'verify separately with official helper','html':'verify final export separately','visual':'not-run','productionArticleCount':41,'aiArticleCount':25},ensure_ascii=False,indent=2))
