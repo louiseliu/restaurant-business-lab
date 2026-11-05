@@ -1,0 +1,16 @@
+{
+  "checks": {
+    "conditional_title": true,
+    "conditional_tool": true,
+    "news_heading": true,
+    "uncertain_relationship": true,
+    "article21": true,
+    "article12": true,
+    "article15": true,
+    "no_false_proof_phrase": true,
+    "private_paths_absent": true
+  },
+  "article_sha256": "92643fbe8398708fcb2d24b844fbe6f5728b4ce07bff414341da1e83dce99d3a",
+  "sources_sha256": "95e7d31a414ac10add6f7f6ce657ed4f90903e7895962daa7e6164a4f6d1a476",
+  "scope": "Text replacement and source-condition check, not merchant operation or effectiveness validation."
+}
