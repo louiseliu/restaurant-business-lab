@@ -1,0 +1,9 @@
+{
+  "desktopVisual": "not performed",
+  "browserInteraction": "not performed",
+  "mobile": "not performed",
+  "print": "not performed",
+  "trueOffline": "not performed",
+  "publication": "not attempted",
+  "scope": "Official build and static checks completed; do not imply visual, browser, download-click, or live site validation."
+}

@@ -1,0 +1,161 @@
+{
+  "surface": "report",
+  "title": "生日券已经自动发，小店还该为什么购买AI会员营销？",
+  "generatedAt": "2026-11-05T15:20:09Z",
+  "status": "reviewed",
+  "buildStatus": "creating",
+  "exportPreferences": {
+    "selected": null,
+    "destinations": []
+  },
+  "filters": [],
+  "report": {
+    "asOf": "2026-11-05"
+  },
+  "queries": {
+    "diagram-research-2026-11-05-membership-marketing-note": {
+      "rows": [
+        {
+          "决定": "普通CRM生日规则",
+          "承担的工作": "按生日人群与时间，配置通知、优惠券和积分发放。",
+          "产品条件": "2024年教程说明已有自动化能力；须核对本店现有版本，不保证所有当前套餐包含。",
+          "采购含义": "先看现有规则是否已够用；自动发祝福和发券不能单独证明AI增量。"
+        },
+        {
+          "决定": "智能生日营销",
+          "承担的工作": "生日专项能力，与意向客户托管分列；不直接套用托管的选券及短信限制。",
+          "产品条件": "企助专业版、SCRM版或CRM配套；商城不支持微商城，门店旗舰/至尊包含，连锁旗舰/至尊包含、专业可增购。",
+          "采购含义": "同时核对企助、商城版本与能力开通初始化；不能仅凭一个菜单判断已购买可用。"
+        },
+        {
+          "决定": "意向客户托管",
+          "承担的工作": "按顾客资料、权益和交易情况选策略、生成内容并触达；生日只是其中一个场景。",
+          "产品条件": "企助SCRM版或CRM配套；商城侧微商城、门店或连锁的旗舰/至尊版。列表可见不等于已买到托管。",
+          "采购含义": "选券与短信问答针对这一产品；若主要用不上广泛托管能力，不能以整套清单证明生日升级划算。"
+        }
+      ],
+      "source": {
+        "label": "先分清三种能力，再核对本店新增什么",
+        "files": [
+          "research/2026-11-05-membership-marketing/note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "产品边界与采购判断",
+            "definition": "普通规则、智能生日营销与意向客户托管分别比较。版本条件依据2026年3月公告，不是当前报价；能力存在不等于本店可用。 图1｜作者依据同厂商公开材料整理的产品边界，不是独立效果实验、产品实测或现行账号权限保证。",
+            "componentIds": [
+              "diagram-research-2026-11-05-membership-marketing-note"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "有赞ConnieHe案例",
+            "detail": "https://www.youzan.com/anli/76507"
+          },
+          {
+            "title": "生日营销使用教程",
+            "detail": "https://help.youzan.com/displaylist/detail_44_44-2-79734"
+          },
+          {
+            "title": "意向客户托管教程",
+            "detail": "https://help.youzan.com/displaylist/detail_4_4-2-266553"
+          },
+          {
+            "title": "2026年版本调整公告",
+            "detail": "https://www.youzan.com/blog/articles/76066"
+          },
+          {
+            "title": "优惠券选择范围说明",
+            "detail": "https://help.youzan.com/displaylist/detail_4_4-1-283098"
+          },
+          {
+            "title": "短信长度说明",
+            "detail": "https://help.youzan.com/displaylist/detail_4_4-1-283097"
+          },
+          {
+            "title": "作者研究分析",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/24d9ca5b470ba665628923ed01bf2a5ca4e28235/research/2026-11-05-membership-marketing/note.md"
+          }
+        ],
+        "caveats": [
+          "ConnieHe案例同时补信息、做策划和触达，没有成熟规则对照。不能把整体升级的变化归因给AI，也不能把案例直接映射为某个SKU或全包价格。",
+          "图1｜作者依据同厂商公开材料整理的产品边界，不是独立效果实验、产品实测或现行账号权限保证。"
+        ]
+      }
+    },
+    "diagram-research-2026-11-05-membership-marketing-note:second": {
+      "rows": [
+        {
+          "决定": "① 现有规则是否留下具体工作？",
+          "继续条件": "关系人和购买场景多，持续整理、策略调整或人工漏记确实占用工作。",
+          "分支与动作": "若只是资料不全或无人执行，先完善记录和责任；若规则已够用，保留现状、不升级。"
+        },
+        {
+          "决定": "② 新增产品是否接过这项工作？",
+          "继续条件": "用本店实际版本演示，并区分一次性策划、后续规则执行与长期托管。",
+          "分支与动作": "核对双版本组合及全部增量费用。大量用不上的升级功能，不构成生日场景的购买理由。"
+        },
+        {
+          "决定": "③ 必要边界能否可靠控制？",
+          "继续条件": "优惠范围、重复触达、纠错、停用和退出能实际操作；只处理适当授权且必要的信息。",
+          "分支与动作": "不能满足必要边界时，保留规则、让AI仅给待审方案；文字提示未经测试不当权限开关。"
+        },
+        {
+          "决定": "④ 有限试用是否值得继续？",
+          "继续条件": "同一时期比较整组合格顾客，含未收到消息或未下单者；核对贡献、实际触达费与总工作。",
+          "分支与动作": "样本不足只支持有限继续观察；减负可持续且值得支付才扩大。优惠或返工吃掉改善，就缩小或停止。"
+        }
+      ],
+      "source": {
+        "label": "从现有规则出发，决定保留、试用还是扩大",
+        "files": [
+          "research/2026-11-05-membership-marketing/note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "产品边界与采购判断",
+            "definition": "以下为作者建议的决策路径，并非已实现经营结果。每一步都允许回到简单规则，不用归因订单或短期券核销替代增量价值。 图2｜原创采购决策示意。没有报价、门店账目、随机试验结果、净利润或回本期估算。",
+            "componentIds": [
+              "diagram-research-2026-11-05-membership-marketing-note:second"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "有赞ConnieHe案例",
+            "detail": "https://www.youzan.com/anli/76507"
+          },
+          {
+            "title": "生日营销使用教程",
+            "detail": "https://help.youzan.com/displaylist/detail_44_44-2-79734"
+          },
+          {
+            "title": "意向客户托管教程",
+            "detail": "https://help.youzan.com/displaylist/detail_4_4-2-266553"
+          },
+          {
+            "title": "2026年版本调整公告",
+            "detail": "https://www.youzan.com/blog/articles/76066"
+          },
+          {
+            "title": "优惠券选择范围说明",
+            "detail": "https://help.youzan.com/displaylist/detail_4_4-1-283098"
+          },
+          {
+            "title": "短信长度说明",
+            "detail": "https://help.youzan.com/displaylist/detail_4_4-1-283097"
+          },
+          {
+            "title": "作者研究分析",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/24d9ca5b470ba665628923ed01bf2a5ca4e28235/research/2026-11-05-membership-marketing/note.md"
+          }
+        ],
+        "caveats": [
+          "订单贡献以实际结算起算，扣除尚未计入的相关成本并处理退款，避免重复扣费；再比较增量软件、实施、触达与维护成本。释放时间另记，未减工资或避免招聘时不列现金节省。",
+          "图2｜原创采购决策示意。没有报价、门店账目、随机试验结果、净利润或回本期估算。"
+        ]
+      }
+    }
+  }
+}
