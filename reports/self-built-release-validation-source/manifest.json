@@ -1,0 +1,132 @@
+{
+  "articleId": "research-2026-11-05-self-built-release-validation-note",
+  "noteCommit": "b71e07c156aeec9fc38e2c4fb411754a9737c467",
+  "scope": "Small reproducible source, tests and verification only. No HTML, built bundles, credentials or private attachment identifiers.",
+  "files": [
+    {
+      "path": "BUILD.md",
+      "bytes": 7168,
+      "sha256": "bab85774bc40489fd539c164bf67704dd6d935ecee965ca232560b7cc5dd80a8"
+    },
+    {
+      "path": "ReleaseValidationDiagrams.jsx",
+      "bytes": 2023,
+      "sha256": "9816a1e59e6650eef2180a599dbe53ce9f972e0097494de95d02024001e398a2"
+    },
+    {
+      "path": "article-entry.json",
+      "bytes": 11207,
+      "sha256": "27ebcea074fc66f79f2795c7d0f4e8256434abdf62120a2ce72fd810406feb91"
+    },
+    {
+      "path": "article-reviewed-data.json",
+      "bytes": 9072,
+      "sha256": "e6d0d5d3d466d461a86efbb6c0c61580810726e94fc77bd7f79a473bddbac265"
+    },
+    {
+      "path": "baseline-verification.json",
+      "bytes": 689,
+      "sha256": "1e44d987514157efaf14b391383ead5d613b4371738cf528621617042a74ac73"
+    },
+    {
+      "path": "baseline46-sha256.json",
+      "bytes": 31906,
+      "sha256": "5a830052cbf93d14ef5c5e98faa11ea88100a6bf1ef629b01a3a4a39a2d934a3"
+    },
+    {
+      "path": "build-qa.json",
+      "bytes": 1686,
+      "sha256": "6c5a0f3869d94d9e20a00f79333bbd068e33125b4f4e9d04d20ef5347de5f4e4"
+    },
+    {
+      "path": "delivery-receipt.json",
+      "bytes": 797,
+      "sha256": "7322522d60c4d9027391627fa091b0bfbcd6e15027634c60853d811d6a13d4b6"
+    },
+    {
+      "path": "frozen.json",
+      "bytes": 173,
+      "sha256": "88ffffe7d6da3cb0d514254983c77f057a28bc9cb610072923527e2548a43f19"
+    },
+    {
+      "path": "illustrated-story.json",
+      "bytes": 18113,
+      "sha256": "14a6348aa7ad156f96fb4656f97088066fcb4d1fbf51f49a044a44ec7add5cdf"
+    },
+    {
+      "path": "independent-qa.json",
+      "bytes": 4239,
+      "sha256": "9d61e042e4c535105a84b2fa84c2a657cec9008dc5363b81332994c07a36ec13"
+    },
+    {
+      "path": "integrate47.py",
+      "bytes": 3244,
+      "sha256": "75ace52a99d66ab47fd2da1d11675a155f2587e410f1b35a8ee81d26135903d9"
+    },
+    {
+      "path": "make_article.py",
+      "bytes": 9606,
+      "sha256": "092cfacf1acaba4c30089624a4f8a7d32b7f48b07a5098f224d255a7c63b45b3"
+    },
+    {
+      "path": "prepare_standalone.py",
+      "bytes": 2185,
+      "sha256": "363515268c4af5a2432749308854f46b9dc8f06f60e5ad48c570cc7d44859035"
+    },
+    {
+      "path": "release-source-previews.json",
+      "bytes": 3849,
+      "sha256": "d978379a294ae2f7c2a1f3194cbca84073896af31439220a621ecb3636dc2cd3"
+    },
+    {
+      "path": "release-validation-diagrams.css",
+      "bytes": 3813,
+      "sha256": "cc415a28835ebe05310191acbd7b5a52dc41f776944ac838c19ebaafe5c50cc1"
+    },
+    {
+      "path": "shared/IllustratedArticle.jsx",
+      "bytes": 9448,
+      "sha256": "9cbce5e9d65c4599e53c9818fac6a6c1596046c824aa369680e0eb8c9d7f11c7"
+    },
+    {
+      "path": "shared/ReportContent.jsx",
+      "bytes": 703,
+      "sha256": "ae9d8787ad6b9d15c57aead3b72f48d0b487e2b52a42a6e75a4f6b8fda126a69"
+    },
+    {
+      "path": "shared/illustrated.css",
+      "bytes": 10060,
+      "sha256": "a15fbe5f09e241738ffffa683f3e7d9ba535ff943cecb8f7e250e1449209f928"
+    },
+    {
+      "path": "shared/timeline.css",
+      "bytes": 7346,
+      "sha256": "b867d64e25125a71868940d4da6fe6bc2569f1b719ceefaed0b92e6baf0a4fee"
+    },
+    {
+      "path": "standalone-prepared-sha256.json",
+      "bytes": 27380,
+      "sha256": "1e2684b0d48721bfe16324fe8b17cbbbf9b1eb2fc16370d3bdb19eb92ba1c69a"
+    },
+    {
+      "path": "technical-review.json",
+      "bytes": 2153,
+      "sha256": "e4a0f6fb6310921c169a74cad9d4039b545903ee1102fede10af9ac7e89229f1"
+    },
+    {
+      "path": "test_merge_guard.py",
+      "bytes": 2454,
+      "sha256": "f600038fd6b1f26b77de625bac44926cdf912db7103fbf2797635e99a4c8aa5d"
+    },
+    {
+      "path": "test_preservation.py",
+      "bytes": 8497,
+      "sha256": "90c7262cb4b7e8dc1d806948446a914aef7661644b000d4b6da252403543873e"
+    },
+    {
+      "path": "test_reader_routes.mjs",
+      "bytes": 2294,
+      "sha256": "cb9d5d4d147b17ba551e0902443284e328e140392dbd3471c67061925c40fd24"
+    }
+  ]
+}

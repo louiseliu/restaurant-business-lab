@@ -1,0 +1,19 @@
+{
+  "articleId": "research-2026-11-05-self-built-release-validation-note",
+  "attachmentSendAcceptedMinuteUtc": "2026-11-05 09:32",
+  "deliveryLimit": "An accepted send is not proof that the recipient opened or downloaded the file.",
+  "standalone": {
+    "bytes": 2940583,
+    "sha256": "ed49410b37ed2a075927279f66d4cf127578f51c2c8223f37adc8265ac810ee9"
+  },
+  "portal": {
+    "bytes": 13115020,
+    "sha256": "6db488fcbc9bcab227b9da78f763c3f1a2dd23d2818fc71993ffbdb986a2f7f5",
+    "delivery": "Local complete artifact only; not published."
+  },
+  "verification": "Source and static checks passed; desktop visual and interaction checks incomplete; mobile not tested.",
+  "liveSiteTouched": false,
+  "sharingChanged": false,
+  "largeHtmlGitArchive": false,
+  "privateIdentifiersIncluded": false
+}

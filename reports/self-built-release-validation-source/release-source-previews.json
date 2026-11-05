@@ -1,0 +1,50 @@
+{
+  "https://github.com/lofty14/restaurant-digitalization-blueprint/blob/e1df960b1f09cd478e24564c7f698773d32d3050/README.md": {
+    "title": "项目README",
+    "summary": "公开仓库自称原串技术团队并描述AI自建系统；未提供产品源码和真实经营数据。主体、部署范围及经营效果未经本研究独立确认。",
+    "source": "同一项目公开自述；固定提交 e1df960b",
+    "approvedForReport": true
+  },
+  "https://github.com/lofty14/restaurant-digitalization-blueprint/blob/e1df960b1f09cd478e24564c7f698773d32d3050/04-ai-engineering/ai-review-discipline.md": {
+    "title": "AI产出的质量纪律",
+    "summary": "同一项目作者描述鉴权修改漏测门店独立登录态、正常用户受阻。这里是失败自述，没有事故日志、时长或损失核验。",
+    "source": "同一项目公开自述；固定提交 e1df960b",
+    "approvedForReport": true
+  },
+  "https://github.com/lofty14/restaurant-digitalization-blueprint/blob/e1df960b1f09cd478e24564c7f698773d32d3050/01-architecture/deployment.md": {
+    "title": "部署链路",
+    "summary": "同一项目作者描述旧构建覆盖新版入口，以及构建、发布和线上生效的区别。版本防回退当时只告警，不能写成已经强制阻断。",
+    "source": "同一项目公开自述；固定提交 e1df960b",
+    "approvedForReport": true
+  },
+  "https://github.com/lofty14/restaurant-digitalization-blueprint/blob/e1df960b1f09cd478e24564c7f698773d32d3050/04-ai-engineering/bots-architecture.md": {
+    "title": "机器人体系",
+    "summary": "同一文档并置人工审批流程与限定免确认例外。新增自动修复路径的首次真实触发仍在观察，不证明成熟无人上线或完整成本。",
+    "source": "同一项目公开自述；固定提交 e1df960b",
+    "approvedForReport": true
+  },
+  "https://github.com/lofty14/restaurant-digitalization-blueprint/blob/e1df960b1f09cd478e24564c7f698773d32d3050/01-architecture/deployment.md#管理端前端dist-叠加--cdn-边缘缓存--防回退闸": {
+    "title": "部署链路",
+    "summary": "同一项目作者描述旧构建覆盖新版入口，以及构建、发布和线上生效的区别。版本防回退当时只告警，不能写成已经强制阻断。",
+    "source": "同一项目公开自述；固定提交 e1df960b",
+    "approvedForReport": true
+  },
+  "https://github.com/lofty14/restaurant-digitalization-blueprint/blob/e1df960b1f09cd478e24564c7f698773d32d3050/04-ai-engineering/bots-architecture.md#自动修复测试闸全过才免确认": {
+    "title": "机器人体系",
+    "summary": "同一文档并置人工审批流程与限定免确认例外。新增自动修复路径的首次真实触发仍在观察，不证明成熟无人上线或完整成本。",
+    "source": "同一项目公开自述；固定提交 e1df960b",
+    "approvedForReport": true
+  },
+  "https://github.com/lofty14/restaurant-digitalization-blueprint/blob/e1df960b1f09cd478e24564c7f698773d32d3050/README.md#常见问答": {
+    "title": "项目README",
+    "summary": "公开仓库自称原串技术团队并描述AI自建系统；未提供产品源码和真实经营数据。主体、部署范围及经营效果未经本研究独立确认。",
+    "source": "同一项目公开自述；固定提交 e1df960b",
+    "approvedForReport": true
+  },
+  "https://github.com/lofty14/restaurant-digitalization-blueprint/blob/e1df960b1f09cd478e24564c7f698773d32d3050/04-ai-engineering/bots-architecture.md#成本感受": {
+    "title": "机器人体系",
+    "summary": "同一文档并置人工审批流程与限定免确认例外。新增自动修复路径的首次真实触发仍在观察，不证明成熟无人上线或完整成本。",
+    "source": "同一项目公开自述；固定提交 e1df960b",
+    "approvedForReport": true
+  }
+}

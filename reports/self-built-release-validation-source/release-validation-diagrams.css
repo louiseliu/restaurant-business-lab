@@ -1,0 +1,27 @@
+.release-validation { margin:0; padding:22px 0 8px; color:var(--text); }
+.release-validation .release-stages { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:16px; margin:24px 0; }
+.release-validation .release-stage { border:1px solid var(--border); border-radius:15px; overflow:hidden; background:var(--surface); }
+.release-validation .release-stage header { display:flex; gap:12px; padding:18px; border-bottom:1px solid var(--border); align-items:flex-start; }
+.release-validation .release-index { color:var(--secondary); font-size:13px; font-weight:700; padding-top:3px; }
+.release-validation .release-tag { color:var(--secondary); font-size:12px; line-height:1.6; margin:0 0 5px; }
+.release-validation h3 { font-size:18px; line-height:1.5; margin:0; }
+.release-validation .release-cells { display:grid; gap:17px; padding:18px; }
+.release-validation h4 { margin:0 0 6px; font-size:12px; letter-spacing:.02em; color:var(--secondary); }
+.release-validation .release-cell p { margin:0; font-size:14px; line-height:1.85; overflow-wrap:anywhere; }
+.release-validation.release-chain .release-stages { grid-template-columns:1fr; }
+.release-validation.release-chain .release-stage { display:grid; grid-template-columns:minmax(170px,1fr) minmax(0,3fr); }
+.release-validation.release-chain .release-stage header { border-bottom:0; border-right:1px solid var(--border); }
+.release-validation.release-chain .release-cells { grid-template-columns:repeat(2,minmax(0,1fr)); }
+@media(max-width:760px){ .release-validation .release-stages, .release-validation.release-chain .release-stage, .release-validation.release-chain .release-cells { grid-template-columns:1fr; } .release-validation.release-chain .release-stage header { border-right:0; border-bottom:1px solid var(--border); } }
+.release-validation .release-table-wrap { margin:22px 0; overflow-x:auto; }
+.release-validation .release-table { width:100%; border-collapse:collapse; table-layout:fixed; font-size:14px; line-height:1.8; }
+.release-validation .release-table th, .release-validation .release-table td { text-align:left; vertical-align:top; padding:16px 13px; border-bottom:1px solid var(--border); overflow-wrap:anywhere; }
+.release-validation .release-table thead th { font-size:12px; color:var(--secondary); background:var(--surface); }
+.release-validation .release-table tbody th { font-weight:650; }
+.release-validation .release-table small { display:block; font-weight:400; color:var(--secondary); font-size:11px; margin-top:7px; }
+.release-validation .release-cases { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:16px; margin:24px 0 16px; }
+.release-validation.release-chain .release-cases .release-stage { display:block; }
+.release-validation.release-chain .release-cases .release-stage header { border-right:0; border-bottom:1px solid var(--border); }
+.release-validation.release-chain .release-cases .release-cells { grid-template-columns:1fr; }
+.release-validation .release-completion { padding:16px 0; border-top:2px solid var(--border); font-weight:600; }
+@media(max-width:760px){ .release-validation .release-cases { grid-template-columns:1fr; } .release-validation .release-table, .release-validation .release-table tbody, .release-validation .release-table tr, .release-validation .release-table th, .release-validation .release-table td { display:block; width:100%; box-sizing:border-box; } .release-validation .release-table thead { display:none; } .release-validation .release-table tbody tr { border:1px solid var(--border); border-radius:12px; margin:14px 0; overflow:hidden; } .release-validation .release-table td::before { content:attr(data-label); display:block; font-size:11px; color:var(--secondary); margin-bottom:4px; } .release-validation .release-table td:last-child { border-bottom:0; } }

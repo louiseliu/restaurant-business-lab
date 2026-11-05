@@ -1,0 +1,39 @@
+{
+  "status": "Ready within static technical scope; rendered verification excluded",
+  "materialFindings": [],
+  "reviewed": [
+    "Frozen original and five-section illustrated narrative, both diagrams and source metadata",
+    "Repository AGENTS, Skill, editorial standard, README and current state; Data App Contract",
+    "Final official manifests and snapshots; exact two query bindings; final HTML identifier scan",
+    "Independent preservation comparison: 46 stories, 66 originals, 95 existing queries unchanged",
+    "Executed merge guard: synthetic user edits preserved; repeated/id/query/count conflicts refused before writes",
+    "Executed reader route helper tests: 47/67/2 counts, AI30, URL round trip and chronology"
+  ],
+  "artifacts": {
+    "standalone": {
+      "htmlSha256": "ed49410b37ed2a075927279f66d4cf127578f51c2c8223f37adc8265ac810ee9",
+      "manifestAndSnapshot": "pass",
+      "buildStatus": "complete",
+      "queryBindings": "pass",
+      "privateIdentifierScan": "pass"
+    },
+    "portal47": {
+      "htmlSha256": "6db488fcbc9bcab227b9da78f763c3f1a2dd23d2818fc71993ffbdb986a2f7f5",
+      "manifestAndSnapshot": "pass",
+      "buildStatus": "complete",
+      "queryBindings": "pass",
+      "privateIdentifierScan": "pass"
+    }
+  },
+  "evidenceLimits": [
+    "Four public pages are one project self-report; no independent identity, production or financial validation.",
+    "Figure 1 is synthetic with scoped headquarters authorization; figure 2 separates authentication and stale-build incidents.",
+    "S4 is warning-only; automatic-repair first real trigger remains under observation.",
+    "Preservation applies to readable reconstructed baseline, not unarchived historical edits."
+  ],
+  "notPerformed": [
+    "Browser or visual verification, responsive layout, source-sidebar interaction, history/scroll UI, live site access, publication, attachment upload",
+    "Fresh remote-source fetch; local frozen note and provenance record reviewed"
+  ],
+  "testNote": "An initial snapshot comparison overlapped author finalization; after author confirmed final artifacts, both manifests and full snapshots match exactly."
+}

@@ -1,0 +1,89 @@
+{
+  "status": "static-and-source-checks-passed; visual-and-interaction-checks-incomplete",
+  "frozenArticle": {
+    "commit": "b71e07c156aeec9fc38e2c4fb411754a9737c467",
+    "firstCommittedAt": "2026-11-05T09:22:16Z",
+    "remoteBodyExact": true,
+    "bodySha256": "5821c7ca3cc6fccc65b1617e51085abde27687170e6c2cedbc151c9b850bbef9"
+  },
+  "sourceReview": {
+    "repository": "lofty14/restaurant-digitalization-blueprint",
+    "commit": "e1df960b1f09cd478e24564c7f698773d32d3050",
+    "commitTime": "2026-10-09T14:35:16Z",
+    "filesIndependentlyRead": 4,
+    "blobShas": [
+      "2697f3936b30bffd405f16eeed8980589f71f74f",
+      "a96fb7bbdd09d08902d13fe2baa234adb90e6433",
+      "21617a4f7b607a83a7ac979d65a66eb3b2fb00b2",
+      "b2f53bd991c23686f26305a8accac0e10ca624cc"
+    ],
+    "findings": [
+      "Authentication rejection and old frontend build overwrite remain distinct reported incidents.",
+      "Identity and deployment are explicitly unverified project claims. Four pages are one source chain, not four independent corroborations.",
+      "Limited automatic repair is marked newly launched, with its first real trigger still under observation.",
+      "Frontend anti-regression mechanism is explicitly alert-only at the fixed source version.",
+      "No source performance, employee-replacement, ROI, loss or fixed-price claims were adopted as verified facts."
+    ]
+  },
+  "illustrations": {
+    "count": 2,
+    "status": "Original author research schematics, not product screenshots or executed tests.",
+    "matrixRows": 4,
+    "releaseChainRows": 4,
+    "separateIncidentCards": 2,
+    "reviewedQueryLinks": "exact",
+    "syntheticDataBoundary": true
+  },
+  "standalone": {
+    "fullOriginals": 1,
+    "illustratedStories": 1,
+    "reviewedQueries": 2,
+    "buildStatus": "complete",
+    "bytes": 2940583,
+    "sha256": "ed49410b37ed2a075927279f66d4cf127578f51c2c8223f37adc8265ac810ee9",
+    "compiledData": "exact reviewed source",
+    "manifest": "HTML and snapshot hashes and sizes verified",
+    "privateDataScan": "Authored content and compiled data have no workspace paths, private thread links, Library/project IDs or common credential signatures. No network asset dependencies; runtime is embedded in a data URL. Decoded protected runtime contains a generic Codex thread-link template, not a concrete private thread ID.",
+    "protectedRuntime": "Verifier passed, 240 protected files; 241 prepared baseline files unchanged."
+  },
+  "portalPreservation": {
+    "fullOriginals": 67,
+    "illustratedStories": 47,
+    "samples": 2,
+    "aiArticles": 30,
+    "reviewedQueries": 97,
+    "unchangedBaselineFiles": 291,
+    "priorArticleBodiesMetadataStoriesQueries": "retained exactly from readable baseline46",
+    "embeddedSampleDownloads": 5,
+    "embeddedZipContainers": 2,
+    "priorInventoryThirdDiagram": "retained",
+    "mergeGuard": "Preserves existing body, story and query edits. Duplicate identity/query/count conflicts and repeated integration refuse before writes.",
+    "routes": "Static parser and URL state round trip passed. Browser history and scroll were not tested.",
+    "baselineLimitation": "Preserves supplied readable reconstructed baseline; does not prove recovery of missing historical edits."
+  },
+  "browserQA": {
+    "desktopVisual": "not completed",
+    "desktopInteraction": "not completed",
+    "attempts": [
+      "Official cloud browser rejected the offline file protocol before navigation.",
+      "Official standalone/dist local HTTP preview server started, but cloud browser connection returned ERR_CONNECTION_REFUSED."
+    ],
+    "restrictionHandling": "Stopped without using alternate browser technology, tunneling, weakened policy, or restricted destination retries.",
+    "mobile": "not tested",
+    "notClaimed": [
+      "rendered diagram layout",
+      "text contrast in both themes",
+      "source panel interaction",
+      "toc and full-original expansion",
+      "print/export interaction",
+      "browser history or scroll restoration"
+    ]
+  },
+  "deliveryScope": {
+    "preparedFile": "self-built-release-validation.html",
+    "livePublication": false,
+    "oldAttachmentsChanged": false,
+    "existingSiteAccessAttempted": false,
+    "largeHtmlGitCommit": false
+  }
+}
