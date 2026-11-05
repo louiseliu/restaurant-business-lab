@@ -1,0 +1,26 @@
+{
+  "https://arxiv.org/html/2607.00420v2#S3.SS3": {
+    "title": "预印本§3.3｜随机分组与权限安排",
+    "summary": "丰宜智能售货业务的553名全职补货员随机分组，试验始于2023年5月4日、持续46天。有限组每机每次最多下调两个SKU种类，不是下调件数；仍可上调并保留仓库缺货等运营例外。",
+    "source": "企业合作预印本 arXiv v2，2026-10-17修订",
+    "approvedForReport": true
+  },
+  "https://arxiv.org/html/2607.00420v2#S4": {
+    "title": "预印本§4、表2｜库存与销量结果",
+    "summary": "相对禁止组，两种允许下调的政策库存均显著下降；自由组销量显著下降，有限组销量变化未达显著。后者不等于销售无损，显著性不同也不证明两政策彼此差异显著。",
+    "source": "同一预印本表2；非餐饮实测或独立第三方验证",
+    "approvedForReport": true
+  },
+  "https://arxiv.org/abs/2607.00420": {
+    "title": "arXiv版本入口｜v2与修订日期",
+    "summary": "当前研究采用v2预印本，修订日期为2026年10月17日。版本状态不等于正式发表确认。",
+    "source": "arXiv版本记录，2026-11-05核验",
+    "approvedForReport": true
+  },
+  "https://minda-zhao.github.io/Personal-Website/": {
+    "title": "作者官网｜当前发表状态线索",
+    "summary": "作者官网将本文列为预印本，标注在Manufacturing & Service Operations Management大修中。本轮未核验到正式发表版；不能写成从未接受同行评议。",
+    "source": "作者官网状态线索，2026-11-05核验",
+    "approvedForReport": true
+  }
+}

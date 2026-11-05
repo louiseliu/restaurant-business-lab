@@ -1,0 +1,152 @@
+{
+  "surface": "report",
+  "title": "算法给出订货量，店长该有多大的下调权",
+  "generatedAt": "2026-11-05T10:15:48Z",
+  "status": "reviewed",
+  "buildStatus": "creating",
+  "exportPreferences": {
+    "selected": null,
+    "destinations": []
+  },
+  "filters": [],
+  "report": {
+    "asOf": "2026-11-05"
+  },
+  "queries": {
+    "diagram-research-2026-11-05-replenishment-override-note": {
+      "rows": [
+        {
+          "试验政策": "禁止下调",
+          "可修改范围": "不能下调；仍可上调，保留仓库缺货等业务例外。",
+          "库存结果": "作为比较基准",
+          "销量结果": "作为比较基准",
+          "怎样读": "比较对象不是完全无人工参与。"
+        },
+        {
+          "试验政策": "自由下调",
+          "可修改范围": "可自由下调，不设SKU种类数上限；仍可上调，保留仓库缺货等运营例外。",
+          "库存结果": "相对禁止组，显著下降",
+          "销量结果": "相对禁止组，显著下降",
+          "怎样读": "库存下降不能单独证明经营改善。"
+        },
+        {
+          "试验政策": "有限下调",
+          "可修改范围": "每台机器每次补货，最多下调两个SKU种类；仍可上调，保留仓库缺货等业务例外。",
+          "库存结果": "相对禁止组，显著下降",
+          "销量结果": "相对禁止组，变化未达统计显著",
+          "怎样读": "未达显著不等于证明销售无损。"
+        }
+      ],
+      "source": {
+        "label": "允许下调，降低库存的同时要看销售机会",
+        "files": [
+          "research/2026-11-05-replenishment-override/note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "实验结果方向及餐饮迁移边界",
+            "definition": "企业合作预印本的现场试验：2023年5月4日起，553名全职补货员随机分组，试验46天。下表仅复述论文结果方向与统计判断，没有把系数换算成原始百分比。 图1｜原创证据整理。三组来自同一企业合作预印本，不是三份独立证据；现场为智能售货业务，不能直接转成厨房原料的额度或利润结论。",
+            "componentIds": [
+              "diagram-research-2026-11-05-replenishment-override-note"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "预印本§3.3｜随机分组与权限安排",
+            "detail": "https://arxiv.org/html/2607.00420v2#S3.SS3"
+          },
+          {
+            "title": "预印本§4、表2｜库存与销量结果",
+            "detail": "https://arxiv.org/html/2607.00420v2#S4"
+          },
+          {
+            "title": "arXiv版本入口｜v2与修订日期",
+            "detail": "https://arxiv.org/abs/2607.00420"
+          },
+          {
+            "title": "作者官网｜当前发表状态线索",
+            "detail": "https://minda-zhao.github.io/Personal-Website/"
+          },
+          {
+            "title": "研究分析",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/eb906c52bb81339fc5d7cc707fd44fa3c3a7790c/research/2026-11-05-replenishment-override/note.md"
+          }
+        ],
+        "caveats": [
+          "“两个”约束可改的商品种类数，不约束每种少补多少件。两组的显著性不同，也不等于两种政策彼此差异显著。",
+          "图1｜原创证据整理。三组来自同一企业合作预印本，不是三份独立证据；现场为智能售货业务，不能直接转成厨房原料的额度或利润结论。"
+        ]
+      }
+    },
+    "diagram-research-2026-11-05-replenishment-override-note:second": {
+      "rows": [
+        {
+          "判断环节": "先辨认修改理由",
+          "要留下什么": "算法原建议、实际执行量、修改理由；新增预订变化是否可核对。",
+          "继续的条件": "有系统之外的有效信息，值得纳入判断。",
+          "收窄或修复": "多数调整都修补同一错误，先回到数据维护。"
+        },
+        {
+          "判断环节": "沿共享原料找影响",
+          "要留下什么": "受影响菜品、主打菜、已接预订与堂食/外卖/套餐。",
+          "继续的条件": "影响范围可辨认，改后可供份数可核对。",
+          "收窄或修复": "无法看清断供范围，先不扩大自动执行。"
+        },
+        {
+          "判断环节": "把补救负担算进去",
+          "要留下什么": "报损、紧急采购、额外复核；停售开始与恢复、替代选择。",
+          "继续的条件": "库存压力缓解，停售和补货负担没有出现需处理的恶化。",
+          "收窄或修复": "主打菜可售时间缩短，或临时采购反复增加。"
+        },
+        {
+          "判断环节": "按预先约定决定去留",
+          "要留下什么": "完整补货周期的记录；促销、停业、改菜单和配送变化另记。",
+          "继续的条件": "保留可比基线，先继续观察而非立刻全店放开。",
+          "收窄或修复": "收回有问题的品项范围，先解决原因。"
+        }
+      ],
+      "source": {
+        "label": "从少订一项，到复核它影响的整段经营",
+        "files": [
+          "research/2026-11-05-replenishment-override/note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "实验结果方向及餐饮迁移边界",
+            "definition": "本文为餐饮构造的分析路径，不是试验企业的实测记录，也不是已经验证的门店规则。名额、下调幅度、异常接管分别处理。 图2｜原创经营分析。未成交需求通常观察不全，停售时间不直接等于确定丢单金额；库存下降也不自动等于原料成本、现金或利润改善。",
+            "componentIds": [
+              "diagram-research-2026-11-05-replenishment-override-note:second"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "预印本§3.3｜随机分组与权限安排",
+            "detail": "https://arxiv.org/html/2607.00420v2#S3.SS3"
+          },
+          {
+            "title": "预印本§4、表2｜库存与销量结果",
+            "detail": "https://arxiv.org/html/2607.00420v2#S4"
+          },
+          {
+            "title": "arXiv版本入口｜v2与修订日期",
+            "detail": "https://arxiv.org/abs/2607.00420"
+          },
+          {
+            "title": "作者官网｜当前发表状态线索",
+            "detail": "https://minda-zhao.github.io/Personal-Website/"
+          },
+          {
+            "title": "研究分析",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/eb906c52bb81339fc5d7cc707fd44fa3c3a7790c/research/2026-11-05-replenishment-override/note.md"
+          }
+        ],
+        "caveats": [
+          "食品安全、已接订单或明确供货异常 → 沿既有责任流程接管，不能因为“名额用完”而强迫照单执行。",
+          "图2｜原创经营分析。未成交需求通常观察不全，停售时间不直接等于确定丢单金额；库存下降也不自动等于原料成本、现金或利润改善。"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "articleId": "research-2026-11-05-replenishment-override-note",
+  "files": {
+    "prepare_standalone.py": {
+      "bytes": 2149,
+      "sha256": "45274e069ce43d14ad5e6e9bcb55a2a53cf4a48029054b4e8e789ff637ce4f5d"
+    },
+    "illustrated-story.json": {
+      "bytes": 15221,
+      "sha256": "ad1532921a7f6a4d1a4d2ea7ff75c96bed5446e06ce2fb75f13c372d69f00f92"
+    },
+    "visual-qa-status.json": {
+      "bytes": 472,
+      "sha256": "3221d7b437dc9f38e72bc6e2ae781d458ceb3b9d0f05fe9be11bf93aaaf662c3"
+    },
+    "baseline47-sha256.json": {
+      "bytes": 31965,
+      "sha256": "78ad7b007a8468ddb3ea99e061fd38647f1be164bb42fb7b7d871a0f01b4dfa4"
+    },
+    "test_reader_routes.mjs": {
+      "bytes": 2287,
+      "sha256": "291c300fc4845e321aba99b2fcebb5f569cbf67be57d1176d35645b1ccba6e4b"
+    },
+    "OverrideDiagrams.jsx": {
+      "bytes": 1261,
+      "sha256": "c2f8ff5879ddba034efa9f52cb4cfe03cea9a99006cde9dc9137c553d2fec79c"
+    },
+    "article-reviewed-data.json": {
+      "bytes": 7366,
+      "sha256": "0753e18811b86d07643b7c84dee92b659b0838744e7b5a492984c4fed3d6e5ea"
+    },
+    "override-source-previews.json": {
+      "bytes": 1642,
+      "sha256": "57ee7ccbddf53f8c29ae858cbd4fb4b5c2620850c61a77f8fdf7e7d6c191f91a"
+    },
+    "standalone-prepared-sha256.json": {
+      "bytes": 27380,
+      "sha256": "bdedca692841a80c35836e352bc0581dd8caef601a036844d94aa89f131b6ded"
+    },
+    "test_merge_guard.py": {
+      "bytes": 2454,
+      "sha256": "bfee5b9427560ab5d0800a345b412a6dc316cab424b3cafc1e75670fe1fa6bad"
+    },
+    "integrate48.py": {
+      "bytes": 2522,
+      "sha256": "fbc8a532fb776efa2b2ffb9e8be36d204f9e8d71095dcd5fd4c91b11ae73c056"
+    },
+    "build-qa.json": {
+      "bytes": 1679,
+      "sha256": "e5c1f7307632bf8babc5703d57cde4de3877af9aa56617e690f50dc8f0396d83"
+    },
+    "BUILD.md": {
+      "bytes": 5292,
+      "sha256": "0f2fafa2fd1a68744cf4431490d63c6dfdd4b4545daeb3f73b1a19d3f66b60aa"
+    },
+    "frozen.json": {
+      "bytes": 160,
+      "sha256": "fc403eaef7383935bcab9c552aa4d1109bdeea5db265544521966b35dc245f3b"
+    },
+    "article-entry.json": {
+      "bytes": 9550,
+      "sha256": "3cdbc6b58a4978f920579d6c936753c40c63c0d7572d435a2666ddec7bfeb690"
+    },
+    "override-diagrams.css": {
+      "bytes": 1098,
+      "sha256": "ad14f6cd52ac95285478504b5377dfcb70b73c96c4e2f76a2f6d16b12d05677d"
+    },
+    "test_preservation.py": {
+      "bytes": 8027,
+      "sha256": "bc54a1b555199f3dea1c505d8961179b3aac3ce14f932f46befb124b11db3fdc"
+    },
+    "make_article.py": {
+      "bytes": 8913,
+      "sha256": "23210a3d3c720714b41189081de0e48799aea247780b864fd9b9edd2c180503b"
+    },
+    "shared/illustrated.css": {
+      "bytes": 10060,
+      "sha256": "a15fbe5f09e241738ffffa683f3e7d9ba535ff943cecb8f7e250e1449209f928"
+    },
+    "shared/ReportContent.jsx": {
+      "bytes": 703,
+      "sha256": "ae9d8787ad6b9d15c57aead3b72f48d0b487e2b52a42a6e75a4f6b8fda126a69"
+    },
+    "shared/IllustratedArticle.jsx": {
+      "bytes": 9427,
+      "sha256": "4a29388bb6a4a938c89c990ef116d5b7f914bfc5cd95b1952e2682c67df19b2b"
+    },
+    "shared/timeline.css": {
+      "bytes": 7346,
+      "sha256": "b867d64e25125a71868940d4da6fe6bc2569f1b719ceefaed0b92e6baf0a4fee"
+    }
+  },
+  "excludes": "Full HTML, dist, private delivery identities and local orchestration paths are not included."
+}

@@ -1,0 +1,10 @@
+{
+  "status": "not_run",
+  "desktopVisual": "not_run",
+  "desktopInteractions": "not_run",
+  "mobile": "not_run",
+  "reason": "No cloud browser tool is available in this worker. Existing local socket and preview restrictions were not bypassed.",
+  "staticChecks": "Official builds, offline export, source/compiled data equality, hashes, old-content preservation, recursive privacy, route logic and merge guards passed.",
+  "publication": false,
+  "accessChanges": false
+}
