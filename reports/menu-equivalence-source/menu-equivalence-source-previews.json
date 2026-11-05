@@ -1,0 +1,38 @@
+{
+  "https://vocus.cc/article/6a0083d7fd89780001622651": {
+    "title": "经营者自述",
+    "summary": "经营者自述熟客无法重复加购肉片，以及调整后再次同步又受限的经历。未经独立重现，不能据此确定接口责任或当前功能。",
+    "source": "2026-11-05公开资料核验；事实范围与限制见正文",
+    "approvedForReport": true
+  },
+  "https://www.4force.com.tw/": {
+    "title": "品牌关系",
+    "summary": "4force将鍋美美食豔室列为旗下火锅品牌；同主体材料用于确认品牌关系，不增加独立效果证据。",
+    "source": "2026-11-05公开资料核验；事实范围与限制见正文",
+    "approvedForReport": true
+  },
+  "https://case.4force.com.tw/": {
+    "title": "同主体案例页",
+    "summary": "同主体案例页记录说明补充及阶段性商业对话封卷；不证明功能修复或原组合恢复。",
+    "source": "2026-11-05公开资料核验；事实范围与限制见正文",
+    "approvedForReport": true
+  },
+  "https://support.ichefpos.com/?p=16450": {
+    "title": "官方整合说明",
+    "summary": "整合概览列明台湾范围、整合菜单覆盖平台原菜单及同一商品内相同选项不可重复选择；不推及所有平台接入方式。",
+    "source": "2026-11-05公开资料核验；事实范围与限制见正文",
+    "approvedForReport": true
+  },
+  "https://support.ichefpos.com/?lang=zh-yue&p=65591": {
+    "title": "官方套餐子项说明",
+    "summary": "套餐子商品可按规则多选及重复选择，并同步到包括Uber Eats的平台；不能等同所有商品加料选项。",
+    "source": "2026-11-05公开资料核验；事实范围与限制见正文",
+    "approvedForReport": true
+  },
+  "https://support.ichefpos.com/?lang=zh-yue&p=36376": {
+    "title": "官方厨房联说明",
+    "summary": "厨房联先设置相同商品显示总数，才出现子项数量选项：全部套餐合计或每份套餐个别数量。集中或分开排列另行选择；不是默认配置适用性证明。",
+    "source": "2026-11-05公开资料核验；事实范围与限制见正文",
+    "approvedForReport": true
+  }
+}

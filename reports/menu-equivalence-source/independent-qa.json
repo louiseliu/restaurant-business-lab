@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "scope": "Independent static review confirmed for the frozen single-article artifact; not a visual or interaction pass.",
+  "standaloneSha256": "caf70c5d44a67696e10f97eaf6a7b77792dad8f001d76407648d7465f832a953",
+  "preArchiveRerun": "Frozen text, source/query consistency, baseline and file preservation, recursive privacy, additive merge refusal and route function tests passed.",
+  "visualScope": "See visual-qa-status.json for the producer's separate limited desktop checks."
+}

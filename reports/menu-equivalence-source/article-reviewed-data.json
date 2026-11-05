@@ -1,0 +1,127 @@
+{
+  "surface": "report",
+  "title": "菜单同步以后，客人还能点到原来的组合吗？",
+  "generatedAt": "2026-11-05T17:08:13Z",
+  "status": "reviewed",
+  "buildStatus": "creating",
+  "exportPreferences": {
+    "selected": null,
+    "destinations": []
+  },
+  "filters": [],
+  "report": {
+    "asOf": "2026-11-05"
+  },
+  "queries": {
+    "diagram-research-2026-11-05-menu-equivalence-note": {
+      "rows": [
+        {
+          "决定": "商品 + 加料选项",
+          "结构示意": "锅物 → 肉片选项 → 希望同一种加两份",
+          "来源支持的边界": "iCHEF整合概览写明：同一商品内不能重复选择相同选项。台湾范围来自该概览。",
+          "待验证的问题": "顾客原有加购数量能否表达？同步是否改变原来可卖的组合？不推及所有Uber Eats接入方式。"
+        },
+        {
+          "决定": "套餐 + 子商品",
+          "结构示意": "套餐 → 可选子商品 → 按套餐规则多选及重复",
+          "来源支持的边界": "套餐子项说明描述子商品可按规则多选及重复，并同步到包括Uber Eats的平台。",
+          "待验证的问题": "能否保留本店原加料的选择上下限、加价及每份归属？套餐能力不能直接证明商品选项已经恢复。"
+        }
+      ],
+      "source": {
+        "label": "看起来都能多选，商品结构却不同",
+        "files": [
+          "research/2026-11-05-menu-equivalence/note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "菜单结构与制作信息的条件比较",
+            "definition": "商品选项与套餐子项的机制比较。以下“锅物、肉片”仅为作者构造示例，不是案例店的真实菜单或迁移方案。 图1｜原创结构示意。经营者自述与供应商功能说明分别使用；没有独立重现、最终迁移结果或经营成效验证。",
+            "componentIds": [
+              "diagram-research-2026-11-05-menu-equivalence-note"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "经营者自述",
+            "detail": "https://vocus.cc/article/6a0083d7fd89780001622651"
+          },
+          {
+            "title": "品牌关系",
+            "detail": "https://www.4force.com.tw/"
+          },
+          {
+            "title": "同主体案例页",
+            "detail": "https://case.4force.com.tw/"
+          },
+          {
+            "title": "官方整合说明",
+            "detail": "https://support.ichefpos.com/?p=16450"
+          },
+          {
+            "title": "官方套餐子项说明",
+            "detail": "https://support.ichefpos.com/?lang=zh-yue&p=65591"
+          },
+          {
+            "title": "官方厨房联说明",
+            "detail": "https://support.ichefpos.com/?lang=zh-yue&p=36376"
+          },
+          {
+            "title": "作者机制分析与模拟验收情景",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/1f2822ac58d20e678aaaa7300724a10dcd3d8c8c/research/2026-11-05-menu-equivalence/note.md"
+          }
+        ],
+        "caveats": [
+          "历史投诉与当前帮助页不能拼成“已经修复”的时间线。只有在实际地区、账号版本和商品结构下演示完整购买与制作过程，才能判断原组合是否保留。",
+          "图1｜原创结构示意。经营者自述与供应商功能说明分别使用；没有独立重现、最终迁移结果或经营成效验证。"
+        ]
+      }
+    },
+    "diagram-research-2026-11-05-menu-equivalence-note:second": {
+      "rows": [
+        {
+          "决定": "全部套餐的子项合计",
+          "输出示意": "两份锅物｜肉片合计：3份",
+          "适合回答": "集中备料岗位要准备多少份肉。",
+          "仍需保留": "装配岗位若只看到合计，仍需其他可靠信息确认哪份锅配两份、哪份配一份。"
+        },
+        {
+          "决定": "每份套餐的子项数量",
+          "输出示意": "第一份锅物 → 肉片2份；第二份锅物 → 肉片1份",
+          "适合回答": "逐份装配岗位如何分配已经准备的肉片。",
+          "仍需保留": "顾客选择、数量与价格记录能对应；名称及打印格式不必逐字相同。"
+        }
+      ],
+      "source": {
+        "label": "同样三份肉，备料合计与逐份装配需要的信息不同",
+        "files": [
+          "research/2026-11-05-menu-equivalence/note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "菜单结构与制作信息的条件比较",
+            "definition": "作者模拟订单：第一份锅物加两份同种肉，第二份锅物加一份；不设售价，不代表案例门店真实订单或曾经发生错单。 图2｜原创信息取舍示意，不是产品界面截图。具体配置与每份归属仍须验收，不保证默认模板适合所有门店，也不证明鍋美美打印错误。",
+            "componentIds": [
+              "diagram-research-2026-11-05-menu-equivalence-note:second"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "官方厨房联说明",
+            "detail": "https://support.ichefpos.com/?lang=zh-yue&p=36376"
+          },
+          {
+            "title": "作者机制分析与模拟验收情景",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/1f2822ac58d20e678aaaa7300724a10dcd3d8c8c/research/2026-11-05-menu-equivalence/note.md"
+          }
+        ],
+        "caveats": [
+          "官方厨房联设置有前提：先将商品数量显示设为“相同商品显示总数”，才出现子项数量设置，选择全部套餐合计或每份套餐个别数量。子项集中/分开排列是另一项选择；不可混为同一开关。",
+          "图2｜原创信息取舍示意，不是产品界面截图。具体配置与每份归属仍须验收，不保证默认模板适合所有门店，也不证明鍋美美打印错误。"
+        ]
+      }
+    }
+  }
+}
