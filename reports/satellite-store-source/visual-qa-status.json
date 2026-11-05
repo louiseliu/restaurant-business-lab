@@ -1,0 +1,23 @@
+{
+  "scope": "Limited desktop inspection of standalone report through supported managed preview",
+  "checked": [
+    "First view and first Git time in Beijing timezone",
+    "Both diagrams; revised second title and first figure note",
+    "Contents expansion and diagram jump",
+    "Diagram 2 source panel overview, three reviewed rows and evidence flow",
+    "Full original expansion",
+    "Return to article start"
+  ],
+  "notChecked": [
+    "Narrow/mobile",
+    "Full portal browser visual and interactions",
+    "Every section screenshot",
+    "Theme and editing persistence",
+    "All download clicks",
+    "Print",
+    "Real offline",
+    "Complete browser error logs"
+  ],
+  "observedIssue": "Inherited narrative renderer displays some ** bold delimiters literally. Text remains readable and complete; protected runtime and existing UI not changed.",
+  "published": false
+}

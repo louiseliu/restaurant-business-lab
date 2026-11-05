@@ -1,0 +1,28 @@
+{
+  "files": {
+    "satellite-store-source-previews.json": "c385caecfb1aa80b4d1b2a36bc7cdde2bb0d6a4af7915601bbe10456f5ddaacc",
+    "prepare_standalone.py": "a7adf7206a422596c085d350c56bcd017ae5fb7f2464a908a74a06a659ff4bc4",
+    "illustrated-story.json": "d6e14323a13567e54b8aba91d3f5ad69a6901adc2e64d5234d7bd657892174ad",
+    "visual-qa-status.json": "b911acf9cc12afb7c243c6dc77cf8ba398bfcddfc1e7ac12bcf86eb8f1797f52",
+    "test_reader_routes.mjs": "1ba9445307bfaf8d3224905f1a7e2a7b674701836aa3be0d7e4edb5bb361f26d",
+    "article-reviewed-data.json": "1c49e8b27948f794e55b728244edc238529b21bdf5bdc3b0781c02bf0f7ac70e",
+    "integrate56.py": "986a2cab27325b7ab737e94ca160e35181b4d2e7c3483c711bbc0ccd6ab08fd0",
+    "standalone-prepared-sha256.json": "e37a5b7c74b03a9ba480e238744336ae1393e5b3c44eac3f704443c1053dd63f",
+    "test_merge_guard.py": "07212416950cdd6b5fb5f72145557a82aa58395eb19fda2f8030b87bd099e414",
+    "build-qa.json": "9dfe993819b5c6b585680221bfd6b3cb1142612bf0d399b8ff5fed7e9081fbb1",
+    "BUILD.md": "9a2007f363354297c99587ff24969311923629aba5fa8ef3ed826ebd489bcca0",
+    "frozen.json": "f4db5b30b9d7c7234d389b9a76edb4a7cb55dad03e9324f2441a60158e69aa79",
+    "article-entry.json": "005275d7c0256cb3299e48f40270fe0d93c119b54f1740aaf466f19de7cd401f",
+    "test_preservation.py": "1fbaeff7a808f1f71125f6060aa6b84124cc9cd2c71b7e598342d2141a39c49d",
+    "baseline-sha256.json": "b4dc5ac2f53e12da5e2d0a8593d3c05b3048b8e6aa4b277aaef174ba8b41e935",
+    "make_article.py": "7e18ded5c1b3cd647742aff159cc9ec52ce82a6c1257981ccd5978298d4faea3",
+    "SatelliteStoreDiagrams.jsx": "3e6d439fb12554e17992d18f923edc6f090981ac98e7295e8bdc402568ccd239",
+    "satellite-store-diagrams.css": "79e084e118a5525bb0607702c646bbb7400b35ff7ba37a600c6f6e9ab168a644",
+    "reviewed-illustration-copy.json": "da9c0e56c9a041a258aa1f2d34a7909830be5c0fc5269c120624a9d6cfe80774",
+    "shared/illustrated.css": "a15fbe5f09e241738ffffa683f3e7d9ba535ff943cecb8f7e250e1449209f928",
+    "shared/ReportContent.jsx": "ae9d8787ad6b9d15c57aead3b72f48d0b487e2b52a42a6e75a4f6b8fda126a69",
+    "shared/IllustratedArticle.jsx": "6965832fd579ccca9738e86a648a8e8edaf34a33d1555bb43681ef7fcd2b57a8",
+    "shared/timeline.css": "b867d64e25125a71868940d4da6fe6bc2569f1b719ceefaed0b92e6baf0a4fee"
+  },
+  "excluded": "Large HTML, ZIP, dist, caches, private runtime metadata"
+}
