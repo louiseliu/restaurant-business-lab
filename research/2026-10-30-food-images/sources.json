@@ -2,7 +2,7 @@
   "title": "AI菜品图的增长，先问和谁比较",
   "artifact_type": "short_case_study_source_manifest",
   "language": "zh-CN",
-  "verified_at": "2026-10-30",
+  "verified_at": "2026-11-05",
   "sources": [
     {
       "id": "S1",
@@ -46,12 +46,56 @@
         "Direct AI-image versus real-photograph comparison",
         "Paid-order, refund, review, retention or net-profit outcomes"
       ]
+    },
+    {
+      "id": "S2",
+      "title": "美团“小店有AI”行动北京首站启动，“AI小管家”已服务超百万中小餐饮商家",
+      "url": "https://www.chinanews.com.cn/cj/2026/06-26/10647834.shtml",
+      "publisher": "中国新闻网",
+      "published_at": "2026-06-26 15:45:47",
+      "event_date": "2026-06-25",
+      "source_type": "Platform promotional event report carrying a named restaurant operator’s self-report",
+      "access_status": "Original public article read on 2026-11-05",
+      "source_limit": "Named business but operator self-report within a platform event; not an independent cost audit. Reprints are the same evidence chain.",
+      "claims_used": [
+        {
+          "claim": "The operator of two Yuanxiang Xiaoguan restaurants in Beijing said he stopped paying additionally for an operating agency after using AI image generation.",
+          "locator": "商家现场反馈 section, paragraphs about 沅湘小馆, original page browser lines 146–147",
+          "evidence_class": "Operator self-report",
+          "do_not_infer": [
+            "All outsourcing tasks were eliminated",
+            "Photography procurement also stopped",
+            "The current product, price or contract terms were verified"
+          ]
+        },
+        {
+          "claim": "The report describes past annual spending of over CNY 60,000 for the combined operating-agency and photography services.",
+          "locator": "Same section, browser line 147",
+          "evidence_class": "Operator-reported prior combined annual expense",
+          "do_not_infer": [
+            "AI delivered over CNY 60,000 in annual net savings",
+            "The figure applies to each individual restaurant",
+            "The old combined expense equals avoidable spending",
+            "The two expense categories can be allocated without additional records"
+          ]
+        }
+      ],
+      "unreported_in_reviewed_article": [
+        "Breakdown of agency and photography spending",
+        "Scope of canceled services and actual payment reductions",
+        "Whether photography purchasing continued",
+        "Post-adoption complete cash costs and observation period",
+        "Tool fees or temporary subsidies",
+        "Internal review, rework and maintenance labor",
+        "Paid orders, refunds or profit changes"
+      ]
     }
   ],
   "author_analysis": [
     "Filling an information gap and demonstrating an AI advantage are distinct hypotheses.",
     "A comparison against missing images does not isolate AI-specific value over real photography.",
-    "Production efficiency and restaurant operating gains should be assessed separately."
+    "Production efficiency and restaurant operating gains should be assessed separately.",
+    "A reported old bundled expense is not an observed AI saving; actual cancellable services, reduced payments and replacement work determine the insourcing decision."
   ],
   "author_recommendations_not_test_results": [
     "Where permitted and technically feasible, compare initially missing images, real photography and AI-assisted editing of the same real dish.",
@@ -59,12 +103,13 @@
     "Prefer concurrent randomized assignment when supported. Nonrandom time comparisons are directional only and require recording possible confounders.",
     "Predefine qualified exposure, an observation window, insufficient-data treatment and a stop condition for image–dish mismatch complaints.",
     "Use consistent exposure, cart, payment and post-purchase outcome definitions across groups, with equal follow-up windows.",
-    "Track production and review labor separately from paid-order economics."
+    "Track production and review labor separately from paid-order economics.",
+    "Compare retaining outsourcing, partial insourcing and full replacement by cancellable contract scope, actual avoided payments, new tool costs and added internal review, updating and rework."
   ],
   "limitations": [
     "No field pilot conducted.",
     "No new sales, profit or statistical estimates calculated.",
-    "Applicability to Chinese restaurants and platforms is unknown.",
+    "The overseas conversion result is not transferable by the added Chinese cost anecdote; the two cases do not establish a combined revenue-and-cost outcome.",
     "Current platform requirements require separate verification; the article makes no legal determination.",
     "No inference is drawn from SSRN 6711039 or unavailable Meituan policy pages."
   ],
@@ -91,5 +136,12 @@
       "Displaying 6–8% as paid-order or net-profit uplift",
       "Using a real-versus-AI visual as proof of relative business performance"
     ]
+  },
+  "verification_scope": "2026-11-05 checked the China News original report for the added outsourcing-cost claim; original InfoQ claims retain their 2026-10-30 review date and were not re-audited in this revision.",
+  "revision": {
+    "date": "2026-11-05",
+    "reason": "Add a named Chinese small-restaurant cost boundary to the same article; no new article and no net-savings estimate.",
+    "first_published_at": "2026-10-30T04:06:26Z",
+    "article_id": "research-2026-10-30-food-images-note"
   }
 }
