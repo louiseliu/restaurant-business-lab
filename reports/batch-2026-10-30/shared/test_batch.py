@@ -8,6 +8,8 @@ for file in entries:
  assert a['id']==s['id'];assert a['publishedAt']=='2026-10-30T04:06:26Z'
  assert hashlib.sha256(a['body'].encode()).hexdigest()==a['originalBodySha256']
  expected='e6f524b36e3efd43e7c7d43ee43439852030412c' if file.parent.name=='voice-receptionist' else 'e7575c5632a6bd4e1fd1752ff4e954fee29f615c'
+ revisions=json.loads((base/'manifest.json').read_text()).get('sourceRevisions',{})
+ if file.parent.name in revisions:expected=revisions[file.parent.name]['sourceCommit']
  assert '/'+expected+'/' in a['sourceUrl']
  for diagram in ['diagram','secondDiagram']:assert len(s[diagram]['nodes'])>=3
  assert len(d['queries'])==2
@@ -21,3 +23,4 @@ with tempfile.TemporaryDirectory() as temp:
  assert (target/'articles.json').read_bytes()==one
  assert len(json.loads(one)['articles'])==3
 print('3 approved entries, original hashes, exact first-commit timestamps, 6 diagrams, independent snapshots and idempotent merge passed')
+

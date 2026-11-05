@@ -1,0 +1,33 @@
+{
+  "articleId": "research-2026-10-30-food-images-note",
+  "checkedAt": "2026-11-05T01:14:09.070478Z",
+  "researchCommit": "b4ea2d293e354aeebfdbb537958627e8928e6aaf",
+  "firstPublishedAt": "2026-10-30T04:06:26Z",
+  "scope": "Small authoring-source revision only; no new article, no HTML build, attachment, full-portal integration or original-site access.",
+  "checks": {
+    "currentBodyEqualsPinnedResearch": true,
+    "currentBodySha256Matches": true,
+    "firstIdAndTimePreserved": true,
+    "originalTwoDiagramsAndQueryIdsPreserved": true,
+    "sourceLinksAndLimitsSynchronized": true,
+    "threeArticleBatchRegression": true,
+    "guardedUpdateOnExpectedPriorContent": true,
+    "idempotentReapplication": true,
+    "unrelatedArticlesAndMetadataPreserved": true,
+    "userEditedBodyStopsWithoutMutation": true,
+    "userEditedMetadataStopsWithoutMutation": true,
+    "userEditedStoryStopsWithoutMutation": true
+  },
+  "notRun": [
+    "Official Data build and offline HTML export",
+    "Desktop/mobile rendering and click checks",
+    "Full-portal integration or regression",
+    "Original-site read, publication or anonymous access checks",
+    "Attachment creation, replacement or sending"
+  ],
+  "historicalHtml": {
+    "path": "research/2026-10-30-food-images/report.html",
+    "blobSha": "02a4d8b2ad885e32a7c87cd261471c246278e913",
+    "status": "Unchanged 2026-10-30 snapshot; not a deliverable of this revision."
+  }
+}

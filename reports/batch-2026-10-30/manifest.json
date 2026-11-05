@@ -3,33 +3,34 @@
   "files": [
     {
       "path": "BUILD.md",
-      "bytes": 4082,
-      "sha256": "f4aaf0bd3c5fbb7041a333bbeb8c8107b01da62d02c5e613817b0a4c66b2eabb",
+      "bytes": 5354,
+      "sha256": "959d5226576fd136bac609bfb2064abf56b1f825dfb1fe0ce5d9da73f005028f",
       "repositoryPath": "reports/batch-2026-10-30/BUILD.md"
     },
     {
       "path": "food-images/article-entry.json",
-      "bytes": 4412,
-      "sha256": "eff6758c333cd10a3ea4d87f9484fd279dbca82177676ce536c84cb2adfe1a1e",
+      "bytes": 5654,
+      "sha256": "72cbe0870929f0a2a6a56ec2ab0c51b0b5e0b00d82f7e721831bb48f0386ecc3",
       "repositoryPath": "reports/batch-2026-10-30/food-images/article-entry.json"
     },
     {
       "path": "food-images/article-reviewed-data.json",
       "bytes": 4300,
-      "sha256": "aa403933bd3edb86710c5e0c6f3264e172ccb866737a4aae16bc2aa3048897fa",
+      "sha256": "c7128100e80aceffee05119f43d38ae3fd9a323eab9377e6636a3dfbdcb623a7",
       "repositoryPath": "reports/batch-2026-10-30/food-images/article-reviewed-data.json"
     },
     {
       "path": "food-images/illustrated-story.json",
-      "bytes": 5068,
-      "sha256": "3e791ab77c68209e02a1ef2c25613eb125f229ae055af6b5c8df17e75d74c3eb",
+      "bytes": 6658,
+      "sha256": "0e85267d99581a15fe23cc183d3f076090ba3202d55538422ffbab9063994995",
       "repositoryPath": "reports/batch-2026-10-30/food-images/illustrated-story.json"
     },
     {
       "path": "food-images/report.html",
       "bytes": 2908526,
       "sha256": "897777c82612a530f765c2e2eba90540bea535c105371b047b83eb22623c8537",
-      "repositoryPath": "research/2026-10-30-food-images/report.html"
+      "repositoryPath": "research/2026-10-30-food-images/report.html",
+      "status": "Historical snapshot from 2026-10-30; does not contain the 2026-11-05 revision."
     },
     {
       "path": "restocking-controls/article-entry.json",
@@ -105,8 +106,8 @@
     },
     {
       "path": "shared/test_batch.py",
-      "bytes": 1751,
-      "sha256": "27612b374ed693d526c21f3960f41ea5e08da6f0f83e979be082b4fbfd78dddc",
+      "bytes": 1923,
+      "sha256": "4bed684ddb99a212e388fecc407fd067fddde291e1d27ffb67679373c57b9c3a",
       "repositoryPath": "reports/batch-2026-10-30/shared/test_batch.py"
     },
     {
@@ -168,11 +169,44 @@
       "bytes": 842,
       "sha256": "7b956860d032d0e43cfeacf4c8651ed8d38826da6d9ad662058adde73a927224",
       "repositoryPath": "reports/batch-2026-10-30/EDITORIAL-UPDATE.md"
+    },
+    {
+      "path": "food-images/update-guard.json",
+      "repositoryPath": "reports/batch-2026-10-30/food-images/update-guard.json",
+      "bytes": 355,
+      "sha256": "bb9c68e393cb7612ea6b256969ef2cb8cef678444a2aca80574371211c2da97b"
+    },
+    {
+      "path": "food-images/REVISION-2026-11-05.md",
+      "repositoryPath": "reports/batch-2026-10-30/food-images/REVISION-2026-11-05.md",
+      "bytes": 2385,
+      "sha256": "bd9c5f24d98c93a19a288acac6658b23964de38445b7f6c5547d63a1648b90f5"
+    },
+    {
+      "path": "food-images/test_revision.py",
+      "repositoryPath": "reports/batch-2026-10-30/food-images/test_revision.py",
+      "bytes": 4734,
+      "sha256": "8d33b23344958c56335b2bec5cf62d751ae928e0799bd197cb1d87259710824f"
+    },
+    {
+      "path": "food-images/qa-2026-11-05.json",
+      "repositoryPath": "reports/batch-2026-10-30/food-images/qa-2026-11-05.json",
+      "bytes": 1430,
+      "sha256": "cdb752a66ac153bb1c9733132ebe780a4b612f5e9f0737fb5a4ee8f5a764b8d6"
     }
   ],
   "editorialRevision": {
     "sourceCommit": "e6f524b36e3efd43e7c7d43ee43439852030412c",
     "scope": "voice-receptionist only; first commit unchanged",
     "updatedAt": "2026-10-30T04:23:39Z"
+  },
+  "sourceRevisions": {
+    "food-images": {
+      "sourceCommit": "b4ea2d293e354aeebfdbb537958627e8928e6aaf",
+      "scope": "food-images only; first ID and publication unchanged",
+      "updatedAt": "2026-11-05T01:11:11Z",
+      "fullHtmlStatus": "Historical 2026-10-30 snapshot unchanged; no revised HTML or attachment produced in this revision.",
+      "portalStatus": "Not integrated or published in this revision."
+    }
   }
 }

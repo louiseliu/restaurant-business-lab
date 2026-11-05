@@ -1,7 +1,7 @@
 {
   "surface": "report",
   "title": "AI菜品图的增长，先问和谁比较",
-  "generatedAt": "2026-10-30T04:07:00Z",
+  "generatedAt": "2026-11-05T01:11:11Z",
   "status": "reviewed",
   "buildStatus": "complete",
   "exportPreferences": {
@@ -44,7 +44,7 @@
         "evidenceFlow": [
           {
             "title": "固定公开研究版本",
-            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/e7575c5632a6bd4e1fd1752ff4e954fee29f615c/research/2026-10-30-food-images/note.md"
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/b4ea2d293e354aeebfdbb537958627e8928e6aaf/research/2026-10-30-food-images/note.md"
           },
           {
             "title": "展示边界",
@@ -89,7 +89,7 @@
         "evidenceFlow": [
           {
             "title": "固定公开研究版本",
-            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/e7575c5632a6bd4e1fd1752ff4e954fee29f615c/research/2026-10-30-food-images/note.md"
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/b4ea2d293e354aeebfdbb537958627e8928e6aaf/research/2026-10-30-food-images/note.md"
           },
           {
             "title": "展示边界",
