@@ -1,0 +1,43 @@
+{
+  "portal52": {
+    "buildStatus": "complete",
+    "fullOriginals": 72,
+    "illustratedStories": 52,
+    "queries": 107,
+    "unchangedBaselineFiles": 303,
+    "privacyTextPayloads": 108,
+    "downloadPayloads": 5,
+    "zipContainers": 2,
+    "compiledContents": "equal reviewed source",
+    "buildManifest": "verified exact HTML/snapshot bytes and hashes",
+    "runtimeSha256": "b1771584910da746d0cf1b967a4889fee226053d841596104b457a04a2dd3d91",
+    "bytes": 13308043,
+    "sha256": "dbd7daf6abca3227f3560c6280a18584ebadf49a845026228f2d056b1ac1c689",
+    "visualQA": "not performed; independent review is static only"
+  },
+  "standalone": {
+    "buildStatus": "complete",
+    "fullOriginals": 1,
+    "illustratedStories": 1,
+    "queries": 2,
+    "unchangedBaselineFiles": 241,
+    "privacyTextPayloads": 14,
+    "downloadPayloads": 0,
+    "zipContainers": 0,
+    "compiledContents": "equal reviewed source",
+    "buildManifest": "verified exact HTML/snapshot bytes and hashes",
+    "runtimeSha256": "b1771584910da746d0cf1b967a4889fee226053d841596104b457a04a2dd3d91",
+    "bytes": 2928619,
+    "sha256": "e35fbbfeb9d2d8b53792b98c97b779541cbe5a2e7c9a232597bec33a348012d8",
+    "visualQA": "not performed; independent review is static only"
+  },
+  "scope": {
+    "articleId": "research-2026-11-05-presto-remote-note",
+    "firstGit": "cd5ebc7cac265ed415be2cad5ee57c28af785a70",
+    "publishedAt": "2026-11-05T14:12:54Z",
+    "bodySha256": "5eff5932ca0191a67dde8f4a752af2f6fe2a4482e2fc509b3e56200df3e083bb",
+    "published": false,
+    "largeHTMLGitArchive": "not attempted",
+    "baselineLimit": "Preserved readable archived 51-story baseline; not proof that missing historical edits were recovered."
+  }
+}
