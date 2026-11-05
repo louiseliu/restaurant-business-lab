@@ -1,0 +1,30 @@
+{
+  "status": "same-id-source-frozen-build-pending",
+  "articleId": "research-2026-11-01-shift-constraints-note",
+  "revisionNoteCommit": "2b466f57a0176f05386b4e0915443e2a28d3b2e8",
+  "revisionNoteSHA256": "7042c61fbb7377d3a37a84b0375cb6d19b814f3440b291c3b7c88506e15c0b89",
+  "firstGit": "daa2e94fd3780500f5d3a7e3291e1a3c1df86743",
+  "firstGitAt": "2026-11-01T14:03:18Z",
+  "updatedAt": "2026-11-05T03:09:32Z",
+  "sourceRoles": [
+    "same-supplier development and customer accounts",
+    "journalist-reported employee self-accounts",
+    "company annual report mechanism disclosure"
+  ],
+  "staticChecks": {
+    "sameIdAndFirstTime": true,
+    "bodySHA256": true,
+    "fourSources": true,
+    "twoDiagramQueryBindings": true,
+    "previousEntryStoryQueriesGuards": true,
+    "privacy": true
+  },
+  "officialBuildVerifiedByThisReceipt": false,
+  "browserQAVerifiedByThisReceipt": false,
+  "attachmentReplacedByThisReceipt": false,
+  "portalIntegratedByThisReceipt": false,
+  "publicSiteAccessed": false,
+  "published": false,
+  "newLargeHTMLBlobs": 0,
+  "historicalReceiptPreserved": true
+}

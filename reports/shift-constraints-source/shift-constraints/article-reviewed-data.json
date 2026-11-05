@@ -1,9 +1,9 @@
 {
   "surface": "report",
   "title": "AI 班表还要改，什么情况下仍值得用？",
-  "generatedAt": "2026-11-01T14:03:18Z",
+  "generatedAt": "2026-11-05T03:09:32Z",
   "status": "reviewed",
-  "buildStatus": "complete",
+  "buildStatus": "pending",
   "exportPreferences": {
     "selected": null,
     "destinations": []
@@ -15,8 +15,12 @@
     "diagram-research-2026-11-01-shift-constraints-note": {
       "rows": [
         {
-          "title": "新信息：可用时段改变",
-          "text": "更新输入后再生成或调整，仍需必要沟通；不把未提前得知的变化直接判为算法错误。"
+          "title": "任务遗漏：人员需求是否算全",
+          "text": "先列必要任务、时段和技能，检查非制作工作如何进入需求；不能重复占用同一人的同一时段。"
+        },
+        {
+          "title": "新信息：临时需求或可用性改变",
+          "text": "核对谁能修改、审批需多久及人员何时确认；预测更新不能代替已落实的调班。"
         },
         {
           "title": "重复问题：同类限制每周重改",
@@ -28,14 +32,14 @@
         }
       ],
       "source": {
-        "label": "建议班表仍要改，先区分修改原因",
+        "label": "班表要修改，先判断少了任务、规则还是调整通道",
         "files": [
           "research/2026-11-01-shift-constraints/note.md"
         ],
         "metricDefinitions": [
           {
             "label": "机制和边界",
-            "definition": "研究建议示意，非MAYOHR产品架构、实际错误分类或效果测量；未验证规则记忆、自动学习或冲突求解能力。 验收同类修改能否减少，而不只是出表按钮有多快。“下次遵守”是核查目标，不暗示产品会自动学习人工改动。",
+            "definition": "研究建议示意，非MAYOHR或瑞幸实际架构、已验证缺陷分类或经营效果；不证明产品会自动学习。 先定位原因再处理：补任务数据、修订规则、打通调整通道或重新决定工作安排。员工采访不证明普遍缺陷或违法，年报不验证同一版本。",
             "componentIds": [
               "diagram-research-2026-11-01-shift-constraints-note"
             ]
@@ -43,12 +47,20 @@
         ],
         "evidenceFlow": [
           {
-            "title": "固定公开研究版本",
-            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/daa2e94fd3780500f5d3a7e3291e1a3c1df86743/research/2026-11-01-shift-constraints/note.md"
+            "title": "固定公开研究修订",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/2b466f57a0176f05386b4e0915443e2a28d3b2e8/research/2026-11-01-shift-constraints/note.md"
           },
           {
             "title": "展示边界",
-            "detail": "研究建议示意，非MAYOHR产品架构、实际错误分类或效果测量；未验证规则记忆、自动学习或冲突求解能力。 验收同类修改能否减少，而不只是出表按钮有多快。“下次遵守”是核查目标，不暗示产品会自动学习人工改动。"
+            "detail": "研究建议示意，非MAYOHR或瑞幸实际架构、已验证缺陷分类或经营效果；不证明产品会自动学习。 先定位原因再处理：补任务数据、修订规则、打通调整通道或重新决定工作安排。员工采访不证明普遍缺陷或违法，年报不验证同一版本。"
+          },
+          {
+            "title": "员工采访：自述不是缺陷鉴定",
+            "detail": "https://www.jiemian.com/article/15256976.html"
+          },
+          {
+            "title": "公司年报：不证同版本",
+            "detail": "https://www.sec.gov/Archives/edgar/data/1767582/000110465926035712/lk-20251231x20f.htm"
           }
         ]
       }
@@ -57,11 +69,11 @@
       "rows": [
         {
           "title": "优先保留固定班表",
-          "text": "人员与岗位需求稳定，旧表大多能直接沿用；系统仍反复要求相同修正时，先改善可用时间收集与分工。"
+          "text": "人员与岗位需求稳定，旧表能覆盖完整任务；系统反复重改或临时调整不能落实时，先修正输入和管理流程。"
         },
         {
           "title": "值得试验建议班表",
-          "text": "多岗位与时段变化频繁，固定表经常连带重排；修正原因能成为可维护规则，并保留主管最终确认。"
+          "text": "多岗位与时段变化频繁，固定表经常重排；任务工时有依据、临时调整可执行、重复修正能减少，并保留主管确认。"
         }
       ],
       "source": {
@@ -72,7 +84,7 @@
         "metricDefinitions": [
           {
             "label": "机制和边界",
-            "definition": "条件判断示意，非收益测算、门店实际分类或软件推荐；台湾共创案例不能外推地区合规与所有客户权益。 共同口径：输入准备＋核对＋纠偏＋发布前确认；同时检查关键岗位覆盖。管理时间与现金支出分开，本次没有价格或回本证据。",
+            "definition": "条件判断示意，非收益测算、门店实际分类或软件推荐；台湾共创案例不能外推地区合规与所有客户权益。 共同验收：任务覆盖＋输入准备、核对、纠偏、审批与人员确认总时间。安排变更与实际到岗分开记录，管理时间与现金支出分开；没有价格或回本证据。",
             "componentIds": [
               "diagram-research-2026-11-01-shift-constraints-note:second"
             ]
@@ -80,12 +92,20 @@
         ],
         "evidenceFlow": [
           {
-            "title": "固定公开研究版本",
-            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/daa2e94fd3780500f5d3a7e3291e1a3c1df86743/research/2026-11-01-shift-constraints/note.md"
+            "title": "固定公开研究修订",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/2b466f57a0176f05386b4e0915443e2a28d3b2e8/research/2026-11-01-shift-constraints/note.md"
           },
           {
             "title": "展示边界",
-            "detail": "条件判断示意，非收益测算、门店实际分类或软件推荐；台湾共创案例不能外推地区合规与所有客户权益。 共同口径：输入准备＋核对＋纠偏＋发布前确认；同时检查关键岗位覆盖。管理时间与现金支出分开，本次没有价格或回本证据。"
+            "detail": "条件判断示意，非收益测算、门店实际分类或软件推荐；台湾共创案例不能外推地区合规与所有客户权益。 共同验收：任务覆盖＋输入准备、核对、纠偏、审批与人员确认总时间。安排变更与实际到岗分开记录，管理时间与现金支出分开；没有价格或回本证据。"
+          },
+          {
+            "title": "员工采访：自述不是缺陷鉴定",
+            "detail": "https://www.jiemian.com/article/15256976.html"
+          },
+          {
+            "title": "公司年报：不证同版本",
+            "detail": "https://www.sec.gov/Archives/edgar/data/1767582/000110465926035712/lk-20251231x20f.htm"
           }
         ]
       }
