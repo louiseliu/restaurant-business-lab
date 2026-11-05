@@ -1,0 +1,85 @@
+{
+  "status": "Passed reviewed desktop scope; nested source-data display issue repaired and independently retested",
+  "checkedAt": "2026-11-05",
+  "evidence": {
+    "articleId": "research-2026-11-05-monthly-meal-customization-note",
+    "firstGit": "d819c713ba57d611170f531848e33aa15c6e50b9",
+    "firstPublishedAt": "2026-11-05T04:05:13Z",
+    "bodySha256": "2c43f7b73c0314a0b9d68faceb7dfad8e881d03e1872c4d66d66c47aecd6ddd9",
+    "remoteFrozenText": "Read the exact public GitHub note at d819c713ba57d611170f531848e33aa15c6e50b9. Local frozen body and compiled article matched the reviewed source; rendered relative sources.md links resolved to that same commit.",
+    "officialSources": [
+      {
+        "url": "https://kjc.changzhou.gov.cn/index.php?a=show&c=phone&catid=12443&id=10901",
+        "observed": "Publication date 2026-08-24. The published interview describes group and monthly meals, a narrower delivery area, fixed routes, customer requirement aggregation, labels and portion lists. Sales are revenue, not independently verified profit."
+      },
+      {
+        "url": "https://www.wjyanghu.com/yhw/hotspot/wjxw/2026-09-30/174229.html",
+        "observed": "Publication timestamp 2026-09-30 20:14:18. The article describes a reporter seeing packing from system lists and separately quotes the owner about cost savings and capacity. The illustrated account keeps these evidence types distinct."
+      }
+    ],
+    "boundaries": "No causal attribution of the business transformation to AI; no independently verified savings, profit or payback. Both original diagram labels and the unperformed synthetic test scenario were visible. Allergy and health-related requests require competent human verification."
+  },
+  "staticChecks": {
+    "preservation": "Passed independently rerun on final sources and exports.",
+    "mergeGuard": "Passed independently rerun: existing user body/metadata/story/query edits preserved, and repeated merge, identity, query and count conflicts rejected before writes.",
+    "routes": "Passed independently rerun: route parsing, URL round trip, chronological order, 45 research / 65 full materials / 2 samples / AI28.",
+    "queries": 93,
+    "preservedPortalFiles": 287,
+    "preservedStandaloneFiles": 241,
+    "privacy": "Recursive checked payloads passed: 80 portal text payloads, 13 standalone payloads, 5 downloads and 2 ZIP containers. No targeted private connection, attachment, thread or workspace markers remained.",
+    "buildManifests": "Final split HTML and snapshot byte counts and SHA256 values verified. Final portable HTML decoded catalogs and stories matched source.",
+    "buildStatus": {
+      "standalone": "complete",
+      "portal45": "complete"
+    },
+    "runtimeSha256": "b1771584910da746d0cf1b967a4889fee226053d841596104b457a04a2dd3d91"
+  },
+  "browserChecks": {
+    "environment": "Managed internal preview and cloud Chrome; desktop screenshots 1165 by 747 pixels.",
+    "standalone": [
+      "Title, Beijing first-publication/update timestamp, both diagrams and their scope/caption labels visually checked.",
+      "Table of contents expanded; diagram and full-original jumps worked; full original expanded/collapsed and return-to-top worked.",
+      "Both source menus, Overview and Data preview opened and closed. Diagram 1 had three readable rows; search 普通规则 returned one. Diagram 2 had four readable rows; search 旧清单 returned one.",
+      "Final complete build cleared Creating report. Both diagrams were visually checked in Classic dark mode; System appearance was restored."
+    ],
+    "portal": [
+      "Timeline showed 45 research, 65 full materials, 2 samples, newest monthly-meal entry first and AI filter count 28.",
+      "Search 月餐 returned one; unknown search returned a clear zero-results state; reset restored all 45.",
+      "New article opened, full original link resolved to fixed sources.md, next older offline-POS article opened at its own heading with collapsed original/contents.",
+      "Browser Back returned to monthly-meal, then to AI plus 月餐 search. Forward and Return to list also worked and preserved the filter.",
+      "Both preserved sample cards were visible. Delivery calculator embedded preview changed from -1200.00 CNY to -400.00 CNY when synthetic orders changed 1000 to 2000; reset restored defaults.",
+      "Final complete split build cleared Updating report; first diagram Data preview showed its final readable columns."
+    ],
+    "finalPortableHTML": [
+      "Both final self-contained HTML files opened separately through internal preview.",
+      "Standalone full original displayed its final research note and fixed sources.md link; second diagram Data preview contained four readable rows.",
+      "Portal full HTML showed 45/65/2, AI28, monthly-meal article, full original and fixed sources.md link. Diagram 2 search 旧清单 returned one readable result."
+    ],
+    "console": "Sampled recent error logs contained browser-extension metadata messages only; no application error was observed in that sample."
+  },
+  "issue": {
+    "severity": "moderate",
+    "component": "New monthly-meal diagram source-data previews",
+    "original": "Nested cells arrays rendered as [object Object] and could not be inspected or searched meaningfully.",
+    "resolution": "Both reviewed query rows and diagram nodes were changed to flat readable Chinese string columns, with the content-only renderer updated. Protected runtime was unchanged.",
+    "status": "resolved and independently retested in split builds and final portable HTML"
+  },
+  "artifacts": {
+    "monthly-meal-customization.html": {
+      "bytes": 2927091,
+      "sha256": "527acaf29fb741515247bb49522f03b8503b2f099cd9cc94e950d2d4166fdb9d"
+    },
+    "timeline45-monthly-meal.html": {
+      "bytes": 13032425,
+      "sha256": "bcc4fd1f300c31b0ef216804cc9af5ca9b00191fe340b89445a93844fa96e5b7"
+    }
+  },
+  "limits": [
+    "Mobile viewport and physical mobile device were not tested; responsive CSS review is not mobile acceptance.",
+    "Portable HTML was opened via internal HTTP preview. Network-disabled and file-protocol execution were not tested.",
+    "No original hosted Site access, deployment, access-control change, or large HTML Git upload occurred.",
+    "Preservation is against the reconstructed readable 44-story baseline; it does not prove recovery of missing historical author files or unarchived user edits.",
+    "Not every existing portal article or sample interaction was retested; unchanged contents were checked by byte/object preservation.",
+    "No merchant system login, store experiment, fresh Pro collaboration, transaction ledger or code audit was performed."
+  ]
+}

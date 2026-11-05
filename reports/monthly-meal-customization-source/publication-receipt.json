@@ -1,0 +1,26 @@
+{
+  "articleId": "research-2026-11-05-monthly-meal-customization-note",
+  "status": "Completed local authoring and reviewed desktop scope; single-article attachment send accepted; original Site not updated",
+  "attachmentSendAcceptedAt": "2026-11-05T04:17Z",
+  "attachmentCaveat": "Accepted send does not prove the user opened or downloaded the file. No private attachment or message identifier is archived.",
+  "localCounts": {
+    "research": 45,
+    "fullMaterials": 65,
+    "samples": 2,
+    "ai": 28
+  },
+  "lastVerifiedOriginalSite": {
+    "version": "v19",
+    "research": 20,
+    "fullMaterials": 40,
+    "samples": 2,
+    "ai": 9
+  },
+  "pendingSiteChanges": 27,
+  "originalSiteAccessAttempted": false,
+  "published": false,
+  "largeHTMLGitUploadAttempted": false,
+  "mobileTested": false,
+  "networkDisabledTested": false,
+  "priorAttachmentWork": "Unchanged; the new monthly-meal file does not replace any inaccessible prior attachment."
+}

@@ -1,0 +1,43 @@
+{
+  "portal45": {
+    "buildStatus": "complete",
+    "fullOriginals": 65,
+    "illustratedStories": 45,
+    "queries": 93,
+    "unchangedBaselineFiles": 287,
+    "privacyTextPayloads": 80,
+    "downloadPayloads": 5,
+    "zipContainers": 2,
+    "compiledContents": "equal reviewed source",
+    "buildManifest": "verified exact HTML/snapshot bytes and hashes",
+    "runtimeSha256": "b1771584910da746d0cf1b967a4889fee226053d841596104b457a04a2dd3d91",
+    "bytes": 13032425,
+    "sha256": "bcc4fd1f300c31b0ef216804cc9af5ca9b00191fe340b89445a93844fa96e5b7",
+    "visualQA": "separate independent report"
+  },
+  "standalone": {
+    "buildStatus": "complete",
+    "fullOriginals": 1,
+    "illustratedStories": 1,
+    "queries": 2,
+    "unchangedBaselineFiles": 241,
+    "privacyTextPayloads": 13,
+    "downloadPayloads": 0,
+    "zipContainers": 0,
+    "compiledContents": "equal reviewed source",
+    "buildManifest": "verified exact HTML/snapshot bytes and hashes",
+    "runtimeSha256": "b1771584910da746d0cf1b967a4889fee226053d841596104b457a04a2dd3d91",
+    "bytes": 2927091,
+    "sha256": "527acaf29fb741515247bb49522f03b8503b2f099cd9cc94e950d2d4166fdb9d",
+    "visualQA": "separate independent report"
+  },
+  "scope": {
+    "articleId": "research-2026-11-05-monthly-meal-customization-note",
+    "firstGit": "d819c713ba57d611170f531848e33aa15c6e50b9",
+    "publishedAt": "2026-11-05T04:05:13Z",
+    "bodySha256": "2c43f7b73c0314a0b9d68faceb7dfad8e881d03e1872c4d66d66c47aecd6ddd9",
+    "published": false,
+    "largeHTMLGitArchive": "not attempted",
+    "baselineLimit": "Preserved readable reconstructed 44-story baseline; not proof that missing historical edits were recovered."
+  }
+}
