@@ -1,0 +1,9 @@
+{
+  "desktopVisual": "not run",
+  "desktopInteractions": "not run",
+  "mobile": "not run",
+  "printing": "not run",
+  "realOfflineOpen": "not run",
+  "reason": "No available cloud browser can inspect this local project in the current executor. No attempt to bypass prior browser/socket or published-site restrictions. Static build and source checks do not prove visual usability.",
+  "published": false
+}

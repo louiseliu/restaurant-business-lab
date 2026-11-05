@@ -1,0 +1,90 @@
+{
+  "FitoutDiagrams.jsx": {
+    "bytes": 1197,
+    "sha256": "96e961e81f4f7b4408d4546924ab5c97a3eb158e2a2f16768b60a212f9cb5e66"
+  },
+  "prepare_standalone.py": {
+    "bytes": 2137,
+    "sha256": "c9f12a1757c2e038c2c34813e33b1e9cf71e8ba2d18298ea3d630d2cac6ace4b"
+  },
+  "fitout-diagrams.css": {
+    "bytes": 1111,
+    "sha256": "ebf2817cbc30149c60237ca5d4f3ab60f279e9cf1625ad0d0d089a8e8bfb53a7"
+  },
+  "illustrated-story.json": {
+    "bytes": 16813,
+    "sha256": "4522884c13318c449326e745c50b2037c7b9cc46d7371ad72bed453f3e5cb3ae"
+  },
+  "visual-qa-status.json": {
+    "bytes": 405,
+    "sha256": "e0ad8ebd5cdf132109bce5a1c9d54556490bdf6206f34b7faf23ae932c510596"
+  },
+  "test_reader_routes.mjs": {
+    "bytes": 2276,
+    "sha256": "15c3b6485b4bc2daba8a94905f9ff9ffccf8d1a62e061798038c48eac7a5ef73"
+  },
+  "article-reviewed-data.json": {
+    "bytes": 7350,
+    "sha256": "1898f4b64694f939aa26f1bdbdd7e2f7b39fa082027f6bc385467cc51833b54e"
+  },
+  "standalone-prepared-sha256.json": {
+    "bytes": 27380,
+    "sha256": "27dc7c963595a9e4bcd98c83700f9f465cbcc6d4d040ffffa3820651e13d1e5d"
+  },
+  "test_merge_guard.py": {
+    "bytes": 2454,
+    "sha256": "3ee28ab4792a2764f3b31b30e83035d78c9ce521170b5d46cb3fb909d58a1ad7"
+  },
+  "build-qa.json": {
+    "bytes": 1669,
+    "sha256": "4511160c5938b9af5ab5d2bae639cd3a00e5237d3a8e82935943f1aa71bfb80a"
+  },
+  "BUILD.md": {
+    "bytes": 4141,
+    "sha256": "418bfe43f9f8181c5e452b904cd814a56e5e1da9d97dfec370fc0e51cc02ee4d"
+  },
+  "frozen.json": {
+    "bytes": 173,
+    "sha256": "a9bda512245d0b50cfc14ebec09ecf6d62c656b50f6b7637cb8f1a5720181986"
+  },
+  "fitout-source-previews.json": {
+    "bytes": 1656,
+    "sha256": "c595e74c1ca6121b4181b2b38e9bb40980cba51ce9fc939a5c03925777a082d0"
+  },
+  "integrate49.py": {
+    "bytes": 2478,
+    "sha256": "7a9c7e39447ec43b30cdb00dde8b02e217658695743cf621249fc1155b1328ee"
+  },
+  "article-entry.json": {
+    "bytes": 11226,
+    "sha256": "54b22fcd6bf446e3417008a53fb4e279a0b41c3b91584a376914b53f49c75900"
+  },
+  "baseline48-sha256.json": {
+    "bytes": 32314,
+    "sha256": "77d691e764c138bc77c7d9dccedb144cf5f77d095e8854f887bb3b514082d7a3"
+  },
+  "test_preservation.py": {
+    "bytes": 8289,
+    "sha256": "b946114b16d4ab8bd978a1d1b9951f2cae3e39255f2ff6caa08f19f0ca8f82e5"
+  },
+  "make_article.py": {
+    "bytes": 8741,
+    "sha256": "559fb59394e1b85ef30e7beea4c9480cc9be1eb0d65545642cd6496e3c89bee6"
+  },
+  "shared/illustrated.css": {
+    "bytes": 10060,
+    "sha256": "a15fbe5f09e241738ffffa683f3e7d9ba535ff943cecb8f7e250e1449209f928"
+  },
+  "shared/ReportContent.jsx": {
+    "bytes": 703,
+    "sha256": "ae9d8787ad6b9d15c57aead3b72f48d0b487e2b52a42a6e75a4f6b8fda126a69"
+  },
+  "shared/IllustratedArticle.jsx": {
+    "bytes": 9375,
+    "sha256": "2663b9a098376b94fd41f1396ceb90812e350501fd9fa6e20ccb3d80ea5b8085"
+  },
+  "shared/timeline.css": {
+    "bytes": 7346,
+    "sha256": "b867d64e25125a71868940d4da6fe6bc2569f1b719ceefaed0b92e6baf0a4fee"
+  }
+}
