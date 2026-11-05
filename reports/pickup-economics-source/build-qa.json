@@ -1,0 +1,43 @@
+{
+  "portal51": {
+    "buildStatus": "complete",
+    "fullOriginals": 71,
+    "illustratedStories": 51,
+    "queries": 105,
+    "unchangedBaselineFiles": 300,
+    "privacyTextPayloads": 105,
+    "downloadPayloads": 5,
+    "zipContainers": 2,
+    "compiledContents": "equal reviewed source",
+    "buildManifest": "verified exact HTML/snapshot bytes and hashes",
+    "runtimeSha256": "b1771584910da746d0cf1b967a4889fee226053d841596104b457a04a2dd3d91",
+    "bytes": 13272402,
+    "sha256": "ee7b672fe7724311d38da89e5c0d1fdd9ecc42395e6bcf1b903ff4e3f1c3ede7",
+    "visualQA": "not performed; independent review is static only"
+  },
+  "standalone": {
+    "buildStatus": "complete",
+    "fullOriginals": 1,
+    "illustratedStories": 1,
+    "queries": 2,
+    "unchangedBaselineFiles": 241,
+    "privacyTextPayloads": 14,
+    "downloadPayloads": 0,
+    "zipContainers": 0,
+    "compiledContents": "equal reviewed source",
+    "buildManifest": "verified exact HTML/snapshot bytes and hashes",
+    "runtimeSha256": "b1771584910da746d0cf1b967a4889fee226053d841596104b457a04a2dd3d91",
+    "bytes": 2936431,
+    "sha256": "4db632dc698c64601f8f194c0e5f88d06593f46b0be9289929c41ce15120ac82",
+    "visualQA": "not performed; independent review is static only"
+  },
+  "scope": {
+    "articleId": "research-2026-11-05-pickup-economics-note",
+    "firstGit": "08f15b19b26be9f8c4df46eba3303aa57225cd78",
+    "publishedAt": "2026-11-05T13:16:36Z",
+    "bodySha256": "096111c5da383d5cf66742fa38e6ea75cd8c92b7bed294fc0a62953e23621431",
+    "published": false,
+    "largeHTMLGitArchive": "not attempted",
+    "baselineLimit": "Preserved readable archived 50-story baseline; not proof that missing historical edits were recovered."
+  }
+}

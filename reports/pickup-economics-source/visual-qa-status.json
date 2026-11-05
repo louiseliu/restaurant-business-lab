@@ -1,0 +1,8 @@
+{
+  "desktopVisual": "not tested",
+  "browserInteraction": "not tested",
+  "mobile": "not tested",
+  "print": "not tested",
+  "realOffline": "not tested",
+  "scope": "Static tests and official build passed; no browser validation or publication performed."
+}
