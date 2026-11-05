@@ -1,0 +1,19 @@
+{
+  "articleId": "research-2026-11-05-hiring-access-note",
+  "firstGit": "fc02d8ca4db8a14ab86572d1d936fcdd6eaa8cb8",
+  "firstGitTime": "2026-11-05T21:05:54Z",
+  "standaloneBuild": "complete",
+  "staticValidation": "passed",
+  "visualValidation": "blocked; local HTTP refused",
+  "nativeAttachmentDelivery": "send request accepted; user receipt, open and download not verified",
+  "publication": "not performed",
+  "portalIntegration": "not performed",
+  "largeHTMLGitArchive": "not attempted; pending archive remains open",
+  "notes": "Single-article attachment request accepted after local production. Article 59 remains outside the full portal at this checkpoint; original public site was not synchronized.",
+  "nativeAttachmentRequestAcceptedAtUTC": "2026-11-05T21:09Z",
+  "acceptedTimePrecision": "minute",
+  "nativeAttachmentEvidence": "Parent delivery confirmation; no private message or file identity archived",
+  "artifactBytes": 2940902,
+  "artifactSha256": "b73bfac8e714f660b8e1bb715d3606a162e00700e7417701a2c2564f92ced7b2",
+  "independentValidation": "static and content review passed; visual interaction not verified"
+}

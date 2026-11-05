@@ -1,0 +1,145 @@
+{
+  "surface": "report",
+  "title": "AI招聘省下店长时间之前 先查谁能走完流程",
+  "generatedAt": "2026-11-05T21:05:54Z",
+  "status": "reviewed",
+  "buildStatus": "creating",
+  "exportPreferences": {
+    "selected": null,
+    "destinations": []
+  },
+  "filters": [],
+  "report": {
+    "asOf": "2026-11-05"
+  },
+  "queries": {
+    "diagram-research-2026-11-05-hiring-access-note": {
+      "rows": [
+        {
+          "环节": "岗位信息与预约",
+          "可以交给工具": "回答已经确认的地点、班次与面试安排，减少反复传话。",
+          "需要有人负责": "岗位关停或安排变化后更新信息；核对预约与实际可提供的条件。"
+        },
+        {
+          "环节": "候选人作答入口",
+          "模拟验收要看": "默认方式无法完成时，能否找到可用的替代方式，并围绕同一岗位要求继续。",
+          "必须保留的边界": "未完成流程不能直接等同不适合岗位；替代方式也不能自动证明评价公平。"
+        },
+        {
+          "环节": "中断与例外接手",
+          "模拟验收要看": "谁解释、谁接手、忙时怎样排队；中断、主动退出与筛选未通过应分开说明。",
+          "必须保留的边界": "有人工入口不等于有人及时处理；有人才池也不等于所有拒绝者都获得复核。"
+        },
+        {
+          "环节": "状态与总负担复盘",
+          "后续可观察什么": "申请、约定面试、实际面试、接受录用和实际到岗分别发生了什么，等待是否只是转移。",
+          "真实使用的前提": "先具备适当权限与个人信息保护安排；本研究仅建议评估方法，未开展候选人试用。"
+        }
+      ],
+      "source": {
+        "label": "让一条招聘流程办得成，需要四处有人负责",
+        "files": [
+          "research/2026-11-05-hiring-access/note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "招聘行政辅助、候选人入口与评价权限的边界",
+            "definition": "作者提出的行政辅助与模拟验收流程，不是对达美乐或Chipotle后台的复原。它检验沟通是否接续，不给真实候选人评分、排序或作录用决定。 图1｜原创流程示意，无时间比例或成效预测。海纳仅说明人才池内候选人可二面；不能外推所有中断、池外或落选人员都被复核。图文入口与模型调整也不等于公平性已获独立验证。",
+            "componentIds": [
+              "diagram-research-2026-11-05-hiring-access-note"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "作者机制分析，案例事实边界见固定正文",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/fc02d8ca4db8a14ab86572d1d936fcdd6eaa8cb8/research/2026-11-05-hiring-access/note.md"
+          },
+          {
+            "title": "S1 · 海纳具名访谈",
+            "detail": "https://hina.com/blog/366"
+          },
+          {
+            "title": "S2 · Chipotle 2024年公告",
+            "detail": "https://newsroom.chipotle.com/2024-10-22-CHIPOTLE-INTRODUCES-NEW-AI-HIRING-PLATFORM-TO-SUPPORT-ITS-ACCELERATED-GROWTH"
+          },
+          {
+            "title": "S5 · 官方法律全文",
+            "detail": "https://www.cac.gov.cn/2021-08/20/c_1631050028355286.htm"
+          }
+        ],
+        "caveats": [
+          "管理者保留职责：确认岗位条件、安排接手、说明评价依据并处理异议。工具能更快传递信息，并不自动取得录用判断的权限。",
+          "图1｜原创流程示意，无时间比例或成效预测。海纳仅说明人才池内候选人可二面；不能外推所有中断、池外或落选人员都被复核。图文入口与模型调整也不等于公平性已获独立验证。"
+        ]
+      }
+    },
+    "diagram-research-2026-11-05-hiring-access-note:second": {
+      "rows": [
+        {
+          "经营情形": "申请少，或岗位条件不匹配",
+          "先做什么": "写清班次、薪资与地点，改善回应和可提供的安排；保留简单沟通方式。",
+          "容易漏掉的成本": "复杂配置、培训和维护，可能超过有限的重复沟通负担。",
+          "继续或停止的证据": "若主要障碍仍是条件不匹配，先调整条件，不因预约更快就扩大自动化。"
+        },
+        {
+          "经营情形": "重复答疑与预约占用店长",
+          "先做什么": "只试行政辅助，和固定回复、预约表单比较；同时验证替代入口与接手。",
+          "容易漏掉的成本": "信息更新、核对预约、异常解释与候选人请求，也要计入总工作。",
+          "继续或停止的证据": "完整沟通能办成、条件准确、总负担减少才值得继续；接手无人负责先修流程。"
+        },
+        {
+          "经营情形": "还想增加测评与筛选",
+          "先做什么": "把评价功能另列一项评估，核查岗位相关性、复核机制与数据责任。",
+          "容易漏掉的成本": "适配、解释、复核、保护措施及退出接续；不能用行政提速抵消这些缺口。",
+          "继续或停止的证据": "缺乏上述证据就先停留在沟通辅助；具备条件后由负责人组织后续评估。"
+        }
+      ],
+      "source": {
+        "label": "采购范围随招聘瓶颈改变，不必一次买齐",
+        "files": [
+          "research/2026-11-05-hiring-access/note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "招聘行政辅助、候选人入口与评价权限的边界",
+            "definition": "作者构造的经营比较，不是品牌实测排名或产品推荐。先以合成情境比较现有人工方式、普通表单和候选工具，再决定是否值得扩大范围。 图2｜原创采购取舍示意，不设淘汰阈值、虚构报价或回本期。Chipotle的2024年预期、2025年自报与当前供应商宣传不合并成同一效果；海外部署也不直接证明本地小店收益。",
+            "componentIds": [
+              "diagram-research-2026-11-05-hiring-access-note:second"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "作者机制分析，案例事实边界见固定正文",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/fc02d8ca4db8a14ab86572d1d936fcdd6eaa8cb8/research/2026-11-05-hiring-access/note.md"
+          },
+          {
+            "title": "S1 · 海纳具名访谈",
+            "detail": "https://hina.com/blog/366"
+          },
+          {
+            "title": "S2 · Chipotle 2024年公告",
+            "detail": "https://newsroom.chipotle.com/2024-10-22-CHIPOTLE-INTRODUCES-NEW-AI-HIRING-PLATFORM-TO-SUPPORT-ITS-ACCELERATED-GROWTH"
+          },
+          {
+            "title": "S3 · Chipotle 2025年更新",
+            "detail": "https://newsroom.chipotle.com/2025-02-19-CHIPOTLE-AIMS-TO-HIRE-FUTURE-BILLION-DOLLAR-BUSINESS-LEADERS-IN-NEW-BURRITO-SEASON-HIRING-PUSH"
+          },
+          {
+            "title": "S4 · 供应商案例页",
+            "detail": "https://www.paradox.ai/case-studies/chipotle"
+          },
+          {
+            "title": "S5 · 官方法律全文",
+            "detail": "https://www.cac.gov.cn/2021-08/20/c_1631050028355286.htm"
+          }
+        ],
+        "caveats": [
+          "同一项招聘任务，比较软件、实施、维护、人工接手与退出的全部负担。释放店长时间有价值，但只有实际减少支出，才能另记现金节省。",
+          "图2｜原创采购取舍示意，不设淘汰阈值、虚构报价或回本期。Chipotle的2024年预期、2025年自报与当前供应商宣传不合并成同一效果；海外部署也不直接证明本地小店收益。"
+        ]
+      }
+    }
+  }
+}

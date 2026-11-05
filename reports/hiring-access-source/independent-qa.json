@@ -1,0 +1,63 @@
+{
+  "status": "static_and_content_review_passed_visual_acceptance_not_established",
+  "firstGit": "fc02d8ca4db8a14ab86572d1d936fcdd6eaa8cb8",
+  "artifact": "ai-hiring.html",
+  "artifactBytes": 2940902,
+  "artifactSha256": "b73bfac8e714f660b8e1bb715d3606a162e00700e7417701a2c2564f92ced7b2",
+  "remoteVerification": {
+    "method": "Independently fetched note.md and sources.md at the fixed commit through the GitHub connector, then compared their exact UTF-8 bytes with frozen hashes and authored/compiled content.",
+    "bodySha256": "7264147918222ba0af7997d8743af3fbb4306acad8b1e4c6772df7d15c419c35",
+    "sourcesSha256": "9a661c0d194b76cf3287a4ef54613687e88acac97ab7fb387bfa7457c3534905",
+    "bodyExactMatch": true,
+    "sourceLedgerExactMatch": true
+  },
+  "passed": [
+    "Existing static test rerun using independently fetched remote article and source ledger; all assertions passed.",
+    "Seven narrative sections and complete lead preserve the frozen original; original article and source ledger remain embedded.",
+    "Two qualitative diagrams contain four workflow nodes and three procurement scenarios, with reviewed rows and evidence bindings intact.",
+    "Five public source links and source previews are present; diagram 1 links S1, S2, S5, and diagram 2 links S1 through S5.",
+    "Talent-pool second interviews are not generalized to all interrupted, rejected or out-of-pool applicants. Accessibility adaptations are not presented as independent proof of fairness.",
+    "Chipotle 2024 expectations, 2025 self-reported results, and current supplier marketing remain distinct. Twelve to four days is an eight-day difference and approximately 66.7% reduction, not 75%.",
+    "Timing start, population, control and causal-effect limits remain explicit. No fabricated price, ROI, ranking or individual hiring decision appears in the diagrams.",
+    "PIPL Article 24 and Article 55 scopes remain distinct; no named-company illegality claim is introduced.",
+    "Build manifest matches actual HTML/snapshot bytes and hashes. Compiled article/story payloads match reviewed author content.",
+    "All 241 checked non-content official files match their prepared fingerprints.",
+    "Static HTML and decoded authored JSON checks found no listed private local paths, private conversation links, Library IDs, internal project IDs, apparent credential payloads or candidate records. Broad sk- matches were inspected and were CSS identifiers containing dashboard-ask, not credentials.",
+    "Relative sources.md references are rewritten to the fixed-commit GitHub source-ledger URL in narrative and original views. This is source-code validation, not a browser-click test."
+  ],
+  "visualAndInteraction": {
+    "status": "not_verified",
+    "record": "visual-qa-status.json",
+    "recordedPriorAttempt": "Local HTTP preview returned net::ERR_CONNECTION_REFUSED before report content rendered.",
+    "independentAuditPreviewAttempt": false,
+    "noBypassOrPublication": true,
+    "notRun": [
+      "Actual rendered desktop and narrow-screen layout",
+      "Theme switching and color/contrast acceptance",
+      "Source-inspector open, close and repeated interactions",
+      "Table of contents, return-to-top and disclosure clicks",
+      "Print layout",
+      "Offline browser operation and runtime console errors"
+    ]
+  },
+  "issues": [
+    {
+      "severity": "documentation_only",
+      "description": "The production-root build-qa.json refers to visual-qa-status.json without its source/ prefix. The actual record exists in source/visual-qa-status.json. Clarifying the relative path would make the audit trail easier to follow."
+    }
+  ],
+  "scopeLimits": [
+    "This review checks frozen-source fidelity, evidence wording, authored diagrams and build/static integrity. It is not an independent validation of the brands' business outcomes.",
+    "The original five web pages were not reopened during this audit; source statements were checked against the independently retrieved first-commit body and source ledger.",
+    "No preview bypass, rehosting, publication, portal integration, file upload or Git write was performed by this audit.",
+    "Pattern scanning is not a formal security guarantee; no private payload was found in the examined authored data."
+  ],
+  "archivePackaging": {
+    "changes": [
+      "visualAndInteraction.record points to the sibling archived visual-qa-status.json.",
+      "The original documentation-only path issue is retained as a historical finding; sibling archive links are valid."
+    ],
+    "artifactChanged": false,
+    "visualAcceptanceEstablished": false
+  }
+}

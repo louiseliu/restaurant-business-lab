@@ -1,0 +1,36 @@
+{
+  "https://hina.com/blog/366": {
+    "title": "海纳刊载的达美乐中国客户访谈",
+    "source": "海纳AI，供应商刊载访谈",
+    "date": "2025-07-10",
+    "summary": "公开描述听障人士专项图文答题与模型适配，以及人才池内可二面安排。未独立核验，不证明所有拒绝均被复核或偏差已消除。",
+    "approvedForReport": true
+  },
+  "https://newsroom.chipotle.com/2024-10-22-CHIPOTLE-INTRODUCES-NEW-AI-HIRING-PLATFORM-TO-SUPPORT-ITS-ACCELERATED-GROWTH": {
+    "title": "Chipotle 2024年AI招聘平台公告",
+    "source": "Chipotle，企业公告",
+    "date": "2024-10-22",
+    "summary": "说明答疑、资料收集和排期等功能，以及向经理选定者发送通知。最多75%的用时缩短是当时预期。",
+    "approvedForReport": true
+  },
+  "https://newsroom.chipotle.com/2025-02-19-CHIPOTLE-AIMS-TO-HIRE-FUTURE-BILLION-DOLLAR-BUSINESS-LEADERS-IN-NEW-BURRITO-SEASON-HIRING-PUSH": {
+    "title": "Chipotle 2025年招聘更新",
+    "source": "Chipotle，企业自报",
+    "date": "2025-02-19",
+    "summary": "自报平均用时12天变4天与申请完成率变化，未说明计时起点、完整样本及对照，不能识别AI独立贡献。",
+    "approvedForReport": true
+  },
+  "https://www.paradox.ai/case-studies/chipotle": {
+    "title": "Paradox 的Chipotle案例页",
+    "source": "Paradox，供应商营销案例",
+    "summary": "页面同时显示75%及12天到4天，未解释口径差异。与企业公告属于同一部署来源链，不是独立互证。",
+    "approvedForReport": true
+  },
+  "https://www.cac.gov.cn/2021-08/20/c_1631050028355286.htm": {
+    "title": "中华人民共和国个人信息保护法",
+    "source": "中央网信办，来源中国人大网",
+    "date": "2021-08-20",
+    "summary": "第24条与第55条分别涉及自动化决策权利及事前影响评估等要求；本报告未作任何具名企业违法判断。",
+    "approvedForReport": true
+  }
+}

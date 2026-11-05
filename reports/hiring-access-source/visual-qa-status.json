@@ -1,0 +1,23 @@
+{
+  "status": "not_run_preview_access_blocked",
+  "standaloneSha256": "b73bfac8e714f660b8e1bb715d3606a162e00700e7417701a2c2564f92ced7b2",
+  "attempts": [
+    {
+      "target": "local HTTP preview",
+      "result": "Cloud browser returned net::ERR_CONNECTION_REFUSED; no report content rendered."
+    }
+  ],
+  "notVerified": [
+    "Rendered layout",
+    "Narrow-screen layout",
+    "Theme switching",
+    "Source-inspector interactions",
+    "Table of contents and return-to-top",
+    "Full original and source-ledger disclosures",
+    "Print",
+    "Offline browser behavior",
+    "Browser console errors"
+  ],
+  "staticChecks": "See build-qa.json; they do not establish visual acceptance.",
+  "publication": "Not performed or attempted. No file-protocol retry or rehosting was attempted."
+}

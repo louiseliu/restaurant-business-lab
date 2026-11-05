@@ -1,0 +1,27 @@
+{
+  "standalone": {
+    "buildStatus": "complete",
+    "fullOriginals": 1,
+    "illustratedStories": 1,
+    "narrativeSections": 7,
+    "queries": 2,
+    "sourceUrls": 5,
+    "unchangedOfficialFiles": 241,
+    "privacyTextPayloads": 14,
+    "compiledContents": "equal reviewed source",
+    "buildManifest": "verified exact HTML/snapshot bytes and hashes",
+    "runtimeSha256": "b1771584910da746d0cf1b967a4889fee226053d841596104b457a04a2dd3d91",
+    "bytes": 2940902,
+    "sha256": "b73bfac8e714f660b8e1bb715d3606a162e00700e7417701a2c2564f92ced7b2"
+  },
+  "scope": {
+    "articleId": "research-2026-11-05-hiring-access-note",
+    "firstGit": "fc02d8ca4db8a14ab86572d1d936fcdd6eaa8cb8",
+    "publishedAt": "2026-11-05T21:05:54Z",
+    "bodySha256": "7264147918222ba0af7997d8743af3fbb4306acad8b1e4c6772df7d15c419c35",
+    "published": false,
+    "largeHTMLGitArchive": "not attempted",
+    "portalIntegration": "not performed; standalone only"
+  },
+  "visualQA": "See visual-qa-status.json. Static checks do not establish rendered acceptance."
+}
