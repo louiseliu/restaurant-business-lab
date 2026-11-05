@@ -1,0 +1,34 @@
+{
+  "status": "source reconstruction QA passed",
+  "basis": "Reconstructed from local 22-story author project and fixed GitHub archived evidence; not asserted byte-identical to the missing historical 44-story project.",
+  "counts": {
+    "research": 44,
+    "originals": 64,
+    "stories": 44,
+    "samples": 2,
+    "ai": 27,
+    "queries": 91
+  },
+  "fetchedGitBlobs": 112,
+  "allFetchedBlobBytesVerified": true,
+  "original22Unchanged": true,
+  "protectedRuntimeFilesUnchanged": 240,
+  "preservedOriginal22SourceFiles": 246,
+  "changedOriginal22SourcePaths": [
+    "data.json",
+    "content/report/articles.json",
+    "content/report/illustrated-stories.json",
+    "content/report/IllustratedArticle.jsx"
+  ],
+  "foodRevisionPreservedOtherOriginals": 63,
+  "foodRevisionPreservedOtherStories": 43,
+  "foodRevisionPreservedOtherQueries": 89,
+  "readerFixAndInventoryThirdDiagram": true,
+  "downloadsVerified": 5,
+  "zipContainersVerified": 2,
+  "privacyPayloadsChecked": 77,
+  "routeTest": "passed separately",
+  "build": "not run; copied dist/offline are historical 22-story baseline, not rebuilt output",
+  "browserQA": "not run",
+  "published": false
+}

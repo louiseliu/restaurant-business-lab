@@ -1,0 +1,786 @@
+[
+  {
+    "path": "AGENTS.md",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "fb21df3d1b7d19ff6053f13fc449d7c03bca04ba",
+    "bytes": 933,
+    "verified": true
+  },
+  {
+    "path": ".agents/skills/restaurant-business-model-lab/SKILL.md",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "5c20dac059be457a672acefd5285bad92143a881",
+    "bytes": 6899,
+    "verified": true
+  },
+  {
+    "path": "state/current.md",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "adfb3aa48ea98a1af70fd39ee661dba03fafc4cf",
+    "bytes": 59977,
+    "verified": true
+  },
+  {
+    "path": "methods/editorial-standard.md",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "fa9c8f3ce5f1c2748d3da47c16d977fc189bd8e4",
+    "bytes": 2650,
+    "verified": true
+  },
+  {
+    "path": "reports/food-waste-measurement-source/timeline/BUILD.md",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "13399b4055673d438a0cf8311d8d0e2140088cd1",
+    "bytes": 3574,
+    "verified": true
+  },
+  {
+    "path": "reports/food-images-revision-source/BUILD.md",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "2312a7851494f4f3c8fbdbedda37be19c360a1bd",
+    "bytes": 5935,
+    "verified": true
+  },
+  {
+    "path": "reports/food-waste-measurement-source/timeline/recovery-manifest.json",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "c426d0197acec84dc7ddf1c3bdfd01f87a3f96ab",
+    "bytes": 13595,
+    "verified": true
+  },
+  {
+    "path": "reports/food-waste-measurement-source/timeline/restore_timeline.py",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "efeb3a593c3b25a2c62eaca25ae4cdd9571c6c2a",
+    "bytes": 3238,
+    "verified": true
+  },
+  {
+    "path": "reports/customer-agent-entry-source/timeline/BUILD.md",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "f39bfdc81e80215a9d66d20194325536fe9ad932",
+    "bytes": 3733,
+    "verified": true
+  },
+  {
+    "path": "reports/service-handoff-source/timeline/BUILD.md",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "6c99d9af482e69019af62d2a73f4b1ca77f5ec48",
+    "bytes": 4343,
+    "verified": true
+  },
+  {
+    "path": "reports/order-cancellation-source/timeline/BUILD.md",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "9403ab01a5c6d23e9cde791937a9b0c440b07f04",
+    "bytes": 1891,
+    "verified": true
+  },
+  {
+    "path": "reports/menu-change-release-source/timeline/BUILD.md",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "959dc0a00e7cea5d340d1d63a0d71eb6d5a6fd43",
+    "bytes": 1806,
+    "verified": true
+  },
+  {
+    "path": "reports/store-accounting-source/timeline/BUILD.md",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "00df9e83d6aa60e1289334b698b03765d2a5d798",
+    "bytes": 2045,
+    "verified": true
+  },
+  {
+    "path": "reports/offline-pos-source/timeline/BUILD.md",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "cf34213ed867792961312023106e0fd38940b695",
+    "bytes": 1985,
+    "verified": true
+  },
+  {
+    "path": "reports/ai-camera-cost-stack-source/ai-camera-cost-stack/article-entry.json",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "8332c634c4767423c76ad4d5c3b7916df6eb484f",
+    "bytes": 7178,
+    "verified": true
+  },
+  {
+    "path": "reports/ai-camera-cost-stack-source/ai-camera-cost-stack/article-reviewed-data.json",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "88072ab0afe665a8da2b7eef758e87a6b11f94d4",
+    "bytes": 4333,
+    "verified": true
+  },
+  {
+    "path": "reports/ai-camera-cost-stack-source/ai-camera-cost-stack/illustrated-story.json",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "65839588d49c7b4b3992c7b58164f0322db62c38",
+    "bytes": 10131,
+    "verified": true
+  },
+  {
+    "path": "reports/crossplatform-operations-source/crossplatform-operations/article-entry.json",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "1f5ee04a6256fbb218d4f48e1b27a7bab875dd74",
+    "bytes": 7241,
+    "verified": true
+  },
+  {
+    "path": "reports/crossplatform-operations-source/crossplatform-operations/article-reviewed-data.json",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "58122e276b043cf7d4771ef7abecd171298bb68a",
+    "bytes": 4566,
+    "verified": true
+  },
+  {
+    "path": "reports/crossplatform-operations-source/crossplatform-operations/illustrated-story.json",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "c7146305e8a5ae2060e272b551d670b658736f30",
+    "bytes": 6497,
+    "verified": true
+  },
+  {
+    "path": "reports/energy-control-source/energy-control/article-entry.json",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "100025b0e1a1fec7f955d60b75512f9813c64a6c",
+    "bytes": 8893,
+    "verified": true
+  },
+  {
+    "path": "reports/energy-control-source/energy-control/article-reviewed-data.json",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "6e0008c643af3867d229ff11ff6858e7f9340bd9",
+    "bytes": 5081,
+    "verified": true
+  },
+  {
+    "path": "reports/energy-control-source/energy-control/illustrated-story.json",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "6ca9f630066aa5752c1ae19f9715c389f01e0e83",
+    "bytes": 7546,
+    "verified": true
+  },
+  {
+    "path": "reports/inventory-capture-revision-source/inventory-capture/article-entry.json",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "83d193c1c3728bfff93ee44d03bf8cfe57a0b6fd",
+    "bytes": 9965,
+    "verified": true
+  },
+  {
+    "path": "reports/inventory-capture-revision-source/inventory-capture/article-reviewed-data.json",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "adfc301b37d9668b4139b2adb69e4c5ea1975b0b",
+    "bytes": 7413,
+    "verified": true
+  },
+  {
+    "path": "reports/inventory-capture-revision-source/inventory-capture/illustrated-story.json",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "fe2749532880bbd7e80e8e1313a24c2d5f9c2ce5",
+    "bytes": 10501,
+    "verified": true
+  },
+  {
+    "path": "reports/management-anomaly-source/management-anomaly/article-entry.json",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "741f369ddd55d1d3b07243e627da6aba773217f9",
+    "bytes": 8157,
+    "verified": true
+  },
+  {
+    "path": "reports/management-anomaly-source/management-anomaly/article-reviewed-data.json",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "5cf6f773b8f38ef2b362437ca4717a0b68395803",
+    "bytes": 4694,
+    "verified": true
+  },
+  {
+    "path": "reports/management-anomaly-source/management-anomaly/illustrated-story.json",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "63464b6e29d37e2d3d76c113f92342506c13fbac",
+    "bytes": 6500,
+    "verified": true
+  },
+  {
+    "path": "reports/menu-translation-scope-source/menu-translation-scope/article-entry.json",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "1a1f657328de1dc9a39e09602bb6da1591ce659f",
+    "bytes": 6431,
+    "verified": true
+  },
+  {
+    "path": "reports/menu-translation-scope-source/menu-translation-scope/article-reviewed-data.json",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "6c3fc8de67b1f29817ac96f563588bb5eaf10598",
+    "bytes": 4767,
+    "verified": true
+  },
+  {
+    "path": "reports/menu-translation-scope-source/menu-translation-scope/illustrated-story.json",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "a9336de4e8241325147ac7132f0f69f04c936a42",
+    "bytes": 6725,
+    "verified": true
+  },
+  {
+    "path": "reports/pass-confirmation-source/pass-confirmation/article-entry.json",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "45e4540c3707df5918c5f7af42d3e3fc962f9c2f",
+    "bytes": 8589,
+    "verified": true
+  },
+  {
+    "path": "reports/pass-confirmation-source/pass-confirmation/article-reviewed-data.json",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "5abadb87ebec7290f99691dca8d30b79a5493bf5",
+    "bytes": 4607,
+    "verified": true
+  },
+  {
+    "path": "reports/pass-confirmation-source/pass-confirmation/illustrated-story.json",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "a12b882e9edec3e4b649e62c02daef83fe7d50da",
+    "bytes": 11533,
+    "verified": true
+  },
+  {
+    "path": "reports/queue-promise-source/queue-promise/article-entry.json",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "8715644fa07214c81ef5fd5d8b77045edfd5b96a",
+    "bytes": 10655,
+    "verified": true
+  },
+  {
+    "path": "reports/queue-promise-source/queue-promise/article-reviewed-data.json",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "84f365054765fc3c0fdbcfc8e456fc70dbf1c62e",
+    "bytes": 5256,
+    "verified": true
+  },
+  {
+    "path": "reports/queue-promise-source/queue-promise/illustrated-story.json",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "e2b505da9c50216feb84f287807a1520e4a253e3",
+    "bytes": 7389,
+    "verified": true
+  },
+  {
+    "path": "reports/robot-route-infrastructure-source/robot-route-infrastructure/article-entry.json",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "d414813ce86fc82b05691c87062641af68c38f4e",
+    "bytes": 7353,
+    "verified": true
+  },
+  {
+    "path": "reports/robot-route-infrastructure-source/robot-route-infrastructure/article-reviewed-data.json",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "6d096c13b2881949b7957daf85ee1d829846cdde",
+    "bytes": 4821,
+    "verified": true
+  },
+  {
+    "path": "reports/robot-route-infrastructure-source/robot-route-infrastructure/illustrated-story.json",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "59d1b86b1a06043ea9213799d4699c0e7866a6d9",
+    "bytes": 10871,
+    "verified": true
+  },
+  {
+    "path": "reports/shared-knowledge-source/shared-knowledge/article-entry.json",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "aa597fc86b7e0b8cde7005cd60d4ef8efd4e7a60",
+    "bytes": 9073,
+    "verified": true
+  },
+  {
+    "path": "reports/shared-knowledge-source/shared-knowledge/article-reviewed-data.json",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "d92a326dc3fa28cee0f106fcefb5dc881f54161d",
+    "bytes": 4579,
+    "verified": true
+  },
+  {
+    "path": "reports/shared-knowledge-source/shared-knowledge/illustrated-story.json",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "ff321a8d630c6e5ab5edc7047c4d50e24103c3d0",
+    "bytes": 7147,
+    "verified": true
+  },
+  {
+    "path": "reports/shift-constraints-source/shift-constraints/article-entry.json",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "7961a9d514abe3383fca5ec2c3cef1490808f10c",
+    "bytes": 6892,
+    "verified": true
+  },
+  {
+    "path": "reports/shift-constraints-source/shift-constraints/article-reviewed-data.json",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "b39393fe4d8ab056a5e514e1af2352d0add8aa43",
+    "bytes": 4492,
+    "verified": true
+  },
+  {
+    "path": "reports/shift-constraints-source/shift-constraints/illustrated-story.json",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "0ada80ae376453672718e903a41246500ba73029",
+    "bytes": 6555,
+    "verified": true
+  },
+  {
+    "path": "reports/stockout-demand-source/stockout-demand/article-entry.json",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "24c3ccc160c0ad17ab840eefec3bc801aba9eb78",
+    "bytes": 7122,
+    "verified": true
+  },
+  {
+    "path": "reports/stockout-demand-source/stockout-demand/article-reviewed-data.json",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "3dfac7f90670e926f1d15c44256c40892841aab2",
+    "bytes": 4337,
+    "verified": true
+  },
+  {
+    "path": "reports/stockout-demand-source/stockout-demand/illustrated-story.json",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "90530660cfe8592ed8c8f1f6810b87a096b5b037",
+    "bytes": 10004,
+    "verified": true
+  },
+  {
+    "path": "reports/training-content-insourcing-source/training-content-insourcing/article-entry.json",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "703b6ca5c4f497bf82884a6ce4981943a991b5a5",
+    "bytes": 6699,
+    "verified": true
+  },
+  {
+    "path": "reports/training-content-insourcing-source/training-content-insourcing/article-reviewed-data.json",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "05e171749c90d9e7f3cf0daf69fda65d2c85a933",
+    "bytes": 4708,
+    "verified": true
+  },
+  {
+    "path": "reports/training-content-insourcing-source/training-content-insourcing/illustrated-story.json",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "cb5cffb1b3e0c8bd05e7349b108a1b5aabb57b19",
+    "bytes": 6274,
+    "verified": true
+  },
+  {
+    "path": "reports/vision-feedback-timing-source/vision-feedback-timing/article-entry.json",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "e902914808bd8b887de4fd9cccd4beb3d9fc77a2",
+    "bytes": 7261,
+    "verified": true
+  },
+  {
+    "path": "reports/vision-feedback-timing-source/vision-feedback-timing/article-reviewed-data.json",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "2166211770b8256302a5b68bc636df6d172fcd7a",
+    "bytes": 4080,
+    "verified": true
+  },
+  {
+    "path": "reports/vision-feedback-timing-source/vision-feedback-timing/illustrated-story.json",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "8aa6b0bda59d0dbbf485d91ea6f3afba567bcc4d",
+    "bytes": 9734,
+    "verified": true
+  },
+  {
+    "path": "reports/waste-resale-source/waste-resale/article-entry.json",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "93c8615ed453d093e13fb002f861b665fd467417",
+    "bytes": 7741,
+    "verified": true
+  },
+  {
+    "path": "reports/waste-resale-source/waste-resale/article-reviewed-data.json",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "df2c137b5453303dcb66e296b9c1d5bed58d749e",
+    "bytes": 4377,
+    "verified": true
+  },
+  {
+    "path": "reports/waste-resale-source/waste-resale/illustrated-story.json",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "61ed0c381db061a67301ebc9828238ba34cbe66a",
+    "bytes": 6729,
+    "verified": true
+  },
+  {
+    "path": "reports/food-waste-measurement-source/timeline/article_topics.json",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "12180c15d4ecc3a0573ef236a490646f6cb76109",
+    "bytes": 2524,
+    "verified": true
+  },
+  {
+    "path": "reports/food-waste-measurement-source/WasteDiagrams.jsx",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "9ed64a6274fa0558ec9122864794245534b7689e",
+    "bytes": 1935,
+    "verified": true
+  },
+  {
+    "path": "reports/food-waste-measurement-source/waste-diagrams.css",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "2ad60de004a8a3c0e51efc0b4cb0e5a7c37923e5",
+    "bytes": 2286,
+    "verified": true
+  },
+  {
+    "path": "reports/food-waste-measurement-source/food-waste-measurement/article-entry.json",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "bc04c28288af27bdb73c1ac1330050dff61ce7bb",
+    "bytes": 7436,
+    "verified": true
+  },
+  {
+    "path": "reports/food-waste-measurement-source/food-waste-measurement/illustrated-story.json",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "b7a3e371e71a2f52b8cbc4d74b840ca8e5c237cb",
+    "bytes": 9695,
+    "verified": true
+  },
+  {
+    "path": "reports/food-waste-measurement-source/food-waste-measurement/article-reviewed-data.json",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "e5aa29ae1e0ae2c93ddacaed965a4f662a2ccb3f",
+    "bytes": 5229,
+    "verified": true
+  },
+  {
+    "path": "reports/customer-agent-entry-source/timeline/integrate39.py",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "1ab76aae02b43cd6f7ba222cfd0652bdadabc5ec",
+    "bytes": 2319,
+    "verified": true
+  },
+  {
+    "path": "reports/service-handoff-source/timeline/integrate40.py",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "ebd3580775ca76812f5041dc6c8dbccb8d7de415",
+    "bytes": 2399,
+    "verified": true
+  },
+  {
+    "path": "reports/order-cancellation-source/timeline/integrate41.py",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "b81c0b6f6dc26637920a5280191f5287d473e642",
+    "bytes": 1913,
+    "verified": true
+  },
+  {
+    "path": "reports/menu-change-release-source/timeline/integrate42.py",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "a902367c5fc1099ee39b2ce60b1f1156b5e3b4b0",
+    "bytes": 1799,
+    "verified": true
+  },
+  {
+    "path": "reports/store-accounting-source/timeline/integrate43.py",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "54b41ed78b4122ae2d7dc27b6085565e68d407c2",
+    "bytes": 1800,
+    "verified": true
+  },
+  {
+    "path": "reports/offline-pos-source/timeline/integrate44.py",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "608532cb284f0602d5cc655e27e2b6ec60c46527",
+    "bytes": 1773,
+    "verified": true
+  },
+  {
+    "path": "reports/food-images-revision-source/apply_revision.py",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "870d43008b229e4c04d231e5138a41d248e71cd2",
+    "bytes": 1779,
+    "verified": true
+  },
+  {
+    "path": "reports/customer-agent-entry-source/AgentEntryDiagrams.jsx",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "18ae81c6bc5715ed0ba75990409dbbf61b764b28",
+    "bytes": 1808,
+    "verified": true
+  },
+  {
+    "path": "reports/customer-agent-entry-source/agent-entry-diagrams.css",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "02fb949d9514bdd168b61b097488e6f36e100f6d",
+    "bytes": 2532,
+    "verified": true
+  },
+  {
+    "path": "reports/customer-agent-entry-source/customer-agent-entry/article-entry.json",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "95b8e17ec4a7ebba97f413594ed814430a311d77",
+    "bytes": 7016,
+    "verified": true
+  },
+  {
+    "path": "reports/customer-agent-entry-source/customer-agent-entry/illustrated-story.json",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "550ebee3c85cba65d5eda5275a2a50fb3d7ce184",
+    "bytes": 10046,
+    "verified": true
+  },
+  {
+    "path": "reports/customer-agent-entry-source/customer-agent-entry/article-reviewed-data.json",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "35280ecb9a8957c23a50c2ae1068c4ebbdf5fec0",
+    "bytes": 5531,
+    "verified": true
+  },
+  {
+    "path": "reports/service-handoff-source/HandoffDiagrams.jsx",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "b2f7f4e5a22a60e1ed7e425253d72bdfa586b209",
+    "bytes": 1770,
+    "verified": true
+  },
+  {
+    "path": "reports/service-handoff-source/handoff-diagrams.css",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "9c3c4114a9a114f4445012afe52e5ef5d5d1bef8",
+    "bytes": 2728,
+    "verified": true
+  },
+  {
+    "path": "reports/service-handoff-source/service-handoff/article-entry.json",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "0976e0b2bb9f47c74d63405002e22e87c0cc4b0e",
+    "bytes": 6183,
+    "verified": true
+  },
+  {
+    "path": "reports/service-handoff-source/service-handoff/illustrated-story.json",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "e8d1eede64c30934c67fec9bd4205ba058884b86",
+    "bytes": 9288,
+    "verified": true
+  },
+  {
+    "path": "reports/service-handoff-source/service-handoff/article-reviewed-data.json",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "5f42b0e497b897a37ba8d9832d51ae0f1801e0f8",
+    "bytes": 5128,
+    "verified": true
+  },
+  {
+    "path": "reports/order-cancellation-source/CancellationDiagrams.jsx",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "93c8c785b365614f69adccd502e54388eee85459",
+    "bytes": 1651,
+    "verified": true
+  },
+  {
+    "path": "reports/order-cancellation-source/cancellation-diagrams.css",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "1620d3f67a9a1dbd04f43ed6e3cc3af053ca6a60",
+    "bytes": 2208,
+    "verified": true
+  },
+  {
+    "path": "reports/order-cancellation-source/order-cancellation/article-entry.json",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "13be5a1e9c2ca0c6f47b477f17051e367bd805d1",
+    "bytes": 5666,
+    "verified": true
+  },
+  {
+    "path": "reports/order-cancellation-source/order-cancellation/illustrated-story.json",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "600bc60e3af6c657dc472d41c591da80d05d9ea4",
+    "bytes": 9042,
+    "verified": true
+  },
+  {
+    "path": "reports/order-cancellation-source/order-cancellation/article-reviewed-data.json",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "ae6357c74e74f3dc07507d3b267e782c87846732",
+    "bytes": 5289,
+    "verified": true
+  },
+  {
+    "path": "reports/menu-change-release-source/MenuDiagrams.jsx",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "9b12fcb04619a24a8a9568934a64b2001fbc50d3",
+    "bytes": 1111,
+    "verified": true
+  },
+  {
+    "path": "reports/menu-change-release-source/menu-diagrams.css",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "978fcc367c34a82c610ea153b58fbee6c23f2376",
+    "bytes": 954,
+    "verified": true
+  },
+  {
+    "path": "reports/menu-change-release-source/article-entry.json",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "b1f25d39f5b338902892573041295f08cb55989e",
+    "bytes": 8285,
+    "verified": true
+  },
+  {
+    "path": "reports/menu-change-release-source/illustrated-story.json",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "4548f0bd37c5b6d5cf177b16f0439d164203d964",
+    "bytes": 11080,
+    "verified": true
+  },
+  {
+    "path": "reports/menu-change-release-source/article-reviewed-data.json",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "6b38efdda1ff19dd867c35cd0da884b0cce10193",
+    "bytes": 5601,
+    "verified": true
+  },
+  {
+    "path": "reports/store-accounting-source/AccountingDiagrams.jsx",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "c46f22b0cbaa71180ac3d3140bfd81e0f2e870ca",
+    "bytes": 922,
+    "verified": true
+  },
+  {
+    "path": "reports/store-accounting-source/accounting-diagrams.css",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "4c79a31048e7f6ebbd454debb33441d8633e9684",
+    "bytes": 1044,
+    "verified": true
+  },
+  {
+    "path": "reports/store-accounting-source/article-entry.json",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "94486f551db6a14a7feca43fffc5320fadeabc4a",
+    "bytes": 8903,
+    "verified": true
+  },
+  {
+    "path": "reports/store-accounting-source/illustrated-story.json",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "c0143e680b5bac97404ae8d0ef331682180a3f78",
+    "bytes": 13624,
+    "verified": true
+  },
+  {
+    "path": "reports/store-accounting-source/article-reviewed-data.json",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "2e573532d807ceeade25e250cd0c6208e8b83761",
+    "bytes": 7403,
+    "verified": true
+  },
+  {
+    "path": "reports/offline-pos-source/OfflineDiagrams.jsx",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "7414a7a7fefe27b5d698a04a5b103188a8abfe8d",
+    "bytes": 898,
+    "verified": true
+  },
+  {
+    "path": "reports/offline-pos-source/offline-diagrams.css",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "5b4e152aac28362f103124340dfc637f0ced60f0",
+    "bytes": 999,
+    "verified": true
+  },
+  {
+    "path": "reports/offline-pos-source/article-entry.json",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "72d5016ecdfd1786150e0839582fa676ab24d54e",
+    "bytes": 8702,
+    "verified": true
+  },
+  {
+    "path": "reports/offline-pos-source/illustrated-story.json",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "e3f07e5ac365b67177e7b2bb95bf7cf862cf86b3",
+    "bytes": 13381,
+    "verified": true
+  },
+  {
+    "path": "reports/offline-pos-source/article-reviewed-data.json",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "a21492ce1b81d0020f7233849e811e5d0bea1edb",
+    "bytes": 7403,
+    "verified": true
+  },
+  {
+    "path": "reports/service-handoff-source/timeline/integration-inputs.json",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "c7b5d3bd4310af3f6af29caec9c5589f43c47b7e",
+    "bytes": 1079,
+    "verified": true
+  },
+  {
+    "path": "reports/food-images-revision-source/test_reader_routes.mjs",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "8269a8a62ab6350ce27dfb660cb88e843cb2d702",
+    "bytes": 2275,
+    "verified": true
+  },
+  {
+    "path": "reports/batch-2026-10-30/shared/update_article.py",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "b155f2fd5058e7b3ee3fd4302ad0b24571de5d3e",
+    "bytes": 1747,
+    "verified": true
+  },
+  {
+    "path": "reports/batch-2026-10-30/food-images/update-guard.json",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "91039355a84f6b50c81f20ad29587926858c5a85",
+    "bytes": 355,
+    "verified": true
+  },
+  {
+    "path": "reports/batch-2026-10-30/food-images/article-entry.json",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "47fd939de5f6c8407668165fa6ef4aee61f309be",
+    "bytes": 5654,
+    "verified": true
+  },
+  {
+    "path": "reports/batch-2026-10-30/food-images/illustrated-story.json",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "0238ad2121ad4dd23a0ff8166ff9620669631558",
+    "bytes": 6658,
+    "verified": true
+  },
+  {
+    "path": "reports/batch-2026-10-30/food-images/article-reviewed-data.json",
+    "ref": "378db871b914bf2f6cb1e29c814e15c3c03d85cd",
+    "sha": "82ba27c808d4aeec422d139cdbdb286951c2a02b",
+    "bytes": 4300,
+    "verified": true
+  },
+  {
+    "path": "old-food-images/article-entry.json",
+    "ref": "90a2cc6e90e87dd84294840e4e00dfbb6e7b4a43",
+    "sha": "9beb84499c363861bbd2cd8d1452df45976d1476",
+    "bytes": 4412,
+    "verified": true
+  },
+  {
+    "path": "old-food-images/illustrated-story.json",
+    "ref": "90a2cc6e90e87dd84294840e4e00dfbb6e7b4a43",
+    "sha": "768f5946906bf193d963838acfbabf00382e531f",
+    "bytes": 5068,
+    "verified": true
+  },
+  {
+    "path": "old-food-images/article-reviewed-data.json",
+    "ref": "90a2cc6e90e87dd84294840e4e00dfbb6e7b4a43",
+    "sha": "ff21963567b9956a20295eda0f1ac803e281de7f",
+    "bytes": 4300,
+    "verified": true
+  }
+]

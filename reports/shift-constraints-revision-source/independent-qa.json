@@ -1,0 +1,150 @@
+{
+  "status": "Passed reviewed desktop scope; source-link label issue resolved and independently retested",
+  "checkedAt": "2026-11-05",
+  "evidence": {
+    "articleId": "research-2026-11-01-shift-constraints-note",
+    "firstGit": "daa2e94fd3780500f5d3a7e3291e1a3c1df86743",
+    "firstPublishedAt": "2026-11-01T14:03:18Z",
+    "firstCommitAuthorAndCommitterTimeVerified": true,
+    "noteCommit": "2b466f57a0176f05386b4e0915443e2a28d3b2e8",
+    "smallSourceCommit": "91dc53aa9fc10a34468e607b3efad0849799ef03",
+    "bodySha256": "7042c61fbb7377d3a37a84b0375cb6d19b814f3440b291c3b7c88506e15c0b89",
+    "smallSourcesMatchBothAuthorProjects": true,
+    "sourceRoles": "Employee interviews support reported experiences and questions for verification. The company 20-F confirms its mechanism disclosure only, not the same system version, coverage or effectiveness.",
+    "jiemian": {
+      "url": "https://www.jiemian.com/article/15256976.html",
+      "observed": "Publication timestamp 2026/10/28 19:54 and employee interview paragraphs on task time, changed demand and monthly assessment were read."
+    },
+    "sec": {
+      "url": "https://www.sec.gov/Archives/edgar/data/1767582/000110465926035712/lk-20251231x20f.htm",
+      "observed": "Technology, printed page 78, describes automatic staff shifts and order assignments. Real-time analysis in the adjoining sentence concerns inventory. Signature dated March 27, 2026."
+    }
+  },
+  "staticChecks": {
+    "preservationScript": "Passed independently rerun",
+    "mergeGuard": "Passed same ID, unrelated content, repeat application, and rejection before writes for body, metadata, story and query edits",
+    "routeParsing": "Passed independently rerun",
+    "counts": {
+      "research": 44,
+      "fullOriginals": 64,
+      "illustratedStories": 44,
+      "samples": 2,
+      "ai": 27,
+      "queries": 91
+    },
+    "preserved": {
+      "otherOriginals": 63,
+      "otherStories": 43,
+      "otherQueries": 89,
+      "otherPortalSourceFiles": 260,
+      "otherStandaloneSourceFiles": 245,
+      "scopedReaderChange": "One exact article-ID conditional label replacement; all other reader bytes preserved"
+    },
+    "privacy": "Passed recursive text payload checks: 78 portal and 64 standalone payloads, 5 downloads and 2 ZIP containers in each project",
+    "buildManifests": "Exact bytes and SHA256 verified for both HTML and data snapshot in each project",
+    "previewInputs": "Exact copies matched final split-build files and standalone sanitized offline HTML"
+  },
+  "browserChecks": {
+    "environment": "Managed Sites preview and cloud Chrome, desktop screenshot 1165 by 747 pixels",
+    "standaloneDist": [
+      "Opened and visually inspected title, first-publication/update timestamps and first diagram.",
+      "Expanded table of contents, jumped to evidence, returned to top.",
+      "Opened first diagram source overview and data preview; 4 rows matched diagram; searching 临时 returned 1 matching row; closed the panel.",
+      "Expanded and collapsed full original text; revised paragraphs and all four sources were present."
+    ],
+    "portalDist": [
+      "Opened timeline and observed 44 research, 64 full materials and 2 sample labels.",
+      "AI filter returned 27; search 班表 returned 2, including the revised article.",
+      "Opened revised article and visually inspected title and timestamps.",
+      "Opened second diagram source overview and data preview; 2 rows matched the comparison; closed the panel and visually checked the two-column diagram.",
+      "Followed next article to inventory, checked new heading and collapsed controls at article top.",
+      "Browser Back returned to shift article, then Back restored AI topic plus 班表 search and 2 results.",
+      "Search 不存在的研究词xyz showed 0 with an empty-state message; reset restored 44.",
+      "Sample tab showed both preserved samples; delivery calculator opened in its isolated preview.",
+      "Changed synthetic N from 1000 to 2000: conditional contribution changed from -1200.00 CNY to -400.00 CNY; reset restored -1200.00 CNY and original inputs.",
+      "All-materials tab displayed 64."
+    ],
+    "sanitizedStandaloneHTML": [
+      "Opened complete single-file HTML separately.",
+      "Visually checked title and revision timestamps.",
+      "Expanded full text and confirmed revised paragraphs and four source references."
+    ],
+    "console": "Recent error log samples showed browser-extension metadata errors only; no application error was observed in those samples."
+  },
+  "issue": {
+    "severity": "minor",
+    "component": "Portal shared illustrated reader",
+    "observedLabel": "查看首次固定版本研究原文与计算附件",
+    "actualLink": "Current revised note commit 2b466f57a0176f05386b4e0915443e2a28d3b2e8",
+    "recommendation": "Remove 首次 when linking to the current revision.",
+    "status": "resolved",
+    "resolution": "Only the shift article now displays 查看固定版本研究原文与计算附件. The target URL did not change. Other articles retain their previous labels and URLs."
+  },
+  "limits": [
+    "Mobile viewport and physical mobile device were not tested.",
+    "Single-file HTML was opened through managed preview; actual network-disabled and file-protocol operation were not tested.",
+    "No deployment or original hosted Site access was performed.",
+    "Original attachment read was denied by current access scope. No replacement, duplicate, permission change or workaround was attempted.",
+    "Checks establish preservation against the reconstructed readable baseline, not byte identity with the missing historical full author project.",
+    "Not every portal article or sample interaction was retested; unchanged contents were checked by byte/object preservation tests."
+  ],
+  "sourceLabelRetest": {
+    "checkedAt": "2026-11-05",
+    "previousAcceptance": {
+      "status": "Passed reviewed desktop scope, with one minor source-link label issue",
+      "otherPortalSourceFiles": 261,
+      "issue": {
+        "severity": "minor",
+        "component": "Portal shared illustrated reader",
+        "observedLabel": "查看首次固定版本研究原文与计算附件",
+        "actualLink": "Current revised note commit 2b466f57a0176f05386b4e0915443e2a28d3b2e8",
+        "recommendation": "Remove 首次 when linking to the current revision."
+      }
+    },
+    "scope": "Follow-up of the one article-scoped portal label change; prior acceptance history and limitations remain in this file.",
+    "browser": "Official managed Sites preview, cloud Chrome at desktop 1165 by 747 pixels. Preview stopped after verification.",
+    "steps": [
+      "Copied current portal split-build files byte-for-byte into the managed preview and opened a fresh browser tab.",
+      "Opened the shift article from the timeline, expanded the table of contents and selected Sources. Accessibility output and visible screenshot both showed the corrected label.",
+      "Followed the adjacent inventory article, expanded its table of contents and selected Sources. Accessibility output and screenshot both showed its original first-version label and separate revision link.",
+      "Read rendered link destinations without navigating to GitHub or any other external site."
+    ],
+    "shift": {
+      "articleId": "research-2026-11-01-shift-constraints-note",
+      "label": "查看固定版本研究原文与计算附件 ↗",
+      "href": "https://github.com/louiseliu/restaurant-business-lab/blob/2b466f57a0176f05386b4e0915443e2a28d3b2e8/research/2026-11-01-shift-constraints/note.md",
+      "result": "Passed"
+    },
+    "unrelatedArticle": {
+      "articleId": "research-2026-11-01-inventory-capture-note",
+      "label": "查看首次固定版本研究原文与计算附件 ↗",
+      "href": "https://github.com/louiseliu/restaurant-business-lab/blob/7754605220237525f8e76c522d747b2ade7efe41/research/2026-11-01-inventory-capture/note.md",
+      "revisionHref": "https://github.com/louiseliu/restaurant-business-lab/blob/8e8bf1681d80990f0fefbea01ed27e5881c4773d/research/2026-11-01-inventory-capture/note.md",
+      "result": "Passed; original label and both links preserved"
+    },
+    "staticRetest": "Preservation and route tests independently rerun successfully. Exact conditional replacement assertion passed; 260 other portal source files unchanged. Counts, all articles, other stories/queries, protected files and privacy checks passed.",
+    "buildManifests": "Portal HTML and snapshot bytes and SHA256 independently recomputed and matched current build manifest and the exact preview inputs.",
+    "portalBuild": {
+      "version": 1,
+      "kind": "separate-data-v1",
+      "html": {
+        "path": "index.html",
+        "sha256": "d5735cd85a543983772f151d9a0aed0d267c4a90399490de4f2faabc3123c11a",
+        "bytes": 12798949
+      },
+      "snapshot": {
+        "path": "snapshot.78482be02eae6a7fd9c528706dc890e6f146f525632dfe15d9a38a10825ca882.json",
+        "sha256": "78482be02eae6a7fd9c528706dc890e6f146f525632dfe15d9a38a10825ca882",
+        "bytes": 199390
+      },
+      "runtimeSha256": "b1771584910da746d0cf1b967a4889fee226053d841596104b457a04a2dd3d91",
+      "sourceSnapshotSha256": "78482be02eae6a7fd9c528706dc890e6f146f525632dfe15d9a38a10825ca882"
+    },
+    "portablePortal": {
+      "bytes": 12998135,
+      "sha256": "84bd1f2dbce2b6190a679df7ac4ad8b5110d5921a8e89cdd4f2f820193e5052b",
+      "scope": "Recomputed and covered by static tests; the portable portal itself was not opened during this focused retest."
+    },
+    "accessAndScope": "No restricted attachment operations, uploads, original hosted Site access, publication, mobile test, or network-disabled test performed."
+  }
+}
