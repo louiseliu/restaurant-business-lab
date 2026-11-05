@@ -5,7 +5,10 @@
   "deliveryEvidence": "Send request accepted; recipient opening or download not verified",
   "htmlSha256": "1b9abe3eaa87745fe983ccee847e2ef7a0b74ae91d780bcce7bd6503fb571d46",
   "htmlBytes": 2932631,
-  "fullPortalIntegration": "pending; latest complete portal remains 56 research articles, 76 full texts, 2 samples and 36 AI articles",
+  "fullPortalIntegration": "completed locally: 57 research articles, 77 full texts, 2 samples, 37 AI articles, 117 queries; static verification passed; full portal browser verification not performed",
   "originalSiteSync": "pending; last verified published site remains v19, 20 research articles, 40 full texts, 2 samples and 9 AI articles; current readability not rechecked",
-  "htmlGitArchive": "pending; no HTML or ZIP included in this author-source archive"
+  "htmlGitArchive": "pending; no HTML or ZIP included in this author-source archive",
+  "fullPortalDelivery": "not sent in this integration step",
+  "fullPortalHtmlSha256": "9cdafd346a247ea3f0cbe1ae2a107fd4580b4b84c4bdecac2a36637944f2d0dd",
+  "fullPortalHtmlBytes": 13510333
 }

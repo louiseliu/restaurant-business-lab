@@ -1,0 +1,37 @@
+{
+  "status": "passed",
+  "scope": "Independent local static and executable QA; no publication or upload",
+  "checks": [
+    "Re-executed preservation test against original 56-story portal, not only its copied baseline",
+    "Re-executed additive merge guard including component, stylesheet and preview conflicts",
+    "Re-executed Node route parsing and URL round-trip tests",
+    "Independently enumerated all baseline files: exactly four expected changes and three additions",
+    "Frozen narrative and source ledger hashes, first Git timestamp and descending order verified",
+    "Compiled catalog, stories, samples, snapshot and official build manifest verified",
+    "Five downloads and two recursively inspected ZIP archives verified, including CRC and one release manifest",
+    "141 text payload privacy pattern checks passed"
+  ],
+  "counts": {
+    "researchArticles": 57,
+    "fullOriginals": 77,
+    "illustratedStories": 57,
+    "samples": 2,
+    "aiArticles": 37,
+    "queries": 117,
+    "preservedOriginals": 76,
+    "preservedStories": 56,
+    "preservedQueries": 115,
+    "unchangedFiles": 318
+  },
+  "artifact": {
+    "file": "timeline57-kitchen-label.html",
+    "bytes": 13510333,
+    "sha256": "9cdafd346a247ea3f0cbe1ae2a107fd4580b4b84c4bdecac2a36637944f2d0dd"
+  },
+  "limitations": [
+    "No full-portal browser visual or interaction verification",
+    "Static route checks do not establish browser history or scroll behavior",
+    "Preserves readable local baseline; does not recover unavailable historical or unarchived edits",
+    "Privacy checks are recursive pattern scans, not a guarantee against every possible secret encoding"
+  ]
+}

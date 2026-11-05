@@ -1,0 +1,38 @@
+{
+  "portal57": {
+    "buildStatus": "complete",
+    "researchArticles": 57,
+    "fullOriginals": 77,
+    "illustratedStories": 57,
+    "samples": 2,
+    "aiArticles": 37,
+    "queries": 117,
+    "preservedOriginals": 76,
+    "preservedStories": 56,
+    "preservedQueries": 115,
+    "unchangedBaselineFiles": 318,
+    "legacyReportSha256": "1c2034ad9bcd6457ba9ab65d42717940b3d552a488a06b2b417b6063140b292d",
+    "portalReaderSha256": "c6ed936b73898cf795e0ca9e8a4c9700b1e480787e8020388391119ac8133a6a",
+    "privacyTextPayloads": 141,
+    "downloadPayloads": 5,
+    "recursiveZipContainers": 2,
+    "verifiedReleaseManifests": 1,
+    "compiledContents": "catalog, stories and embedded sample payloads equal reviewed source",
+    "buildManifest": "exact HTML and snapshot bytes and hashes verified",
+    "runtimeSha256": "b1771584910da746d0cf1b967a4889fee226053d841596104b457a04a2dd3d91",
+    "bytes": 13510333,
+    "sha256": "9cdafd346a247ea3f0cbe1ae2a107fd4580b4b84c4bdecac2a36637944f2d0dd"
+  },
+  "scope": {
+    "articleId": "research-2026-11-05-kitchen-label-note",
+    "firstGit": "7d24196f2e5ab9868d4a3fd024618cc1d7eccc7f",
+    "publishedAt": "2026-11-05T19:11:27Z",
+    "bodySha256": "24f7c7367b801e624b274c058d6978f37e54ed67377409bcb1faf544635b19ca",
+    "sourcesSha256": "f7c9fec816e530880ec0934b4c9199c1884417b6ae20b3edb055ecfd9560653a",
+    "published": false,
+    "largeHTMLGitArchive": "not attempted",
+    "baselineLimit": "Preserves the readable local 56-story baseline; does not recover unavailable historical or unarchived edits.",
+    "visualQA": "Full portal browser rendering and interactions not checked. Existing standalone visual QA applies only to the standalone artifact.",
+    "reproducibility": "Fresh isolated source copy built with build_portal.py; final HTML byte-identical"
+  }
+}
