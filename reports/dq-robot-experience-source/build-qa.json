@@ -1,0 +1,43 @@
+{
+  "portal50": {
+    "buildStatus": "complete",
+    "fullOriginals": 70,
+    "illustratedStories": 50,
+    "queries": 103,
+    "unchangedBaselineFiles": 297,
+    "privacyTextPayloads": 102,
+    "downloadPayloads": 5,
+    "zipContainers": 2,
+    "compiledContents": "equal reviewed source",
+    "buildManifest": "verified exact HTML/snapshot bytes and hashes",
+    "runtimeSha256": "b1771584910da746d0cf1b967a4889fee226053d841596104b457a04a2dd3d91",
+    "bytes": 13228952,
+    "sha256": "89d1ecd3fc7a2a96eb91d69932e407b6d8d5dbf2afe0ff6347303d1ea904ca56",
+    "visualQA": "separate independent report"
+  },
+  "standalone": {
+    "buildStatus": "complete",
+    "fullOriginals": 1,
+    "illustratedStories": 1,
+    "queries": 2,
+    "unchangedBaselineFiles": 241,
+    "privacyTextPayloads": 14,
+    "downloadPayloads": 0,
+    "zipContainers": 0,
+    "compiledContents": "equal reviewed source",
+    "buildManifest": "verified exact HTML/snapshot bytes and hashes",
+    "runtimeSha256": "b1771584910da746d0cf1b967a4889fee226053d841596104b457a04a2dd3d91",
+    "bytes": 2932648,
+    "sha256": "29fa2cb5cb43e59f9b55c782fd9a7a9877f362315afe158acd4b3b4df700ccf8",
+    "visualQA": "separate independent report"
+  },
+  "scope": {
+    "articleId": "research-2026-11-05-dq-robot-experience-note",
+    "firstGit": "585bfe69c482c1ecc4095bf6db09ed43f48cad42",
+    "publishedAt": "2026-11-05T12:13:32Z",
+    "bodySha256": "3e247d858d33fb91e10a7bdab1d04998c04bcbc0005e418c5b2cda4ffaf51e26",
+    "published": false,
+    "largeHTMLGitArchive": "not attempted",
+    "baselineLimit": "Preserved readable reconstructed 49-story baseline; not proof that missing historical edits were recovered."
+  }
+}

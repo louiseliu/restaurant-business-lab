@@ -1,0 +1,18 @@
+{
+  "status": "passed_static_only",
+  "recordType": "Summary of independent review result; no separate original reviewer file was produced",
+  "standaloneSha256": "29fa2cb5cb43e59f9b55c782fd9a7a9877f362315afe158acd4b3b4df700ccf8",
+  "checked": [
+    "Frozen complete body",
+    "All five source coverage",
+    "Diagrams and query data consistency",
+    "Privacy static checks",
+    "Route static checks"
+  ],
+  "notTested": [
+    "Desktop visual rendering",
+    "Mobile visual rendering",
+    "Browser interactions"
+  ],
+  "published": false
+}

@@ -1,0 +1,160 @@
+{
+  "surface": "report",
+  "title": "DQ机器人体验店：探索预算何时能变成单店替岗采购",
+  "generatedAt": "2026-11-05T12:13:32Z",
+  "status": "reviewed",
+  "buildStatus": "creating",
+  "exportPreferences": {
+    "selected": null,
+    "destinations": []
+  },
+  "filters": [],
+  "report": {
+    "asOf": "2026-11-05"
+  },
+  "queries": {
+    "diagram-research-2026-11-05-dq-robot-experience-note": {
+      "rows": [
+        {
+          "决定": "技术探索",
+          "购买什么": "真实门店中的任务学习与能力改进。",
+          "继续投入的证据": "目标任务逐步可交付，异常与干预负担有可追踪变化。",
+          "先约定": "总部、供应商与门店分别承担哪些费用，支持到何时。",
+          "停止或调整": "投入增加而接管负担未降时，收窄任务或停止扩店。"
+        },
+        {
+          "决定": "顾客体验",
+          "购买什么": "带来可核实的新增购买、复购或减少流失的体验理由。",
+          "继续投入的证据": "新鲜感减弱后仍有可归因的新增贡献，且不挤压正常服务。",
+          "先约定": "保留普通取餐渠道，计入展示、空间和额外接待支出。",
+          "停止或调整": "贡献达不到原定要求时，缩短展示时段或结束合作。"
+        },
+        {
+          "决定": "单店替岗",
+          "购买什么": "能够独立交接的一段工作，而非一次制作动作。",
+          "继续投入的证据": "本店正常订单与完整餐段下稳定交付，干预可安排，实际付薪安排可以改变。",
+          "先约定": "完整成本、补料清洁、故障恢复、接管人及支持期限。",
+          "停止或调整": "若须偏离正常需求限量、未计价的额外看护或未落实降价才能成立，留在有上限的试验预算中。"
+        }
+      ],
+      "source": {
+        "label": "一台机器，三笔预算，各自需要继续投入的证据",
+        "files": [
+          "research/2026-11-05-dq-robot-experience/note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "事实边界与作者提出的预算核验条件",
+            "definition": "作者提出的预算分工，不是DQ已采用的财务制度。探索、体验与替岗可以并存，不代表必然依次升级。 图1｜原创决策示意，全部验收条件为作者建议；不是已经实现的经营效果，也不估算采购回本期。",
+            "componentIds": [
+              "diagram-research-2026-11-05-dq-robot-experience-note"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "CFB集团｜DQ与Sharpa项目公告（参与方）",
+            "detail": "https://www.cfbgroup.net/zh-hant/news/dq-sharpa-blizzard-robot-restaurant-ai-new-scene"
+          },
+          {
+            "title": "每日经济新闻｜开业报道与专家判断",
+            "detail": "https://www.nbd.com.cn/articles/2026-08-29/4565917.html"
+          },
+          {
+            "title": "第一财经｜开业现场有限观察与参与方采访",
+            "detail": "https://www.yicai.com/news/103339884.html"
+          },
+          {
+            "title": "南方周末行业动态｜CEO访谈（参与方口径）",
+            "detail": "https://www.infzm.com/contents/329884"
+          },
+          {
+            "title": "Sharpa｜到店指南（官方服务安排）",
+            "detail": "https://www.sharpa.com/pages/visitor-guide"
+          },
+          {
+            "title": "作者研究分析",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/585bfe69c482c1ecc4095bf6db09ed43f48cad42/research/2026-11-05-dq-robot-experience/note.md"
+          }
+        ],
+        "caveats": [
+          "技术团队学到东西 ≠ 门店新增收入；顾客愿意等待 ≠ 忙时岗位可以退出。三种价值不能用同一项指标互相替代。",
+          "图1｜原创决策示意，全部验收条件为作者建议；不是已经实现的经营效果，也不估算采购回本期。"
+        ]
+      }
+    },
+    "diagram-research-2026-11-05-dq-robot-experience-note:second": {
+      "rows": [
+        {
+          "决定": "机器人体验通道",
+          "已披露安排": "开业探访记录单一奥利奥口味、专属预约；CEO访谈介绍当时每日限量50至60单。",
+          "可以支持": "在真实门店内，以受控任务范围开展探索。",
+          "不能直接推出": "限量不是实际销量，完成预约不是正常柜台已少排一个人。"
+        },
+        {
+          "决定": "人工正常通道",
+          "已披露安排": "开业探访记录人工仍接临时订单；官方指南分别介绍机器人预约与24小时人工柜台。",
+          "可以支持": "体验预约与日常取餐并行，顾客仍有普通服务通道。",
+          "不能直接推出": "24小时门店营业不等于机器人全天运行，不能据此算夜班工资节省。"
+        },
+        {
+          "决定": "先核完整工作周期",
+          "已披露安排": "公开资料未给出全部人工干预工时及成本承担方。",
+          "可以支持": "下一步记录看护、补料、清洁、接管、恢复和对其他工作的打断。",
+          "不能直接推出": "列出待核工种，不等于断言本案例每项都有人工介入。"
+        },
+        {
+          "决定": "再核现金与贡献",
+          "已披露安排": "公开资料未提供可归因工资减少或净增利润。",
+          "可以支持": "核对实际可避免的付薪支出，或扣除变动支出后的新增订单贡献。",
+          "不能直接推出": "释放的零碎时间不是工资节省；同一订单不能重复记为引流和产能收益。"
+        }
+      ],
+      "source": {
+        "label": "预约通道完成了订单，普通柜台的工作却未必退出",
+        "files": [
+          "research/2026-11-05-dq-robot-experience/note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "事实边界与作者提出的预算核验条件",
+            "definition": "以开业报道披露的服务安排说明比较边界；下半部的工时与现金核验是作者建议。不同日期的有限观察和访谈数字不拼成速度趋势。 图2｜原创经营机制示意。来源只支持标明的安排与证据缺口；不表示真实客流比例、人工配置或已测得的因果关系。",
+            "componentIds": [
+              "diagram-research-2026-11-05-dq-robot-experience-note:second"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "CFB集团｜DQ与Sharpa项目公告（参与方）",
+            "detail": "https://www.cfbgroup.net/zh-hant/news/dq-sharpa-blizzard-robot-restaurant-ai-new-scene"
+          },
+          {
+            "title": "每日经济新闻｜开业报道与专家判断",
+            "detail": "https://www.nbd.com.cn/articles/2026-08-29/4565917.html"
+          },
+          {
+            "title": "第一财经｜开业现场有限观察与参与方采访",
+            "detail": "https://www.yicai.com/news/103339884.html"
+          },
+          {
+            "title": "南方周末行业动态｜CEO访谈（参与方口径）",
+            "detail": "https://www.infzm.com/contents/329884"
+          },
+          {
+            "title": "Sharpa｜到店指南（官方服务安排）",
+            "detail": "https://www.sharpa.com/pages/visitor-guide"
+          },
+          {
+            "title": "作者研究分析",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/585bfe69c482c1ecc4095bf6db09ed43f48cad42/research/2026-11-05-dq-robot-experience/note.md"
+          }
+        ],
+        "caveats": [
+          "若正常订单和完整工作周期尚未验证，预约体验的完成率不能直接用于替岗采购。反之，稳定预约单品本就是本店需求时，有限任务也可能有价值。",
+          "图2｜原创经营机制示意。来源只支持标明的安排与证据缺口；不表示真实客流比例、人工配置或已测得的因果关系。"
+        ]
+      }
+    }
+  }
+}

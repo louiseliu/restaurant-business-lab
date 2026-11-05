@@ -1,0 +1,9 @@
+{
+  "desktop": "not tested in this build",
+  "interactions": "not tested in browser; static route functions passed",
+  "mobile": "not tested",
+  "print": "not tested",
+  "offlineOpen": "not tested; complete offline export and no external HTML assets verified",
+  "published": false,
+  "scope": "Static checks do not establish visual or browser behavior."
+}
