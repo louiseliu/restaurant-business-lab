@@ -1,0 +1,24 @@
+{
+  "scope": "Limited desktop inspection of standalone report through supported internal preview",
+  "checked": [
+    "First view, final conditional title and first Git time in Beijing timezone",
+    "Both diagrams: six process cards, three decision cards and safety constraints",
+    "Contents expansion and diagram jump",
+    "Diagram 2 source inspector overview, three reviewed rows and S1/S3/S4 evidence flow",
+    "Full original expansion",
+    "Source ledger expansion and rendered source limitations",
+    "Return to article start"
+  ],
+  "notChecked": [
+    "Narrow/mobile",
+    "Theme and editing persistence",
+    "All source links clicked",
+    "Print",
+    "Real offline",
+    "Complete browser error logs",
+    "Whole article screenshots at every scroll position"
+  ],
+  "observed": "No clipping or overlapping in inspected desktop views. Long headings wrap normally. No claim of complete browser acceptance.",
+  "published": false,
+  "portalIntegration": false
+}

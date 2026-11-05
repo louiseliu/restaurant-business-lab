@@ -1,0 +1,27 @@
+{
+  "standalone": {
+    "buildStatus": "complete",
+    "fullOriginals": 1,
+    "illustratedStories": 1,
+    "narrativeSections": 6,
+    "queries": 2,
+    "sourceUrls": 4,
+    "unchangedOfficialFiles": 241,
+    "privacyTextPayloads": 14,
+    "compiledContents": "equal reviewed source",
+    "buildManifest": "verified exact HTML/snapshot bytes and hashes",
+    "runtimeSha256": "b1771584910da746d0cf1b967a4889fee226053d841596104b457a04a2dd3d91",
+    "bytes": 2932631,
+    "sha256": "1b9abe3eaa87745fe983ccee847e2ef7a0b74ae91d780bcce7bd6503fb571d46"
+  },
+  "scope": {
+    "articleId": "research-2026-11-05-kitchen-label-note",
+    "firstGit": "7d24196f2e5ab9868d4a3fd024618cc1d7eccc7f",
+    "publishedAt": "2026-11-05T19:11:27Z",
+    "bodySha256": "24f7c7367b801e624b274c058d6978f37e54ed67377409bcb1faf544635b19ca",
+    "published": false,
+    "largeHTMLGitArchive": "not attempted",
+    "portalIntegration": "not performed; standalone only"
+  },
+  "visualQA": "See visual-qa-status.json. Static checks do not establish rendered acceptance."
+}

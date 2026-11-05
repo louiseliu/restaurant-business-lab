@@ -1,0 +1,11 @@
+{
+  "articleId": "kitchen-label",
+  "standaloneReady": true,
+  "sendRequestAcceptedAt": "2026-11-05T19:19:34Z",
+  "deliveryEvidence": "Send request accepted; recipient opening or download not verified",
+  "htmlSha256": "1b9abe3eaa87745fe983ccee847e2ef7a0b74ae91d780bcce7bd6503fb571d46",
+  "htmlBytes": 2932631,
+  "fullPortalIntegration": "pending; latest complete portal remains 56 research articles, 76 full texts, 2 samples and 36 AI articles",
+  "originalSiteSync": "pending; last verified published site remains v19, 20 research articles, 40 full texts, 2 samples and 9 AI articles; current readability not rechecked",
+  "htmlGitArchive": "pending; no HTML or ZIP included in this author-source archive"
+}

@@ -1,0 +1,67 @@
+{
+  "articleId": "kitchen-label",
+  "result": "passed for the listed content, static and limited visual checks; no blocking issue observed",
+  "firstGit": "7d24196f2e5ab9868d4a3fd024618cc1d7eccc7f",
+  "htmlSha256": "1b9abe3eaa87745fe983ccee847e2ef7a0b74ae91d780bcce7bd6503fb571d46",
+  "staticChecked": [
+    "Frozen remote note.md and sources.md exactly match embedded article and source ledger, including SHA256",
+    "Six narrative sections complete; two reviewed row groups match diagram nodes",
+    "Build HTML and snapshot byte lengths and SHA256 match manifest",
+    "241 official non-content files unchanged",
+    "14 delivery text payloads scanned for private paths, private conversation/runtime identifiers and common credential patterns with no matches"
+  ],
+  "evidenceChecked": {
+    "readCurrentSources": [
+      "Pospal key manual facts",
+      "Xinhua key interview facts",
+      "Suzhou regulatory explanation key facts"
+    ],
+    "feishu": "Checked the existing extracted public HTML text; current page parser returned no article text. This is not a new independent full-page fetch."
+  },
+  "visualChecked": {
+    "desktop": {
+      "outerWindowPixels": [
+        1212,
+        886
+      ],
+      "returnedScreenshotContentPixels": [
+        1165,
+        747
+      ]
+    },
+    "narrowWindow": {
+      "outerWindowPixels": [
+        540,
+        886
+      ],
+      "returnedScreenshotContentPixels": [
+        493,
+        735
+      ]
+    },
+    "cssOrDeviceViewportMeasured": false,
+    "observations": [
+      "First view",
+      "Diagram 1 example cards and final card",
+      "Diagram 2 cards and shared safety constraints",
+      "Source section"
+    ],
+    "interactions": [
+      "Contents jump",
+      "Full original expansion",
+      "Return to article top"
+    ],
+    "result": "No reading-blocking overflow observed in inspected views"
+  },
+  "notChecked": [
+    "320px or 390px mobile viewport",
+    "Dark theme",
+    "Print",
+    "Real disconnected operation",
+    "Complete browser console logs",
+    "Every source inspector panel"
+  ],
+  "published": false,
+  "portalIntegrated": false,
+  "htmlGitArchived": false
+}
