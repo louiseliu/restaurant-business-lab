@@ -1,0 +1,23 @@
+{
+  "status": "partial-desktop-verified",
+  "surface": "standalone split build in supported managed preview",
+  "checks": [
+    "Desktop first view screenshot",
+    "Both original diagrams visually inspected",
+    "Contents opened and evidence jump worked",
+    "Diagram 2 source inspector Overview, four Data preview rows and Evidence flow checked",
+    "Source inspector closed, full original expanded through contents and inspected"
+  ],
+  "notChecked": [
+    "Narrow or mobile viewport",
+    "Whole portal browser view and interactions",
+    "All article sections individually screenshot-inspected",
+    "Theme switching and edit persistence",
+    "Print and real disconnected operation",
+    "Download clicks"
+  ],
+  "runtimeNotes": "Visible report and both diagrams loaded. Console sample included browser-extension metadata errors; no report render failure observed. This is not an assertion of an error-free browser.",
+  "published": false,
+  "scope": "No access to restricted original Site and no sharing change. Existing user edits remain protected against readable archived baseline only.",
+  "revisionCheck": "Final wording corrected from 产品页面 to 协议页面 in diagram 1 and matching query caveat; rebuilt both outputs, reran all static tests, and visually rechecked changed conclusion in supported desktop preview. No clipping observed. Other prior desktop checks apply to unchanged content."
+}

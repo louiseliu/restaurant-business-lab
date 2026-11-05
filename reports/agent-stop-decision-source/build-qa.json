@@ -1,0 +1,43 @@
+{
+  "portal54": {
+    "buildStatus": "complete",
+    "fullOriginals": 74,
+    "illustratedStories": 54,
+    "queries": 111,
+    "unchangedBaselineFiles": 309,
+    "privacyTextPayloads": 114,
+    "downloadPayloads": 5,
+    "zipContainers": 2,
+    "compiledContents": "equal reviewed source",
+    "buildManifest": "verified exact HTML/snapshot bytes and hashes",
+    "runtimeSha256": "b1771584910da746d0cf1b967a4889fee226053d841596104b457a04a2dd3d91",
+    "bytes": 13391512,
+    "sha256": "e8dc01087a3abe2bfe75dd6adc7a5cb29cc98422bafbfdee00e7a0d3d64b61e7",
+    "visualQA": "Portal browser visual and interactions not checked; preservation and routing are static checks."
+  },
+  "standalone": {
+    "buildStatus": "complete",
+    "fullOriginals": 1,
+    "illustratedStories": 1,
+    "queries": 2,
+    "unchangedBaselineFiles": 241,
+    "privacyTextPayloads": 14,
+    "downloadPayloads": 0,
+    "zipContainers": 0,
+    "compiledContents": "equal reviewed source",
+    "buildManifest": "verified exact HTML/snapshot bytes and hashes",
+    "runtimeSha256": "b1771584910da746d0cf1b967a4889fee226053d841596104b457a04a2dd3d91",
+    "bytes": 2929118,
+    "sha256": "5649ac8d95206d24049d1554bff1535c30b46dfec9f7491c2789298c824216c5",
+    "visualQA": "Desktop first view, two diagrams, contents navigation, full-text expansion and diagram 2 source inspector checked in supported local preview; narrow/mobile, print and real offline not checked."
+  },
+  "scope": {
+    "articleId": "research-2026-11-05-agent-stop-decision-note",
+    "firstGit": "7eac8a2769fd0c80d587c74162ef6fee370d85a4",
+    "publishedAt": "2026-11-05T16:09:05Z",
+    "bodySha256": "a129b3a9ebc954eccc8832117ee98ba3d4937512de1ac6638d94730773076ddb",
+    "published": false,
+    "largeHTMLGitArchive": "not attempted",
+    "baselineLimit": "Preserved readable archived 53-story baseline; not proof that missing historical edits were recovered."
+  }
+}
