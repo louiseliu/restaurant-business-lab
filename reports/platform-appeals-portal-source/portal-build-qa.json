@@ -1,0 +1,38 @@
+{
+  "portal60": {
+    "buildStatus": "complete",
+    "researchArticles": 60,
+    "fullOriginals": 80,
+    "illustratedStories": 60,
+    "samples": 2,
+    "aiArticles": 39,
+    "queries": 123,
+    "preservedOriginals": 79,
+    "preservedStories": 59,
+    "preservedQueries": 121,
+    "unchangedBaselineFiles": 327,
+    "legacyReportSha256": "1c2034ad9bcd6457ba9ab65d42717940b3d552a488a06b2b417b6063140b292d",
+    "portalReaderSha256": "c6ed936b73898cf795e0ca9e8a4c9700b1e480787e8020388391119ac8133a6a",
+    "privacyTextPayloads": 153,
+    "downloadPayloads": 5,
+    "recursiveZipContainers": 2,
+    "verifiedReleaseManifests": 1,
+    "compiledContents": "catalog, stories and embedded sample payloads equal reviewed source",
+    "buildManifest": "exact HTML and snapshot bytes and hashes verified",
+    "runtimeSha256": "b1771584910da746d0cf1b967a4889fee226053d841596104b457a04a2dd3d91",
+    "bytes": 13645958,
+    "sha256": "250ba17437c63dd0b866b987ca35cb17633940b3334fa93843bc46716a8157a3"
+  },
+  "scope": {
+    "articleId": "research-2026-11-05-platform-appeals-note",
+    "firstGit": "dc3c37fbf9a84e8f7de9dc13e5f9046d63fca91e",
+    "publishedAt": "2026-11-05T22:15:13Z",
+    "bodySha256": "92643fbe8398708fcb2d24b844fbe6f5728b4ce07bff414341da1e83dce99d3a",
+    "sourcesSha256": "95e7d31a414ac10add6f7f6ce657ed4f90903e7895962daa7e6164a4f6d1a476",
+    "published": false,
+    "largeHTMLGitArchive": "not attempted",
+    "presentationCorrection": "Only the portal second diagram metric-definition label is changed to 留证投入取舍; no row, definition, source, frozen prose, first-entry timestamp or delivered standalone file changed.",
+    "baselineLimit": "Preserves the readable local 59-story baseline; does not recover unavailable historical or unarchived edits.",
+    "visualQA": "Full portal browser rendering and interactions not checked. The latest standalone HTTP preview failed with ERR_CONNECTION_REFUSED; older file-protocol access was denied. No retry, rehosting or alternative route was used."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "repository": "louiseliu/restaurant-business-lab",
+  "checkedRef": "d7fe01c03bbb1f23e02dc616dfadc9073bb1d4e8",
+  "remoteSource": "reports/hiring-access-portal-source",
+  "remoteManifestSha": "e4ba0e0ee600f0f545054c29b449ecaa5dc33f2c",
+  "remoteArchiveFilesCompared": 12,
+  "remoteArchiveContent": "Every file listed in the pinned remote manifest matched the existing local archive byte-for-byte; manifest metadata and hashes matched.",
+  "baselineSourceFiles": 331,
+  "baselineComparison": "Existing portal59 and independently reproduced portal59 had equal source fingerprints. Prior preservation check was rerun successfully against its 58-story baseline. Original portal59 remains unchanged.",
+  "limit": "Only the available local 59-story baseline is covered; no original-site state, browser-local unarchived edits or inaccessible history was recovered."
+}

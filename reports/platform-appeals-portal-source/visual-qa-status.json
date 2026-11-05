@@ -1,0 +1,19 @@
+{
+  "status": "not_run_existing_preview_access_limitation",
+  "portalSha256": "250ba17437c63dd0b866b987ca35cb17633940b3334fa93843bc46716a8157a3",
+  "thisRunPreviewAttempts": 0,
+  "basis": "The prior local HTTP preview returned ERR_CONNECTION_REFUSED and earlier file-protocol access was denied. This run did not retry, switch protocols, rehost or change security settings.",
+  "notVerified": [
+    "Desktop and narrow-screen rendered layout",
+    "Light and dark themes",
+    "Source inspector",
+    "Click navigation, browser history and scroll restoration",
+    "Presentation edits and persistence",
+    "Download clicks",
+    "Print",
+    "Actual offline browser behavior",
+    "Browser console errors"
+  ],
+  "staticChecks": "See portal-build-qa.json and portal-independent-qa.json. Static checks do not establish rendered acceptance.",
+  "publication": "Not performed or attempted."
+}

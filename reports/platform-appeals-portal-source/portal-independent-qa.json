@@ -1,0 +1,36 @@
+{
+  "status": "passed",
+  "independent": true,
+  "checks": {
+    "preserved_originals_stories_queries": [
+      79,
+      59,
+      121
+    ],
+    "changed_existing_paths": [
+      "src/data.json",
+      "src/content/report/illustrated-stories.json",
+      "src/content/report/IllustratedArticle.jsx",
+      "src/content/report/articles.json"
+    ],
+    "portal_legacy_samples_byte_preserved": true,
+    "new_article_and_query_binding": true,
+    "recursive_privacy_scan": {
+      "text_payloads": 153,
+      "download_payloads": 5,
+      "zip_containers": 2,
+      "release_manifests": 1,
+      "compiled_json_payloads": 19
+    },
+    "build_manifest_and_snapshot": "verified",
+    "offline_html": {
+      "bytes": 13645958,
+      "sha256": "250ba17437c63dd0b866b987ca35cb17633940b3334fa93843bc46716a8157a3"
+    }
+  },
+  "limitations": [
+    "Static and local artifact verification only; no browser visual or interactive checks, original-site retry, publication, or upload performed.",
+    "Preservation compares the supplied local 59-story baseline; unavailable historical edits are outside scope."
+  ],
+  "findings": []
+}

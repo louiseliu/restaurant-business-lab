@@ -1,0 +1,16 @@
+{
+  "articleId": "research-2026-11-05-platform-appeals-note",
+  "queryId": "diagram-research-2026-11-05-platform-appeals-note:second",
+  "field": "source.metricDefinitions[0].label",
+  "oldValue": "平台技术核查、门店事实责任与作者建议的边界",
+  "newValue": "留证投入取舍",
+  "scope": "Portal import only. Existing single-article source and previously sent HTML are retained unchanged.",
+  "unchanged": [
+    "Reviewed rows",
+    "Metric definition and componentIds",
+    "Source provenance",
+    "Article and source-ledger text",
+    "First Git commit and timestamp"
+  ],
+  "reason": "Independent review found the second diagram reused the first diagram metric label. This is a minor display-label correction, not a research revision."
+}

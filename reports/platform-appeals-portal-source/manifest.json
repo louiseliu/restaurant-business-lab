@@ -1,0 +1,90 @@
+{
+  "purpose": "Small additive source and verified QA for the local 60-story portal; no large HTML/ZIP, dist, runtime or private data.",
+  "articleId": "research-2026-11-05-platform-appeals-note",
+  "firstGit": "dc3c37fbf9a84e8f7de9dc13e5f9046d63fca91e",
+  "publishedAt": "2026-11-05T22:15:13Z",
+  "inputBaseline": "59-story readable source matching baseline59-sha256.json",
+  "output": {
+    "researchArticles": 60,
+    "fullOriginals": 80,
+    "samples": 2,
+    "aiArticles": 39,
+    "queries": 123,
+    "bytes": 13645958,
+    "sha256": "250ba17437c63dd0b866b987ca35cb17633940b3334fa93843bc46716a8157a3"
+  },
+  "status": "Local content/build/static tests, independent static audit and clean reproducibility passed; browser visual/interaction tests not run; no publication or original-site access retry.",
+  "presentationCorrection": "Second diagram metric-definition label only; previously sent standalone and frozen prose unchanged.",
+  "files": [
+    {
+      "path": "PORTAL_BUILD.md",
+      "bytes": 4344,
+      "sha256": "b36c809adef310fd38e925c942e4f5cb62fbcbca0bd5d525439afad84ef24437"
+    },
+    {
+      "path": "baseline-verification.json",
+      "bytes": 886,
+      "sha256": "c36fdf168236dc7996c5de149bc353047f6acc9d282d13af932fdc664442d6c4"
+    },
+    {
+      "path": "baseline59-sha256.json",
+      "bytes": 36259,
+      "sha256": "872a54e926f3431fec268b736f5f58e7b24a177e60d74cb9d5b49ce517200902"
+    },
+    {
+      "path": "build_portal.py",
+      "bytes": 1824,
+      "sha256": "6cb4ff216ab0f96023029e48916d07b4c816aef115ec46f803f879401f4517a6"
+    },
+    {
+      "path": "integrate60.py",
+      "bytes": 3325,
+      "sha256": "6675affa08fdab6de68ce5bad1f800b6b20e351703f21bf3de49db0de98e7c31"
+    },
+    {
+      "path": "portal-build-qa.json",
+      "bytes": 2019,
+      "sha256": "ea1fb84fbb7177d4ed156f26c6a5d4d42b93c0ac7ffbf191c7527cad566a0986"
+    },
+    {
+      "path": "portal-independent-qa.json",
+      "bytes": 1125,
+      "sha256": "652063b30e4e8ce02fa82f44873f95a4456faec1dc8e65f5d926340dbb7bb7a1"
+    },
+    {
+      "path": "portal-reproducibility.json",
+      "bytes": 1088,
+      "sha256": "9fb5011bcd244a4196297ce9bdc84da6b974e044543e6f2e1dc55d51ae06d4c3"
+    },
+    {
+      "path": "prepare_portal.py",
+      "bytes": 1133,
+      "sha256": "454daa72e28045a6477022214a956c84aa60778a9e8d71b8db742e30d4429d6f"
+    },
+    {
+      "path": "presentation-correction.json",
+      "bytes": 765,
+      "sha256": "9da5bee340c14296297627dc79773f5a9f938f14a32faf8e0574791305990322"
+    },
+    {
+      "path": "test_portal_merge_guard.py",
+      "bytes": 3081,
+      "sha256": "a32f3d8f7c7a7e9adef33191d4917a12349322346a574d321c3a80a5e81ef796"
+    },
+    {
+      "path": "test_portal_preservation.py",
+      "bytes": 10856,
+      "sha256": "4636a4388a1facdf0f7c777fbdfdfe4d81255a0c2eb114b9d2e58285edd30bfa"
+    },
+    {
+      "path": "test_reader_routes.mjs",
+      "bytes": 2420,
+      "sha256": "dd1baad50060f955e555e5171366b6fd18e5ad780cf04f08ace37c6a42aa06b7"
+    },
+    {
+      "path": "visual-qa-status.json",
+      "bytes": 890,
+      "sha256": "426166a095da0ab5fe9f0c5959eec7cc7e2ffc768e96a4656751a6c799c4bfd7"
+    }
+  ]
+}

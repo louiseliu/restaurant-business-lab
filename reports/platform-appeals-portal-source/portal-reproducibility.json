@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "method": "Fresh directory containing the small portal and standalone authoring archives plus a copied 59-story source baseline; no old dist, standalone project, export cache or node_modules. Official prepare, build --separate-data and export-offline reran successfully.",
+  "baselineFiles": 331,
+  "bytes": 13645958,
+  "sha256": "250ba17437c63dd0b866b987ca35cb17633940b3334fa93843bc46716a8157a3",
+  "byteEqual": true,
+  "checks": [
+    "Fresh source copy matched the baseline fingerprint",
+    "Merge conflicts and user-edit preservation tests passed",
+    "Sanitization made zero source changes",
+    "Official split build manifest and complete snapshot matched",
+    "Frozen full text and source ledger passed",
+    "Compiled catalog, stories and sample payloads matched",
+    "5 downloads, 2 recursive ZIPs and 1 internal release manifest passed",
+    "Route helper parsing and sorting passed"
+  ],
+  "notRun": [
+    "Browser visual and interaction checks",
+    "Original-site access or synchronization",
+    "Publication",
+    "Large HTML/ZIP upload"
+  ]
+}
