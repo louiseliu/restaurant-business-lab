@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "method": "Fresh isolated directory, frozen baseline copied without dist, offline exports, node_modules or caches. Official prepare/build/export and all tests repeated. Both existing article source archives reused read-only.",
+  "byteIdentical": true,
+  "bytes": 13738556,
+  "sha256": "7333bc3064f85e83364dc4602132d0ae141dd4d0d819b7c57247507ad1360fe5",
+  "requiresCompleteBaseline": true,
+  "network": false,
+  "finalSourceNote": "After the clean rebuild, only the integrate62.py module docstring was clarified (3137 to 3141 bytes). Executable code was unchanged; the full merge-guard test was rerun and passed. The manifest covers the final docstring version.",
+  "inputCacheNote": "Python generated an untracked bytecode cache while checking sanitization. Original input source and single-article HTML bytes remain unchanged; caches are excluded from the archive."
+}

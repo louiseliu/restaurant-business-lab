@@ -50,8 +50,8 @@
       "sha256": "3b3f74375ccb7c4cf86607d2b4b300b299b25040efde4bca7bee8ecc2ebd7dd8"
     },
     "delivery-status.json": {
-      "bytes": 895,
-      "sha256": "403f73082f744b886626c1cb91ae943e1516ef96a8bfee21c696e37dc5cf9836"
+      "bytes": 1212,
+      "sha256": "4ec2debdbc6161c1b04bf6229498c58be143263808dc260b1ab737149a412794"
     },
     "test_standalone.py": {
       "bytes": 5471,

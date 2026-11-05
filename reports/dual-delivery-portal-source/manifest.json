@@ -1,0 +1,62 @@
+{
+  "scope": "Small additive portal scripts, documentation, frozen baseline fingerprint and QA; no HTML/ZIP/runtime/private paths",
+  "inputCommit": "ab4fd880e04667a4c8d8fbb71ceeb3d70454aa84",
+  "files": {
+    "PORTAL_BUILD.md": {
+      "bytes": 4659,
+      "sha256": "644d0ee5a2ce166381de0ef2ee940dfcc638b89f8b21f4a255a17cf56285296b"
+    },
+    "baseline60-sha256.json": {
+      "bytes": 36631,
+      "sha256": "78466125877d6caa8c0099b8af271c8651aec041bf5e376c1dba126cdd955319"
+    },
+    "build_portal.py": {
+      "bytes": 1552,
+      "sha256": "e6678fb1cd7fc453c9807a0b525f6c247ec92d1b67c0ab96ca2dfc6cee21d772"
+    },
+    "integrate62.py": {
+      "bytes": 3141,
+      "sha256": "2a31f92b5f8a0ed59df1ae5d4a6f431ae5fb549cfee5be5b2e8e4e00fd59d780"
+    },
+    "merge-guard-qa.json": {
+      "bytes": 477,
+      "sha256": "438805aa3d549fbe255bfdc45e01486d736f1ffa574dcd257f1e5ac677d626e4"
+    },
+    "portal-build-qa.json": {
+      "bytes": 2036,
+      "sha256": "931ee3165de5cae44132af3eea3f83c4c4d9f4dde45df0a5a3dee9e605521fc0"
+    },
+    "portal-independent-qa.json": {
+      "bytes": 3223,
+      "sha256": "0b59e38b58b4353e624111a64065dd69d105bb4e3b0d25bbf7b5023205840887"
+    },
+    "portal-reproducibility.json": {
+      "bytes": 895,
+      "sha256": "c39e4e911d081fd179097ba2faa00410ab344dab11f1f16d1beac5830b8c0721"
+    },
+    "prepare_portal.py": {
+      "bytes": 1133,
+      "sha256": "9bf8c37923ab472cdb48eaab494831f16ee8fa7e6df9be51432fc656cfc37b5c"
+    },
+    "presentation-status.json": {
+      "bytes": 272,
+      "sha256": "641a1863428ff8b7cbba214d59161958913d4608a4ec63548a9ac3c5a3acb3e6"
+    },
+    "test_portal_merge_guard.py": {
+      "bytes": 3113,
+      "sha256": "07cf1cbd5cdf28566e4ccce92f05ac9ee1159da2bbbc9ce3aa732c0bdc04ba3d"
+    },
+    "test_portal_preservation.py": {
+      "bytes": 9175,
+      "sha256": "2e699bfaee0b9076febb9d2d7250782d9dd57c60670aa1a4dd8a0bf5f928b15d"
+    },
+    "test_reader_routes.mjs": {
+      "bytes": 2564,
+      "sha256": "cc1f31c8609822586c4794d1ba822c73d6526339f83c258fa20c7600c9cd748f"
+    },
+    "visual-qa-status.json": {
+      "bytes": 369,
+      "sha256": "aea0e0248696d0b1496c08d7073d021705b5e204dc8dee30d458dab2e02f4806"
+    }
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "status": "not-run",
+  "scope": "Full portal browser rendering, narrow layout, themes, source panels, navigation/history/scroll, persistent edits, download clicks, printing, disconnected use and browser console.",
+  "reason": "No browser requested; earlier HTTP ERR_CONNECTION_REFUSED and file-protocol access denial retained, not retried, bypassed or rehosted."
+}

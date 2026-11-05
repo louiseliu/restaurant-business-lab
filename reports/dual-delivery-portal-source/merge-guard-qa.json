@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "preservedEdits": [
+    "article body",
+    "article excerpt",
+    "story lead",
+    "query source label",
+    "export preferences"
+  ],
+  "refusedBeforeWrites": [
+    "repeat",
+    "ID conflict",
+    "query conflict",
+    "unexpected count",
+    "second incoming component collision",
+    "second incoming stylesheet collision",
+    "second incoming preview collision",
+    "dangling symlink collision"
+  ],
+  "tests": "test_portal_merge_guard.py"
+}

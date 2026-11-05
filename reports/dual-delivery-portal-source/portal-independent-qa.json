@@ -1,0 +1,85 @@
+{
+  "status": "static_pass_with_known_nonblocking_label_issue",
+  "counts": {
+    "research": 62,
+    "originals": 82,
+    "stories": 62,
+    "ai": 40,
+    "queries": 127,
+    "samples": 2
+  },
+  "checks": {
+    "old_80_articles_exact": true,
+    "old_60_stories_exact": true,
+    "old_123_queries_exact": true,
+    "identity_preserved": true,
+    "only_four_expected_existing_files_changed": true,
+    "no_baseline_file_removed": true,
+    "exactly_six_added_source_files": true,
+    "dynamic-delivery_frozen_entry_story_queries_exact": true,
+    "dynamic-delivery_frozen_body_time": true,
+    "dynamic-delivery_three_added_files_exact": true,
+    "dynamic-delivery_two_queries_scoped": true,
+    "forecast-reimport_frozen_entry_story_queries_exact": true,
+    "forecast-reimport_frozen_body_time": true,
+    "forecast-reimport_three_added_files_exact": true,
+    "forecast-reimport_two_queries_scoped": true,
+    "compiled_snapshot_matches_source": true,
+    "compiled_manifest_hashes_bytes": true,
+    "offline_export_copy_exact": true,
+    "complete_status": true
+  },
+  "unchangedBaselineFiles": 330,
+  "changedExistingFiles": [
+    "src/content/report/IllustratedArticle.jsx",
+    "src/content/report/articles.json",
+    "src/content/report/illustrated-stories.json",
+    "src/data.json"
+  ],
+  "addedSourceFiles": [
+    "src/content/report/DynamicDeliveryDiagrams.jsx",
+    "src/content/report/ForecastReimportDiagrams.jsx",
+    "src/content/report/dynamic-delivery-diagrams.css",
+    "src/content/report/dynamic-delivery-source-previews.json",
+    "src/content/report/forecast-reimport-diagrams.css",
+    "src/content/report/forecast-reimport-source-previews.json"
+  ],
+  "inputs": [
+    {
+      "id": "research-2026-11-05-kotipizza-pricing-note",
+      "frozen": {
+        "commit": "a9a3137240790b5ef12abe6273adb8e0dd09505b",
+        "time": "2026-11-05T23:17:18Z",
+        "sha256": "87197ed3d356b33d06d84819a221eb39b1398278afb6bfa9a65e904f752dbba1",
+        "sourcesSha256": "28d2fbc392a94e5d5c4275dd2bca2a729e0f949c195466147a973de7531cc50b"
+      },
+      "figureRowCounts": [
+        4,
+        3
+      ]
+    },
+    {
+      "id": "research-2026-11-05-forecast-reimport-note",
+      "frozen": {
+        "commit": "cb37b545b6d51d5fba07486b632476a6a117a518",
+        "time": "2026-11-05T23:20:56Z",
+        "sha256": "3d839a40fb6bc73b4cf03f828933b2c2f278e500f675ce2a3815537502e31759",
+        "sourcesSha256": "2d010220e225d82905b24e3d3483732d8acac6f7bb3755bc51726366adae877f"
+      },
+      "figureRowCounts": [
+        3,
+        3
+      ]
+    }
+  ],
+  "runtimeSha256": "b1771584910da746d0cf1b967a4889fee226053d841596104b457a04a2dd3d91",
+  "routeInspection": "ReportContent unchanged; catalog routes feed IllustratedArticle; explicit layout branches connect both new components; second diagram uses :second query suffix. Source previews scoped by story id.",
+  "knownIssue": "Forecast second-figure S2 evidenceFlow title lists pages 1,3,10 but omits page 19; its definition, caveat and note correctly cite page 19. Preserved exactly from frozen source.",
+  "unperformed": [
+    "Browser visual and interaction QA",
+    "External source revalidation",
+    "Upload",
+    "Publication",
+    "Remote writes"
+  ]
+}

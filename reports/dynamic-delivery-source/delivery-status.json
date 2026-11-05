@@ -6,9 +6,11 @@
   "staticChecks": "passed including independent review",
   "browserVisualInteraction": "not performed",
   "standaloneAttachment": "Batch send request accepted at 2026-11-05T23:26:23Z; does not confirm delivery, opening or download.",
-  "portalIntegration": "not performed",
+  "portalIntegration": "Integrated into local portal62: 62 research, 82 full originals, 2 samples, AI40 and 127 queries. Static and independent QA and clean rebuild passed; browser visual and interaction checks not performed.",
   "originalWebsite": "not synchronized",
   "largeHtmlGitArchive": "not performed",
   "frozenSourceStatus": "Source ledger preserves preparation-stage wording; current state is recorded here.",
-  "attachmentRequestAcceptedAt": "2026-11-05T23:26:23Z"
+  "attachmentRequestAcceptedAt": "2026-11-05T23:26:23Z",
+  "portalHtmlSha256": "7333bc3064f85e83364dc4602132d0ae141dd4d0d819b7c57247507ad1360fe5",
+  "portalHtmlUpload": "not performed"
 }
