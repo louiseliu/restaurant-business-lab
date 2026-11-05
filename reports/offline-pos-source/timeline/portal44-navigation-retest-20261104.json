@@ -1,0 +1,45 @@
+{
+  "checked_at_utc": "2026-11-04T23:58:45Z",
+  "scope": "仅对已有第44篇完整门户的本地预览进行补测；未访问受限原站或外部来源。",
+  "result": "desktop_navigation_passed_mobile_not_run",
+  "desktop_window_outer_size": "1212 × 886",
+  "checks": [
+    {
+      "check": "第44篇到第43篇",
+      "status": "passed",
+      "action": "在第44篇底部点击“下一篇·较早”。",
+      "observed_title": "小店自建AI经营账，谁来维护每天的“算得对”",
+      "observed_hash": "#read/research-2026-11-04-store-accounting-note",
+      "observed_scroll": "返回文章顶部。"
+    },
+    {
+      "check": "第43篇到第44篇",
+      "status": "passed",
+      "action": "在第43篇底部点击“上一篇·较新”。",
+      "observed_title": "断网还能收银，复网后谁来把这笔生意对完整",
+      "observed_hash": "#read/research-2026-11-04-offline-pos-note",
+      "observed_scroll": "返回文章顶部。"
+    },
+    {
+      "check": "桌面已观察区域视觉检查",
+      "status": "passed_for_observed_regions",
+      "observed": "两篇文章标题、导语、顶部界面、底部来源区及相邻导航卡片显示清晰，已观察区域未见明显裁切或重叠；不是整页或全部44篇的逐篇视觉审核。"
+    },
+    {
+      "check": "手机响应式检查",
+      "status": "not_run_blocked",
+      "reason": "响应式预览所需的浏览器开发者工具被禁用。",
+      "disposition": "关闭限制提示后停止此项，未重试、改变策略或改走其他路径；不宣称手机验证通过。"
+    }
+  ],
+  "changes": "补测未修改源码、运行时、数据、权限或发布状态。",
+  "final_preview_state": "第44篇文章顶部。",
+  "artifact_reference": {
+    "offline_html_sha256": "603c27a71b8d2744d413a8242921b7f72cdd31d668d0d39c0f27e21b40c06fb8",
+    "compiled_index_html_sha256": "62c8033eff9f437bf1ae04567676123be788f60c84244ff79691a5cf608f590d",
+    "caveat": "哈希仅作为本地文件归档参照；已有浏览器预览响应未与这些文件逐字节比对。"
+  },
+  "previous_record": "../visual-delivery-qa.json",
+  "update_boundary": "本回执补充此前“44↔43相邻点击未完成”的记录，只关闭这两次桌面相邻导航补测；手机、原站发布及其他未测事项不因此完成。",
+  "public_archive_scope": "仅提交本小型脱敏回执，不含大型HTML、私人路径、会话链接、附件标识或凭据。"
+}
