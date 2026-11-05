@@ -1,0 +1,55 @@
+{
+  "status": "passed_with_mobile_limit",
+  "articleId": "research-2026-10-30-food-images-note",
+  "sourceBodyCommit": "b4ea2d293e354aeebfdbb537958627e8928e6aaf",
+  "storyPackageCommit": "eb9b597505403469fb90be6f2b48dca7fc180e5c",
+  "publishedAt": "2026-10-30T04:06:26Z",
+  "updatedAt": "2026-11-05T01:11:11Z",
+  "sourceBodyBytesMatch": true,
+  "storyAndEntryBytesMatch": true,
+  "originalDiagramsPreserved": 2,
+  "portalCatalogEntriesPreserved": 64,
+  "portalResearchCount": 44,
+  "unrelatedArticlesStoriesQueriesPreserved": true,
+  "buildManifestsAndSnapshotsMatch": true,
+  "nestedPrivacyPayloadsCheckedPerPackage": 53,
+  "sanitizationTestsPassed": 3,
+  "deliverablePrivateLinks": 0,
+  "deliverableLocalThreadMeta": 0,
+  "desktopViewport": {
+    "width": 1180,
+    "height": 757
+  },
+  "desktopPassed": [
+    "standalone split rendering",
+    "sanitized offline rendering",
+    "portal same-ID rendering",
+    "both diagrams visually inspected",
+    "table of contents",
+    "source popup and 3 rows data preview",
+    "full original expand/collapse",
+    "new China merchant cost analysis",
+    "search 沅湘小馆 -> exactly one revised article",
+    "return preserves search",
+    "browser Back restores article",
+    "no horizontal overflow"
+  ],
+  "mobile": "Not run: current browser exposes no viewport/device-emulation capability; no mobile pass claimed.",
+  "browserLogs": "Observed extension metadata errors only in sampled logs, not an application exception.",
+  "publishedSiteVisited": false,
+  "oldVisionAttachmentTouched": false,
+  "deliveryFile": {
+    "bytes": 2911287,
+    "sha256": "32d01ef3fb0c5d7615668c73678a6d24e7cf1a12874ca82bca02b11e07241054",
+    "filename": "food-images-revised.html"
+  },
+  "sourceBoundary": "ChinaNews 2026-06-26 merchant feedback: two Beijing stores; old combined outsourcing and photography annual spend above CNY 60,000; no cost split, complete post-adoption cost or maintenance time; not an audited net saving or per-store amount.",
+  "githubWritesDuringQA": false,
+  "attachmentDelivery": {
+    "sameIdentityReplacement": "succeeded",
+    "sendRequest": "accepted",
+    "openedOrDownloaded": "not verified",
+    "privateIdentifiers": "omitted"
+  },
+  "scopeLimit": "Desktop checks only for the revised article and listed interactions. No all-44-article visual sweep, full adjacent-navigation sweep, printing, download-click or mobile validation."
+}
