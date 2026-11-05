@@ -1,0 +1,47 @@
+{
+  "status": "arithmetic_checked_independent_visual_source_review_passed",
+  "source": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0923/2026092300499_c.pdf",
+  "entity_scope": "consolidated group, not the subset of closed restaurants",
+  "periods": "six months ended 30 June 2026 and 2025, both as presented in the 2026 interim report",
+  "input_unit": "RMB thousand",
+  "inputs": {
+    "pre_tax_loss": {
+      "2025": "75721",
+      "2026": "33858",
+      "printed_page": 41
+    },
+    "lease_termination_gain": {
+      "2025": "4986",
+      "2026": "36149",
+      "printed_page": 59
+    },
+    "net_operating_cash_inflow": {
+      "2025": "195495",
+      "2026": "124389",
+      "printed_page": 46
+    }
+  },
+  "results": {
+    "pre_tax_loss_reduction": {
+      "RMB_thousand": "41863",
+      "RMB_million": "41.863"
+    },
+    "lease_termination_gain_increase": {
+      "RMB_thousand": "31163",
+      "RMB_million": "31.163"
+    },
+    "net_operating_cash_inflow_change": {
+      "RMB_thousand": "-71106",
+      "RMB_million": "-71.106"
+    }
+  },
+  "checks": {
+    "assertions_passed": 9,
+    "causal_attribution_ratios": "not calculated"
+  },
+  "limitations": [
+    "Arithmetic differences do not identify the causal effect of restaurant closures.",
+    "Profit measures are not cash receipts, and operating cash flow excludes financing-classified lease repayments.",
+    "Do not combine 2025 annual amounts with 2026 half-year amounts."
+  ]
+}
