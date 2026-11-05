@@ -1,0 +1,12 @@
+{
+  "scope": "Arithmetic of Chipotle's disclosed average days only; no AI causation, ROI or cross-store claim.",
+  "source_date": "2025-02-19",
+  "old_average_days": "12",
+  "new_average_days": "4",
+  "absolute_reduction_days": "8",
+  "relative_reduction_percent": "66.66666666666666666666666667",
+  "relative_reduction_percent_rounded_1dp": "66.7",
+  "hypothetical_days_if_75_percent_reduction_from_12": "3.00",
+  "hypothetical_warning": "This is an arithmetic assertion, not an observed business outcome or an explanation of the supplier's metric.",
+  "assertions_passed": 5
+}
