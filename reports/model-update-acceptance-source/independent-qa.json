@@ -1,0 +1,48 @@
+{
+  "subject": "模型升级持续验收图文",
+  "fixedResearchCommit": "ead32eeaa3cb4204bb266554fcf86b956d42d8d9",
+  "researchBodySha256": "fcea1d375fbfd83abe58446d3fa275a0b804841bd783285a0d0265010590d33e",
+  "result": "facts-and-static-checks-passed; rendered-ui-not-verified",
+  "buildStatus": {
+    "portal": "complete",
+    "standalone": "complete"
+  },
+  "completed": [
+    "重新实读虎嗅署名访谈凤凰网转载、阿里云qwen-plus动态更新页及2025-06-15历史更新公告。",
+    "固定GitHub正文与本地冻结正文一致。",
+    "百胜访谈不与阿里云机制拼接为同一部署证据，动态版本政策不推广至其他调用方式。",
+    "历史迁移安排不当作当前操作指南；旧快照当前可用性没有作出未经核验的承诺。",
+    "两幅图明确为作者建议与原创示意，节点与对应reviewed query逐项一致。",
+    "图一保留留存基准不等于同期对照、无历史记录不能声称新旧差异的界线。",
+    "图二区分回退条件、人工接手与已有事项单独处理，没有声称平台具备撤回能力。",
+    "最终构建清单、编译载荷、完整原文、两图数据、来源链接与文件哈希静态检查通过。",
+    "门户66篇原文、46篇图文和95个queries；单篇1篇原文、1篇图文和2个queries。",
+    "既有45篇基线保留、模拟用户改动保留、重复或冲突合并写入前拒绝测试通过。",
+    "路由解析、URL往返、主题数量、时间排序代码测试通过。",
+    "门户、编译数据、5个下载载荷及2个压缩容器隐私检查通过；未发现私人会话链接、凭据、个人邮件或私有环境路径。"
+  ],
+  "limitations": [
+    "桌面浏览器无法连接预览；本地浏览器因环境socket权限无法启动，提权尝试仍失败。",
+    "没有有效截图；目录跳转、来源面板、主题切换、返回/前进、滚动恢复和重复点击等真实浏览器交互未执行。",
+    "手机、窄屏渲染、触摸与真实移动设备未测试。CSS断点存在不能替代测试。",
+    "既有基线保留不证明缺失历史编辑已找回。",
+    "没有模型调用、门店实测、恢复演练、收益计算或当前快照可用性验证。"
+  ],
+  "artifacts": {
+    "standalone": {
+      "bytes": 2927766,
+      "sha256": "8f8901704450272950d1decc3795fb11b7e834b70f851e0b29ede95a066c790d"
+    },
+    "portal": {
+      "bytes": 13067318,
+      "sha256": "183cf39a550a809add19de5be2efd79d0ba508207bb70e776a5faf08b58e8432"
+    }
+  },
+  "scope": "只准备净化单篇附件；未发送、未上传门户、未更新原站、未向GitHub提交大HTML。",
+  "sources": [
+    "https://tech.ifeng.com/c/8vzHZXKo5Jc",
+    "https://help.aliyun.com/zh/model-studio/qwen-plus",
+    "https://www.alibabacloud.com/zh/notice/model_studio_update_of_qwenplusturbo_4f8?_p_lc=1",
+    "https://github.com/louiseliu/restaurant-business-lab/blob/ead32eeaa3cb4204bb266554fcf86b956d42d8d9/research/2026-11-05-model-update-acceptance/note.md"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "articleId": "research-2026-11-05-model-update-acceptance-note",
+  "noteCommit": "ead32eeaa3cb4204bb266554fcf86b956d42d8d9",
+  "standaloneAttachment": {
+    "precision": "minute",
+    "openedOrDownloaded": "not verified",
+    "requestAcceptedMinuteUTC": "2026-11-05T06:14Z"
+  },
+  "portal": {
+    "research": 46,
+    "fullOriginals": 66,
+    "samples": 2,
+    "aiResearch": 29,
+    "queries": 95,
+    "published": false,
+    "attachmentSent": false
+  },
+  "productionSite": {
+    "lastVerifiedVersion": "v19",
+    "research": 20,
+    "fullOriginals": 40,
+    "samples": 2,
+    "aiResearch": 9,
+    "accessRetested": false,
+    "permissionsChanged": false
+  },
+  "pendingSiteChanges": 28,
+  "largeHTMLGitArchive": "not attempted",
+  "desktopVisualInteraction": "not completed: local preview unavailable and browser socket restrictions",
+  "mobile": "not tested",
+  "scope": "No private attachment identifiers, no site publication, no retry of old restricted attachments."
+}

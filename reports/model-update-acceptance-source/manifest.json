@@ -1,0 +1,117 @@
+{
+  "articleId": "research-2026-11-05-model-update-acceptance-note",
+  "noteCommit": "ead32eeaa3cb4204bb266554fcf86b956d42d8d9",
+  "scope": "Small reproducible source, tests and evidence only; no HTML, build bundles or private attachment identifiers.",
+  "files": [
+    {
+      "path": "BUILD.md",
+      "bytes": 5816,
+      "sha256": "6f20f860eeda49d79fe0c497eb89df7c8291b7c28eefb2f80a8819e2f994e1d6"
+    },
+    {
+      "path": "ModelUpdateDiagrams.jsx",
+      "bytes": 1332,
+      "sha256": "8f5a2719b7cd155c7e1f4df0d2e6ad8bcb9b7b60f3bbe64a2f0602f7374c5270"
+    },
+    {
+      "path": "article-entry.json",
+      "bytes": 9727,
+      "sha256": "7280db08f7bb9f30c78daf5fef8149314203d9b15d689ef96b0a030dee280c8d"
+    },
+    {
+      "path": "article-reviewed-data.json",
+      "bytes": 7460,
+      "sha256": "13c0f969dd8d99b0a7e02287215f7e9d74283672ee67469a03ab4adbceb08445"
+    },
+    {
+      "path": "baseline45-sha256.json",
+      "bytes": 31672,
+      "sha256": "039d47e9018914632b732e8cf2690188c614f62cd36f189ab46ebf7d3ab482b4"
+    },
+    {
+      "path": "build-qa.json",
+      "bytes": 1680,
+      "sha256": "77462594b827fcbe69b6b052410093aec5f479919b744e8bba31293a9701fdd5"
+    },
+    {
+      "path": "frozen.json",
+      "bytes": 173,
+      "sha256": "80a75ad11e885728888d3650df17144ab6a22ab25a8bc0baa2601660bdf430cd"
+    },
+    {
+      "path": "illustrated-story.json",
+      "bytes": 15321,
+      "sha256": "9f88c2703c406e0ba6f2e46794411cab6ff3de3b7d9d44f19687acfd8181005d"
+    },
+    {
+      "path": "independent-qa.json",
+      "bytes": 3057,
+      "sha256": "fd7b9e0e68ffc346e020169f7805fc71a9dd685ca68ed30586181817c31b5e78"
+    },
+    {
+      "path": "integrate46.py",
+      "bytes": 2807,
+      "sha256": "05dcda72ec943283b3669be647eb15214074b372157be78ecc53787306df82b9"
+    },
+    {
+      "path": "make_article.py",
+      "bytes": 8492,
+      "sha256": "767c3a5210c27b26263e380a2b751aabf1fc5ddedb9bf47a64fb0aff2e25c27d"
+    },
+    {
+      "path": "model-update-diagrams.css",
+      "bytes": 1697,
+      "sha256": "3e5648e1c1052f46c6c445d090e24c62450b76998b27fb9b96fbe04d282b633e"
+    },
+    {
+      "path": "prepare_standalone.py",
+      "bytes": 2099,
+      "sha256": "ba85c1738dbdfabae754679debe242142dcfbe993616271d09e67fa9dacc28b5"
+    },
+    {
+      "path": "publication-receipt.json",
+      "bytes": 977,
+      "sha256": "2b0872c7986f2a2edc87b0a3d337553ca645c5cb359df018c37edde938a37e09"
+    },
+    {
+      "path": "shared/IllustratedArticle.jsx",
+      "bytes": 9235,
+      "sha256": "b146af156567d22558a4f42b5a03388b389222ccb6a678cde0d6fe9fa699352c"
+    },
+    {
+      "path": "shared/ReportContent.jsx",
+      "bytes": 703,
+      "sha256": "ae9d8787ad6b9d15c57aead3b72f48d0b487e2b52a42a6e75a4f6b8fda126a69"
+    },
+    {
+      "path": "shared/illustrated.css",
+      "bytes": 10060,
+      "sha256": "a15fbe5f09e241738ffffa683f3e7d9ba535ff943cecb8f7e250e1449209f928"
+    },
+    {
+      "path": "shared/timeline.css",
+      "bytes": 7346,
+      "sha256": "b867d64e25125a71868940d4da6fe6bc2569f1b719ceefaed0b92e6baf0a4fee"
+    },
+    {
+      "path": "standalone-prepared-sha256.json",
+      "bytes": 27380,
+      "sha256": "989321f6307fcf5cf05670ea5635a6683424714c60546ec4cbf51493d6ec20fd"
+    },
+    {
+      "path": "test_merge_guard.py",
+      "bytes": 2454,
+      "sha256": "52d7e5c9975febf52f24173bd3947cc157b95e4692b4d762e17ba6bef8181c18"
+    },
+    {
+      "path": "test_preservation.py",
+      "bytes": 7437,
+      "sha256": "149157e52bcd5a03fe38f098fa54dd41a57f6e951cee712179048f351d539d8c"
+    },
+    {
+      "path": "test_reader_routes.mjs",
+      "bytes": 2288,
+      "sha256": "3ef6114a617e98ebc9032747676325d7e12240a7194ae79a11f16e4473526c90"
+    }
+  ]
+}

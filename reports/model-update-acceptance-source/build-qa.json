@@ -1,0 +1,43 @@
+{
+  "portal46": {
+    "buildStatus": "complete",
+    "fullOriginals": 66,
+    "illustratedStories": 46,
+    "queries": 95,
+    "unchangedBaselineFiles": 289,
+    "privacyTextPayloads": 82,
+    "downloadPayloads": 5,
+    "zipContainers": 2,
+    "compiledContents": "equal reviewed source",
+    "buildManifest": "verified exact HTML/snapshot bytes and hashes",
+    "runtimeSha256": "b1771584910da746d0cf1b967a4889fee226053d841596104b457a04a2dd3d91",
+    "bytes": 13067318,
+    "sha256": "183cf39a550a809add19de5be2efd79d0ba508207bb70e776a5faf08b58e8432",
+    "visualQA": "separate independent report"
+  },
+  "standalone": {
+    "buildStatus": "complete",
+    "fullOriginals": 1,
+    "illustratedStories": 1,
+    "queries": 2,
+    "unchangedBaselineFiles": 241,
+    "privacyTextPayloads": 13,
+    "downloadPayloads": 0,
+    "zipContainers": 0,
+    "compiledContents": "equal reviewed source",
+    "buildManifest": "verified exact HTML/snapshot bytes and hashes",
+    "runtimeSha256": "b1771584910da746d0cf1b967a4889fee226053d841596104b457a04a2dd3d91",
+    "bytes": 2927766,
+    "sha256": "8f8901704450272950d1decc3795fb11b7e834b70f851e0b29ede95a066c790d",
+    "visualQA": "separate independent report"
+  },
+  "scope": {
+    "articleId": "research-2026-11-05-model-update-acceptance-note",
+    "firstGit": "ead32eeaa3cb4204bb266554fcf86b956d42d8d9",
+    "publishedAt": "2026-11-05T06:08:35Z",
+    "bodySha256": "fcea1d375fbfd83abe58446d3fa275a0b804841bd783285a0d0265010590d33e",
+    "published": false,
+    "largeHTMLGitArchive": "not attempted",
+    "baselineLimit": "Preserved readable reconstructed 45-story baseline; not proof that missing historical edits were recovered."
+  }
+}
