@@ -1,0 +1,33 @@
+{
+  "standalone": {
+    "buildStatus": "complete",
+    "fullOriginals": 1,
+    "illustratedStories": 1,
+    "narrativeSections": 6,
+    "queries": 2,
+    "sourceUrls": 2,
+    "unchangedOfficialFiles": 241,
+    "privacyTextPayloads": 14,
+    "compiledContents": "equal reviewed source",
+    "buildManifest": "verified exact HTML/snapshot bytes and hashes",
+    "runtimeSha256": "b1771584910da746d0cf1b967a4889fee226053d841596104b457a04a2dd3d91",
+    "bytes": 2933135,
+    "sha256": "15e8a0202f744673ba37daa633d7a6ac85095a81eb037358e4d33c7ce8ac0328"
+  },
+  "scope": {
+    "articleId": "research-2026-11-05-xiabu-exit-note",
+    "firstGit": "5387f063f8624ff03d2c38cf097d3c5f5ab538f5",
+    "publishedAt": "2026-11-05T20:15:51Z",
+    "bodySha256": "35befe01b06cf127111799a13cd74ce0da87a2ad168f1f237672223b80ffeed6",
+    "published": false,
+    "largeHTMLGitArchive": "not attempted",
+    "portalIntegration": "not performed; standalone only"
+  },
+  "visualQA": "See visual-qa-status.json. Static checks do not establish rendered acceptance.",
+  "additionalChecks": {
+    "deterministicRebuild": "same HTML bytes and SHA256 on second official build",
+    "cashDecisionBoundaries": "checked same-period alternatives, no double-counting exit rent, defined incremental operating cash contribution",
+    "threadMetadata": "absent in dist and offline HTML",
+    "archiveRerun": "Standalone source, full original, 241 official files, 14 privacy payloads and build manifest rechecked before archive."
+  }
+}

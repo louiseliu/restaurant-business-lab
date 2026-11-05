@@ -1,0 +1,13 @@
+{
+  "reproducibility": "passed",
+  "method": "Copied final portal-archive-source, sibling archive-source and standalone source without dist, offline exports or caches into a fresh reproduce58 directory. Ran prepare_portal.py then build_portal.py with official Data prepare/build/export and all integrity, privacy, merge-guard and route tests.",
+  "finalScriptRepairNeeded": false,
+  "inputBaseline": "baseline57 verified against all 325 file fingerprints",
+  "output": {
+    "bytes": 13550513,
+    "sha256": "5d71863953492fa7b28c7d9a516a6810aae8967def61b30a332ebfdeefa906e3",
+    "identicalToOriginalDelivery": true
+  },
+  "preservation": "Original portal58, baseline57, standalone HTML, archive-source, portal-archive-source and portal-independent-qa.json were not modified.",
+  "browserVerification": "Not run; previous restrictions retained, no bypass."
+}

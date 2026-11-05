@@ -1,0 +1,27 @@
+{
+  "status": "not_run_preview_access_blocked",
+  "standaloneSha256": "15e8a0202f744673ba37daa633d7a6ac85095a81eb037358e4d33c7ce8ac0328",
+  "attempts": [
+    {
+      "target": "local HTTP preview",
+      "result": "Cloud browser returned net::ERR_CONNECTION_REFUSED; no report content rendered."
+    },
+    {
+      "target": "local file browser preview",
+      "result": "Browser URL security policy denied file protocol; no rendering or UI operation occurred."
+    }
+  ],
+  "notVerified": [
+    "Rendered layout",
+    "Narrow screen layout",
+    "Theme switching",
+    "Source inspector interactions",
+    "Table of contents and return-to-top",
+    "Full original and source ledger disclosures",
+    "Print",
+    "Offline browser behavior",
+    "Browser console errors"
+  ],
+  "staticChecks": "See build-qa.json; they do not establish visual acceptance.",
+  "publication": "Not performed or attempted."
+}

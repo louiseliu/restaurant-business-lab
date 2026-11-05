@@ -1,0 +1,37 @@
+{
+  "portal58": {
+    "buildStatus": "complete",
+    "researchArticles": 58,
+    "fullOriginals": 78,
+    "illustratedStories": 58,
+    "samples": 2,
+    "aiArticles": 37,
+    "queries": 119,
+    "preservedOriginals": 77,
+    "preservedStories": 57,
+    "preservedQueries": 117,
+    "unchangedBaselineFiles": 321,
+    "legacyReportSha256": "1c2034ad9bcd6457ba9ab65d42717940b3d552a488a06b2b417b6063140b292d",
+    "portalReaderSha256": "c6ed936b73898cf795e0ca9e8a4c9700b1e480787e8020388391119ac8133a6a",
+    "privacyTextPayloads": 145,
+    "downloadPayloads": 5,
+    "recursiveZipContainers": 2,
+    "verifiedReleaseManifests": 1,
+    "compiledContents": "catalog, stories and embedded sample payloads equal reviewed source",
+    "buildManifest": "exact HTML and snapshot bytes and hashes verified",
+    "runtimeSha256": "b1771584910da746d0cf1b967a4889fee226053d841596104b457a04a2dd3d91",
+    "bytes": 13550513,
+    "sha256": "5d71863953492fa7b28c7d9a516a6810aae8967def61b30a332ebfdeefa906e3"
+  },
+  "scope": {
+    "articleId": "research-2026-11-05-xiabu-exit-note",
+    "firstGit": "5387f063f8624ff03d2c38cf097d3c5f5ab538f5",
+    "publishedAt": "2026-11-05T20:15:51Z",
+    "bodySha256": "35befe01b06cf127111799a13cd74ce0da87a2ad168f1f237672223b80ffeed6",
+    "sourcesSha256": "d3c869d81de8ce88c9725ad0ddaa8403e6433784fd7510cfdb58439d4d6df01e",
+    "published": false,
+    "largeHTMLGitArchive": "not attempted",
+    "baselineLimit": "Preserves the readable local 57-story baseline; does not recover unavailable historical or unarchived edits.",
+    "visualQA": "Full portal browser rendering and interactions not checked. Standalone preview previously failed with ERR_CONNECTION_REFUSED; file protocol was denied. No retry or alternative route was used."
+  }
+}

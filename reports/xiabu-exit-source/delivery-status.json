@@ -1,0 +1,56 @@
+{
+  "articleId": "xiabu-exit",
+  "researchCount": 58,
+  "aiCount": 37,
+  "frozenResearchCommit": "5387f063f8624ff03d2c38cf097d3c5f5ab538f5",
+  "standalone": {
+    "status": "content_complete_static_checks_passed_visual_checks_blocked",
+    "bytes": 2933135,
+    "sha256": "15e8a0202f744673ba37daa633d7a6ac85095a81eb037358e4d33c7ce8ac0328",
+    "attachmentSend": "accepted",
+    "acceptedTimeUtc": "2026-11-05T20:21Z",
+    "timePrecision": "minute",
+    "openedOrDownloaded": "not confirmed"
+  },
+  "archive": {
+    "kind": "small_authoring_sources_qa_and_status_only",
+    "htmlIncluded": false,
+    "zipIncluded": false
+  },
+  "fullPortal": {
+    "status": "local_complete_static_checks_passed_browser_checks_not_run",
+    "research": 58,
+    "fullOriginals": 78,
+    "samples": 2,
+    "ai": 37,
+    "queries": 119,
+    "bytes": 13550513,
+    "sha256": "5d71863953492fa7b28c7d9a516a6810aae8967def61b30a332ebfdeefa906e3",
+    "preservedBaselineResearch": 57,
+    "preservedOriginals": 77,
+    "preservedStories": 57,
+    "preservedQueries": 117,
+    "unchangedBaselineFiles": 321,
+    "sourceDirectory": "../xiabu-exit-portal-source",
+    "attachmentSend": "not attempted",
+    "visualAndInteractionChecks": "not run",
+    "deterministicReproduction": "Fresh source-only reproduction produced identical HTML bytes and hash"
+  },
+  "originalSite": {
+    "publicationAttempted": false,
+    "lastVerifiedVersion": 19,
+    "lastVerifiedResearch": 20,
+    "lastVerifiedOriginals": 40,
+    "lastVerifiedSamples": 2,
+    "lastVerifiedAI": 9,
+    "currentReadability": "not rechecked",
+    "pendingSyncItems": 40
+  },
+  "remaining": [
+    "Full portal attachment delivery not attempted in this archive step",
+    "Browser visual and interaction acceptance",
+    "Large HTML archival (not attempted)",
+    "Original-site sync and user-edit protection",
+    "Historical attachment replacements, original expense archive and previous visual follow-ups"
+  ]
+}

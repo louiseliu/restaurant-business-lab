@@ -1,0 +1,30 @@
+{
+  "status": "content_and_static_checks_passed_rendered_checks_blocked",
+  "file": "xiabu-exit.html",
+  "bytes": 2933135,
+  "sha256": "15e8a0202f744673ba37daa633d7a6ac85095a81eb037358e4d33c7ce8ac0328",
+  "frozenCommit": "5387f063f8624ff03d2c38cf097d3c5f5ab538f5",
+  "independentChecks": {
+    "remoteNoteBlobSha": "5fa6fc05413d235866da274003cf42736359f31c",
+    "remoteSourcesBlobSha": "dec92deed8ef8d98dca0b153b236e9c1a28b0a97",
+    "remoteVsLocal": "Both files re-read using GitHub connector at frozen commit; local git hash-object values match returned Git blob SHAs.",
+    "compiledArticle": "Full six-section narrative, lead, complete original and source ledger agree with frozen source; compiled JSON payloads agree with reviewed authored content.",
+    "diagramScope": "Two diagrams contain no causal attribution, ratio contribution, subtraction between operating cash flow and lease gain, invented store outcomes or proportional quantitative encoding.",
+    "cashflowBoundary": "Profit, operating cash and financing lease repayments remain separate. Three future scenarios identify common period, unexpired obligations, duplicate lease settlement risk, avoidable costs, unconfirmed recoveries and lowest cash balance.",
+    "arithmetic": "75.721-33.858=41.863; 36.149-4.986=31.163; 124.389-195.495=-71.106. These are separate same-report arithmetic differences, not closure effects.",
+    "protectedFiles": "241 non-content official files match prepared baseline.",
+    "privacy": "Original 14-payload checks passed; independent expanded scan of HTML, five compiled JSON payloads and source JSON found no private paths, thread/file/project identifiers, private chat URLs or credential-shaped secrets.",
+    "portableAssets": "No external src/href static assets found; build manifest verifies exact HTML/snapshot bytes and hashes. Offline runtime execution remains untested."
+  },
+  "renderedChecks": {
+    "desktop": "not run",
+    "narrowViewport": "not run",
+    "darkMode": "not run",
+    "navigationSourcePanelsAndOriginalExpansion": "not run",
+    "cause": "A fresh normal-permission Python HTTP server returned a running session, but same-address curl returned HTTP 000 and the permitted cloud browser returned net::ERR_CONNECTION_REFUSED for http://127.0.0.1:8769/xiabu-exit.html. No rendered article was observed.",
+    "restrictionsRespected": "Did not repeat the producer's file-protocol denial, use data URLs, alter network/security settings, publish, upload or commit.",
+    "staticResponsiveReview": "Authored CSS defines single-column diagrams below 800px and stacked prose/contents below 720px, with wrapping text and scrolling original tables. This is code inspection only, not rendered acceptance."
+  },
+  "contentBlockingFindings": [],
+  "deliveryCaveat": "Do not state desktop, mobile/narrow-window, interactive or visual QA passed. Build complete does not imply those checks were performed."
+}

@@ -1,0 +1,31 @@
+{
+  "status": "independent_static_checks_passed_rendered_checks_not_run",
+  "baseline": "57-research portal preserved from the existing local source",
+  "baselineSourceFilesVerified": 325,
+  "unchangedBaselineFiles": 321,
+  "preservedOriginals": 77,
+  "preservedStories": 57,
+  "preservedQueries": 117,
+  "samplesUnchanged": 2,
+  "counts": {
+    "research": 58,
+    "fullOriginals": 78,
+    "illustratedStories": 58,
+    "samples": 2,
+    "ai": 37,
+    "queries": 119
+  },
+  "officialExportBytesUnchanged": true,
+  "verifiedManifest": "HTML and snapshot bytes/hash, snapshot equality to source",
+  "standaloneUnchanged": true,
+  "portalHtml": {
+    "bytes": 13550513,
+    "sha256": "5d71863953492fa7b28c7d9a516a6810aae8967def61b30a332ebfdeefa906e3"
+  },
+  "browserChecks": "not run; previous preview refused, file protocol denied; no retry or alternate route attempted",
+  "publication": "not attempted",
+  "limitations": [
+    "No claim of preserving inaccessible historical edits",
+    "No browser rendering, click flows, theme, persistent edits, print or real offline behavior validation"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "renderedVerification": "not run",
+  "priorStandaloneAttempt": "HTTP ERR_CONNECTION_REFUSED; file protocol denied",
+  "action": "No retry, alternate route, publication or security changes",
+  "notVerified": [
+    "portal rendering",
+    "narrow width",
+    "light/dark themes",
+    "navigation history and scroll",
+    "editing persistence",
+    "download clicks",
+    "printing",
+    "actual offline browser",
+    "browser console"
+  ]
+}

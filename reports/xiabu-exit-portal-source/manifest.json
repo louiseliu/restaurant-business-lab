@@ -1,0 +1,67 @@
+{
+  "kind": "authoring-source-only",
+  "htmlIncluded": false,
+  "zipIncluded": false,
+  "files": [
+    {
+      "path": "PORTAL_BUILD.md",
+      "bytes": 3788,
+      "sha256": "3de94467f64560a04851b81da6b4b64f99bdfad2554dd5eec92821996579198c"
+    },
+    {
+      "path": "baseline57-sha256.json",
+      "bytes": 35554,
+      "sha256": "7e8bcf757d2268fabedfd899f16f7a54ef9689bed72937959a0fbfb86ad7d018"
+    },
+    {
+      "path": "build_portal.py",
+      "bytes": 1812,
+      "sha256": "f887c69057c48ee8d1dfee0205af1d15c8822bbcab58ac5dea99524a79bde753"
+    },
+    {
+      "path": "integrate58.py",
+      "bytes": 2801,
+      "sha256": "48e19f25e4c9521728ebcf1fc2d280302447c7ce8c7abb2aa9ac5f9233bec1ec"
+    },
+    {
+      "path": "portal-build-qa.json",
+      "bytes": 1760,
+      "sha256": "6793cfea9a9df6b3b55f3f7116014c9a7fa6009398744da332952b57c87f48c5"
+    },
+    {
+      "path": "portal-independent-qa.json",
+      "bytes": 1098,
+      "sha256": "d9c404756c2774a6c5bc874605193817b8bab7668de2186a3fd61ca260b7d0ec"
+    },
+    {
+      "path": "portal-reproducibility.json",
+      "bytes": 859,
+      "sha256": "c2fc447a0bf567189d6343318c75f35fad505f0796ae247f0ebb80f313f23aad"
+    },
+    {
+      "path": "prepare_portal.py",
+      "bytes": 1133,
+      "sha256": "b2f4a3c8e2d6963dd47d267ca6cbf93899693c6cd0d99035ad372ef0956ce73f"
+    },
+    {
+      "path": "test_portal_merge_guard.py",
+      "bytes": 3057,
+      "sha256": "1dde808a8b8e0eb2c852830eb3109d1fd2638a881edc8cd073280e0ea3a0df41"
+    },
+    {
+      "path": "test_portal_preservation.py",
+      "bytes": 10407,
+      "sha256": "13bd9ba4e4130ce29dc72499b9fc02009cb9d9c876358db7a68a0596fd8561ca"
+    },
+    {
+      "path": "test_reader_routes.mjs",
+      "bytes": 2402,
+      "sha256": "b0a75a3695a6ffe4cd26052ce6a9e61c540c1e5098d9e17f949bed23f2e00188"
+    },
+    {
+      "path": "visual-qa-status.json",
+      "bytes": 443,
+      "sha256": "107ec22603cf4fc743c0c265ae3f6511af6d48399a48206649d6d823a61f7a3f"
+    }
+  ]
+}
