@@ -1,0 +1,79 @@
+{
+  "purpose": "Small additive source and verified QA for the local 59-story portal; no large HTML/ZIP, dist, runtime or private data.",
+  "articleId": "research-2026-11-05-hiring-access-note",
+  "firstGit": "fc02d8ca4db8a14ab86572d1d936fcdd6eaa8cb8",
+  "publishedAt": "2026-11-05T21:05:54Z",
+  "inputBaseline": "58-story readable source matching baseline58-sha256.json",
+  "output": {
+    "researchArticles": 59,
+    "fullOriginals": 79,
+    "samples": 2,
+    "aiArticles": 38,
+    "queries": 121,
+    "bytes": 13598336,
+    "sha256": "95770ea71d5776cf622546449f33eed8d1494ed21dff6ece93821cda86dbe4e0"
+  },
+  "status": "Local content/build/static tests and clean reproducibility passed; browser visual/interaction tests not run; no publication or original-site access retry.",
+  "files": [
+    {
+      "path": "PORTAL_BUILD.md",
+      "bytes": 3933,
+      "sha256": "a87e647f273fee52054da42716ceacdc73f95d4047754d84b15960dc51b633e3"
+    },
+    {
+      "path": "baseline58-sha256.json",
+      "bytes": 35908,
+      "sha256": "2e2bc93554c8dfbb4c0b417dcbd61035d1b3102927ca5d5e5a9122410a03f273"
+    },
+    {
+      "path": "build_portal.py",
+      "bytes": 1818,
+      "sha256": "ff4f6db971c734258abbb37fd6962d1173bf2209d8c34d5b984fe02dda362d40"
+    },
+    {
+      "path": "integrate59.py",
+      "bytes": 3025,
+      "sha256": "7d61b139505d37e879e4c7aeb4cd7b954e620aa47a5024c34318c9668cacf00a"
+    },
+    {
+      "path": "portal-build-qa.json",
+      "bytes": 1792,
+      "sha256": "30e830fa0b090f0701b28c3651a88fdf5679fe91f15e5996633263b351411299"
+    },
+    {
+      "path": "portal-independent-qa.json",
+      "bytes": 2118,
+      "sha256": "33aa5b9139c6bde6ab08dd46da3c5d76464e18e6ababf056cb68aafa7b0c5c8b"
+    },
+    {
+      "path": "portal-reproducibility.json",
+      "bytes": 1125,
+      "sha256": "bc8db99579a4e28347e50fb19203b6d1c098cfba83e8c984e308b1be9f6a3c1c"
+    },
+    {
+      "path": "prepare_portal.py",
+      "bytes": 1133,
+      "sha256": "58cd6bc1023affbc3a7b01023e08f69a0e369c0530a8939bd6e03900da0b9ec5"
+    },
+    {
+      "path": "test_portal_merge_guard.py",
+      "bytes": 3053,
+      "sha256": "2b5599200511c01c8983ac710f740a2d9231088df2bd2178afaa9dc19767ca82"
+    },
+    {
+      "path": "test_portal_preservation.py",
+      "bytes": 10437,
+      "sha256": "caeae847f49876e329cebd0337d76a66e2432d00e01a00bd33bd16dae32689dc"
+    },
+    {
+      "path": "test_reader_routes.mjs",
+      "bytes": 2411,
+      "sha256": "be50440cbd8947a8828ba6050dea764a92b606402898d2621d82516671e51ecd"
+    },
+    {
+      "path": "visual-qa-status.json",
+      "bytes": 679,
+      "sha256": "861affdd0a78858b17981568ad445ff72188b8b100587229eec2b7ccaf87b009"
+    }
+  ]
+}

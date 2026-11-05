@@ -1,0 +1,37 @@
+{
+  "portal59": {
+    "buildStatus": "complete",
+    "researchArticles": 59,
+    "fullOriginals": 79,
+    "illustratedStories": 59,
+    "samples": 2,
+    "aiArticles": 38,
+    "queries": 121,
+    "preservedOriginals": 78,
+    "preservedStories": 58,
+    "preservedQueries": 119,
+    "unchangedBaselineFiles": 324,
+    "legacyReportSha256": "1c2034ad9bcd6457ba9ab65d42717940b3d552a488a06b2b417b6063140b292d",
+    "portalReaderSha256": "c6ed936b73898cf795e0ca9e8a4c9700b1e480787e8020388391119ac8133a6a",
+    "privacyTextPayloads": 149,
+    "downloadPayloads": 5,
+    "recursiveZipContainers": 2,
+    "verifiedReleaseManifests": 1,
+    "compiledContents": "catalog, stories and embedded sample payloads equal reviewed source",
+    "buildManifest": "exact HTML and snapshot bytes and hashes verified",
+    "runtimeSha256": "b1771584910da746d0cf1b967a4889fee226053d841596104b457a04a2dd3d91",
+    "bytes": 13598336,
+    "sha256": "95770ea71d5776cf622546449f33eed8d1494ed21dff6ece93821cda86dbe4e0"
+  },
+  "scope": {
+    "articleId": "research-2026-11-05-hiring-access-note",
+    "firstGit": "fc02d8ca4db8a14ab86572d1d936fcdd6eaa8cb8",
+    "publishedAt": "2026-11-05T21:05:54Z",
+    "bodySha256": "7264147918222ba0af7997d8743af3fbb4306acad8b1e4c6772df7d15c419c35",
+    "sourcesSha256": "9a661c0d194b76cf3287a4ef54613687e88acac97ab7fb387bfa7457c3534905",
+    "published": false,
+    "largeHTMLGitArchive": "not attempted",
+    "baselineLimit": "Preserves the readable local 58-story baseline; does not recover unavailable historical or unarchived edits.",
+    "visualQA": "Full portal browser rendering and interactions not checked. The latest standalone HTTP preview failed with ERR_CONNECTION_REFUSED; older file-protocol access was denied. No retry, rehosting or alternative route was used."
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "reproducibility": "passed",
+  "method": "Copied final portal-archive-source and sibling archive-source into a fresh directory, without standalone, dist, offline exports, caches or node_modules. Ran prepare_portal.py then build_portal.py with official Data prepare/build/export and all integrity, privacy, merge-guard and route tests.",
+  "finalScriptRepairNeeded": false,
+  "resolvedDuringReview": "Removed an unnecessary test dependency on the standalone project; final complete reproduction does not require that project. Portal identity is checked against the complete baseline.",
+  "inputBaseline": "baseline58 verified against all 328 file fingerprints",
+  "output": {
+    "bytes": 13598336,
+    "sha256": "95770ea71d5776cf622546449f33eed8d1494ed21dff6ece93821cda86dbe4e0",
+    "identicalToFirstPortalBuild": true
+  },
+  "preservation": "Original portal58, baseline58 and standalone HTML preserved. Full portal source changes are limited to four authored data/reader files plus three new authored diagram files.",
+  "browserVerification": "Not run; previous restrictions retained, no retry, rehosting or bypass."
+}

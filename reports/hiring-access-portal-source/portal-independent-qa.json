@@ -1,0 +1,46 @@
+{
+  "result": "passed_static_content_source_and_reproducibility_only",
+  "articleId": "research-2026-11-05-hiring-access-note",
+  "executed": [
+    "Merge guard test returned 0, preserving user body/metadata/story/query/export preference edits and refusing repeat, identity, query, count, component, stylesheet, preview and symlink conflicts.",
+    "Actual reader route parser and URL round-trip/count/order tests returned 0.",
+    "Full preservation test returned 0 in an isolated temporary harness without writing into the original project.",
+    "Final preservation test returned 0 in a temporary directory with no standalone project."
+  ],
+  "independentChecks": {
+    "additions": {
+      "researchArticles": 1,
+      "illustratedStories": 1,
+      "queries": 2
+    },
+    "totals": {
+      "researchArticles": 59,
+      "fullOriginals": 79,
+      "samples": 2,
+      "aiArticles": 38,
+      "queries": 121
+    },
+    "retained": {
+      "fullOriginals": 78,
+      "illustratedStories": 58,
+      "queries": 119,
+      "unchangedFiles": 324
+    },
+    "privacy": {
+      "textPayloads": 149,
+      "downloads": 5,
+      "recursiveZipContainers": 2,
+      "releaseManifests": 1
+    },
+    "frozenNarrative": "Body, source ledger, first commit and first-added time match frozen inputs."
+  },
+  "resolvedFinding": "Removed an unnecessary standalone project dependency from the preservation test. Portal identity remains required to equal the 58-story baseline. Documentation corrected and final full reproduction performed without standalone.",
+  "finalReproduction": {
+    "officialBuildAndExport": "Log reviewed; all checks completed. Final QA equals original build QA.",
+    "bytes": 13598336,
+    "sha256": "95770ea71d5776cf622546449f33eed8d1494ed21dff6ece93821cda86dbe4e0",
+    "byteIdentical": true
+  },
+  "notVerified": "Rendered layout, mobile/narrow view, themes, source inspection, navigation/history/scroll, editor persistence, download clicks, print, offline browser and console errors.",
+  "externalActions": "Auditor did not modify original project, submit, upload, publish or retry browser access."
+}

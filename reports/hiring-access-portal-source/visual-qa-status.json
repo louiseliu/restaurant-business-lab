@@ -1,0 +1,18 @@
+{
+  "status": "not_run_preview_access_blocked",
+  "notVerified": [
+    "Full portal rendered layout",
+    "Narrow-screen layout",
+    "Light/dark themes",
+    "Click navigation and browser history",
+    "Scroll restoration",
+    "User edit persistence",
+    "Download clicks",
+    "Source inspectors",
+    "Printing",
+    "Actual offline browser behavior",
+    "Browser console errors"
+  ],
+  "reason": "The latest standalone local HTTP preview failed with ERR_CONNECTION_REFUSED, and older file-protocol access was denied. No portal retry, rehosting or alternative route was attempted.",
+  "publication": "Not performed or attempted. Original site and permissions unchanged."
+}
