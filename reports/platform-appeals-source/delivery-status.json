@@ -1,0 +1,24 @@
+{
+  "articleId": "research-2026-11-05-platform-appeals-note",
+  "title": "平台称AI能识假 小店还要保留哪些留证和申诉工作",
+  "stage": "Local single-article content and official build complete; static checks passed.",
+  "html": {
+    "bytes": 2940767,
+    "sha256": "52cda50a6d3531876a969bd0a679078059587c88f49f9c79d9fc24ebbfa8e7b2"
+  },
+  "firstGit": "dc3c37fbf9a84e8f7de9dc13e5f9046d63fca91e",
+  "firstIngestedAt": "2026-11-05T22:15:13Z",
+  "nativeAttachment": {
+    "status": "send_request_accepted",
+    "acceptedAtUtcMinute": "2026-11-05T22:17Z",
+    "timePrecision": "minute",
+    "deliveryConfirmation": "Not confirmed received, opened or downloaded."
+  },
+  "largeHtmlUpload": "Not attempted; HTML repository archive remains pending.",
+  "sourceArchive": "Small authoring-source snapshot; archive completion is recorded in repository history and state/current.md.",
+  "portalIntegration": "Not performed; existing portal unchanged.",
+  "sitePublication": "Not attempted; access settings unchanged.",
+  "browserVerification": "Not run; see visual-qa-status.json.",
+  "frozenSourceStatus": "The source ledger retains the research-preparation status from first ingestion; later build and delivery states are recorded separately here.",
+  "knownIssue": "Second-diagram metric label repeats diagram one; definitions and rows remain correct. See known-issues.json. Previously sent standalone is not modified or resent."
+}

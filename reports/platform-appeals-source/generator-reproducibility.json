@@ -1,0 +1,5 @@
+{
+  "result": "passed",
+  "scope": "Frozen narrative generator rerun in an empty temporary directory; generated article entry, illustrated story and reviewed queries are byte-identical. No claim of browser acceptance or full runtime byte-identical rebuild.",
+  "frozenBodySha256": "92643fbe8398708fcb2d24b844fbe6f5728b4ce07bff414341da1e83dce99d3a"
+}

@@ -1,0 +1,59 @@
+{
+  "status": "passed_static_audit",
+  "blockers": [],
+  "scope": "Independent local static inspection only; no browser access, publishing, upload, or product-source changes.",
+  "frozen": {
+    "commit": "dc3c37fbf9a84e8f7de9dc13e5f9046d63fca91e",
+    "publishedAt": "2026-11-05T22:15:13Z",
+    "bodySha256": "92643fbe8398708fcb2d24b844fbe6f5728b4ce07bff414341da1e83dce99d3a",
+    "sourcesSha256": "95e7d31a414ac10add6f7f6ce657ed4f90903e7895962daa7e6164a4f6d1a476",
+    "verification": "Exact local frozen inputs match author data and compiled article payloads; remote commit contents were not independently fetched."
+  },
+  "content": {
+    "completeSections": 6,
+    "completeSourceLedger": true,
+    "completeOriginal": true,
+    "platformClaims": "Conditional eligibility retained; no universal capability or success guarantee.",
+    "complaints": "Genuine complaints remain normally handled; added recording may shrink while existing food-safety and fulfillment requirements remain.",
+    "costs": "Qualitative author scenarios; no invented sample, accuracy, savings, or payback claim."
+  },
+  "diagrams": [
+    {
+      "diagram": "diagram",
+      "reviewedRows": 3,
+      "sourceIds": [
+        "S1",
+        "S2"
+      ],
+      "binding": "query rows, component ID, and scoped URLs match"
+    },
+    {
+      "diagram": "secondDiagram",
+      "reviewedRows": 3,
+      "sourceIds": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "binding": "query rows, component ID, and scoped URLs match"
+    }
+  ],
+  "compiledHtml": {
+    "sha256": "52cda50a6d3531876a969bd0a679078059587c88f49f9c79d9fc24ebbfa8e7b2",
+    "bytes": 2940767,
+    "embeddedOriginalAndStory": "Exact equality to reviewed author data",
+    "externalStaticAssetReferences": false,
+    "buildManifest": "HTML and snapshot bytes and hashes verified"
+  },
+  "privacy": {
+    "publicTextPayloadsChecked": 33,
+    "result": "No matched private absolute paths, private service links, or runtime identity patterns in public text and decoded compiled JSON. Generic scanner patterns in audit Python are not private data."
+  },
+  "notVerified": [
+    "Browser rendering and visual layout",
+    "Interactive source panels and keyboard behavior",
+    "Current merchant backend behavior",
+    "Independent remote retrieval of the frozen commit"
+  ],
+  "method": "Independent equality, hash, scope, reader-binding and decoded compiled-payload checks; did not run test_standalone.py because it writes build-qa.json outside the permitted audit output."
+}

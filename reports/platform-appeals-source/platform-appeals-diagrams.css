@@ -1,0 +1,18 @@
+.platform-appeals-diagram{margin:18px 0 32px;color:var(--text)}
+.platform-appeals-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin:22px 0}
+.platform-appeals-card{border:1px solid var(--border);border-top:4px solid #538c81;border-radius:14px;padding:20px;min-width:0;background:var(--surface);position:relative}
+.platform-appeals-responsibility .platform-appeals-card:nth-child(2){border-top-color:#b78b45}
+.platform-appeals-responsibility .platform-appeals-card:nth-child(3){border-top-color:#688daf}
+.platform-appeals-card header{display:flex;gap:12px;align-items:flex-start;border-bottom:1px solid var(--border);padding-bottom:16px;margin-bottom:18px}
+.platform-appeals-card h3{font-size:20px;line-height:1.4;margin:0;overflow-wrap:anywhere}
+.platform-appeals-number{font-size:22px;font-weight:700;line-height:1.3;color:var(--secondary)}
+.platform-appeals-cell{margin:20px 0}.platform-appeals-cell:last-child{margin-bottom:0}
+.platform-appeals-cell h4{font-size:13px;color:var(--secondary);margin:0 0 7px;letter-spacing:.04em}
+.platform-appeals-cell p{margin:0;line-height:1.85;font-size:15px;overflow-wrap:anywhere}
+.platform-appeals-boundary{border-left:3px solid #b78b45;padding-left:12px}
+.platform-appeals-conclusion{border-left:4px solid #538c81;padding:12px 18px;background:var(--muted);line-height:1.85}
+.platform-appeals-routes .platform-appeals-grid{grid-template-columns:1fr;gap:20px}
+.platform-appeals-routes .platform-appeals-card{display:grid;grid-template-columns:minmax(140px,.65fr) repeat(3,minmax(0,1fr));gap:18px}
+.platform-appeals-routes .platform-appeals-card header{border-bottom:0;border-right:1px solid var(--border);padding:0 18px 0 0;margin:0;flex-direction:column;justify-content:center}
+.platform-appeals-routes .platform-appeals-cell{margin:0}
+@media(max-width:850px){.platform-appeals-grid{grid-template-columns:1fr;gap:20px}.platform-appeals-card{padding:18px}.platform-appeals-routes .platform-appeals-card{display:block}.platform-appeals-routes .platform-appeals-card header{flex-direction:row;border-right:0;border-bottom:1px solid var(--border);padding:0 0 14px;margin-bottom:18px;justify-content:flex-start}.platform-appeals-routes .platform-appeals-cell{margin:18px 0}.platform-appeals-card h3{font-size:19px}}

@@ -1,0 +1,23 @@
+{
+  "https://www.meituan.com/news/NN260612201002604": {
+    "title": "美团官网所载商家AI守护报道",
+    "source": "美团官网，标注来源新华网",
+    "date": "2026-06-09",
+    "summary": "平台宣称自动识别异常凭证、减少商家技术举证负担，同时提醒保存出餐、打包及配送记录。未披露可独立复算的门店净收益或全流程效果。",
+    "approvedForReport": true
+  },
+  "https://rules-center.meituan.com/m/detail/guize/901": {
+    "title": "美团外卖平台评价管理规范",
+    "source": "美团规则中心，公开规范",
+    "date": "2025-12-20",
+    "summary": "规范限美团外卖评价，保留同一评价一次、首次评价及30日申诉限制，并区分举证场景。页面发布与修订日期自相矛盾，实际后台版本尚未核实；不外推退款规则。",
+    "approvedForReport": true
+  },
+  "https://www.court.gov.cn/zixun/xiangqing/440841.html": {
+    "title": "食品药品惩罚性赔偿司法解释",
+    "source": "最高人民法院，法释〔2024〕9号",
+    "date": "2024-08-21",
+    "summary": "第12条对合理生活消费需要范围内的特定请求予以支持；第15条另行处理恶意制造违法假象并涉嫌敲诈勒索的情形。事实条件须区分，不对本研究中任何个案定责。",
+    "approvedForReport": true
+  }
+}

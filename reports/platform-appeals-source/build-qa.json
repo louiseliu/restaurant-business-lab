@@ -1,0 +1,27 @@
+{
+  "standalone": {
+    "buildStatus": "complete",
+    "fullOriginals": 1,
+    "illustratedStories": 1,
+    "narrativeSections": 6,
+    "queries": 2,
+    "sourceUrls": 3,
+    "unchangedOfficialFiles": 241,
+    "privacyTextPayloads": 14,
+    "compiledContents": "equal reviewed source",
+    "buildManifest": "verified exact HTML/snapshot bytes and hashes",
+    "runtimeSha256": "b1771584910da746d0cf1b967a4889fee226053d841596104b457a04a2dd3d91",
+    "bytes": 2940767,
+    "sha256": "52cda50a6d3531876a969bd0a679078059587c88f49f9c79d9fc24ebbfa8e7b2"
+  },
+  "scope": {
+    "articleId": "research-2026-11-05-platform-appeals-note",
+    "firstGit": "dc3c37fbf9a84e8f7de9dc13e5f9046d63fca91e",
+    "publishedAt": "2026-11-05T22:15:13Z",
+    "bodySha256": "92643fbe8398708fcb2d24b844fbe6f5728b4ce07bff414341da1e83dce99d3a",
+    "published": false,
+    "largeHTMLGitArchive": "not attempted",
+    "portalIntegration": "not performed; standalone only"
+  },
+  "visualQA": "See visual-qa-status.json. Static checks do not establish rendered acceptance."
+}

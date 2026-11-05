@@ -1,0 +1,9 @@
+{
+  "status": "non_blocking_display_metadata_issue",
+  "artifact": "Previously sent standalone HTML and its frozen author source",
+  "field": "queries[diagram-research-2026-11-05-platform-appeals-note:second].source.metricDefinitions[0].label",
+  "observed": "The second diagram repeats the first diagram label: 平台技术核查、门店事实责任与作者建议的边界",
+  "verified": "Second-diagram definition, component binding and qualitative rows remain specific to investment choices.",
+  "scope": "Verified from author JSON only; rendered source-inspector display not tested.",
+  "action": "Record without altering or resending the previously accepted standalone attachment. Portal integration may correct its own copy; completion requires separate verification."
+}

@@ -1,0 +1,18 @@
+{
+  "status": "not_run_existing_preview_access_limitation",
+  "standaloneSha256": "52cda50a6d3531876a969bd0a679078059587c88f49f9c79d9fc24ebbfa8e7b2",
+  "thisRunPreviewAttempts": 0,
+  "basis": "The prior local HTTP preview returned net::ERR_CONNECTION_REFUSED. This run did not retry or switch protocols, rehost, or change security settings.",
+  "notVerified": [
+    "Rendered desktop and narrow-screen layout",
+    "Light and dark themes",
+    "Source-inspector interactions",
+    "Table of contents and return-to-top",
+    "Full original and source-ledger disclosures",
+    "Print",
+    "Offline browser behavior",
+    "Browser console errors"
+  ],
+  "staticChecks": "See build-qa.json and independent-qa.json. Static checks do not establish rendered acceptance.",
+  "publication": "Not performed or attempted."
+}

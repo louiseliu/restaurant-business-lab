@@ -1,0 +1,134 @@
+{
+  "articleId": "research-2026-11-05-platform-appeals-note",
+  "firstGit": "dc3c37fbf9a84e8f7de9dc13e5f9046d63fca91e",
+  "scope": "Small authoring source and factual QA records only. No HTML, ZIP, full official runtime, cache or private source paths.",
+  "files": [
+    {
+      "path": "BUILD.md",
+      "bytes": 3816,
+      "sha256": "102e672c555cee3afa661650fcd84bf98aff47d50ae3dc39b9bc222abfee8a0f"
+    },
+    {
+      "path": "PlatformAppealsDiagrams.jsx",
+      "bytes": 1542,
+      "sha256": "393dc113dbc7518e5942a77302c1aa7c07895275ad0df4e11f01ee8440815ee3"
+    },
+    {
+      "path": "article-entry.json",
+      "bytes": 11334,
+      "sha256": "c13e3083e75a8361e8f4cb59165061dbbf6af072e30e86bee3438d24a8b46431"
+    },
+    {
+      "path": "article-reviewed-data.json",
+      "bytes": 7940,
+      "sha256": "c56487642eee6fab3a49d8185e13b936cdbf968f41453e2888d1441b900ac8b3"
+    },
+    {
+      "path": "authoring-guard-qa.json",
+      "bytes": 1022,
+      "sha256": "47d82b97bd110bdd7182b7fbbd967e69cc31ad333fddb926ab6ada350e5d94d1"
+    },
+    {
+      "path": "build-qa.json",
+      "bytes": 1045,
+      "sha256": "4d6c2c5e2866fd243497dddb5e2c77fd8aabfa5002ae93073201dc17dfd310c2"
+    },
+    {
+      "path": "delivery-status.json",
+      "bytes": 1443,
+      "sha256": "62c8ff1eda4f33c266ea2da31c455c11cbf9cf55f0abfe3bb535665723a30ed5"
+    },
+    {
+      "path": "frozen.json",
+      "bytes": 260,
+      "sha256": "2207fff00e1ade18e0c447784b92e9cf7e1f6b7e19ca6f979c1f9c6bd1435322"
+    },
+    {
+      "path": "generator-reproducibility.json",
+      "bytes": 350,
+      "sha256": "270951e209f6321b4aa5170c8e7d817fc3c1e5ced4c460fb82044d34dad0c13b"
+    },
+    {
+      "path": "illustrated-story.json",
+      "bytes": 23804,
+      "sha256": "032d1c0a4b444ddac3b5c0e0867b137aac9a5c69078a42e122fb0bcde5fb7773"
+    },
+    {
+      "path": "independent-qa.json",
+      "bytes": 2518,
+      "sha256": "f1b178267e2322cc0f2e642e03d5e1213320ba8c5385cee54230ba7df57bf4e5"
+    },
+    {
+      "path": "known-issues.json",
+      "bytes": 780,
+      "sha256": "f16950b9e5e21e6ca32a2639e0eadbafd27cbee9fa892168830951a7d6ecaf99"
+    },
+    {
+      "path": "make_article.py",
+      "bytes": 2937,
+      "sha256": "1af395a4375cc58a7de8a525e062020106ff7fd9030790564a6c7e37c1e93101"
+    },
+    {
+      "path": "platform-appeals-diagrams.css",
+      "bytes": 2281,
+      "sha256": "5c92be896d2bf77329252a7c183313d136f138b6e066c018a02362b37addc9df"
+    },
+    {
+      "path": "platform-appeals-source-previews.json",
+      "bytes": 1359,
+      "sha256": "ba4410c453d5842cb0a17901428d2036f53014d41476094bc9c21a8ba9378d12"
+    },
+    {
+      "path": "prepare_standalone.py",
+      "bytes": 2195,
+      "sha256": "357ecf5a11413a5d529acbd01787bc9d4f6b44c0f288e0f02eaa63a721d65248"
+    },
+    {
+      "path": "reviewed-illustration-copy.json",
+      "bytes": 6512,
+      "sha256": "330608416deb4be9a40d27049838ee4fd9cb492b12076f6669b486cf1cc13ddd"
+    },
+    {
+      "path": "shared/IllustratedArticle.jsx",
+      "bytes": 9564,
+      "sha256": "239274bfc24b924a5a1c92d0ba47dc6c997ea33fb5404071f90a48c5276e03e1"
+    },
+    {
+      "path": "shared/ReportContent.jsx",
+      "bytes": 703,
+      "sha256": "ae9d8787ad6b9d15c57aead3b72f48d0b487e2b52a42a6e75a4f6b8fda126a69"
+    },
+    {
+      "path": "shared/illustrated.css",
+      "bytes": 10060,
+      "sha256": "a15fbe5f09e241738ffffa683f3e7d9ba535ff943cecb8f7e250e1449209f928"
+    },
+    {
+      "path": "shared/timeline.css",
+      "bytes": 7346,
+      "sha256": "b867d64e25125a71868940d4da6fe6bc2569f1b719ceefaed0b92e6baf0a4fee"
+    },
+    {
+      "path": "standalone-prepared-sha256.json",
+      "bytes": 27380,
+      "sha256": "6f4b4b4f9e3f73a076a58f81ebc5434c62901941a392ab4041d7790739db1d4a"
+    },
+    {
+      "path": "test_authoring_guard.py",
+      "bytes": 2515,
+      "sha256": "701834c44366dc0955b7f831c61da709fd3cdea9e066e8440f44873bb239704b"
+    },
+    {
+      "path": "test_standalone.py",
+      "bytes": 5693,
+      "sha256": "5137a20fd3058cf66431f0a6bd87d8f634a722892d103e70ed2afe08d30384d5"
+    },
+    {
+      "path": "visual-qa-status.json",
+      "bytes": 815,
+      "sha256": "2524448eafa661ddacd69e2fb9a5a75241b8ae182b203c22388595eea10f3c44"
+    }
+  ],
+  "fileCountExcludingManifest": 25,
+  "bytesExcludingManifest": 135214
+}
