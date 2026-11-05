@@ -1,0 +1,26 @@
+{
+  "result": "pass",
+  "method": "Fresh temporary source copy, removed existing generated outputs, ran make_article.py with byte-identical fixed note and sources",
+  "outputs": {
+    "article-entry.json": {
+      "sha256": "911e9e4486eda5e76392b4219446cdc6c3df483e3189b251a70386c1eeacae9e",
+      "bytes": 10755,
+      "byteIdentical": true
+    },
+    "illustrated-story.json": {
+      "sha256": "6457fed2f2058d429fe3efa2d83b5966834f80c806018ff64cbb36cbff484d45",
+      "bytes": 24991,
+      "byteIdentical": true
+    },
+    "article-reviewed-data.json": {
+      "sha256": "9e852763bb1a7c0c5017ade01dd4048576d8df02d572d912a67d6dbfea28e2d7",
+      "bytes": 6910,
+      "byteIdentical": true
+    }
+  },
+  "bodySha256": "87197ed3d356b33d06d84819a221eb39b1398278afb6bfa9a65e904f752dbba1",
+  "sourcesSha256": "28d2fbc392a94e5d5c4275dd2bca2a729e0f949c195466147a973de7531cc50b",
+  "scope": "Authoring generator reproducibility only. Not a fresh runtime or HTML rebuild.",
+  "originalInputsUnchanged": true,
+  "productionFilesUnchanged": true
+}

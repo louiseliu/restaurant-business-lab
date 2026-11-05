@@ -1,0 +1,27 @@
+{
+  "standalone": {
+    "buildStatus": "complete",
+    "fullOriginals": 1,
+    "illustratedStories": 1,
+    "narrativeSections": 6,
+    "queries": 2,
+    "sourceUrls": 3,
+    "unchangedOfficialFiles": 241,
+    "privacyTextPayloads": 14,
+    "compiledContents": "equal reviewed source",
+    "buildManifest": "verified exact HTML/snapshot bytes and hashes",
+    "runtimeSha256": "b1771584910da746d0cf1b967a4889fee226053d841596104b457a04a2dd3d91",
+    "bytes": 2940573,
+    "sha256": "5b03b7cb9c609eea660e55497c7daa3dbe5c116902b2f4a36b7b1a89e126abea"
+  },
+  "scope": {
+    "articleId": "research-2026-11-05-kotipizza-pricing-note",
+    "firstGit": "a9a3137240790b5ef12abe6273adb8e0dd09505b",
+    "publishedAt": "2026-11-05T23:17:18Z",
+    "bodySha256": "87197ed3d356b33d06d84819a221eb39b1398278afb6bfa9a65e904f752dbba1",
+    "published": false,
+    "largeHTMLGitArchive": "not attempted",
+    "portalIntegration": "not performed; standalone only"
+  },
+  "visualQA": "See visual-qa-status.json. Static checks do not establish rendered acceptance."
+}

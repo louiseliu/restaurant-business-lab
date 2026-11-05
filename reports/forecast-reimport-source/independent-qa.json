@@ -1,0 +1,1077 @@
+{
+  "result": "PASS_STATIC",
+  "blockingFindings": 0,
+  "htmlSha256": "7b218db0f1c6ae2820ba8402932d9f4d3e480a67b7080f602c4fdaf05062ada7",
+  "htmlBytes": 2938129,
+  "protectedFiles": 241,
+  "checks": [
+    {
+      "check": "exact packaged HTML",
+      "pass": true
+    },
+    {
+      "check": "one embedded article and story",
+      "pass": true
+    },
+    {
+      "check": "full original exact UTF-8 body",
+      "pass": true
+    },
+    {
+      "check": "body digest",
+      "pass": true
+    },
+    {
+      "check": "six exact narrative sections including research disclosure",
+      "pass": true
+    },
+    {
+      "check": "full source ledger",
+      "pass": true
+    },
+    {
+      "check": "frozen first commit and time",
+      "pass": true
+    },
+    {
+      "check": "embedded snapshot digest",
+      "pass": true
+    },
+    {
+      "check": "two separate diagram queries",
+      "pass": true
+    },
+    {
+      "check": "diagram qualitative rows",
+      "pass": true
+    },
+    {
+      "check": "diagram scoped metric definition",
+      "pass": true
+    },
+    {
+      "check": "diagram source IDs",
+      "pass": true
+    },
+    {
+      "check": "diagram author attribution",
+      "pass": true
+    },
+    {
+      "check": "secondDiagram qualitative rows",
+      "pass": true
+    },
+    {
+      "check": "secondDiagram scoped metric definition",
+      "pass": true
+    },
+    {
+      "check": "secondDiagram source IDs",
+      "pass": true
+    },
+    {
+      "check": "secondDiagram author attribution",
+      "pass": true
+    },
+    {
+      "check": "source URLs scoped",
+      "pass": true
+    },
+    {
+      "check": "embedded runtime digest",
+      "pass": true
+    },
+    {
+      "check": "build manifest html",
+      "pass": true
+    },
+    {
+      "check": "build manifest snapshot",
+      "pass": true
+    },
+    {
+      "check": "manifest runtime identity",
+      "pass": true
+    },
+    {
+      "check": "protected index.html",
+      "pass": true
+    },
+    {
+      "check": "protected package-lock.json",
+      "pass": true
+    },
+    {
+      "check": "protected protected-runtime.json",
+      "pass": true
+    },
+    {
+      "check": "protected package.json",
+      "pass": true
+    },
+    {
+      "check": "protected AGENTS.md",
+      "pass": true
+    },
+    {
+      "check": "protected vite.config.js",
+      "pass": true
+    },
+    {
+      "check": "protected scripts/verify-protected-runtime.mjs",
+      "pass": true
+    },
+    {
+      "check": "protected scripts/authorize-protected-change.mjs",
+      "pass": true
+    },
+    {
+      "check": "protected scripts/protected-file-digest.mjs",
+      "pass": true
+    },
+    {
+      "check": "protected src/use-section-filters.js",
+      "pass": true
+    },
+    {
+      "check": "protected src/object-snapshot-storage.js",
+      "pass": true
+    },
+    {
+      "check": "protected src/styles-foundation.css",
+      "pass": true
+    },
+    {
+      "check": "protected src/dashboard-view-state.js",
+      "pass": true
+    },
+    {
+      "check": "protected src/refresh-coachmark.js",
+      "pass": true
+    },
+    {
+      "check": "protected src/main.jsx",
+      "pass": true
+    },
+    {
+      "check": "protected src/export-catalog.js",
+      "pass": true
+    },
+    {
+      "check": "protected src/prebuilt-runtime-entry.jsx",
+      "pass": true
+    },
+    {
+      "check": "protected src/handoff-preference.js",
+      "pass": true
+    },
+    {
+      "check": "protected src/control-styles.css",
+      "pass": true
+    },
+    {
+      "check": "protected src/source-preview.js",
+      "pass": true
+    },
+    {
+      "check": "protected src/runtime-environment.js",
+      "pass": true
+    },
+    {
+      "check": "protected src/DataAppContext.jsx",
+      "pass": true
+    },
+    {
+      "check": "protected src/block-layout.js",
+      "pass": true
+    },
+    {
+      "check": "protected src/streaming-json.js",
+      "pass": true
+    },
+    {
+      "check": "protected src/App.jsx",
+      "pass": true
+    },
+    {
+      "check": "protected src/data-app-actions.js",
+      "pass": true
+    },
+    {
+      "check": "protected src/worker.js",
+      "pass": true
+    },
+    {
+      "check": "protected src/source-preview.css",
+      "pass": true
+    },
+    {
+      "check": "protected src/DataAppShell.jsx",
+      "pass": true
+    },
+    {
+      "check": "protected src/use-data-app.js",
+      "pass": true
+    },
+    {
+      "check": "protected src/data-app-public.jsx",
+      "pass": true
+    },
+    {
+      "check": "protected src/use-inline-editing.js",
+      "pass": true
+    },
+    {
+      "check": "protected src/theme-picker.css",
+      "pass": true
+    },
+    {
+      "check": "protected src/print.css",
+      "pass": true
+    },
+    {
+      "check": "protected src/dashboard-url-state.js",
+      "pass": true
+    },
+    {
+      "check": "protected src/verification-reminder.js",
+      "pass": true
+    },
+    {
+      "check": "protected src/snapshot-storage.js",
+      "pass": true
+    },
+    {
+      "check": "protected src/chart-permalink.js",
+      "pass": true
+    },
+    {
+      "check": "protected src/data-app-worker.js",
+      "pass": true
+    },
+    {
+      "check": "protected src/use-presentation.js",
+      "pass": true
+    },
+    {
+      "check": "protected src/report-follow-up.js",
+      "pass": true
+    },
+    {
+      "check": "protected src/data-app-image-tools.js",
+      "pass": true
+    },
+    {
+      "check": "protected src/use-data-app-image-tools.js",
+      "pass": true
+    },
+    {
+      "check": "protected src/query-data-store.js",
+      "pass": true
+    },
+    {
+      "check": "protected src/theme-presets.js",
+      "pass": true
+    },
+    {
+      "check": "protected src/hosted-query-bootstrap.js",
+      "pass": true
+    },
+    {
+      "check": "protected src/source-provenance.js",
+      "pass": true
+    },
+    {
+      "check": "protected src/date-range.js",
+      "pass": true
+    },
+    {
+      "check": "protected src/data-app-handoff.js",
+      "pass": true
+    },
+    {
+      "check": "protected src/foundation.css",
+      "pass": true
+    },
+    {
+      "check": "protected src/DataAppRuntime.jsx",
+      "pass": true
+    },
+    {
+      "check": "protected src/owner-email.js",
+      "pass": true
+    },
+    {
+      "check": "protected src/presentation-state.js",
+      "pass": true
+    },
+    {
+      "check": "protected src/build-state.js",
+      "pass": true
+    },
+    {
+      "check": "protected src/data-app-schedule.js",
+      "pass": true
+    },
+    {
+      "check": "protected src/use-sortable-blocks.js",
+      "pass": true
+    },
+    {
+      "check": "protected src/use-data-app-context-tools.js",
+      "pass": true
+    },
+    {
+      "check": "protected src/chrome-contrast.js",
+      "pass": true
+    },
+    {
+      "check": "protected src/styles.css",
+      "pass": true
+    },
+    {
+      "check": "protected src/report-date.js",
+      "pass": true
+    },
+    {
+      "check": "protected src/chrome-layout.js",
+      "pass": true
+    },
+    {
+      "check": "protected src/publish-review.js",
+      "pass": true
+    },
+    {
+      "check": "protected src/data-app-context-tools.js",
+      "pass": true
+    },
+    {
+      "check": "protected src/chart-export.js",
+      "pass": true
+    },
+    {
+      "check": "protected src/dashboard-ask.js",
+      "pass": true
+    },
+    {
+      "check": "protected src/chart-image.js",
+      "pass": true
+    },
+    {
+      "check": "protected src/data-app-owner.js",
+      "pass": true
+    },
+    {
+      "check": "protected src/card-image.js",
+      "pass": true
+    },
+    {
+      "check": "protected src/theme-runtime.js",
+      "pass": true
+    },
+    {
+      "check": "protected .openai/hosting.json",
+      "pass": true
+    },
+    {
+      "check": "protected docs/components/tables.md",
+      "pass": true
+    },
+    {
+      "check": "protected docs/components/async-data.md",
+      "pass": true
+    },
+    {
+      "check": "protected docs/components/README.md",
+      "pass": true
+    },
+    {
+      "check": "protected docs/components/reports.md",
+      "pass": true
+    },
+    {
+      "check": "protected docs/components/charts.md",
+      "pass": true
+    },
+    {
+      "check": "protected docs/components/funnels.md",
+      "pass": true
+    },
+    {
+      "check": "protected docs/components/filtering.md",
+      "pass": true
+    },
+    {
+      "check": "protected docs/components/bar-presentations.md",
+      "pass": true
+    },
+    {
+      "check": "protected docs/components/comparison-formatting.md",
+      "pass": true
+    },
+    {
+      "check": "protected docs/components/controls.md",
+      "pass": true
+    },
+    {
+      "check": "protected docs/components/sortable-layout.md",
+      "pass": true
+    },
+    {
+      "check": "protected docs/components/sources.md",
+      "pass": true
+    },
+    {
+      "check": "protected docs/components/layout.md",
+      "pass": true
+    },
+    {
+      "check": "protected src/charting/bar-family.js",
+      "pass": true
+    },
+    {
+      "check": "protected src/charting/chart-annotation-layout.js",
+      "pass": true
+    },
+    {
+      "check": "protected src/charting/chart-overrides.js",
+      "pass": true
+    },
+    {
+      "check": "protected src/charting/ChartTooltip.jsx",
+      "pass": true
+    },
+    {
+      "check": "protected src/charting/ChartRenderer.jsx",
+      "pass": true
+    },
+    {
+      "check": "protected src/charting/BarFamilyRenderer.jsx",
+      "pass": true
+    },
+    {
+      "check": "protected src/charting/NumericAxes.jsx",
+      "pass": true
+    },
+    {
+      "check": "protected src/charting/ChartAnnotations.jsx",
+      "pass": true
+    },
+    {
+      "check": "protected src/charting/TemporalXAxis.jsx",
+      "pass": true
+    },
+    {
+      "check": "protected src/charting/chart-editor-state.js",
+      "pass": true
+    },
+    {
+      "check": "protected src/charting/ChartFrame.jsx",
+      "pass": true
+    },
+    {
+      "check": "protected src/charting/table-data.js",
+      "pass": true
+    },
+    {
+      "check": "protected src/charting/chart-data-shape.js",
+      "pass": true
+    },
+    {
+      "check": "protected src/charting/SankeyRenderer.jsx",
+      "pass": true
+    },
+    {
+      "check": "protected src/charting/PieRenderer.jsx",
+      "pass": true
+    },
+    {
+      "check": "protected src/charting/ChartMark.jsx",
+      "pass": true
+    },
+    {
+      "check": "protected src/charting/chart-extrema.js",
+      "pass": true
+    },
+    {
+      "check": "protected src/charting/TableSparkline.jsx",
+      "pass": true
+    },
+    {
+      "check": "protected src/charting/ChartState.jsx",
+      "pass": true
+    },
+    {
+      "check": "protected src/charting/chart-mark-interactions.js",
+      "pass": true
+    },
+    {
+      "check": "protected src/charting/HeatmapRenderer.jsx",
+      "pass": true
+    },
+    {
+      "check": "protected src/charting/chart-annotations.js",
+      "pass": true
+    },
+    {
+      "check": "protected src/charting/MetricSparkline.jsx",
+      "pass": true
+    },
+    {
+      "check": "protected src/charting/CategoryAxisTick.jsx",
+      "pass": true
+    },
+    {
+      "check": "protected src/charting/SelectedChartRegion.jsx",
+      "pass": true
+    },
+    {
+      "check": "protected src/charting/chart-theme.js",
+      "pass": true
+    },
+    {
+      "check": "protected src/charting/experimental-bar-chart.css",
+      "pass": true
+    },
+    {
+      "check": "protected src/charting/chart-transforms.js",
+      "pass": true
+    },
+    {
+      "check": "protected src/charting/chart-spec-validation.js",
+      "pass": true
+    },
+    {
+      "check": "protected src/charting/FunnelRenderer.jsx",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/PublishReviewDialog.jsx",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/SortableRegion.jsx",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/Dropdown.jsx",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/topbar-mode-controls.css",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/EditableText.jsx",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/ChartEditor.jsx",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/DateRangePicker.jsx",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/Select.jsx",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/RefreshSetupCoachmark.jsx",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/chart-color-utils.js",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/ChartExportDialog.jsx",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/ui.jsx",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/chart-export.css",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/executive-summary.css",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/RichTextFormatToolbar.jsx",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/SourcePreviewCardContent.jsx",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/slider-math.js",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/SourcePreviewLink.jsx",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/CustomBlockHost.jsx",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/ChartExplorer.jsx",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/QueryDataBoundary.jsx",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/DashboardTabs.jsx",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/Switch.jsx",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/dropdown-model.js",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/SmoothCardSurface.jsx",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/DashboardAsk.jsx",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/SourceInspector.jsx",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/data-app-loading.css",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/SectionNavigator.jsx",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/source-inspector.css",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/DataAppLoadingContent.jsx",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/DataComponent.jsx",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/Slider.jsx",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/Icon.jsx",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/Controls.jsx",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/contained-ui.jsx",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/DataTable.jsx",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/data-app-handoff.css",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/DataAppHandoffDialog.jsx",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/EvidenceChart.jsx",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/ControlIcon.jsx",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/touch-release-trigger.js",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/DataAppChrome.jsx",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/Section.jsx",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/SvgIcon.jsx",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/form-controls.css",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/Chart.jsx",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/MetricCard.jsx",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/RichMarkdown.jsx",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/publish-review.css",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/SourcesReceipt.jsx",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/SourceProviderIcon.jsx",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/section-navigator.css",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/DataAppToast.jsx",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/ExecutiveSummary.jsx",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/SegmentedControl.jsx",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/icons/convert-icon-word.svg",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/icons/dashboard-icon-trash.svg",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/icons/convert-icon-powerpoint.svg",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/icons/dashboard-icon-monitor.svg",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/icons/dashboard-icon-arrowUp.svg",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/icons/dashboard-icon-globe.svg",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/icons/dashboard-icon-calendar.svg",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/icons/dashboard-icon-cross.svg",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/icons/source-icon-slack.svg",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/icons/dashboard-icon-palette.svg",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/icons/dashboard-icon-search.svg",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/icons/dashboard-icon-documentRefresh.svg",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/icons/dashboard-icon-italic.svg",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/icons/dashboard-icon-convert.svg",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/icons/receipt-icon-file-audio.svg",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/icons/dashboard-icon-checkboxUnchecked.svg",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/icons/receipt-icon-document.svg",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/icons/source-icon-google-drive.svg",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/icons/convert-icon-google-docs.svg",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/icons/dashboard-icon-summaryBubble.svg",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/icons/dashboard-icon-sun.svg",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/icons/dashboard-icon-shieldCheck.svg",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/icons/dashboard-icon-stop.svg",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/icons/dashboard-icon-remix.svg",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/icons/dashboard-icon-plus.svg",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/icons/source-icon-google-sheets.svg",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/icons/dashboard-icon-sendUp.svg",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/icons/dashboard-icon-edit.svg",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/icons/convert-icon-google-slides.svg",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/icons/dashboard-icon-textDocument.svg",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/icons/dashboard-icon-alertBell.svg",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/icons/dashboard-icon-moon.svg",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/icons/dashboard-icon-sliders.svg",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/icons/dashboard-icon-theme.svg",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/icons/source-icon-notion.svg",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/icons/dashboard-icon-chatBubble.svg",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/icons/dashboard-icon-close.svg",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/icons/dashboard-icon-arrowDown.svg",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/icons/dashboard-icon-check.svg",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/icons/receipt-icon-chart.svg",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/icons/dashboard-icon-sites.svg",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/icons/source-icon-github.svg",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/icons/dashboard-icon-database.svg",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/icons/dashboard-icon-bold.svg",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/icons/dashboard-icon-chevronLeft.svg",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/icons/dashboard-icon-download.svg",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/icons/dashboard-icon-info.svg",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/icons/dashboard-icon-chevronRight.svg",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/icons/receipt-icon-link.svg",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/icons/dashboard-icon-building.svg",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/icons/dashboard-icon-refresh.svg",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/icons/convert-icon-pdf.svg",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/icons/dashboard-icon-more.svg",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/icons/convert-icon-jupyter.svg",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/icons/dashboard-icon-checkboxChecked.svg",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/icons/dashboard-icon-chevronDown.svg",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/icons/dashboard-icon-arrowUpRight.svg",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/icons/dashboard-icon-spinner.svg",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/icons/dashboard-icon-undo.svg",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/icons/dashboard-icon-link.svg",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/icons/dashboard-icon-settings.svg",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/icons/receipt-icon-file-image.svg",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/icons/dashboard-icon-eye.svg",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/icons/receipt-icon-table.svg",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/icons/receipt-icon-file.svg",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/icons/convert-icon-spreadsheet.svg",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/icons/receipt-icon-file-presentation.svg",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/icons/receipt-icon-file-code.svg",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/icons/dashboard-icon-copy.svg",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/icons/dashboard-icon-chatgpt.svg",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/icons/dashboard-icon-lock.svg",
+      "pass": true
+    },
+    {
+      "check": "protected src/components/icons/receipt-icon-file-video.svg",
+      "pass": true
+    },
+    {
+      "check": "privacy and credential pattern scan",
+      "pass": true
+    },
+    {
+      "check": "no remote HTML assets",
+      "pass": true
+    }
+  ],
+  "visualAcceptance": "NOT RUN; no browser or external access",
+  "limitations": [
+    "Fixed commit and timestamp checked against supplied reference, not independently fetched from remote.",
+    "Pattern scan and content review are not an exhaustive secret detection guarantee."
+  ],
+  "advisories": [
+    "Both evidenceFlow lists label S2 as pages 1,3,10; diagram 2 definition and note correctly cite page 19. Broaden shared source display title in a future revision for easier navigation."
+  ]
+}

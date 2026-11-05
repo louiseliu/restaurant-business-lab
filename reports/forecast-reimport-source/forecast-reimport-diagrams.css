@@ -1,0 +1,19 @@
+.forecast-reimport-diagram{margin:18px 0 32px;color:var(--text)}
+.forecast-reimport-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin:22px 0}
+.forecast-reimport-card{border:1px solid var(--border);border-top:4px solid #538c81;border-radius:14px;padding:20px;min-width:0;background:var(--surface);position:relative}
+.forecast-reimport-options .forecast-reimport-card:nth-child(2){border-top-color:#b78b45}
+.forecast-reimport-options .forecast-reimport-card:nth-child(3){border-top-color:#688daf}
+.forecast-reimport-card header{display:flex;gap:12px;align-items:flex-start;border-bottom:1px solid var(--border);padding-bottom:16px;margin-bottom:18px}
+.forecast-reimport-card h3{font-size:20px;line-height:1.4;margin:0;overflow-wrap:anywhere}
+.forecast-reimport-number{font-size:22px;font-weight:700;line-height:1.3;color:var(--secondary)}
+.forecast-reimport-arrow{font-size:28px;color:var(--secondary);margin-top:6px}
+.forecast-reimport-cell{margin:20px 0}.forecast-reimport-cell:last-child{margin-bottom:0}
+.forecast-reimport-cell h4{font-size:13px;color:var(--secondary);margin:0 0 7px;letter-spacing:.04em}
+.forecast-reimport-cell p{margin:0;line-height:1.85;font-size:15px;overflow-wrap:anywhere}
+.forecast-reimport-boundary{border-left:3px solid #b78b45;padding-left:12px}
+.forecast-reimport-conclusion{border-left:4px solid #538c81;padding:12px 18px;background:var(--muted);line-height:1.85}
+.forecast-reimport-chain .forecast-reimport-grid{grid-template-columns:1fr;gap:20px}
+.forecast-reimport-chain .forecast-reimport-card{display:grid;grid-template-columns:minmax(140px,.6fr) repeat(3,minmax(0,1fr));gap:18px}
+.forecast-reimport-chain .forecast-reimport-card header{border-bottom:0;border-right:1px solid var(--border);padding:0 18px 0 0;margin:0;flex-direction:column;justify-content:center}
+.forecast-reimport-chain .forecast-reimport-cell{margin:0}
+@media(max-width:850px){.forecast-reimport-grid{grid-template-columns:1fr;gap:20px}.forecast-reimport-card{padding:18px}.forecast-reimport-chain .forecast-reimport-card{display:block}.forecast-reimport-chain .forecast-reimport-card header{flex-direction:row;border-right:0;border-bottom:1px solid var(--border);padding:0 0 14px;margin-bottom:18px;justify-content:flex-start}.forecast-reimport-chain .forecast-reimport-cell{margin:18px 0}.forecast-reimport-card h3{font-size:19px}.forecast-reimport-arrow{margin-top:0}}

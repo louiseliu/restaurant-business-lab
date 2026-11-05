@@ -1,0 +1,14 @@
+{
+  "article": "配送费要不要随忙闲变化",
+  "firstGit": "a9a3137240790b5ef12abe6273adb8e0dd09505b",
+  "firstGitAt": "2026-11-05T23:17:18Z",
+  "htmlSha256": "5b03b7cb9c609eea660e55497c7daa3dbe5c116902b2f4a36b7b1a89e126abea",
+  "staticChecks": "passed including independent review",
+  "browserVisualInteraction": "not performed",
+  "standaloneAttachment": "Batch send request accepted at 2026-11-05T23:26:23Z; does not confirm delivery, opening or download.",
+  "portalIntegration": "not performed",
+  "originalWebsite": "not synchronized",
+  "largeHtmlGitArchive": "not performed",
+  "frozenSourceStatus": "Source ledger preserves preparation-stage wording; current state is recorded here.",
+  "attachmentRequestAcceptedAt": "2026-11-05T23:26:23Z"
+}

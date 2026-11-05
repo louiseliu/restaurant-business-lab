@@ -1,0 +1,121 @@
+{
+  "scope": "Small authoring source and QA only; no HTML, source PDF or runtime cache",
+  "files": {
+    "generator-reproducibility.json": {
+      "bytes": 903,
+      "sha256": "68c0f85be2a76732f3a2635c331f55f45fd29b9b0873baf86926075b9d4ba0f5"
+    },
+    "prepare_standalone.py": {
+      "bytes": 2201,
+      "sha256": "ade7f0c06c93327a4f1e7365df52d886dcc7ec856d701280f827e8efbb5f9ad7"
+    },
+    "illustrated-story.json": {
+      "bytes": 22626,
+      "sha256": "b92d3f2cc5bc57b175c73609c3c2b143cef3775944a7a82b8a87c1eef640dd80"
+    },
+    "independent-review.md": {
+      "bytes": 3085,
+      "sha256": "e987ed77e55c154acd488d70efeeff3c7977b510861371c1dbe76c04d0c09a0d"
+    },
+    "visual-qa-status.json": {
+      "bytes": 249,
+      "sha256": "c3891f45023353578963860cf4241062cfdd34d61b3164b57fc52f71cc6a66a1"
+    },
+    "note.md": {
+      "bytes": 9563,
+      "sha256": "3d839a40fb6bc73b4cf03f828933b2c2f278e500f675ce2a3815537502e31759"
+    },
+    "article-reviewed-data.json": {
+      "bytes": 7649,
+      "sha256": "28c552d8d01e698b4234cdf5590a23b5f7ced7f174f038549844be5e869e8739"
+    },
+    "ForecastReimportDiagrams.jsx": {
+      "bytes": 1724,
+      "sha256": "f86b9ba20e444a2c77a4a7f103f52d9e55ec64bb2d4aedf22a2458ffc7c4ead0"
+    },
+    "standalone-prepared-sha256.json": {
+      "bytes": 27380,
+      "sha256": "ab0da761b2a4bfd1ef1c19f0e2af12594f32a11621f623a942e4aee7e1e4815b"
+    },
+    "build-qa.json": {
+      "bytes": 1071,
+      "sha256": "5ebc78712649eb2993db1b292c96eb658fb33c793e81ba529a6b58b35a99acc7"
+    },
+    "BUILD.md": {
+      "bytes": 3756,
+      "sha256": "9364ccaf7f2a445e8e834bfbc08f01dadb2ce96a623c82e25244ad090788c8d7"
+    },
+    "frozen.json": {
+      "bytes": 260,
+      "sha256": "3b3f74375ccb7c4cf86607d2b4b300b299b25040efde4bca7bee8ecc2ebd7dd8"
+    },
+    "delivery-status.json": {
+      "bytes": 895,
+      "sha256": "403f73082f744b886626c1cb91ae943e1516ef96a8bfee21c696e37dc5cf9836"
+    },
+    "test_standalone.py": {
+      "bytes": 5471,
+      "sha256": "003afb8fd50784a53db43005d937b4105200fb23d43f99a503b731275ebcf333"
+    },
+    "forecast-reimport-source-previews.json": {
+      "bytes": 870,
+      "sha256": "bc30123fb9b7872c55cb1dd261ff45cf97b852b79c8934c772ad757082e500d5"
+    },
+    "independent-qa.json": {
+      "bytes": 25309,
+      "sha256": "b337a7f69956115b155708dc9591ccb6a0fe5bcb98fa000bb6578d929cf21ecf"
+    },
+    "article-entry.json": {
+      "bytes": 10336,
+      "sha256": "1813be5b4c23fd6da22c049880e55a2c129d77c68a973f4b44b29d09c619188e"
+    },
+    "forecast-reimport-diagrams.css": {
+      "bytes": 2409,
+      "sha256": "ab5e48279d90c10eedf731ca57a6e68e7ebfe5f12d1c79bf8f3fb61897c9b2c3"
+    },
+    "sources.md": {
+      "bytes": 6188,
+      "sha256": "2d010220e225d82905b24e3d3483732d8acac6f7bb3755bc51726366adae877f"
+    },
+    "authoring-guard-qa.json": {
+      "bytes": 1022,
+      "sha256": "47d82b97bd110bdd7182b7fbbd967e69cc31ad333fddb926ab6ada350e5d94d1"
+    },
+    "test_authoring_guard.py": {
+      "bytes": 2517,
+      "sha256": "c6d8dc01ee5d9c92d6a0188110e992fd5e095e127a5f42a5402e31cae5990759"
+    },
+    "make_article.py": {
+      "bytes": 2875,
+      "sha256": "712ebe82260428a383e985deb574655ae53d2b5327e06c27df6eef9ee80c27b5"
+    },
+    "reviewed-illustration-copy.json": {
+      "bytes": 5746,
+      "sha256": "775720945dd11b2022f0060384280287dbf7d4d47e3c7edb835f964dd168fa99"
+    },
+    "shared/illustrated.css": {
+      "bytes": 10060,
+      "sha256": "a15fbe5f09e241738ffffa683f3e7d9ba535ff943cecb8f7e250e1449209f928"
+    },
+    "shared/ReportContent.jsx": {
+      "bytes": 703,
+      "sha256": "ae9d8787ad6b9d15c57aead3b72f48d0b487e2b52a42a6e75a4f6b8fda126a69"
+    },
+    "shared/IllustratedArticle.jsx": {
+      "bytes": 9571,
+      "sha256": "6f99bc9f34da35d7591c83076ee0f8b3057140d7851dff2f1ebb157320281a3f"
+    },
+    "shared/timeline.css": {
+      "bytes": 7346,
+      "sha256": "b867d64e25125a71868940d4da6fe6bc2569f1b719ceefaed0b92e6baf0a4fee"
+    },
+    "support/sanitize_site_content.py": {
+      "bytes": 5533,
+      "sha256": "1166b7164b3bceb8c9fe056a92fe04bc609dcfc87ee5081344a9ff549739bf52"
+    },
+    "support/test_sanitization.py": {
+      "bytes": 2689,
+      "sha256": "d6131c06c9cf2b549de24e32c36451a780282159bbe4d82c18cefb095a2f7571"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+.dynamic-delivery-diagram{margin:18px 0 32px;color:var(--text)}
+.dynamic-delivery-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin:22px 0}
+.dynamic-delivery-card{border:1px solid var(--border);border-top:4px solid #538c81;border-radius:14px;padding:20px;min-width:0;background:var(--surface);position:relative}
+.dynamic-delivery-options .dynamic-delivery-card:nth-child(2){border-top-color:#b78b45}
+.dynamic-delivery-options .dynamic-delivery-card:nth-child(3){border-top-color:#688daf}
+.dynamic-delivery-card header{display:flex;gap:12px;align-items:flex-start;border-bottom:1px solid var(--border);padding-bottom:16px;margin-bottom:18px}
+.dynamic-delivery-card h3{font-size:20px;line-height:1.4;margin:0;overflow-wrap:anywhere}
+.dynamic-delivery-number{font-size:22px;font-weight:700;line-height:1.3;color:var(--secondary)}
+.dynamic-delivery-arrow{font-size:28px;color:var(--secondary);margin-top:6px}
+.dynamic-delivery-cell{margin:20px 0}.dynamic-delivery-cell:last-child{margin-bottom:0}
+.dynamic-delivery-cell h4{font-size:13px;color:var(--secondary);margin:0 0 7px;letter-spacing:.04em}
+.dynamic-delivery-cell p{margin:0;line-height:1.85;font-size:15px;overflow-wrap:anywhere}
+.dynamic-delivery-boundary{border-left:3px solid #b78b45;padding-left:12px}
+.dynamic-delivery-conclusion{border-left:4px solid #538c81;padding:12px 18px;background:var(--muted);line-height:1.85}
+.dynamic-delivery-chain .dynamic-delivery-grid{grid-template-columns:1fr;gap:20px}
+.dynamic-delivery-chain .dynamic-delivery-card{display:grid;grid-template-columns:minmax(140px,.6fr) repeat(3,minmax(0,1fr));gap:18px}
+.dynamic-delivery-chain .dynamic-delivery-card header{border-bottom:0;border-right:1px solid var(--border);padding:0 18px 0 0;margin:0;flex-direction:column;justify-content:center}
+.dynamic-delivery-chain .dynamic-delivery-cell{margin:0}
+@media(max-width:850px){.dynamic-delivery-grid{grid-template-columns:1fr;gap:20px}.dynamic-delivery-card{padding:18px}.dynamic-delivery-chain .dynamic-delivery-card{display:block}.dynamic-delivery-chain .dynamic-delivery-card header{flex-direction:row;border-right:0;border-bottom:1px solid var(--border);padding:0 0 14px;margin-bottom:18px;justify-content:flex-start}.dynamic-delivery-chain .dynamic-delivery-cell{margin:18px 0}.dynamic-delivery-card h3{font-size:19px}.dynamic-delivery-arrow{margin-top:0}}

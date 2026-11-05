@@ -1,0 +1,25 @@
+{
+  "method": "Run copied generator in a clean temporary directory with only frozen note, sources, metadata and illustration input. Compare all three generated JSON files byte for byte.",
+  "passed": true,
+  "outputs": [
+    {
+      "file": "article-entry.json",
+      "result": "byte-for-byte equal",
+      "sha256": "1813be5b4c23fd6da22c049880e55a2c129d77c68a973f4b44b29d09c619188e",
+      "bytes": 10336
+    },
+    {
+      "file": "illustrated-story.json",
+      "result": "byte-for-byte equal",
+      "sha256": "b92d3f2cc5bc57b175c73609c3c2b143cef3775944a7a82b8a87c1eef640dd80",
+      "bytes": 22626
+    },
+    {
+      "file": "article-reviewed-data.json",
+      "result": "byte-for-byte equal",
+      "sha256": "28c552d8d01e698b4234cdf5590a23b5f7ced7f174f038549844be5e869e8739",
+      "bytes": 7649
+    }
+  ],
+  "htmlUnchanged": "7b218db0f1c6ae2820ba8402932d9f4d3e480a67b7080f602c4fdaf05062ada7"
+}

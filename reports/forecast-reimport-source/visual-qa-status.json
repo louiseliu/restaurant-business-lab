@@ -1,0 +1,6 @@
+{
+  "browserVisualQA": "not run",
+  "browserInteractionQA": "not run",
+  "claim": "Static and build validation only; responsive CSS has not been visually verified.",
+  "networkAccess": "No restricted-site retries or browser navigation attempted."
+}
