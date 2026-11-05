@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-01",
+  "checked_at": "2026-11-05",
   "sources": [
     {
       "id": "S1",
@@ -15,7 +15,8 @@
       "limits": [
         "不是独立验证",
         "未来营业数据联动不能视为已上线"
-      ]
+      ],
+      "last_checked_at": "2026-11-01"
     },
     {
       "id": "S2",
@@ -34,6 +35,43 @@
         "不采用70%为准确率",
         "不采用节时作为现金收益",
         "未核实通用商用范围及价格"
+      ],
+      "last_checked_at": "2026-11-01"
+    },
+    {
+      "id": "S3",
+      "url": "https://www.jiemian.com/article/15256976.html",
+      "published_at": "2026-10-28 19:54",
+      "publisher": "界面新闻",
+      "type": "journalist_report_employee_self_accounts",
+      "last_checked_at": "2026-11-05",
+      "access": "公开原文直接可读；正文瑞幸员工采访段",
+      "supports": [
+        "受访员工对非饮品任务工时不足、天气或团单变化时工时调整不足的自述",
+        "报道提到主管可有限调整且受月度考核约束"
+      ],
+      "limits": [
+        "没有取得班表、任务计时、考勤或工资原始记录",
+        "不能外推全部门店、普遍系统缺陷或违法",
+        "未核具体系统版本，不能与20-F拼接为同版本独立测试"
+      ]
+    },
+    {
+      "id": "S4",
+      "url": "https://www.sec.gov/Archives/edgar/data/1767582/000110465926035712/lk-20251231x20f.htm",
+      "reporting_period_end": "2025-12-31",
+      "signed_at": "2026-03-27",
+      "publisher": "Luckin Coffee Inc. / SEC EDGAR",
+      "type": "company_annual_report_primary_disclosure",
+      "last_checked_at": "2026-11-05",
+      "access": "公开原文直接可读；Item 4 / 4.B / Technology，印刷页78；签署页164",
+      "supports": [
+        "公司披露智能排班系统自动安排员工班次及订单分配"
+      ],
+      "limits": [
+        "未交代任务工时口径、临时改班规则、具体版本及逐店覆盖",
+        "同段实时分析描述库存系统，不移用于排班",
+        "不能替员工自述验证同版本缺陷，也不证明不存在问题"
       ]
     }
   ],
@@ -41,5 +79,6 @@
     "劳勤产品功能不嫁接金豬案例",
     "好排班教程另留候选，不拼接为MAYOHR功能"
   ],
-  "privacy": "未采集真实员工数据，图为机制示意，不含个人资料"
+  "privacy": "未采集真实员工数据，图为机制示意，不含个人资料",
+  "revision": "Same ID: add task coverage and executable temporary-adjustment acceptance; original MAYOHR checks retained with their historical access scope."
 }
