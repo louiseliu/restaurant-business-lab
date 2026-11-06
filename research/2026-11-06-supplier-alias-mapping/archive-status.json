@@ -1,0 +1,37 @@
+{
+  "articleId": "supplier-alias-mapping",
+  "researchNumber": 63,
+  "firstCommit": "2b9bb2518e851397a67f4b4ba35456b8436813f8",
+  "firstCommittedAt": "2026-11-06T00:08:21Z",
+  "bodySHA256": "27f8193e5c88e028c8cc4688e868aaf250288f3dfc0f5729cbbc6e55904e1737",
+  "sourcesSHA256": "bb1fd8214b423715f8b0860d6cdc9b9f84d163764f40230b2283784275639062",
+  "frozenTextPreserved": true,
+  "remoteBytesEqual": true,
+  "researchArchived": true,
+  "sourceLedgerState": "研究准备阶段原文保留；归档现状以本文件和较新状态记录为准。",
+  "illustratedArticle": "pending",
+  "attachment": "pending",
+  "portalIntegration": "pending",
+  "websiteSynchronized": false,
+  "currentResearchCount": 63,
+  "currentAIResearchCount": 41,
+  "lastArchivedLocalPortal": {
+    "research": 62,
+    "fullOriginals": 82,
+    "samples": 2,
+    "ai": 40,
+    "queries": 127,
+    "browserVisualInteractionValidated": false
+  },
+  "lastVerifiedPublicSite": {
+    "version": "v19",
+    "research": 20,
+    "fullOriginals": 40,
+    "samples": 2,
+    "ai": 9,
+    "currentReadabilityRechecked": false
+  },
+  "pendingWebsiteSyncItems": 45,
+  "largeHtmlOrZipCommitted": false,
+  "existingBacklogPreserved": true
+}
