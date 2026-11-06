@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "title": "AI搜索获客图文读本：已发送版本静态审计",
+  "status": "passed-with-unverified-rendering-and-interactions",
+  "artifact": {
+    "filename": "ai-discovery-value.html",
+    "bytes": 2936072,
+    "sha256": "24b43ab696c30b868f8ed7c733a60d129ee12b74443636b9ea2b0f20a0dba6ea",
+    "versionScope": "本报告只适用于上述已发送HTML字节版本；后续语言属性、无障碍或其他修改不属于本次审计。"
+  },
+  "baseline": {
+    "commit": "40e158a2766f7edd8e3d684b66436dd197624ecb",
+    "originalUrl": "https://github.com/louiseliu/restaurant-business-lab/blob/40e158a2766f7edd8e3d684b66436dd197624ecb/research/2026-11-06-ai-discovery-value/note.md",
+    "sourcesUrl": "https://github.com/louiseliu/restaurant-business-lab/blob/40e158a2766f7edd8e3d684b66436dd197624ecb/research/2026-11-06-ai-discovery-value/sources.md",
+    "originalSha256": "f1d0bc9dd94245f28191c1800f9a9ec583daee5bab1e27b90cda10e1de0f47b3",
+    "sourcesSha256": "a30632f128e724a8b84fdce6150975daea93dcb87f57e2a44c54cd127c4f72d3"
+  },
+  "verified": [
+    "直接读取首次提交的正文和来源台账，确认与审计时源稿及HTML解码后的内容完全一致；正文六节完整保留。",
+    "两图各有三行；渲染行、查询标识、组件标识及来源绑定一致。图1对应S1与S1扩展，图2对应S2与S3。",
+    "图1明确两页均来自同一服务商，不是两份独立效果验证；图2明确为作者采购分析和未执行的试验建议。",
+    "正文、摘要、图注和来源预览保留服务商自报、同期多项改造、缺少因果与利润证据等限制。",
+    "保留Norly直接商业利益、固定地区Google列表框架、联网API非消费者应用及不可外推中国门店的范围限制。",
+    "Google规则仅限AI Overviews与AI Mode支持链接；保留普通搜索条件、不保证展示及不代表所有AI平台的限制。",
+    "14份内容载荷及最终HTML的模式扫描未发现私人会话链接、本地路径、私有资源标识或常见凭据格式；这不是对所有可能敏感信息的形式化保证。",
+    "241份官方文件与准备时记录的哈希相同；构建HTML和数据快照的长度与哈希符合构建清单。",
+    "已发送HTML与审计时的离线导出文件逐字节相同；未发现静态src或href网络资产依赖。",
+    "三项脱敏测试和八项防覆盖场景通过。"
+  ],
+  "arithmetic": {
+    "bookings": 3,
+    "visitors": 34,
+    "percentage": 8.823529411764707,
+    "percentageRoundedOneDecimal": 8.8,
+    "auditQuestions": 96,
+    "repeatsPerQuestion": [
+      5,
+      3,
+      5,
+      10
+    ],
+    "computedResponses": 2208,
+    "interpretation": "仅独立复算公开材料的计数，不等于核验原始订单、复现论文数据、识别净增量或利润。"
+  },
+  "materialIssuesFound": [],
+  "notVerified": [
+    "本次审计未重新编译；构建核查限于现有输出、构建清单及文件一致性。",
+    "未打开浏览器预览，未检查桌面或手机渲染、暗色主题、来源弹窗、目录跳转、编辑、导出及其他交互。",
+    "本次审计未重新读取外部原始网页；证据表述检查以首次提交的固定正文和来源台账为基线。",
+    "未核验商家后台、预订及到店结算、论文原始数据或预注册记录。",
+    "未验证门户集成、在线访问、发布结果或后续修订版本。"
+  ],
+  "conclusion": "在上述静态核验范围内未发现内容阻断项；不得据此宣称视觉、交互、原始经营数据或因果效果已获验证。"
+}

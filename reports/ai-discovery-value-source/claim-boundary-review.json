@@ -1,0 +1,12 @@
+{
+  "factChecks": {
+    "supplierSelfReport": "Explicit beside 34 visitors and 3 bookings. No independent order/arrival verification.",
+    "ratio": "3 / 34 * 100 = 8.823529411764707; displayed approximately 8.8%, not uplift.",
+    "bundledInterventions": "Website, search, booking flow and business information changes are concurrent supplier report. No AI-only effect or price identified.",
+    "trial": "Separate AI-only trial budget and predefined repeated observations are author suggestions, not executed study or automatic causal identification.",
+    "paper": "Commercial funding/execution by Norly, Bali two-area Google-list frame and networked APIs stated. Not consumer-app or all-restaurants/China evidence.",
+    "google": "AI Overviews and AI Mode supporting links only, not all AI platforms or restaurant performance."
+  },
+  "sourceNumbering": "S1 and S1扩展 are one supplier source family; S2 paper; S3 official Google documentation. Four URLs do not count as four independent effect studies.",
+  "limitations": "Authored content review and arithmetic only, not source retrieval or browser testing."
+}

@@ -1,0 +1,18 @@
+.ai-discovery-value-diagram{margin:18px 0 32px;color:var(--text)}
+.ai-discovery-value-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin:22px 0}
+.ai-discovery-value-card{border:1px solid var(--border);border-top:4px solid #538c81;border-radius:14px;padding:20px;min-width:0;background:var(--surface)}
+.ai-discovery-value-card:nth-child(2){border-top-color:#688daf}
+.ai-discovery-value-card:nth-child(3){border-top-color:#b78b45}
+.ai-discovery-value-card header{display:flex;gap:12px;align-items:flex-start;border-bottom:1px solid var(--border);padding-bottom:16px;margin-bottom:18px}
+.ai-discovery-value-card h3{font-size:20px;line-height:1.4;margin:0;overflow-wrap:anywhere}
+.ai-discovery-value-number{font-size:22px;font-weight:700;line-height:1.3;color:var(--secondary)}
+.ai-discovery-value-cell{margin:20px 0}.ai-discovery-value-cell:last-child{margin-bottom:0}
+.ai-discovery-value-cell h4{font-size:13px;color:var(--secondary);margin:0 0 7px;letter-spacing:.04em}
+.ai-discovery-value-cell p{margin:0;line-height:1.85;font-size:15px;overflow-wrap:anywhere}
+.ai-discovery-value-boundary{border-left:3px solid #b78b45;padding-left:12px}
+.ai-discovery-value-conclusion{border-left:4px solid #538c81;padding:12px 18px;background:var(--muted);line-height:1.85}
+.ai-discovery-value-budget .ai-discovery-value-grid{grid-template-columns:1fr;gap:20px}
+.ai-discovery-value-budget .ai-discovery-value-card{display:grid;grid-template-columns:minmax(130px,.6fr) repeat(3,minmax(0,1fr));gap:18px}
+.ai-discovery-value-budget .ai-discovery-value-card header{border-bottom:0;border-right:1px solid var(--border);padding:0 18px 0 0;margin:0;flex-direction:column;justify-content:center}
+.ai-discovery-value-budget .ai-discovery-value-cell{margin:0}
+@media(max-width:850px){.ai-discovery-value-grid{grid-template-columns:1fr;gap:20px}.ai-discovery-value-card{padding:18px}.ai-discovery-value-budget .ai-discovery-value-card{display:block}.ai-discovery-value-budget .ai-discovery-value-card header{flex-direction:row;border-right:0;border-bottom:1px solid var(--border);padding:0 0 14px;margin-bottom:18px;justify-content:flex-start}.ai-discovery-value-budget .ai-discovery-value-cell{margin:18px 0}.ai-discovery-value-card h3{font-size:19px}}

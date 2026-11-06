@@ -1,0 +1,6 @@
+{
+  "selection": null,
+  "pluginDestinations": [],
+  "basis": "Official export catalog constructed from Data manifest. One dependency inventory lookup and current tools did not confirm an installed export-capable optional dependency. Keep all built-in export choices; no installation request or network export attempted.",
+  "limits": "Export menu rendering and export clicks not tested."
+}

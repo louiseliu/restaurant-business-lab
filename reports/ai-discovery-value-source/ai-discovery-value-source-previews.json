@@ -1,0 +1,26 @@
+{
+  "https://www.jvvconsulting.com/insights/what-chatgpt-referrals-did-for-a-restaurant/": {
+    "title": "S1 · JVV的The Galley短文",
+    "summary": "营销服务商称网站重建后六周有34名ChatGPT来源访客、3笔预订，并称已对应订位记录。未独立核查后台或到店结算，不证明增量利润。",
+    "source": "JVV Consulting，Jo van Vuuren；2026-09-09。",
+    "approvedForReport": true
+  },
+  "https://www.jvvconsulting.com/case-studies/the-galley/": {
+    "title": "S1扩展 · JVV的同源完整案例",
+    "summary": "项目同时涉及网站、搜索、预订及商家资料维护；没有单列AI专属增量或收费。与短文属于同一供应商，不能计作独立效果验证。",
+    "source": "JVV Consulting；页面写项目为2026年，未见明确发布日期。",
+    "approvedForReport": true
+  },
+  "https://arxiv.org/html/2608.07069v1": {
+    "title": "S2 · Norly资助的推荐审计预印本",
+    "summary": "巴厘岛Canggu与Ubud两个固定地区的Google列表框架，四个联网API的重复回答出现波动。Norly销售相关工具并资助执行研究；不是独立效果验证、消费者应用实验或中国门店结论。",
+    "source": "Vladimir Pitenin，Norly Research；v1，2026-08-07。采用第3、5.5—5.6、7及8节。",
+    "approvedForReport": true
+  },
+  "https://developers.google.com/search/docs/appearance/ai-features": {
+    "title": "S3 · Google搜索AI功能规则",
+    "summary": "网页作为AI Overviews与AI Mode支持链接出现，不要求额外专用AI文本文件或特殊结构化数据，仍需普通搜索条件且不保证展示。不是餐厅经营实验，不代表所有AI平台。",
+    "source": "Google Search Central；本轮所读页面最后更新2025-12-10 UTC。",
+    "approvedForReport": true
+  }
+}

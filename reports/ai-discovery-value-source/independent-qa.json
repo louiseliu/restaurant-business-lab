@@ -1,0 +1,39 @@
+{
+  "status": "passed static checks with disclosed limitations",
+  "readOnly": true,
+  "browserAttempted": false,
+  "articleFirstCommit": "40e158a2766f7edd8e3d684b66436dd197624ecb",
+  "htmlSha256": "24b43ab696c30b868f8ed7c733a60d129ee12b74443636b9ea2b0f20a0dba6ea",
+  "htmlBytes": 2936072,
+  "checks": [
+    "Frozen note and sources hashes match",
+    "Six narrative sections, complete original and historical source ledger preserved",
+    "Two diagram sourceIds, componentIds, reviewed rows and compiled HTML agree",
+    "Supplier attribution, concurrent changes, Norly commercial interest, API/geographic limits and separated budgets are accurate",
+    "Official verifier checks 240 protected files; preparation baseline preserves 241 files",
+    "Manifest bytes and hashes match, full offline snapshot equals reviewed data, no external assets",
+    "Scanned text and HTML have no detected private paths, session links or common secret patterns"
+  ],
+  "packagingFinding": "Working source support/__pycache__ contains a private compile-time path; archive-source excludes all __pycache__ and *.pyc. Do not archive the working source directory.",
+  "knownAccessibilityIssue": "Sent version has HTML lang=en and no article-level Chinese language. Nonblocking language revision will be separate and not imply replacement of sent attachment.",
+  "notRun": [
+    "Original web source re-retrieval",
+    "Browser layout",
+    "Narrow screens",
+    "Themes",
+    "Interaction",
+    "Printing",
+    "True browser offline"
+  ],
+  "restrictionHandling": "No HTTP/file/original-site preview retried or bypassed.",
+  "archiveValidation": {
+    "contentFiles": 29,
+    "manifestAdditional": 1,
+    "contentBytes": 150152,
+    "manifestMatchesAllFiles": true,
+    "excludedCacheAndCompiledPython": true,
+    "noHTMLZIPOrSymlinks": true,
+    "frozenSourceAndSentHTMLUnchanged": true,
+    "privatePathsDetected": false
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "stage": "pre-archive source and sent-version checks",
+  "sentManifestEntriesVerified": 29,
+  "langManifestEntriesVerified": 7,
+  "syntacticJsonAndPythonChecks": true,
+  "exactStaticQaMatch": true,
+  "guardCases": 8,
+  "exactGuardQaMatch": true,
+  "sanitizationTests": 3,
+  "exactOneAttributeReaderDelta": true,
+  "selectedFilesPrivacyScan": "未检出具体私人路径、私有会话、私人资源ID或常见凭据",
+  "cachePycHtmlZipAndSymlinksExcluded": true,
+  "sentOriginalSha256": "24b43ab696c30b868f8ed7c733a60d129ee12b74443636b9ea2b0f20a0dba6ea",
+  "unsentRevisionSha256": "93daa0501e82a1f39ad0116703230688da0f7be799c1b2e6d91eb55519233bfe",
+  "officialRebuildPerformedByArchiver": false,
+  "browserQaPerformed": false
+}

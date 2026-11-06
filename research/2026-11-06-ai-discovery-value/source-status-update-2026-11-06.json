@@ -1,0 +1,16 @@
+{
+  "source": "https://arxiv.org/abs/2608.07069",
+  "checkedAt": "2026-11-06 02:21 UTC",
+  "timePrecision": "minute",
+  "access": "read-only current abstract page",
+  "observedVersion": "v1",
+  "submissionHistoryVersions": 1,
+  "submittedAtUtc": "2026-08-07T10:23:45Z",
+  "withdrawalNoticeObserved": false,
+  "visibleLinks": [
+    "PDF",
+    "HTML"
+  ],
+  "scope": "当次实际返回的arXiv摘要页仍有完整摘要、PDF与HTML入口；未见撤回标记或撤回声明。只说明该次页面所见状态，不保证未来不变，不等于正式发表或独立成效验证。",
+  "frozenManuscriptChanged": false
+}

@@ -1,0 +1,127 @@
+{
+  "surface": "report",
+  "title": "餐厅被AI推荐之后，值得为“上榜”长期付费吗？",
+  "generatedAt": "2026-11-06T02:15:50Z",
+  "status": "reviewed",
+  "buildStatus": "creating",
+  "exportPreferences": {
+    "selected": null,
+    "destinations": []
+  },
+  "filters": [],
+  "report": {
+    "asOf": "2026-11-06"
+  },
+  "queries": {
+    "diagram-research-2026-11-06-ai-discovery-value-note": {
+      "rows": [
+        {
+          "口径": "34名来源访客",
+          "公开材料记录": "营销服务商称，网站收到34名来自ChatGPT的访客。",
+          "这能提示什么": "出现了一个可记录的网站访问入口。",
+          "不能推出": "访客都是新顾客，或原本不会从搜索、地图等入口找到这家店。"
+        },
+        {
+          "口径": "3笔归因预订",
+          "公开材料记录": "服务商称，其中3笔预订已与订位记录及渠道对应。本次未独立查后台。",
+          "这能提示什么": "按该自报口径，3÷34约为8.8%；仅为计数复算。",
+          "不能推出": "三笔都实际到店、比其他渠道更有效，或全部属于新增生意。"
+        },
+        {
+          "口径": "新增贡献未知",
+          "公开材料记录": "没有本次可核验的到店结算、AI专属费用或可靠对照。",
+          "下一步应核对": "所有相关渠道的到店与实收、实际新增成本，以及是否挤占高峰原价需求。",
+          "不能推出": "利润改善、回本时间或中国小店可复制的转化率。"
+        }
+      ],
+      "source": {
+        "label": "34名访客、3笔预订，离新增利润还隔着什么？",
+        "files": [
+          "research/2026-11-06-ai-discovery-value/note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "34名访客、3笔预订，离新增利润还隔着什么？",
+            "definition": "The Galley网站重建后六周的供应商自报。三栏区分不同口径，不是漏斗实测，也不是AI带来的因果增长。 图1｜作者原创口径图，依据[JVV案例短文](https://www.jvvconsulting.com/insights/what-chatgpt-referrals-did-for-a-restaurant/)与[同源完整案例](https://www.jvvconsulting.com/case-studies/the-galley/)。两页均为同一服务商自述，不是两份独立效果验证。这里只复算3÷34，不把归因预订等同增量订单。",
+            "componentIds": [
+              "diagram-research-2026-11-06-ai-discovery-value-note"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "作者机制分析，案例事实边界见固定正文",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/40e158a2766f7edd8e3d684b66436dd197624ecb/research/2026-11-06-ai-discovery-value/note.md"
+          },
+          {
+            "title": "S1 · JVV案例短文",
+            "detail": "https://www.jvvconsulting.com/insights/what-chatgpt-referrals-did-for-a-restaurant/"
+          },
+          {
+            "title": "S1扩展 · JVV完整案例",
+            "detail": "https://www.jvvconsulting.com/case-studies/the-galley/"
+          }
+        ],
+        "caveats": [
+          "同期改动包括网站重建、搜索优化、预订流程和商家资料维护。公开案例没有拆出“只增加AI推荐优化”的效果或收费；不能把这组改造的变化全部归给AI。",
+          "图1｜作者原创口径图，依据[JVV案例短文](https://www.jvvconsulting.com/insights/what-chatgpt-referrals-did-for-a-restaurant/)与[同源完整案例](https://www.jvvconsulting.com/case-studies/the-galley/)。两页均为同一服务商自述，不是两份独立效果验证。这里只复算3÷34，不把归因预订等同增量订单。"
+        ]
+      }
+    },
+    "diagram-research-2026-11-06-ai-discovery-value-note:second": {
+      "rows": [
+        {
+          "预算": "基础资料维护",
+          "单列哪些工作": "修正菜单价格、营业信息、预订按钮与分店资料，保留持续修改能力。",
+          "验收什么": "真实信息准确、顾客可以顺利使用，且菜单变化后有人更新。",
+          "暂停或缩小条件": "没有明确错漏或重复收取已有维护费用时，先澄清报价，不为“上榜”重复付款。"
+        },
+        {
+          "预算": "AI专属试用",
+          "单列哪些工作": "另列答案监测、引用维护、实验费用和核对工时，不混入整站改版总效果。",
+          "验收什么": "提前约定真实客人问题、平台和相同观察条件，重复检查并保存全部结果；设成本上限与复盘日期。",
+          "暂停或缩小条件": "只交挑选过的成功截图、错误推荐无法纠正，或收费工作无法解释时，不升级长期预算。"
+        },
+        {
+          "预算": "经营扩购",
+          "单列哪些工作": "核对预订兑现、所有相关渠道变化、维护与履约成本，并寻找可行对照。",
+          "验收什么": "目标客群确实使用相关入口，订单线索与总体经营变化值得继续验证；承诺利润前还需可靠增量识别。",
+          "暂停或缩小条件": "订单线索稀少、维护工作吃掉价值，或无法识别增量时，保留基础维护，缩小专属服务。"
+        }
+      ],
+      "source": {
+        "label": "把基础维护、AI试用和扩购分开验收",
+        "files": [
+          "research/2026-11-06-ai-discovery-value/note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "把基础维护、AI试用和扩购分开验收",
+            "definition": "作者提出的采购与试验建议，尚未在门店执行。先单列工作和费用，再决定哪些证据足以支持下一笔投入。 图2｜作者原创采购分析。[Norly资助并执行的预印本](https://arxiv.org/html/2608.07069v1)有直接商业利益，只审计巴厘岛两个固定地区的Google列表框架与联网API，不是消费者应用实验，不代表全部餐厅或中国门店。[Google官方规则](https://developers.google.com/search/docs/appearance/ai-features)仅针对AI Overviews与AI Mode的支持链接，不要求额外专用AI文本文件或特殊结构化数据，也不保证展示。两者均未验证餐厅新增收入。",
+            "componentIds": [
+              "diagram-research-2026-11-06-ai-discovery-value-note:second"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "作者机制分析，案例事实边界见固定正文",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/40e158a2766f7edd8e3d684b66436dd197624ecb/research/2026-11-06-ai-discovery-value/note.md"
+          },
+          {
+            "title": "S2 · 原始论文第3、5.5—5.6、7及8节",
+            "detail": "https://arxiv.org/html/2608.07069v1"
+          },
+          {
+            "title": "S3 · Google官方说明",
+            "detail": "https://developers.google.com/search/docs/appearance/ai-features"
+          }
+        ],
+        "caveats": [
+          "重复上榜只是一项前端检查；独立列出AI试用并不自动建立因果对照。若门店无法排除天气、活动等变化，第一阶段就只承诺资料修正、准确性检查和订单线索观察。",
+          "图2｜作者原创采购分析。[Norly资助并执行的预印本](https://arxiv.org/html/2608.07069v1)有直接商业利益，只审计巴厘岛两个固定地区的Google列表框架与联网API，不是消费者应用实验，不代表全部餐厅或中国门店。[Google官方规则](https://developers.google.com/search/docs/appearance/ai-features)仅针对AI Overviews与AI Mode的支持链接，不要求额外专用AI文本文件或特殊结构化数据，也不保证展示。两者均未验证餐厅新增收入。"
+        ]
+      }
+    }
+  }
+}

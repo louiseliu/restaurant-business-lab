@@ -1,0 +1,11 @@
+{
+  "version": "original sent-request version",
+  "htmlSha256": "24b43ab696c30b868f8ed7c733a60d129ee12b74443636b9ea2b0f20a0dba6ea",
+  "bytes": 2936072,
+  "sendRequestAcceptedAt": "2026-11-06T02:21:50Z",
+  "deliveredOrOpened": "not confirmed",
+  "languageRevision": "Separate, not sent; original remains unchanged",
+  "browserQA": "not run",
+  "published": false,
+  "portalIntegrated": false
+}

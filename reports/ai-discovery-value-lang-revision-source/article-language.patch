@@ -1,0 +1,11 @@
+--- shared/IllustratedArticle.jsx
++++ shared/IllustratedArticle.jsx
+@@ -24,7 +24,7 @@
+  const jump=name=>{const el=document.getElementById(anchor(name));if(!el)return;if(el.tagName==='DETAILS')el.open=true;el.scrollIntoView({behavior:'instant',block:'start'});el.focus({preventScroll:true});};
+  const contents=[['answer','经营判断'],['evidence','图解与证据'],...(story.sections||[]).map((s,i)=>['section-'+i,s.title]),['meaning','对老板意味着什么'],['limits','未知与核查'],['sources','来源'],['original','完整原文']];
+  const refs=story.sources?.length?story.sources.map(s=>({label:s.title,href:s.url})):story.evidence?.length?story.evidence.map(s=>({label:s.label,href:s.url})):sources(item);
+- return <article className="study-page" aria-label={`${item.title} 图文研究`} id={anchor('top')} tabIndex={-1}>{back}
++ return <article lang="zh-CN" className="study-page" aria-label={`${item.title} 图文研究`} id={anchor('top')} tabIndex={-1}>{back}
+  <header className="study-hero"><div className="study-eyebrow">餐饮研究院 / {item.topics.includes('ai')?'AI 在餐饮':'商业模式'} / 图文读本</div><h1>{story.headline||item.title}</h1><R id={`${item.id}:lead`} className="study-lead">{story.lead}</R><p className="study-metadata">首次入库 {when(item.publishedAt)} · 更新 {when(item.updatedAt)}（北京时间）<br/>本篇为已公开研究的图文改写；来源核验日期、数据期间与证据限制保留在文末原文。</p></header>
+  <details className="reader-toc"><summary>本篇目录 <span>快速跳到图解、行动与来源</span></summary><nav aria-label="本篇目录">{contents.map(([id,label])=><button key={id} onClick={()=>jump(id)}>{label}</button>)}</nav></details>
+  <section className="study-answer" id={anchor('answer')} tabIndex={-1}><h2 className="study-section-index">01 / 先看经营判断</h2><R id={`${item.id}:findings`}>{story.findings.map(v=>`- ${v}`).join('\n\n')}</R></section>

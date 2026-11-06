@@ -1,0 +1,33 @@
+{
+  "scope": "Small unsent article-language revision only, excludes HTML/runtime/cache.",
+  "files": {
+    "BUILD.md": {
+      "bytes": 1314,
+      "sha256": "36cff37d8cea34d9044d939acc069428945e2fedcf9e609a2873b8d14a865bb3"
+    },
+    "article-language.patch": {
+      "bytes": 1972,
+      "sha256": "226f88eecc5e3d4e548805199deaaf3fdbcbd04e91ddebe597fc5d13e987ae7e"
+    },
+    "authoring-guard-qa.json": {
+      "bytes": 1022,
+      "sha256": "47d82b97bd110bdd7182b7fbbd967e69cc31ad333fddb926ab6ada350e5d94d1"
+    },
+    "build-qa.json": {
+      "bytes": 1072,
+      "sha256": "7a48a502a40f94b843da87b327dabc669342558ff21456a62d3b9da1745f95c8"
+    },
+    "revision.json": {
+      "bytes": 1188,
+      "sha256": "03a4fa168fc681fbd41d0bbf2f96d981c65db4c1d38056a3c41412d078f74fb4"
+    },
+    "shared/IllustratedArticle.jsx": {
+      "bytes": 9565,
+      "sha256": "aa4d14e56f6f57409687023439ff826450c59d3ef60fe3ad659bf990a17c7b58"
+    },
+    "visual-qa-status.json": {
+      "bytes": 564,
+      "sha256": "0bb6a6434aed2d4b9e16b3b6af828b2b002da64003f79fa68b70b99f191ae18d"
+    }
+  }
+}

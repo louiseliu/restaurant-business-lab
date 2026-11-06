@@ -1,0 +1,15 @@
+{
+  "status": "passed independent read-only static recheck",
+  "change": "Only article lang=zh-CN added; patch and authored copies agree",
+  "compiledDeltaBytes": 15,
+  "htmlSha256": "93daa0501e82a1f39ad0116703230688da0f7be799c1b2e6d91eb55519233bfe",
+  "htmlBytes": 2936087,
+  "originalBodyStoryDataAndIdentityUnchanged": true,
+  "archiveContentFiles": 7,
+  "manifestAdditional": 1,
+  "allArchiveBytesAndHashesMatch": true,
+  "cacheOrActualPrivatePathsDetected": false,
+  "sentOriginalHTMLAndArchiveUnchanged": true,
+  "browserOrScreenReaderValidation": "not run",
+  "externalWrites": false
+}
