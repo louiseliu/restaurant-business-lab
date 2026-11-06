@@ -1,0 +1,86 @@
+{
+  "article_id": "digitalhuman-livestream",
+  "portal_article_id": "research-2026-11-06-digitalhuman-livestream-note",
+  "research_number": 66,
+  "ai_topic_count": 44,
+  "title": "AI主播能播一整夜，小店该不该跟着全天开播？",
+  "repository": "louiseliu/restaurant-business-lab",
+  "branch": "main",
+  "first_commit": "e8a30863c44caf6b8f50dc62d4414352a332b088",
+  "first_committed_at_utc": "2026-11-06T03:12:41Z",
+  "first_committed_at_beijing": "2026-11-06T11:12:41+08:00",
+  "first_commit_verified": true,
+  "frozen_files": [
+    {
+      "path": "research/2026-11-06-digitalhuman-livestream/note.md",
+      "bytes": 10308,
+      "sha256": "ad7d2fe3263e0f9170fb35f60e1a56a337e0695d023756df8e604bc33812035f",
+      "git_blob_sha": "81bcab57c27796fba011cd62fb486e00a84cabd9",
+      "remote_text_equal": true,
+      "git_blob_equal": true
+    },
+    {
+      "path": "research/2026-11-06-digitalhuman-livestream/sources.md",
+      "bytes": 5223,
+      "sha256": "90bdde98eccd6db4e7a35b4a69175cb41316a57a82b325e0fba3b6c32713f2f8",
+      "git_blob_sha": "2d2f58a663e55f32769c94a01907178edffe41ef",
+      "remote_text_equal": true,
+      "git_blob_equal": true
+    },
+    {
+      "path": "research/2026-11-06-digitalhuman-livestream/public-check.md",
+      "bytes": 3634,
+      "sha256": "ec96977fdd6ace501e70c930d09be680ee49bd3e48bf65d520921ac62bc9a74b",
+      "git_blob_sha": "276fd086209d8f6b7622bf62494b6abd4f8876eb",
+      "remote_text_equal": true,
+      "git_blob_equal": true
+    }
+  ],
+  "existing_blobs_preserved": 1500,
+  "non_forced_update": true,
+  "phase": "正文、来源台账与文字审校已归档并回读；图文制作进行中，单篇附件与完整门户增量尚未完成，原站未同步。",
+  "frozen_stage_language": "来源台账首段的本地草稿、未提交、未制作或发布图文措辞，保留首次研究准备阶段历史状态；当前状态以本记录及归档日志为准。",
+  "review": "公开原始来源、监管适用、7.3%平台自报口径及原创情景边界复核通过；平台规则日期更正为2026-08-17生效，另列2026-08-10修订公示。",
+  "evidence_limits": [
+    "美团产品、技术文章与平台规则不构成三个独立效果样本。",
+    "7.3%为平台自报；样本、对照设计、闲时时段定义、餐饮子样本及核销利润未充分公开。",
+    "没有验证具体小餐厅的开通资格、合同报价、持续维护成本、控制粒度、增量利润或回本。",
+    "监管规则不是产品合规认证；不由实时管理要求推导每间直播间必须一名真人全天盯屏。",
+    "售券与到店时段错位、老客换渠道、套餐暂停和高峰拥挤均为待检验情景。"
+  ],
+  "counts_note": "66篇及AI44为本篇正文归档后的研究累计；AI分类表示研究主题，不表示效果已获独立验证。",
+  "last_local_portal": {
+    "research": 65,
+    "full_texts": 85,
+    "samples": 2,
+    "ai_topics": 43,
+    "queries": 134,
+    "browser_visual_and_interaction_qa": "未验"
+  },
+  "current_article_portal_integration": "待完成",
+  "public_site": {
+    "last_verified_version": "v19",
+    "last_verified_counts": {
+      "research": 20,
+      "full_texts": 40,
+      "samples": 2,
+      "ai_topics": 9
+    },
+    "current_readability_rechecked": false,
+    "synchronized": false,
+    "pending_sync_items": 49
+  },
+  "outstanding": [
+    "本篇单篇图文、附件及完整本地门户增量。",
+    "单篇和完整门户浏览器视觉及交互验收。",
+    "第63篇历史四项未确认审计写入及同字节JSON缺件，不重试或换路。",
+    "HTML归档、历史附件替换、费用原归档、原站可读性及用户编辑保护、旧全站离线快照和既有视觉待办。"
+  ],
+  "archive_scope": "本次仅新增公开小型正文、来源、文字审校、归档状态与日志；README及state/current.md的大型历史汇总保持不变。",
+  "html_or_zip_submitted": false,
+  "public_site_published": false,
+  "permissions_changed": false,
+  "new_pro_consultation": false,
+  "ci_check": "首次正文提交未见GitHub check runs或workflow runs；main未配置必需状态检查，不声称执行了自动化CI。",
+  "log": "logs/2026-11-06-digitalhuman-livestream.md"
+}
