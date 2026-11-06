@@ -1,0 +1,41 @@
+{
+  "ratio": {
+    "numerator_bookings": 3,
+    "denominator_visitors": 34,
+    "percentage": 8.823529411764707,
+    "rounded_one_decimal": 8.8,
+    "interpretation": "仅复算服务商提供的计数，不验证订单或形成因果估计"
+  },
+  "research_count": 64,
+  "artifact_state": "local-draft-not-committed",
+  "source_classification": [
+    "supplier-self-report",
+    "commercially-funded-preprint",
+    "platform-documentation"
+  ],
+  "no_claims": [
+    "China-ROI",
+    "independent-effect-verification",
+    "consumer-app-audit",
+    "order-ledger-verification",
+    "Pro-consultation"
+  ],
+  "files": {
+    "note.md": "f1d0bc9dd94245f28191c1800f9a9ec583daee5bab1e27b90cda10e1de0f47b3",
+    "sources.md": "a30632f128e724a8b84fdce6150975daea93dcb87f57e2a44c54cd127c4f72d3",
+    "dedup.json": "a69b5371c022218777ca4650584cd3335e6971d167f7e28badd09d4ebc602fd0"
+  },
+  "privacy_scan": "note.md与sources.md未检出私人路径、私有会话链接、常见密钥前缀",
+  "audit_run_count_check": {
+    "queries": 96,
+    "repetitions_per_query": {
+      "OpenAI": 5,
+      "Anthropic": 3,
+      "Google": 5,
+      "Perplexity": 10
+    },
+    "computed_responses": 2208,
+    "reported_responses": 2208,
+    "result": "一致；仅复算论文设计次数，不复现数据"
+  }
+}

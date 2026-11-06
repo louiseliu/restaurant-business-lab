@@ -1,0 +1,21 @@
+{
+  "booking_ratio": {
+    "bookings": 3,
+    "visitors": 34,
+    "percentage": 8.823529411764707,
+    "rounded_one_decimal": 8.8,
+    "limit": "服务商自报计数复算；未核订单，不识别增量或利润。"
+  },
+  "audit_run_count": {
+    "queries": 96,
+    "repetitions_per_query": {
+      "OpenAI": 5,
+      "Anthropic": 3,
+      "Google": 5,
+      "Perplexity": 10
+    },
+    "computed_responses": 2208,
+    "reported_responses": 2208,
+    "limit": "仅校验论文设计计数，不复现审计数据或验证效果。"
+  }
+}
