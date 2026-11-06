@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "article_id": "ai-practice-validation",
+  "document_id": "research-2026-11-06-ai-practice-validation-note",
+  "title": "买AI陪练，先验收分数还是岗位表现？",
+  "repository": "louiseliu/restaurant-business-lab",
+  "branch": "main",
+  "repository_directory": "research/2026-11-06-ai-practice-validation",
+  "first_commit_sha": "10fb03ca2b9cb138818364d019ec5fb7360cd534",
+  "first_committed_at": "2026-11-06T04:17:21Z",
+  "first_committed_at_beijing": "2026-11-06T12:17:21+08:00",
+  "first_commit_url": "https://github.com/louiseliu/restaurant-business-lab/commit/10fb03ca2b9cb138818364d019ec5fb7360cd534",
+  "archive_base_commit_sha": "a7d4a9f6a763419ca9481ac0c8e65970ac372aee",
+  "archive_base_tree_sha": "f2a5eb786a574c81db8ef5a7423b58893dbaae41",
+  "verification": {
+    "all_five_files_read_back_exactly": true,
+    "all_five_git_blob_shas_match": true,
+    "all_1606_existing_file_blobs_preserved": true,
+    "non_forced_expected_head_update": true,
+    "all_67_prior_research_blobs_match_current_main": true,
+    "new_68th_research_read_for_dedup": true,
+    "frozen_note_and_sources_byte_unchanged": true,
+    "public_text_privacy_scan_passed": true,
+    "source_research_not_repeated_by_archive_step": true
+  },
+  "files": {
+    "archive-check.json": {
+      "bytes": 2261,
+      "sha256": "2e47e0a5d8105d5c3b131cf15e808415eac436951dd00342c084f03af9f1c1be",
+      "git_blob_sha": "a87421e6257768b2515d10884eab6f4010567c93",
+      "remote_text_equal": true
+    },
+    "dedup.json": {
+      "bytes": 17022,
+      "sha256": "40cb54e8bf9f163be3642e03be3e8edb34684bc88167d8e0415e58e0bde666bf",
+      "git_blob_sha": "3d79aa11b66f8ba37014f2873e5887cecef1363a",
+      "remote_text_equal": true
+    },
+    "note.md": {
+      "bytes": 9394,
+      "sha256": "6086b3b520b25df7944cbc3600d0f83780cea11ae01cfd510f7e431772f1e171",
+      "git_blob_sha": "02a701ee2cd0076bd3eb493ae792daef80d0804d",
+      "remote_text_equal": true
+    },
+    "review-check.md": {
+      "bytes": 2558,
+      "sha256": "db94e2d5f7a1ff63abc1682775317a15c3975c6be37d643e84c7b0360352d70d",
+      "git_blob_sha": "6b783b8e89aef36f83e492d45e7b7b332b635069",
+      "remote_text_equal": true
+    },
+    "sources.md": {
+      "bytes": 6182,
+      "sha256": "7ff89bf7ed14f7553e88c5956bcb09f2314f2feed07e45f3a18813016512f0e9",
+      "git_blob_sha": "51b65bc24c4ae4e6e0c45c8977e6ab7c36059941",
+      "remote_text_equal": true
+    }
+  },
+  "research_count": 69,
+  "ai_topic_count": 46,
+  "classification": "AI采购与培训能力验证",
+  "classification_note": "主题分类不代表AI成效已获独立验证。",
+  "historical_status_note": "sources.md中的67篇、未提交等表述与archive-check.json的提交前状态保留为历史快照。当前归档结果以本文件为准。review-check.md为公开研究审校说明，不包含内部交接或私人笔记。",
+  "evidence_limits": [
+    "公司披露的AI模拟训练与年度竞赛数字化教练未确认同一项目或版本。",
+    "供应商产品说明不证明与肯德基系统相同或不同。",
+    "PDF仅相关跨页完成视觉检查，不是全文逐页审计。",
+    "无报价、可比工时、评分准确性或岗位结果数据，不计算节省额和回本期。",
+    "合成情境比较和陌生情境验收为尚未实施建议。"
+  ],
+  "delivery": {
+    "research_text_archived": true,
+    "html_or_zip_in_this_archive": false,
+    "standalone_visual_work": "另行制作，本归档步骤不声明完成或交付",
+    "complete_portal_work": "本归档步骤未构建或验收；既有67篇门户状态保留",
+    "public_site_synchronized": false,
+    "source_sites_revisited_by_archive_step": false,
+    "browser_visual_or_interaction_qa_performed": false,
+    "attachment_send_performed_by_this_step": false
+  },
+  "ci": {
+    "commit_sha": "10fb03ca2b9cb138818364d019ec5fb7360cd534",
+    "commit_statuses": 0,
+    "combined_status_api_state": "pending",
+    "check_runs": 0,
+    "workflow_runs": 0,
+    "result": "未发现本次提交的CI执行记录。空状态集合的pending不等于有任务正在运行，不声明CI通过。"
+  },
+  "existing_work_note": "全部既有文件、用户改动、历史不确定归档和其他待办保留；本次未重试历史操作、未访问受限原站、未同步或改权限。README.md与state/current.md未修改。"
+}
