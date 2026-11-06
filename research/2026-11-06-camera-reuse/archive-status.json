@@ -25,7 +25,7 @@
   "first_commit_verified": true,
   "existing_blobs_preserved": 1323,
   "non_forced_update": true,
-  "phase": "单篇图文与独立静态核查完成；附件请求已接受，浏览器视觉/交互未验，完整门户待纳入",
+  "phase": "单篇图文及64篇本地完整门户已构建并通过独立静态核验；浏览器视觉/交互未验，原站未同步",
   "frozen_stage_language": "来源台账中的本地稿、待审阅、修订稿待复核及未提交等为研究准备阶段快照；冻结文本不改写，当前归档状态以本记录及日志为准。",
   "evidence_limits": [
     "龙岗历史学校幼儿园建设与运行问题不代表AI失败率或小店故障概率。",
@@ -33,15 +33,19 @@
     "未取得小店报价、维护工时、逐店兼容、AI效果或食安收益。"
   ],
   "last_local_portal": {
-    "research": 63,
-    "full_texts": 83,
+    "research": 64,
+    "full_texts": 84,
     "samples": 2,
-    "ai_topics": 41,
-    "queries": 129,
+    "ai_topics": 42,
+    "queries": 131,
     "browser_qa": "未验",
-    "source_archive": "已有记录为部分归档，5项审计文件缺件继续保留"
+    "source_archive": "本次19项小型门户源码与QA归档；第63篇5项历史审计缺件仍保留",
+    "html_bytes": 13825087,
+    "html_sha256": "0cdc4b54271bc29fbdd3762de2b527c61ae74d6e72e46333dd4746086e5f813a",
+    "html_uploaded": false,
+    "html_attachment_sent": false
   },
-  "current_article_portal_integration": "待完成",
+  "current_article_portal_integration": "已完成本地整合、官方构建、独立静态审计及干净复建；不代表浏览器验收或线上更新",
   "illustrated_article": "内容、官方构建与独立静态审计完成；浏览器视觉/交互未验",
   "attachment": {
     "status": "accepted",
@@ -63,7 +67,7 @@
     "pending_sync_items": 46
   },
   "outstanding": [
-    "第64篇完整门户增量与浏览器视觉及交互验收",
+    "单篇与完整门户浏览器视觉及交互验收",
     "第63篇门户审计文件归档缺件",
     "HTML归档、历史附件替换、费用原归档、原站可读性及用户编辑保护、旧全站离线快照和既有视觉待办"
   ],
@@ -75,5 +79,7 @@
     "bytes": 2938211,
     "sha256": "00f519c429b409cad0b843c11f5a76d96a9a488929eb4704ca853dfd713a22ee"
   },
-  "source_archive": "reports/camera-reuse-source/BUILD.md"
+  "source_archive": "reports/camera-reuse-source/BUILD.md",
+  "portal_source_archive": "reports/camera-reuse-portal-source/PORTAL_BUILD.md",
+  "portal_input_commit": "915bf3467f5cab17fb14e8cbc1fb4be6e42bef2a"
 }

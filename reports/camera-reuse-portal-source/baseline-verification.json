@@ -1,0 +1,10 @@
+{
+  "baselineArchiveCommit": "8fa22f5d558819eea2eddba01bbb38e271f015f7",
+  "remoteFilesCompared": 27,
+  "comparison": "Every readable archived source file matches byte-for-byte and Git blob SHA. Five held audit files were not read remotely or retried.",
+  "baselineFiles": 343,
+  "scope": "Complete readable local 63-story baseline only; unavailable original-site edits and history are not restored.",
+  "sourceBaselineOriginalUntouched": true,
+  "prior63PreservationTest": "Rerun passed before copying",
+  "sourceBaselineFingerprintRecheckedAfterBuild": true
+}

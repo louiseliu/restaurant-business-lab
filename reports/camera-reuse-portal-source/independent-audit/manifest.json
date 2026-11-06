@@ -1,0 +1,25 @@
+{
+  "purpose": "new independent camera-reuse portal static audit only",
+  "html": {
+    "name": "timeline64-camera-reuse.html",
+    "sha256": "0cdc4b54271bc29fbdd3762de2b527c61ae74d6e72e46333dd4746086e5f813a",
+    "bytes": 13825087
+  },
+  "files": {
+    "AUDIT.md": {
+      "bytes": 1626,
+      "sha256": "5ba990d348b79c0e3a9db5cacb95818035629e513d39e079847f107858b75c54"
+    },
+    "independent-audit-results.json": {
+      "bytes": 18719,
+      "sha256": "7b597d174280e1a410ec68b59275f2dd58ea87dbdf393448e2cf2a40ce605db6"
+    },
+    "independent_audit.py": {
+      "bytes": 7975,
+      "sha256": "294f8d5d5083785ea814561ef58731bebb192ccfe7bfb8e04f693fea974ff697"
+    }
+  },
+  "remote_write": false,
+  "visual_verified": false,
+  "packagingNotes": "Portable rerun example; generic private-notes signature; independent results byte-identical after archive rerun."
+}

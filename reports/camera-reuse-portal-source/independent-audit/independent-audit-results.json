@@ -1,0 +1,508 @@
+{
+  "audit": "independent newly executed local static tests",
+  "tests": [
+    {
+      "test": "counts",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "unique article IDs",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "old article objects and order unchanged",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "old story objects unchanged",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "old reviewed queries unchanged",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "exact new query scope",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "samples byte-identical",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "only authorized additive integration changes to baseline",
+      "pass": true,
+      "detail": [
+        "src/data.json",
+        "src/content/report/illustrated-stories.json",
+        "src/content/report/IllustratedArticle.jsx",
+        "src/content/report/articles.json"
+      ]
+    },
+    {
+      "test": "frozen article exact",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "frozen story exact",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "first-body commit and time",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "frozen body hash",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "new reviewed queries exact",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "diagram rows diagram",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "component evidence diagram",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "fixed source diagram",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "diagram rows secondDiagram",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "component evidence secondDiagram",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "fixed source secondDiagram",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "component uses real reviewed rows and public source wrapper",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "reader binds second diagram independently",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "new component/copy source bytes",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "UI routes/styles/legacy/download code unchanged",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "status complete identity unchanged",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "build manifest html",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "build manifest snapshot",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "split reviewed data exact",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "offline JSON chunks reconstruct full reviewed snapshot",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "compiled new title and two layouts",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "download digest sample-delivery/index.html",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "download digest sample-delivery/README.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "download digest sample-delivery/delivery-decision-sample.zip",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "download digest sample-ai-weekly/case-demo.html",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "download digest sample-ai-weekly/ai-weekly-practice-pack.zip",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "test": "five sample downloads",
+      "pass": true,
+      "detail": [
+        "sample-delivery/index.html",
+        "sample-delivery/README.md",
+        "sample-delivery/delivery-decision-sample.zip",
+        "sample-ai-weekly/case-demo.html",
+        "sample-ai-weekly/ai-weekly-practice-pack.zip"
+      ]
+    },
+    {
+      "test": "recursive privacy signatures",
+      "pass": true,
+      "detail": {
+        "hits": [],
+        "scanned_objects": 50,
+        "zip_entries": 45,
+        "scope": "Signature scan only; not a proof that every kind of private information is absent."
+      }
+    }
+  ],
+  "passed": 36,
+  "failed": 0,
+  "artifact_sha256": "0cdc4b54271bc29fbdd3762de2b527c61ae74d6e72e46333dd4746086e5f813a",
+  "recursive_scans": [
+    {
+      "name": "timeline64-camera-reuse.html",
+      "bytes": 13825087,
+      "sha256": "0cdc4b54271bc29fbdd3762de2b527c61ae74d6e72e46333dd4746086e5f813a"
+    },
+    {
+      "name": "timeline64-camera-reuse.html::base64-0",
+      "bytes": 627,
+      "sha256": "89b5a1673d5d696db1fb98bd1668367e70f986df658e734c3a01e2e971484e64"
+    },
+    {
+      "name": "timeline64-camera-reuse.html::base64-1",
+      "bytes": 1981229,
+      "sha256": "b1771584910da746d0cf1b967a4889fee226053d841596104b457a04a2dd3d91"
+    },
+    {
+      "name": "sample-delivery::html",
+      "bytes": 35641,
+      "sha256": "1249c7df7ce57b38e7a565b170de0757b6a8d13b4c1ca8025de930516cdfb7a0"
+    },
+    {
+      "name": "sample-delivery/README.md",
+      "bytes": 8145,
+      "sha256": "bba91274d1250f23dc1a717746b9730ba3d20bd35afeffe1cb385bd1f0e436a9"
+    },
+    {
+      "name": "sample-delivery/delivery-decision-sample.zip",
+      "bytes": 42752,
+      "sha256": "a829fe6b9424cd60b5ae4d0c6b917e7c0fc8dd2707772eb9a739504eef500bbf"
+    },
+    {
+      "name": "sample-delivery/delivery-decision-sample.zip!model.js",
+      "bytes": 3589,
+      "sha256": "c93284d3fc259c21d6cc84d5bd0db404a5d75eaeba30ac40ca35bc28764074eb"
+    },
+    {
+      "name": "sample-delivery/delivery-decision-sample.zip!ui.js",
+      "bytes": 12826,
+      "sha256": "609ba5148c172b812f94d9a096c3d0f203d8fdfe999e72dafacb048efaa279ac"
+    },
+    {
+      "name": "sample-delivery/delivery-decision-sample.zip!index.template.html",
+      "bytes": 19259,
+      "sha256": "7453efeb750ba6c675a6308f1c207505ccf0786f831e20da5aac1754cf3ac09b"
+    },
+    {
+      "name": "sample-delivery/delivery-decision-sample.zip!build.py",
+      "bytes": 666,
+      "sha256": "fe22194c85cc054da1d8aa94ecf5f49e087bcb8b09e8710828301b9843a4a9bf"
+    },
+    {
+      "name": "sample-delivery/delivery-decision-sample.zip!tests/test-model.cjs",
+      "bytes": 6468,
+      "sha256": "dbc8ca877b2ead8b764aa1f5b42949c4d8c62aa100878002ef63117df9d80cd6"
+    },
+    {
+      "name": "sample-delivery/delivery-decision-sample.zip!tests/test-results.json",
+      "bytes": 4146,
+      "sha256": "00a377e65d6c8743da2427324bd23113ba76326f3be549c74d9d9abee9f426fe"
+    },
+    {
+      "name": "sample-delivery/delivery-decision-sample.zip!tests/test-console.txt",
+      "bytes": 1838,
+      "sha256": "515d50fb6e6ddf0fe8810eb68775c236321ff2fd5cf7571e18e27262ea8ceee6"
+    },
+    {
+      "name": "sample-delivery/delivery-decision-sample.zip!tests/browser-qa.md",
+      "bytes": 2749,
+      "sha256": "2b1b4fdb20035dcf3781e859036fc30f46d97bdefbc2fab65419ee05eb5d37ee"
+    },
+    {
+      "name": "sample-delivery/delivery-decision-sample.zip!tests/demo-download.json",
+      "bytes": 1683,
+      "sha256": "d572df3e0a65669a3b796a8c9bcebdd097cff3b48b7b32285932b0962ebf06de"
+    },
+    {
+      "name": "sample-delivery/delivery-decision-sample.zip!manifest.json",
+      "bytes": 1917,
+      "sha256": "1a088dff63966239316d9fd4df48ac80f830329f19cca2ba502bd101d75a8d75"
+    },
+    {
+      "name": "sample-ai-weekly::html",
+      "bytes": 3174649,
+      "sha256": "4cf76e201f40c6c0e2e8cdfb9ee405e7c80bb4fd0331eb378bf72678e2df1cef"
+    },
+    {
+      "name": "sample-ai-weekly/ai-weekly-practice-pack.zip",
+      "bytes": 1094916,
+      "sha256": "3f9465a070cd8097167492a5095a98c59a02fef2b6464dfa5a341332a0597f84"
+    },
+    {
+      "name": "sample-ai-weekly/ai-weekly-practice-pack.zip!ai-weekly/README.md",
+      "bytes": 5349,
+      "sha256": "87e0e786f1730f4f870effe73a34f00c354ed313701d06e081ac11acd148cc1f"
+    },
+    {
+      "name": "sample-ai-weekly/ai-weekly-practice-pack.zip!ai-weekly/data/generation_manifest.json",
+      "bytes": 922,
+      "sha256": "2071a0fc7971afaa9d23b8dd44ab23e60609fcb2690a15a23c8c38c0438ef1c4"
+    },
+    {
+      "name": "sample-ai-weekly/ai-weekly-practice-pack.zip!ai-weekly/data/simulated_daily_raw.csv",
+      "bytes": 6560,
+      "sha256": "02ece4bad88570b057e17384352c8e8d79da018ce3c004a1538b2d9b3497e747"
+    },
+    {
+      "name": "sample-ai-weekly/ai-weekly-practice-pack.zip!ai-weekly/docs/build.md",
+      "bytes": 2080,
+      "sha256": "c287d47364d69096e53383c90490248fa178569c5448834e2072f8f6e161d6ee"
+    },
+    {
+      "name": "sample-ai-weekly/ai-weekly-practice-pack.zip!ai-weekly/docs/claims_manifest.json",
+      "bytes": 31123,
+      "sha256": "5143d8b4a1d0bf95fc7585435f804de243bd4d0a7efee496f77ae5d169584892"
+    },
+    {
+      "name": "sample-ai-weekly/ai-weekly-practice-pack.zip!ai-weekly/docs/data_dictionary.md",
+      "bytes": 5331,
+      "sha256": "097901233d9353f1f8e68c98031d105d77ef1d88b4b82da5ba5b380cfbe8b9b4"
+    },
+    {
+      "name": "sample-ai-weekly/ai-weekly-practice-pack.zip!ai-weekly/docs/prompts.md",
+      "bytes": 2727,
+      "sha256": "94582475078ff7de50b18f1bb16c6ed723801e1a9227c6e813622418e2cdc039"
+    },
+    {
+      "name": "sample-ai-weekly/ai-weekly-practice-pack.zip!ai-weekly/docs/review_checklist.md",
+      "bytes": 2408,
+      "sha256": "468af877979225d1916f148b90afeec5c4a899cb25a26b3f78e9dee7d4263729"
+    },
+    {
+      "name": "sample-ai-weekly/ai-weekly-practice-pack.zip!ai-weekly/docs/weekly_report.md",
+      "bytes": 5729,
+      "sha256": "0786b755a663782d60c0a72a5d790c2f7307cb3a06e2161adefd7a24325ecffd"
+    },
+    {
+      "name": "sample-ai-weekly/ai-weekly-practice-pack.zip!ai-weekly/html-source/ReportContent.jsx",
+      "bytes": 14415,
+      "sha256": "2963e120069355a14494fb04df3358429c5066a523667ec7b8a98552ed1408cb"
+    },
+    {
+      "name": "sample-ai-weekly/ai-weekly-practice-pack.zip!ai-weekly/html-source/report.css",
+      "bytes": 5426,
+      "sha256": "f3473b9df4063aca844e84939f07c29f27a43b791ab414062ef56b5cfabbff71"
+    },
+    {
+      "name": "sample-ai-weekly/ai-weekly-practice-pack.zip!ai-weekly/qa/analysis-run.log",
+      "bytes": 341,
+      "sha256": "95742e0b8a12048ba509fafe9845bc92490e0257786df74332991073c2bfb05f"
+    },
+    {
+      "name": "sample-ai-weekly/ai-weekly-practice-pack.zip!ai-weekly/qa/independent_recompute.json",
+      "bytes": 377,
+      "sha256": "ce68ad9a5184aecd9e1b4a496b5dba28df6742809bb9a41f4a0dd699e8761a93"
+    },
+    {
+      "name": "sample-ai-weekly/ai-weekly-practice-pack.zip!ai-weekly/qa/independent_recompute.sql",
+      "bytes": 1495,
+      "sha256": "1c5c06b8901677ff37265aa64b38f7e0cb6670154edf06d5637815ef18d9fc31"
+    },
+    {
+      "name": "sample-ai-weekly/ai-weekly-practice-pack.zip!ai-weekly/qa/test-run.log",
+      "bytes": 1563,
+      "sha256": "995d14cc64912162a05d5a76ff32adc3be8d4cf1526bed2df05db6ffadcb9ab1"
+    },
+    {
+      "name": "sample-ai-weekly/ai-weekly-practice-pack.zip!ai-weekly/qa/verification.md",
+      "bytes": 1834,
+      "sha256": "b530fcc541f1bd7fc3c3521bfaa0f4dbbdb0f6f9022ba358118daff6cd09c7b7"
+    },
+    {
+      "name": "sample-ai-weekly/ai-weekly-practice-pack.zip!ai-weekly/results/analysis.json",
+      "bytes": 48252,
+      "sha256": "3646fccbccdb6487caacdd03d7d5887bfe8621345b22a4ed29e05f7a8026dcc8"
+    },
+    {
+      "name": "sample-ai-weekly/ai-weekly-practice-pack.zip!ai-weekly/results/channel_weekly.csv",
+      "bytes": 2836,
+      "sha256": "cd848f64a12bf07be6514ab531d91bb4132ff6463c9c52d8049b4f0a6645a500"
+    },
+    {
+      "name": "sample-ai-weekly/ai-weekly-practice-pack.zip!ai-weekly/results/cleaned_daily.csv",
+      "bytes": 7982,
+      "sha256": "2690300ae24f136d6837019e477dc1c888df10871be1ed1f0884d851a8c91400"
+    },
+    {
+      "name": "sample-ai-weekly/ai-weekly-practice-pack.zip!ai-weekly/results/daily_summary.csv",
+      "bytes": 5032,
+      "sha256": "12c0a4dc8907c6a3e11a565997354c874f7e5d1d1106757243712f05c6fffff2"
+    },
+    {
+      "name": "sample-ai-weekly/ai-weekly-practice-pack.zip!ai-weekly/results/metric_comparisons.csv",
+      "bytes": 696,
+      "sha256": "0aa68e4b410f0c64db733731edef2536fabeab1500771b0cf808131da73d552c"
+    },
+    {
+      "name": "sample-ai-weekly/ai-weekly-practice-pack.zip!ai-weekly/results/quality_report.json",
+      "bytes": 12999,
+      "sha256": "070c104a90079b9e9a75b5f9cc994baaf84f15d26495c1bed51a436a9faaeeec"
+    },
+    {
+      "name": "sample-ai-weekly/ai-weekly-practice-pack.zip!ai-weekly/results/store_channel_weekly.csv",
+      "bytes": 3676,
+      "sha256": "a74a940f5dba5503b6ce2fd9a6fc185039e10fff4017d28c734c18ccbe8b6a55"
+    },
+    {
+      "name": "sample-ai-weekly/ai-weekly-practice-pack.zip!ai-weekly/results/store_weekly.csv",
+      "bytes": 2895,
+      "sha256": "35781fb3905d6684a8315e95c2c09cfd9e23197ad8cf85a357380af7deb80434"
+    },
+    {
+      "name": "sample-ai-weekly/ai-weekly-practice-pack.zip!ai-weekly/results/weekly_summary.csv",
+      "bytes": 2452,
+      "sha256": "72a31ce4bd1357f0a3501f82634c665c040e2abef8e6a029dbefbad8faacb34a"
+    },
+    {
+      "name": "sample-ai-weekly/ai-weekly-practice-pack.zip!ai-weekly/reviewed-snapshot.json",
+      "bytes": 294050,
+      "sha256": "f9331d360334c43bd8cbadb2b53156560d1ec481f6188fdca36ae5720006c13a"
+    },
+    {
+      "name": "sample-ai-weekly/ai-weekly-practice-pack.zip!ai-weekly/src/analyze.py",
+      "bytes": 11432,
+      "sha256": "99a4c7897828b5bd9183a6d99da046efddcc3f968f9644fc83d3b58efdeab150"
+    },
+    {
+      "name": "sample-ai-weekly/ai-weekly-practice-pack.zip!ai-weekly/src/generate_sample.py",
+      "bytes": 3770,
+      "sha256": "7a5e3e5aee402ce3a4028de5f5b2290053f1c16e0a28bc997d48518dcf73531b"
+    },
+    {
+      "name": "sample-ai-weekly/ai-weekly-practice-pack.zip!ai-weekly/src/prepare_snapshot.py",
+      "bytes": 4627,
+      "sha256": "1fc3719a9403b41f7b7282309610da3d9940ac19edde1560a38e3006be9f5158"
+    },
+    {
+      "name": "sample-ai-weekly/ai-weekly-practice-pack.zip!ai-weekly/src/run_all.py",
+      "bytes": 336,
+      "sha256": "8cbe953033525085500f8a358e27a49b0f301726f76cdf2f8a81df574c92f785"
+    },
+    {
+      "name": "sample-ai-weekly/ai-weekly-practice-pack.zip!ai-weekly/src/test_analysis.py",
+      "bytes": 5264,
+      "sha256": "33d4cf200775d2d4b9c35185f90766c1f00118c66b7a519f65a42338cdbfb7fa"
+    },
+    {
+      "name": "sample-ai-weekly/ai-weekly-practice-pack.zip!ai-weekly/release-manifest.json",
+      "bytes": 6188,
+      "sha256": "d43a44735fe1f0ac850a74099d7457b91036c8f972b8498075ba645bfa1db750"
+    }
+  ],
+  "zip_entries": [
+    "sample-delivery/delivery-decision-sample.zip!index.html",
+    "sample-delivery/delivery-decision-sample.zip!README.md",
+    "sample-delivery/delivery-decision-sample.zip!model.js",
+    "sample-delivery/delivery-decision-sample.zip!ui.js",
+    "sample-delivery/delivery-decision-sample.zip!index.template.html",
+    "sample-delivery/delivery-decision-sample.zip!build.py",
+    "sample-delivery/delivery-decision-sample.zip!tests/test-model.cjs",
+    "sample-delivery/delivery-decision-sample.zip!tests/test-results.json",
+    "sample-delivery/delivery-decision-sample.zip!tests/test-console.txt",
+    "sample-delivery/delivery-decision-sample.zip!tests/browser-qa.md",
+    "sample-delivery/delivery-decision-sample.zip!tests/demo-download.json",
+    "sample-delivery/delivery-decision-sample.zip!manifest.json",
+    "sample-ai-weekly/ai-weekly-practice-pack.zip!ai-weekly/README.md",
+    "sample-ai-weekly/ai-weekly-practice-pack.zip!ai-weekly/case-demo.html",
+    "sample-ai-weekly/ai-weekly-practice-pack.zip!ai-weekly/data/generation_manifest.json",
+    "sample-ai-weekly/ai-weekly-practice-pack.zip!ai-weekly/data/simulated_daily_raw.csv",
+    "sample-ai-weekly/ai-weekly-practice-pack.zip!ai-weekly/docs/build.md",
+    "sample-ai-weekly/ai-weekly-practice-pack.zip!ai-weekly/docs/claims_manifest.json",
+    "sample-ai-weekly/ai-weekly-practice-pack.zip!ai-weekly/docs/data_dictionary.md",
+    "sample-ai-weekly/ai-weekly-practice-pack.zip!ai-weekly/docs/prompts.md",
+    "sample-ai-weekly/ai-weekly-practice-pack.zip!ai-weekly/docs/review_checklist.md",
+    "sample-ai-weekly/ai-weekly-practice-pack.zip!ai-weekly/docs/weekly_report.md",
+    "sample-ai-weekly/ai-weekly-practice-pack.zip!ai-weekly/html-source/ReportContent.jsx",
+    "sample-ai-weekly/ai-weekly-practice-pack.zip!ai-weekly/html-source/report.css",
+    "sample-ai-weekly/ai-weekly-practice-pack.zip!ai-weekly/qa/analysis-run.log",
+    "sample-ai-weekly/ai-weekly-practice-pack.zip!ai-weekly/qa/independent_recompute.json",
+    "sample-ai-weekly/ai-weekly-practice-pack.zip!ai-weekly/qa/independent_recompute.sql",
+    "sample-ai-weekly/ai-weekly-practice-pack.zip!ai-weekly/qa/test-run.log",
+    "sample-ai-weekly/ai-weekly-practice-pack.zip!ai-weekly/qa/verification.md",
+    "sample-ai-weekly/ai-weekly-practice-pack.zip!ai-weekly/results/analysis.json",
+    "sample-ai-weekly/ai-weekly-practice-pack.zip!ai-weekly/results/channel_weekly.csv",
+    "sample-ai-weekly/ai-weekly-practice-pack.zip!ai-weekly/results/cleaned_daily.csv",
+    "sample-ai-weekly/ai-weekly-practice-pack.zip!ai-weekly/results/daily_summary.csv",
+    "sample-ai-weekly/ai-weekly-practice-pack.zip!ai-weekly/results/metric_comparisons.csv",
+    "sample-ai-weekly/ai-weekly-practice-pack.zip!ai-weekly/results/quality_report.json",
+    "sample-ai-weekly/ai-weekly-practice-pack.zip!ai-weekly/results/store_channel_weekly.csv",
+    "sample-ai-weekly/ai-weekly-practice-pack.zip!ai-weekly/results/store_weekly.csv",
+    "sample-ai-weekly/ai-weekly-practice-pack.zip!ai-weekly/results/weekly_summary.csv",
+    "sample-ai-weekly/ai-weekly-practice-pack.zip!ai-weekly/reviewed-snapshot.json",
+    "sample-ai-weekly/ai-weekly-practice-pack.zip!ai-weekly/src/analyze.py",
+    "sample-ai-weekly/ai-weekly-practice-pack.zip!ai-weekly/src/generate_sample.py",
+    "sample-ai-weekly/ai-weekly-practice-pack.zip!ai-weekly/src/prepare_snapshot.py",
+    "sample-ai-weekly/ai-weekly-practice-pack.zip!ai-weekly/src/run_all.py",
+    "sample-ai-weekly/ai-weekly-practice-pack.zip!ai-weekly/src/test_analysis.py",
+    "sample-ai-weekly/ai-weekly-practice-pack.zip!ai-weekly/release-manifest.json"
+  ],
+  "limitations": [
+    "No browser, visual rendering, interactions, HTTP/file preview, original-site visits, uploads or remote writes were performed.",
+    "Existing historical audit/log files were not modified or reissued as fresh verification.",
+    "Privacy scan is signature-based and covers offline HTML, inline base64 runtime and all five sample downloads including ZIP members."
+  ]
+}

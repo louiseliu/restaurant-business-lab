@@ -1,0 +1,48 @@
+{
+  "counts": {
+    "research": 64,
+    "fullOriginals": 84,
+    "stories": 64,
+    "samples": 2,
+    "ai": 42,
+    "queries": 131
+  },
+  "preserved": {
+    "originals": 83,
+    "stories": 63,
+    "queries": 129,
+    "unchangedBaselineFiles": 339,
+    "legacySha256": "1c2034ad9bcd6457ba9ab65d42717940b3d552a488a06b2b417b6063140b292d",
+    "readerSha256": "c6ed936b73898cf795e0ca9e8a4c9700b1e480787e8020388391119ac8133a6a"
+  },
+  "checks": {
+    "privacyPayloads": 169,
+    "downloads": 5,
+    "recursiveZipContainers": 2,
+    "releaseManifests": 1,
+    "compiledJSON": "matches source",
+    "buildManifest": "verified",
+    "runtimeSha256": "b1771584910da746d0cf1b967a4889fee226053d841596104b457a04a2dd3d91"
+  },
+  "frozenInputs": [
+    {
+      "id": "research-2026-11-06-camera-reuse-note",
+      "commit": "eaf8d57c523197ca67a04662f5d48dc45a201c22",
+      "time": "2026-11-06T01:10:58Z",
+      "sha256": "09d864ade214722429d1aac34cdbf391f303464db2cb32d66f75029d4acec549",
+      "sourcesSha256": "d29ebbf9ba26acb5179ebb5492b7e2f34667076eb8d9b7c63a1c212dd3607192",
+      "editorialFrozen": true
+    }
+  ],
+  "html": {
+    "bytes": 13825087,
+    "sha256": "0cdc4b54271bc29fbdd3762de2b527c61ae74d6e72e46333dd4746086e5f813a"
+  },
+  "limits": {
+    "visual": "Not checked; no browser attempted. Prior HTTP refusal and file-protocol denial not retried or bypassed.",
+    "published": false,
+    "uploadedHTMLorZIP": false,
+    "presentationCorrection": "None. Fourth shared S2 title still omits page 19; second figure note and definition include correct scope. Nonblocking display issue retained to preserve inputs.",
+    "baseline": "Only current readable local 63-story baseline; unavailable history not restored."
+  }
+}

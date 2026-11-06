@@ -1,0 +1,21 @@
+{
+  "result": "passed",
+  "userEditsPreserved": [
+    "existing article body",
+    "existing excerpt",
+    "existing story lead",
+    "existing query source label",
+    "export preferences"
+  ],
+  "prewriteRejections": [
+    "repeat merge",
+    "existing article ID",
+    "query identity",
+    "unexpected baseline counts",
+    "component file",
+    "stylesheet file",
+    "source preview file",
+    "dangling symlink"
+  ],
+  "inputBaselineOriginalUnchanged": true
+}

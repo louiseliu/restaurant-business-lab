@@ -1,0 +1,164 @@
+{
+  "scope": "Small additive local portal source, exact frozen baseline fingerprint and new static QA only. No full HTML/ZIP/runtime or deployment. Historical five held audit files remain open and are not included.",
+  "inputSourcePath": "reports/camera-reuse-source",
+  "firstArticleCommit": "eaf8d57c523197ca67a04662f5d48dc45a201c22",
+  "firstArticleTime": "2026-11-06T01:10:58Z",
+  "baselineArchiveCommit": "8fa22f5d558819eea2eddba01bbb38e271f015f7",
+  "inputFiles": {
+    "camera-reuse-diagrams.css": {
+      "bytes": 2234,
+      "sha256": "216d40073b77753e56fe3b35f9d36bce8eb4bfecc3106c945e2e09ae8102856a"
+    },
+    "prepare_standalone.py": {
+      "bytes": 2171,
+      "sha256": "72e36b3f606acf4ecde822ec07835c68fa489a43e38f388cd0b83a2d196aea96"
+    },
+    "illustrated-story.json": {
+      "bytes": 23641,
+      "sha256": "48be4de69f52476145eb4f2c54c2d90eddbd7c14d4859591939b995c0d1853e4"
+    },
+    "note.md": {
+      "bytes": 8839,
+      "sha256": "09d864ade214722429d1aac34cdbf391f303464db2cb32d66f75029d4acec549"
+    },
+    "article-reviewed-data.json": {
+      "bytes": 7473,
+      "sha256": "838b94ce57ac3df509de77411735fec59df9835fb1cda6f603090c2eedb3ab11"
+    },
+    "frozen.json": {
+      "bytes": 287,
+      "sha256": "e51d59818e1b2ff61d7bfc0877366bb13c44558f9d1e841c825cf1b1d464c86f"
+    },
+    "test_standalone.py": {
+      "bytes": 5541,
+      "sha256": "08b2f7f8333b26c36702a67eb9027f95ca2eab35230b222ea403a723646404b4"
+    },
+    "article-entry.json": {
+      "bytes": 9599,
+      "sha256": "f582c7152b596ef26ad450e46917487b551b7496e8ecb78bef9ea84b45da3676"
+    },
+    "sources.md": {
+      "bytes": 7560,
+      "sha256": "d29ebbf9ba26acb5179ebb5492b7e2f34667076eb8d9b7c63a1c212dd3607192"
+    },
+    "test_authoring_guard.py": {
+      "bytes": 2507,
+      "sha256": "5eb398670717f304f57cf119fe4c256b65410c5563c4aa37eab75083c77bcaf5"
+    },
+    "make_article.py": {
+      "bytes": 3092,
+      "sha256": "e4cdf2d993655ff1efe134a46482d330eec9018fa9f539f259f475c797745a8a"
+    },
+    "reviewed-illustration-copy.json": {
+      "bytes": 6124,
+      "sha256": "7445ad634cae022704c5c6e7578e34f1011a07c048565f4981a1836a37ae9a54"
+    },
+    "camera-reuse-source-previews.json": {
+      "bytes": 1113,
+      "sha256": "105e23e6203cc7d19edd4917267649739e1e2c42a50e3a16e54a7f62de7702d8"
+    },
+    "CameraReuseDiagrams.jsx": {
+      "bytes": 1654,
+      "sha256": "b3d8f06a0401ea7534fa735168139250cd7f93c81747c7109b8ef7e1bb2b3a02"
+    },
+    "shared/illustrated.css": {
+      "bytes": 10060,
+      "sha256": "a15fbe5f09e241738ffffa683f3e7d9ba535ff943cecb8f7e250e1449209f928"
+    },
+    "shared/ReportContent.jsx": {
+      "bytes": 703,
+      "sha256": "ae9d8787ad6b9d15c57aead3b72f48d0b487e2b52a42a6e75a4f6b8fda126a69"
+    },
+    "shared/IllustratedArticle.jsx": {
+      "bytes": 9528,
+      "sha256": "c1a185a7a6b1903325e8449c5f79dbadebc9102c5cadec4910b75fefa0cf1e1b"
+    },
+    "shared/timeline.css": {
+      "bytes": 7346,
+      "sha256": "b867d64e25125a71868940d4da6fe6bc2569f1b719ceefaed0b92e6baf0a4fee"
+    },
+    "support/sanitize_site_content.py": {
+      "bytes": 5533,
+      "sha256": "1166b7164b3bceb8c9fe056a92fe04bc609dcfc87ee5081344a9ff549739bf52"
+    },
+    "support/test_sanitization.py": {
+      "bytes": 2689,
+      "sha256": "d6131c06c9cf2b549de24e32c36451a780282159bbe4d82c18cefb095a2f7571"
+    }
+  },
+  "files": {
+    "PORTAL_BUILD.md": {
+      "bytes": 5823,
+      "sha256": "104d8da01bebe1bb4bcb5d6b604482ca92f4cd21a33983c627055145614f165a"
+    },
+    "baseline-known-gaps.json": {
+      "bytes": 2141,
+      "sha256": "51207677384d205a3e5f25307de501643961f3736a20866c7a0102dd4e7e313a"
+    },
+    "baseline-verification.json": {
+      "bytes": 562,
+      "sha256": "bd42c4a5ff74dbf075e04fa41c2f509961c6fcfb7311efeb1e32b2256571852e"
+    },
+    "baseline63-sha256.json": {
+      "bytes": 37744,
+      "sha256": "66a25c1dbaa44eb3394c98aa9940cd9e5c443df11fbf6bb954716a786e646200"
+    },
+    "build_portal.py": {
+      "bytes": 1531,
+      "sha256": "c9b2f8a0f746b7400f0eacd946d15e6a93db55fcc9b761fe59224aa8dc5ed5de"
+    },
+    "independent-audit/AUDIT.md": {
+      "bytes": 1626,
+      "sha256": "5ba990d348b79c0e3a9db5cacb95818035629e513d39e079847f107858b75c54"
+    },
+    "independent-audit/independent-audit-results.json": {
+      "bytes": 18719,
+      "sha256": "7b597d174280e1a410ec68b59275f2dd58ea87dbdf393448e2cf2a40ce605db6"
+    },
+    "independent-audit/independent_audit.py": {
+      "bytes": 7975,
+      "sha256": "294f8d5d5083785ea814561ef58731bebb192ccfe7bfb8e04f693fea974ff697"
+    },
+    "integrate64.py": {
+      "bytes": 2980,
+      "sha256": "2f48bd567b73b1f92038d912e946990794e1fb8c867ea2646089f4eee1d9df33"
+    },
+    "merge-guard-qa.json": {
+      "bytes": 467,
+      "sha256": "fd405e95deeca8b47a2a32d1a70f661e2b167a1e519f8be79f94c602277c43a0"
+    },
+    "portal-build-qa.json": {
+      "bytes": 1719,
+      "sha256": "b4a1adfc11ecd320a4ee7d0a4d34e87d09fe30a9a9b783985b89bfac1e30f4aa"
+    },
+    "portal-reproducibility.json": {
+      "bytes": 617,
+      "sha256": "08433b66421005f109de832fd75e144b23b57811fca294976881d2a6ac7614d5"
+    },
+    "prepare_portal.py": {
+      "bytes": 1133,
+      "sha256": "516a04ecfc40aab429c9c297c0e9da48ad2e66a5c0766be75f8e0c323a074f9a"
+    },
+    "test_portal_merge_guard.py": {
+      "bytes": 3065,
+      "sha256": "9a515da935b1391005b556bda3abe9ed9a74fe9c918b1b157cc24007d4f9d27d"
+    },
+    "test_portal_preservation.py": {
+      "bytes": 9079,
+      "sha256": "c21951a0801f62855f001e70f999907a3f7cc3bec7d5ff5160378d24811c8e71"
+    },
+    "test_reader_routes.mjs": {
+      "bytes": 2841,
+      "sha256": "1db8298e8373498fbea569dd0e7431d4062e8b031a3e03386cc3c843d030ad1f"
+    },
+    "visual-qa-status.json": {
+      "bytes": 564,
+      "sha256": "0bb6a6434aed2d4b9e16b3b6af828b2b002da64003f79fa68b70b99f191ae18d"
+    },
+    "independent-audit/manifest.json": {
+      "bytes": 866,
+      "sha256": "ec4f1acf834f5bc783c24cebdab882410b8a0460af7b9e80fa0ae29967e23897"
+    }
+  },
+  "inputCommit": "915bf3467f5cab17fb14e8cbc1fb4be6e42bef2a"
+}
