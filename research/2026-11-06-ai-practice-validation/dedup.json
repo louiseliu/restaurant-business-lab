@@ -1,0 +1,383 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-11-06",
+  "baseline_commit_sha": "a7d4a9f6a763419ca9481ac0c8e65970ac372aee",
+  "baseline_tree_sha": "f2a5eb786a574c81db8ef5a7423b58893dbaae41",
+  "research_count": 68,
+  "scope": "沿用冻结准备稿对原67篇正文的查重，再将其67项Git blob与最新main逐项比较，全部一致；归档阶段远端回读培训内容内制、招聘入口、Q-Smart及新增机器人订阅退出四篇。未声称重新逐篇审读原67篇全文，也不以机器检索证明绝对无重叠。",
+  "frozen_preparation_terms": [
+    "陪练",
+    "智能教练",
+    "模拟训练",
+    "冠军挑战",
+    "带教"
+  ],
+  "preparation_keyword_hits": [
+    {
+      "path": "research/2026-10-31-training-content-insourcing/note.md",
+      "terms": [
+        "带教"
+      ]
+    }
+  ],
+  "unchanged_prior_studies": [
+    {
+      "path": "research/2026-10-27-franchise-evidence/final-report.md",
+      "git_blob_sha": "04fad7b0012f3c95137c4d77a4d0144cf96b2569",
+      "title": "蜜雪扩张后，商品收入是否跟上加盟网络？"
+    },
+    {
+      "path": "research/2026-10-28-capacity-bottlenecks/note.md",
+      "git_blob_sha": "344ac229c5c7a2737d3626444460b043ccb6b897",
+      "title": "出餐慢，先查瓶颈再买设备：星巴克的历史策略修正"
+    },
+    {
+      "path": "research/2026-10-28-delivery-mix/note.md",
+      "git_blob_sha": "49e048f197e760a367ea0bdfb35059d6ec132aec",
+      "title": "每单配送降本为何仍可能提高总配送费率"
+    },
+    {
+      "path": "research/2026-10-28-entry-cashflow/note.md",
+      "git_blob_sha": "d799b0095025eb5723b043a69cbeebe8f2fb0b4c",
+      "title": "开店启动金额不等于全部资金需求"
+    },
+    {
+      "path": "research/2026-10-28-franchise-payback-definitions/continuation-note.md",
+      "git_blob_sha": "560e508f30e3e8431e04da1b72c17f535fe18c45",
+      "title": "古茗后续披露核验：加盟商人数桥仍不能给出原经营者留存率"
+    },
+    {
+      "path": "research/2026-10-28-franchise-payback-definitions/research-note.md",
+      "git_blob_sha": "5f9b6af4cf8fb61a2eb6847036338071d2cf2c4a",
+      "title": "古茗盈亏平衡披露能否用于判断加盟回本"
+    },
+    {
+      "path": "research/2026-10-28-same-store-splits/note.md",
+      "git_blob_sha": "90b9305b826d9fd61141129bb97ddbe18d37a68e",
+      "title": "同店增长先核对谁被排除：DPG 分拆商圈口径"
+    },
+    {
+      "path": "research/2026-10-29-advertising-total-outcomes/note.md",
+      "git_blob_sha": "29c8a92b5b7a4cf7d6bcab476c44d8c96a22b7d3",
+      "title": "餐厅广告应看包含自然流量的总结果"
+    },
+    {
+      "path": "research/2026-10-29-ai-cart-recommendations/note.md",
+      "git_blob_sha": "e28682491e9e4b4aad8b36ff4b15532dc12c41d1",
+      "title": "AI加购是否真正提高餐饮门店利润"
+    },
+    {
+      "path": "research/2026-10-29-ai-food-waste/note.md",
+      "git_blob_sha": "121449e165ae973de677dbc40d509f1efcc45f74",
+      "title": "AI减损之前，先跑通厨房记录与调整"
+    },
+    {
+      "path": "research/2026-10-30-expense-evidence/note.md",
+      "git_blob_sha": "e00fba8cc1efbc17f916e9a6182d176655462e37",
+      "title": "餐饮报销上AI前，先保住原始凭证与单价口径"
+    },
+    {
+      "path": "research/2026-10-30-food-images/note.md",
+      "git_blob_sha": "fee574e3a383359437b833260e883f53b48cdddb",
+      "title": "AI菜品图的增长，先问和谁比较"
+    },
+    {
+      "path": "research/2026-10-30-qsmart/note.md",
+      "git_blob_sha": "e4227d30b125a17972f3985b64b111edc776a3ce",
+      "title": "AI店务助手该先接手哪项工作？从百胜Q-Smart看任务兑现"
+    },
+    {
+      "path": "research/2026-10-30-restocking-controls/note.md",
+      "git_blob_sha": "3758d98d9e271989496efa9144b092d8fcff83d0",
+      "title": "自动订货前 先查四张基础表和人工退出开关"
+    },
+    {
+      "path": "research/2026-10-30-robot-kitchen/note.md",
+      "git_blob_sha": "90e05cf2e76221af8e17c215a0c80c682318343e",
+      "title": "炒菜机器人值不值得买 先看高峰时段整条出餐线"
+    },
+    {
+      "path": "research/2026-10-30-software-exit/note.md",
+      "git_blob_sha": "8a25ef1bb0f6ac4367c3cef9c8f6ef7458e968a8",
+      "title": "换餐饮系统前 先验收数据能否接着用"
+    },
+    {
+      "path": "research/2026-10-30-video-event-audit/note.md",
+      "git_blob_sha": "2348eabeabcc44c44462f4c1e3b095c4db054770",
+      "title": "餐饮 AI 巡店，先把告警变成可核查的事件"
+    },
+    {
+      "path": "research/2026-10-30-vision-checkout/note.md",
+      "git_blob_sha": "39880eb87130b2108b468a5d88b144c9ddbe6cdd",
+      "title": "小碗菜上 AI 收银，先决定让机器认菜还是认盘"
+    },
+    {
+      "path": "research/2026-10-30-voice-receptionist/note.md",
+      "git_blob_sha": "bad0087791fe5053a1be2b26fdea298c41141330",
+      "title": "AI电话接待值不值得买，先看前厅的服务瓶颈"
+    },
+    {
+      "path": "research/2026-10-31-energy-control/note.md",
+      "git_blob_sha": "8f2f2e5714c46b1d01c971aff3e225ca4db194dd",
+      "title": "餐厅要为 AI 节能多付多少钱？先看它比现有控制多解决了什么"
+    },
+    {
+      "path": "research/2026-10-31-knowledge-withdrawal/note.md",
+      "git_blob_sha": "79780e688c0d29ce23e9c18d87739a03a9344fa1",
+      "title": "旧套餐规则划掉了，AI 为什么还可能照着答"
+    },
+    {
+      "path": "research/2026-10-31-menu-translation-scope/note.md",
+      "git_blob_sha": "c1f58315e1edc033b76ce7870fa7dbb2a259657a",
+      "title": "给外国客人翻菜单，先决定要不要改动店内菜单"
+    },
+    {
+      "path": "research/2026-10-31-queue-promise/note.md",
+      "git_blob_sha": "63a7d391ed1d8c5f6ac066540ea90eeb036c243b",
+      "title": "预测到号，不等于保证入座：餐厅该不该让客人按时间回来"
+    },
+    {
+      "path": "research/2026-10-31-replenishment-constraints/note.md",
+      "git_blob_sha": "25d32e51ef7e684c0dd2085c78f9cc2caec1fa0d",
+      "title": "订货总是剩，先查最小采购和开封单位"
+    },
+    {
+      "path": "research/2026-10-31-review-to-action/note.md",
+      "git_blob_sha": "63dd89ae170c8454129f0066a88ddbc55e1ba4fd",
+      "title": "AI读完差评以后，老板该不该改一道菜"
+    },
+    {
+      "path": "research/2026-10-31-shared-knowledge/note.md",
+      "git_blob_sha": "8d578f9b41a0a49d9c770a16ffe4e897b22ef15a",
+      "title": "总部只维护一份知识，为什么不能让所有 AI 助手都读全套"
+    },
+    {
+      "path": "research/2026-10-31-training-content-insourcing/note.md",
+      "git_blob_sha": "d2d4d30f6a2bd1a980221ef0c55a3bea252097d4",
+      "title": "培训内容频繁改版，何时值得把翻译和配音收回内部"
+    },
+    {
+      "path": "research/2026-11-01-crossplatform-operations/note.md",
+      "git_blob_sha": "2cbf61b3152e4bdca244c1ad83228dafd3c5e2f8",
+      "title": "统一接单以后 能不能撤掉外卖平台值守"
+    },
+    {
+      "path": "research/2026-11-01-inventory-capture/note.md",
+      "git_blob_sha": "dbfcee2af3796e04f50a0b3bed555a915fd5d4c1",
+      "title": "盘点照片识别出来以后，能直接改库存吗？"
+    },
+    {
+      "path": "research/2026-11-01-management-anomaly/note.md",
+      "git_blob_sha": "75a08e56ebcd531b40fc8984270052da38a6c100",
+      "title": "AI提示赠菜异常，要不要收紧门店权限？"
+    },
+    {
+      "path": "research/2026-11-01-shift-constraints/note.md",
+      "git_blob_sha": "3e35784518c7b2cd76315d71f6b19d29718873c6",
+      "title": "AI 班表还要改，什么情况下仍值得用？"
+    },
+    {
+      "path": "research/2026-11-01-waste-resale/note.md",
+      "git_blob_sha": "0355c8d4d82a690342ce11de4e7fce91a00c7cbf",
+      "title": "晚间盲盒卖光了，值得再加一个销售渠道吗？"
+    },
+    {
+      "path": "research/2026-11-02-ai-camera-cost-stack/note.md",
+      "git_blob_sha": "d063a826897f02696c7865cb5bc2499483573542",
+      "title": "后厨 AI 每次两厘钱，小店为什么不能这样算总账"
+    },
+    {
+      "path": "research/2026-11-02-pass-confirmation/note.md",
+      "git_blob_sha": "a4dde71279d9cb6ca4811fdef12e8a5749912869",
+      "title": "出菜口 AI 亮了绿灯，能不能少一道人工核对？"
+    },
+    {
+      "path": "research/2026-11-02-robot-route-infrastructure/note.md",
+      "git_blob_sha": "cfeb19d5da356211504d7de2314eb8eb3e543353",
+      "title": "跨楼层送餐，买机器人之前先看谁能改动这条路"
+    },
+    {
+      "path": "research/2026-11-02-stockout-demand/note.md",
+      "git_blob_sha": "4b416d4f46801e986f4d8c883769d2436376596d",
+      "title": "一道菜总卖不够，AI建议少备之前先查什么"
+    },
+    {
+      "path": "research/2026-11-02-vision-feedback-timing/note.md",
+      "git_blob_sha": "f9d08e895013e3cb5320585520b7cded7c6a4415",
+      "title": "AI品控要挡在每碗面前，还是留到复盘时用？"
+    },
+    {
+      "path": "research/2026-11-03-customer-agent-entry/note.md",
+      "git_blob_sha": "8d1455a269dc201e430281fecc30663d76b76914",
+      "title": "给顾客的AI开个取号入口，小店该为哪种价值投入"
+    },
+    {
+      "path": "research/2026-11-03-food-waste-measurement/note.md",
+      "git_blob_sha": "6daa12b15a6a06d64cb702c79275a8d8d2c0996a",
+      "title": "AI说这道菜剩得多，先查它在哪一步被倒掉"
+    },
+    {
+      "path": "research/2026-11-03-order-cancellation/note.md",
+      "git_blob_sha": "9c725b18c83e755e48d3b2d2555724ab995a031c",
+      "title": "顾客取消订单，后厨怎样少做一份白工"
+    },
+    {
+      "path": "research/2026-11-03-service-handoff/note.md",
+      "git_blob_sha": "f1fc411cc27a5a878991e6dd0362f745a7ef2a94",
+      "title": "店员接手以后，AI客服什么时候才能再开口"
+    },
+    {
+      "path": "research/2026-11-04-menu-change-release/note.md",
+      "git_blob_sha": "9e37508628f41cbe7b2ce939597c068dce1364b0",
+      "title": "AI 替你改完菜单，开店前还要谁确认"
+    },
+    {
+      "path": "research/2026-11-04-offline-pos/note.md",
+      "git_blob_sha": "3b191a59ede7ffd6c329caa9eff4a13aa0c2b1de",
+      "title": "断网还能收银，复网后谁来把这笔生意对完整"
+    },
+    {
+      "path": "research/2026-11-04-store-accounting/note.md",
+      "git_blob_sha": "ba1ba398e741d3ec738a766716c5a74ab6e29f67",
+      "title": "小店自建AI经营账，谁来维护每天的“算得对”"
+    },
+    {
+      "path": "research/2026-11-05-agent-stop/note.md",
+      "git_blob_sha": "271c0199af37f76ef1ac1a0c7dbeb3a746573631",
+      "title": "老板退出登录或修改密码，AI经营离线任务是否停止？"
+    },
+    {
+      "path": "research/2026-11-05-dq-robot-experience/note.md",
+      "git_blob_sha": "6abfd8634830942003fd829397270afedfda7952",
+      "title": "DQ机器人体验店：探索预算何时能变成单店替岗采购"
+    },
+    {
+      "path": "research/2026-11-05-forecast-reimport/note.md",
+      "git_blob_sha": "c29731099b1c2731d3eec98e8b32bc8a8b67cb37",
+      "title": "AI更新预测，店长昨天的修改该留下吗"
+    },
+    {
+      "path": "research/2026-11-05-hiring-access/note.md",
+      "git_blob_sha": "d1870bf3725a1a55c462a6f56b1c92928917ddc7",
+      "title": "AI招聘省下店长时间之前 先查谁能走完流程"
+    },
+    {
+      "path": "research/2026-11-05-kitchen-label/note.md",
+      "git_blob_sha": "7346a854125eb3d52e91677e6044febcf98f7942",
+      "title": "即使 AI 能更快打印效期标签，小店能直接按标签用料吗？"
+    },
+    {
+      "path": "research/2026-11-05-kotipizza-pricing/note.md",
+      "git_blob_sha": "5c429b39a56835850b9c69ff19d1ddd7e889f9ee",
+      "title": "配送费要不要随忙闲变化"
+    },
+    {
+      "path": "research/2026-11-05-membership-marketing/note.md",
+      "git_blob_sha": "723199471a685998e55c1c581dc50c637c09e961",
+      "title": "生日券已经自动发，小店还该为什么购买AI会员营销？"
+    },
+    {
+      "path": "research/2026-11-05-menu-equivalence/note.md",
+      "git_blob_sha": "6deb16bc4261bfb379d4f7785f811d42664e27b3",
+      "title": "菜单同步以后，客人还能点到原来的组合吗？"
+    },
+    {
+      "path": "research/2026-11-05-model-update-acceptance/note.md",
+      "git_blob_sha": "7bc716a49b74968ee70386de086db915efb72410",
+      "title": "AI上线以后，模型升级该由谁重新验收"
+    },
+    {
+      "path": "research/2026-11-05-monthly-meal-customization/note.md",
+      "git_blob_sha": "5d5832a6bd0dfe46f7ab91f9648d9465a5291618",
+      "title": "月餐客户增多以后，AI该替小店承接哪些定制"
+    },
+    {
+      "path": "research/2026-11-05-pickup-economics/note.md",
+      "git_blob_sha": "7534b47bebcb560475862181272764f1c48fcf18",
+      "title": "顾客已经到店，还要引导他去平台下自提单吗？"
+    },
+    {
+      "path": "research/2026-11-05-platform-appeals/note.md",
+      "git_blob_sha": "75142bc7a61a4ece7cbb6ce337f369a9603e5ddb",
+      "title": "平台称AI能识假 小店还要保留哪些留证和申诉工作"
+    },
+    {
+      "path": "research/2026-11-05-presto-remote/note.md",
+      "git_blob_sha": "215e01b4652354ca256d9efdd1bb0a218c2da611",
+      "title": "AI点单不用店员接手 背后的人工服务该怎样验收"
+    },
+    {
+      "path": "research/2026-11-05-replenishment-override/note.md",
+      "git_blob_sha": "15c18c343d87d73dff743772a0b573c49843a69b",
+      "title": "算法给出订货量，店长该有多大的下调权"
+    },
+    {
+      "path": "research/2026-11-05-satellite-store/note.md",
+      "git_blob_sha": "24c8d8ab7314de02f25aee95092a8299a87e15c6",
+      "title": "小店面积缩小后，菜单和补货为什么要一起改？"
+    },
+    {
+      "path": "research/2026-11-05-self-built-release-validation/note.md",
+      "git_blob_sha": "8894d1bb267b3d5f41f5cca8672a7c51a6560d6a",
+      "title": "AI替餐厅改好系统，谁来决定可以上线"
+    },
+    {
+      "path": "research/2026-11-05-site-fitout/note.md",
+      "git_blob_sha": "593d16687df198d63461477587a01aaee2dce6c6",
+      "title": "AI画好小店以后，签租约和付装修款前还要查什么"
+    },
+    {
+      "path": "research/2026-11-05-xiabu-exit/note.md",
+      "git_blob_sha": "5fa6fc05413d235866da274003cf42736359f31c",
+      "title": "关掉亏损店以后 账面减亏的钱真的省下来了吗"
+    },
+    {
+      "path": "research/2026-11-06-ai-discovery-value/note.md",
+      "git_blob_sha": "a6377d2fd6c11d833e7015c3e89dabd739b87de2",
+      "title": "餐厅被AI推荐之后，值得为“上榜”长期付费吗？"
+    },
+    {
+      "path": "research/2026-11-06-ai-recipe-development/note.md",
+      "git_blob_sha": "82bedd8f9b487aad625943566155bc2aae3f3ed6",
+      "title": "AI新品研发：先买更多配方，还是保留试制预算？"
+    },
+    {
+      "path": "research/2026-11-06-camera-reuse/note.md",
+      "git_blob_sha": "aef88b2fa39e7e6133910a5a54840c72dbe5a366",
+      "title": "后厨摄像头还能看，升级AI时要不要全部换掉？"
+    },
+    {
+      "path": "research/2026-11-06-digitalhuman-livestream/note.md",
+      "git_blob_sha": "81bcab57c27796fba011cd62fb486e00a84cabd9",
+      "title": "AI主播能播一整夜，小店该不该跟着全天开播？"
+    },
+    {
+      "path": "research/2026-11-06-supplier-alias-mapping/note.md",
+      "git_blob_sha": "17c87ea0ab57b3e43ccefa3164e8a0edc784533b",
+      "title": "AI听懂“老样子”以后，谁确认下单的是哪款货？"
+    }
+  ],
+  "added_since_preparation": {
+    "path": "research/2026-11-06-robot-subscription-exit/note.md",
+    "git_blob_sha": "734dda247c0372a440d1a314f0a5cd74677e7679",
+    "title": "按月付的炒菜机器人，能当低风险试用吗？",
+    "keyword_hits": [],
+    "difference": "新增研究讨论炒菜机器人低初付、持续供给及退出义务，本篇讨论对话训练的评分解释、陌生情境迁移与现场带教验收，不重写设备租用条件。"
+  },
+  "closest_existing": [
+    {
+      "path": "research/2026-10-31-training-content-insourcing/note.md",
+      "difference": "前篇讨论培训材料制作与更新组织，本篇讨论完成学习之后的岗位能力验证与重复陪练采购。"
+    },
+    {
+      "path": "research/2026-11-05-hiring-access/note.md",
+      "difference": "前篇讨论求职者入口及招聘行政，本篇不进行求职者筛选或录用决定。"
+    },
+    {
+      "path": "research/2026-10-30-qsmart/note.md",
+      "difference": "前篇讨论店务任务兑现与后台支持成本，本篇不将训练工具归入Q-Smart，也不推定其与后台支持中心的关系。"
+    }
+  ],
+  "new_question": "门店购买AI陪练时，如何区分练习机会、系统得分和达到岗位要求的证据？",
+  "quantitative_claims": "没有实际工时、报价或试验数据，不计算节省额或回本期。"
+}

@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-06",
+  "article_id": "ai-practice-validation",
+  "document_id": "research-2026-11-06-ai-practice-validation-note",
+  "title": "买AI陪练，先验收分数还是岗位表现？",
+  "repository_directory": "research/2026-11-06-ai-practice-validation",
+  "preparation_state": "提交前记录；此文件不构成提交成功回执。首次提交及逐字回读结果见archive-status.json。",
+  "base_commit_sha": "a7d4a9f6a763419ca9481ac0c8e65970ac372aee",
+  "base_tree_sha": "f2a5eb786a574c81db8ef5a7423b58893dbaae41",
+  "existing_file_blob_count": 1606,
+  "frozen_texts": {
+    "note.md": {
+      "bytes": 9394,
+      "sha256": "6086b3b520b25df7944cbc3600d0f83780cea11ae01cfd510f7e431772f1e171"
+    },
+    "sources.md": {
+      "bytes": 6182,
+      "sha256": "7ff89bf7ed14f7553e88c5956bcb09f2314f2feed07e45f3a18813016512f0e9"
+    }
+  },
+  "checks": {
+    "frozen_text_hashes_match_preparation": true,
+    "neutral_title": true,
+    "same_project_not_assumed": true,
+    "same_or_different_product_not_assumed": true,
+    "baseline_before_training": true,
+    "sequence_effect_explicit": true,
+    "job_requirements_not_only_baseline": true,
+    "source_boundary_matches": true,
+    "no_unexecuted_roi": true,
+    "all_67_prior_research_blobs_match_current_main": true,
+    "new_robot_subscription_research_read": true
+  },
+  "factual_scope": "原始来源核验和PDF相关页视觉检查沿用已完成的研究记录，本次归档未重新访源。正文建议未实施，未开展门店或人员评价。",
+  "excluded": [
+    "HTML",
+    "ZIP",
+    "原始来源PDF与截图",
+    "运行时与缓存",
+    "私人路径与私链",
+    "凭据及个人敏感信息"
+  ],
+  "delivery": {
+    "research_text_archive": "pending",
+    "standalone_visual": "separate_work_not_verified_here",
+    "portal": "not_built_by_archive_step",
+    "public_site_synchronized": false,
+    "browser_qa_performed": false,
+    "attachment_send_performed": false
+  },
+  "preservation_plan": "基于刚核验的完整树仅新增本研究文件，预期旧分支头非强制更新；保留所有既有文件、用户改动及历史待办，不重试历史结果不确定操作。README.md与state/current.md保持原字节。"
+}
