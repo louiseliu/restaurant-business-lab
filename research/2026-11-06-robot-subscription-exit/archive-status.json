@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "article_id": "robot-subscription-exit",
+  "document_id": "research-2026-11-06-robot-subscription-exit-note",
+  "repository": "louiseliu/restaurant-business-lab",
+  "branch": "main",
+  "repository_directory": "research/2026-11-06-robot-subscription-exit",
+  "first_commit_sha": "2c32d8b669ea8cf6c5835e9598325bbddc73297a",
+  "first_committed_at": "2026-11-06T04:08:54Z",
+  "first_committed_at_beijing": "2026-11-06T12:08:54+08:00",
+  "first_commit_url": "https://github.com/louiseliu/restaurant-business-lab/commit/2c32d8b669ea8cf6c5835e9598325bbddc73297a",
+  "archive_base_commit_sha": "c15ddd377dd83ac2a5c466dc763d4af8386aa74d",
+  "archive_base_tree_sha": "180dfbeb156d3278cd10116d1005d00dc762d93a",
+  "verification": {
+    "all_six_files_read_back_exactly": true,
+    "all_six_git_blob_shas_match": true,
+    "all_1599_existing_file_blobs_preserved": true,
+    "non_forced_expected_head_update": true,
+    "all_67_prior_research_blobs_match_dedup_baseline": true,
+    "calculation_rerun_matches_frozen_result": true,
+    "source_research_not_repeated_by_archive_step": true
+  },
+  "files": {
+    "note.md": {
+      "bytes": 8856,
+      "sha256": "f8cc36b0b78957265261a89f4bacac3063f9c3f1647f7ef790c7e6a39baa3938",
+      "git_blob_sha": "734dda247c0372a440d1a314f0a5cd74677e7679",
+      "remote_text_equal": true
+    },
+    "sources.md": {
+      "bytes": 4648,
+      "sha256": "c8c9482d9795e577c7d212929fc6aa39685a3510558593a71d28a0b50856ed25",
+      "git_blob_sha": "172859680bfe224f4bb1028655627162bbe6c005",
+      "remote_text_equal": true
+    },
+    "calculations.py": {
+      "bytes": 1160,
+      "sha256": "efa0c33cccfdfe43cfebd95dfa187f0f9ca8d20b23645d8a54a8e59ed8615c1b",
+      "git_blob_sha": "11e7591971a2b922bb6e97506cddfe81ad0d51d0",
+      "remote_text_equal": true
+    },
+    "calculation-results.json": {
+      "bytes": 657,
+      "sha256": "b0a0105fe8805908d06811079cb4f4639f20193c256ca94e4acecadab194941c",
+      "git_blob_sha": "c0c9b7448b6b5c1934b05915970d911c3ea5ed93",
+      "remote_text_equal": true
+    },
+    "dedup.json": {
+      "bytes": 16518,
+      "sha256": "60d9373ffb81bd6f90b812b14166c6febf1013134b446d44bb9d93e4e407e37e",
+      "git_blob_sha": "e51548c2d17bc1ca42b3e37c4364b2fc4e52d8af",
+      "remote_text_equal": true
+    },
+    "archive-check.json": {
+      "bytes": 3143,
+      "sha256": "8a2b63c26ba420c11c9269caa98750d883726c14bfd94140130cacfb560bb67f",
+      "git_blob_sha": "396acb6ea2b9e1c3ce2f7b6a8b3c890d336ef026",
+      "remote_text_equal": true
+    }
+  },
+  "research_count": 68,
+  "classification": "商业模式",
+  "classification_note": "本篇分析低初付、设备服务组合与退出风险，不计为AI成效验证。",
+  "historical_status_note": "sources.md与dedup.json保留准备阶段未提交等历史状态。首次归档及回读结果以本文件为准。dedup.json中的baseline_tree_sha值实际为提交SHA，本文件另列真实树SHA。",
+  "delivery": {
+    "research_text_archived": true,
+    "html_or_zip_in_this_archive": false,
+    "standalone_visual_work": "另行制作，本次不声明完成或交付",
+    "complete_portal_work": "本次未构建或验收",
+    "public_site_synchronized": false,
+    "source_sites_revisited_by_archive_step": false,
+    "browser_visual_or_interaction_qa_performed": false,
+    "attachment_send_performed_by_this_step": false
+  },
+  "ci": {
+    "commit_sha": "2c32d8b669ea8cf6c5835e9598325bbddc73297a",
+    "commit_statuses": 0,
+    "check_runs": 0,
+    "workflow_runs": 0,
+    "result": "未发现本次提交的CI执行记录，不声明CI通过。"
+  },
+  "existing_work_note": "既有用户修改、历史归档缺件、附件、门户及原站状态均保留；本次未重试历史结果不确定的操作，未访问原站。README.md和state/current.md未修改。"
+}
