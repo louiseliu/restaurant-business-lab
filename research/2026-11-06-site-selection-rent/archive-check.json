@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "stage": "pre_commit_archive_check",
+  "article_id": "site-selection-rent",
+  "document_id": "research-2026-11-06-site-selection-rent-note",
+  "repository": "louiseliu/restaurant-business-lab",
+  "branch": "main",
+  "archive_base_commit_sha": "292acd9f1daa0b7322a5902c55705804bbc4cfde",
+  "archive_base_tree_sha": "bf767047f3d20cc43eaeff111e430a1504cd22a0",
+  "research_baseline": 69,
+  "frozen_research_files": {
+    "note.md": {
+      "bytes": 9612,
+      "sha256": "dc5ff70049dfe679b2eb6c530989ae36aefee8c3cde3e00f794aed1b9b7cab3b",
+      "git_blob_sha": "7256fd82ca14f0ab8d2624b6f348e6871ae1ba05"
+    },
+    "sources.md": {
+      "bytes": 5574,
+      "sha256": "bc28093601b59393efe3fecc92880375de8043ceb60b467927fb399e5c2332ce",
+      "git_blob_sha": "e68715be106683ae55e0d5f1118fceeff111ec81"
+    },
+    "calculations.py": {
+      "bytes": 1697,
+      "sha256": "381b5e0ac55f3acb68e418927ce155f2f2baad8f51193dffa7075dc3da5298ad",
+      "git_blob_sha": "16eecd106a22f7e379790b1acd42f91c96ec8987"
+    },
+    "calculation-results.json": {
+      "bytes": 1198,
+      "sha256": "81bb190ef383e013503c31fd7113afac6635fbf0fe695def0c406e75941d2e3d",
+      "git_blob_sha": "f3e3d44f5b1e33cb8cebda1427376b833176f4f7"
+    },
+    "dedup.json": {
+      "bytes": 16524,
+      "sha256": "d3da4dfcd06ab7e1c8a9e013372b3fca5d6fdfa141a566e70d25b0bd54fcf5ac",
+      "git_blob_sha": "16b335d26fdd2425ba5487d5c1de96de9758072b"
+    }
+  },
+  "checks": {
+    "frozen_input_sha256_matches_preparation": true,
+    "calculation_rerun_byte_equal": true,
+    "json_and_python_syntax_passed": true,
+    "private_marker_scan_passed": true
+  },
+  "editorial_review": {
+    "facts_hypotheses_calculations_and_recommendations_separated": true,
+    "platform_adoption_counts_not_accuracy_denominator": true,
+    "platform_self_report_not_independent_effect_validation": true,
+    "report_release_date_unconfirmed": true,
+    "discount_effect_on_existing_orders_explicit": true,
+    "synthetic_scenarios_only": true
+  },
+  "calculation_review": {
+    "required_average_daily_incremental_orders": 20,
+    "monthly_net_difference_cny": [
+      2400,
+      -960,
+      -1500
+    ]
+  },
+  "status_boundary": "本文件为首提前检查快照，不声称已提交。sources.md及dedup.json中的未提交与69篇口径保留原准备时点；首次提交和后续状态另记archive-status.json。",
+  "public_site_synchronized": false,
+  "html_or_zip_in_archive": false,
+  "source_research_repeated_by_archive_step": false,
+  "browser_visual_or_interaction_qa_performed": false,
+  "historical_uncertain_archive_operations_retried": false
+}
