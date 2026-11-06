@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "article_id": "supplier-recommendation",
+  "document_id": "research-2026-11-06-supplier-recommendation-note",
+  "title": "供应商的AI建议多买几款，小店该照着扩采购吗？",
+  "repository": "louiseliu/restaurant-business-lab",
+  "branch": "main",
+  "repository_directory": "research/2026-11-06-supplier-recommendation",
+  "first_commit_sha": "1496fce49b261cb108102b83dec501cea82cd5b4",
+  "first_committed_at": "2026-11-06T05:23:47Z",
+  "first_committed_at_beijing": "2026-11-06T13:23:47+08:00",
+  "first_commit_url": "https://github.com/louiseliu/restaurant-business-lab/commit/1496fce49b261cb108102b83dec501cea82cd5b4",
+  "archive_base_commit_sha": "aa31db66c59dd74c3aaf60cef2702d76ae136f74",
+  "archive_base_tree_sha": "8b876cbd20eb47d249640e404d8ce8d0a0826559",
+  "verification": {
+    "all_four_first_commit_files_read_back_exactly": true,
+    "all_four_git_blob_shas_match": true,
+    "all_1714_existing_file_blobs_preserved": true,
+    "non_forced_expected_head_update": true,
+    "all_69_prior_research_blob_shas_match": true,
+    "new_site_selection_article_read_for_dedup": true,
+    "frozen_three_files_byte_unchanged": true,
+    "independent_source_review_passed": true,
+    "source_research_not_repeated_by_archive_step": true,
+    "public_text_privacy_scan_passed": true
+  },
+  "files": {
+    "note.md": {
+      "bytes": 10359,
+      "sha256": "f8c718c5f2700798d4c7c93f01b0ac83c6135c206f6937828e68492b7ee82d89",
+      "git_blob_sha": "6d87e0f7202f8fe9d25a1973747948f1f3926962",
+      "remote_text_equal": true
+    },
+    "sources.md": {
+      "bytes": 6672,
+      "sha256": "4bd44d0f38d5d125c226a4c1c1b79dc2f3b9126f08f4f9324b40c94cfa21ba17",
+      "git_blob_sha": "7d212968c025f489214ab9896f6f0f7ece03e424",
+      "remote_text_equal": true
+    },
+    "review-check.md": {
+      "bytes": 2473,
+      "sha256": "4896a7504a0ab038903e199b818bf2e28a687b600c8f5ebd70d287a5ea597eb1",
+      "git_blob_sha": "3dab1c6e93b1a6e1b03e51dda19595ff2e31ed31",
+      "remote_text_equal": true
+    },
+    "archive-check.json": {
+      "git_blob_sha": "2bbe52873cc85d6f0967074acf0a6a87fac4e647",
+      "remote_text_equal": true,
+      "bytes": 3181,
+      "sha256": "bcca32ae3a2407dcfc71c586f795f5b28d58bc2dc1f3b1753b30a8c795ef2ae1"
+    }
+  },
+  "research_count": 71,
+  "ai_topic_count": 48,
+  "classification": "供应商AI推荐与门店采购范围决策",
+  "classification_note": "主题分类不代表AI成效已获独立验证。",
+  "historical_status_note": "sources.md的69篇基线及review-check.md的作者自检、未提交等措辞保留为准备阶段历史快照；独立审校另见independent-review.md，当前归档结果以本文件为准。",
+  "evidence_limits": [
+    "恒天然为实施方公开案例，未取得客户独立确认；SKU定义、同类门店分母与全渠道采购覆盖未披露。",
+    "任务指引及执行反馈按未来方向，不混入已实施能力。",
+    "Sysco年报与管理层转录属于同一企业来源链；未核听音频，不补证恒天然或中国小店效果。",
+    "2026-11-03电话会讨论Q1 2027财年，尚未结束的FY2027销量展望未量化AI360作用。",
+    "新增、替代、库存与奶油例子为作者分析或构造；没有真实门店数据、报价、试验或收益预测。"
+  ],
+  "delivery": {
+    "research_text_archived": true,
+    "html_or_zip_in_this_archive": false,
+    "standalone_visual_work": "另行制作，本归档步骤不声明完成或交付。",
+    "complete_portal_work": "本归档步骤不构建、验收或同步完整门户。",
+    "public_site_synchronized": false,
+    "source_sites_revisited_by_archive_step": false,
+    "browser_visual_or_interaction_qa_performed": false,
+    "attachment_send_performed_by_this_step": false
+  },
+  "last_repository_portal_snapshot": {
+    "source": "state/2026-11-06-portal69.json",
+    "research": 69,
+    "full_texts": 89,
+    "illustrated_stories": 69,
+    "samples": 2,
+    "ai": 46,
+    "queries": 142,
+    "note": "这是本次读取的仓库已有门户快照，不宣称其他并行工作的当前完成状态。"
+  },
+  "public_site": {
+    "last_verified_version": "v19",
+    "last_verified_counts": {
+      "research": 20,
+      "full_texts": 40,
+      "samples": 2,
+      "ai": 9
+    },
+    "current_readability_reverified": false,
+    "pending_sync_items": 54,
+    "pending_sync_breakdown": "按最后已核站点快照计算：第21—71篇51项新增与3项既有同ID修订；本步骤未发布。"
+  },
+  "ci": {
+    "commit_sha": "1496fce49b261cb108102b83dec501cea82cd5b4",
+    "commit_statuses": 0,
+    "check_runs": 0,
+    "workflow_runs": 0,
+    "result": "未发现本次首提的CI执行记录，不声明CI通过。"
+  },
+  "existing_work_note": "全部既有文件、用户改动及历史未确认对象保留；未重试历史操作，未访问受限原站，未发布或变更权限。README.md与state/current.md未修改。"
+}
