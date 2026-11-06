@@ -1,0 +1,104 @@
+{
+  "article_id": "ai-discovery-value",
+  "research_number": 65,
+  "ai_topic_count": 43,
+  "title": "餐厅被AI推荐之后，值得为“上榜”长期付费吗？",
+  "repository": "louiseliu/restaurant-business-lab",
+  "branch": "main",
+  "first_commit": "40e158a2766f7edd8e3d684b66436dd197624ecb",
+  "first_committed_at_utc": "2026-11-06T02:15:50Z",
+  "first_committed_at_beijing": "2026-11-06T10:15:50+08:00",
+  "first_commit_verified": true,
+  "non_forced_update": true,
+  "existing_blobs_preserved": 1380,
+  "frozen_files": [
+    {
+      "path": "research/2026-11-06-ai-discovery-value/note.md",
+      "sha256": "f1d0bc9dd94245f28191c1800f9a9ec583daee5bab1e27b90cda10e1de0f47b3",
+      "git_blob_sha": "a6377d2fd6c11d833e7015c3e89dabd739b87de2",
+      "remote_text_equal": true,
+      "git_blob_equal": true
+    },
+    {
+      "path": "research/2026-11-06-ai-discovery-value/sources.md",
+      "sha256": "a30632f128e724a8b84fdce6150975daea93dcb87f57e2a44c54cd127c4f72d3",
+      "git_blob_sha": "d61e37ed9d143d33cb27e86b7e56181fbb94fd0e",
+      "remote_text_equal": true,
+      "git_blob_equal": true
+    },
+    {
+      "path": "research/2026-11-06-ai-discovery-value/check.json",
+      "sha256": "1c6e9f60a51a6b5de9470ca6103870afbbe42cb20664e44e536c5fc29b418561",
+      "git_blob_sha": "b3031473aaf1cea002cb05f37e9ccc32cb5e662f",
+      "remote_text_equal": true,
+      "git_blob_equal": true
+    },
+    {
+      "path": "research/2026-11-06-ai-discovery-value/dedup.json",
+      "sha256": "a69b5371c022218777ca4650584cd3335e6971d167f7e28badd09d4ebc602fd0",
+      "git_blob_sha": "e4eaf8acadf17c5cd6e41400a60ba934680aa8f6",
+      "remote_text_equal": true,
+      "git_blob_equal": true
+    },
+    {
+      "path": "research/2026-11-06-ai-discovery-value/calculations.py",
+      "sha256": "05eee6b65463694f62b9e325036b2e2d83d259becf086fbbddd456dd38136a9b",
+      "git_blob_sha": "39d7d99ede1db35f67297363b12128ce3a853d79",
+      "remote_text_equal": true,
+      "git_blob_equal": true
+    },
+    {
+      "path": "research/2026-11-06-ai-discovery-value/calculation-results.json",
+      "sha256": "86048f29a94c28cf0077a417aefa38ad360b7d194e6f66517fe97a2ee5bf67c0",
+      "git_blob_sha": "a9b5e1387ca7f4f8fa112491dd16c80b56c1d609",
+      "remote_text_equal": true,
+      "git_blob_equal": true
+    }
+  ],
+  "phase": "正文、来源和公开计算/查重记录已归档；图文制作中，附件和完整门户增量尚未完成，原站未同步",
+  "frozen_stage_language": "sources.md和check.json中的未提交、本地稿、未制作，以及64篇基线均是冻结准备阶段记录；保留原文，当前归档状态以本记录和日志为准。",
+  "verification_scope": "本次归档检查冻结哈希、执行计数复算、核对最新main、非强制更新分支、逐字回读六文件及比较既有blob；没有重新执行来源研究、论文数据复现或门店实验。",
+  "evidence_limits": [
+    "3/34约8.8%只复算供应商自报计数，不验证订单、到店或增量贡献。",
+    "Norly论文为具有商业利益的预印本及API审计，不是消费者应用或中国小店成效验证。",
+    "Google文档只适用于所述产品中网页作为支持链接出现的要求。",
+    "没有真实报价、完整成本或利润测量，不估算回本期。"
+  ],
+  "last_local_portal": {
+    "research": 64,
+    "full_texts": 84,
+    "samples": 2,
+    "ai_topics": 42,
+    "queries": 131,
+    "browser_qa": "未验",
+    "qsmart_revision_included": false,
+    "ai_discovery_value_included": false
+  },
+  "illustrated_article": "制作中，未完成",
+  "attachment": "本次未发送",
+  "public_site": {
+    "last_verified_version": "v19",
+    "last_verified_counts": {
+      "research": 20,
+      "full_texts": 40,
+      "samples": 2,
+      "ai_topics": 9
+    },
+    "current_readability_rechecked": false,
+    "synchronized": false,
+    "pending_sync_new_studies": 45,
+    "pending_sync_existing_revisions": 2,
+    "qsmart_revision_pending_separately": true,
+    "total_pending_sync_items": 48
+  },
+  "outstanding": [
+    "第65篇单篇图文、附件与完整门户增量",
+    "Q-Smart同篇修订的图文和门户更新",
+    "第63篇历史四项审计写入及同字节JSON缺件",
+    "HTML归档、历史附件替换、费用原归档、原站可读性及用户编辑保护、旧全站离线快照和既有视觉待办"
+  ],
+  "html_or_zip_uploaded": false,
+  "public_site_published": false,
+  "permissions_changed": false,
+  "new_pro_consultation": false
+}
