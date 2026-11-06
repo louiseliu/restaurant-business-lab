@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "article_id": "ai-recipe-development",
+  "document_id": "research-2026-11-06-ai-recipe-development-note",
+  "repository": "louiseliu/restaurant-business-lab",
+  "branch": "main",
+  "repository_directory": "research/2026-11-06-ai-recipe-development",
+  "first_commit_sha": "dd45f0e85ae903ac64732e62fa90f929cb5917fc",
+  "first_committed_at": "2026-11-06T03:16:45Z",
+  "first_committed_at_beijing": "2026-11-06T11:16:45+08:00",
+  "first_commit_url": "https://github.com/louiseliu/restaurant-business-lab/commit/dd45f0e85ae903ac64732e62fa90f929cb5917fc",
+  "archive_base_commit_sha": "dff592038bde197a6fcc65eb33f46dfb9e4de4a7",
+  "archive_base_tree_sha": "6fe9536baa4dfb8447aa7527f9f00aa7180070a2",
+  "verification": {
+    "all_four_files_read_back_exactly": true,
+    "all_four_git_blob_shas_match": true,
+    "all_1505_existing_file_blobs_preserved": true,
+    "non_forced_expected_head_update": true,
+    "source_research_not_repeated_by_archive_step": true
+  },
+  "files": {
+    "note.md": {
+      "bytes": 9631,
+      "sha256": "dfda290cb83772ae5dfa26cdb9c9a757619804702ba88548257fad57b2eb461c",
+      "git_blob_sha": "82bedd8f9b487aad625943566155bc2aae3f3ed6",
+      "remote_text_equal": true
+    },
+    "sources.md": {
+      "bytes": 4228,
+      "sha256": "e6fed9407d60ed3f55902d056531acdc554c9e7c6fa626490ae01be92cc9b46d",
+      "git_blob_sha": "de4ca11b7fea24ada65e6db3ffae6278ebc14236",
+      "remote_text_equal": true
+    },
+    "dedup.json": {
+      "bytes": 15607,
+      "sha256": "979095253a23bb31a33132e89267acc1313f3f1162a3c1e9f8a085020e75413a",
+      "git_blob_sha": "d3bd05bcd87582f36e0cdb42ca4f11362defe384",
+      "remote_text_equal": true
+    },
+    "archive-check.json": {
+      "bytes": 3792,
+      "sha256": "b9c602796961397e873ab43130bfbea38d8e52af848bb45a92e0e03660aebeec",
+      "git_blob_sha": "6bf27d6f803eaf04bd77ac3313483f0715e4fec6",
+      "remote_text_equal": true
+    }
+  },
+  "research_count": 67,
+  "ai_topic_count": 45,
+  "classification_note": "AI分类表示主题，不表示成效已独立验证。",
+  "dedup_note": "dedup.json保留65篇准备基线及当时未提交状态；archive-check.json另记新增直播正文实读，归档前再次确认66篇已读研究blob均未变化。",
+  "delivery": {
+    "research_text_archived": true,
+    "html_or_zip_in_this_archive": false,
+    "standalone_visual_work": "另行制作；本次归档不声明已完成或已发送",
+    "complete_portal_work": "本次未构建或验收",
+    "public_site_synchronized": false,
+    "browser_visual_or_interaction_qa_performed": false,
+    "attachment_send_performed_by_this_step": false
+  },
+  "latest_verified_complete_local_portal": {
+    "research": 65,
+    "full_texts": 85,
+    "samples": 2,
+    "ai_topic_count": 43,
+    "queries": 134,
+    "contains_this_article": false,
+    "browser_visual_or_interaction_qa_performed": false
+  },
+  "public_site": {
+    "last_verified_version": "v19",
+    "last_verified_research": 20,
+    "last_verified_full_texts": 40,
+    "last_verified_samples": 2,
+    "last_verified_ai_topic_count": 9,
+    "current_readability_rechecked": false,
+    "pending_sync_items": 50
+  },
+  "ci": {
+    "commit_statuses": 0,
+    "check_runs": 0,
+    "workflow_runs": 0,
+    "result": "未发现本次提交的CI执行记录，不声明CI通过。"
+  },
+  "existing_gaps": "历史审计缺件、HTML归档、附件及视觉验收、原站可读性与编辑保护等原有待办保持；未重试受限对象或改用其他路径。",
+  "global_history_files": "本次不改README.md和state/current.md；它们保留历史快照，本文最新状态见本文件及单篇日志。"
+}
