@@ -1,0 +1,17 @@
+{
+  "source": "https://www.acewill.cn/news-detail/298.html",
+  "source_published": "2025-05-28",
+  "currency": "CNY",
+  "monthly_price_stated": [
+    2000,
+    4000
+  ],
+  "comparison_months_assumed_by_researcher": 12,
+  "payments_over_assumed_period": [
+    24000,
+    48000
+  ],
+  "formula": "monthly_price_stated * comparison_months_assumed_by_researcher",
+  "exclusions": "未知附加费用、税费、押金、调料、安装/改造、退出、资金时间价值及收益；不是完整合同或全流程成本。",
+  "boundary": "12个月不是公开租期，历史月价不是当前正式报价；不用于与其他品牌设备价直接比较。"
+}

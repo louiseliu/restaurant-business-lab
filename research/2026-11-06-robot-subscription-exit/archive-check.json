@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "article_id": "robot-subscription-exit",
+  "document_id": "research-2026-11-06-robot-subscription-exit-note",
+  "checked_at": "2026-11-06T04:07:28Z",
+  "stage": "pre-commit archive verification",
+  "repository": "louiseliu/restaurant-business-lab",
+  "branch": "main",
+  "repository_directory": "research/2026-11-06-robot-subscription-exit",
+  "archive_base_commit_sha": "c15ddd377dd83ac2a5c466dc763d4af8386aa74d",
+  "archive_base_tree_sha": "180dfbeb156d3278cd10116d1005d00dc762d93a",
+  "article_classification": "商业模式",
+  "independent_ai_effect_verified": false,
+  "checks": {
+    "frozen_prepared_file_hashes_match": true,
+    "calculation_rerun_matches_frozen_result": true,
+    "all_67_dedup_paths_match_current_remote_blob": true,
+    "prior_article_count": 67,
+    "existing_remote_file_count": 1599,
+    "html_or_zip_included": false,
+    "private_data_pattern_scan_passed": true
+  },
+  "files": {
+    "note.md": {
+      "bytes": 8856,
+      "sha256": "f8cc36b0b78957265261a89f4bacac3063f9c3f1647f7ef790c7e6a39baa3938",
+      "git_blob_sha": "734dda247c0372a440d1a314f0a5cd74677e7679"
+    },
+    "sources.md": {
+      "bytes": 4648,
+      "sha256": "c8c9482d9795e577c7d212929fc6aa39685a3510558593a71d28a0b50856ed25",
+      "git_blob_sha": "172859680bfe224f4bb1028655627162bbe6c005"
+    },
+    "calculations.py": {
+      "bytes": 1160,
+      "sha256": "efa0c33cccfdfe43cfebd95dfa187f0f9ca8d20b23645d8a54a8e59ed8615c1b",
+      "git_blob_sha": "11e7591971a2b922bb6e97506cddfe81ad0d51d0"
+    },
+    "calculation-results.json": {
+      "bytes": 657,
+      "sha256": "b0a0105fe8805908d06811079cb4f4639f20193c256ca94e4acecadab194941c",
+      "git_blob_sha": "c0c9b7448b6b5c1934b05915970d911c3ea5ed93"
+    },
+    "dedup.json": {
+      "bytes": 16518,
+      "sha256": "60d9373ffb81bd6f90b812b14166c6febf1013134b446d44bb9d93e4e407e37e",
+      "git_blob_sha": "e51548c2d17bc1ca42b3e37c4364b2fc4e52d8af"
+    }
+  },
+  "dedup_metadata_note": "dedup.json是准备阶段冻结记录。其中baseline_tree_sha字段实际记录当时的提交SHA；本文件分列真实commit与tree，67篇已读正文blob与当前远端全部一致。关键词检索和最近篇目语义比较不证明绝对无重叠。",
+  "historical_status_note": "sources.md与dedup.json的未提交、未制作等状态属于研究准备时点，冻结保留。归档成功、真实首次提交时间与逐字回读结果将在archive-status.json另行记录，不预先声明成功。",
+  "scope": "本次仅归档正文、来源、必要计算与查重记录。不修改既有文件，不提交HTML或ZIP，不访问或发布原站，不重试历史结果不确定的操作。",
+  "evidence_limits": "来源均为供应商公开方案，华宝两页同源；部分配图未完整核验。未取得商户合同、完整账单、当前正式报价或独立门店效果。12个月只是研究比较长度，不是公开租期；不认定未见条款确实存在。",
+  "existing_work_note": "既有图文、附件、门户、站点与历史核验待办不因本次正文归档自动完成。README.md和state/current.md保留原有内容。"
+}
