@@ -1,0 +1,85 @@
+{
+  "purpose": "Independent local portal audit artifacts only; no large HTML, ZIP or private environment metadata.",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 4739,
+      "sha256": "64eeb2473ed831fb7c06f587fd742c5cf0a185861e8591cc340771c52daae017"
+    },
+    {
+      "path": "ai-weekly-calculations.log",
+      "bytes": 2018,
+      "sha256": "fee437718abd28f1d168c45faf1a6b857ada96067e177f3ff7161197d7761bbd"
+    },
+    {
+      "path": "ai-weekly-snapshot.log",
+      "bytes": 59,
+      "sha256": "843a21b6ef724e61e43517618892823f445f4670e2bc8e7585c3acedd9cfdbd7"
+    },
+    {
+      "path": "audit-run.log",
+      "bytes": 3999,
+      "sha256": "dd23f114daa71281710b87953b69a2de214ea2590fca27ecd0227eae72d59b95"
+    },
+    {
+      "path": "audit_portal.py",
+      "bytes": 14503,
+      "sha256": "e275231a1528ada43e6c6b940e697d72965664de125940fb50d045b4d6d33f9c"
+    },
+    {
+      "path": "delivery-build.log",
+      "bytes": 59,
+      "sha256": "2ee0716eec4ea6a05a1870c00565fa5cadc663696d73777f8ea9655cc6333349"
+    },
+    {
+      "path": "delivery-tests.log",
+      "bytes": 1838,
+      "sha256": "515d50fb6e6ddf0fe8810eb68775c236321ff2fd5cf7571e18e27262ea8ceee6"
+    },
+    {
+      "path": "independent-portal-qa.json",
+      "bytes": 3999,
+      "sha256": "dd23f114daa71281710b87953b69a2de214ea2590fca27ecd0227eae72d59b95"
+    },
+    {
+      "path": "merge-guard.log",
+      "bytes": 175,
+      "sha256": "847adc6c4ac08fcb99b95f2e2d35a10c00441835138c3e4b9c4570b7c1e1104f"
+    },
+    {
+      "path": "payload-inventory.json",
+      "bytes": 28802,
+      "sha256": "495a92b07ea2c125184e71b29d32a277dd753a6354451726f873bc0aa2a61763"
+    },
+    {
+      "path": "reader-routes.log",
+      "bytes": 131,
+      "sha256": "9cb7e11130394344091f103784c3310df1e99291634fe27bbbbcb7107f65377d"
+    },
+    {
+      "path": "replay-run.log",
+      "bytes": 1389,
+      "sha256": "06c32d60cf8ceaaae98a6c2cacc98a36ee6cb488560e7a0dbb5f413663c48f82"
+    },
+    {
+      "path": "replay_checks.py",
+      "bytes": 4790,
+      "sha256": "581259a4d804aeea8bf14166adf4c05130e1a6e6597d653b6d6efa998a43f8da"
+    },
+    {
+      "path": "replayed-checks-qa.json",
+      "bytes": 1389,
+      "sha256": "06c32d60cf8ceaaae98a6c2cacc98a36ee6cb488560e7a0dbb5f413663c48f82"
+    },
+    {
+      "path": "sanitization-readonly.log",
+      "bytes": 24,
+      "sha256": "d1701b7d291bec2152663892ad0e41785ff6ead714bcca7c188435ca16e07511"
+    },
+    {
+      "path": "sanitization-regression.log",
+      "bytes": 101,
+      "sha256": "199ba496f288116d36c62f29346d4fbf0bd75745a1c893abfcbdaa4c6d5b1033"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "preservedSimulatedEdits": [
+    "body",
+    "excerpt",
+    "illustrated lead",
+    "query source label",
+    "exportPreferences"
+  ],
+  "refusedBeforeWrite": [
+    "repeat merge",
+    "article identity conflict",
+    "query conflict",
+    "unexpected count",
+    "component file",
+    "stylesheet file",
+    "source preview file",
+    "broken symlink"
+  ],
+  "baselineFiles": 340,
+  "scope": "Temporary copies only; no original user files modified."
+}

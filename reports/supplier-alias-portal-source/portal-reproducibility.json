@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "freshDirectory": true,
+  "buildCachesCopied": false,
+  "nodeModulesCopied": false,
+  "officialPrepareBuildExport": true,
+  "mergeGuardTests": "passed",
+  "preservationPrivacyTests": "passed",
+  "readerRouteUnitTests": "passed",
+  "outputsByteIdentical": true,
+  "html": {
+    "bytes": 13779964,
+    "sha256": "0476bca422a967990ff2a3da045be667852c150c33562ff0c05bc52102d39c34"
+  },
+  "runtimeSha256": "b1771584910da746d0cf1b967a4889fee226053d841596104b457a04a2dd3d91",
+  "visualChecks": "not run",
+  "websiteSynchronized": false,
+  "largeHTMLorZIPUploaded": false
+}

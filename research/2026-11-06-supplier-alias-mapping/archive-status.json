@@ -15,7 +15,7 @@
     "acceptedAt": "2026-11-06T00:13:09Z",
     "deliveryOpeningOrDownloadConfirmed": false
   },
-  "portalIntegration": "pending; standalone only",
+  "portalIntegration": "local content and official build complete; independent static preservation/privacy QA passed; browser visual and interaction QA not run",
   "websiteSynchronized": false,
   "currentResearchCount": 63,
   "currentAIResearchCount": 41,
@@ -45,5 +45,30 @@
     "committed": false
   },
   "smallSource": "reports/supplier-alias-source",
-  "independentQa": "reports/supplier-alias-source/independent-qa.json"
+  "independentQa": "reports/supplier-alias-source/independent-qa.json",
+  "portalSourcePath": "reports/supplier-alias-portal-source",
+  "portalHTML": {
+    "bytes": 13779964,
+    "sha256": "0476bca422a967990ff2a3da045be667852c150c33562ff0c05bc52102d39c34",
+    "uploaded": false,
+    "sent": false,
+    "archived": false
+  },
+  "portalVisualAcceptance": false,
+  "latestLocalPortal": {
+    "research": 63,
+    "fullOriginals": 83,
+    "samples": 2,
+    "ai": 41,
+    "queries": 129,
+    "browserVisualInteractionValidated": false
+  },
+  "portalSourceArchive": {
+    "status": "partial",
+    "complete": false,
+    "heldWriteOperations": 4,
+    "identicalContentFileAlsoHeld": true,
+    "details": "reports/supplier-alias-portal-source/archive-status.json",
+    "fullLocalResultsAndHashesPreserved": true
+  }
 }

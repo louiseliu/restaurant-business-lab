@@ -1,0 +1,19 @@
+{
+  "status": "not_run",
+  "browserAttempts": 0,
+  "reason": "Prior HTTP ERR_CONNECTION_REFUSED and file-protocol denial were not retried or bypassed.",
+  "notVerified": [
+    "rendered visual layout",
+    "narrow viewport",
+    "themes",
+    "source panels",
+    "navigation and browser history",
+    "scroll restoration",
+    "editing persistence",
+    "download clicks",
+    "print",
+    "actual offline use",
+    "browser logs"
+  ],
+  "websiteSynchronized": false
+}

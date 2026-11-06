@@ -1,0 +1,119 @@
+{
+  "scope": "Partial small-source archive. Five files are held after four unverified writes; see archive-status.json. Complete local audit and hashes preserved. No HTML/ZIP, full runtime, private files or deployment.",
+  "inputCommit": "eaf540b60794357d5528215bf260012932a0c393",
+  "inputSourcePath": "reports/supplier-alias-source",
+  "firstArticleCommit": "2b9bb2518e851397a67f4b4ba35456b8436813f8",
+  "firstArticleTime": "2026-11-06T00:08:21Z",
+  "baselineArchiveCommit": "f4dd14300db47c255f6034f045e57fd63b9656bc",
+  "files": {
+    "PORTAL_BUILD.md": {
+      "bytes": 5522,
+      "sha256": "c9b0c1d2d6f45798cbc73afcb710405ad4edf0251dcc79342da1a00f98a8622e"
+    },
+    "archive-status.json": {
+      "bytes": 2339,
+      "sha256": "447f9b5db3e248ae711d2d659b46faa6d18ec5f7a2d1860d9d79040299941678"
+    },
+    "baseline-verification.json": {
+      "bytes": 840,
+      "sha256": "78ab63c3e5dd6ae2d5bc26cf2dec626ecd053a829d34fd1654456505498eeb46"
+    },
+    "baseline62-sha256.json": {
+      "bytes": 37378,
+      "sha256": "4adee39165771db6dc0c40a08b314e1802cbd0e2b659e72e8e864f29210a500a"
+    },
+    "build_portal.py": {
+      "bytes": 1537,
+      "sha256": "207abe5bec138a011a6d651267b5c16b9a37a06d50db5dd394686bdd79509379"
+    },
+    "independent-audit/README.md": {
+      "bytes": 5036,
+      "sha256": "d21d1e075dbf9bd7a08bd82af6b9ce9985d50102b2bb5c952bef5f50308a77b7"
+    },
+    "independent-audit/delivery-build.log": {
+      "bytes": 59,
+      "sha256": "2ee0716eec4ea6a05a1870c00565fa5cadc663696d73777f8ea9655cc6333349"
+    },
+    "independent-audit/delivery-tests.log": {
+      "bytes": 1838,
+      "sha256": "515d50fb6e6ddf0fe8810eb68775c236321ff2fd5cf7571e18e27262ea8ceee6"
+    },
+    "independent-audit/manifest.json": {
+      "bytes": 2594,
+      "sha256": "a14f6ac68eb8cc4f6d433ed58e1113bd4a91911cbaebacb71257c88120107603"
+    },
+    "independent-audit/merge-guard.log": {
+      "bytes": 175,
+      "sha256": "847adc6c4ac08fcb99b95f2e2d35a10c00441835138c3e4b9c4570b7c1e1104f"
+    },
+    "independent-audit/payload-inventory.json": {
+      "bytes": 28802,
+      "sha256": "495a92b07ea2c125184e71b29d32a277dd753a6354451726f873bc0aa2a61763"
+    },
+    "independent-audit/reader-routes.log": {
+      "bytes": 131,
+      "sha256": "9cb7e11130394344091f103784c3310df1e99291634fe27bbbbcb7107f65377d"
+    },
+    "independent-audit/replay-run.log": {
+      "bytes": 1389,
+      "sha256": "06c32d60cf8ceaaae98a6c2cacc98a36ee6cb488560e7a0dbb5f413663c48f82"
+    },
+    "independent-audit/replay_checks.py": {
+      "bytes": 4790,
+      "sha256": "581259a4d804aeea8bf14166adf4c05130e1a6e6597d653b6d6efa998a43f8da"
+    },
+    "independent-audit/replayed-checks-qa.json": {
+      "bytes": 1389,
+      "sha256": "06c32d60cf8ceaaae98a6c2cacc98a36ee6cb488560e7a0dbb5f413663c48f82"
+    },
+    "independent-audit/sanitization-readonly.log": {
+      "bytes": 24,
+      "sha256": "d1701b7d291bec2152663892ad0e41785ff6ead714bcca7c188435ca16e07511"
+    },
+    "independent-audit/sanitization-regression.log": {
+      "bytes": 101,
+      "sha256": "199ba496f288116d36c62f29346d4fbf0bd75745a1c893abfcbdaa4c6d5b1033"
+    },
+    "integrate63.py": {
+      "bytes": 2994,
+      "sha256": "8029635ce2801168780fb1143a2eef2f5fefc860f308d2f612a247595ae9c543"
+    },
+    "merge-guard-qa.json": {
+      "bytes": 479,
+      "sha256": "f4efc402429e89f0e8d52f492a1ab52c2055e36dda53324960af3cb323d56b4f"
+    },
+    "portal-build-qa.json": {
+      "bytes": 1729,
+      "sha256": "84ec0c3959d7407aae17bb06afd2865d486df3c105bb74fa679e94da27d5957e"
+    },
+    "portal-reproducibility.json": {
+      "bytes": 592,
+      "sha256": "2f4865cdee331288ef3c355458f5552671c4aa76be5ecaa6b802ed6537c890a2"
+    },
+    "prepare_portal.py": {
+      "bytes": 1133,
+      "sha256": "5b4b48fc89b0051e1ad32d0c4f96e199e143d348872c508dcc04496280890bec"
+    },
+    "presentation-status.json": {
+      "bytes": 251,
+      "sha256": "eb37607d582effeb5ee48493955ea3854987804cf80f95fcf0e8ed3a1461f8b4"
+    },
+    "test_portal_merge_guard.py": {
+      "bytes": 3073,
+      "sha256": "4987d61a11c985333a6f74f67ebfb9c2ab39da971d257aac10da8a410ff5455e"
+    },
+    "test_portal_preservation.py": {
+      "bytes": 9095,
+      "sha256": "541260bed19ac90538e6eade8b9d85c17baa1f659d1e8296253fa8ae99fc0f98"
+    },
+    "test_reader_routes.mjs": {
+      "bytes": 2720,
+      "sha256": "be3ed1f3fd0922d622e177788ea109473543b0c64fe7c7a2f6a561f636c98c13"
+    },
+    "visual-qa-status.json": {
+      "bytes": 470,
+      "sha256": "17e66bb21b72876a3b0994cf40dee85b1e0d94aaad051cc16ad166abba257fbf"
+    }
+  },
+  "archiveComplete": false
+}

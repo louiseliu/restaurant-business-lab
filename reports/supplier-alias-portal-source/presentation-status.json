@@ -1,0 +1,5 @@
+{
+  "changed": false,
+  "knownInheritedIssue": "Fourth shared S2 title omits page 19; second figure note and definition include correct scope.",
+  "impact": "Nonblocking display issue retained unchanged from baseline and existing delivered source."
+}

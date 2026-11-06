@@ -1,0 +1,36 @@
+{
+  "result": "passed",
+  "testScope": "Locally replayed archived authoring merge guard, route functions and sanitization tests; decoded ZIP samples executed only in temporary copies. No browser or third official portal build.",
+  "portal": {
+    "mergeGuard": "passed",
+    "readerRoutes": "passed",
+    "sanitizationRegression": "3 passed",
+    "sanitizationReadOnly": "53 payloads passed"
+  },
+  "samples": {
+    "sample-delivery": {
+      "htmlRebuiltByteIdentical": true,
+      "testsPassed": 45,
+      "testsFailed": 0
+    },
+    "sample-ai-weekly": {
+      "testsPassed": 16,
+      "frozenNumericExpectations": 107,
+      "reconciliationChecks": 78,
+      "reproducedDataResultAndIndependentSqlFiles": 13,
+      "allReproducedFilesByteIdentical": true,
+      "archivedSnapshotEqualsEmbeddedHtml": true,
+      "regeneratedSnapshotContentEqualsArchived": true,
+      "snapshotLifecycleDifferences": [
+        "buildStatus",
+        "id"
+      ],
+      "htmlRebuilt": false
+    }
+  },
+  "limitations": [
+    "AI-weekly HTML was not recompiled with the official runtime; its embedded reviewed snapshot and all archived result values were verified.",
+    "Regenerated AI-weekly snapshot lifecycle/identity fields can differ; content fields must be identical.",
+    "Sample tests and static route tests do not establish current portal browser behavior or actual offline execution."
+  ]
+}

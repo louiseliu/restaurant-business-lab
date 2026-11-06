@@ -1,0 +1,49 @@
+{
+  "status": "partial_archive",
+  "localPortalContentAndBuild": "complete",
+  "localIndependentAudit": "passed with stated limits",
+  "fourWriteOperationsUnresolved": true,
+  "sameContentJsonAlsoHeld": true,
+  "heldFiles": [
+    {
+      "path": "independent-audit/ai-weekly-calculations.log",
+      "bytes": 2018,
+      "sha256": "fee437718abd28f1d168c45faf1a6b857ada96067e177f3ff7161197d7761bbd",
+      "expectedGitBlobSha": "bd6288b39be529e111414411c6c545c76736b02d",
+      "reason": "Write success unverified; original failure details unavailable; read-only lookup returned 404; not retried."
+    },
+    {
+      "path": "independent-audit/ai-weekly-snapshot.log",
+      "bytes": 59,
+      "sha256": "843a21b6ef724e61e43517618892823f445f4670e2bc8e7585c3acedd9cfdbd7",
+      "expectedGitBlobSha": "5edd533d46fd42bff4ce6fd1faf6c78cb0e128ce",
+      "reason": "Write success unverified; original failure details unavailable; read-only lookup returned 404; not retried."
+    },
+    {
+      "path": "independent-audit/audit-run.log",
+      "bytes": 3999,
+      "sha256": "dd23f114daa71281710b87953b69a2de214ea2590fca27ecd0227eae72d59b95",
+      "expectedGitBlobSha": "5a20f5f6b035800fb6b5d4a91fc1334c8008ff4d",
+      "reason": "Write success unverified; original failure details unavailable; read-only lookup returned 404; not retried."
+    },
+    {
+      "path": "independent-audit/audit_portal.py",
+      "bytes": 14503,
+      "sha256": "e275231a1528ada43e6c6b940e697d72965664de125940fb50d045b4d6d33f9c",
+      "expectedGitBlobSha": "2b698db027b858e26833333d497e78d06ac2742e",
+      "reason": "Write success unverified; original failure details unavailable; read-only lookup returned 404; not retried."
+    },
+    {
+      "path": "independent-audit/independent-portal-qa.json",
+      "bytes": 3999,
+      "sha256": "dd23f114daa71281710b87953b69a2de214ea2590fca27ecd0227eae72d59b95",
+      "expectedGitBlobSha": "5a20f5f6b035800fb6b5d4a91fc1334c8008ff4d",
+      "reason": "Same bytes as an uncertain write; held without retry."
+    }
+  ],
+  "localCompleteSourceManifestSHA256": "df93c7a02c00bcfb9c6b559c2642841be7ef5cff8991726f15074a951904fc4f",
+  "localAuditManifestSHA256": "a14f6ac68eb8cc4f6d433ed58e1113bd4a91911cbaebacb71257c88120107603",
+  "largeHtmlOrZipArchived": false,
+  "websiteSynchronized": false,
+  "visualAcceptance": false
+}

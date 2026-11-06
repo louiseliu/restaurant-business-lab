@@ -1,0 +1,23 @@
+{
+  "initialRemoteHead": "5ed69b08dbdf25818730eb0f6d2fd43aad387feb",
+  "baselineArchiveCommit": "f4dd14300db47c255f6034f045e57fd63b9656bc",
+  "archivedBaselineFilesGitBlobVerified": 15,
+  "previousPreservationTestsRerun": "passed",
+  "localBaselineFiles": 340,
+  "existingSourceEdited": false,
+  "scope": "Readable local 62-story baseline only. Restricted site and unavailable history not accessed.",
+  "articleSourceCommit": "eaf540b60794357d5528215bf260012932a0c393",
+  "articleInputsGitBlobVerified": [
+    "SupplierAliasDiagrams.jsx",
+    "article-entry.json",
+    "article-reviewed-data.json",
+    "frozen.json",
+    "illustrated-story.json",
+    "note.md",
+    "sources.md",
+    "supplier-alias-diagrams.css",
+    "supplier-alias-source-previews.json",
+    "support/sanitize_site_content.py",
+    "support/test_sanitization.py"
+  ]
+}
