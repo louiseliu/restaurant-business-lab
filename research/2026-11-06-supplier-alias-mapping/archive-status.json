@@ -8,10 +8,14 @@
   "frozenTextPreserved": true,
   "remoteBytesEqual": true,
   "researchArchived": true,
-  "sourceLedgerState": "研究准备阶段原文保留；归档现状以本文件和较新状态记录为准。",
-  "illustratedArticle": "pending",
-  "attachment": "pending",
-  "portalIntegration": "pending",
+  "sourceLedgerState": "首次研究准备阶段文本保持冻结；未提交/未制作表述为历史状态，以本文件及较新交付记录为准。",
+  "illustratedArticle": "content and official build complete; independent static QA passed; browser visual and interaction QA not run",
+  "attachment": {
+    "status": "accepted",
+    "acceptedAt": "2026-11-06T00:13:09Z",
+    "deliveryOpeningOrDownloadConfirmed": false
+  },
+  "portalIntegration": "pending; standalone only",
   "websiteSynchronized": false,
   "currentResearchCount": 63,
   "currentAIResearchCount": 41,
@@ -33,5 +37,13 @@
   },
   "pendingWebsiteSyncItems": 45,
   "largeHtmlOrZipCommitted": false,
-  "existingBacklogPreserved": true
+  "existingBacklogPreserved": true,
+  "illustratedHtml": {
+    "filename": "supplier-alias.html",
+    "bytes": 2934447,
+    "sha256": "62b03fc524ba7b8f04a7f5440759148d23fe11dc32f326af3b1f8c8b66a42418",
+    "committed": false
+  },
+  "smallSource": "reports/supplier-alias-source",
+  "independentQa": "reports/supplier-alias-source/independent-qa.json"
 }

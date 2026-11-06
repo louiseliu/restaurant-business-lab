@@ -1,0 +1,151 @@
+{
+  "articleId": "supplier-alias-mapping",
+  "firstGit": "2b9bb2518e851397a67f4b4ba35456b8436813f8",
+  "files": [
+    {
+      "path": "BUILD.md",
+      "bytes": 4489,
+      "sha256": "e0899ae52324b554b663256ab99f4c9d613678b35d63c0da6d64e2648d3fd62d"
+    },
+    {
+      "path": "SupplierAliasDiagrams.jsx",
+      "bytes": 1682,
+      "sha256": "ef3cf266642b0f9c35599dfdc3ccc353cd89bd0182aedfdba88bf5a52fd9b846"
+    },
+    {
+      "path": "archive-qa.json",
+      "bytes": 694,
+      "sha256": "17a7c889d89ed233a2fec9de1b878e02b5d9f832733987fba6811e393cc17cad"
+    },
+    {
+      "path": "article-entry.json",
+      "bytes": 9434,
+      "sha256": "87a635d2bd9a6d8bb2983995d1c17100261e775ca4795bca72b7a69b4ceb44fa"
+    },
+    {
+      "path": "article-reviewed-data.json",
+      "bytes": 7399,
+      "sha256": "6040075cc8017fddff1afc102628814767f302e1869593388acf309950eecb69"
+    },
+    {
+      "path": "authoring-guard-qa.json",
+      "bytes": 1022,
+      "sha256": "47d82b97bd110bdd7182b7fbbd967e69cc31ad333fddb926ab6ada350e5d94d1"
+    },
+    {
+      "path": "build-qa.json",
+      "bytes": 1076,
+      "sha256": "1b5b2b8980022a076fcae9407e5b30058193c8d6bbee009f5f366795b8d4528f"
+    },
+    {
+      "path": "delivery-status.json",
+      "bytes": 1075,
+      "sha256": "85f8b127e9097521b0bae41028e15753d751896b2352efc36bd0009ddc2e12a4"
+    },
+    {
+      "path": "frozen.json",
+      "bytes": 287,
+      "sha256": "b5719da47f04305407e3a2c9d2054b8dca329e52d475b0f75487bb9410b38201"
+    },
+    {
+      "path": "generator-reproducibility.json",
+      "bytes": 702,
+      "sha256": "bb43d33accfd62303b107befe4066f967e7f751c47ce535429b09e6b86d29766"
+    },
+    {
+      "path": "illustrated-story.json",
+      "bytes": 19927,
+      "sha256": "974550e8027a94815d3da238576b8d040acd7663a2e9eeead5ba2c508fd9bb54"
+    },
+    {
+      "path": "independent-qa.json",
+      "bytes": 2795,
+      "sha256": "2a954eb5a2c5ef1cc54b8b88c8fe64e814a253539b29bea5726da0a9498a54d8"
+    },
+    {
+      "path": "make_article.py",
+      "bytes": 3097,
+      "sha256": "97679819b588810949eb5f2f4441e1c330b49a2df61be0035dd36d2a43c8fead"
+    },
+    {
+      "path": "note.md",
+      "bytes": 8644,
+      "sha256": "27f8193e5c88e028c8cc4688e868aaf250288f3dfc0f5729cbbc6e55904e1737"
+    },
+    {
+      "path": "prepare_standalone.py",
+      "bytes": 2183,
+      "sha256": "4b5ef388af760eaed15b7aa66dd44af90423934eecec1d611abc9bc66bc8491e"
+    },
+    {
+      "path": "reviewed-illustration-copy.json",
+      "bytes": 5704,
+      "sha256": "d9ec33b2a479976d15c515b6d2e0d91246526ceae6d50db980c5de7a5b79a810"
+    },
+    {
+      "path": "shared/IllustratedArticle.jsx",
+      "bytes": 9562,
+      "sha256": "9fc5d216f4e32dbedcc415aacb9cdf86e823a5ce4dcd110b6d445d32e0339a53"
+    },
+    {
+      "path": "shared/ReportContent.jsx",
+      "bytes": 703,
+      "sha256": "ae9d8787ad6b9d15c57aead3b72f48d0b487e2b52a42a6e75a4f6b8fda126a69"
+    },
+    {
+      "path": "shared/illustrated.css",
+      "bytes": 10060,
+      "sha256": "a15fbe5f09e241738ffffa683f3e7d9ba535ff943cecb8f7e250e1449209f928"
+    },
+    {
+      "path": "shared/timeline.css",
+      "bytes": 7346,
+      "sha256": "b867d64e25125a71868940d4da6fe6bc2569f1b719ceefaed0b92e6baf0a4fee"
+    },
+    {
+      "path": "sources.md",
+      "bytes": 4445,
+      "sha256": "bb1fd8214b423715f8b0860d6cdc9b9f84d163764f40230b2283784275639062"
+    },
+    {
+      "path": "standalone-prepared-sha256.json",
+      "bytes": 27380,
+      "sha256": "fe0abba90e1f6896548770b8f08bafa82cfcf41afeae6d6580c98f0c4c5fb27b"
+    },
+    {
+      "path": "supplier-alias-diagrams.css",
+      "bytes": 2304,
+      "sha256": "f488678ae1520833dfd39c24a80e45e9b82d817a572be8298ffb92c12c3df243"
+    },
+    {
+      "path": "supplier-alias-source-previews.json",
+      "bytes": 1233,
+      "sha256": "f1a7cb8f43d6b77212ded05d861e05db3aa68b6d9bbed700280f6f67642281d9"
+    },
+    {
+      "path": "support/sanitize_site_content.py",
+      "bytes": 5533,
+      "sha256": "1166b7164b3bceb8c9fe056a92fe04bc609dcfc87ee5081344a9ff549739bf52"
+    },
+    {
+      "path": "support/test_sanitization.py",
+      "bytes": 2689,
+      "sha256": "d6131c06c9cf2b549de24e32c36451a780282159bbe4d82c18cefb095a2f7571"
+    },
+    {
+      "path": "test_authoring_guard.py",
+      "bytes": 2511,
+      "sha256": "86d517fc6dd28dca3e48e0a3da240a84e38c3b60a124c36872d03659c950450e"
+    },
+    {
+      "path": "test_standalone.py",
+      "bytes": 5549,
+      "sha256": "82e93e4dc7d155da739d2730099978688c73596893e0d11690a67911f292c28c"
+    },
+    {
+      "path": "visual-qa-status.json",
+      "bytes": 770,
+      "sha256": "97669c5f25cd8d0ecfce675d3908befd36b1ad8707a25d5899ac71ddbc4805fb"
+    }
+  ]
+}

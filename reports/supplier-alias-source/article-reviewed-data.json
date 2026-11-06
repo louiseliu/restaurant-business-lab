@@ -1,0 +1,133 @@
+{
+  "surface": "report",
+  "title": "AI听懂“老样子”以后，谁确认下单的是哪款货？",
+  "generatedAt": "2026-11-06T00:08:21Z",
+  "status": "reviewed",
+  "buildStatus": "creating",
+  "exportPreferences": {
+    "selected": null,
+    "destinations": []
+  },
+  "filters": [],
+  "report": {
+    "asOf": "2026-11-06"
+  },
+  "queries": {
+    "diagram-research-2026-11-06-supplier-alias-mapping-note": {
+      "rows": [
+        {
+          "环节": "客户自由叫法",
+          "已有线索": "简称、照片或“照上次”提供检索线索。",
+          "待核信息": "这个叫法用于哪家门店、本次想买什么。",
+          "不满足时": "客户专属叫法已有披露，但跨门店复用、冲突与换版边界未知，仍需核查。"
+        },
+        {
+          "环节": "缩小商品候选",
+          "已有线索": "识别品牌或品类后，列出可能的商品。",
+          "待核信息": "品牌下是否仍有不同品种与包装。",
+          "不满足时": "多个候选还没有区分时，保留选择；品牌别名不宜直接替代具体商品依据。"
+        },
+        {
+          "环节": "核对属性证据",
+          "已有线索": "盛德目录中，同品牌两英寸烧烤味小香肠列有1公斤与250克包装。",
+          "待核信息": "“小香肠来几包”仍未说明包装。这是作者构造的情景。",
+          "不满足时": "追问会改变采购内容的差异；不能将目录示例当成实际误匹配记录。"
+        },
+        {
+          "环节": "澄清或人工复核",
+          "已有线索": "确认单应展示品牌、商品、包装与本次数量。",
+          "待核信息": "建议沿用上次与本次已经确认要分开；替换品须明确接受范围。",
+          "不满足时": "信息不足、包装变化或候选冲突时保留人工，先不扩大自动处理范围。"
+        }
+      ],
+      "source": {
+        "label": "从自由叫法到确认商品，中间还需要哪些证据",
+        "files": [
+          "research/2026-11-06-supplier-alias-mapping/note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "从自由叫法到确认商品，中间还需要哪些证据",
+            "definition": "作者提出的核对路径，不是ShingTik实际软件界面或完整工作流。熟悉的叫法可以减少输入，却不能补出本次采购缺少的关键信息。 图1｜作者原创定性机制图。[实施方案例](https://codech.co/work/shingtik-ai/)为供应商自报；[盛德目录](https://shingtikvegetarian.com.my/product-category/veg-meat-zh-hans/%E7%B4%A0%E9%A6%99%E8%82%A0/)只核实商品包装差异，不独立证实AI部署或故障。未取得原订单或故障图片。",
+            "componentIds": [
+              "diagram-research-2026-11-06-supplier-alias-mapping-note"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "作者机制分析，案例事实边界见固定正文",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/2b9bb2518e851397a67f4b4ba35456b8436813f8/research/2026-11-06-supplier-alias-mapping/note.md"
+          },
+          {
+            "title": "S1 · 实施方案例",
+            "detail": "https://codech.co/work/shingtik-ai/"
+          },
+          {
+            "title": "S2 · 盛德商品目录",
+            "detail": "https://shingtikvegetarian.com.my/product-category/veg-meat-zh-hans/%E7%B4%A0%E9%A6%99%E8%82%A0/"
+          }
+        ],
+        "caveats": [
+          "案例只披露糕点照片经品牌别名被误配为“dried shrimp”的匹配故障，未证明已记账、错发货、含真实虾类或发生食安事故。",
+          "图1｜作者原创定性机制图。[实施方案例](https://codech.co/work/shingtik-ai/)为供应商自报；[盛德目录](https://shingtikvegetarian.com.my/product-category/veg-meat-zh-hans/%E7%B4%A0%E9%A6%99%E8%82%A0/)只核实商品包装差异，不独立证实AI部署或故障。未取得原订单或故障图片。"
+        ]
+      }
+    },
+    "diagram-research-2026-11-06-supplier-alias-mapping-note:second": {
+      "rows": [
+        {
+          "方案": "高频，常购稳定",
+          "起步选择": "可试窄范围AI找货和待确认订单整理。",
+          "关键负担": "供应商已有可靠目录，明确谁检查别名、包装和异常。",
+          "反转与边界": "若店员仍要重查品牌和包装，先缩小范围；识别更快不等于总工作减少。"
+        },
+        {
+          "方案": "低频，清单简单",
+          "起步选择": "优先比较保存常购清单，不必先定制完整AI系统。",
+          "关键负担": "保持商品与包装清楚，采购者核对本次数量。",
+          "反转与边界": "只有查找、确认与纠错的总负担持续下降，定制与维护成本才有比较意义。"
+        },
+        {
+          "方案": "频繁替换，无人维护",
+          "起步选择": "先保留人工商议，明确可接受的替换范围。",
+          "关键负担": "补上停产、换包装、旧叫法检查与异常接手责任。",
+          "反转与边界": "目录与维护责任稳定后再评估范围；不拿正在营业的真实订单做试验。"
+        }
+      ],
+      "source": {
+        "label": "三种采购情景，决定是否值得定制AI",
+        "files": [
+          "research/2026-11-06-supplier-alias-mapping/note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "三种采购情景，决定是否值得定制AI",
+            "definition": "作者建议的采购比较，不是ShingTik的客户分组或经营结果。先看维护与核对的总负担，再选处理范围。 图2｜作者原创条件比较。[实施方案例](https://codech.co/work/shingtik-ai/)和[服务FAQ](https://codech.co/faq/)属同一供应商来源链，未披露该案例完整费用，不构成独立效果验证。WhatsApp被标为上线；Order Page与内部AI Portal仍在建，不能作为现行能力。",
+            "componentIds": [
+              "diagram-research-2026-11-06-supplier-alias-mapping-note:second"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "作者机制分析，案例事实边界见固定正文",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/2b9bb2518e851397a67f4b4ba35456b8436813f8/research/2026-11-06-supplier-alias-mapping/note.md"
+          },
+          {
+            "title": "S1 · 实施方案例",
+            "detail": "https://codech.co/work/shingtik-ai/"
+          },
+          {
+            "title": "S3 · 供应商FAQ",
+            "detail": "https://codech.co/faq/"
+          }
+        ],
+        "caveats": [
+          "完整成本还包括初始整理、别名修订、客户核对、异常接手、系统衔接和退出接续。没有完整成本及对照，不计算净利润或回本期。",
+          "图2｜作者原创条件比较。[实施方案例](https://codech.co/work/shingtik-ai/)和[服务FAQ](https://codech.co/faq/)属同一供应商来源链，未披露该案例完整费用，不构成独立效果验证。WhatsApp被标为上线；Order Page与内部AI Portal仍在建，不能作为现行能力。"
+        ]
+      }
+    }
+  }
+}

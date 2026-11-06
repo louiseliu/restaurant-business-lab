@@ -1,0 +1,20 @@
+{
+  "browserVisualQA": "not run",
+  "reason": "Existing local HTTP preview connection failure and prior file-protocol denial remain unresolved. This task does not retry or work around those restrictions.",
+  "unverified": [
+    "desktop and narrow layout",
+    "light and dark appearance",
+    "source inspector rendering",
+    "contents navigation and back to top",
+    "original article and source ledger expansion",
+    "editing and persistence",
+    "export menu and actions",
+    "printing",
+    "actual disconnected offline use",
+    "browser runtime errors"
+  ],
+  "alternativeRouteAttempted": false,
+  "publicationAttempted": false,
+  "largeHTMLBlobAttempted": false,
+  "scope": "Static checks are recorded separately and cannot establish browser acceptance."
+}

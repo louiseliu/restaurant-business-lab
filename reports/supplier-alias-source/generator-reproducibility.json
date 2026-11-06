@@ -1,0 +1,21 @@
+{
+  "result": "pass",
+  "checks": [
+    {
+      "file": "article-entry.json",
+      "sha256": "87a635d2bd9a6d8bb2983995d1c17100261e775ca4795bca72b7a69b4ceb44fa",
+      "matchesFrozenOutput": true
+    },
+    {
+      "file": "illustrated-story.json",
+      "sha256": "974550e8027a94815d3da238576b8d040acd7663a2e9eeead5ba2c508fd9bb54",
+      "matchesFrozenOutput": true
+    },
+    {
+      "file": "article-reviewed-data.json",
+      "sha256": "6040075cc8017fddff1afc102628814767f302e1869593388acf309950eecb69",
+      "matchesFrozenOutput": true
+    }
+  ],
+  "scope": "Clean temporary directory re-generated the three author JSON files byte-for-byte; no browser or fresh official-runtime rebuild claim."
+}

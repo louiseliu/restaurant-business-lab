@@ -1,0 +1,13 @@
+{
+  "result": "pass",
+  "scope": "pre-archive checks only; no browser acceptance or fresh official-runtime rebuild",
+  "frozenTextBytePreserved": true,
+  "standaloneValidation": "passed; same 2,934,447-byte HTML and SHA256",
+  "authoringGuard": "8 passed using standalone project as input",
+  "sanitizationUnitTests": "3 passed",
+  "generatorReproduction": "three author JSON files byte-equal in fresh temporary directory",
+  "manifestAndSyntax": "verified",
+  "concretePrivateIdentifierScan": "passed; regular-expression definitions are not exposed credentials",
+  "historicalSourceLedger": "unchanged first-research snapshot; later status separated",
+  "largeHtmlZipOrCacheIncluded": false
+}

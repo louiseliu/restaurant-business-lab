@@ -1,0 +1,24 @@
+{
+  "articleId": "supplier-alias-mapping",
+  "firstGit": "2b9bb2518e851397a67f4b4ba35456b8436813f8",
+  "publishedAt": "2026-11-06T00:08:21Z",
+  "html": {
+    "filename": "supplier-alias.html",
+    "bytes": 2934447,
+    "sha256": "62b03fc524ba7b8f04a7f5440759148d23fe11dc32f326af3b1f8c8b66a42418",
+    "matchesOfficialExport": true
+  },
+  "standaloneBuild": "complete",
+  "browserVisualQA": "not run",
+  "librarySave": "Attachment accepted; Library identity intentionally not published.",
+  "attachmentSend": {
+    "status": "accepted",
+    "acceptedAt": "2026-11-06T00:13:09Z",
+    "meaning": "Send request accepted; delivery, opening and downloading are not established."
+  },
+  "smallSourceRemoteArchive": "Included in the same commit as this status file; remote verification recorded separately.",
+  "largeHTMLGitArchive": "not attempted",
+  "portalIntegration": "not performed; standalone only",
+  "sitePublication": "not attempted",
+  "frozenSourceStatus": "Earlier draft status text remains unchanged in frozen sources; this file records the build state separately."
+}

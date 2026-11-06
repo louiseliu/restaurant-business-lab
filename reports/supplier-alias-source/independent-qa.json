@@ -1,0 +1,46 @@
+{
+  "result": "static-content-pass; browser-acceptance-not-established",
+  "artifact": "supplier-alias.html",
+  "htmlSha256": "62b03fc524ba7b8f04a7f5440759148d23fe11dc32f326af3b1f8c8b66a42418",
+  "firstCommit": "2b9bb2518e851397a67f4b4ba35456b8436813f8",
+  "verifiedCommitTime": "2026-11-06T00:08:21Z",
+  "checks": {
+    "remoteFrozenBodyByteEquality": true,
+    "remoteFrozenSourceLedgerByteEquality": true,
+    "bodySha256": "27f8193e5c88e028c8cc4688e868aaf250288f3dfc0f5729cbbc6e55904e1737",
+    "sourceLedgerSha256": "bb1fd8214b423715f8b0860d6cdc9b9f84d163764f40230b2283784275639062",
+    "testStandalone": "pass",
+    "sanitizationTests": "3 passed",
+    "sanitizationPayloadAudit": "2 passed",
+    "authoringGuard": "8 passed; disposable copies only",
+    "unchangedOfficialFiles": 241,
+    "finalHtmlSnapshotEqualsSourceAndDist": true,
+    "decodedRuntimeSha256MatchesManifest": true,
+    "privateIdentityOrCredentialFound": false,
+    "externalNetworkAssetsInHtml": false,
+    "diagramAttribution": "Both explicitly authored qualitative analysis, not customer workflow or measured results.",
+    "mismatchBoundary": "No claim of shipped wrong goods, actual shrimp, or food safety incident.",
+    "deploymentBoundary": "WhatsApp live versus Order Page and Internal AI Portal in build preserved; supplier PO intake is within the in-build portal, not asserted as live.",
+    "livePrimarySourceRead": "All three public source pages reread; relevant claims agree. Source pages do not independently validate implementation vendor claims."
+  },
+  "sourceUrls": [
+    "https://codech.co/work/shingtik-ai/",
+    "https://shingtikvegetarian.com.my/product-category/veg-meat-zh-hans/%E7%B4%A0%E9%A6%99%E8%82%A0/",
+    "https://codech.co/faq/"
+  ],
+  "nonblockingNote": "The frozen source ledger retains historical statements saying not committed and not illustrated. Consider explicitly labeling that disclosure as the historical first-research ledger without changing the frozen text.",
+  "notRun": [
+    "browser visual layout",
+    "narrow viewport",
+    "light/dark rendering",
+    "navigation interactions",
+    "source inspector",
+    "editing and persistence",
+    "exports",
+    "printing",
+    "actual disconnected offline operation",
+    "fresh official-runtime rebuild"
+  ],
+  "restrictions": "No preview retry, alternate preview route, hosting, publication, permission changes, or remote writes attempted. Existing preview restrictions remain unresolved.",
+  "historicalSourceLedgerClarification": "sources.md is the frozen first-research ledger. Statements that it was uncommitted or unillustrated describe the research preparation stage, not the current repository or attachment status. The frozen ledger has not been edited; delivery-status.json records the later delivery event."
+}
