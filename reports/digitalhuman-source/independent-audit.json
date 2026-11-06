@@ -1,0 +1,45 @@
+{
+  "review": "independent static audit; no browser, server, upload, publication or commit",
+  "status": "pass_static_only",
+  "checks": {
+    "frozen_note": true,
+    "frozen_sources": true,
+    "original_body_exact": true,
+    "compiled_catalog_exact": true,
+    "compiled_story_exact": true,
+    "ledger_exact": true,
+    "first_commit_and_time": true,
+    "all_six_sections_exact": true,
+    "all_primary_links": true,
+    "two_reviewed_diagrams": true,
+    "no_numeric_diagram": true,
+    "split_manifest": true,
+    "snapshot_equals_data": true,
+    "offline_export_exact": true,
+    "prepared_official_files_unchanged": true,
+    "known_private_patterns_absent": true,
+    "no_remote_static_assets": true
+  },
+  "counts": {
+    "protected_files": 241,
+    "source_urls": 4,
+    "sections": 6,
+    "diagrams": 2
+  },
+  "artifact_sha256": "84a0637f413e5554ff808c5bd6a3d9cbc8b64998d3aea5e5cc42134cfa074a54",
+  "manual_findings": [
+    "图1明确同批券两条观察线，不表达时长、占比或转化率；图2为作者试用建议而非产品能力或已执行验收标准。未发现超出冻结正文的新增效果或量化主张。",
+    "7.3%始终保留平台自报及证据局限；没有利润图、成功概率、虚构ROI或回本线。",
+    "首次研究台账历史状态有显式说明；入库时间转换为北京时间展示，未混作资料发布日期。",
+    "组件从 reviewedRows 取得两图数据，并使用 DataComponent/queryId 和 data-reviewed-rows；完整原文和完整来源台账进入编译数据及阅读器。",
+    "复建脚本复用官方项目身份；已存在文章、图文、查询或阅读器有变更时在写入正式项目之前拒绝，静态代码可见。未运行复建或破坏性测试。"
+  ],
+  "blocking_issues": [],
+  "limitations": [
+    "未进行浏览器、移动端、深浅主题、交互或离线视觉验证；静态通过不是视觉验收。",
+    "来源事实以父代理批准冻结原文及台账为基线，本轮未重新联网验证网页。",
+    "官方文件与准备时哈希基线逐项比较；未独立验证该基线的生成来源。",
+    "隐私检查只覆盖已知模式和人工可见文案，不是对任意未知秘密的证明。"
+  ],
+  "privacy_pattern_hits": []
+}

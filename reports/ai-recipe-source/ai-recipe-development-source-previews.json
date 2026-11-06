@@ -1,0 +1,14 @@
+{
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC13309617/": {
+    "title": "S1 · BurgerAI正式论文公开副本",
+    "summary": "专门生成模型提出食材与用量，厨师补全工艺并制作。101名志愿者在同次盲品中评价五款AI设计汉堡与原版Big Mac；不证明普通聊天模型独立研发、门店降本或盈利。",
+    "source": "Vahidullah Tac、Christopher D. Gardner、Ellen Kuhl；npj Science of Food 10:199，2026-06-26。采用Methods的制作与调查段及Results/Discussion；已由研究环节实读PMC公开授权副本。",
+    "approvedForReport": true
+  },
+  "https://arxiv.org/html/2610.15616v1": {
+    "title": "S2 · 植物基食品人机研发预印本v1",
+    "summary": "厨师保留AI食材选择但调整用量，感官结果属于完整人机流程。Big Mac来自此前调查；排除素食/纯素、低频汉堡食用及指定过敏人群，不代表目标植物基客群已验证，也未确立商业可行性。",
+    "source": "Vahidullah Tac、Ellen Kuhl；arXiv 2610.15616v1，2026-10-11。采用Human–AI recipe development、Sensory survey与Discussion；核验日期2026-11-06。",
+    "approvedForReport": true
+  }
+}

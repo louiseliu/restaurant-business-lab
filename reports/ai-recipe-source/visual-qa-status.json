@@ -1,0 +1,8 @@
+{
+  "status": "not_run",
+  "browserAttempted": false,
+  "priorLimitsPreserved": ["Local HTTP ERR_CONNECTION_REFUSED", "Historical file-protocol access denial", "Original site permission restriction"],
+  "checksNotRun": ["desktop rendered layout", "narrow screen", "light/dark", "source panels", "click/history/scroll", "edit persistence", "download clicks", "print", "true browser offline", "browser console", "screen reader"],
+  "restrictionsRetriedOrBypassed": false,
+  "staticPassDoesNotClaimVisualAcceptance": true
+}

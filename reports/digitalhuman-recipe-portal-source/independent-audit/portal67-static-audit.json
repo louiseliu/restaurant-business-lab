@@ -1,0 +1,118 @@
+{
+  "scope": "Independent local static audit of exact 67-study offline portal; no publication or browser acceptance claim.",
+  "result": "passed-with-explicit-unverified-scope",
+  "artifact": {
+    "name": "timeline67-digitalhuman-recipe.html",
+    "bytes": 13982641,
+    "sha256": "a33e32b064a67577873677001382f747e0e7d1b9b1e0b7745b73a1cb312521e0"
+  },
+  "counts": {
+    "research": 67,
+    "originals": 87,
+    "stories": 67,
+    "queries": 138,
+    "aiResearch": 45
+  },
+  "preservation": {
+    "originals": 85,
+    "stories": 65,
+    "queries": 134,
+    "baselineFilesCompared": 351,
+    "changedFiles": [
+      "src/content/report/IllustratedArticle.jsx",
+      "src/content/report/articles.json",
+      "src/content/report/illustrated-stories.json",
+      "src/data.json"
+    ],
+    "addedContentFiles": [
+      "AIRecipeDiagrams.jsx",
+      "DigitalHumanDiagrams.jsx",
+      "ai-recipe-development-diagrams.css",
+      "ai-recipe-development-source-previews.json",
+      "digitalhuman-diagrams.css",
+      "digitalhuman-source-previews.json"
+    ],
+    "sourceUserEdits": "Readable 65-story baseline bytes and data only; unavailable original-site edits not verified."
+  },
+  "newVisualBindings": [
+    {
+      "query": "diagram-research-2026-11-06-digitalhuman-livestream-note",
+      "layout": "digitalhuman-timelines",
+      "sourceIds": [
+        "S2",
+        "S4"
+      ],
+      "sourceUrls": [
+        "https://tech.meituan.com/2026/09/03/meituan-Digital-Human-practice.html",
+        "https://rules-center.meituan.com/m/detail/guize/1226?activeRule=1"
+      ]
+    },
+    {
+      "query": "diagram-research-2026-11-06-digitalhuman-livestream-note:second",
+      "layout": "digitalhuman-decisions",
+      "sourceIds": [
+        "S1",
+        "S2",
+        "S3",
+        "S4"
+      ],
+      "sourceUrls": [
+        "https://digihuman.meituan.com/",
+        "https://tech.meituan.com/2026/09/03/meituan-Digital-Human-practice.html",
+        "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/fgs/art/2026/art_ce66ea61fcec4583b5dbd677f470088b.html",
+        "https://rules-center.meituan.com/m/detail/guize/1226?activeRule=1"
+      ]
+    },
+    {
+      "query": "diagram-research-2026-11-06-ai-recipe-development-note",
+      "layout": "ai-recipe-development-studies",
+      "sourceIds": [
+        "S1",
+        "S2"
+      ],
+      "sourceUrls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC13309617/",
+        "https://arxiv.org/html/2610.15616v1"
+      ]
+    },
+    {
+      "query": "diagram-research-2026-11-06-ai-recipe-development-note:second",
+      "layout": "ai-recipe-development-budget",
+      "sourceIds": [
+        "S1",
+        "S2"
+      ],
+      "sourceUrls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC13309617/",
+        "https://arxiv.org/html/2610.15616v1"
+      ]
+    }
+  ],
+  "coverage": {
+    "assertions": 1476,
+    "compiledObjects": 26,
+    "snapshotChunks": 6,
+    "snapshotBytes": 365001,
+    "snapshotSha256": "77df18a91baebf36578bf92ad34ae65daf62de82fcbbf561484b84e000f9f5b8",
+    "inputFingerprints": 18,
+    "payloads": 182,
+    "zipContainers": 2,
+    "zipMembers": 45,
+    "releaseManifests": 1,
+    "downloads": 5
+  },
+  "privacyPatternHits": [],
+  "issues": [],
+  "notVerified": [
+    "Browser rendering, mobile, dark mode, accessibility, popups, editing, history, scrolling, print or export interactions.",
+    "Fresh independent compilation or execution of embedded calculations; existing compiled bytes and exact snapshots were inspected.",
+    "External primary webpages, restricted PDFs, remote Git provenance or real restaurant effects.",
+    "Original-site access, upload, publication or sharing."
+  ],
+  "retainedLimitations": [
+    "Digitalhuman keeps sent-version inherited root language; recipe and GEO have explicit zh-CN.",
+    "Existing Fourth S2 title omits page 19; unchanged and unresolved.",
+    "Five historical uncertain audit archives were neither copied nor retried.",
+    "Pattern scanning cannot guarantee absence of every possible sensitive datum."
+  ]
+}

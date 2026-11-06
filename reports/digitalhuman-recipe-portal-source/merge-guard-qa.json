@@ -1,0 +1,166 @@
+{
+  "passed": 32,
+  "cases": [
+    {
+      "case": "Preserve user prose, summary, story, query and export preferences",
+      "passed": true,
+      "noPartialWrite": false
+    },
+    {
+      "case": "Reject unexpected counts",
+      "passed": true,
+      "noPartialWrite": true
+    },
+    {
+      "case": "Reject duplicate article identity",
+      "passed": true,
+      "noPartialWrite": true
+    },
+    {
+      "case": "Reject new query collision",
+      "passed": true,
+      "noPartialWrite": true
+    },
+    {
+      "case": "Reject missing report identity",
+      "passed": true,
+      "noPartialWrite": true
+    },
+    {
+      "case": "Reject changed reader anchor",
+      "passed": true,
+      "noPartialWrite": true
+    },
+    {
+      "case": "Reject existing file DigitalHumanDiagrams.jsx",
+      "passed": true,
+      "noPartialWrite": true
+    },
+    {
+      "case": "Reject existing file digitalhuman-diagrams.css",
+      "passed": true,
+      "noPartialWrite": true
+    },
+    {
+      "case": "Reject existing file digitalhuman-source-previews.json",
+      "passed": true,
+      "noPartialWrite": true
+    },
+    {
+      "case": "Reject existing file AIRecipeDiagrams.jsx",
+      "passed": true,
+      "noPartialWrite": true
+    },
+    {
+      "case": "Reject existing file ai-recipe-development-diagrams.css",
+      "passed": true,
+      "noPartialWrite": true
+    },
+    {
+      "case": "Reject existing file ai-recipe-development-source-previews.json",
+      "passed": true,
+      "noPartialWrite": true
+    },
+    {
+      "case": "Reject dangling destination symlink",
+      "passed": true,
+      "noPartialWrite": true
+    },
+    {
+      "case": "Reject repeated integration",
+      "passed": true,
+      "noPartialWrite": true
+    },
+    {
+      "case": "Reject frozen input 0/article-entry.json",
+      "passed": true,
+      "noPartialWrite": true
+    },
+    {
+      "case": "Reject frozen input 0/illustrated-story.json",
+      "passed": true,
+      "noPartialWrite": true
+    },
+    {
+      "case": "Reject frozen input 0/article-reviewed-data.json",
+      "passed": true,
+      "noPartialWrite": true
+    },
+    {
+      "case": "Reject frozen input 0/frozen.json",
+      "passed": true,
+      "noPartialWrite": true
+    },
+    {
+      "case": "Reject frozen input 0/note.md",
+      "passed": true,
+      "noPartialWrite": true
+    },
+    {
+      "case": "Reject frozen input 0/sources.md",
+      "passed": true,
+      "noPartialWrite": true
+    },
+    {
+      "case": "Reject frozen input 0/DigitalHumanDiagrams.jsx",
+      "passed": true,
+      "noPartialWrite": true
+    },
+    {
+      "case": "Reject frozen input 0/digitalhuman-diagrams.css",
+      "passed": true,
+      "noPartialWrite": true
+    },
+    {
+      "case": "Reject frozen input 0/digitalhuman-source-previews.json",
+      "passed": true,
+      "noPartialWrite": true
+    },
+    {
+      "case": "Reject frozen input 1/article-entry.json",
+      "passed": true,
+      "noPartialWrite": true
+    },
+    {
+      "case": "Reject frozen input 1/illustrated-story.json",
+      "passed": true,
+      "noPartialWrite": true
+    },
+    {
+      "case": "Reject frozen input 1/article-reviewed-data.json",
+      "passed": true,
+      "noPartialWrite": true
+    },
+    {
+      "case": "Reject frozen input 1/frozen.json",
+      "passed": true,
+      "noPartialWrite": true
+    },
+    {
+      "case": "Reject frozen input 1/note.md",
+      "passed": true,
+      "noPartialWrite": true
+    },
+    {
+      "case": "Reject frozen input 1/sources.md",
+      "passed": true,
+      "noPartialWrite": true
+    },
+    {
+      "case": "Reject frozen input 1/AIRecipeDiagrams.jsx",
+      "passed": true,
+      "noPartialWrite": true
+    },
+    {
+      "case": "Reject frozen input 1/ai-recipe-development-diagrams.css",
+      "passed": true,
+      "noPartialWrite": true
+    },
+    {
+      "case": "Reject frozen input 1/ai-recipe-development-source-previews.json",
+      "passed": true,
+      "noPartialWrite": true
+    }
+  ],
+  "browserTests": false
+}

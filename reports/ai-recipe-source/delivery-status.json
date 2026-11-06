@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "artifact": "ai-recipe-development.html",
+  "htmlBytes": 2935905,
+  "htmlSha256": "8f31afd7f20ad2fac537da6552dfef00e320d6a9f114080a9f863ad6ec0de2ed",
+  "attachmentRequestAcceptedAt": "2026-11-06T03:23:00Z",
+  "sourceOfAcceptedTime": "Recorded accepted batch request for two attachments; this archive did not resend.",
+  "acceptedDoesNotConfirm": [
+    "delivery",
+    "opening",
+    "download"
+  ],
+  "browserVisualInteractionChecked": false,
+  "publicSiteSynchronized": false,
+  "htmlOrZIPArchived": false,
+  "includedInLocalPortal67": true,
+  "completePortalHtmlUploadedOrSent": false
+}

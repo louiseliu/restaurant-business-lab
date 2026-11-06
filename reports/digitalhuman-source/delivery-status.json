@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "artifact": "digitalhuman.html",
+  "htmlBytes": 2940828,
+  "htmlSha256": "84a0637f413e5554ff808c5bd6a3d9cbc8b64998d3aea5e5cc42134cfa074a54",
+  "attachmentRequestAcceptedAt": "2026-11-06T03:23:00Z",
+  "sourceOfAcceptedTime": "Recorded accepted batch request for two attachments; this archive did not resend.",
+  "acceptedDoesNotConfirm": [
+    "delivery",
+    "opening",
+    "download"
+  ],
+  "browserVisualInteractionChecked": false,
+  "publicSiteSynchronized": false,
+  "htmlOrZIPArchived": false,
+  "includedInLocalPortal67": true,
+  "completePortalHtmlUploadedOrSent": false
+}

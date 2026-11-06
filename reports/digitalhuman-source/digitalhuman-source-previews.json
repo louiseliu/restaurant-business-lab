@@ -1,0 +1,26 @@
+{
+  "https://digihuman.meituan.com/": {
+    "title": "S1 · 美团智播产品页",
+    "summary": "厂商面向到餐等本地生活场景介绍数字人讲解、商品与门店问答和全天在线能力。产品定位不能证明某家小餐厅减少人工、增加利润或当前可开通。",
+    "source": "美团公开产品页；页面发布日期未确认。核验2026-11-06。",
+    "approvedForReport": true
+  },
+  "https://tech.meituan.com/2026/09/03/meituan-Digital-Human-practice.html": {
+    "title": "S2 · 美团智播技术实践",
+    "summary": "第六、七节介绍实时互动、预生产讲解和商品切换、优惠触发，并自报商家闲时交易额平均提升7.3%。样本、对照、餐饮子样本和核销利润未公开，不能外推本店回报。",
+    "source": "美团技术团队，2026-09-03；平台自述。",
+    "approvedForReport": true
+  },
+  "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/fgs/art/2026/art_ce66ea61fcec4583b5dbd677f470088b.html": {
+    "title": "S3 · 直播电商监督管理办法",
+    "summary": "第30、31、37条涉及事前审核、互动内容实时管理、持续AI标识和管理或使用者的相应责任。不能从这些条文推导每个数字人直播间必须一名真人全天盯屏。",
+    "source": "市场监管总局、国家网信办第117号令；2026-02-01施行。",
+    "approvedForReport": true
+  },
+  "https://rules-center.meituan.com/m/detail/guize/1226?activeRule=1": {
+    "title": "S4 · 美团直播管理规范",
+    "summary": "第四章涉及无互动录播、挂机等低质量行为，以及服务预订取消条件、相悖承诺和无法核销等问题。规则针对具体行为，不能概括为所有录播或数字人都违规。",
+    "source": "美团，2026-08-17生效；采用非划除条目，未核验执行情况。",
+    "approvedForReport": true
+  }
+}

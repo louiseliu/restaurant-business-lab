@@ -1,0 +1,6 @@
+{
+  "selection": null,
+  "pluginDestinations": [],
+  "basis": "Constructed from the current official Data export catalog and manifest. Current tool inventory does not verify optional export-capable dependencies; one dependency lookup returned plugin_not_found. Retain all built-in export choices without inventing integration availability.",
+  "limits": "Export menu rendering and export clicks not tested. No plugin installation or export transmission attempted."
+}

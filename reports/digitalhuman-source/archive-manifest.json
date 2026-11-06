@@ -1,0 +1,129 @@
+{
+  "scope": "Only listed public small author-source and QA files; no HTML/ZIP/runtime/cache or private delivery identifiers.",
+  "files": {
+    "ARCHIVE.md": {
+      "bytes": 1358,
+      "sha256": "dc2e3f80a3f5f119181c1ebb408d9fe7b6383fa577a5bcadca5fe5f64439d4ad"
+    },
+    "BUILD.md": {
+      "bytes": 3524,
+      "sha256": "cc52b48482ba23ae2705e7c0a6ce67baa7a18a16f67440a411ca8c669bfb4997"
+    },
+    "DigitalHumanDiagrams.jsx": {
+      "bytes": 2044,
+      "sha256": "5881fbeafeb64ac449bc87fe9635f0946d78d6f91191f3c38003ed5136e75e69"
+    },
+    "archive-qa.json": {
+      "bytes": 2612,
+      "sha256": "0cebbd779e380e0106edbefb0c8e78959392c63f8646c4dea6dcc70ced034c63"
+    },
+    "article-entry.json": {
+      "bytes": 11121,
+      "sha256": "66a5c0ccf5c84d9be4a109524e83bd0bcb8e6ff8a53820327c2d08f4e0dcd346"
+    },
+    "article-reviewed-data.json": {
+      "bytes": 7669,
+      "sha256": "fc82f7e02d0405d18b53556cdf730869c2124f98c5eac0db811d15db58a2cfa6"
+    },
+    "authoring-guard-qa.json": {
+      "bytes": 1022,
+      "sha256": "47d82b97bd110bdd7182b7fbbd967e69cc31ad333fddb926ab6ada350e5d94d1"
+    },
+    "build-qa.json": {
+      "bytes": 1077,
+      "sha256": "009c29cb4e3e18d861474704da45ae149466bd3f5e5307528db50638e0f588c6"
+    },
+    "build_standalone.py": {
+      "bytes": 1739,
+      "sha256": "833e278cd6ab8e2e30d40ac9745e50e04962f0949cb0d1612a99064a6f025680"
+    },
+    "delivery-status.json": {
+      "bytes": 606,
+      "sha256": "61ff47e29ccb7f4772ad85cfa4d730f9cfd74f0d5a28c13c2b36f6e1240f3b44"
+    },
+    "digitalhuman-diagrams.css": {
+      "bytes": 2514,
+      "sha256": "557eeeca8d06a51107ff1880439bf93cee0f6e87c95d4f44cf820cc7f21d519c"
+    },
+    "digitalhuman-source-previews.json": {
+      "bytes": 1873,
+      "sha256": "042ebf51f19dbd8d8a39a2b4cfc85cb20415d4e3a3db22be21726f70b48dfa16"
+    },
+    "frozen.json": {
+      "bytes": 321,
+      "sha256": "974e24b1cfca01e2d6bbe20eab875c5e884193376a0b1c8759f52984a63d1381"
+    },
+    "illustrated-story.json": {
+      "bytes": 22674,
+      "sha256": "975d0a5a2763738eecbfd4ebeed3c3ba26bba509a6f97c612d936ac84da18e86"
+    },
+    "independent-audit.json": {
+      "bytes": 2274,
+      "sha256": "bae610db5949b7ee4725c454012ce9b214f3a6464fdefb5b33b70c70b4a2a0d0"
+    },
+    "make_article.py": {
+      "bytes": 3210,
+      "sha256": "17a17e9b47bb48f3b0a4625233984625993a920a45dedfafc1c1b183a06c3cbb"
+    },
+    "manifest.json": {
+      "bytes": 4412,
+      "sha256": "2e7931367192c14cdeeab6fcdc08de2d419af5d7bdf06624d95cf063eeed8d2f"
+    },
+    "note.md": {
+      "bytes": 10308,
+      "sha256": "ad7d2fe3263e0f9170fb35f60e1a56a337e0695d023756df8e604bc33812035f"
+    },
+    "prepare_standalone.py": {
+      "bytes": 2173,
+      "sha256": "b5fa3e24d50e2430dc54e201cc423f0ae8fe5f17cdd846b1fa1c6f38847015c3"
+    },
+    "reproducibility-qa.json": {
+      "bytes": 240,
+      "sha256": "046f4548b7dc0ed9c9818de62ac3f19628111aa091ebc6c20efe2e5b66b9bd7a"
+    },
+    "reviewed-illustration-copy.json": {
+      "bytes": 5359,
+      "sha256": "07eea42f49b6eeb0f6405e4772a5e707bc59617313f345593b74d644c22bcf34"
+    },
+    "shared/IllustratedArticle.jsx": {
+      "bytes": 9751,
+      "sha256": "bdd5084d61a70b3ccb61c0e119edaba007b159e0dee3442b166511969d2536e6"
+    },
+    "shared/ReportContent.jsx": {
+      "bytes": 703,
+      "sha256": "ae9d8787ad6b9d15c57aead3b72f48d0b487e2b52a42a6e75a4f6b8fda126a69"
+    },
+    "shared/illustrated.css": {
+      "bytes": 10060,
+      "sha256": "a15fbe5f09e241738ffffa683f3e7d9ba535ff943cecb8f7e250e1449209f928"
+    },
+    "shared/timeline.css": {
+      "bytes": 7346,
+      "sha256": "b867d64e25125a71868940d4da6fe6bc2569f1b719ceefaed0b92e6baf0a4fee"
+    },
+    "sources.md": {
+      "bytes": 5223,
+      "sha256": "90bdde98eccd6db4e7a35b4a69175cb41316a57a82b325e0fba3b6c32713f2f8"
+    },
+    "support/sanitize_site_content.py": {
+      "bytes": 5533,
+      "sha256": "1166b7164b3bceb8c9fe056a92fe04bc609dcfc87ee5081344a9ff549739bf52"
+    },
+    "support/test_sanitization.py": {
+      "bytes": 2689,
+      "sha256": "d6131c06c9cf2b549de24e32c36451a780282159bbe4d82c18cefb095a2f7571"
+    },
+    "test_authoring_guard.py": {
+      "bytes": 2507,
+      "sha256": "2aee96ecc8ee6a700ced7219636529c4ebc5065bb0002705568fbf4569cb49b0"
+    },
+    "test_standalone.py": {
+      "bytes": 6092,
+      "sha256": "ce07195342b72d88ded539777defe99d2b3038cf30175cfc61ca7e177c9573a3"
+    },
+    "visual-qa-status.json": {
+      "bytes": 569,
+      "sha256": "fdf150a1c92257375e2c74c7188c2996132486b513facdc901d77cf10c965dcf"
+    }
+  }
+}

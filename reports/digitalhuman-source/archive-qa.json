@@ -1,0 +1,79 @@
+{
+  "originalSourceFilesExact": true,
+  "standaloneStaticRerun": {
+    "standalone": {
+      "buildStatus": "complete",
+      "fullOriginals": 1,
+      "illustratedStories": 1,
+      "narrativeSections": 6,
+      "queries": 2,
+      "sourceUrls": 4,
+      "unchangedOfficialFiles": 241,
+      "privacyTextPayloads": 14,
+      "compiledContents": "equal reviewed source",
+      "buildManifest": "verified exact HTML/snapshot bytes and hashes",
+      "runtimeSha256": "b1771584910da746d0cf1b967a4889fee226053d841596104b457a04a2dd3d91",
+      "bytes": 2940828,
+      "sha256": "84a0637f413e5554ff808c5bd6a3d9cbc8b64998d3aea5e5cc42134cfa074a54"
+    },
+    "scope": {
+      "articleId": "research-2026-11-06-digitalhuman-livestream-note",
+      "firstGit": "e8a30863c44caf6b8f50dc62d4414352a332b088",
+      "publishedAt": "2026-11-06T03:12:41Z",
+      "bodySha256": "ad7d2fe3263e0f9170fb35f60e1a56a337e0695d023756df8e604bc33812035f",
+      "published": false,
+      "largeHTMLGitArchive": "not attempted",
+      "portalIntegration": "not performed; standalone only"
+    },
+    "visualQA": "Browser visual and interaction checks were not run. Static checks do not establish rendered acceptance."
+  },
+  "authoringGuardsRerun": {
+    "checks": [
+      {
+        "case": "identical",
+        "result": "no-op",
+        "filesPreserved": true
+      },
+      {
+        "case": "changed-original",
+        "result": "rejected before writes",
+        "filesPreserved": true
+      },
+      {
+        "case": "changed-story",
+        "result": "rejected before writes",
+        "filesPreserved": true
+      },
+      {
+        "case": "changed-query",
+        "result": "rejected before writes",
+        "filesPreserved": true
+      },
+      {
+        "case": "changed-reader",
+        "result": "rejected before writes",
+        "filesPreserved": true
+      },
+      {
+        "case": "changed-style",
+        "result": "rejected before writes",
+        "filesPreserved": true
+      },
+      {
+        "case": "multi-article-query",
+        "result": "rejected before writes",
+        "filesPreserved": true
+      },
+      {
+        "case": "missing-report-identity",
+        "result": "rejected before writes",
+        "filesPreserved": true
+      }
+    ],
+    "scope": "Disposable local copies only; no external writes or browser claims."
+  },
+  "htmlSha256": "84a0637f413e5554ff808c5bd6a3d9cbc8b64998d3aea5e5cc42134cfa074a54",
+  "browserTests": false,
+  "archiveStepOfficialRebuild": false,
+  "scope": "Existing static and guard tests rerun; prior actual build/rebuild results retained, not invented as new compilation."
+}

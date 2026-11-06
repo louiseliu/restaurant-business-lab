@@ -1,0 +1,78 @@
+[
+  {
+    "article-entry.json": {
+      "bytes": 11121,
+      "sha256": "66a5c0ccf5c84d9be4a109524e83bd0bcb8e6ff8a53820327c2d08f4e0dcd346"
+    },
+    "illustrated-story.json": {
+      "bytes": 22674,
+      "sha256": "975d0a5a2763738eecbfd4ebeed3c3ba26bba509a6f97c612d936ac84da18e86"
+    },
+    "article-reviewed-data.json": {
+      "bytes": 7669,
+      "sha256": "fc82f7e02d0405d18b53556cdf730869c2124f98c5eac0db811d15db58a2cfa6"
+    },
+    "frozen.json": {
+      "bytes": 321,
+      "sha256": "974e24b1cfca01e2d6bbe20eab875c5e884193376a0b1c8759f52984a63d1381"
+    },
+    "note.md": {
+      "bytes": 10308,
+      "sha256": "ad7d2fe3263e0f9170fb35f60e1a56a337e0695d023756df8e604bc33812035f"
+    },
+    "sources.md": {
+      "bytes": 5223,
+      "sha256": "90bdde98eccd6db4e7a35b4a69175cb41316a57a82b325e0fba3b6c32713f2f8"
+    },
+    "DigitalHumanDiagrams.jsx": {
+      "bytes": 2044,
+      "sha256": "5881fbeafeb64ac449bc87fe9635f0946d78d6f91191f3c38003ed5136e75e69"
+    },
+    "digitalhuman-diagrams.css": {
+      "bytes": 2514,
+      "sha256": "557eeeca8d06a51107ff1880439bf93cee0f6e87c95d4f44cf820cc7f21d519c"
+    },
+    "digitalhuman-source-previews.json": {
+      "bytes": 1873,
+      "sha256": "042ebf51f19dbd8d8a39a2b4cfc85cb20415d4e3a3db22be21726f70b48dfa16"
+    }
+  },
+  {
+    "article-entry.json": {
+      "bytes": 10442,
+      "sha256": "34ba0d68fe643127315a844f9732ea5591d1e70a7a8759359dee42fc0ad9b054"
+    },
+    "illustrated-story.json": {
+      "bytes": 20512,
+      "sha256": "c6c7666e2447ec51e30671360f0332794558ac0cdb7bdd68a40336855ac07463"
+    },
+    "article-reviewed-data.json": {
+      "bytes": 6971,
+      "sha256": "dc26c1b397638b8fece189698ca6f715613368c8464573f8373dac3584147470"
+    },
+    "frozen.json": {
+      "bytes": 321,
+      "sha256": "788de036d25395aaabe99f716227ebd7ff3bd47a771a6a0cab31c64c1254d373"
+    },
+    "note.md": {
+      "bytes": 9631,
+      "sha256": "dfda290cb83772ae5dfa26cdb9c9a757619804702ba88548257fad57b2eb461c"
+    },
+    "sources.md": {
+      "bytes": 4228,
+      "sha256": "e6fed9407d60ed3f55902d056531acdc554c9e7c6fa626490ae01be92cc9b46d"
+    },
+    "AIRecipeDiagrams.jsx": {
+      "bytes": 1915,
+      "sha256": "6518434a0d95bf362f88a414702fcf03f3466da1db52d282f72477eac50f3eee"
+    },
+    "ai-recipe-development-diagrams.css": {
+      "bytes": 2201,
+      "sha256": "66bb3916bee8c2188bf4314689c78ac9d9292b8c76888be25cac876a0d5c75f8"
+    },
+    "ai-recipe-development-source-previews.json": {
+      "bytes": 1187,
+      "sha256": "f555017be4fd6cdcd0cbd7fdbb57ca46ffc414e6bd482e8f8117aa5c13bbc02d"
+    }
+  }
+]

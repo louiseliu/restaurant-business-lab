@@ -1,0 +1,6 @@
+{
+  "sameIdentityRebuild": "byte-identical",
+  "htmlSha256": "84a0637f413e5554ff808c5bd6a3d9cbc8b64998d3aea5e5cc42134cfa074a54",
+  "unfrozenSource": "rejected before writes",
+  "scope": "Local checks only. No browser or external writes."
+}

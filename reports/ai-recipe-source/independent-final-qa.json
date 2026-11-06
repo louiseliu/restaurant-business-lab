@@ -1,0 +1,32 @@
+{
+  "status": "passed",
+  "independentReviewScope": "Source, rendered-data payloads and compiled contents checked statically; no browser or network runtime tests.",
+  "originalAndSourcesByteEqual": true,
+  "narrativeSections": 6,
+  "reviewedDiagramQueries": 2,
+  "independentChecks": [
+    "Existing test_standalone assertions ran read-only",
+    "Compiled article and story equal reviewed source",
+    "All diagram copy fields and limitations retained",
+    "Source scopes and fixed commit links preserved",
+    "241 protected files unchanged",
+    "Manifest bytes and hashes match",
+    "14 payload privacy scan and decoded embedded runtime checks passed",
+    "No external script, style or asset loading dependency found"
+  ],
+  "language": {
+    "documentRoot": "en",
+    "authoredArticle": "zh-CN",
+    "protectedRootUnchanged": true
+  },
+  "portableSnapshotExtraCheck": {
+    "performedBy": "author after independent review",
+    "chunks": 1,
+    "equalToAuthoringSnapshot": true,
+    "queries": 2
+  },
+  "htmlBytes": 2935905,
+  "htmlSha256": "8f31afd7f20ad2fac537da6552dfef00e320d6a9f114080a9f863ad6ec0de2ed",
+  "browserVisualInteraction": "not run",
+  "publicSitePublished": false
+}

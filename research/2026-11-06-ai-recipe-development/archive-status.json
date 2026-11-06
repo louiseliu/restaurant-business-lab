@@ -82,5 +82,38 @@
     "result": "未发现本次提交的CI执行记录，不声明CI通过。"
   },
   "existing_gaps": "历史审计缺件、HTML归档、附件及视觉验收、原站可读性与编辑保护等原有待办保持；未重试受限对象或改用其他路径。",
-  "global_history_files": "本次不改README.md和state/current.md；它们保留历史快照，本文最新状态见本文件及单篇日志。"
+  "global_history_files": "本次不改README.md和state/current.md；它们保留历史快照，本文最新状态见本文件及单篇日志。",
+  "illustrated_and_portal_update": {
+    "standaloneSourceDirectory": "reports/ai-recipe-source",
+    "portalSourceDirectory": "reports/digitalhuman-recipe-portal-source",
+    "delivery": {
+      "schemaVersion": 1,
+      "artifact": "ai-recipe-development.html",
+      "htmlBytes": 2935905,
+      "htmlSha256": "8f31afd7f20ad2fac537da6552dfef00e320d6a9f114080a9f863ad6ec0de2ed",
+      "attachmentRequestAcceptedAt": "2026-11-06T03:23:00Z",
+      "sourceOfAcceptedTime": "Parent task reports accepted batch send request; this archive did not resend.",
+      "acceptedDoesNotConfirm": [
+        "delivery",
+        "opening",
+        "download"
+      ],
+      "browserVisualInteractionChecked": false,
+      "publicSiteSynchronized": false,
+      "htmlOrZIPArchived": false,
+      "includedInLocalPortal67": true,
+      "completePortalHtmlUploadedOrSent": false
+    },
+    "completeLocalPortal": {
+      "research": 67,
+      "full_texts": 87,
+      "illustrated_stories": 67,
+      "samples": 2,
+      "ai_topic_count": 45,
+      "queries": 138,
+      "browserVisualInteractionChecked": false
+    },
+    "pendingSyncItems": 50,
+    "historicalGapsRemainOpen": true
+  }
 }

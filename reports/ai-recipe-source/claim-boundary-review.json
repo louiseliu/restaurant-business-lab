@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "scope": "Independent review of authored diagram copy, source previews and component fields against the reviewed note, sources and figure plan. Not a rendered visual review.",
+  "requiredChanges": [],
+  "checks": {
+    "factsAndProposalsSeparated": true,
+    "two101SamplesNotSummed": true,
+    "withinSurveyAndHistoricalBigMacSeparated": true,
+    "humanCulinaryContributionPreserved": true,
+    "plantBasedRecruitmentExclusionsPreserved": true,
+    "conditionalBudgetsAndStopConditions": true,
+    "foodSafetyAndHealthClaimsBounded": true,
+    "componentRendersAllReviewedFields": true,
+    "noNewEffectNumbers": true
+  },
+  "externalSourceReread": false,
+  "browserRenderVerified": false
+}

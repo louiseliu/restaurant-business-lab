@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "repository": "louiseliu/restaurant-business-lab",
+  "basedOnMain": "0df6ef177aee33cc61518e8cfe9a65e3bd81135e",
+  "scope": "第66、67篇单篇作者源及完整本地门户增量；历史状态不倒写。",
+  "portalSource": "reports/digitalhuman-recipe-portal-source",
+  "standaloneSources": [
+    "reports/digitalhuman-source",
+    "reports/ai-recipe-source"
+  ],
+  "counts": {
+    "research": 67,
+    "fullTexts": 87,
+    "illustratedStories": 67,
+    "samples": 2,
+    "ai": 45,
+    "queries": 138
+  },
+  "localHtml": {
+    "bytes": 13982641,
+    "sha256": "a33e32b064a67577873677001382f747e0e7d1b9b1e0b7745b73a1cb312521e0"
+  },
+  "htmlUploadedSentOrArchived": false,
+  "attachmentRequest": {
+    "acceptedAt": "2026-11-06T03:23:00Z",
+    "count": 2,
+    "deliveryConfirmed": false,
+    "openingOrDownloadConfirmed": false,
+    "resent": false
+  },
+  "staticQA": {
+    "officialBuild": true,
+    "cleanRebuildByteEqual": true,
+    "mergeAndFrozenGuards": 32,
+    "independentAssertions": 1476,
+    "browserTest": false
+  },
+  "publicSite": {
+    "synchronized": false,
+    "currentReadabilityChecked": false,
+    "lastVerifiedVersion": "v19",
+    "lastVerifiedCounts": {
+      "research": 20,
+      "fullTexts": 40,
+      "samples": 2,
+      "ai": 9
+    },
+    "pendingSyncItems": 50
+  },
+  "historicalUncertainArchives": {
+    "count": 5,
+    "remainOpen": true,
+    "retriedOrSameContentUploaded": false
+  },
+  "otherPending": "HTML归档、门户附件、旧附件替换、费用原归档、原站可读性与编辑保护、旧全站离线快照及既有视觉待办保留。",
+  "largeHistoricalFiles": "README.md与state/current.md原字节保持，仍是此前历史快照；两篇日志和archive-status追加当前状态。"
+}

@@ -1,0 +1,33 @@
+{
+  "baseCommit": "0df6ef177aee33cc61518e8cfe9a65e3bd81135e",
+  "files": [
+    {
+      "path": "research/2026-11-06-digitalhuman-livestream/note.md",
+      "bytes": 10308,
+      "sha256": "ad7d2fe3263e0f9170fb35f60e1a56a337e0695d023756df8e604bc33812035f",
+      "gitBlobSha": "81bcab57c27796fba011cd62fb486e00a84cabd9",
+      "remoteTextEqual": true
+    },
+    {
+      "path": "research/2026-11-06-digitalhuman-livestream/sources.md",
+      "bytes": 5223,
+      "sha256": "90bdde98eccd6db4e7a35b4a69175cb41316a57a82b325e0fba3b6c32713f2f8",
+      "gitBlobSha": "2d2f58a663e55f32769c94a01907178edffe41ef",
+      "remoteTextEqual": true
+    },
+    {
+      "path": "research/2026-11-06-ai-recipe-development/note.md",
+      "bytes": 9631,
+      "sha256": "dfda290cb83772ae5dfa26cdb9c9a757619804702ba88548257fad57b2eb461c",
+      "gitBlobSha": "82bedd8f9b487aad625943566155bc2aae3f3ed6",
+      "remoteTextEqual": true
+    },
+    {
+      "path": "research/2026-11-06-ai-recipe-development/sources.md",
+      "bytes": 4228,
+      "sha256": "e6fed9407d60ed3f55902d056531acdc554c9e7c6fa626490ae01be92cc9b46d",
+      "gitBlobSha": "de4ca11b7fea24ada65e6db3ffae6278ebc14236",
+      "remoteTextEqual": true
+    }
+  ]
+}

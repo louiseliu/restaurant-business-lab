@@ -1,0 +1,79 @@
+{
+  "originalSourceFilesExact": true,
+  "standaloneStaticRerun": {
+    "standalone": {
+      "buildStatus": "complete",
+      "fullOriginals": 1,
+      "illustratedStories": 1,
+      "narrativeSections": 6,
+      "queries": 2,
+      "sourceUrls": 2,
+      "unchangedOfficialFiles": 241,
+      "privacyTextPayloads": 14,
+      "compiledContents": "equal reviewed source",
+      "buildManifest": "verified exact HTML/snapshot bytes and hashes",
+      "runtimeSha256": "b1771584910da746d0cf1b967a4889fee226053d841596104b457a04a2dd3d91",
+      "bytes": 2935905,
+      "sha256": "8f31afd7f20ad2fac537da6552dfef00e320d6a9f114080a9f863ad6ec0de2ed"
+    },
+    "scope": {
+      "articleId": "research-2026-11-06-ai-recipe-development-note",
+      "firstGit": "dd45f0e85ae903ac64732e62fa90f929cb5917fc",
+      "publishedAt": "2026-11-06T03:16:45Z",
+      "bodySha256": "dfda290cb83772ae5dfa26cdb9c9a757619804702ba88548257fad57b2eb461c",
+      "published": false,
+      "largeHTMLGitArchive": "not attempted",
+      "portalIntegration": "not performed; standalone only"
+    },
+    "visualQA": "Browser visual and interaction checks were not run. Static checks do not establish rendered acceptance."
+  },
+  "authoringGuardsRerun": {
+    "checks": [
+      {
+        "case": "identical",
+        "result": "no-op",
+        "filesPreserved": true
+      },
+      {
+        "case": "changed-original",
+        "result": "rejected before writes",
+        "filesPreserved": true
+      },
+      {
+        "case": "changed-story",
+        "result": "rejected before writes",
+        "filesPreserved": true
+      },
+      {
+        "case": "changed-query",
+        "result": "rejected before writes",
+        "filesPreserved": true
+      },
+      {
+        "case": "changed-reader",
+        "result": "rejected before writes",
+        "filesPreserved": true
+      },
+      {
+        "case": "changed-style",
+        "result": "rejected before writes",
+        "filesPreserved": true
+      },
+      {
+        "case": "multi-article-query",
+        "result": "rejected before writes",
+        "filesPreserved": true
+      },
+      {
+        "case": "missing-report-identity",
+        "result": "rejected before writes",
+        "filesPreserved": true
+      }
+    ],
+    "scope": "Disposable local copies only; no external writes or browser claims."
+  },
+  "htmlSha256": "8f31afd7f20ad2fac537da6552dfef00e320d6a9f114080a9f863ad6ec0de2ed",
+  "browserTests": false,
+  "archiveStepOfficialRebuild": false,
+  "scope": "Existing static and guard tests rerun; prior actual build/rebuild results retained, not invented as new compilation."
+}

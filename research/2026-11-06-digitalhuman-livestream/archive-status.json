@@ -82,5 +82,38 @@
   "permissions_changed": false,
   "new_pro_consultation": false,
   "ci_check": "首次正文提交未见GitHub check runs或workflow runs；main未配置必需状态检查，不声称执行了自动化CI。",
-  "log": "logs/2026-11-06-digitalhuman-livestream.md"
+  "log": "logs/2026-11-06-digitalhuman-livestream.md",
+  "illustrated_and_portal_update": {
+    "standaloneSourceDirectory": "reports/digitalhuman-source",
+    "portalSourceDirectory": "reports/digitalhuman-recipe-portal-source",
+    "delivery": {
+      "schemaVersion": 1,
+      "artifact": "digitalhuman.html",
+      "htmlBytes": 2940828,
+      "htmlSha256": "84a0637f413e5554ff808c5bd6a3d9cbc8b64998d3aea5e5cc42134cfa074a54",
+      "attachmentRequestAcceptedAt": "2026-11-06T03:23:00Z",
+      "sourceOfAcceptedTime": "Parent task reports accepted batch send request; this archive did not resend.",
+      "acceptedDoesNotConfirm": [
+        "delivery",
+        "opening",
+        "download"
+      ],
+      "browserVisualInteractionChecked": false,
+      "publicSiteSynchronized": false,
+      "htmlOrZIPArchived": false,
+      "includedInLocalPortal67": true,
+      "completePortalHtmlUploadedOrSent": false
+    },
+    "completeLocalPortal": {
+      "research": 67,
+      "full_texts": 87,
+      "illustrated_stories": 67,
+      "samples": 2,
+      "ai_topic_count": 45,
+      "queries": 138,
+      "browserVisualInteractionChecked": false
+    },
+    "pendingSyncItems": 50,
+    "historicalGapsRemainOpen": true
+  }
 }

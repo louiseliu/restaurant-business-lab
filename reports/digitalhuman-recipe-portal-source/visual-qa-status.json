@@ -1,0 +1,18 @@
+{
+  "status": "not_run",
+  "unchecked": [
+    "desktop and narrow viewport",
+    "light and dark theme",
+    "rendered diagrams",
+    "source panels",
+    "click navigation/history/scroll",
+    "editing persistence",
+    "download clicks",
+    "print",
+    "actual offline network",
+    "browser logs",
+    "screen reader"
+  ],
+  "reason": "Prior HTTP/file and original-site restrictions retained; no retry, alternate route, hosting, permission or security change.",
+  "staticChecksDoNotSubstituteForBrowserQA": true
+}

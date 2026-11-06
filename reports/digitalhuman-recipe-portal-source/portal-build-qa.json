@@ -1,0 +1,60 @@
+{
+  "counts": {
+    "research": 67,
+    "fullOriginals": 87,
+    "stories": 67,
+    "samples": 2,
+    "ai": 45,
+    "queries": 138
+  },
+  "preserved": {
+    "unmodifiedOriginals": 85,
+    "unmodifiedStories": 65,
+    "originalQueries": 134,
+    "unchangedBaselineFiles": 347,
+    "baselineFingerprints": 351,
+    "legacySha256": "1c2034ad9bcd6457ba9ab65d42717940b3d552a488a06b2b417b6063140b292d",
+    "readerSha256": "c6ed936b73898cf795e0ca9e8a4c9700b1e480787e8020388391119ac8133a6a"
+  },
+  "checks": {
+    "privacyPayloads": 183,
+    "downloads": 5,
+    "recursiveZipContainers": 2,
+    "releaseManifests": 1,
+    "compiledJSON": "matches source",
+    "buildManifest": "verified",
+    "runtimeSha256": "b1771584910da746d0cf1b967a4889fee226053d841596104b457a04a2dd3d91"
+  },
+  "frozenInputs": [
+    {
+      "id": "research-2026-11-06-digitalhuman-livestream-note",
+      "commit": "e8a30863c44caf6b8f50dc62d4414352a332b088",
+      "time": "2026-11-06T03:12:41Z",
+      "sha256": "ad7d2fe3263e0f9170fb35f60e1a56a337e0695d023756df8e604bc33812035f",
+      "sourcesSha256": "90bdde98eccd6db4e7a35b4a69175cb41316a57a82b325e0fba3b6c32713f2f8",
+      "editorialFrozen": true,
+      "remoteReadbackVerified": true
+    },
+    {
+      "id": "research-2026-11-06-ai-recipe-development-note",
+      "commit": "dd45f0e85ae903ac64732e62fa90f929cb5917fc",
+      "time": "2026-11-06T03:16:45Z",
+      "sha256": "dfda290cb83772ae5dfa26cdb9c9a757619804702ba88548257fad57b2eb461c",
+      "sourcesSha256": "e6fed9407d60ed3f55902d056531acdc554c9e7c6fa626490ae01be92cc9b46d",
+      "editorialFrozen": true,
+      "remoteReadbackVerified": true
+    }
+  ],
+  "html": {
+    "bytes": 13982641,
+    "sha256": "a33e32b064a67577873677001382f747e0e7d1b9b1e0b7745b73a1cb312521e0"
+  },
+  "limits": {
+    "visual": "Not checked; prior local HTTP/file and original-site restrictions not retried or bypassed.",
+    "published": false,
+    "uploadedHTMLorZIP": false,
+    "historicalAuditGaps": "Five held items remain open; no retry or same-content upload.",
+    "presentation": "Recipe zh-CN language is preserved; digitalhuman inherits existing root language as sent. Older Fourth title display issue remains.",
+    "baseline": "Readable local 65-story baseline only; unavailable original-site edits/history not recovered."
+  }
+}

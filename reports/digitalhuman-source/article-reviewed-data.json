@@ -1,0 +1,141 @@
+{
+  "surface": "report",
+  "title": "AI主播能播一整夜，小店该不该跟着全天开播？",
+  "generatedAt": "2026-11-06T03:12:41Z",
+  "status": "reviewed",
+  "buildStatus": "creating",
+  "exportPreferences": {
+    "selected": null,
+    "destinations": []
+  },
+  "filters": [],
+  "report": {
+    "asOf": "2026-11-06"
+  },
+  "queries": {
+    "diagram-research-2026-11-06-digitalhuman-livestream-note": {
+      "rows": [
+        {
+          "阶段": "开播与承诺",
+          "销售记录": "夜间增加直播讲解",
+          "履约记录": "先讲清可用餐段和预约条件",
+          "应核对": "购买前页面与回答是否一致"
+        },
+        {
+          "阶段": "买券与等待",
+          "销售记录": "顾客在夜间购买套餐券",
+          "履约记录": "尚未到店，也可能申请退款",
+          "应核对": "订单是否来自新增需求或渠道转移"
+        },
+        {
+          "阶段": "兑现与结算",
+          "销售记录": "追踪这批券的退款及结算",
+          "履约记录": "可能留到周末晚餐高峰使用",
+          "应核对": "核销时段、履约成本与产能占用"
+        }
+      ],
+      "source": {
+        "label": "买券发生在夜间，到店不一定也在夜间",
+        "files": [
+          "research/2026-11-06-digitalhuman-livestream/note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "买券发生在夜间，到店不一定也在夜间",
+            "definition": "作者示意情景，非门店实测。上下是同一批券的两条观察线，位置只表达先后关系，不代表时长、占比或转化率。 图1｜作者原创定性示意。[技术文章](https://tech.meituan.com/2026/09/03/meituan-Digital-Human-practice.html)没有充分定义“闲时交易额”，不能将其直接解释为门店闲时客流。[平台规范](https://rules-center.meituan.com/m/detail/guize/1226?activeRule=1)涉及服务条件披露与承诺兑现。本图不使用7.3%绘制增长或利润比较。",
+            "componentIds": [
+              "diagram-research-2026-11-06-digitalhuman-livestream-note"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "作者机制分析，案例事实边界见固定正文",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/e8a30863c44caf6b8f50dc62d4414352a332b088/research/2026-11-06-digitalhuman-livestream/note.md"
+          },
+          {
+            "title": "S2 · 美团技术原文，第六、七节",
+            "detail": "https://tech.meituan.com/2026/09/03/meituan-Digital-Human-practice.html"
+          },
+          {
+            "title": "S4 · 美团直播管理规范，第四章一般违规情形",
+            "detail": "https://rules-center.meituan.com/m/detail/guize/1226?activeRule=1"
+          }
+        ],
+        "caveats": [
+          "若优惠订单集中在高峰，就要检查是否挤占原价订单；若落在可承接的闲时，才可能提高现有产能利用。方向与规模都需要本店记录验证。",
+          "图1｜作者原创定性示意。[技术文章](https://tech.meituan.com/2026/09/03/meituan-Digital-Human-practice.html)没有充分定义“闲时交易额”，不能将其直接解释为门店闲时客流。[平台规范](https://rules-center.meituan.com/m/detail/guize/1226?activeRule=1)涉及服务条件披露与承诺兑现。本图不使用7.3%绘制增长或利润比较。"
+        ]
+      }
+    },
+    "diagram-research-2026-11-06-digitalhuman-livestream-note:second": {
+      "rows": [
+        {
+          "环节": "限定试用范围",
+          "要核实": "选择规则稳定的套餐与有限时段，明确投入上限、复盘时间和停止条件。",
+          "观察依据": "与本店原有销售流程比较；替代已有主播时，保持同等任务和约束。",
+          "不足时": "比较对象不清，就先明确试用目标。"
+        },
+        {
+          "环节": "变更与异常能承接",
+          "要核实": "套餐暂停、条件变化、无法回答或需停播时，谁发现、谁处理。",
+          "观察依据": "不影响真实顾客的测试记录；旧内容是否继续出现，处置用了多久。",
+          "不足时": "缩小销售范围、保留审核或暂缓扩时。"
+        },
+        {
+          "环节": "兑现后确有贡献",
+          "要核实": "新增销售是否兑现，是否只是熟客换渠道，是否挤占高峰产能。",
+          "观察依据": "同批券的退款、核销、结算及相关履约成本；比较相同观察周期。",
+          "不足时": "调整套餐或时段，不能仅凭直播间交易额扩量。"
+        },
+        {
+          "环节": "增量负担可承担",
+          "要核实": "新增经营价值或有价值的减负，能否覆盖实际增量总成本。",
+          "观察依据": "软件与服务、素材、维护、互动和异常处理，以及活动相关成本。",
+          "不足时": "缩短时段、调整安排，必要时停用。"
+        }
+      ],
+      "source": {
+        "label": "从有限时段试用，到有条件地延长开播",
+        "files": [
+          "research/2026-11-06-digitalhuman-livestream/note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "从有限时段试用，到有条件地延长开播",
+            "definition": "作者提出的采购与试用判断，非产品功能清单，也不是平台已经执行的验收标准。下列条件需要结合考察，不是估算的成功概率。 图2｜作者原创经营分析。产品与技术材料是美团自述，平台规范与监管原文用于辨明要求，不构成独立效果验证。没有实际合同、商户后台和门店账目，本图不给净节省、回本线或功能保证。",
+            "componentIds": [
+              "diagram-research-2026-11-06-digitalhuman-livestream-note:second"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "作者机制分析，案例事实边界见固定正文",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/e8a30863c44caf6b8f50dc62d4414352a332b088/research/2026-11-06-digitalhuman-livestream/note.md"
+          },
+          {
+            "title": "S1 · 美团智播产品页",
+            "detail": "https://digihuman.meituan.com/"
+          },
+          {
+            "title": "S2 · 美团技术原文，第六、七节",
+            "detail": "https://tech.meituan.com/2026/09/03/meituan-Digital-Human-practice.html"
+          },
+          {
+            "title": "S3 · 市场监管总局原文，第30、31、37条",
+            "detail": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/fgs/art/2026/art_ce66ea61fcec4583b5dbd677f470088b.html"
+          },
+          {
+            "title": "S4 · 美团直播管理规范，第四章一般违规情形",
+            "detail": "https://rules-center.meituan.com/m/detail/guize/1226?activeRule=1"
+          }
+        ],
+        "caveats": [
+          "只有变更和异常接得住、经营结果有价值、增量负担又可承担时，再考虑延长开播。实时管理要求不等于每个直播间必须一人全天盯屏；技术支持也不自动接走门店的经营责任。",
+          "图2｜作者原创经营分析。产品与技术材料是美团自述，平台规范与监管原文用于辨明要求，不构成独立效果验证。没有实际合同、商户后台和门店账目，本图不给净节省、回本线或功能保证。"
+        ]
+      }
+    }
+  }
+}

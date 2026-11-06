@@ -1,0 +1,15 @@
+{
+  "browserVisual": "not run",
+  "narrowViewport": "not run",
+  "lightAndDarkMode": "not run",
+  "sourceInspector": "not run",
+  "tocAndDisclosure": "not run",
+  "inlineEditingPersistence": "not run",
+  "exportMenuAndPrint": "not run",
+  "realBrowserOffline": "not run",
+  "runtimeConsole": "not run",
+  "reason": "This task is limited to local static preparation and checks. Existing browser and Site access restrictions were not retried or bypassed.",
+  "staticIsNotVisualAcceptance": true,
+  "publication": "not attempted",
+  "portalIntegration": "not performed"
+}

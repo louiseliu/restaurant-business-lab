@@ -1,0 +1,182 @@
+{
+  "readAtBaseCommit": "0df6ef177aee33cc61518e8cfe9a65e3bd81135e",
+  "baselineArchiveCommit": "397040b1a0def6f673d79f47ef185fb215c5f045",
+  "all25ArchiveSourceFilesMatched": true,
+  "files": [
+    {
+      "path": "reports/ai-discovery-qsmart-portal-source/language-provenance.json",
+      "bytes": 624,
+      "git_blob_sha": "45d004c0079345d99a21268f37b419499d01edd1",
+      "remoteGitBlob": "45d004c0079345d99a21268f37b419499d01edd1",
+      "matched": true
+    },
+    {
+      "path": "reports/ai-discovery-qsmart-portal-source/test_frozen_input_guards.py",
+      "bytes": 1532,
+      "git_blob_sha": "10f9be379f4f9ed84e4962b9f24229e56284df63",
+      "remoteGitBlob": "10f9be379f4f9ed84e4962b9f24229e56284df63",
+      "matched": true
+    },
+    {
+      "path": "reports/ai-discovery-qsmart-portal-source/input-fingerprints.json",
+      "bytes": 2898,
+      "git_blob_sha": "d5e13daf2525709484dcc3248bbcd8713f1480b6",
+      "remoteGitBlob": "d5e13daf2525709484dcc3248bbcd8713f1480b6",
+      "matched": true
+    },
+    {
+      "path": "reports/ai-discovery-qsmart-portal-source/test_portal_merge_guard.py",
+      "bytes": 4334,
+      "git_blob_sha": "806a876ca402763828608fe24907be618fc04286",
+      "remoteGitBlob": "806a876ca402763828608fe24907be618fc04286",
+      "matched": true
+    },
+    {
+      "path": "reports/ai-discovery-qsmart-portal-source/merge-guard-qa.json",
+      "bytes": 1005,
+      "git_blob_sha": "f0c672759d3dcebad593e2f07ffc86fcb55a1f0f",
+      "remoteGitBlob": "f0c672759d3dcebad593e2f07ffc86fcb55a1f0f",
+      "matched": true
+    },
+    {
+      "path": "reports/ai-discovery-qsmart-portal-source/prepare_portal.py",
+      "bytes": 1133,
+      "git_blob_sha": "cfd233ef5913204c33f217246cd7e4a626060011",
+      "remoteGitBlob": "cfd233ef5913204c33f217246cd7e4a626060011",
+      "matched": true
+    },
+    {
+      "path": "reports/ai-discovery-qsmart-portal-source/baseline-known-gaps.json",
+      "bytes": 2141,
+      "git_blob_sha": "c5852da5f91a63c7405f02681c5fdf052bb59cb2",
+      "remoteGitBlob": "c5852da5f91a63c7405f02681c5fdf052bb59cb2",
+      "matched": true
+    },
+    {
+      "path": "reports/ai-discovery-qsmart-portal-source/portal-reproducibility.json",
+      "bytes": 626,
+      "git_blob_sha": "d304293722592790fca56bf0358e1f5244be29bf",
+      "remoteGitBlob": "d304293722592790fca56bf0358e1f5244be29bf",
+      "matched": true
+    },
+    {
+      "path": "reports/ai-discovery-qsmart-portal-source/visual-qa-status.json",
+      "bytes": 556,
+      "git_blob_sha": "354d12389cb0cd46b25d672af68c7f015fa5f255",
+      "remoteGitBlob": "354d12389cb0cd46b25d672af68c7f015fa5f255",
+      "matched": true
+    },
+    {
+      "path": "reports/ai-discovery-qsmart-portal-source/test_reader_routes.mjs",
+      "bytes": 2968,
+      "git_blob_sha": "7fc9349c33bd1ea3199c7a9329e2df06ce4c4f8e",
+      "remoteGitBlob": "7fc9349c33bd1ea3199c7a9329e2df06ce4c4f8e",
+      "matched": true
+    },
+    {
+      "path": "reports/ai-discovery-qsmart-portal-source/reader_patch.py",
+      "bytes": 2627,
+      "git_blob_sha": "e8e684e750ebb8a043d320ee37fab91703da0032",
+      "remoteGitBlob": "e8e684e750ebb8a043d320ee37fab91703da0032",
+      "matched": true
+    },
+    {
+      "path": "reports/ai-discovery-qsmart-portal-source/PORTAL_BUILD.md",
+      "bytes": 6787,
+      "git_blob_sha": "2d3b9fa72aeb8bba0d55f915e66264e3eea1f51a",
+      "remoteGitBlob": "2d3b9fa72aeb8bba0d55f915e66264e3eea1f51a",
+      "matched": true
+    },
+    {
+      "path": "reports/ai-discovery-qsmart-portal-source/build_portal.py",
+      "bytes": 1560,
+      "git_blob_sha": "b8d865de0084d9ccc52638e05cf017e521c2dc9b",
+      "remoteGitBlob": "b8d865de0084d9ccc52638e05cf017e521c2dc9b",
+      "matched": true
+    },
+    {
+      "path": "reports/ai-discovery-qsmart-portal-source/baseline-verification.json",
+      "bytes": 752,
+      "git_blob_sha": "63360a0bdf1770cc636861be9fdd72be3b377d74",
+      "remoteGitBlob": "63360a0bdf1770cc636861be9fdd72be3b377d74",
+      "matched": true
+    },
+    {
+      "path": "reports/ai-discovery-qsmart-portal-source/portal-build-qa.json",
+      "bytes": 2560,
+      "git_blob_sha": "6aaa726d53186d3da68f0f277e661047b438a207",
+      "remoteGitBlob": "6aaa726d53186d3da68f0f277e661047b438a207",
+      "matched": true
+    },
+    {
+      "path": "reports/ai-discovery-qsmart-portal-source/input-remote-verification.json",
+      "bytes": 4462,
+      "git_blob_sha": "ec90f71be834fe60641e49a4165eddae775597dc",
+      "remoteGitBlob": "ec90f71be834fe60641e49a4165eddae775597dc",
+      "matched": true
+    },
+    {
+      "path": "reports/ai-discovery-qsmart-portal-source/integrate65.py",
+      "bytes": 5070,
+      "git_blob_sha": "c5a4c63d805afd347caa455e9cbe1fa097c11411",
+      "remoteGitBlob": "c5a4c63d805afd347caa455e9cbe1fa097c11411",
+      "matched": true
+    },
+    {
+      "path": "reports/ai-discovery-qsmart-portal-source/baseline64-sha256.json",
+      "bytes": 38104,
+      "git_blob_sha": "2d32fa315104cf626f7e6a279cb65343379ceecc",
+      "remoteGitBlob": "2d32fa315104cf626f7e6a279cb65343379ceecc",
+      "matched": true
+    },
+    {
+      "path": "reports/ai-discovery-qsmart-portal-source/frozen-input-guard-qa.json",
+      "bytes": 1017,
+      "git_blob_sha": "b3dee13d96816514dbb9a14e3cad58872fe9d76d",
+      "remoteGitBlob": "b3dee13d96816514dbb9a14e3cad58872fe9d76d",
+      "matched": true
+    },
+    {
+      "path": "reports/ai-discovery-qsmart-portal-source/manifest.json",
+      "bytes": 4734,
+      "git_blob_sha": "416a9ed9c4dfa9680861d0fe02d658b7c0afcb79",
+      "remoteGitBlob": "416a9ed9c4dfa9680861d0fe02d658b7c0afcb79",
+      "matched": true
+    },
+    {
+      "path": "reports/ai-discovery-qsmart-portal-source/test_portal_preservation.py",
+      "bytes": 10091,
+      "git_blob_sha": "61535e7aed4d6b773fe0785178fe4d8c484ca8cc",
+      "remoteGitBlob": "61535e7aed4d6b773fe0785178fe4d8c484ca8cc",
+      "matched": true
+    },
+    {
+      "path": "reports/ai-discovery-qsmart-portal-source/independent-audit/portal65-static-audit.json",
+      "bytes": 3969,
+      "git_blob_sha": "1fbfa8ea4275cd03df875eacf18aa5d1add05083",
+      "remoteGitBlob": "1fbfa8ea4275cd03df875eacf18aa5d1add05083",
+      "matched": true
+    },
+    {
+      "path": "reports/ai-discovery-qsmart-portal-source/independent-audit/AUDIT.md",
+      "bytes": 6126,
+      "git_blob_sha": "84427b9edfecd3a5d0c3ec365fe7d0864cc4a421",
+      "remoteGitBlob": "84427b9edfecd3a5d0c3ec365fe7d0864cc4a421",
+      "matched": true
+    },
+    {
+      "path": "reports/ai-discovery-qsmart-portal-source/independent-audit/audit_portal65.py",
+      "bytes": 23999,
+      "git_blob_sha": "a032382ed49f20b5454638fbe0dc13600513ccbc",
+      "remoteGitBlob": "a032382ed49f20b5454638fbe0dc13600513ccbc",
+      "matched": true
+    },
+    {
+      "path": "reports/ai-discovery-qsmart-portal-source/independent-audit/manifest.json",
+      "bytes": 761,
+      "git_blob_sha": "60d8a4e95b191e52b54fc89ae0b02e42540bb931",
+      "remoteGitBlob": "60d8a4e95b191e52b54fc89ae0b02e42540bb931",
+      "matched": true
+    }
+  ]
+}
