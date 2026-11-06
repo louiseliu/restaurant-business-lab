@@ -1,0 +1,32 @@
+{
+  "independentRemoteCommit": "8770ddeefaa8ace5dd3fe1f9e4f68d7abbc4e760",
+  "articleId": "research-2026-10-30-qsmart-note",
+  "publishedAt": "2026-10-30T07:29:17Z",
+  "updatedAt": "2026-11-06T02:12:43Z",
+  "htmlSha256": "5c025f98cde0a9e130da347df7d5b8948709358472c8a467754686757d8097fc",
+  "htmlBytes": 2935141,
+  "secretPatternChecks": {
+    "pem_private_key": true,
+    "github_pat": true,
+    "aws_access_key": true,
+    "openai_key": true,
+    "bearer_literal": true
+  },
+  "newDiagramSchemeCount": 3,
+  "newDiagramAllQualitative": true,
+  "finalBuildStatus": "complete",
+  "fullHtmlEqualsRebuild": true,
+  "buildArtifactsEqual": {
+    "index.html": true,
+    "data-app-build.json": true
+  },
+  "notPerformed": [
+    "Browser rendered visual and interaction checks; restricted preview not retried or routed around",
+    "Live original portal and Site readback",
+    "Original or new source PDF reread, download or visual inspection",
+    "Live secondary media source reread",
+    "Portal integration",
+    "Upload, attachment delivery, archive publication or permission change"
+  ],
+  "openDefects": []
+}

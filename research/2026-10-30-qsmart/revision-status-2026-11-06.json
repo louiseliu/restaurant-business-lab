@@ -11,10 +11,10 @@
   "revision_mode": "append-only same-ID revision; no new research item",
   "article_sha256": "745fe3dd2ac210f1ede2ae64dcd9a554dbcd83b99bc8dac1bd3ebd52be0f45be",
   "source_supplement_sha256": "30caf3aad35cd67d70a9e664560adc233524886739905dee6ff7fc7c2b74b974",
-  "phase": "审校后的正文同篇补充与来源补充归档；更新图文待制作，完整本地门户待纳入本次修订，原站未同步",
+  "phase": "更新图文内容、官方构建和独立静态审计完成；附件请求已接受，浏览器视觉/交互未验，完整门户待纳入修订，原站未同步",
   "frozen_stage_language": "来源补充中的未提交、未发布等描述为修订稿冻结时的历史状态；本文及来源字节保留，当前归档状态以本记录与提交历史为准。",
-  "research_count": 64,
-  "ai_topics": 42,
+  "research_count": 65,
+  "ai_topics": 43,
   "last_local_portal": {
     "research": 64,
     "full_texts": 84,
@@ -29,8 +29,15 @@
     "小食代为同场披露的媒体报道，不是独立成效证据；审校者读取与作者访问超时分别保留。",
     "未确认营运支持中心与Q-Smart连接、人机分工、成本、覆盖或任务成功率。"
   ],
-  "updated_illustrated_article": "待制作",
-  "updated_attachment": "未制作或发送",
+  "updated_illustrated_article": "完成内容、官方构建及独立静态审计，浏览器视觉/交互未验",
+  "updated_attachment": {
+    "requestStatus": "accepted",
+    "acceptedAt": "2026-11-06T02:21:50Z",
+    "batch": "与AI搜索获客研究单篇合批",
+    "deliveryConfirmed": false,
+    "openedConfirmed": false,
+    "downloadedConfirmed": false
+  },
   "portal_revision": "待纳入",
   "original_site": {
     "synchronized": false,
@@ -41,10 +48,17 @@
     "ai_topics": 9,
     "current_readability_rechecked": false,
     "prior_pending_sync_items": 46,
-    "qsmart_revision": "另列待同步，不改变篇数"
+    "qsmart_revision": "另列待同步，不改变篇数",
+    "total_pending_sync_items": 48
   },
   "large_html_or_zip_uploaded": false,
   "old_qsmart_report_html_changed": false,
   "old_qsmart_source_archive_changed": false,
-  "historical_gaps_and_other_pending_work_preserved": true
+  "historical_gaps_and_other_pending_work_preserved": true,
+  "html": {
+    "bytes": 2935141,
+    "sha256": "5c025f98cde0a9e130da347df7d5b8948709358472c8a467754686757d8097fc",
+    "githubArchived": false
+  },
+  "source_archive": "reports/qsmart-revision-20261106-source/ARCHIVE.md"
 }

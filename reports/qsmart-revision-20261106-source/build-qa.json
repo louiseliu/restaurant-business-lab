@@ -1,0 +1,63 @@
+{
+  "checks": {
+    "same_article_id": true,
+    "same_first_time": true,
+    "same_first_commit": true,
+    "revision_time_not_first_time": true,
+    "same_title_topics_excerpt": true,
+    "original_body_unchanged_prefix": true,
+    "original_body_hash_retained": true,
+    "full_revised_body_hash": true,
+    "frozen_revision_remote_binding": true,
+    "original_source_link_retained": true,
+    "all_original_story_fields_unchanged": true,
+    "both_original_queries_unchanged": true,
+    "exactly_one_added_query": true,
+    "new_diagram_rows_and_scope": true,
+    "new_diagram_qualitative_not_numeric": true,
+    "relationship_unknown_explicit": true,
+    "no_independent_ai_effect_claim": true,
+    "original_queries_exclude_new_source": true,
+    "new_source_ordinary_link_only": true,
+    "403_no_retry_disclosed": true,
+    "full_supplemental_ledger": true,
+    "exactly_one_complete_article": true,
+    "complete_official_snapshot": true,
+    "original-input:original-article-entry.json": true,
+    "original-input:original-illustrated-story.json": true,
+    "original-input:original-reviewed-queries.json": true,
+    "original-input:original-note.md": true,
+    "original-input:original-sources.json": true,
+    "compiled_full_article": true,
+    "compiled_full_story": true,
+    "offline_assets_no_external_fetch": true,
+    "build_manifest_html": true,
+    "build_manifest_snapshot": true,
+    "compiled_queries_and_identity": true
+  },
+  "unchangedOfficialFiles": 241,
+  "privacyPayloads": 17,
+  "articleId": "research-2026-10-30-qsmart-note",
+  "firstCommit": "2d35d3947a51ebafdf8097d393ce49d6db457411",
+  "publishedAt": "2026-10-30T07:29:17Z",
+  "revisionCommit": "8770ddeefaa8ace5dd3fe1f9e4f68d7abbc4e760",
+  "updatedAt": "2026-11-06T02:12:43Z",
+  "counts": {
+    "articles": 1,
+    "originalDiagramsPreserved": 2,
+    "addedDiagrams": 1,
+    "queries": 3
+  },
+  "runtimeSha256": "b1771584910da746d0cf1b967a4889fee226053d841596104b457a04a2dd3d91",
+  "html": {
+    "bytes": 2935141,
+    "sha256": "5c025f98cde0a9e130da347df7d5b8948709358472c8a467754686757d8097fc"
+  },
+  "notPerformed": [
+    "Browser visual and interaction QA",
+    "Large HTML or ZIP archival",
+    "Portal integration",
+    "Site publication or permission changes",
+    "New source PDF retry or screenshot verification"
+  ]
+}

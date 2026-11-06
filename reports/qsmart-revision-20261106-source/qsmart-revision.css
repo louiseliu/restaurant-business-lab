@@ -1,0 +1,13 @@
+.qsmart-revision{margin-block:38px;padding-top:28px;border-top:2px solid var(--border);color:var(--text)}
+.qsmart-revision>.rich-narrative{margin-block:22px}
+.qsmart-revision-figure{margin:26px 0;padding:24px;background:var(--muted);border:1px solid var(--border);border-radius:12px}
+.qsmart-revision-figure>.rich-narrative{font-size:14px;color:var(--secondary)}
+.qsmart-revision-options{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-block:22px}
+.qsmart-revision-options>section{padding:18px;background:var(--background);border:1px solid var(--border);border-radius:10px;min-width:0}
+.qsmart-revision-options h3{font-size:18px;margin:0 0 18px;line-height:1.5}
+.qsmart-revision-options h4{font-size:12px;color:var(--secondary);font-weight:600;margin:18px 0 6px}
+.qsmart-revision-options p{font-size:14px;line-height:1.8;margin:0;overflow-wrap:anywhere}
+.qsmart-revision-conclusion{border-top:1px solid var(--border);padding-top:18px;color:var(--text)!important}
+.qsmart-revision-figure figcaption{font-size:13px;color:var(--secondary);margin-top:18px}
+@media(max-width:760px){.qsmart-revision-options{grid-template-columns:1fr}.qsmart-revision-figure{padding:18px 14px}.qsmart-revision{margin-block:28px}}
+@media print{.qsmart-revision-options>section{break-inside:avoid}.qsmart-revision{border-top-color:#777}}

@@ -1,0 +1,13 @@
+{
+  "articleId": "research-2026-10-30-qsmart-note",
+  "firstCommit": "2d35d3947a51ebafdf8097d393ce49d6db457411",
+  "publishedAt": "2026-10-30T07:29:17Z",
+  "sourceBaseline": "64-article local portal, camera-reuse integration",
+  "files": {
+    "original-article-entry.json": "c41d51c939902d0bb00a70c3de5359a0826238ec0397b566c1d8facaa350fa48",
+    "original-illustrated-story.json": "0478255727d2d47ab88d371e505973d90443932b014876864476618d1845388d",
+    "original-reviewed-queries.json": "297fb7f1b8edafada6b566009071f05b04faab6f75d38f4a0e504554614086be",
+    "original-note.md": "4516d883c350438136bd14ef50d1bf9998a9cba9c219d56f2764393e265cd862",
+    "original-sources.json": "5a612c1231508f195e69ab12b6228d2179e3d115a403255d14d0c2ff6a35ee24"
+  }
+}

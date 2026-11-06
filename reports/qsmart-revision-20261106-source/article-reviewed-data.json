@@ -1,0 +1,164 @@
+{
+  "surface": "report",
+  "title": "AI店务助手该先接手哪项工作？从百胜Q-Smart看任务兑现",
+  "generatedAt": "2026-11-06T02:12:43Z",
+  "status": "reviewed",
+  "buildStatus": "updating",
+  "exportPreferences": {
+    "selected": null,
+    "destinations": []
+  },
+  "filters": [],
+  "report": {
+    "asOf": "2026-11-06"
+  },
+  "queries": {
+    "diagram-research-2026-10-30-qsmart-note": {
+      "rows": [
+        {
+          "title": "发现缺员",
+          "text": "结合运营数据识别缺员情形。材料没有给出识别准确率。"
+        },
+        {
+          "title": "建议替补人员",
+          "text": "提出候选人，不等于员工已接受安排或岗位能力已验收。"
+        },
+        {
+          "title": "发起电话",
+          "text": "这是本图已披露链的终点。发起联系本身，不证明缺口已被覆盖。"
+        }
+      ],
+      "source": {
+        "label": "已披露的动作链，到这里为止",
+        "files": [
+          "research/2026-10-30-qsmart/note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "机制和口径",
+            "definition": "公司2026-02-04文字稿自述，仍称试点；以下三个节点为披露能力，不是独立效果验证。 证据边界｜拨号前是否逐次确认、员工接受、最终班表写入、实际到岗和成功率，材料均未披露；未披露不等于未实现。2025年另一套自动补货的“AI建议、经理确认”，不能外推为Q-Smart全部操作规则。",
+            "componentIds": [
+              "diagram-research-2026-10-30-qsmart-note"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "固定公开研究版本",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/2d35d3947a51ebafdf8097d393ce49d6db457411/research/2026-10-30-qsmart/note.md"
+          },
+          {
+            "title": "展示边界",
+            "detail": "公司2026-02-04文字稿自述，仍称试点；以下三个节点为披露能力，不是独立效果验证。 证据边界｜拨号前是否逐次确认、员工接受、最终班表写入、实际到岗和成功率，材料均未披露；未披露不等于未实现。2025年另一套自动补货的“AI建议、经理确认”，不能外推为Q-Smart全部操作规则。"
+          }
+        ]
+      }
+    },
+    "diagram-research-2026-10-30-qsmart-note:second": {
+      "rows": [
+        {
+          "title": "记录是否可靠",
+          "text": "排班、可用时段与岗位信息能否及时更新？不可靠时先维护基础记录，而非用新界面掩盖旧数据问题。"
+        },
+        {
+          "title": "有没有可调用资源",
+          "text": "有可靠替补池才值得试补班协同。根本招不到人时，先处理用工安排；自动联系不会凭空增加人手。"
+        },
+        {
+          "title": "最终结果能否看见",
+          "text": "看规定时限内合适人员覆盖缺口，再分别记录确认与到岗。任务失败、转人工和补救也保留。"
+        }
+      ],
+      "source": {
+        "label": "先挑哪项工作：看兑现条件，也看退回成本",
+        "files": [
+          "research/2026-10-30-qsmart/note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "机制和口径",
+            "definition": "餐饮研究院提出的任务选择框架，非公司实现流程、非实证最优排序；试验尚未执行。 简单名单、成熟排班工具或规则通讯已够用时，暂不增加AI。试验成本包括接入、维护、例外补救与停用迁移；释放时间不自动变成现金节省，人员权益等边界不能只折成成本。",
+            "componentIds": [
+              "diagram-research-2026-10-30-qsmart-note:second"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "固定公开研究版本",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/2d35d3947a51ebafdf8097d393ce49d6db457411/research/2026-10-30-qsmart/note.md"
+          },
+          {
+            "title": "展示边界",
+            "detail": "餐饮研究院提出的任务选择框架，非公司实现流程、非实证最优排序；试验尚未执行。 简单名单、成熟排班工具或规则通讯已够用时，暂不增加AI。试验成本包括接入、维护、例外补救与停用迁移；释放时间不自动变成现金节省，人员权益等边界不能只折成成本。"
+          }
+        ]
+      }
+    },
+    "diagram-research-2026-10-30-qsmart-note:revision-2026-11-06": {
+      "rows": [
+        {
+          "方案": "纯软件",
+          "需要核对": "系统完成哪些步骤，店内仍需确认、跟进或补救哪些例外。",
+          "一并计入": "订阅与接入、记录维护、经理复核和失败返工。",
+          "适用条件": "记录可靠、任务边界明确，门店能接住剩余工作。"
+        },
+        {
+          "方案": "有人接手的托管服务",
+          "需要核对": "后台是否覆盖忙时，谁负责响应、交接与最终关闭任务。",
+          "一并计入": "服务费、门店交接、后台处理和责任核对，不能只看前线用时。",
+          "适用条件": "持续处理或高峰接手确是瓶颈，且责任与完整费用清楚。"
+        },
+        {
+          "方案": "现有人工流程",
+          "需要核对": "当前任务量、处理质量和等待负担，是否已能可靠完成。",
+          "一并计入": "完整任务时间与补救；若增加系统，还要计新增维护和交接。",
+          "适用条件": "任务少、团队固定且现有做法可靠时，继续复用可能更省事。"
+        }
+      ],
+      "source": {
+        "label": "店长少做的工作，成本落在哪里",
+        "files": [
+          "research/2026-10-30-qsmart/note.md",
+          "research/2026-10-30-qsmart/sources-update-2026-11-06.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "店长少做的工作，成本落在哪里",
+            "definition": "作者提出的同任务采购比较，非百胜已披露产品配置或实测结果。营运支持中心与Q-Smart的具体关系未知。 比较同一任务的完整投入；门店少做、后台多做与总工作量下降，需要分开核实。 本图没有成本数值、收益排序或AI独立成效。公司2026-11-03披露支持中心结合一线经验与AI，但未给出任务分工、分项成本、覆盖门店或Q-Smart连接关系。",
+            "componentIds": [
+              "diagram-research-2026-10-30-qsmart-note:revision-2026-11-06"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "同ID修订固定公开版本",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/8770ddeefaa8ace5dd3fe1f9e4f68d7abbc4e760/research/2026-10-30-qsmart/note.md"
+          },
+          {
+            "title": "作者比较框架",
+            "detail": "三种选择和成本边界为作者分析，不是公司产品架构、流程验证或经营实验。"
+          },
+          {
+            "title": "百胜中国2026年第三季度业绩会文字稿｜2026-11-03，印刷第3页；读取与403限制见补充说明",
+            "detail": "https://ir.yumchina.com/static-files/d8dac412-3927-4243-951e-fe7b71065ec8"
+          },
+          {
+            "title": "小食代同场电话会报道｜2026-11-03；非独立成效证据，作者访问超时与审校读取状态分别保留",
+            "detail": "https://www.foodinc.com.cn/2026/11/03/20261103001/"
+          },
+          {
+            "title": "读取边界与不能推出的结论",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/8770ddeefaa8ace5dd3fe1f9e4f68d7abbc4e760/research/2026-10-30-qsmart/sources-update-2026-11-06.md"
+          }
+        ],
+        "caveats": [
+          "营运支持中心与Q-Smart具体关系未知。",
+          "没有AI独立成效、分项成本或总工作量下降的证据。",
+          "该PDF曾返回可读解析，随后定位请求403；未重试受限请求，未截图核验。"
+        ]
+      }
+    }
+  }
+}

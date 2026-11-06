@@ -1,0 +1,14 @@
+{
+  "stage": "pre-archive checks",
+  "sourceManifestVerified": true,
+  "sourceFilesExcludingManifest": 32,
+  "syntacticJsonAndPythonChecks": true,
+  "exactStaticQaMatch": true,
+  "guardCases": 8,
+  "exactGuardQaMatch": true,
+  "sanitizationTests": 3,
+  "cachesExcluded": true,
+  "publicPayloadSecretScan": "no concrete private paths, private conversation links, private resource IDs or common secret patterns found in selected files",
+  "officialRebuildPerformedByArchiver": false,
+  "browserQaPerformed": false
+}

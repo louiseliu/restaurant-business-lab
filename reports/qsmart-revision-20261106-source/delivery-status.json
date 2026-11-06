@@ -1,0 +1,25 @@
+{
+  "articleId": "research-2026-10-30-qsmart-note",
+  "firstCommit": "2d35d3947a51ebafdf8097d393ce49d6db457411",
+  "firstPublishedAt": "2026-10-30T07:29:17Z",
+  "revisionCommit": "8770ddeefaa8ace5dd3fe1f9e4f68d7abbc4e760",
+  "html": {
+    "bytes": 2935141,
+    "sha256": "5c025f98cde0a9e130da347df7d5b8948709358472c8a467754686757d8097fc",
+    "githubArchived": false
+  },
+  "attachment": {
+    "requestStatus": "accepted",
+    "acceptedAt": "2026-11-06T02:21:50Z",
+    "batch": "与AI搜索获客研究单篇合批",
+    "deliveryConfirmed": false,
+    "openedConfirmed": false,
+    "downloadedConfirmed": false
+  },
+  "staticIndependentAudit": "passed",
+  "browserVisualInteraction": "not performed",
+  "portalRevision": "pending",
+  "publicSiteSynchronized": false,
+  "countsUnchangedBySameIdRevision": true,
+  "historyNote": "BUILD与独立审计中的未发送等为各自核验时点，后续附件请求状态只在本文件和归档记录追加，不改写原审计。"
+}

@@ -1,0 +1,16 @@
+{
+  "generatorEmptyOutputComparison": {
+    "article-entry.json": true,
+    "illustrated-story.json": true,
+    "article-reviewed-data.json": true,
+    "note.md": true,
+    "sources-update-2026-11-06.md": true,
+    "frozen.json": true
+  },
+  "samePreparedIdentityOfficialRebuild": {
+    "htmlBytes": 2935141,
+    "firstAndSecondHtmlSha256": "5c025f98cde0a9e130da347df7d5b8948709358472c8a467754686757d8097fc",
+    "byteIdentical": true
+  },
+  "limits": "This is deterministic generator output plus repeat official build/export under the same prepared report identity, not a newly prepared runtime or browser test."
+}

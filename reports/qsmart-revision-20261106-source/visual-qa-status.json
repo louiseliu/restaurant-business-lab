@@ -1,0 +1,16 @@
+{
+  "status": "not_performed",
+  "checksNotRun": [
+    "Desktop and narrow-screen layout",
+    "Light and dark themes",
+    "Source inspector and diagram rendering",
+    "Table of contents, scroll and back-to-top",
+    "Historical notes and full article expansion",
+    "Owner editing and persistence",
+    "Export menu and downloads",
+    "Printing and real offline opening",
+    "Browser error console"
+  ],
+  "reason": "Existing browser HTTP/file access restrictions remain in force. No retry, alternate hosting, permission change or access workaround was attempted.",
+  "staticIsNotVisualAcceptance": true
+}
