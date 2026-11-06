@@ -1,0 +1,129 @@
+{
+  "scope": "Small source, exact local baseline/input fingerprints, new static QA and clean rebuild evidence only; no full HTML/ZIP/runtime. Five historical held audit items remain excluded and open.",
+  "baselineArchiveCommit": "42da422322ff0e6332161fb079fb1090eb50e320",
+  "repositoryPreflightRead": "d7c47b97d6f63175fa7498c464b5e3d5a01aa8d8",
+  "inputs": {
+    "aiDiscovery": {
+      "path": "reports/ai-discovery-value-source",
+      "sourceArchiveCommit": "bd4c6cd60bac9ddbbb165867b0e02f1fca58011b",
+      "firstArticleCommit": "40e158a2766f7edd8e3d684b66436dd197624ecb",
+      "firstTime": "2026-11-06T02:15:50Z"
+    },
+    "qsmartRevision": {
+      "path": "reports/qsmart-revision-20261106-source",
+      "sourceArchiveCommit": "66b75aec61c23a1be6ce2b4ea4753eedd4e06a6f",
+      "revisionCommit": "8770ddeefaa8ace5dd3fe1f9e4f68d7abbc4e760",
+      "firstTime": "2026-10-30T07:29:17Z"
+    },
+    "languageDelta": {
+      "path": "reports/ai-discovery-value-lang-revision-source",
+      "sourceArchiveCommit": "bd4c6cd60bac9ddbbb165867b0e02f1fca58011b",
+      "appliedTo": "GEO article language attribute only"
+    }
+  },
+  "counts": {
+    "research": 65,
+    "fullTexts": 85,
+    "samples": 2,
+    "ai": 43,
+    "queries": 134
+  },
+  "files": {
+    "PORTAL_BUILD.md": {
+      "bytes": 6787,
+      "sha256": "88ad751666229fc838e6d26fae419304ebcf66e5983052fbc33edb6717887ab3"
+    },
+    "baseline-known-gaps.json": {
+      "bytes": 2141,
+      "sha256": "51207677384d205a3e5f25307de501643961f3736a20866c7a0102dd4e7e313a"
+    },
+    "baseline-verification.json": {
+      "bytes": 752,
+      "sha256": "4891c14a226f5414488ecdce300782890da27c517a5d939b3029c90d99e4862a"
+    },
+    "baseline64-sha256.json": {
+      "bytes": 38104,
+      "sha256": "c83588e6067ec8e4a8aac19f4d7dda31c36669fa9c9cfd6c991546cb9dd7a670"
+    },
+    "build_portal.py": {
+      "bytes": 1560,
+      "sha256": "5815a96f6ed194449b36d9a3de1de554a6df6c5794d935e7ae0fcbdec16ba47a"
+    },
+    "frozen-input-guard-qa.json": {
+      "bytes": 1017,
+      "sha256": "c852edc7f72d60036c1ea21740106c4ccf0b66db9b79ca1e277356e26be066a3"
+    },
+    "independent-audit/AUDIT.md": {
+      "bytes": 6126,
+      "sha256": "bb255dbd29efc44db6c56492c8273cb50b8ddba0f1ba0b552be1cf4c4bdb30e1"
+    },
+    "independent-audit/audit_portal65.py": {
+      "bytes": 23999,
+      "sha256": "e07c3c0186b6bf783d565134f37863515042c03287bfde309422b17db639d985"
+    },
+    "independent-audit/manifest.json": {
+      "bytes": 761,
+      "sha256": "45d9d005ac6b71f5dd5f777d2699f6b70dda75ecbba2bb354c61e8349d4c61f3"
+    },
+    "independent-audit/portal65-static-audit.json": {
+      "bytes": 3969,
+      "sha256": "6d3e49ca7cb961192c21a1f723d4d7239dec7950953da8651fcd140157ba2a28"
+    },
+    "input-fingerprints.json": {
+      "bytes": 2898,
+      "sha256": "47e96a7f92a3936fef94f12fa613700213041880282fdb13d1bade8bb890ae40"
+    },
+    "input-remote-verification.json": {
+      "bytes": 4462,
+      "sha256": "0a3a7156bfd099c5327bf095cb074464f1d7cee4a04101d54c311b606fc8e929"
+    },
+    "integrate65.py": {
+      "bytes": 5070,
+      "sha256": "2921c475eaba7792d54679c7d9b80807eb097cf909aff3ac63a5d522383d6092"
+    },
+    "language-provenance.json": {
+      "bytes": 624,
+      "sha256": "94fa2b208c6f5d12f1bb47eb5278673ddd7a72bf84e9c2c6db829408aa992c4a"
+    },
+    "merge-guard-qa.json": {
+      "bytes": 1005,
+      "sha256": "16392a3b4066f7cbb30c946d6bb53615725a89f9f2134f413b6c844cc03fd26a"
+    },
+    "portal-build-qa.json": {
+      "bytes": 2560,
+      "sha256": "47666a0539887da32839791c5edd3181aa0cb41a2d88c7a7381f005d90a06380"
+    },
+    "portal-reproducibility.json": {
+      "bytes": 626,
+      "sha256": "f4f185cd3908b2ee1b13d830cf67baaafb5f8f450abc01352ecda1fd08c21d75"
+    },
+    "prepare_portal.py": {
+      "bytes": 1133,
+      "sha256": "09077ec8f1050e725dd628ff8e22bf91d42f521321b14d5911653dea59870998"
+    },
+    "reader_patch.py": {
+      "bytes": 2627,
+      "sha256": "1454578fe9303750b43dac70659f7ec89a3b171a8c365172fefe2eb7f3759850"
+    },
+    "test_frozen_input_guards.py": {
+      "bytes": 1532,
+      "sha256": "266e4d49c0d17d1973bc06b85a09f196325d60200760cee18054094d9472cf6f"
+    },
+    "test_portal_merge_guard.py": {
+      "bytes": 4334,
+      "sha256": "0eb7384985267894182ebcf865d6f13aa6b9afcf9a5f29359c57ecb44fe4ed15"
+    },
+    "test_portal_preservation.py": {
+      "bytes": 10091,
+      "sha256": "ba566e299750061b7b1549e8723d65d5dc7192205032597e06faf67e6dc02db7"
+    },
+    "test_reader_routes.mjs": {
+      "bytes": 2968,
+      "sha256": "83c2e9dd313839b197c35fc6bc1c4e421f783df76b6170ca8e34767998adc1fa"
+    },
+    "visual-qa-status.json": {
+      "bytes": 556,
+      "sha256": "411de904e89bbed231e272e071ac68d2a8d08b4e0e7d5176e4a467c87cb5a688"
+    }
+  }
+}

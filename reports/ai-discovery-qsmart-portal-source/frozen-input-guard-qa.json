@@ -1,0 +1,26 @@
+{
+  "checksPassed": 20,
+  "checks": [
+    "aiDiscovery/article-entry.json",
+    "aiDiscovery/illustrated-story.json",
+    "aiDiscovery/article-reviewed-data.json",
+    "aiDiscovery/frozen.json",
+    "aiDiscovery/note.md",
+    "aiDiscovery/sources.md",
+    "aiDiscovery/AIDiscoveryDiagrams.jsx",
+    "aiDiscovery/ai-discovery-value-diagrams.css",
+    "aiDiscovery/ai-discovery-value-source-previews.json",
+    "qsmartRevision/article-entry.json",
+    "qsmartRevision/illustrated-story.json",
+    "qsmartRevision/article-reviewed-data.json",
+    "qsmartRevision/frozen.json",
+    "qsmartRevision/note.md",
+    "qsmartRevision/sources-update-2026-11-06.md",
+    "qsmartRevision/original-article-entry.json",
+    "qsmartRevision/original-illustrated-story.json",
+    "qsmartRevision/original-reviewed-queries.json",
+    "qsmartRevision/QSmartRevision.jsx",
+    "qsmartRevision/qsmart-revision.css"
+  ],
+  "result": "Every modified frozen input was refused before any portal writes. Only temporary copies were changed."
+}

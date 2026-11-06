@@ -1,0 +1,63 @@
+{
+  "counts": {
+    "research": 65,
+    "fullOriginals": 85,
+    "stories": 65,
+    "samples": 2,
+    "ai": 43,
+    "queries": 134
+  },
+  "preserved": {
+    "unmodifiedOriginals": 83,
+    "unmodifiedStories": 63,
+    "originalQueries": 131,
+    "qsmartOriginalStoryFields": "all unchanged; revision appended",
+    "qsmartOriginalBody": "exact prefix retained",
+    "qsmartFirstTime": "2026-10-30T07:29:17Z",
+    "unchangedBaselineFiles": 342,
+    "legacySha256": "1c2034ad9bcd6457ba9ab65d42717940b3d552a488a06b2b417b6063140b292d",
+    "readerSha256": "c6ed936b73898cf795e0ca9e8a4c9700b1e480787e8020388391119ac8133a6a"
+  },
+  "checks": {
+    "privacyPayloads": 175,
+    "downloads": 5,
+    "recursiveZipContainers": 2,
+    "releaseManifests": 1,
+    "compiledJSON": "matches source",
+    "buildManifest": "verified",
+    "runtimeSha256": "b1771584910da746d0cf1b967a4889fee226053d841596104b457a04a2dd3d91"
+  },
+  "frozenInputs": [
+    {
+      "id": "research-2026-11-06-ai-discovery-value-note",
+      "commit": "40e158a2766f7edd8e3d684b66436dd197624ecb",
+      "time": "2026-11-06T02:15:50Z",
+      "sha256": "f1d0bc9dd94245f28191c1800f9a9ec583daee5bab1e27b90cda10e1de0f47b3",
+      "sourcesSha256": "a30632f128e724a8b84fdce6150975daea93dcb87f57e2a44c54cd127c4f72d3",
+      "editorialFrozen": true
+    },
+    {
+      "id": "research-2026-10-30-qsmart-note",
+      "editorialFrozen": true,
+      "remoteReadbackVerified": true,
+      "revisionCommit": "8770ddeefaa8ace5dd3fe1f9e4f68d7abbc4e760",
+      "revisionTime": "2026-11-06T02:12:43Z",
+      "bodySha256": "745fe3dd2ac210f1ede2ae64dcd9a554dbcd83b99bc8dac1bd3ebd52be0f45be",
+      "sourcesSha256": "30caf3aad35cd67d70a9e664560adc233524886739905dee6ff7fc7c2b74b974",
+      "bodyGitBlob": "e4227d30b125a17972f3985b64b111edc776a3ce",
+      "sourcesGitBlob": "be0384643892c4a08d557ae7d03e402f6a65948c"
+    }
+  ],
+  "html": {
+    "bytes": 13892324,
+    "sha256": "f033d638d659037cb96f0e062784c55c5451622c90a8793ed4c3244b97b97305"
+  },
+  "limits": {
+    "visual": "Not checked. Prior HTTP refusal, file-protocol denial and original-site restrictions not retried or bypassed.",
+    "published": false,
+    "uploadedHTMLorZIP": false,
+    "historicalAuditGaps": "Five held items remain open; no retry or same-content upload.",
+    "presentationCorrection": "GEO authored article only gains zh-CN language metadata. Fourth shared S2 title still omits page 19; prior display issue unchanged.",
+    "baseline": "Readable local 64-story baseline only; unavailable original-site user edits/history not recovered."
+  }
+}

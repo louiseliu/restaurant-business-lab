@@ -1,0 +1,17 @@
+{
+  "status": "not_run",
+  "reason": "Previously observed HTTP refusal and file-protocol denial; original-site restrictions remain. No retry, bypass, new hosting or security change.",
+  "checksNotRun": [
+    "desktop and narrow viewport",
+    "light and dark rendered themes",
+    "diagram rendering and source panel",
+    "navigation, browser history and scroll",
+    "editing persistence",
+    "download clicks",
+    "printing",
+    "actual offline execution",
+    "browser logs"
+  ],
+  "staticChecksAreNotVisualAcceptance": true,
+  "published": false
+}

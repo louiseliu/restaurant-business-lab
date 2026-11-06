@@ -1,0 +1,109 @@
+{
+  "readCommit": "bd4c6cd60bac9ddbbb165867b0e02f1fca58011b",
+  "filesCompared": 20,
+  "byteEqual": true,
+  "gitBlobVerified": true,
+  "files": [
+    {
+      "input": "aiDiscovery/article-entry.json",
+      "sha256": "59ed9b073cca5956ef296de4fcb23a10e874efe777c26319ac2d41d82fe982cf",
+      "gitBlob": "033855f7b09f861a838019ad2d57f4bd7a7ddc7c"
+    },
+    {
+      "input": "aiDiscovery/illustrated-story.json",
+      "sha256": "1062c94059dc8c1a1d791a3c87c8817e0a3eb3340696f1b8060eaf785b010599",
+      "gitBlob": "c586bb8542497980d47f47e8fcefa7dc8aed1a87"
+    },
+    {
+      "input": "aiDiscovery/article-reviewed-data.json",
+      "sha256": "af5d2dc2a315d579b0cd6700c0466b4a540cffc828c4488e1527577e2dd4fdb3",
+      "gitBlob": "17fe98cb5aa2ae5ab7a86f6725b3515aef090ada"
+    },
+    {
+      "input": "aiDiscovery/frozen.json",
+      "sha256": "c5eafcc9a372a97e85e1e120103452242d395873c24260dedada65332d07412e",
+      "gitBlob": "3ecd35fa3f8aa5a877e05677593a68353d0e965c"
+    },
+    {
+      "input": "aiDiscovery/note.md",
+      "sha256": "f1d0bc9dd94245f28191c1800f9a9ec583daee5bab1e27b90cda10e1de0f47b3",
+      "gitBlob": "a6377d2fd6c11d833e7015c3e89dabd739b87de2"
+    },
+    {
+      "input": "aiDiscovery/sources.md",
+      "sha256": "a30632f128e724a8b84fdce6150975daea93dcb87f57e2a44c54cd127c4f72d3",
+      "gitBlob": "d61e37ed9d143d33cb27e86b7e56181fbb94fd0e"
+    },
+    {
+      "input": "aiDiscovery/AIDiscoveryDiagrams.jsx",
+      "sha256": "65ce82b1fc60f6c297d10f4f59fb797a419da5f91e21345706e215ce368f1ab3",
+      "gitBlob": "e17ee7bcca8bb27d0b382f2b50f2a8f3e540b53e"
+    },
+    {
+      "input": "aiDiscovery/ai-discovery-value-diagrams.css",
+      "sha256": "0db22560a8242ae138c0d836682636acc19aed6b39b13fa8a5faf1e08be16c96",
+      "gitBlob": "7c6a7d21a04c9266dca58f36aae083657e515730"
+    },
+    {
+      "input": "aiDiscovery/ai-discovery-value-source-previews.json",
+      "sha256": "70eca0fc5f11793ce328e96ca9154750e69ededa4c3988638d2426862d8adbc9",
+      "gitBlob": "238e671aeb32001631aee5fba99bfcc3b5814322"
+    },
+    {
+      "input": "qsmartRevision/article-entry.json",
+      "sha256": "0857a6f3cfe460ee3c59accaab84814b62450c62b8d49bfd75c57e9d3387b556",
+      "gitBlob": "2d32c3bf787323837345c9c1f78bfaa269e34ade"
+    },
+    {
+      "input": "qsmartRevision/illustrated-story.json",
+      "sha256": "1f1072e71eeaa658c1e270f8d199d4f39aac48dd3107b63bf1e7e51c2e90adb0",
+      "gitBlob": "906891a95f065923f49aec14724f0dde48146a1b"
+    },
+    {
+      "input": "qsmartRevision/article-reviewed-data.json",
+      "sha256": "bbe4da54b95dd20421373a3afd762b3ed06769561474117172c854cbfae695e0",
+      "gitBlob": "f7caa51194af9640adc063580f5f6ad381e0acc7"
+    },
+    {
+      "input": "qsmartRevision/frozen.json",
+      "sha256": "6b0666c1dfebe46a23b0a6cacfb9c4e08a5861168e55a3936bc9b276874a7471",
+      "gitBlob": "1ad67f3404a161d1a7c7ac4e5f0d0008dfb8b08a"
+    },
+    {
+      "input": "qsmartRevision/note.md",
+      "sha256": "745fe3dd2ac210f1ede2ae64dcd9a554dbcd83b99bc8dac1bd3ebd52be0f45be",
+      "gitBlob": "e4227d30b125a17972f3985b64b111edc776a3ce"
+    },
+    {
+      "input": "qsmartRevision/sources-update-2026-11-06.md",
+      "sha256": "30caf3aad35cd67d70a9e664560adc233524886739905dee6ff7fc7c2b74b974",
+      "gitBlob": "be0384643892c4a08d557ae7d03e402f6a65948c"
+    },
+    {
+      "input": "qsmartRevision/original-article-entry.json",
+      "sha256": "c41d51c939902d0bb00a70c3de5359a0826238ec0397b566c1d8facaa350fa48",
+      "gitBlob": "d7ef0fddc7b99936a676e73669c44daca565b8b2"
+    },
+    {
+      "input": "qsmartRevision/original-illustrated-story.json",
+      "sha256": "0478255727d2d47ab88d371e505973d90443932b014876864476618d1845388d",
+      "gitBlob": "eb8ae22b79469962f52555104162425189c14bcd"
+    },
+    {
+      "input": "qsmartRevision/original-reviewed-queries.json",
+      "sha256": "297fb7f1b8edafada6b566009071f05b04faab6f75d38f4a0e504554614086be",
+      "gitBlob": "571877ad5bd8b2c1943b64fc575002fe4cc9f471"
+    },
+    {
+      "input": "qsmartRevision/QSmartRevision.jsx",
+      "sha256": "1871bd6ed6fde56a9d02e5f3475ec388f3cda790fa025ea213fb904288f9bf4a",
+      "gitBlob": "6d2547c932fc02b7187810967c411c6833e04455"
+    },
+    {
+      "input": "qsmartRevision/qsmart-revision.css",
+      "sha256": "d2b07bec57f5703b226729d74f30be0fed5c8fc544dce9423c55df21dfe5830d",
+      "gitBlob": "4579dde981111c1b343d9c6448fd555f1a0a3ae7"
+    }
+  ],
+  "scope": "Read-only exact input validation; no mutation, attachment or large file upload."
+}

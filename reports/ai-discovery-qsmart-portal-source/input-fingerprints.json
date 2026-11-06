@@ -1,0 +1,86 @@
+{
+  "aiDiscovery": {
+    "article-entry.json": {
+      "bytes": 9812,
+      "sha256": "59ed9b073cca5956ef296de4fcb23a10e874efe777c26319ac2d41d82fe982cf"
+    },
+    "illustrated-story.json": {
+      "bytes": 20128,
+      "sha256": "1062c94059dc8c1a1d791a3c87c8817e0a3eb3340696f1b8060eaf785b010599"
+    },
+    "article-reviewed-data.json": {
+      "bytes": 7977,
+      "sha256": "af5d2dc2a315d579b0cd6700c0466b4a540cffc828c4488e1527577e2dd4fdb3"
+    },
+    "frozen.json": {
+      "bytes": 287,
+      "sha256": "c5eafcc9a372a97e85e1e120103452242d395873c24260dedada65332d07412e"
+    },
+    "note.md": {
+      "bytes": 9038,
+      "sha256": "f1d0bc9dd94245f28191c1800f9a9ec583daee5bab1e27b90cda10e1de0f47b3"
+    },
+    "sources.md": {
+      "bytes": 3469,
+      "sha256": "a30632f128e724a8b84fdce6150975daea93dcb87f57e2a44c54cd127c4f72d3"
+    },
+    "AIDiscoveryDiagrams.jsx": {
+      "bytes": 1642,
+      "sha256": "65ce82b1fc60f6c297d10f4f59fb797a419da5f91e21345706e215ce368f1ab3"
+    },
+    "ai-discovery-value-diagrams.css": {
+      "bytes": 2258,
+      "sha256": "0db22560a8242ae138c0d836682636acc19aed6b39b13fa8a5faf1e08be16c96"
+    },
+    "ai-discovery-value-source-previews.json": {
+      "bytes": 1831,
+      "sha256": "70eca0fc5f11793ce328e96ca9154750e69ededa4c3988638d2426862d8adbc9"
+    }
+  },
+  "qsmartRevision": {
+    "article-entry.json": {
+      "bytes": 11388,
+      "sha256": "0857a6f3cfe460ee3c59accaab84814b62450c62b8d49bfd75c57e9d3387b556"
+    },
+    "illustrated-story.json": {
+      "bytes": 19204,
+      "sha256": "1f1072e71eeaa658c1e270f8d199d4f39aac48dd3107b63bf1e7e51c2e90adb0"
+    },
+    "article-reviewed-data.json": {
+      "bytes": 8362,
+      "sha256": "bbe4da54b95dd20421373a3afd762b3ed06769561474117172c854cbfae695e0"
+    },
+    "frozen.json": {
+      "bytes": 466,
+      "sha256": "6b0666c1dfebe46a23b0a6cacfb9c4e08a5861168e55a3936bc9b276874a7471"
+    },
+    "note.md": {
+      "bytes": 10115,
+      "sha256": "745fe3dd2ac210f1ede2ae64dcd9a554dbcd83b99bc8dac1bd3ebd52be0f45be"
+    },
+    "sources-update-2026-11-06.md": {
+      "bytes": 5884,
+      "sha256": "30caf3aad35cd67d70a9e664560adc233524886739905dee6ff7fc7c2b74b974"
+    },
+    "original-article-entry.json": {
+      "bytes": 7740,
+      "sha256": "c41d51c939902d0bb00a70c3de5359a0826238ec0397b566c1d8facaa350fa48"
+    },
+    "original-illustrated-story.json": {
+      "bytes": 6930,
+      "sha256": "0478255727d2d47ab88d371e505973d90443932b014876864476618d1845388d"
+    },
+    "original-reviewed-queries.json": {
+      "bytes": 4114,
+      "sha256": "297fb7f1b8edafada6b566009071f05b04faab6f75d38f4a0e504554614086be"
+    },
+    "QSmartRevision.jsx": {
+      "bytes": 2083,
+      "sha256": "1871bd6ed6fde56a9d02e5f3475ec388f3cda790fa025ea213fb904288f9bf4a"
+    },
+    "qsmart-revision.css": {
+      "bytes": 1340,
+      "sha256": "d2b07bec57f5703b226729d74f30be0fed5c8fc544dce9423c55df21dfe5830d"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "sentStandalone": {
+    "sha256": "24b43ab696c30b868f8ed7c733a60d129ee12b74443636b9ea2b0f20a0dba6ea",
+    "unchanged": true
+  },
+  "unsentStandaloneLanguageRevision": {
+    "sha256": "93daa0501e82a1f39ad0116703230688da0f7be799c1b2e6d91eb55519233bfe",
+    "sourceReaderSha256": "aa4d14e56f6f57409687023439ff826450c59d3ef60fe3ad659bf990a17c7b58",
+    "onlyChange": "Author-owned article gains lang=zh-CN",
+    "sent": false
+  },
+  "portalApplication": "The same attribute is applied only to the new GEO article, conditional on its stable ID; the portal reader is not replaced.",
+  "contentAndFirstCommitUnchanged": true
+}

@@ -1,0 +1,12 @@
+{
+  "method": "Fresh baseline64 and portal65 directories copied from verified source; no dist, offline cache, node_modules or Python cache. Final frozen scripts ran all guards, official prepare/build/export, payload tests and route checks.",
+  "byteEqual": true,
+  "bytes": 13892324,
+  "sha256": "f033d638d659037cb96f0e062784c55c5451622c90a8793ed4c3244b97b97305",
+  "officialRuntimeSha256": "b1771584910da746d0cf1b967a4889fee226053d841596104b457a04a2dd3d91",
+  "originalBaselineFilesRechecked": 346,
+  "originalBaselineUnchanged": true,
+  "sourceScriptsCompared": 8,
+  "browserVerified": false,
+  "remotePublication": false
+}

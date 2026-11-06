@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "scope": "New static audit only. No historical uncertain audit files, artifact payloads, runtime, HTML or ZIP included.",
+  "auditedHtml": {
+    "filename": "timeline65-discovery-qsmart.html",
+    "bytes": 13892324,
+    "sha256": "f033d638d659037cb96f0e062784c55c5451622c90a8793ed4c3244b97b97305"
+  },
+  "files": {
+    "audit_portal65.py": {
+      "bytes": 23999,
+      "sha256": "e07c3c0186b6bf783d565134f37863515042c03287bfde309422b17db639d985"
+    },
+    "portal65-static-audit.json": {
+      "bytes": 3969,
+      "sha256": "6d3e49ca7cb961192c21a1f723d4d7239dec7950953da8651fcd140157ba2a28"
+    },
+    "AUDIT.md": {
+      "bytes": 6126,
+      "sha256": "bb255dbd29efc44db6c56492c8273cb50b8ddba0f1ba0b552be1cf4c4bdb30e1"
+    }
+  }
+}

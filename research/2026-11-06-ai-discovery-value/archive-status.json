@@ -55,7 +55,7 @@
       "git_blob_equal": true
     }
   ],
-  "phase": "单篇图文内容、官方构建和独立静态审计完成；附件请求已接受，另有未发送语言修订；65篇本地门户已构建但独立审计及归档待完成，浏览器视觉/交互未验，原站未同步",
+  "phase": "单篇图文及65篇完整本地门户内容、官方构建、独立静态审计和干净复建完成，小源码归档；浏览器视觉/交互未验，原站未同步",
   "frozen_stage_language": "sources.md和check.json中的未提交、本地稿、未制作，以及64篇基线均是冻结准备阶段记录；保留原文，当前归档状态以本记录和日志为准。",
   "verification_scope": "本次归档检查冻结哈希、执行计数复算、核对最新main、非强制更新分支、逐字回读六文件及比较既有blob；没有重新执行来源研究、论文数据复现或门店实验。",
   "evidence_limits": [
@@ -65,15 +65,24 @@
     "没有真实报价、完整成本或利润测量，不估算回本期。"
   ],
   "last_local_portal": {
-    "research": 64,
-    "full_texts": 84,
+    "research": 65,
+    "full_texts": 85,
+    "stories": 65,
     "samples": 2,
-    "ai_topics": 42,
-    "queries": 131,
+    "ai_topics": 43,
+    "queries": 134,
+    "html_bytes": 13892324,
+    "html_sha256": "f033d638d659037cb96f0e062784c55c5451622c90a8793ed4c3244b97b97305",
+    "qsmart_revision_included": true,
+    "ai_discovery_value_included": true,
     "browser_qa": "未验",
-    "qsmart_revision_included": false,
-    "ai_discovery_value_included": false,
-    "scope": "最近已完成独立静态验收并归档源码的门户版本；新65篇版本仍在独立核验"
+    "source_archive": "reports/ai-discovery-qsmart-portal-source/PORTAL_BUILD.md",
+    "independent_static_checks": 1432,
+    "clean_rebuild_byte_equal": true,
+    "html_uploaded": false,
+    "html_attachment_sent": false,
+    "html_github_archived": false,
+    "scope": "基于可读本地64篇基线完成增量；不代表恢复原站不可读用户编辑或线上更新"
   },
   "illustrated_article": "完成发送版内容/构建/独立静态审计；另有未发送语言修订",
   "attachment": {
@@ -103,8 +112,8 @@
     "total_pending_sync_items": 48
   },
   "outstanding": [
-    "第65篇与Q-Smart修订的完整门户增量及浏览器视觉/交互验收",
-    "第65篇未发送语言修订的屏幕阅读器/视觉/交互验收",
+    "单篇及完整门户浏览器视觉/交互与屏幕阅读器验收",
+    "完整门户HTML归档及附件（本轮未执行）",
     "第63篇历史四项审计写入及同字节JSON缺件",
     "HTML归档、历史附件替换、费用原归档、原站可读性及用户编辑保护、旧全站离线快照和既有视觉待办"
   ],
@@ -118,11 +127,13 @@
     "change": "作者文章节点新增lang=zh-CN，正文/图文/数据/metadata/稳定身份保持",
     "sent": false,
     "replacedOriginalAttachment": false,
-    "independentStaticAudit": "passed"
+    "independentStaticAudit": "passed",
+    "portal_use": "完整门户仅采纳同一文章级中文语言属性差异；未发送或替换单篇附件"
   },
   "source_archive": "reports/ai-discovery-value-source/ARCHIVE.md",
   "language_revision_archive": "reports/ai-discovery-value-lang-revision-source/BUILD.md",
   "source_version_check": "research/2026-11-06-ai-discovery-value/source-status-update-2026-11-06.json",
   "large_html_or_zip_github_upload": false,
-  "current_article_portal_integration": "65篇本地门户已构建并完成首轮干净复建；独立审计及源码归档待完成，不能视为浏览器验收或线上发布"
+  "current_article_portal_integration": "已完成本地整合、独立静态验收及干净复建；完整HTML未上传/发送/归档，原站未同步",
+  "portal_source_archive": "reports/ai-discovery-qsmart-portal-source/PORTAL_BUILD.md"
 }

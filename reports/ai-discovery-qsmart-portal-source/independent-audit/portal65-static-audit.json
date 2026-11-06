@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "scope": "Independent static preservation and privacy audit of the exact 65-study portal HTML; no publication or browser acceptance claim.",
+  "artifact": {
+    "filename": "timeline65-discovery-qsmart.html",
+    "bytes": 13892324,
+    "sha256": "f033d638d659037cb96f0e062784c55c5451622c90a8793ed4c3244b97b97305"
+  },
+  "result": "passed-with-explicit-unverified-scope",
+  "counts": {
+    "research": 65,
+    "fullOriginals": 85,
+    "stories": 65,
+    "samples": 2,
+    "aiResearch": 43,
+    "queries": 134
+  },
+  "preservation": {
+    "baselineFiles": 346,
+    "unchangedBaselineFiles": 342,
+    "changedExistingFiles": [
+      "src/content/report/IllustratedArticle.jsx",
+      "src/content/report/articles.json",
+      "src/content/report/illustrated-stories.json",
+      "src/data.json"
+    ],
+    "addedScopedFiles": [
+      "AIDiscoveryDiagrams.jsx",
+      "QSmartRevision.jsx",
+      "ai-discovery-value-diagrams.css",
+      "ai-discovery-value-source-previews.json",
+      "qsmart-revision.css"
+    ],
+    "unrelatedOriginalsUnchanged": 83,
+    "unrelatedStoriesUnchanged": 63,
+    "originalQueriesUnchanged": 131,
+    "qsmartOriginalBodyPrefixAndStoryFields": "verified",
+    "qsmartFirstEntry": "2026-10-30T07:29:17Z",
+    "reportIdentityUnchanged": true,
+    "mainReaderAndLegacyUnchanged": true
+  },
+  "archiveEvidence": {
+    "baselineCommitRead": "d7c47b97d6f63175fa7498c464b5e3d5a01aa8d8",
+    "baselineArchiveCommit": "42da422322ff0e6332161fb079fb1090eb50e320",
+    "readableReceiptsVerifiedAgainstRemoteManifest": 19,
+    "manifestGitBlob": "b3f6a0597b57e24b234ea70b521e050ec5e8df4b",
+    "qsmartRevisionCommit": "8770ddeefaa8ace5dd3fe1f9e4f68d7abbc4e760",
+    "independentlyFetchedQsmartBodyGitBlob": "e4227d30b125a17972f3985b64b111edc776a3ce",
+    "independentlyFetchedQsmartSourcesGitBlob": "be0384643892c4a08d557ae7d03e402f6a65948c"
+  },
+  "staticCoverage": {
+    "assertionsEvaluated": 1432,
+    "reviewedQueryBindings": 134,
+    "compiledJsonObjectsParsed": 24,
+    "offlineSnapshotChunks": 6,
+    "offlineSnapshotBytes": 351068,
+    "offlineSnapshotSha256": "8f39d00e96bb74ce8b168afc98b2d42ebcfcbfd08a6413d89717ddf181780729",
+    "offlineSnapshotEqualsSourceBytes": true,
+    "qsmartAddedSourcesOnlyBindToRevisionQuery": true,
+    "privacyPayloadsScanned": 174,
+    "embeddedHtmlFiles": 2,
+    "downloadFiles": 5,
+    "recursiveZipContainers": 2,
+    "zipMembers": 45,
+    "releaseManifests": 1,
+    "privacyPatternHits": [],
+    "buildManifestVerified": true,
+    "runtimeSha256": "b1771584910da746d0cf1b967a4889fee226053d841596104b457a04a2dd3d91",
+    "frozenInputFiles": 20,
+    "disposableGuardTests": {
+      "test_portal_merge_guard.py": 17,
+      "test_frozen_input_guards.py": 20
+    },
+    "routeHelperTestsPassed": true
+  },
+  "materialIssues": [],
+  "retainedLimitations": [
+    "The fourth shared S2 source title still omits page 19. This existing display issue was not changed or considered resolved.",
+    "Historical uncertain audit archival items remain unresolved and were neither retried nor copied into this new audit.",
+    "Baseline preservation means the readable local 64-story baseline, not unavailable original-site edits or historical files."
+  ],
+  "notVerified": [
+    "Browser rendering, mobile layout, dark mode, accessibility behavior, source popups, navigation history and scroll restoration, editing, print and export interactions.",
+    "Fresh compilation or independent replay of embedded calculator and weekly-report calculations; this audit inspected existing build bytes, manifests, source and serialized payloads.",
+    "Primary external webpages, restricted PDFs, restaurant records, original study datasets or causal business effects.",
+    "Original-site access, upload, publication, sharing settings or subsequent changes to the audited HTML."
+  ],
+  "privacyMethodLimit": "Pattern-based inspection is not a formal guarantee that every possible sensitive datum is absent."
+}

@@ -1,0 +1,23 @@
+{
+  "checksPassed": 17,
+  "checks": [
+    "Unrelated user body, excerpt, story, query and export policy edits preserved",
+    "Repeated merge refused before writes",
+    "id conflict refused before writes",
+    "query conflict refused before writes",
+    "revision-query conflict refused before writes",
+    "count conflict refused before writes",
+    "component conflict refused before writes",
+    "stylesheet conflict refused before writes",
+    "preview conflict refused before writes",
+    "revision-component conflict refused before writes",
+    "revision-style conflict refused before writes",
+    "symlink conflict refused before writes",
+    "qsmart-body conflict refused before writes",
+    "qsmart-metadata conflict refused before writes",
+    "qsmart-story conflict refused before writes",
+    "qsmart-query conflict refused before writes",
+    "reader conflict refused before writes"
+  ],
+  "scope": "Temporary local copies only; edited Q-Smart content is refused rather than overwritten."
+}

@@ -1,0 +1,11 @@
+{
+  "repositoryHeadRead": "d7c47b97d6f63175fa7498c464b5e3d5a01aa8d8",
+  "baselineArchiveCommit": "42da422322ff0e6332161fb079fb1090eb50e320",
+  "remoteFilesCompared": 19,
+  "comparison": "All 19 readable archived source files match the committed archive byte-for-byte and Git blob SHA. Local pre-archive audit wording differs from the final archived version; portal runtime/content is unaffected. Latest repository workflow and README were read.",
+  "baselineFiles": 346,
+  "scope": "Complete readable local 64-story portal only; original-site user edits and unavailable history were not recovered.",
+  "prior64PreservationTest": "Rerun passed before copying",
+  "originalSourceUntouched": true,
+  "sourceBaselineFingerprintRecheckedAfterBuild": true
+}
