@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "article_id": "supplier-recommendation",
+  "document_id": "research-2026-11-06-supplier-recommendation-note",
+  "checked_at": "2026-11-06",
+  "stage": "首提前检查；实际提交时间和逐字回读结果另见后续archive-status.json。",
+  "baseline_commit_sha": "aa31db66c59dd74c3aaf60cef2702d76ae136f74",
+  "baseline_tree_sha": "8b876cbd20eb47d249640e404d8ce8d0a0826559",
+  "files": {
+    "note.md": {
+      "bytes": 10359,
+      "sha256": "f8c718c5f2700798d4c7c93f01b0ac83c6135c206f6937828e68492b7ee82d89",
+      "git_blob_sha": "6d87e0f7202f8fe9d25a1973747948f1f3926962"
+    },
+    "sources.md": {
+      "bytes": 6672,
+      "sha256": "4bd44d0f38d5d125c226a4c1c1b79dc2f3b9126f08f4f9324b40c94cfa21ba17",
+      "git_blob_sha": "7d212968c025f489214ab9896f6f0f7ece03e424"
+    },
+    "review-check.md": {
+      "bytes": 2473,
+      "sha256": "4896a7504a0ab038903e199b818bf2e28a687b600c8f5ebd70d287a5ea597eb1",
+      "git_blob_sha": "3dab1c6e93b1a6e1b03e51dda19595ff2e31ed31"
+    }
+  },
+  "frozen_files_unchanged": true,
+  "public_text_privacy_scan_passed": true,
+  "dedup": {
+    "baseline_research_count": 70,
+    "prior_69_manifest": "../2026-11-06-site-selection-rent/dedup.json",
+    "all_69_manifest_blob_shas_match": true,
+    "current_directory_absent": true,
+    "scope": "保留作者对69篇目录及关键词的有界查重；归档步骤逐项比对69篇既有正文blob，另完整回读最新选址篇。未声称重新人工逐篇审读全部70篇。",
+    "latest_article": {
+      "path": "research/2026-11-06-site-selection-rent/note.md",
+      "git_blob_sha": "7256fd82ca14f0ab8d2624b6f348e6871ae1ba05",
+      "difference": "选址篇讨论平台排序及准确率能否支持租金溢价；本篇讨论餐厅作为供应商推荐的买方，应如何区分新增品类和替代采购。证据来源、经营对象与决策变量不同，没有重复选址篇。"
+    },
+    "closest_topics": "既有AI加购面向消费者；新品研发关注配方与试制；别名映射关注SKU对应；订货和规格篇关注数量、单位及店型。本文新增推荐数据范围、卖方目标与买方保留条件。"
+  },
+  "independent_review": {
+    "passed": true,
+    "scope": "案例归属、触发条件、未来能力、财年及产品范围、采购覆盖未知、SKU口径、替代条件与旧篇边界。",
+    "frozen_hashes_match_review": true,
+    "source_research_repeated_by_archive_step": false
+  },
+  "limitations": [
+    "作者自检文件的未提交措辞及sources.md的69篇基线保留为准备阶段历史快照；当前结果以archive-status.json为准。",
+    "恒天然为实施方案例；Sysco年报与管理层转录属于同一企业来源链，不能作为独立门店效果验证。",
+    "不推断全渠道采购覆盖、SKU定义、因果收益或中国小店利润。"
+  ],
+  "scope": {
+    "public_small_text_only": true,
+    "html_or_zip_included": false,
+    "forced_update": false,
+    "prior_files_modified": false,
+    "restricted_site_access": false,
+    "historical_uncertain_objects_retried": false,
+    "portal_or_public_site_synced": false,
+    "visual_qa_performed": false
+  }
+}
