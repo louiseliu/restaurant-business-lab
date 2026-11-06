@@ -1,0 +1,38 @@
+{
+  "kind": "author_assumed_scenarios_not_measured_results",
+  "currency": "CNY",
+  "checksPassed": 8,
+  "formula": "orderContribution = settlementNet - notYetDeductedVariableCost; relativeContribution = orderContribution - displacedContribution",
+  "limitations": [
+    "No platform alert threshold is assumed or estimated.",
+    "Displacement scenario assumes exactly one otherwise-completed alternative order is lost; not an empirical substitution rate.",
+    "No campaign causal effect, total shop net profit, or ROI is estimated.",
+    "Final settlement and costs must use one consistent tax, refund, fee and observation scope."
+  ],
+  "scenarios": [
+    {
+      "id": "idle_positive",
+      "settlementNetCNY": "12.00",
+      "notYetDeductedVariableCostCNY": "8.00",
+      "displacedContributionCNY": "0.00",
+      "orderContributionCNY": "4.00",
+      "relativeContributionCNY": "4.00"
+    },
+    {
+      "id": "cost_drift",
+      "settlementNetCNY": "12.00",
+      "notYetDeductedVariableCostCNY": "13.00",
+      "displacedContributionCNY": "0.00",
+      "orderContributionCNY": "-1.00",
+      "relativeContributionCNY": "-1.00"
+    },
+    {
+      "id": "one_for_one_peak_displacement",
+      "settlementNetCNY": "12.00",
+      "notYetDeductedVariableCostCNY": "8.00",
+      "displacedContributionCNY": "5.00",
+      "orderContributionCNY": "4.00",
+      "relativeContributionCNY": "-1.00"
+    }
+  ]
+}
