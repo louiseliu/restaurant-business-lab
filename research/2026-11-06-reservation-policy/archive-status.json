@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "article_id": "reservation-policy",
+  "document_id": "research-2026-11-06-reservation-policy-note",
+  "repository": "louiseliu/restaurant-business-lab",
+  "branch": "main",
+  "repository_directory": "research/2026-11-06-reservation-policy",
+  "first_commit_sha": "fdb6fd9e3c9e34d4afc772a14bd82dc8e6a8d349",
+  "first_committed_at": "2026-11-06T06:16:18Z",
+  "first_committed_at_beijing": "2026-11-06T14:16:18+08:00",
+  "first_commit_url": "https://github.com/louiseliu/restaurant-business-lab/commit/fdb6fd9e3c9e34d4afc772a14bd82dc8e6a8d349",
+  "archive_base_commit_sha": "27ace1747c9c82a0df481cdb7c25f35a76dabdb1",
+  "archive_base_tree_sha": "798a28a053de2abbb19384001aba031886276194",
+  "verification": {
+    "all_four_files_read_back_exactly": true,
+    "all_four_git_blob_shas_match": true,
+    "all_1812_existing_file_blobs_preserved": true,
+    "non_forced_expected_head_update": true,
+    "all_71_prior_research_blobs_match_dedup_baseline": true,
+    "source_research_not_repeated_by_archive_step": true
+  },
+  "files": {
+    "note.md": {
+      "bytes": 11628,
+      "sha256": "84faa5c93a104830d43392e532d5deff2ed86f5a6109031a4b281a6ef91b4c88",
+      "git_blob_sha": "d12bb83cef7627c44226d8221babd1be32d253cb",
+      "remote_text_equal": true
+    },
+    "sources.md": {
+      "bytes": 5479,
+      "sha256": "42dbc240f5d32f72b6e70c0bc40ed6d32587786f8d27f90e1fbe1849ade0e3c3",
+      "git_blob_sha": "d73f63af85c0ed763dd6bf408dd439d98297f70d",
+      "remote_text_equal": true
+    },
+    "dedup.json": {
+      "bytes": 17800,
+      "sha256": "55496c26383291a0375f26c35985172307ecec5ddeb268543d31d19a050f566f",
+      "git_blob_sha": "caba07521444ee5871d21d96b83f7451a4d39323",
+      "remote_text_equal": true
+    },
+    "archive-check.json": {
+      "bytes": 2372,
+      "sha256": "77c596b907cc40f79fad7853b51439745df53db76e0a4493833d84b21ef637d9",
+      "git_blob_sha": "099adb99e9c6e42717cb377fa271e8c24c8da9b5",
+      "remote_text_equal": true
+    }
+  },
+  "research_count_at_first_commit": 72,
+  "classification": "经营机制与AI应用边界研究",
+  "classification_note": "AI类别仅表示研究主题，不代表具名餐厅已启用AI或经营成效经独立验证。",
+  "historical_status_note": "sources.md和dedup.json保留准备阶段未提交/未计新篇状态；本次真实首次归档和回读状态以本文件为准。dedup.json的baselineTreeSha实际是基线提交SHA，本文件另列真实树SHA。",
+  "delivery": {
+    "research_text_archived": true,
+    "html_or_zip_in_this_archive": false,
+    "standalone_visual_work": "另行制作，本次不声明完成或交付",
+    "complete_portal_work": "本次未构建或验收",
+    "public_site_synchronized": false,
+    "source_sites_revisited_by_archive_step": false,
+    "browser_visual_or_interaction_qa_performed": false,
+    "attachment_send_performed_by_this_step": false
+  },
+  "ci": {
+    "commit_sha": "fdb6fd9e3c9e34d4afc772a14bd82dc8e6a8d349",
+    "status": {
+      "state": "pending",
+      "total_count": 0,
+      "statuses": 0
+    },
+    "checks": {
+      "total_count": 0
+    },
+    "workflows": {
+      "total_count": 0
+    },
+    "result": "未发现本次提交的状态、检查或工作流执行记录，不声明CI通过。"
+  },
+  "existing_work_note": "README.md、state/current.md、全部既有用户内容和历史归档缺件保持；本次未重试历史结果不确定的操作，未访问受限原站。过去图文/门户/附件及未同步状态不因本次正文归档自动关闭。"
+}
+
