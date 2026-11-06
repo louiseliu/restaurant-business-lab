@@ -1,0 +1,69 @@
+{
+  "article_id": "camera-reuse",
+  "research_number": 64,
+  "ai_topic_count": 42,
+  "title": "后厨摄像头还能看，升级AI时要不要全部换掉？",
+  "first_commit": "eaf8d57c523197ca67a04662f5d48dc45a201c22",
+  "first_committed_at_utc": "2026-11-06T01:10:58Z",
+  "first_committed_at_beijing": "2026-11-06T09:10:58+08:00",
+  "repository": "louiseliu/restaurant-business-lab",
+  "branch": "main",
+  "frozen_files": [
+    {
+      "path": "research/2026-11-06-camera-reuse/note.md",
+      "sha256": "09d864ade214722429d1aac34cdbf391f303464db2cb32d66f75029d4acec549",
+      "remote_text_equal": true,
+      "git_blob_equal": true
+    },
+    {
+      "path": "research/2026-11-06-camera-reuse/sources.md",
+      "sha256": "d29ebbf9ba26acb5179ebb5492b7e2f34667076eb8d9b7c63a1c212dd3607192",
+      "remote_text_equal": true,
+      "git_blob_equal": true
+    }
+  ],
+  "first_commit_verified": true,
+  "existing_blobs_preserved": 1323,
+  "non_forced_update": true,
+  "phase": "正文与来源已归档；单篇图文、附件和完整门户增量待完成",
+  "frozen_stage_language": "来源台账中的本地稿、待审阅、修订稿待复核及未提交等为研究准备阶段快照；冻结文本不改写，当前归档状态以本记录及日志为准。",
+  "evidence_limits": [
+    "龙岗历史学校幼儿园建设与运行问题不代表AI失败率或小店故障概率。",
+    "湖北制度允许的云端补充与AI轮巡路径不保证任意旧设备兼容，不是全国换机要求。",
+    "未取得小店报价、维护工时、逐店兼容、AI效果或食安收益。"
+  ],
+  "last_local_portal": {
+    "research": 63,
+    "full_texts": 83,
+    "samples": 2,
+    "ai_topics": 41,
+    "queries": 129,
+    "browser_qa": "未验",
+    "source_archive": "已有记录为部分归档，5项审计文件缺件继续保留"
+  },
+  "current_article_portal_integration": "待完成",
+  "illustrated_article": "待完成",
+  "attachment": "未发送",
+  "public_site": {
+    "last_verified_version": "v19",
+    "last_verified_counts": {
+      "research": 20,
+      "full_texts": 40,
+      "samples": 2,
+      "ai_topics": 9
+    },
+    "current_readability_rechecked": false,
+    "synchronized": false,
+    "pending_sync_items": 46
+  },
+  "outstanding": [
+    "第64篇单篇图文与内容核查、实际可完成的视觉和交互检查",
+    "第64篇附件及完整门户增量",
+    "第63篇门户审计文件归档缺件",
+    "HTML归档、历史附件替换、费用原归档、原站可读性及用户编辑保护、旧全站离线快照和既有视觉待办"
+  ],
+  "html_or_zip_uploaded": false,
+  "public_site_published": false,
+  "permissions_changed": false,
+  "new_pro_consultation": false
+}
