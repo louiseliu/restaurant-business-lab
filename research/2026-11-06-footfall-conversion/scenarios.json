@@ -1,0 +1,13 @@
+{
+  "scenario_type": "作者构造，非餐厅实测；同一批60笔订单，只改变统计分母",
+  "orders": 60,
+  "unfiltered_entries": 120,
+  "eligible_entries_after_filtering": 100,
+  "old_ratio": 0.5,
+  "new_ratio": 0.6,
+  "percentage_point_change": 10.0,
+  "relative_change_percent": 20.0,
+  "additional_orders": 0,
+  "four_diners_one_order_ratio": 0.25,
+  "four_diners_one_order_note": "假设四人均用餐并合付一单；1单/4人不能解释为仅一人消费"
+}
