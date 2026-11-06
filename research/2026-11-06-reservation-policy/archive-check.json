@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "article_id": "reservation-policy",
+  "document_id": "research-2026-11-06-reservation-policy-note",
+  "checked_at": "2026-11-06T06:14:00Z",
+  "stage": "pre-commit archive verification",
+  "repository": "louiseliu/restaurant-business-lab",
+  "branch": "main",
+  "repository_directory": "research/2026-11-06-reservation-policy",
+  "archive_base_commit_sha": "27ace1747c9c82a0df481cdb7c25f35a76dabdb1",
+  "archive_base_tree_sha": "798a28a053de2abbb19384001aba031886276194",
+  "classification": "经营机制与AI应用边界研究",
+  "independent_ai_effect_verified": false,
+  "checks": {
+    "final_frozen_note_and_sources_hashes_match": true,
+    "all_71_prior_research_blobs_match_current_remote": true,
+    "prior_article_count": 71,
+    "existing_remote_file_count": 1812,
+    "private_data_pattern_scan_passed": true,
+    "html_or_zip_included": false
+  },
+  "files": {
+    "note.md": {
+      "bytes": 11628,
+      "sha256": "84faa5c93a104830d43392e532d5deff2ed86f5a6109031a4b281a6ef91b4c88",
+      "git_blob_sha": "d12bb83cef7627c44226d8221babd1be32d253cb"
+    },
+    "sources.md": {
+      "bytes": 5479,
+      "sha256": "42dbc240f5d32f72b6e70c0bc40ed6d32587786f8d27f90e1fbe1849ade0e3c3",
+      "git_blob_sha": "d73f63af85c0ed763dd6bf408dd439d98297f70d"
+    },
+    "dedup.json": {
+      "bytes": 17800,
+      "sha256": "55496c26383291a0375f26c35985172307ecec5ddeb268543d31d19a050f566f",
+      "git_blob_sha": "caba07521444ee5871d21d96b83f7451a4d39323"
+    }
+  },
+  "historical_status_note": "sources.md和dedup.json保留准备阶段状态，首次提交真实时间及最终回读状态另记。dedup.json的baselineTreeSha字段实际记录基线提交SHA，本文件分别列出提交和树SHA。",
+  "dedup_scope": "71份准备阶段查重指纹与当前远端完全一致；全文关键词检查及最接近三篇语义对照，不声称全部71篇重新做完整语义审稿。",
+  "scope": "只新增公开正文、来源、查重与本归档检查；不修改README.md、state/current.md及既有文件，不上传HTML或ZIP，不访问受限原站，不重试历史结果不确定的操作。",
+  "limits": "未核验具名餐厅AI启用或真实预订、支付、取消和退款；没有因果成效、全成本和净贡献对照。无数字收益计算。图文、附件及完整门户均不因本次研究归档而完成。"
+}
+
