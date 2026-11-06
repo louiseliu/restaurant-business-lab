@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "article_id": "ai-recipe-development",
+  "document_id": "research-2026-11-06-ai-recipe-development-note",
+  "repository_directory": "research/2026-11-06-ai-recipe-development",
+  "prepared_at": "2026-11-06T03:09:52.635425Z",
+  "independent_text_review_completed": true,
+  "source_revision_verified": true,
+  "review_revisions": [
+    "去除生成配方可以更快的未测速度暗示。",
+    "明确两项均非商业成效验证，不能当作独立复制。",
+    "开头收窄为有厨师参与的小规模研发试验，不作跨模型或菜系部署背书。",
+    "补充后续调查的素食/纯素、低频汉堡食用及特定过敏排除边界，不泛称目标植物基客群已验证。"
+  ],
+  "frozen_preparation_dedup": {
+    "path": "dedup.json",
+    "research_count": 65,
+    "baseline_commit_sha": "397040b1a0def6f673d79f47ef185fb215c5f045",
+    "all_65_git_blob_shas_match_baseline_tree": true,
+    "note": "dedup.json中的baseline_tree_sha历史字段保存的是基线提交SHA；准备阶段状态保留，不倒写归档结果。"
+  },
+  "evidence_limits": {
+    "statistical_reanalysis_performed": false,
+    "model_rerun_performed": false,
+    "supplementary_data_and_pdf_read": false,
+    "publisher_crossmark_full_check_completed": false,
+    "chinese_store_efficacy_verified": false,
+    "independent_commercial_replication_verified": false
+  },
+  "frozen_files": [
+    {
+      "path": "note.md",
+      "bytes": 9631,
+      "sha256": "dfda290cb83772ae5dfa26cdb9c9a757619804702ba88548257fad57b2eb461c"
+    },
+    {
+      "path": "sources.md",
+      "bytes": 4228,
+      "sha256": "e6fed9407d60ed3f55902d056531acdc554c9e7c6fa626490ae01be92cc9b46d"
+    },
+    {
+      "path": "dedup.json",
+      "bytes": 15607,
+      "sha256": "979095253a23bb31a33132e89267acc1313f3f1162a3c1e9f8a085020e75413a"
+    }
+  ],
+  "scope": "只归档本文正文、来源、冻结查重及当前小型核验状态；图示计划和准备检查仍是准备阶段材料，本次不提交HTML或ZIP。",
+  "privacy_check": {
+    "private_paths_found": false,
+    "private_conversation_links_found": false,
+    "credential_like_markers_found": false
+  },
+  "publication": {
+    "public_site_synchronized": false,
+    "browser_visual_or_interaction_qa_performed": false,
+    "attachment_delivery_not_part_of_this_archive": true
+  },
+  "first_commit": "首提后在archive-status.json中另记实得SHA和GitHub提交时间。",
+  "incremental_dedup": {
+    "added_after_preparation": [
+      {
+        "path": "research/2026-11-06-digitalhuman-livestream/note.md",
+        "git_blob_sha": "81bcab57c27796fba011cd62fb486e00a84cabd9",
+        "title": "AI主播能播一整夜，小店该不该跟着全天开播？",
+        "first_commit_sha": "e8a30863c44caf6b8f50dc62d4414352a332b088",
+        "full_text_read": true,
+        "keyword_terms": [
+          "BurgerAI",
+          "Burger AI",
+          "配方研发",
+          "新品研发",
+          "AI研发",
+          "汉堡配方",
+          "营养标识",
+          "新品试销"
+        ],
+        "keyword_hits": [],
+        "finding": "新增直播研究讨论销售时段、内容维护、互动责任与核销贡献；本文讨论AI候选配方、厨师试制及新品付费试销的预算分配，经营问题与主证据不同。"
+      }
+    ],
+    "research_count_after_delta": 66,
+    "comparison": "冻结65篇基线加逐篇实读新增直播正文；不把关键词无命中当作绝对无重复证明。"
+  },
+  "checked_at": "2026-11-06T03:15:21Z",
+  "latest_research_snapshot": {
+    "commit_sha": "e8a30863c44caf6b8f50dc62d4414352a332b088",
+    "tree_sha": "f1437434ab9e509ba88629c07810e40ad75fd3d7",
+    "research_count": 66,
+    "all_original_65_study_blobs_preserved": true
+  }
+}
