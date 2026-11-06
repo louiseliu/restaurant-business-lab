@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "article_id": "order-alert",
+  "document_id": "research-2026-11-06-order-alert-note",
+  "title": "外卖来单提醒何时才能停止",
+  "repository": "louiseliu/restaurant-business-lab",
+  "branch": "main",
+  "repository_directory": "research/2026-11-06-order-alert",
+  "first_commit_sha": "40d7d709015ed753668b52e22c0dd8d49ff96db9",
+  "first_committed_at": "2026-11-06T06:20:11Z",
+  "first_committed_at_beijing": "2026-11-06T14:20:11+08:00",
+  "first_commit_url": "https://github.com/louiseliu/restaurant-business-lab/commit/40d7d709015ed753668b52e22c0dd8d49ff96db9",
+  "first_main_observed_at": "2026-11-06T06:20:30.459Z",
+  "archive_base_commit_sha": "84ca4807ef4aa1b856ad8f6f1868233fbc750249",
+  "archive_base_tree_sha": "701d6b753900030f3e7f8344e78945059e219b30",
+  "first_commit_tree_sha": "9f8cc7a627ced4144324d27259ade8cd370bb290",
+  "verification": {
+    "first_commit_on_main": true,
+    "all_four_files_read_back_exactly": true,
+    "all_four_git_blob_shas_match": true,
+    "all_1818_existing_file_blobs_preserved": true,
+    "non_forced_expected_head_update": true,
+    "all_72_prior_research_blob_shas_match": true,
+    "nine_closest_articles_read": true,
+    "frozen_body_and_sources_byte_unchanged": true,
+    "independent_source_review_passed": true,
+    "public_text_privacy_scan_passed": true,
+    "source_sites_revisited_by_archive_step": false
+  },
+  "files": {
+    "note.md": {
+      "bytes": 9748,
+      "sha256": "3e5c8caa67a5be519088bad0680e4a111e7f1943a127c6172750960db6757124",
+      "git_blob_sha": "035a0bdb4fcc3d344e1f761e2018058b178033b3",
+      "remote_text_equal": true
+    },
+    "sources.md": {
+      "bytes": 8310,
+      "sha256": "a5d2cc8cba107b218912ceb281ddbfc947cbcb920f6ca73c4b4b45349b7b85bb",
+      "git_blob_sha": "84fd8c8ba569a749890f0214fbbbb83dbc3d3dcc",
+      "remote_text_equal": true
+    },
+    "review-check.md": {
+      "bytes": 1710,
+      "sha256": "8a535a8adc08559d4836d29c4214d17e2371761f34c8ae5324d87f37e8924ecf",
+      "git_blob_sha": "580fdf07ba9daf8eb40c8a87c987a9589fdcdee9",
+      "remote_text_equal": true
+    },
+    "archive-check.json": {
+      "bytes": 5234,
+      "sha256": "4ab029990d968d600c3c89a23fc7f96e64fb4fde9391924d88f1560b661b672d",
+      "git_blob_sha": "9c80b8b155a6723df3f82900dfce45dcfe5637f4",
+      "remote_text_equal": true
+    }
+  },
+  "research_count": 73,
+  "classification": "非AI信号与运营机制研究",
+  "ai_topic_count_change": 0,
+  "means_verified_ai_benefit": false,
+  "historical_status_note": "sources.md中的未提交仓库及71篇基线、archive-check.json中的首提尚未发生，均保留为各自准备阶段快照。本记录依据成功首提与远端逐字回读，不倒写冻结文本。",
+  "evidence_limits": [
+    "光感器件及持续灯光不作为AI证据。",
+    "取票停止提示不证明平台确认接单、核单、制作或履约完成。",
+    "S1与S2是同一记者和案例证据链，S3匿名餐厅不与具名案例对应，S4实施方说明及访问差异如实保留。",
+    "未采用缺少分母、观察期与对照的成效数字；费用自述不当作商业报价或完整成本。",
+    "没有门店实测、经营日志、完整报价、持续维护记录或新增Pro咨询。"
+  ],
+  "delivery": {
+    "research_text_archived": true,
+    "html_or_zip_in_this_archive": false,
+    "standalone_visual_work": "另行制作，本归档步骤不声明完成、交付或验收。",
+    "complete_portal_work": "本步骤未构建或同步完整门户。",
+    "public_site_synchronized": false,
+    "current_public_site_readability_reverified": false,
+    "browser_visual_or_interaction_qa_performed": false,
+    "attachment_send_performed_by_this_step": false
+  },
+  "last_repository_portal_snapshot": {
+    "source": "state/2026-11-06-portal71.json",
+    "research": 71,
+    "full_texts": 91,
+    "illustrated_stories": 71,
+    "samples": 2,
+    "ai": 48,
+    "queries": 146,
+    "note": "归档前既有快照，不代表并行工作的实时完成状态。"
+  },
+  "ci": {
+    "commit_sha": "40d7d709015ed753668b52e22c0dd8d49ff96db9",
+    "commit_statuses": 0,
+    "check_runs": 0,
+    "workflow_runs": 0,
+    "result": "未发现本次首提的CI执行记录，不声明CI通过。"
+  },
+  "existing_work_note": "全部既有文件、用户改动、历史不确定写入与其他待办保持。未重试历史操作，未访问受限原站，未发布、强推、删除或改权限。README.md与state/current.md未修改。"
+}
