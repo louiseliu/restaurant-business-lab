@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "article_id": "order-alert",
+  "document_id": "research-2026-11-06-order-alert-note",
+  "title": "外卖来单提醒何时才能停止",
+  "checked_date": "2026-11-06",
+  "status": "pre_commit_checks_passed",
+  "repository": "louiseliu/restaurant-business-lab",
+  "branch": "main",
+  "repository_directory": "research/2026-11-06-order-alert",
+  "base_commit_sha": "84ca4807ef4aa1b856ad8f6f1868233fbc750249",
+  "base_tree_sha": "701d6b753900030f3e7f8344e78945059e219b30",
+  "classification": "非AI信号与运营机制研究",
+  "means_verified_ai_benefit": false,
+  "frozen_files": {
+    "note.md": {
+      "bytes": 9748,
+      "sha256": "3e5c8caa67a5be519088bad0680e4a111e7f1943a127c6172750960db6757124",
+      "git_blob_sha": "035a0bdb4fcc3d344e1f761e2018058b178033b3"
+    },
+    "sources.md": {
+      "bytes": 8310,
+      "sha256": "a5d2cc8cba107b218912ceb281ddbfc947cbcb920f6ca73c4b4b45349b7b85bb",
+      "git_blob_sha": "84fd8c8ba569a749890f0214fbbbb83dbc3d3dcc"
+    },
+    "review-check.md": {
+      "bytes": 1710,
+      "sha256": "8a535a8adc08559d4836d29c4214d17e2371761f34c8ae5324d87f37e8924ecf",
+      "git_blob_sha": "580fdf07ba9daf8eb40c8a87c987a9589fdcdee9"
+    }
+  },
+  "independent_review": {
+    "result": "PASS",
+    "open_P0": 0,
+    "open_P1": 0,
+    "summary": "review-check.md",
+    "scope": "原始来源事实审校已在准备阶段完成；本归档步骤核对冻结文本，不重访外部原始来源。"
+  },
+  "dedup": {
+    "baseline_studies_git_blob_matched": 71,
+    "new_reservation_article_read": true,
+    "base_research_count": 72,
+    "target_directory_absent": true,
+    "identical_git_blobs_found": 0,
+    "github_keyword_searches": [
+      "三禾桔",
+      "order-alert"
+    ],
+    "github_keyword_search_results": 0,
+    "scope": "核对已建立的71份研究清单与最新main树一致；回读8份近邻正文及新归档订座规则篇。关键词搜索未命中仅作为辅助，不代替逐篇语义审读。",
+    "closest_existing": [
+      {
+        "path": "research/2026-11-02-pass-confirmation/note.md",
+        "git_blob_sha": "a4dde71279d9cb6ca4811fdef12e8a5749912869",
+        "difference": "出菜口识菜、选桌和传菜状态；本篇为新单提醒能否被感知与取票停止条件。"
+      },
+      {
+        "path": "research/2026-11-02-vision-feedback-timing/note.md",
+        "git_blob_sha": "f9d08e895013e3cb5320585520b7cded7c6a4415",
+        "difference": "品控同步拦截与事后复盘；本篇不判断出品质量。"
+      },
+      {
+        "path": "research/2026-11-03-service-handoff/note.md",
+        "git_blob_sha": "f1fc411cc27a5a878991e6dd0362f745a7ef2a94",
+        "difference": "AI客服人工接手后的暂停和恢复；本篇不涉及AI对话。"
+      },
+      {
+        "path": "research/2026-10-30-voice-receptionist/note.md",
+        "git_blob_sha": "bad0087791fe5053a1be2b26fdea298c41141330",
+        "difference": "电话接待与前厅打断；本篇不替代电话业务。"
+      },
+      {
+        "path": "research/2026-11-05-hiring-access/note.md",
+        "git_blob_sha": "d1870bf3725a1a55c462a6f56b1c92928917ddc7",
+        "difference": "候选人进入招聘流程与行政辅助边界；本篇为已在岗员工感知来单，不评估人员能力。"
+      },
+      {
+        "path": "research/2026-11-01-crossplatform-operations/note.md",
+        "git_blob_sha": "2cbf61b3152e4bdca244c1ad83228dafd3c5e2f8",
+        "difference": "统一汇单后保留的平台任务与值守；本篇聚焦本地提醒，不重做整合采购比较。"
+      },
+      {
+        "path": "research/2026-11-03-order-cancellation/note.md",
+        "git_blob_sha": "9c725b18c83e755e48d3b2d2555724ab995a031c",
+        "difference": "取消通知后的停止制作和配送；本篇围绕新单待取提示，不设计取消和退款流程。"
+      },
+      {
+        "path": "research/2026-11-04-offline-pos/note.md",
+        "git_blob_sha": "3b191a59ede7ffd6c329caa9eff4a13aa0c2b1de",
+        "difference": "离线开单与复网逐笔对应；本篇只将打印或信号失败列为提醒异常，不扩写复网对账。"
+      },
+      {
+        "path": "research/2026-11-06-reservation-policy/note.md",
+        "git_blob_sha": "d12bb83cef7627c44226d8221babd1be32d253cb",
+        "difference": "订座付款或卡担保的范围、确认前流失与餐段贡献；本篇为员工感知外卖新单与取票停止条件，不涉及顾客预付款规则。"
+      }
+    ]
+  },
+  "privacy": {
+    "public_text_only": true,
+    "private_paths_or_conversation_links_found": 0,
+    "credential_markers_found": 0,
+    "private_business_data_included": false
+  },
+  "archive_plan": {
+    "preserve_all_existing_files": true,
+    "non_forced_expected_head_update": true,
+    "first_commit_time": "尚未发生；首提成功后从GitHub提交记录取得并写入archive-status.json。",
+    "html_or_zip_included": false,
+    "readme_or_historical_state_rewritten": false
+  },
+  "historical_status_note": "sources.md中的未提交仓库及71篇基线是准备阶段快照；本次基线为72篇，不倒写冻结台账。图文和门户另行制作，本步骤不宣称交付、上站或浏览器验收完成。"
+}
