@@ -1,0 +1,122 @@
+{
+  "diagram": {
+    "layout": "table-turnover-timeline",
+    "label": "提前知道5分钟，入座可能提前5分钟，也可能不变",
+    "scope": "三组作者假设。横轴是上一组离席后的分钟；两种方式只改变负责人收到可行动信息的时点：第6分钟 → 第1分钟。不是海底捞系统效果、AI测量或自动派工流程。",
+    "nodes": [
+      {
+        "scenario": "information_delay",
+        "label": "人员和合适顾客已可用",
+        "variant": "baseline",
+        "variantLabel": "原方式",
+        "noticed": 6,
+        "cleanerAvailable": 0,
+        "guestReady": 0,
+        "cleaningStart": 6,
+        "tableReady": 10,
+        "hostInformed": 10,
+        "seated": 10,
+        "saved": 5
+      },
+      {
+        "scenario": "information_delay",
+        "label": "人员和合适顾客已可用",
+        "variant": "earlier_notice",
+        "variantLabel": "更早通知",
+        "noticed": 1,
+        "cleanerAvailable": 0,
+        "guestReady": 0,
+        "cleaningStart": 1,
+        "tableReady": 5,
+        "hostInformed": 5,
+        "seated": 5,
+        "saved": 5
+      },
+      {
+        "scenario": "cleaner_busy",
+        "label": "清台人员第8分钟才能接手",
+        "variant": "baseline",
+        "variantLabel": "原方式",
+        "noticed": 6,
+        "cleanerAvailable": 8,
+        "guestReady": 0,
+        "cleaningStart": 8,
+        "tableReady": 12,
+        "hostInformed": 12,
+        "seated": 12,
+        "saved": 0
+      },
+      {
+        "scenario": "cleaner_busy",
+        "label": "清台人员第8分钟才能接手",
+        "variant": "earlier_notice",
+        "variantLabel": "更早通知",
+        "noticed": 1,
+        "cleanerAvailable": 8,
+        "guestReady": 0,
+        "cleaningStart": 8,
+        "tableReady": 12,
+        "hostInformed": 12,
+        "seated": 12,
+        "saved": 0
+      },
+      {
+        "scenario": "guest_not_ready",
+        "label": "合适顾客第14分钟才准备好入座",
+        "variant": "baseline",
+        "variantLabel": "原方式",
+        "noticed": 6,
+        "cleanerAvailable": 0,
+        "guestReady": 14,
+        "cleaningStart": 6,
+        "tableReady": 10,
+        "hostInformed": 10,
+        "seated": 14,
+        "saved": 0
+      },
+      {
+        "scenario": "guest_not_ready",
+        "label": "合适顾客第14分钟才准备好入座",
+        "variant": "earlier_notice",
+        "variantLabel": "更早通知",
+        "noticed": 1,
+        "cleanerAvailable": 0,
+        "guestReady": 14,
+        "cleaningStart": 1,
+        "tableReady": 5,
+        "hostInformed": 5,
+        "seated": 14,
+        "saved": 0
+      }
+    ],
+    "completion": "入座提前分别为5、0、0分钟。提前通知能否改变入座，要看清台人员和匹配顾客是否也已就绪。",
+    "note": "图1｜纯假设机制图。每次清理摆台均用4分钟，不是清洁作业标准。单桌、单组适配顾客；人员与顾客可用时点固定不变；桌位准备好后门迎立即得知，不计同步等待；假设前厅和厨房可承接，忽略带位时间、多桌竞争和调度。不能把5分钟乘以全店桌数折算销售。"
+  },
+  "secondDiagram": {
+    "layout": "table-turnover-decision",
+    "label": "先判断卡在哪一段，再决定钱花在哪里",
+    "scope": "从有适配候客的桌间空置开始。下面三段是作者提出的观察与投入顺序，不是任何连锁的实测流程或已验证效果。",
+    "nodes": [
+      {
+        "title": "发现与同步",
+        "condition": "负责人迟知道桌已空，或门迎迟知道桌已准备好。",
+        "action": "先查原有状态记录和通知；仍有多区观察负担，再有限试用识别。",
+        "boundary": "摄像头输出 ≠ 负责人收到可行动信息。"
+      },
+      {
+        "title": "清台与摆台",
+        "condition": "已经知道，但清台人员、用品或动线仍未就绪。",
+        "action": "先调整忙时分工、用品位置、行走路线和必要能力。",
+        "boundary": "知道得更早，不会自动增加清台能力。"
+      },
+      {
+        "title": "等候与桌型",
+        "condition": "桌已准备好，但顾客、合适桌型或带位安排尚未就绪。",
+        "action": "核对候客与桌型匹配、既有分配规则和带位安排。",
+        "boundary": "门口有人等，不等于每张空桌都能立即接待。"
+      }
+    ],
+    "completion": "三段都回到整餐段核查：实际入座、其他桌等待、后续服务和维护负担。一直未再入座的桌次也留在记录中，注明观察结束仍未入座。",
+    "note": "图2｜定性经营分析，无通用桌数或ROI门槛。现实中更早获知可能改变调度，也可能把等待转移到其他桌；图1固定可用时点，未模拟这些变化。只记无身份桌位事件，无需顾客姓名或影像。"
+  }
+}

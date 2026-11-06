@@ -1,0 +1,26 @@
+{
+  "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0424/2026042403014_c.pdf": {
+    "title": "S1 · 海底捞2025 ESG报告（中文，印刷第30页／PDF第33页）",
+    "summary": "经营者正式报告披露AI视频分析餐位状态并同步到迎客员工服务终端，超过1,200家部署。不是独立效果审计；未披露清台派工、准确率或项目利润。",
+    "source": "2026年11月6日核验；证据类型与限制见完整来源台账。",
+    "approvedForReport": true
+  },
+  "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0424/2026042403013.pdf": {
+    "title": "S1 · 同一报告英文版（不是独立验证）",
+    "summary": "同一份经营者报告英文版，与中文版不构成两次独立验证。项目表格为印刷第30页、PDF第33页。",
+    "source": "2026年11月6日核验；证据类型与限制见完整来源台账。",
+    "approvedForReport": true
+  },
+  "https://www.apple.com.cn/newsroom/2025/08/mac-empowers-innovation-and-growth-for-business-in-china/": {
+    "title": "S2 · Apple客户案例（2025年8月29日）",
+    "summary": "硬件供应商客户案例，介绍海底捞与优海将既有智能待客系统迁移至Mac mini，并在iPad查看桌态。不据迁移性能或成本数字推算小店从零安装收益。",
+    "source": "2026年11月6日核验；证据类型与限制见完整来源台账。",
+    "approvedForReport": true
+  },
+  "https://blog.pospal.cn/kb/328": {
+    "title": "S3 · 银豹官方PC收银清台说明",
+    "summary": "厂商产品机制说明：提前或中途付账须确认空出台位再作系统清台；餐后付账可配置收银后自动清空桌号。软件状态不证明物理清洁完成。",
+    "source": "2026年11月6日核验；证据类型与限制见完整来源台账。",
+    "approvedForReport": true
+  }
+}
