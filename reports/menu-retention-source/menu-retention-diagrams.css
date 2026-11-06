@@ -1,0 +1,17 @@
+.menu-retention-diagram{margin:24px 0 36px;color:var(--text)}
+.menu-retention-diagram>.rich-narrative-content{font-size:14px;line-height:1.8;color:var(--secondary)}
+.menu-retention-cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:22px 0}
+.menu-retention-card{position:relative;min-width:0;border:1px solid var(--border);border-radius:12px;padding:20px 18px;background:var(--background)}
+.menu-retention-index{display:inline-flex;align-items:center;justify-content:center;width:32px;height:32px;border-radius:50%;background:var(--muted);color:var(--text);font-size:12px;font-weight:700;margin-bottom:14px}
+.menu-retention-stage{font-size:11px;letter-spacing:.03em;color:var(--secondary);margin-bottom:8px}
+.menu-retention-card h3{font-size:20px;line-height:1.45;letter-spacing:-.025em;margin:0 0 14px;color:var(--text)}
+.menu-retention-card p{font-size:14px;line-height:1.8;margin:10px 0;color:var(--text);overflow-wrap:anywhere}
+.menu-retention-card .menu-retention-limit{border-top:1px solid var(--border);padding-top:12px;margin-top:14px;color:var(--secondary);font-size:13px}
+.menu-retention-card small{display:block;font-size:11px;line-height:1.7;color:var(--secondary);margin-top:12px}
+.menu-retention-evidence .menu-retention-card:nth-child(2){margin-top:16px}
+.menu-retention-evidence .menu-retention-card:nth-child(3){margin-top:32px}
+.menu-retention-unresolved{border:2px dashed var(--border);background:var(--muted)}
+.menu-retention-conclusion{font-size:16px;line-height:1.85;border-left:3px solid var(--text);background:var(--muted);padding:14px 18px;margin:20px 0}
+.menu-retention-diagram figcaption{font-size:12px;line-height:1.8;color:var(--secondary);margin-top:16px}
+@media(max-width:720px){.menu-retention-cards{grid-template-columns:1fr;gap:12px}.menu-retention-evidence .menu-retention-card:nth-child(n){margin-top:0}.menu-retention-card{padding:18px}.menu-retention-index{margin-bottom:10px}.menu-retention-card h3{font-size:20px}.menu-retention-conclusion{padding:12px 15px}}
+@media print{.menu-retention-card{break-inside:avoid}.menu-retention-cards{grid-template-columns:1fr}.menu-retention-evidence .menu-retention-card:nth-child(n){margin-top:0}}
