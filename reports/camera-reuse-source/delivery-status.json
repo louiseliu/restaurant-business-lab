@@ -1,0 +1,49 @@
+{
+  "articleId": "camera-reuse",
+  "firstGit": "eaf8d57c523197ca67a04662f5d48dc45a201c22",
+  "firstCommittedAt": "2026-11-06T01:10:58Z",
+  "html": {
+    "bytes": 2938211,
+    "sha256": "00f519c429b409cad0b843c11f5a76d96a9a488929eb4704ca853dfd713a22ee"
+  },
+  "attachmentRequest": {
+    "status": "accepted",
+    "acceptedAt": "2026-11-06T01:16:27Z",
+    "deliveryConfirmed": false,
+    "openedConfirmed": false,
+    "downloadedConfirmed": false
+  },
+  "contentAndOfficialBuild": "complete",
+  "independentStaticReview": "passed with cosmetic unused CSS accent finding",
+  "sourceLedgerDisclosure": "首次研究台账，历史状态保留",
+  "frozenBodyAndSources": "unchanged",
+  "browserVisualAndInteractionQA": "not run",
+  "portalIntegration": "pending",
+  "siteSynchronized": false,
+  "lastLocalPortal": {
+    "research": 63,
+    "fullTexts": 83,
+    "samples": 2,
+    "ai": 41,
+    "queries": 129,
+    "sourceArchive": "partial; historical audit gaps retained"
+  },
+  "lastVerifiedPublicSite": {
+    "version": "v19",
+    "research": 20,
+    "fullTexts": 40,
+    "samples": 2,
+    "ai": 9,
+    "currentReadabilityRechecked": false,
+    "pendingSyncItems": 46
+  },
+  "largeHTMLGitArchive": "pending; not uploaded",
+  "largeZIPGitArchive": "not attempted",
+  "outstanding": [
+    "第64篇完整门户增量",
+    "浏览器视觉及交互验收",
+    "HTML归档",
+    "第63篇门户审计归档缺件",
+    "历史附件替换、费用原归档、原站可读性及用户编辑保护、旧全站离线快照和既有视觉待办"
+  ]
+}

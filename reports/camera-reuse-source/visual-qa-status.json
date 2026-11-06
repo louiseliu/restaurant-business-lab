@@ -1,0 +1,10 @@
+{
+  "browserVisualQA": "not run",
+  "browserInteractionQA": "not run",
+  "mobileQA": "not run",
+  "darkModeQA": "not run",
+  "printQA": "not run",
+  "offlineBrowserQA": "not run",
+  "claim": "Official compilation, compiled-data equality, manifest hashes, self-contained asset checks and static review only. No rendered acceptance claimed.",
+  "restrictionHandling": "No restricted preview retried; no file protocol, rehosting or publication used to bypass unavailable inspection."
+}

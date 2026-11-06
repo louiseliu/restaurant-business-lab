@@ -1,0 +1,46 @@
+{
+  "reviewedArtifact": {
+    "sha256": "00f519c429b409cad0b843c11f5a76d96a9a488929eb4704ca853dfd713a22ee",
+    "bytes": 2938211,
+    "matchesCurrentProduction": true
+  },
+  "firstGit": "eaf8d57c523197ca67a04662f5d48dc45a201c22",
+  "remoteOriginalsEqual": true,
+  "fullBodyEqual": true,
+  "completeSections": 6,
+  "qualitativeDiagrams": [
+    4,
+    3
+  ],
+  "numericChart": false,
+  "officialRebuildIdentical": true,
+  "offlineExportIdentical": true,
+  "noOverwriteCases": 8,
+  "sanitizationUnitTests": 3,
+  "privacyPatternFindings": 0,
+  "remoteAssetTags": 0,
+  "browserVisualQA": "not run",
+  "browserInteractionQA": "not run",
+  "pdfVisualQA": "not run",
+  "sourceTextQA": {
+    "Hubei": "Official PDF direct text verified, articles 6/9/11/13/30",
+    "Longgang": "Direct PDF request timed out; same official source opened via search index, claims verified in extracted text"
+  },
+  "publication": "Not attempted",
+  "resolvedFindings": [
+    {
+      "issue": "Historical sources ledger status",
+      "resolution": "首次研究台账，历史状态保留"
+    },
+    {
+      "issue": "Diagram 2 alternative trigger ambiguity",
+      "resolution": "画面不适用或设备不稳"
+    }
+  ],
+  "findings": [
+    {
+      "severity": "cosmetic",
+      "issue": "Boundary CSS conditional does not match actual row names, so optional boundary accent is unused."
+    }
+  ]
+}

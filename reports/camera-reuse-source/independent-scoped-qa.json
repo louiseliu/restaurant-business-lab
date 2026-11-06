@@ -1,0 +1,19 @@
+{
+  "result": "pass",
+  "scope": "Independent static review of final title/condition revisions and compiled data consistency",
+  "htmlBytes": 2938211,
+  "htmlSha256": "00f519c429b409cad0b843c11f5a76d96a9a488929eb4704ca853dfd713a22ee",
+  "checks": {
+    "historicalLedgerTitleAndSummary": "pass",
+    "thirdConditionUsesOr": "pass",
+    "frozenBodyAndSourcesHashes": "pass",
+    "firstCommitAndTimestamp": "pass",
+    "compiledArticleAndStoryEquality": "pass",
+    "diagramQueryRowsMatch": "pass"
+  },
+  "limitations": [
+    "No browser visual or interaction acceptance performed.",
+    "No upload or publication performed.",
+    "Eight overwrite guards and official rebuild were reported by author, not independently rerun in this final scoped check."
+  ]
+}

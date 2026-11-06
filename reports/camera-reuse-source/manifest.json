@@ -1,0 +1,127 @@
+{
+  "scope": "Small authored source, review and delivery status only; no HTML, ZIP or runtime infrastructure",
+  "files": {
+    "BUILD.md": {
+      "bytes": 4501,
+      "sha256": "543f60eafb703df4204badf99854cb35a86df168814b85aa32c66fbb8048dd9d"
+    },
+    "CameraReuseDiagrams.jsx": {
+      "bytes": 1654,
+      "sha256": "b3d8f06a0401ea7534fa735168139250cd7f93c81747c7109b8ef7e1bb2b3a02"
+    },
+    "archive-qa.json": {
+      "bytes": 622,
+      "sha256": "72e982dc4ef163d11e311b11bd07b279c6c96b89ce20b1055812ee893be18187"
+    },
+    "article-entry.json": {
+      "bytes": 9599,
+      "sha256": "f582c7152b596ef26ad450e46917487b551b7496e8ecb78bef9ea84b45da3676"
+    },
+    "article-reviewed-data.json": {
+      "bytes": 7473,
+      "sha256": "838b94ce57ac3df509de77411735fec59df9835fb1cda6f603090c2eedb3ab11"
+    },
+    "authoring-guard-qa.json": {
+      "bytes": 1022,
+      "sha256": "47d82b97bd110bdd7182b7fbbd967e69cc31ad333fddb926ab6ada350e5d94d1"
+    },
+    "build-qa.json": {
+      "bytes": 1066,
+      "sha256": "48f817cf2ac52286d3a3f87196f73292061193d405f19034905812c9e78b9201"
+    },
+    "camera-reuse-diagrams.css": {
+      "bytes": 2234,
+      "sha256": "216d40073b77753e56fe3b35f9d36bce8eb4bfecc3106c945e2e09ae8102856a"
+    },
+    "camera-reuse-source-previews.json": {
+      "bytes": 1113,
+      "sha256": "105e23e6203cc7d19edd4917267649739e1e2c42a50e3a16e54a7f62de7702d8"
+    },
+    "delivery-status.json": {
+      "bytes": 1544,
+      "sha256": "137033e392fa23871de6853c6f87fd087eb1f02d76773cba59e69afb1b10ece6"
+    },
+    "frozen.json": {
+      "bytes": 287,
+      "sha256": "e51d59818e1b2ff61d7bfc0877366bb13c44558f9d1e841c825cf1b1d464c86f"
+    },
+    "generator-reproducibility.json": {
+      "bytes": 833,
+      "sha256": "84b27dce5c1ec45a90324ff47c2cf6d85d587eb8b0f00e670b4e4f7569fb2e67"
+    },
+    "illustrated-story.json": {
+      "bytes": 23641,
+      "sha256": "48be4de69f52476145eb4f2c54c2d90eddbd7c14d4859591939b995c0d1853e4"
+    },
+    "independent-qa.json": {
+      "bytes": 1375,
+      "sha256": "1d0e220e817acb11c65691dc26b51c5b99bdcb059e16f1fbb10c7949eb6ceefc"
+    },
+    "independent-scoped-qa.json": {
+      "bytes": 758,
+      "sha256": "552e2813ba7b84781c7374edb80dafb40e28b4feaa12f600e8b40e9c67c82b73"
+    },
+    "make_article.py": {
+      "bytes": 3092,
+      "sha256": "e4cdf2d993655ff1efe134a46482d330eec9018fa9f539f259f475c797745a8a"
+    },
+    "note.md": {
+      "bytes": 8839,
+      "sha256": "09d864ade214722429d1aac34cdbf391f303464db2cb32d66f75029d4acec549"
+    },
+    "prepare_standalone.py": {
+      "bytes": 2171,
+      "sha256": "72e36b3f606acf4ecde822ec07835c68fa489a43e38f388cd0b83a2d196aea96"
+    },
+    "reviewed-illustration-copy.json": {
+      "bytes": 6124,
+      "sha256": "7445ad634cae022704c5c6e7578e34f1011a07c048565f4981a1836a37ae9a54"
+    },
+    "shared/IllustratedArticle.jsx": {
+      "bytes": 9528,
+      "sha256": "c1a185a7a6b1903325e8449c5f79dbadebc9102c5cadec4910b75fefa0cf1e1b"
+    },
+    "shared/ReportContent.jsx": {
+      "bytes": 703,
+      "sha256": "ae9d8787ad6b9d15c57aead3b72f48d0b487e2b52a42a6e75a4f6b8fda126a69"
+    },
+    "shared/illustrated.css": {
+      "bytes": 10060,
+      "sha256": "a15fbe5f09e241738ffffa683f3e7d9ba535ff943cecb8f7e250e1449209f928"
+    },
+    "shared/timeline.css": {
+      "bytes": 7346,
+      "sha256": "b867d64e25125a71868940d4da6fe6bc2569f1b719ceefaed0b92e6baf0a4fee"
+    },
+    "sources.md": {
+      "bytes": 7560,
+      "sha256": "d29ebbf9ba26acb5179ebb5492b7e2f34667076eb8d9b7c63a1c212dd3607192"
+    },
+    "standalone-prepared-sha256.json": {
+      "bytes": 27380,
+      "sha256": "939a0eb2bb59e4b4323e594b7eb45debe0a227a8d2771f3e8fa6672358b88860"
+    },
+    "support/sanitize_site_content.py": {
+      "bytes": 5533,
+      "sha256": "1166b7164b3bceb8c9fe056a92fe04bc609dcfc87ee5081344a9ff549739bf52"
+    },
+    "support/test_sanitization.py": {
+      "bytes": 2689,
+      "sha256": "d6131c06c9cf2b549de24e32c36451a780282159bbe4d82c18cefb095a2f7571"
+    },
+    "test_authoring_guard.py": {
+      "bytes": 2507,
+      "sha256": "5eb398670717f304f57cf119fe4c256b65410c5563c4aa37eab75083c77bcaf5"
+    },
+    "test_standalone.py": {
+      "bytes": 5541,
+      "sha256": "08b2f7f8333b26c36702a67eb9027f95ca2eab35230b222ea403a723646404b4"
+    },
+    "visual-qa-status.json": {
+      "bytes": 483,
+      "sha256": "03d46ecbfce817ba3d939acb42681a7da76b65870a50ca1fc8fe46e0228ef88b"
+    }
+  },
+  "fileCount": 30,
+  "totalBytes": 157278
+}

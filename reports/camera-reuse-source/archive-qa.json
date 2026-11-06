@@ -1,0 +1,16 @@
+{
+  "inputManifestFilesVerified": 27,
+  "frozenBodyAndSources": "equal expected hashes",
+  "finalHTMLBytes": 2938211,
+  "finalHTMLSHA256": "00f519c429b409cad0b843c11f5a76d96a9a488929eb4704ca853dfd713a22ee",
+  "standaloneStaticChecks": "rerun and byte-identical QA",
+  "overwriteGuards": 8,
+  "sanitizationUnitTests": 3,
+  "generatorOutputsReproduced": 3,
+  "allPythonSyntaxParsed": true,
+  "allJSONParsed": true,
+  "privateIdentifiersFound": 0,
+  "browserVisualAndInteractionQA": "not run",
+  "fullOfficialBuildByArchiver": "not rerun; independent auditor and author records retained",
+  "largeHTMLOrZIPUploaded": false
+}

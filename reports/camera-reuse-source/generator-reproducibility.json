@@ -1,0 +1,16 @@
+{
+  "frozenGeneratorOutputsUnchanged": {
+    "article-entry.json": "f582c7152b596ef26ad450e46917487b551b7496e8ecb78bef9ea84b45da3676",
+    "illustrated-story.json": "48be4de69f52476145eb4f2c54c2d90eddbd7c14d4859591939b995c0d1853e4",
+    "article-reviewed-data.json": "838b94ce57ac3df509de77411735fec59df9835fb1cda6f603090c2eedb3ab11"
+  },
+  "secondOfficialBuildSameHTML": true,
+  "htmlSha256": "00f519c429b409cad0b843c11f5a76d96a9a488929eb4704ca853dfd713a22ee",
+  "identityScope": "Same prepared report identity; a new preparer intentionally creates a new identity.",
+  "protectedFiles": "241 unchanged after repeated build",
+  "browserQA": "not run",
+  "revisions": [
+    "Historical source-ledger disclosure title clarified; frozen source bytes untouched.",
+    "Diagram 2 names the third branch as OR, not joint condition."
+  ]
+}

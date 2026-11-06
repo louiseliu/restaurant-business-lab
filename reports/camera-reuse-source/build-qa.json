@@ -1,0 +1,27 @@
+{
+  "standalone": {
+    "buildStatus": "complete",
+    "fullOriginals": 1,
+    "illustratedStories": 1,
+    "narrativeSections": 6,
+    "queries": 2,
+    "sourceUrls": 2,
+    "unchangedOfficialFiles": 241,
+    "privacyTextPayloads": 14,
+    "compiledContents": "equal reviewed source",
+    "buildManifest": "verified exact HTML/snapshot bytes and hashes",
+    "runtimeSha256": "b1771584910da746d0cf1b967a4889fee226053d841596104b457a04a2dd3d91",
+    "bytes": 2938211,
+    "sha256": "00f519c429b409cad0b843c11f5a76d96a9a488929eb4704ca853dfd713a22ee"
+  },
+  "scope": {
+    "articleId": "research-2026-11-06-camera-reuse-note",
+    "firstGit": "eaf8d57c523197ca67a04662f5d48dc45a201c22",
+    "publishedAt": "2026-11-06T01:10:58Z",
+    "bodySha256": "09d864ade214722429d1aac34cdbf391f303464db2cb32d66f75029d4acec549",
+    "published": false,
+    "largeHTMLGitArchive": "not attempted",
+    "portalIntegration": "not performed; standalone only"
+  },
+  "visualQA": "Browser visual and interaction checks were not run. Static checks do not establish rendered acceptance."
+}
