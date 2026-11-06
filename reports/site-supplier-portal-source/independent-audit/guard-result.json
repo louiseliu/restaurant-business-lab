@@ -1,0 +1,181 @@
+{
+  "passed": 35,
+  "cases": [
+    {
+      "case": "Preserve user prose, summary, story, query and export preferences",
+      "passed": true,
+      "noPartialWrite": false
+    },
+    {
+      "case": "Reject unexpected counts",
+      "passed": true,
+      "noPartialWrite": true
+    },
+    {
+      "case": "Reject duplicate article identity",
+      "passed": true,
+      "noPartialWrite": true
+    },
+    {
+      "case": "Reject new query collision",
+      "passed": true,
+      "noPartialWrite": true
+    },
+    {
+      "case": "Reject missing report identity",
+      "passed": true,
+      "noPartialWrite": true
+    },
+    {
+      "case": "Reject changed catalog reader anchor",
+      "passed": true,
+      "noPartialWrite": true
+    },
+    {
+      "case": "Reject changed reader anchor",
+      "passed": true,
+      "noPartialWrite": true
+    },
+    {
+      "case": "Reject existing file SiteSelectionDiagrams.jsx",
+      "passed": true,
+      "noPartialWrite": true
+    },
+    {
+      "case": "Reject existing file siteselection-diagrams.css",
+      "passed": true,
+      "noPartialWrite": true
+    },
+    {
+      "case": "Reject existing file siteselection-source-previews.json",
+      "passed": true,
+      "noPartialWrite": true
+    },
+    {
+      "case": "Reject existing file SupplierRecommendationDiagrams.jsx",
+      "passed": true,
+      "noPartialWrite": true
+    },
+    {
+      "case": "Reject existing file supplier-recommendation-diagrams.css",
+      "passed": true,
+      "noPartialWrite": true
+    },
+    {
+      "case": "Reject existing file supplier-recommendation-source-previews.json",
+      "passed": true,
+      "noPartialWrite": true
+    },
+    {
+      "case": "Reject dangling destination symlink",
+      "passed": true,
+      "noPartialWrite": true
+    },
+    {
+      "case": "Reject repeated integration",
+      "passed": true,
+      "noPartialWrite": true
+    },
+    {
+      "case": "Reject frozen input 0/article-entry.json",
+      "passed": true,
+      "noPartialWrite": true
+    },
+    {
+      "case": "Reject frozen input 0/illustrated-story.json",
+      "passed": true,
+      "noPartialWrite": true
+    },
+    {
+      "case": "Reject frozen input 0/article-reviewed-data.json",
+      "passed": true,
+      "noPartialWrite": true
+    },
+    {
+      "case": "Reject frozen input 0/frozen.json",
+      "passed": true,
+      "noPartialWrite": true
+    },
+    {
+      "case": "Reject frozen input 0/note.md",
+      "passed": true,
+      "noPartialWrite": true
+    },
+    {
+      "case": "Reject frozen input 0/sources.md",
+      "passed": true,
+      "noPartialWrite": true
+    },
+    {
+      "case": "Reject frozen input 0/SiteSelectionDiagrams.jsx",
+      "passed": true,
+      "noPartialWrite": true
+    },
+    {
+      "case": "Reject frozen input 0/siteselection-diagrams.css",
+      "passed": true,
+      "noPartialWrite": true
+    },
+    {
+      "case": "Reject frozen input 0/siteselection-source-previews.json",
+      "passed": true,
+      "noPartialWrite": true
+    },
+    {
+      "case": "Reject frozen input 0/calculations.py",
+      "passed": true,
+      "noPartialWrite": true
+    },
+    {
+      "case": "Reject frozen input 0/calculation-results.json",
+      "passed": true,
+      "noPartialWrite": true
+    },
+    {
+      "case": "Reject frozen input 1/article-entry.json",
+      "passed": true,
+      "noPartialWrite": true
+    },
+    {
+      "case": "Reject frozen input 1/illustrated-story.json",
+      "passed": true,
+      "noPartialWrite": true
+    },
+    {
+      "case": "Reject frozen input 1/article-reviewed-data.json",
+      "passed": true,
+      "noPartialWrite": true
+    },
+    {
+      "case": "Reject frozen input 1/frozen.json",
+      "passed": true,
+      "noPartialWrite": true
+    },
+    {
+      "case": "Reject frozen input 1/note.md",
+      "passed": true,
+      "noPartialWrite": true
+    },
+    {
+      "case": "Reject frozen input 1/sources.md",
+      "passed": true,
+      "noPartialWrite": true
+    },
+    {
+      "case": "Reject frozen input 1/SupplierRecommendationDiagrams.jsx",
+      "passed": true,
+      "noPartialWrite": true
+    },
+    {
+      "case": "Reject frozen input 1/supplier-recommendation-diagrams.css",
+      "passed": true,
+      "noPartialWrite": true
+    },
+    {
+      "case": "Reject frozen input 1/supplier-recommendation-source-previews.json",
+      "passed": true,
+      "noPartialWrite": true
+    }
+  ],
+  "browserTests": false
+}

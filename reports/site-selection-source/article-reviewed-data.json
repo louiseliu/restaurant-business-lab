@@ -1,0 +1,161 @@
+{
+  "surface": "report",
+  "title": "AI选址推荐了旺铺，小店该为它多付租金吗？",
+  "generatedAt": "2026-11-06T05:15:46Z",
+  "status": "reviewed",
+  "buildStatus": "creating",
+  "exportPreferences": {
+    "selected": null,
+    "destinations": []
+  },
+  "filters": [],
+  "report": {
+    "asOf": "2026-11-06"
+  },
+  "queries": {
+    "diagram-research-2026-11-06-site-selection-rent-note": {
+      "rows": [
+        {
+          "任务": "描述区域需求",
+          "能回答什么": "周边什么品类活跃，消费集中在哪些时段。",
+          "还缺什么": "时间和渠道是否覆盖本店要做的生意？人流或平台订单能否代表目标顾客？"
+        },
+        {
+          "任务": "比较候选铺位",
+          "能回答什么": "在给定条件下，哪间更值得先去考察。",
+          "还缺什么": "排名第一只是相对更好。候选是否都过贵？保留“暂不开这间店”的选项。"
+        },
+        {
+          "任务": "判断租金溢价",
+          "能回答什么": "新增贡献能否支付更贵地址的全部成本差额。",
+          "还缺什么": "净多多少单、每单留下多少、忙时能接多少，以及是否新增完整班次等固定支出。"
+        }
+      ],
+      "source": {
+        "label": "从选址排序到多付租金，中间还缺哪些证据？",
+        "files": [
+          "research/2026-11-06-site-selection-rent/note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "从选址排序到多付租金，中间还缺哪些证据？",
+            "definition": "作者定性决策框架，非门店实测，也不是袋鼠参谋算法或产品功能的还原。箭头表示需要继续核验，不表示每一步必然成立。 图1｜作者经营分析。[企业报告](https://s3plus.meituan.net/v1/mss_f5ecef526b384cbaa1117230d53b4bd6/smart/%E7%BE%8E%E5%9B%A22025%E5%B9%B4%E7%A4%BE%E4%BC%9A%E8%B4%A3%E4%BB%BB%E6%8A%A5%E5%91%8A_s8u7vu.pdf)与[官方回顾](https://www.meituan.com/news/NN260206199002398)都来自美团，属于同一来源链。87%仅为厂商声明，已读材料未给评估分母；670余品牌、4,000余社区小店及32万份报告均不能代作该分母。",
+            "componentIds": [
+              "diagram-research-2026-11-06-site-selection-rent-note"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "作者决策框架，不是产品内部算法",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/c905ca1df6c8587d76b5f7e66dae7c57d5a342ce/research/2026-11-06-site-selection-rent/note.md"
+          },
+          {
+            "title": "S1 · 报告印刷第27页，PDF第14页",
+            "detail": "https://s3plus.meituan.net/v1/mss_f5ecef526b384cbaa1117230d53b4bd6/smart/%E7%BE%8E%E5%9B%A22025%E5%B9%B4%E7%A4%BE%E4%BC%9A%E8%B4%A3%E4%BB%BB%E6%8A%A5%E5%91%8A_s8u7vu.pdf"
+          },
+          {
+            "title": "S2 · 美团官方回顾",
+            "detail": "https://www.meituan.com/news/NN260206199002398"
+          }
+        ],
+        "caveats": [
+          "不跨过这些问题：把能回查的线索用于考察，把适用于本店的新增贡献用于预算。得分高，本身不是增加租金上限的依据。",
+          "图1｜作者经营分析。[企业报告](https://s3plus.meituan.net/v1/mss_f5ecef526b384cbaa1117230d53b4bd6/smart/%E7%BE%8E%E5%9B%A22025%E5%B9%B4%E7%A4%BE%E4%BC%9A%E8%B4%A3%E4%BB%BB%E6%8A%A5%E5%91%8A_s8u7vu.pdf)与[官方回顾](https://www.meituan.com/news/NN260206199002398)都来自美团，属于同一来源链。87%仅为厂商声明，已读材料未给评估分母；670余品牌、4,000余社区小店及32万份报告均不能代作该分母。"
+        ]
+      }
+    },
+    "visual-research-2026-11-06-site-selection-rent-note": {
+      "rows": [
+        {
+          "label": "预期情景",
+          "value": 2400,
+          "fullLabel": "预期情景（每日多28单，每单10元）",
+          "display": "+2,400元/月",
+          "incrementalOrdersPerDay": 28,
+          "contributionPerOrderCny": 10,
+          "operatingDays": 30,
+          "grossContributionCny": 8400,
+          "rentPremiumCny": 6000,
+          "otherCostDifferenceCny": 0,
+          "dataStatus": "作者构造的模拟假设，非实测"
+        },
+        {
+          "label": "贡献降低",
+          "value": -960,
+          "fullLabel": "贡献降低（每日多28单，每单6元）",
+          "display": "-960元/月",
+          "incrementalOrdersPerDay": 28,
+          "contributionPerOrderCny": 6,
+          "operatingDays": 30,
+          "grossContributionCny": 5040,
+          "rentPremiumCny": 6000,
+          "otherCostDifferenceCny": 0,
+          "dataStatus": "作者构造的模拟假设，非实测"
+        },
+        {
+          "label": "产能受限",
+          "value": -1500,
+          "fullLabel": "产能受限（每日多15单，每单10元）",
+          "display": "-1,500元/月",
+          "incrementalOrdersPerDay": 15,
+          "contributionPerOrderCny": 10,
+          "operatingDays": 30,
+          "grossContributionCny": 4500,
+          "rentPremiumCny": 6000,
+          "otherCostDifferenceCny": 0,
+          "dataStatus": "作者构造的模拟假设，非实测"
+        }
+      ],
+      "source": {
+        "label": "租金溢价模拟：新增贡献减去租金差额",
+        "files": [
+          "research/2026-11-06-site-selection-rent/note.md",
+          "research/2026-11-06-site-selection-rent/calculations.py",
+          "research/2026-11-06-site-selection-rent/calculation-results.json"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "每月净差额（元）",
+            "definition": "每日净新增订单 × 每单贡献 × 30天 − 6,000元租金溢价。其他成本差额假设为0；仅为两铺位的差额，不是整店利润。",
+            "formula": "incrementalOrdersPerDay * contributionPerOrderCny * operatingDays - rentPremiumCny - otherCostDifferenceCny",
+            "componentIds": [
+              "visual-research-2026-11-06-site-selection-rent-note"
+            ]
+          },
+          {
+            "label": "基准盈亏平衡订单量",
+            "definition": "每单贡献10元时，6,000 ÷ 30 ÷ 10 = 每日20单。只抵消租金差额，不覆盖整店成本。",
+            "componentIds": [
+              "visual-research-2026-11-06-site-selection-rent-note"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "作者构造情景，无实测或厂商报价含义",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/c905ca1df6c8587d76b5f7e66dae7c57d5a342ce/research/2026-11-06-site-selection-rent/note.md"
+          },
+          {
+            "title": "可运行计算脚本",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/c905ca1df6c8587d76b5f7e66dae7c57d5a342ce/research/2026-11-06-site-selection-rent/calculations.py"
+          },
+          {
+            "title": "已运行结果",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/c905ca1df6c8587d76b5f7e66dae7c57d5a342ce/research/2026-11-06-site-selection-rent/calculation-results.json"
+          }
+        ],
+        "caveats": [
+          "所有输入均为作者假设，不是美团预测或门店数据。",
+          "新增整班人力、物业、保底、原有订单折扣损失等如有差异须另扣。押金、装修与开业前资金另行检查。"
+        ]
+      },
+      "methods": [
+        {
+          "language": "python",
+          "code": "\"\"\"Synthetic rent-premium comparison, not observed restaurant data.\"\"\"\nimport json\nfrom decimal import Decimal\nfrom pathlib import Path\n\nD = Decimal\ndays = D('30')\nrent_premium = D('6000')\nscenarios = [\n    ('base_incremental_demand', D('28'), D('10')),\n    ('lower_contribution', D('28'), D('6')),\n    ('capacity_limited', D('15'), D('10')),\n]\nresult = {\n    'data_status': 'author_constructed_synthetic_examples_only',\n    'currency': 'CNY',\n    'period': 'month',\n    'assumptions': {\n        'operating_days': int(days),\n        'monthly_rent_premium': int(rent_premium),\n        'baseline_contribution_per_incremental_order': 10,\n        'other_cost_differences': 0,\n        'limits': '差额比较，非整店利润、回本期或工具准确率；实际新增整班人力、物业、装修及资金需求需另计。'\n    },\n    'required_average_incremental_orders_per_day': str(rent_premium / (days * D('10'))),\n    'scenarios': []\n}\nfor name, orders, contribution in scenarios:\n    gross = days * orders * contribution\n    result['scenarios'].append({\n        'name': name,\n        'realized_incremental_orders_per_day': int(orders),\n        'contribution_per_order': int(contribution),\n        'monthly_incremental_contribution': int(gross),\n        'net_difference_after_rent_premium': int(gross-rent_premium)\n    })\nassert result['required_average_incremental_orders_per_day'] == '20'\nassert [x['net_difference_after_rent_premium'] for x in result['scenarios']] == [2400,-960,-1500]\nout=Path(__file__).with_name('calculation-results.json')\nout.write_text(json.dumps(result, ensure_ascii=False, indent=2)+'\\n', encoding='utf-8')\nprint(json.dumps(result, ensure_ascii=False, indent=2))\n"
+        }
+      ]
+    }
+  }
+}

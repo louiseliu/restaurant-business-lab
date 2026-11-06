@@ -1,0 +1,9 @@
+{
+  "selected": null,
+  "destinations": [],
+  "baselinePolicyPreserved": true,
+  "availableExternalExportPluginsVerified": [],
+  "builtInFormatsRetained": true,
+  "inventoryScope": "Current available tool inventory does not establish a supported external export destination. No plugin installation or connection request.",
+  "exportMenuBrowserTest": false
+}

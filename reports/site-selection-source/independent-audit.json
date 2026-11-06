@@ -1,0 +1,152 @@
+{
+  "assessment": "Ready within the reviewed local static scope; browser and interaction acceptance remain unverified.",
+  "artifact": {
+    "file": "siteselection.html",
+    "bytes": 2937623,
+    "sha256": "041e081e17933dc153c59dd6e0db3b35b41095a8e54f57b1bc3b744dbf1aa2b3"
+  },
+  "checks": {
+    "frozenOriginals": {
+      "status": "pass",
+      "noteSha256": "dc5ff70049dfe679b2eb6c530989ae36aefee8c3cde3e00f794aed1b9b7cab3b",
+      "sourcesSha256": "bc28093601b59393efe3fecc92880375de8043ceb60b467927fb399e5c2332ce",
+      "sourceAuthoringAndCompiledPayloads": "Both complete texts match byte-for-byte after JSON decoding; six complete narrative sections and original lead are retained.",
+      "historicalLedger": "Preparation-time statements are preserved and explicitly explained as historical."
+    },
+    "firstCommitBinding": {
+      "status": "pass",
+      "commit": "c905ca1df6c8587d76b5f7e66dae7c57d5a342ce",
+      "timestamp": "2026-11-06T05:15:46Z",
+      "basis": "Matches the supplied immutable commit identity, timestamp, local freeze metadata, compiled article and fixed source URLs; this local audit did not independently contact GitHub."
+    },
+    "diagramOne": {
+      "status": "pass",
+      "reviewedRows": 3,
+      "meaning": "Author three-stage qualitative decision framework, not observed outcomes or a reconstruction of the product algorithm.",
+      "accuracy87": "Vendor claim only; denominator unspecified; adoption and report counts are explicitly not substitute denominators. Both external sources have the same publisher."
+    },
+    "diagramTwo": {
+      "status": "pass",
+      "independentMethod": "Recomputed directly from Decimal inputs without importing or executing the supplied calculation helper.",
+      "scenarios": [
+        {
+          "dailyIncrementalOrders": 28,
+          "contributionPerOrderCny": 10,
+          "operatingDays": 30,
+          "rentPremiumCny": 6000,
+          "otherCostDifferenceCny": 0,
+          "monthlyIncrementalContributionCny": 8400,
+          "monthlyNetDifferenceCny": 2400
+        },
+        {
+          "dailyIncrementalOrders": 28,
+          "contributionPerOrderCny": 6,
+          "operatingDays": 30,
+          "rentPremiumCny": 6000,
+          "otherCostDifferenceCny": 0,
+          "monthlyIncrementalContributionCny": 5040,
+          "monthlyNetDifferenceCny": -960
+        },
+        {
+          "dailyIncrementalOrders": 15,
+          "contributionPerOrderCny": 10,
+          "operatingDays": 30,
+          "rentPremiumCny": 6000,
+          "otherCostDifferenceCny": 0,
+          "monthlyIncrementalContributionCny": 4500,
+          "monthlyNetDifferenceCny": -1500
+        }
+      ],
+      "baselineDailyOrdersToCoverRentOnly": 20,
+      "scope": "All inputs are author assumptions. Results are rent-premium differences, not whole-store profit, payback or measured AI effect. Accuracy 87% is not a calculation input.",
+      "signsAndScale": "Signed display values match reviewed rows; horizontal numeric axis retains both negative and positive values and includes zero in the official renderer."
+    },
+    "sourceBinding": {
+      "status": "pass",
+      "queries": 2,
+      "externalSources": 2,
+      "details": "Reviewed rows, stable query/component IDs, metric definitions, formula, calculation-method text and fixed-commit evidence URLs agree across source, compiled article and snapshot. Source previews have no external image assets."
+    },
+    "relativeLinkResolution": {
+      "status": "pass",
+      "links": [
+        {
+          "relative": "calculations.py",
+          "fixed": "https://github.com/louiseliu/restaurant-business-lab/blob/c905ca1df6c8587d76b5f7e66dae7c57d5a342ce/research/2026-11-06-site-selection-rent/calculations.py"
+        },
+        {
+          "relative": "calculation-results.json",
+          "fixed": "https://github.com/louiseliu/restaurant-business-lab/blob/c905ca1df6c8587d76b5f7e66dae7c57d5a342ce/research/2026-11-06-site-selection-rent/calculation-results.json"
+        },
+        {
+          "relative": "../2026-11-05-site-fitout/note.md",
+          "fixed": "https://github.com/louiseliu/restaurant-business-lab/blob/c905ca1df6c8587d76b5f7e66dae7c57d5a342ce/research/2026-11-05-site-fitout/note.md"
+        },
+        {
+          "relative": "sources.md",
+          "fixed": "https://github.com/louiseliu/restaurant-business-lab/blob/c905ca1df6c8587d76b5f7e66dae7c57d5a342ce/research/2026-11-06-site-selection-rent/sources.md"
+        }
+      ],
+      "scope": "Static URL resolution and render-call inspection only; no network destination verification."
+    },
+    "singleArticleScope": {
+      "status": "pass",
+      "articles": 1,
+      "stories": 1,
+      "sampleDownloads": 0,
+      "details": "Only the selected research article ID is present in compiled authored data; the existing site-fitout study is an intentional source link, not another embedded article. Unused official starter helpers are not another research payload."
+    },
+    "officialRuntimeIntegrity": {
+      "status": "pass",
+      "protectedRuntimeVerifierFiles": 240,
+      "byteIdenticalPreparedNonContentFiles": 241,
+      "runtimeSha256": "b1771584910da746d0cf1b967a4889fee226053d841596104b457a04a2dd3d91",
+      "details": "Protected verifier was run; compiled embedded runtime matches its declared hash and build manifest. No official infrastructure was changed."
+    },
+    "buildAndPayload": {
+      "status": "pass",
+      "details": "Split-build HTML and snapshot byte sizes and hashes match their manifest; decoded offline snapshot equals the complete reviewed source snapshot; offline compiled catalog and story equal reviewed authoring inputs."
+    },
+    "privacy": {
+      "status": "pass",
+      "scanCategories": [
+        "privateConversationUrls",
+        "privateServiceIdentifiers",
+        "machineLocalPaths",
+        "internalGitHost",
+        "githubCredentials",
+        "apiCredentials",
+        "awsKeys",
+        "privateKeys",
+        "personalEmailAddresses",
+        "localThreadLinks"
+      ],
+      "details": "No matches in decoded authored data, compiled scripts including the embedded runtime, article source files or snapshot. No packaged owner identity, hosting project binding or local authoring-thread metadata. This is a scoped static scan, not a guarantee against every possible secret format."
+    },
+    "externalAssetDependencies": {
+      "status": "pass",
+      "details": "HTML resource tags are embedded data assets only; CSS has no external URLs or imports; complete snapshot and runtime are embedded. Official optional network features are retained, so this does not assert that every possible interaction is network-free."
+    },
+    "languageMetadata": {
+      "status": "pass",
+      "details": "The authored article declares zh-CN in source and compiled payload. The unchanged official document root uses en; the article-level language governs the Chinese reading content."
+    }
+  },
+  "notVerified": [
+    "Browser rendering",
+    "Desktop and narrow-screen geometry",
+    "Light and dark theme rendering",
+    "Actual chart marks and clipping",
+    "Table-of-contents navigation",
+    "Source-panel interactions",
+    "Full-text expansion",
+    "Editing and persistence",
+    "Export menu",
+    "Printing",
+    "Actual offline opening",
+    "Browser console errors",
+    "Live external link reachability"
+  ],
+  "boundaries": "Local static file and privacy audit only. No browsing, server, network request, upload, publication, repository change or modification to frozen source texts. Static checks cannot establish visual or interaction acceptance.",
+  "findings": []
+}

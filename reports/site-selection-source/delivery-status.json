@@ -1,0 +1,19 @@
+{
+  "attachmentRequest": {
+    "acceptedAt": "2026-11-06T05:27:03Z",
+    "deliveryConfirmed": false,
+    "openingOrDownloadConfirmed": false,
+    "resent": false
+  },
+  "html": {
+    "bytes": 2937623,
+    "sha256": "041e081e17933dc153c59dd6e0db3b35b41095a8e54f57b1bc3b744dbf1aa2b3",
+    "gitArchived": false
+  },
+  "sourceFrozen": true,
+  "portalIntegration": {
+    "completedLocally": true,
+    "state": "../../state/2026-11-06-portal71.json"
+  },
+  "browserTest": false
+}

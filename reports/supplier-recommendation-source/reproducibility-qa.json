@@ -1,0 +1,7 @@
+{
+  "samePreparedIdentity": true,
+  "sameFrozenInputs": true,
+  "repeatedOfficialBuildAndOfflineExport": "byte-identical",
+  "htmlSha256": "a3d9013442a096e7830b9ec9ddf76a9f0c4d77b5cb6f8aecd0863214b0fc41cb",
+  "scope": "Local artifact reproducibility, not browser acceptance."
+}

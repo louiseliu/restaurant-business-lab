@@ -1,0 +1,67 @@
+{
+  "counts": {
+    "research": 71,
+    "fullOriginals": 91,
+    "stories": 71,
+    "samples": 2,
+    "ai": 48,
+    "rawAiTags": 47,
+    "scopedAiClassification": [
+      "research-2026-11-06-site-selection-rent-note"
+    ],
+    "queries": 146
+  },
+  "preserved": {
+    "unmodifiedOriginals": 89,
+    "unmodifiedStories": 69,
+    "originalQueries": 142,
+    "unchangedBaselineFiles": 358,
+    "baselineFingerprints": 363,
+    "legacySha256": "1c2034ad9bcd6457ba9ab65d42717940b3d552a488a06b2b417b6063140b292d",
+    "readerSha256": "9bf55a025b64ba69e8d7fb8168227f0202efe7434a104126c1bc7fa7e001aa4f"
+  },
+  "checks": {
+    "privacyPayloads": 199,
+    "downloads": 5,
+    "recursiveZipContainers": 2,
+    "releaseManifests": 1,
+    "compiledJSON": "matches source",
+    "buildManifest": "verified",
+    "runtimeSha256": "b1771584910da746d0cf1b967a4889fee226053d841596104b457a04a2dd3d91"
+  },
+  "frozenInputs": [
+    {
+      "id": "research-2026-11-06-site-selection-rent-note",
+      "commit": "c905ca1df6c8587d76b5f7e66dae7c57d5a342ce",
+      "time": "2026-11-06T05:15:46Z",
+      "sha256": "dc5ff70049dfe679b2eb6c530989ae36aefee8c3cde3e00f794aed1b9b7cab3b",
+      "sourcesSha256": "bc28093601b59393efe3fecc92880375de8043ceb60b467927fb399e5c2332ce",
+      "editorialFrozen": true,
+      "remoteReadbackVerified": true
+    },
+    {
+      "id": "research-2026-11-06-supplier-recommendation-note",
+      "commit": "1496fce49b261cb108102b83dec501cea82cd5b4",
+      "time": "2026-11-06T05:23:47Z",
+      "timeBeijing": "2026-11-06T13:23:47+08:00",
+      "editorialFrozen": true,
+      "remoteReadbackVerified": true,
+      "sha256": "f8c718c5f2700798d4c7c93f01b0ac83c6135c206f6937828e68492b7ee82d89",
+      "sourcesSha256": "4bd44d0f38d5d125c226a4c1c1b79dc2f3b9126f08f4f9324b40c94cfa21ba17",
+      "notePath": "research/2026-11-06-supplier-recommendation/note.md",
+      "sourcesPath": "research/2026-11-06-supplier-recommendation/sources.md"
+    }
+  ],
+  "html": {
+    "bytes": 14180136,
+    "sha256": "8054f693f8cf9bcaa2206eb964262f3e0384fd6e055be63e8b7e131cc81e7d06"
+  },
+  "limits": {
+    "visual": "Not checked; prior local HTTP/file and original-site restrictions not retried or bypassed.",
+    "published": false,
+    "uploadedHTMLorZIP": false,
+    "historicalAuditGaps": "Five held items remain open; no retry or same-content upload.",
+    "presentation": "Existing language attributes are preserved; site-selection has its sent zh-CN article language, supplier inherits root language as sent. Older Fourth title display issue remains.",
+    "baseline": "Readable local 69-story baseline only; unavailable original-site edits/history not recovered."
+  }
+}

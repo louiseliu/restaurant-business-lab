@@ -1,0 +1,145 @@
+{
+  "checkedAtMain": "aca97b01e6a98cd24ba8c4dd633a38ca154f2b00",
+  "verifiedFiles": [
+    {
+      "path": "reports/robot-practice-portal-source/input-fingerprints.json",
+      "gitBlobSha": "a0ad2ae19cca7610fb7b1577762681cc281e3d93",
+      "verified": true
+    },
+    {
+      "path": "reports/robot-practice-portal-source/export-policy-review.json",
+      "gitBlobSha": "a13a4aa79c1b867e2a4c935fa39b860731e13cf0",
+      "verified": true
+    },
+    {
+      "path": "reports/robot-practice-portal-source/test_portal_merge_guard.py",
+      "gitBlobSha": "a1cae0f394ea43ca3da7de983745abae93611cd5",
+      "verified": true
+    },
+    {
+      "path": "reports/robot-practice-portal-source/merge-guard-qa.json",
+      "gitBlobSha": "c40e54f9a825d3520552271fb41408f75b5e8d8b",
+      "verified": true
+    },
+    {
+      "path": "reports/robot-practice-portal-source/prepare_portal.py",
+      "gitBlobSha": "584882002ac1999dd1c09d991fe69a8941234984",
+      "verified": true
+    },
+    {
+      "path": "reports/robot-practice-portal-source/baseline-known-gaps.json",
+      "gitBlobSha": "c5852da5f91a63c7405f02681c5fdf052bb59cb2",
+      "verified": true
+    },
+    {
+      "path": "reports/robot-practice-portal-source/portal-reproducibility.json",
+      "gitBlobSha": "a90505548121012b66062178a443c6c618b06972",
+      "verified": true
+    },
+    {
+      "path": "reports/robot-practice-portal-source/visual-qa-status.json",
+      "gitBlobSha": "a3514379062a88529d028f9f3c717b361be6446b",
+      "verified": true
+    },
+    {
+      "path": "reports/robot-practice-portal-source/test_reader_routes.mjs",
+      "gitBlobSha": "11fcf66e49201f6c9030c2bcbcf564abe7166eb2",
+      "verified": true
+    },
+    {
+      "path": "reports/robot-practice-portal-source/baseline67-sha256.json",
+      "gitBlobSha": "9eca5cde9f3e2532515ed415e86f45386e146020",
+      "verified": true
+    },
+    {
+      "path": "reports/robot-practice-portal-source/reader_patch.py",
+      "gitBlobSha": "ac565d98c535c862df51ec557836698316c3c01f",
+      "verified": true
+    },
+    {
+      "path": "reports/robot-practice-portal-source/PORTAL_BUILD.md",
+      "gitBlobSha": "cdf2b3ce34e9f85bb4749a72c6d1e280070f2669",
+      "verified": true
+    },
+    {
+      "path": "reports/robot-practice-portal-source/build_portal.py",
+      "gitBlobSha": "fdb4f7d7e8fb7c7ceec961083a1d392b33d76101",
+      "verified": true
+    },
+    {
+      "path": "reports/robot-practice-portal-source/portal-build-qa.json",
+      "gitBlobSha": "23591b6b40af9131dca5578fefbe33c207c75577",
+      "verified": true
+    },
+    {
+      "path": "reports/robot-practice-portal-source/input-remote-verification.json",
+      "gitBlobSha": "75226cf22d5d98d912f41a8bc500a049c32d2498",
+      "verified": true
+    },
+    {
+      "path": "reports/robot-practice-portal-source/integrate69.py",
+      "gitBlobSha": "4c2aa01dda1d5de636fa1250fbe183ca2ae898bf",
+      "verified": true
+    },
+    {
+      "path": "reports/robot-practice-portal-source/test_portal_preservation.py",
+      "gitBlobSha": "0aa02622c9f6e05cf02dcf4b848b43fa85a86b74",
+      "verified": true
+    },
+    {
+      "path": "reports/robot-practice-portal-source/independent-audit/portal69-before-fixes.json",
+      "gitBlobSha": "4095170e15523ac345ec1d7819237408f1e4749a",
+      "verified": true
+    },
+    {
+      "path": "reports/robot-practice-portal-source/independent-audit/test_scoped_fixes.mjs",
+      "gitBlobSha": "457c97b2a064355e77bd8739ed5d6cf7bdf52005",
+      "verified": true
+    },
+    {
+      "path": "reports/robot-practice-portal-source/independent-audit/audit_portal69.py",
+      "gitBlobSha": "ca9829e4335ca87718c9cd6b6f3f5580c421a299",
+      "verified": true
+    },
+    {
+      "path": "reports/robot-practice-portal-source/independent-audit/BUILD.md",
+      "gitBlobSha": "ec10febe2d43e364f5802b671b05fd6ab5e091c3",
+      "verified": true
+    },
+    {
+      "path": "reports/robot-practice-portal-source/independent-audit/check_inputs.py",
+      "gitBlobSha": "f6d66e480444560fd86d2bcb7e2c1eb80ef19a32",
+      "verified": true
+    },
+    {
+      "path": "reports/robot-practice-portal-source/independent-audit/portal69-static-audit.json",
+      "gitBlobSha": "b5fc7bf45cf98c75243f7941a02e33b03eaed9c5",
+      "verified": true
+    },
+    {
+      "path": "reports/robot-practice-portal-source/independent-audit/input-audit.json",
+      "gitBlobSha": "65a532eba2383987fc0d92d09ea1ef2b566eb78b",
+      "verified": true
+    },
+    {
+      "path": "research/2026-11-06-site-selection-rent/note.md",
+      "gitBlobSha": "7256fd82ca14f0ab8d2624b6f348e6871ae1ba05",
+      "textReadbackEqual": true
+    },
+    {
+      "path": "research/2026-11-06-site-selection-rent/sources.md",
+      "gitBlobSha": "e68715be106683ae55e0d5f1118fceeff111ec81",
+      "textReadbackEqual": true
+    },
+    {
+      "path": "research/2026-11-06-supplier-recommendation/note.md",
+      "gitBlobSha": "6d87e0f7202f8fe9d25a1973747948f1f3926962",
+      "textReadbackEqual": true
+    },
+    {
+      "path": "research/2026-11-06-supplier-recommendation/sources.md",
+      "gitBlobSha": "7d212968c025f489214ab9896f6f0f7ece03e424",
+      "textReadbackEqual": true
+    }
+  ]
+}

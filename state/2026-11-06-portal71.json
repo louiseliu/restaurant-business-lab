@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "repository": "louiseliu/restaurant-business-lab",
+  "basedOnMain": "aca97b01e6a98cd24ba8c4dd633a38ca154f2b00",
+  "scope": "第70、71篇单篇作者源与完整本地门户增量；历史状态不倒写。",
+  "portalSource": "reports/site-supplier-portal-source",
+  "standaloneSources": [
+    "reports/site-selection-source",
+    "reports/supplier-recommendation-source"
+  ],
+  "counts": {
+    "research": 71,
+    "fullTexts": 91,
+    "illustratedStories": 71,
+    "samples": 2,
+    "ai": 48,
+    "rawAiTags": 47,
+    "queries": 146
+  },
+  "classification": {
+    "unchangedFrozenSiteSelectionTopics": [
+      "business"
+    ],
+    "portalOnlyAdapter": "site-selection-rent participates in ai and business-model filters; display labels match. Other existing entries unchanged.",
+    "meansVerifiedAiBenefit": false
+  },
+  "localHtml": {
+    "bytes": 14180136,
+    "sha256": "8054f693f8cf9bcaa2206eb964262f3e0384fd6e055be63e8b7e131cc81e7d06"
+  },
+  "htmlUploadedSentOrArchived": false,
+  "attachmentRequest": {
+    "acceptedAt": "2026-11-06T05:27:03Z",
+    "count": 2,
+    "deliveryConfirmed": false,
+    "openingOrDownloadConfirmed": false,
+    "resent": false
+  },
+  "staticQA": {
+    "officialBuild": true,
+    "cleanRebuildByteEqual": true,
+    "mergeAndFrozenGuards": 35,
+    "mainActualHelperChecks": 665,
+    "independentActualHelperChecks": 818,
+    "independentStaticResult": "PASS",
+    "browserTest": false,
+    "legacyFullProjectVerifier": "FAIL on unchanged hosting configuration in both baseline and new portal; official installed/prebuilt authored-only checks passed. Protected files and manifests preserved."
+  },
+  "publicSite": {
+    "synchronized": false,
+    "currentReadabilityChecked": false,
+    "lastVerifiedVersion": "v19",
+    "lastVerifiedCounts": {
+      "research": 20,
+      "fullTexts": 40,
+      "samples": 2,
+      "ai": 9
+    },
+    "pendingSyncItems": 54
+  },
+  "historicalUncertainArchives": {
+    "count": 5,
+    "remainOpen": true,
+    "retriedOrSameContentUploaded": false
+  },
+  "otherPending": "HTML归档、门户附件、旧附件替换、费用原归档、原站可读性与编辑保护、旧全站离线快照及既有视觉待办保留。",
+  "largeHistoricalFiles": "README.md与state/current.md原字节保持，仍是历史快照。"
+}

@@ -1,0 +1,36 @@
+{
+  "data_status": "author_constructed_synthetic_examples_only",
+  "currency": "CNY",
+  "period": "month",
+  "assumptions": {
+    "operating_days": 30,
+    "monthly_rent_premium": 6000,
+    "baseline_contribution_per_incremental_order": 10,
+    "other_cost_differences": 0,
+    "limits": "差额比较，非整店利润、回本期或工具准确率；实际新增整班人力、物业、装修及资金需求需另计。"
+  },
+  "required_average_incremental_orders_per_day": "20",
+  "scenarios": [
+    {
+      "name": "base_incremental_demand",
+      "realized_incremental_orders_per_day": 28,
+      "contribution_per_order": 10,
+      "monthly_incremental_contribution": 8400,
+      "net_difference_after_rent_premium": 2400
+    },
+    {
+      "name": "lower_contribution",
+      "realized_incremental_orders_per_day": 28,
+      "contribution_per_order": 6,
+      "monthly_incremental_contribution": 5040,
+      "net_difference_after_rent_premium": -960
+    },
+    {
+      "name": "capacity_limited",
+      "realized_incremental_orders_per_day": 15,
+      "contribution_per_order": 10,
+      "monthly_incremental_contribution": 4500,
+      "net_difference_after_rent_premium": -1500
+    }
+  ]
+}

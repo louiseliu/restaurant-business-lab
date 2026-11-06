@@ -1,0 +1,19 @@
+{
+  "freshDirectory": true,
+  "startedWithoutDistCachesOrNodeModules": true,
+  "officialPrepareBuildExport": true,
+  "byteEqual": true,
+  "bytes": 14180136,
+  "sha256": "8054f693f8cf9bcaa2206eb964262f3e0384fd6e055be63e8b7e131cc81e7d06",
+  "executionInputsCompared": [
+    "prepare_portal.py",
+    "build_portal.py",
+    "integrate71.py",
+    "reader_patch.py",
+    "test_portal_merge_guard.py",
+    "test_portal_preservation.py",
+    "test_reader_routes.mjs",
+    "input-fingerprints.json"
+  ],
+  "browserTest": false
+}

@@ -1,0 +1,116 @@
+{
+  "files": [
+    {
+      "path": "PORTAL_BUILD.md",
+      "bytes": 6435,
+      "sha256": "615c6cdf92e67586374d3fa4a1dbc645abdba956cfb3495aead13d14b2f11013"
+    },
+    {
+      "path": "baseline-known-gaps.json",
+      "bytes": 2141,
+      "sha256": "51207677384d205a3e5f25307de501643961f3736a20866c7a0102dd4e7e313a"
+    },
+    {
+      "path": "baseline69-sha256.json",
+      "bytes": 40166,
+      "sha256": "b4e680a65a154b477d30a7fce40a280095361d4cb5e4995b87149e22929f0c92"
+    },
+    {
+      "path": "build_portal.py",
+      "bytes": 1558,
+      "sha256": "3e57b337d14d6e0ed31481f97bed468583232c252ce9b76d11355ab196b38634"
+    },
+    {
+      "path": "export-policy-review.json",
+      "bytes": 358,
+      "sha256": "2a0670474ecd64f9a532ca55172159cd3e8b92abba09ab8d79ae91a2ed99a145"
+    },
+    {
+      "path": "independent-audit/BUILD.md",
+      "bytes": 882,
+      "sha256": "780ebbfcd8323c9fa774a384687469509e5cbf478fba44a289eb46d408339c77"
+    },
+    {
+      "path": "independent-audit/audit.py",
+      "bytes": 8024,
+      "sha256": "33bb97471a7283b707bf56faaeefc4f526944358963528551e2e5c704a783aa7"
+    },
+    {
+      "path": "independent-audit/guard-result.json",
+      "bytes": 4427,
+      "sha256": "5077212a36ec7f5892c1a06a16095b0e9df9662fd581bf6522e668168c715df5"
+    },
+    {
+      "path": "independent-audit/result.json",
+      "bytes": 477,
+      "sha256": "4187ccf9be27dbdab7ae0510f3d158f47c89e1172bb66c4c0e0cacea26c2b0c5"
+    },
+    {
+      "path": "independent-audit/runtime-and-limits.json",
+      "bytes": 516,
+      "sha256": "1318e977bbf57dd9989429668cc30497c0f33768dd99fa943aa72a201d8319be"
+    },
+    {
+      "path": "input-fingerprints.json",
+      "bytes": 2868,
+      "sha256": "4060048c1679fdbf2cd068a40f98d136c1b52e906ea0e03a57b3adaccbbb20b5"
+    },
+    {
+      "path": "input-remote-verification.json",
+      "bytes": 5138,
+      "sha256": "b0f010a58e977645514124f9606a2f009f34dbbba6de1cafc2ef51f7ae0fdaa5"
+    },
+    {
+      "path": "integrate71.py",
+      "bytes": 3625,
+      "sha256": "fc9a71a2149b50751b123dee198449753bbd55d5d0d6a9d27565a4fe61b8ba53"
+    },
+    {
+      "path": "merge-guard-qa.json",
+      "bytes": 4427,
+      "sha256": "5077212a36ec7f5892c1a06a16095b0e9df9662fd581bf6522e668168c715df5"
+    },
+    {
+      "path": "portal-build-qa.json",
+      "bytes": 2657,
+      "sha256": "10e187f337b07127d25cafaf64e7fc8cde4ac90076ba4997929779e2b34f1dc9"
+    },
+    {
+      "path": "portal-reproducibility.json",
+      "bytes": 520,
+      "sha256": "961074e19f286e9843467fa2a8924e6972e148cc7eeee1e40ed35fe9bc9f001c"
+    },
+    {
+      "path": "prepare_portal.py",
+      "bytes": 1133,
+      "sha256": "f5ba943a95f59774867ff2d06ed9797fe3db320f02e7c685f4c85902f8653f04"
+    },
+    {
+      "path": "reader_patch.py",
+      "bytes": 3883,
+      "sha256": "b8884a8e9faa517b085b5d33abc9ab557ef79267fc329a155129881260322073"
+    },
+    {
+      "path": "test_portal_merge_guard.py",
+      "bytes": 4644,
+      "sha256": "47ae19e732a3c1a5b96bb0f65d12ca109994939b63ea29259ad1e7805839487e"
+    },
+    {
+      "path": "test_portal_preservation.py",
+      "bytes": 9104,
+      "sha256": "453c6c12d1a8d41531f4444664c5780944d1dbc3cbce6d07fcf2f56faf49db3e"
+    },
+    {
+      "path": "test_reader_routes.mjs",
+      "bytes": 3818,
+      "sha256": "c5de6480b24c74c8cf5c893ae5b69fc1d5289e9e3adec2a1865e1f2c74657e56"
+    },
+    {
+      "path": "visual-qa-status.json",
+      "bytes": 370,
+      "sha256": "9db5458b0e6422d3d924b134a880342c1f1c6ff363eca46cfd0f684d90475312"
+    }
+  ],
+  "totalBytes": 107171,
+  "excludes": "Compiled HTML, ZIP, caches, full runtime, private identifiers and machine logs."
+}

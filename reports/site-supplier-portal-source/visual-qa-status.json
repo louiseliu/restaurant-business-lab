@@ -1,0 +1,9 @@
+{
+  "browserChecked": false,
+  "desktopAndNarrowLayout": false,
+  "lightDarkThemes": false,
+  "sourcePanelsNavigationScrollAndHistory": false,
+  "editingPersistenceAndExportClicks": false,
+  "printRealOfflineAndScreenReader": false,
+  "reason": "Prior browser access restrictions retained, not retried or bypassed. Static checks do not establish rendered acceptance."
+}

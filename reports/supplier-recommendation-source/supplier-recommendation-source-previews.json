@@ -1,0 +1,20 @@
+{
+  "https://developer.aliyun.com/article/1708553": {
+    "title": "S1 · 恒天然餐饮服务推荐案例",
+    "summary": "实施方案例称AI根据客户采购历史为销售提供产品建议，以采购SKU低于同类门店的烘焙坊说明推荐新品的场景。SKU口径、同类划分、多供应商覆盖及门店购买后效果未披露；每日任务指引与反馈回流是未来方向。",
+    "source": "阿里云开发者社区“阿里云上的Salesforce”，2026-01-26。实施方发布，非客户独立确认；核验日期2026-11-06。",
+    "approvedForReport": true
+  },
+  "https://www.sec.gov/Archives/edgar/data/96021/000009602126000039/a2026syyars.pdf": {
+    "title": "S2 · Sysco 2026年报",
+    "summary": "股东信把AI360定位为帮助销售团队给出个性化推荐的工具。实读PDF第3至4页并核第5页财年标注；不把企业整体表现拆成AI效果，不外推中国门店。",
+    "source": "Sysco公司披露，SEC公开文件入口。所附10-K财年截至2026-06-27；未核定该PDF上传日期。",
+    "approvedForReport": true
+  },
+  "https://www.fool.com/earnings/call-transcripts/2026/11/03/sysco-corp-syy-q1-2027-earnings-call-transcript/": {
+    "title": "S3 · Sysco管理层业绩会发言转录",
+    "summary": "管理层说明AI360帮助销售推荐更多商品及转购自有品牌，由销售人员执行建议；宣称Swap and Save有节省机会，但未量化AI360对尚未结束的2027财年全年销量展望的影响。",
+    "source": "Motley Fool Transcribing，2026-11-03电话会转录，未核听原始音频。与S2同属Sysco来源链，不是恒天然系统佐证或独立门店实验。",
+    "approvedForReport": true
+  }
+}

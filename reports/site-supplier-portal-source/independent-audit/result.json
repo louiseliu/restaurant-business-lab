@@ -1,0 +1,21 @@
+{
+  "result": "PASS",
+  "originalsPreserved": 89,
+  "storiesPreserved": 69,
+  "queriesPreserved": 142,
+  "unchangedFiles": 358,
+  "sections": [
+    6,
+    7
+  ],
+  "downloads": 5,
+  "recursiveArchives": 2,
+  "privacyPayloads": 196,
+  "actualJsHelpers": {
+    "tests": 818,
+    "rawAi": 47,
+    "effectiveAi": 48,
+    "browser": false
+  },
+  "limits": "Static data and source checks, plus pure JavaScript only. No browser, HTTP, remote history, publication or visual checks."
+}

@@ -1,0 +1,37 @@
+{
+  "standalone": {
+    "buildStatus": "complete",
+    "fullOriginals": 1,
+    "illustratedStories": 1,
+    "narrativeSections": 6,
+    "queries": 2,
+    "sourceUrls": 2,
+    "unchangedOfficialFiles": 241,
+    "privacyTextPayloads": 14,
+    "compiledContents": "equal reviewed source",
+    "buildManifest": "verified exact HTML/snapshot bytes and hashes",
+    "runtimeSha256": "b1771584910da746d0cf1b967a4889fee226053d841596104b457a04a2dd3d91",
+    "bytes": 2937623,
+    "sha256": "041e081e17933dc153c59dd6e0db3b35b41095a8e54f57b1bc3b744dbf1aa2b3"
+  },
+  "calculation": {
+    "status": "author constructed assumptions only",
+    "netMonthlyCny": [
+      2400,
+      -960,
+      -1500
+    ],
+    "breakEvenOrdersPerDay": 20,
+    "accuracy87UsedAsInput": false
+  },
+  "scope": {
+    "articleId": "research-2026-11-06-site-selection-rent-note",
+    "firstGit": "c905ca1df6c8587d76b5f7e66dae7c57d5a342ce",
+    "publishedAt": "2026-11-06T05:15:46Z",
+    "bodySha256": "dc5ff70049dfe679b2eb6c530989ae36aefee8c3cde3e00f794aed1b9b7cab3b",
+    "published": false,
+    "largeHTMLGitArchive": "not attempted",
+    "portalIntegration": "not performed; standalone only"
+  },
+  "visualQA": "Browser visual and interaction checks were not run. Static checks do not establish rendered acceptance."
+}

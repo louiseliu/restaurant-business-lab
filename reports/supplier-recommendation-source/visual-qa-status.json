@@ -1,0 +1,27 @@
+{
+  "performed": [
+    "Official report build and offline export",
+    "Complete original and source ledger equality",
+    "Two scoped conceptual diagrams and matching reviewed rows",
+    "Three source previews and stable source links",
+    "241 official non-content files unchanged",
+    "Authored and compiled privacy scan",
+    "Eight no-overwrite guard cases",
+    "Repeated official build byte-identical"
+  ],
+  "notPerformed": [
+    "Browser visual inspection",
+    "Desktop and narrow viewport rendering",
+    "Actual light/dark theme rendering",
+    "Table of contents interaction",
+    "Source inspector interaction",
+    "Disclosure behavior",
+    "Editing persistence",
+    "Export menu actions",
+    "Printing",
+    "Opening the file offline in a browser"
+  ],
+  "siteAccess": "not attempted",
+  "publication": "not attempted",
+  "reason": "File-only standalone preparation with static checks; restricted sites were not accessed and no alternate hosting was used."
+}

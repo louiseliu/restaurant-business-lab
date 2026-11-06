@@ -1,0 +1,9 @@
+{
+  "officialAuthoredOnlyCheck": "PASS",
+  "officialRuntimePayload": "PASS: SHA-256 verified and exact base64 bytes present in split and offline HTML",
+  "cleanRebuild": "PASS: exported HTML byte-identical",
+  "legacyFullProjectVerifier": "FAIL in both unchanged baseline and new project at hosting configuration; inherited baseline issue, not caused by this integration. No protected files or manifests changed.",
+  "browser": "Not performed",
+  "remoteHistory": "Not inspected",
+  "publication": "Not performed"
+}

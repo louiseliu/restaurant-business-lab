@@ -1,0 +1,11 @@
+{
+  "commit": "1496fce49b261cb108102b83dec501cea82cd5b4",
+  "time": "2026-11-06T05:23:47Z",
+  "timeBeijing": "2026-11-06T13:23:47+08:00",
+  "editorialFrozen": true,
+  "remoteReadbackVerified": true,
+  "sha256": "f8c718c5f2700798d4c7c93f01b0ac83c6135c206f6937828e68492b7ee82d89",
+  "sourcesSha256": "4bd44d0f38d5d125c226a4c1c1b79dc2f3b9126f08f4f9324b40c94cfa21ba17",
+  "notePath": "research/2026-11-06-supplier-recommendation/note.md",
+  "sourcesPath": "research/2026-11-06-supplier-recommendation/sources.md"
+}

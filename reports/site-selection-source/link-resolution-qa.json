@@ -1,0 +1,21 @@
+{
+  "checkedLinks": [
+    {
+      "relative": "calculations.py",
+      "fixed": "https://github.com/louiseliu/restaurant-business-lab/blob/c905ca1df6c8587d76b5f7e66dae7c57d5a342ce/research/2026-11-06-site-selection-rent/calculations.py"
+    },
+    {
+      "relative": "calculation-results.json",
+      "fixed": "https://github.com/louiseliu/restaurant-business-lab/blob/c905ca1df6c8587d76b5f7e66dae7c57d5a342ce/research/2026-11-06-site-selection-rent/calculation-results.json"
+    },
+    {
+      "relative": "../2026-11-05-site-fitout/note.md",
+      "fixed": "https://github.com/louiseliu/restaurant-business-lab/blob/c905ca1df6c8587d76b5f7e66dae7c57d5a342ce/research/2026-11-05-site-fitout/note.md"
+    },
+    {
+      "relative": "sources.md",
+      "fixed": "https://github.com/louiseliu/restaurant-business-lab/blob/c905ca1df6c8587d76b5f7e66dae7c57d5a342ce/research/2026-11-06-site-selection-rent/sources.md"
+    }
+  ],
+  "scope": "Rendering-only resolution; frozen body unchanged."
+}
