@@ -1,0 +1,146 @@
+{
+  "status": "passed_static_only",
+  "checks": [
+    {
+      "check": "Frozen article body matches reviewed draft byte for byte",
+      "passed": true
+    },
+    {
+      "check": "Source ledger matches reviewed draft byte for byte",
+      "passed": true
+    },
+    {
+      "check": "Recorded body digest matches actual body",
+      "passed": true
+    },
+    {
+      "check": "Fixed source URL uses full first-commit SHA",
+      "passed": true
+    },
+    {
+      "check": "Neutral verified title",
+      "passed": true
+    },
+    {
+      "check": "All original sections retained without paraphrase loss",
+      "passed": true
+    },
+    {
+      "check": "No synthetic numerical chart",
+      "passed": true
+    },
+    {
+      "check": "Source fact diagram and proposed-method diagram separated",
+      "passed": true
+    },
+    {
+      "check": "Proposal explicitly unexecuted",
+      "passed": true
+    },
+    {
+      "check": "Sources preserve unknown product correspondence",
+      "passed": true
+    },
+    {
+      "check": "Training order and prior learning preserved",
+      "passed": true
+    },
+    {
+      "check": "All source citations have approved faithful previews",
+      "passed": true
+    },
+    {
+      "check": "Exactly three main public evidence sources",
+      "passed": true
+    },
+    {
+      "check": "diagram rows contain only qualitative text",
+      "passed": true
+    },
+    {
+      "check": "secondDiagram rows contain only qualitative text",
+      "passed": true
+    },
+    {
+      "check": "Compiled HTML embeds exactly the approved article",
+      "passed": true
+    },
+    {
+      "check": "Compiled HTML embeds exactly the approved story",
+      "passed": true
+    },
+    {
+      "check": "Prepared project catalog matches source",
+      "passed": true
+    },
+    {
+      "check": "Prepared project story matches source",
+      "passed": true
+    },
+    {
+      "check": "Prepared project queries match reviewed data",
+      "passed": true
+    },
+    {
+      "check": "No private workspace paths",
+      "passed": true
+    },
+    {
+      "check": "No internal project/library identifiers",
+      "passed": true
+    },
+    {
+      "check": "No private conversation links",
+      "passed": true
+    },
+    {
+      "check": "No credential material",
+      "passed": true
+    },
+    {
+      "check": "No private notes/process paths",
+      "passed": true
+    },
+    {
+      "check": "No old template article",
+      "passed": true
+    },
+    {
+      "check": "Portable HTML has no external required assets",
+      "passed": true
+    },
+    {
+      "check": "Original ledger link resolves against fixed commit",
+      "passed": true
+    },
+    {
+      "check": "Build html manifest bytes and digest verified",
+      "passed": true
+    },
+    {
+      "check": "Build snapshot manifest bytes and digest verified",
+      "passed": true
+    }
+  ],
+  "assertions": 30,
+  "articleId": "research-2026-11-06-ai-practice-validation-note",
+  "firstGit": "10fb03ca2b9cb138818364d019ec5fb7360cd534",
+  "bodySha256": "6086b3b520b25df7944cbc3600d0f83780cea11ae01cfd510f7e431772f1e171",
+  "htmlSha256": "46083279927c7f43f8b2ceef2fba2854af3f622c180ce712b4f5a47b3e06462e",
+  "htmlBytes": 2943192,
+  "browserVisualAndInteractionTest": false,
+  "publishedOrUploadedByAuditor": false,
+  "limits": [
+    "No browser rendering, interaction, desktop/mobile viewport, or accessibility-tree validation was performed.",
+    "Source facts were independently checked in the preceding editorial review.",
+    "External website reachability was not rechecked during this static artifact review."
+  ],
+  "fixedCommitRemoteBodyReadback": {
+    "verified": true,
+    "commit": "10fb03ca2b9cb138818364d019ec5fb7360cd534",
+    "gitBlobSha": "02a701ee2cd0076bd3eb493ae792daef80d0804d",
+    "bodyEqualsFrozenLocal": true,
+    "actualCreatedAt": "2026-11-06T04:17:21Z",
+    "publishedAtMatchesActualCommit": true
+  }
+}

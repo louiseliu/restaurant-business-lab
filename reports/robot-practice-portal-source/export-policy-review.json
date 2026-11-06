@@ -1,0 +1,7 @@
+{
+  "selected": null,
+  "destinations": [],
+  "originalPolicyPreserved": true,
+  "installedExportDependenciesConfirmedByToolInventory": [],
+  "explanation": "Built-in export options retained. No external export dependency confirmed; no plugin connection lookup or installation requested. Export menu not browser-tested."
+}

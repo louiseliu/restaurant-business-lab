@@ -1,0 +1,48 @@
+{
+  "status": "pass_local_static_inputs",
+  "articles": [
+    {
+      "article": "research-2026-11-06-robot-subscription-exit-note",
+      "manifestFiles": 28,
+      "commit": "2c32d8b669ea8cf6c5835e9598325bbddc73297a",
+      "time": "2026-11-06T04:08:54Z",
+      "manifest": true,
+      "bodyLedgerFrozenMetadata": true,
+      "queriesAndSourceScope": true,
+      "privacyPatternScan": true,
+      "diagramRows": [
+        3,
+        2
+      ]
+    },
+    {
+      "article": "research-2026-11-06-ai-practice-validation-note",
+      "manifestFiles": 28,
+      "commit": "10fb03ca2b9cb138818364d019ec5fb7360cd534",
+      "time": "2026-11-06T04:17:21Z",
+      "manifest": true,
+      "bodyLedgerFrozenMetadata": true,
+      "queriesAndSourceScope": true,
+      "privacyPatternScan": true,
+      "diagramRows": [
+        3,
+        6
+      ]
+    }
+  ],
+  "base": {
+    "articles": 87,
+    "stories": 67,
+    "queries": 138
+  },
+  "addition": {
+    "articles": 2,
+    "queries": 4
+  },
+  "limits": [
+    "No external access or independent remote readback.",
+    "No browser, visual or interaction testing.",
+    "Credential/privacy scanning is pattern based, not an absolute privacy guarantee.",
+    "No source files modified."
+  ]
+}

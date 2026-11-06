@@ -1,0 +1,126 @@
+{
+  "files": [
+    {
+      "path": "PORTAL_BUILD.md",
+      "bytes": 5590,
+      "sha256": "df657b10cbc14885036e152013f212d74052e5c97f70b223ed62c898e5e13ba2"
+    },
+    {
+      "path": "baseline-known-gaps.json",
+      "bytes": 2141,
+      "sha256": "51207677384d205a3e5f25307de501643961f3736a20866c7a0102dd4e7e313a"
+    },
+    {
+      "path": "baseline67-sha256.json",
+      "bytes": 39435,
+      "sha256": "80a3eb25d9394dd4f87ae23e302b783835b053bcc4e2d20228459e58595f9d70"
+    },
+    {
+      "path": "build_portal.py",
+      "bytes": 1554,
+      "sha256": "4eee040850e3ecefb17eb35909b3229d8ae2749cf817acbc57f3d49d68322950"
+    },
+    {
+      "path": "export-policy-review.json",
+      "bytes": 323,
+      "sha256": "ac4e11818a7da12ff9d6510024e8ba15a5656da5a31223e47cd7220629140fb4"
+    },
+    {
+      "path": "independent-audit/BUILD.md",
+      "bytes": 3050,
+      "sha256": "e0941e730892bbc1a449f757bdfeda60d94985dc6329bef54f1c10ee8d9449dc"
+    },
+    {
+      "path": "independent-audit/audit_portal69.py",
+      "bytes": 15678,
+      "sha256": "bf8131f3bd01bb187033f541efb3bb9055057e2d9a4062094d1007a1cc4c25d7"
+    },
+    {
+      "path": "independent-audit/check_inputs.py",
+      "bytes": 3799,
+      "sha256": "f5f70da562801d7caa27ca9309162ddecbfc312b1f53ea42bf77b96e8dd5ee1c"
+    },
+    {
+      "path": "independent-audit/input-audit.json",
+      "bytes": 1229,
+      "sha256": "b25f1074be913db023451dcbaa820ca421be09e5267d8960e8825dd54d18da6d"
+    },
+    {
+      "path": "independent-audit/portal69-before-fixes.json",
+      "bytes": 4487,
+      "sha256": "ce71c343bb55ec7608905c903cc5e61bbe3e4702dfa0e30fbb2b2c1acb90c584"
+    },
+    {
+      "path": "independent-audit/portal69-static-audit.json",
+      "bytes": 4530,
+      "sha256": "37af937c5cb5a585b1c53ab85f861b14e34e4706d330784c0fe4016ae2ca66bd"
+    },
+    {
+      "path": "independent-audit/test_scoped_fixes.mjs",
+      "bytes": 2435,
+      "sha256": "ed934782c737e9a5368612369be176b0ea625d4a571ab8c425f1c4385ac68c9e"
+    },
+    {
+      "path": "input-fingerprints.json",
+      "bytes": 2559,
+      "sha256": "5faa03ba1e7723f41dd634da797ff024f9311a373c7b291513d2fd8a3591d916"
+    },
+    {
+      "path": "input-remote-verification.json",
+      "bytes": 3808,
+      "sha256": "520ccb23ee66ad370a80e5f9300e4969bd072d6bc10edcc4407edcf9084d1eeb"
+    },
+    {
+      "path": "integrate69.py",
+      "bytes": 3201,
+      "sha256": "c7735564df81cf425576ff718f8fe41f4707bb76452f9095fb0042d9a05e3870"
+    },
+    {
+      "path": "merge-guard-qa.json",
+      "bytes": 4128,
+      "sha256": "1f53bdb5d6dc8366abe2e5399f6496061328337cfd13df3ea69e16919bea8e43"
+    },
+    {
+      "path": "portal-build-qa.json",
+      "bytes": 2305,
+      "sha256": "e93f7174c8b8ff6e3b95f01f389b8556301e5be4664c44f7c5c10f375e7efb72"
+    },
+    {
+      "path": "portal-reproducibility.json",
+      "bytes": 561,
+      "sha256": "371996b7f0f4724ee7b6ae6fa1cdad20e894021a8d886b863eeb663e5d7efdee"
+    },
+    {
+      "path": "prepare_portal.py",
+      "bytes": 1133,
+      "sha256": "2e838677b2eed3e4ec434e4dce6a7f8682985da5ea39c17fed6e4c8c144094fe"
+    },
+    {
+      "path": "reader_patch.py",
+      "bytes": 3025,
+      "sha256": "8eb0cc391ba488fc93090c1f726d7a569c338a7ef452b7903b31fde3d1b07bc7"
+    },
+    {
+      "path": "test_portal_merge_guard.py",
+      "bytes": 4453,
+      "sha256": "c388678424d133ee5dadf15d463b61dd6dd7eb3f3a861432cc75c9d75a4d39ca"
+    },
+    {
+      "path": "test_portal_preservation.py",
+      "bytes": 8542,
+      "sha256": "2cd95f370200b5ef305ba156c41c3b9f9fca43df1f385b772f600fcfadd53c7f"
+    },
+    {
+      "path": "test_reader_routes.mjs",
+      "bytes": 4909,
+      "sha256": "e55029e824107223c6a8d96b0c1e25c04e5d9896f90d8ce69e223f00c8f3d708"
+    },
+    {
+      "path": "visual-qa-status.json",
+      "bytes": 513,
+      "sha256": "826b228c4c0b17f57f654cb67aca0dc90b1523f48161576fee49930d402ae18e"
+    }
+  ],
+  "totalBytes": 123388,
+  "boundary": "Small public author sources, provenance and real static QA. No compiled HTML/ZIP, full runtime, private IDs or credentials."
+}

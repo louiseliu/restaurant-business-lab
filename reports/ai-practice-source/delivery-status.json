@@ -1,0 +1,13 @@
+{
+  "attachmentRequestAcceptedAt": "2026-11-06T04:20:23Z",
+  "includedInTwoAttachmentRequest": true,
+  "deliveryConfirmed": false,
+  "openingOrDownloadConfirmed": false,
+  "resentOrReplacedByThisStep": false,
+  "html": {
+    "bytes": 2943192,
+    "sha256": "46083279927c7f43f8b2ceef2fba2854af3f622c180ce712b4f5a47b3e06462e"
+  },
+  "htmlGitArchived": false,
+  "browserTest": false
+}

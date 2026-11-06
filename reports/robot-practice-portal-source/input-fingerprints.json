@@ -1,0 +1,78 @@
+[
+  {
+    "article-entry.json": {
+      "bytes": 9677,
+      "sha256": "10dbb01f9c5fd559970bf2d9809fced327d9f167e48b152a44c8d32e2ff38ddd"
+    },
+    "illustrated-story.json": {
+      "bytes": 20686,
+      "sha256": "e89f02c583f94c2af22ff3897e461c5b851adb94283840ced6e05987ec3e2178"
+    },
+    "article-reviewed-data.json": {
+      "bytes": 6643,
+      "sha256": "deba277a518f02e9552b1f545cfd8f732e1343e5cfa4967fa9f9328ae7aeebf8"
+    },
+    "frozen.json": {
+      "bytes": 321,
+      "sha256": "1432d091d8d038dcd77127c8214f1d677e0d1a969ba48f49fc4eb632a3f19c52"
+    },
+    "note.md": {
+      "bytes": 8856,
+      "sha256": "f8cc36b0b78957265261a89f4bacac3063f9c3f1647f7ef790c7e6a39baa3938"
+    },
+    "sources.md": {
+      "bytes": 4648,
+      "sha256": "c8c9482d9795e577c7d212929fc6aa39685a3510558593a71d28a0b50856ed25"
+    },
+    "RobotSubscriptionDiagrams.jsx": {
+      "bytes": 2483,
+      "sha256": "9f691d31596db7d36f386965170377c1dc1bb9a4d34259215a218c9caf3889b1"
+    },
+    "robotsubscription-diagrams.css": {
+      "bytes": 3381,
+      "sha256": "0999f91cf05e393b8cd095c7127ff9894cf55fd25b41effd978275a817191755"
+    },
+    "robotsubscription-source-previews.json": {
+      "bytes": 1411,
+      "sha256": "9200b772a4faf720e65d75d8bcf16a65ef3373f033b6147264568f7a5c2520a8"
+    }
+  },
+  {
+    "article-entry.json": {
+      "bytes": 10200,
+      "sha256": "cb60219f4679cac6ebf1db264f3918c374e88d0d899202fab8ade875d5b67f30"
+    },
+    "illustrated-story.json": {
+      "bytes": 23650,
+      "sha256": "f94861de33e4af4a7af407b1e6f421bffa22ff1aa66674659f64bb3af8ad86a4"
+    },
+    "article-reviewed-data.json": {
+      "bytes": 7350,
+      "sha256": "44bb1b3f56640b585100224d7caa1db2ced10930a40ef96629a05f85d4acf779"
+    },
+    "frozen.json": {
+      "bytes": 321,
+      "sha256": "ba960626998be7ad601bff6e1a77d753bf37e36ed4612bf8ee334812bfb1da09"
+    },
+    "note.md": {
+      "bytes": 9394,
+      "sha256": "6086b3b520b25df7944cbc3600d0f83780cea11ae01cfd510f7e431772f1e171"
+    },
+    "sources.md": {
+      "bytes": 6182,
+      "sha256": "7ff89bf7ed14f7553e88c5956bcb09f2314f2feed07e45f3a18813016512f0e9"
+    },
+    "AIPracticeDiagrams.jsx": {
+      "bytes": 3076,
+      "sha256": "e4e7ccbeed658895bec89f86d2878d603221c705297872f26dc6cdb3f95e6f8e"
+    },
+    "aipractice-diagrams.css": {
+      "bytes": 3881,
+      "sha256": "43acf121fc1142fd02d36f6c2941a827bb94e5295f39b4ccf4804d3b4bf2fc12"
+    },
+    "aipractice-source-previews.json": {
+      "bytes": 1676,
+      "sha256": "693412f0248384ca3562ad763cfdc9fba351fd39dfbd8c220d9ae1058e6aa714"
+    }
+  }
+]

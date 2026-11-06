@@ -1,0 +1,22 @@
+{
+  "officialCleanRebuild": true,
+  "samePreparedIdentity": true,
+  "noDistCacheOrNodeModulesCopied": true,
+  "byteEqual": true,
+  "html": {
+    "bytes": 14077756,
+    "sha256": "135406278b0fdd62d3f11bf0c79f6697dfe8c9946ea9a33aeacc108df0a299dc"
+  },
+  "executionSourcesEqual": [
+    "input-fingerprints.json",
+    "test_portal_merge_guard.py",
+    "prepare_portal.py",
+    "test_reader_routes.mjs",
+    "baseline67-sha256.json",
+    "reader_patch.py",
+    "build_portal.py",
+    "integrate69.py",
+    "test_portal_preservation.py"
+  ],
+  "browserTest": false
+}

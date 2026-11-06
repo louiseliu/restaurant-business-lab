@@ -1,0 +1,18 @@
+{
+  "browserTest": false,
+  "notPerformed": [
+    "desktop and narrow viewport",
+    "light and dark theme",
+    "actual diagrams and source panels",
+    "navigation, history and scroll",
+    "edit persistence",
+    "download clicks",
+    "print",
+    "real offline opening",
+    "browser log inspection",
+    "screen reader"
+  ],
+  "restrictionsRetriedOrBypassed": false,
+  "originalSiteVisitedOrSynchronized": false,
+  "claims": "Static checks and byte-identical rebuild do not establish browser acceptance."
+}

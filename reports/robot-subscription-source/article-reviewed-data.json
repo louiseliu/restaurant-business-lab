@@ -1,0 +1,121 @@
+{
+  "surface": "report",
+  "title": "按月付的炒菜机器人，能当低风险试用吗？",
+  "generatedAt": "2026-11-06T04:08:54Z",
+  "status": "reviewed",
+  "buildStatus": "creating",
+  "exportPreferences": {
+    "selected": null,
+    "destinations": []
+  },
+  "filters": [],
+  "report": {
+    "asOf": "2026-11-06"
+  },
+  "queries": {
+    "diagram-research-2026-11-06-robot-subscription-exit-note": {
+      "rows": [
+        {
+          "阶段": "开始前",
+          "付款轨道": "初始现金：押金、安装或改造等，逐项确认。",
+          "使用轨道": "安装、调试，限定菜品和试用范围。",
+          "退出轨道": "先约定通知方式、设备退回与替代流程。"
+        },
+        {
+          "阶段": "首个复查节点",
+          "付款轨道": "已付多少，停止后是否还有应付义务？",
+          "使用轨道": "观察完整餐段，决定继续、收窄或停止。",
+          "退出轨道": "若决定不用，按书面约定提出通知。"
+        },
+        {
+          "阶段": "继续或结束后",
+          "付款轨道": "核对结算金额与实际退款，不只看承诺可退。",
+          "使用轨道": "继续则重估完整成本；停止则恢复可行做法。",
+          "退出轨道": "完成设备和款项交接，确认出餐能接续。"
+        }
+      ],
+      "source": {
+        "label": "按月付款，并不告诉你何时能结束",
+        "files": [
+          "research/2026-11-06-robot-subscription-exit/note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "按月付款，并不告诉你何时能结束",
+            "definition": "作者定性示意，非门店实测。三条轨道是采购时需要问清的事情，不是华宝或奥琦玮已执行的合同流程；箭头只表示核查顺序，不表示租期或金额。 图1｜作者原创机制分析。[华宝方案](https://www.hbglobal.com/news-graphics/587.html)提到可退押金和月度服务费；[奥琦玮方案](https://www.acewill.cn/news-detail/298.html)宣传零首付、每月2,000至4,000元。两家条件分开引用，未取得完整合同，不能替其认定法律性质或退出义务。",
+            "componentIds": [
+              "diagram-research-2026-11-06-robot-subscription-exit-note"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "作者机制分析，案例事实边界见固定正文",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/2c32d8b669ea8cf6c5835e9598325bbddc73297a/research/2026-11-06-robot-subscription-exit/note.md"
+          },
+          {
+            "title": "S1 · 华宝官方披露",
+            "detail": "https://www.hbglobal.com/news-graphics/587.html"
+          },
+          {
+            "title": "S2 · 奥琦玮官方方案",
+            "detail": "https://www.acewill.cn/news-detail/298.html"
+          }
+        ],
+        "caveats": [
+          "应先请供应商写清“第一个复查日决定不用了，要做什么、还付什么、何时退回什么”。押金退回以前占用现金；完整退回后，不应仍全部算作最终成本。",
+          "图1｜作者原创机制分析。[华宝方案](https://www.hbglobal.com/news-graphics/587.html)提到可退押金和月度服务费；[奥琦玮方案](https://www.acewill.cn/news-detail/298.html)宣传零首付、每月2,000至4,000元。两家条件分开引用，未取得完整合同，不能替其认定法律性质或退出义务。"
+        ]
+      }
+    },
+    "diagram-research-2026-11-06-robot-subscription-exit-note:second": {
+      "rows": [
+        {
+          "方式": "门店自行组织",
+          "要安排什么": "设备、调料与配方、训练、维修，以及需要的备用能力。",
+          "怎样记账": "计入真实发生、可比较的购置或使用支出、调料损耗和相关工时。",
+          "不能省略": "设备自有，也要核实故障期间怎样继续出餐。"
+        },
+        {
+          "方式": "采用组合服务",
+          "要安排什么": "按书面约定由供应商承接的部分，加门店仍须承担的工作。",
+          "怎样记账": "计入服务收费、持续投入及剩余工时；有价值的支持也应纳入比较。",
+          "不能省略": "有人响应，不等于已承诺修复时限或备用机。"
+        }
+      ],
+      "source": {
+        "label": "把两种供给方式，放到同一份合格菜上比较",
+        "files": [
+          "research/2026-11-06-robot-subscription-exit/note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "把两种供给方式，放到同一份合格菜上比较",
+            "definition": "作者提出的经营比较框架，不是两家供应商的效果排名。图中的责任划分需要依具体书面约定确认，没有假定全部工作都由某一方承担。 图2｜作者原创比较方法。[华宝5月披露](https://www.hbglobal.com/news-graphics/587.html)与[6月后续披露](https://www.hbglobal.com/news-graphics/590.html)属于同一企业来源链，不是两份独立效果验证。本图不使用未知费用、虚构节省率或回本线。",
+            "componentIds": [
+              "diagram-research-2026-11-06-robot-subscription-exit-note:second"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "作者机制分析，案例事实边界见固定正文",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/2c32d8b669ea8cf6c5835e9598325bbddc73297a/research/2026-11-06-robot-subscription-exit/note.md"
+          },
+          {
+            "title": "S1 · 华宝官方披露",
+            "detail": "https://www.hbglobal.com/news-graphics/587.html"
+          },
+          {
+            "title": "S3 · 华宝后续披露",
+            "detail": "https://www.hbglobal.com/news-graphics/590.html"
+          }
+        ],
+        "caveats": [
+          "如果组合服务能稳定承接门店原本需要组织的工作，它可能有价值；如果为了使用设备而改变主打口味、额外维持大量人工或迁就供给条件，就应收窄试验。现有证据不能替本店作成本结论。",
+          "图2｜作者原创比较方法。[华宝5月披露](https://www.hbglobal.com/news-graphics/587.html)与[6月后续披露](https://www.hbglobal.com/news-graphics/590.html)属于同一企业来源链，不是两份独立效果验证。本图不使用未知费用、虚构节省率或回本线。"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "samePreparedIdentity": true,
+  "byteIdenticalRebuild": true,
+  "sha256": "46083279927c7f43f8b2ceef2fba2854af3f622c180ce712b4f5a47b3e06462e",
+  "bytes": 2943192,
+  "scope": "Repeated official build and offline export; no browser test."
+}

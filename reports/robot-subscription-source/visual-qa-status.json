@@ -1,0 +1,16 @@
+{
+  "browserVisual": "not run",
+  "mobileVisual": "not run",
+  "lightDarkThemes": "not run",
+  "diagramRenderedInspection": "not run",
+  "tocNavigation": "not run",
+  "sourcePanel": "not run",
+  "fullTextExpansion": "not run",
+  "editPersistence": "not run",
+  "exportMenu": "not run",
+  "print": "not run",
+  "realOfflineOpening": "not run",
+  "browserErrors": "not checked",
+  "reason": "Task is local standalone preparation with static and privacy QA; restricted source site was not accessed or re-hosted.",
+  "claims": "Static checks establish data and artifact integrity only, not browser acceptance."
+}

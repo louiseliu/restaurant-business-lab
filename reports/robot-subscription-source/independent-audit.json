@@ -1,0 +1,33 @@
+{
+  "status": "pass_static",
+  "htmlSha256": "e70e4f0763384c6aa797a142a11974777c4bee335906f2dae133c206e4da5060",
+  "checks": {
+    "standalone_test": "passed; 5 narrative sections, 2 diagram queries, full original and ledger equal originals; compiled embedded payload equals reviewed JSON; build manifest hashes verified",
+    "authoring_guard": "passed all 8 disposable-copy cases",
+    "source_copies": "byte-identical to original research note.md and sources.md",
+    "frozen_metadata": "body and ledger hashes, first commit and timestamp match local frozen metadata",
+    "facts_and_diagrams": "explicit author qualitative framework; no claimed measured savings or fabricated terms",
+    "companies_separate": "Huabao shared equipment/seasoning/service terms kept separate from Acewill historical financial-lease pricing",
+    "twelve_months": "research comparison assumption, not public contract term; 2000*12=24000 and 4000*12=48000 recomputed",
+    "huabao_images": "incomplete checks explicitly retained; does not claim whole-page absence of details",
+    "source_scope": "diagram 1 uses S1/S2; diagram 2 uses same-company S1/S3 and labels them non-independent",
+    "privacy": "existing 14-payload scan passed; extra common credential-pattern scan found none",
+    "relative_links": "reader resolves full original, lead and sections against frozen GitHub source URL; locally resolved targets retain commit"
+  },
+  "relativeLinks": [
+    {
+      "original": "../2026-10-30-robot-kitchen/note.md",
+      "resolved": "https://github.com/louiseliu/restaurant-business-lab/blob/2c32d8b669ea8cf6c5835e9598325bbddc73297a/research/2026-10-30-robot-kitchen/note.md"
+    },
+    {
+      "original": "../2026-10-28-entry-cashflow/note.md",
+      "resolved": "https://github.com/louiseliu/restaurant-business-lab/blob/2c32d8b669ea8cf6c5835e9598325bbddc73297a/research/2026-10-28-entry-cashflow/note.md"
+    }
+  ],
+  "defects": [],
+  "limits": [
+    "No browser visual or interaction acceptance was performed.",
+    "No website, GitHub remote or external source was accessed in this audit; remote frozen readback is recorded metadata, not independently repeated here.",
+    "No upload or publication was performed."
+  ]
+}

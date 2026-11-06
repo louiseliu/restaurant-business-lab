@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "repository": "louiseliu/restaurant-business-lab",
+  "basedOnMain": "e6b87b50fefa87d9d059559f31818ec9251da960",
+  "scope": "第68、69篇单篇作者源及完整本地门户增量；历史状态不倒写。",
+  "portalSource": "reports/robot-practice-portal-source",
+  "standaloneSources": [
+    "reports/robot-subscription-source",
+    "reports/ai-practice-source"
+  ],
+  "counts": {
+    "research": 69,
+    "fullTexts": 89,
+    "illustratedStories": 69,
+    "samples": 2,
+    "ai": 46,
+    "queries": 142
+  },
+  "localHtml": {
+    "bytes": 14077756,
+    "sha256": "135406278b0fdd62d3f11bf0c79f6697dfe8c9946ea9a33aeacc108df0a299dc"
+  },
+  "htmlUploadedSentOrArchived": false,
+  "attachmentRequest": {
+    "acceptedAt": "2026-11-06T04:20:23Z",
+    "count": 2,
+    "deliveryConfirmed": false,
+    "openingOrDownloadConfirmed": false,
+    "resent": false
+  },
+  "staticQA": {
+    "officialBuild": true,
+    "cleanRebuildByteEqual": true,
+    "mergeAndFrozenGuards": 33,
+    "browserTest": false,
+    "independentAssertions": 1509,
+    "independentActualHelperChecks": 717,
+    "fixedIntegrationFindings": [
+      "robot商业模式筛选兼容",
+      "两新篇相对链接按各自固定Git首提解析"
+    ]
+  },
+  "publicSite": {
+    "synchronized": false,
+    "currentReadabilityChecked": false,
+    "lastVerifiedVersion": "v19",
+    "lastVerifiedCounts": {
+      "research": 20,
+      "fullTexts": 40,
+      "samples": 2,
+      "ai": 9
+    },
+    "pendingSyncItems": 52
+  },
+  "historicalUncertainArchives": {
+    "count": 5,
+    "remainOpen": true,
+    "retriedOrSameContentUploaded": false
+  },
+  "otherPending": "HTML归档、门户附件、旧附件替换、费用原归档、原站可读性与编辑保护、旧全站离线快照及既有视觉待办保留。",
+  "largeHistoricalFiles": "README.md与state/current.md原字节保持，仍是历史快照。"
+}

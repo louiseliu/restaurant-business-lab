@@ -1,0 +1,16 @@
+{
+  "status": "not-run",
+  "checks": [
+    "browser visual",
+    "light and dark render",
+    "narrow screen",
+    "table of contents",
+    "full original expansion",
+    "source panel",
+    "persistent editing",
+    "export menu",
+    "print",
+    "actual offline opening"
+  ],
+  "reason": "No browser interaction or restricted-site access performed; static checks only."
+}

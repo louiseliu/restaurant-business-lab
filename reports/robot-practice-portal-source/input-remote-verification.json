@@ -1,0 +1,101 @@
+{
+  "checkedAtMain": "e6b87b50fefa87d9d059559f31818ec9251da960",
+  "verifiedFiles": [
+    {
+      "path": "reports/digitalhuman-recipe-portal-source/integrate67.py",
+      "gitBlobSha": "763c518f4a1bbdac39b05858795e17a504fddb0a"
+    },
+    {
+      "path": "reports/digitalhuman-recipe-portal-source/input-fingerprints.json",
+      "gitBlobSha": "620899ef458b29d832aab9f3fdf63a284cc33e78"
+    },
+    {
+      "path": "reports/digitalhuman-recipe-portal-source/test_portal_merge_guard.py",
+      "gitBlobSha": "c567dea1c074306768b8e56943fa91dc96eed2ce"
+    },
+    {
+      "path": "reports/digitalhuman-recipe-portal-source/baseline65-sha256.json",
+      "gitBlobSha": "bfc91889db7398c1ae0e48cbbedd10e4f0a7ed34"
+    },
+    {
+      "path": "reports/digitalhuman-recipe-portal-source/merge-guard-qa.json",
+      "gitBlobSha": "5e53bff4cae291a4b11a81b6f43cc3d28df58553"
+    },
+    {
+      "path": "reports/digitalhuman-recipe-portal-source/prepare_portal.py",
+      "gitBlobSha": "b847a91c6df147bb9876d163bd4c955af75b2426"
+    },
+    {
+      "path": "reports/digitalhuman-recipe-portal-source/baseline-known-gaps.json",
+      "gitBlobSha": "c5852da5f91a63c7405f02681c5fdf052bb59cb2"
+    },
+    {
+      "path": "reports/digitalhuman-recipe-portal-source/portal-reproducibility.json",
+      "gitBlobSha": "1e037f787cb5e5efd3ae08a2f34104231c499311"
+    },
+    {
+      "path": "reports/digitalhuman-recipe-portal-source/visual-qa-status.json",
+      "gitBlobSha": "dbb982bf15fb1e853ba87b25946dbb616450819f"
+    },
+    {
+      "path": "reports/digitalhuman-recipe-portal-source/test_reader_routes.mjs",
+      "gitBlobSha": "581740b95a3027ea14b1bdc230e8a4e53220e6ba"
+    },
+    {
+      "path": "reports/digitalhuman-recipe-portal-source/reader_patch.py",
+      "gitBlobSha": "ee8064d7f0879a94dcd509f3fdbedd1977cce897"
+    },
+    {
+      "path": "reports/digitalhuman-recipe-portal-source/PORTAL_BUILD.md",
+      "gitBlobSha": "328da6871934fcd5a506369b6799a33088d911d5"
+    },
+    {
+      "path": "reports/digitalhuman-recipe-portal-source/build_portal.py",
+      "gitBlobSha": "ef7b7e4ee322388a09b4dab9db07ad477c435360"
+    },
+    {
+      "path": "reports/digitalhuman-recipe-portal-source/portal-build-qa.json",
+      "gitBlobSha": "0060d86abee501618f6ce40ae7ad6cab3c2d69b5"
+    },
+    {
+      "path": "reports/digitalhuman-recipe-portal-source/input-remote-verification.json",
+      "gitBlobSha": "7bde47b849135628755bae905d71515358d74522"
+    },
+    {
+      "path": "reports/digitalhuman-recipe-portal-source/test_portal_preservation.py",
+      "gitBlobSha": "3cab92bfdbe5782f30ca8801f3d12f22b19e3b32"
+    },
+    {
+      "path": "reports/digitalhuman-recipe-portal-source/baseline-remote-verification.json",
+      "gitBlobSha": "ce8ccbf890f172b27ff8064fa3c597b22e2af6f1"
+    },
+    {
+      "path": "reports/digitalhuman-recipe-portal-source/independent-audit/audit_portal67.py",
+      "gitBlobSha": "07fb9481e88cbc186813010ee7f2bc7cbf2c8976"
+    },
+    {
+      "path": "reports/digitalhuman-recipe-portal-source/independent-audit/portal67-static-audit.json",
+      "gitBlobSha": "500fd6ce0fd5b3ea6d7714353aec54df510b4de2"
+    },
+    {
+      "path": "research/2026-11-06-robot-subscription-exit/note.md",
+      "gitBlobSha": "734dda247c0372a440d1a314f0a5cd74677e7679",
+      "textEqual": true
+    },
+    {
+      "path": "research/2026-11-06-robot-subscription-exit/sources.md",
+      "gitBlobSha": "172859680bfe224f4bb1028655627162bbe6c005",
+      "textEqual": true
+    },
+    {
+      "path": "research/2026-11-06-ai-practice-validation/note.md",
+      "gitBlobSha": "02a701ee2cd0076bd3eb493ae792daef80d0804d",
+      "textEqual": true
+    },
+    {
+      "path": "research/2026-11-06-ai-practice-validation/sources.md",
+      "gitBlobSha": "51b65bc24c4ae4e6e0c45c8977e6ab7c36059941",
+      "textEqual": true
+    }
+  ]
+}

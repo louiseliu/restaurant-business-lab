@@ -1,0 +1,20 @@
+{
+  "https://www.yumchina.com/sustainability/fn/Stories/News_Detail?DatasId=88": {
+    "title": "S1 · 百胜中国官方AI系统介绍",
+    "summary": "公司自述采用AI模拟训练与智能教练系统。未提供具体版本、评分办法、带教工时账或部署年份；与赛事数字化教练是否同一项目未确认。",
+    "source": "百胜中国关于“中国杰出雇主2025”的官方介绍；核验日期2026-11-06。",
+    "approvedForReport": true
+  },
+  "https://www.yumchina.com/sustainability/zwbg/%E7%99%BE%E8%83%9C%E4%B8%AD%E5%9B%BD2025%E5%B9%B4%E5%8F%AF%E6%8C%81%E7%BB%AD%E5%8F%91%E5%B1%95%E6%8A%A5%E5%91%8A.pdf": {
+    "title": "S2 · 百胜中国2025年可持续发展报告",
+    "summary": "印刷第64页（PDF第34页）披露冠军挑战赛的线上模拟、数字化教练反馈与线下岗位实操。赛事段未单独说明技术，不是新人试点或效果验证。已核对相关跨页，没有逐页审读全报告。",
+    "source": "百胜中国，2026-04-08发布；同一经营者来源。",
+    "approvedForReport": true
+  },
+  "https://myai.tech/news/product/%E6%98%8E%E8%83%9C%E5%93%81%E6%99%BAai%E9%99%AA%E7%BB%83%E8%AE%A9%E6%9C%8D%E5%8A%A1%E6%A0%87%E5%87%86%E5%9C%A8%E7%9C%9F%E5%AE%9E%E5%9C%BA%E6%99%AF%E4%B8%AD%E8%90%BD%E5%9C%B0/": {
+    "title": "S3 · 明胜品智AI陪练功能说明",
+    "summary": "介绍多轮对话、自动评分、情境和标准配置及员工反馈。是供应商功能自述，本研究未测试产品，也未确认与百胜系统或赛事的实施对应关系。",
+    "source": "明胜品智，页面日期2026-07-21；核验日期2026-11-06。",
+    "approvedForReport": true
+  }
+}

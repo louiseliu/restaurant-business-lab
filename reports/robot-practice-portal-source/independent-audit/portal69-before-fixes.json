@@ -1,0 +1,117 @@
+{
+  "scope": "Independent local static audit of exact 69-study offline portal; no publication or browser acceptance claim.",
+  "result": "needs-revision",
+  "artifact": {
+    "name": "timeline69-robot-practice.html",
+    "bytes": 14076812,
+    "sha256": "5c7cd37770257d946660500d48d2aa8a13822795b464b9ca8a2a481867d99166"
+  },
+  "counts": {
+    "research": 69,
+    "originals": 89,
+    "stories": 69,
+    "queries": 142,
+    "aiResearch": 46
+  },
+  "preservation": {
+    "originals": 87,
+    "stories": 67,
+    "queries": 138,
+    "baselineFilesCompared": 357,
+    "changedFiles": [
+      "src/content/report/IllustratedArticle.jsx",
+      "src/content/report/articles.json",
+      "src/content/report/illustrated-stories.json",
+      "src/data.json"
+    ],
+    "addedContentFiles": [
+      "AIPracticeDiagrams.jsx",
+      "RobotSubscriptionDiagrams.jsx",
+      "aipractice-diagrams.css",
+      "aipractice-source-previews.json",
+      "robotsubscription-diagrams.css",
+      "robotsubscription-source-previews.json"
+    ],
+    "sourceUserEdits": "Readable 67-story baseline bytes and data only; unavailable original-site edits not verified."
+  },
+  "newVisualBindings": [
+    {
+      "query": "diagram-research-2026-11-06-robot-subscription-exit-note",
+      "layout": "robotsubscription-timelines",
+      "sourceIds": [
+        "S1",
+        "S2"
+      ],
+      "sourceUrls": [
+        "https://www.hbglobal.com/news-graphics/587.html",
+        "https://www.acewill.cn/news-detail/298.html"
+      ]
+    },
+    {
+      "query": "diagram-research-2026-11-06-robot-subscription-exit-note:second",
+      "layout": "robotsubscription-supply",
+      "sourceIds": [
+        "S1",
+        "S3"
+      ],
+      "sourceUrls": [
+        "https://www.hbglobal.com/news-graphics/587.html",
+        "https://www.hbglobal.com/news-graphics/590.html"
+      ]
+    },
+    {
+      "query": "diagram-research-2026-11-06-ai-practice-validation-note",
+      "layout": "aipractice-evidence",
+      "sourceIds": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "sourceUrls": [
+        "https://www.yumchina.com/sustainability/fn/Stories/News_Detail?DatasId=88",
+        "https://www.yumchina.com/sustainability/zwbg/%E7%99%BE%E8%83%9C%E4%B8%AD%E5%9B%BD2025%E5%B9%B4%E5%8F%AF%E6%8C%81%E7%BB%AD%E5%8F%91%E5%B1%95%E6%8A%A5%E5%91%8A.pdf",
+        "https://myai.tech/news/product/%E6%98%8E%E8%83%9C%E5%93%81%E6%99%BAai%E9%99%AA%E7%BB%83%E8%AE%A9%E6%9C%8D%E5%8A%A1%E6%A0%87%E5%87%86%E5%9C%A8%E7%9C%9F%E5%AE%9E%E5%9C%BA%E6%99%AF%E4%B8%AD%E8%90%BD%E5%9C%B0/"
+      ]
+    },
+    {
+      "query": "diagram-research-2026-11-06-ai-practice-validation-note:second",
+      "layout": "aipractice-validation",
+      "sourceIds": [],
+      "sourceUrls": []
+    }
+  ],
+  "coverage": {
+    "assertions": 1509,
+    "compiledObjects": 28,
+    "snapshotChunks": 6,
+    "snapshotBytes": 378307,
+    "snapshotSha256": "1f0be9b56aa86b19725f94af368bd43dbf85351d1f41b3fbd681c20ee43624ec",
+    "inputFingerprints": 18,
+    "payloads": 190,
+    "zipContainers": 2,
+    "zipMembers": 45,
+    "releaseManifests": 1,
+    "downloads": 5
+  },
+  "privacyPatternHits": [],
+  "issues": [
+    "New robot research reachable through business-model topic filter",
+    "New relative Markdown links resolve against each frozen article URL"
+  ],
+  "observedIntegrationRisks": [
+    "Robot topics is business while portal commercial filter matches business-model; new study is omitted from that topic filter.",
+    "New robot ../note.md links and AI sources.md links are passed through unchanged in narrative and full original; local HTML relative resolution does not target frozen Git source."
+  ],
+  "notVerified": [
+    "Browser rendering, mobile, dark mode, accessibility, popups, editing, history, scrolling, print or export interactions.",
+    "Fresh independent compilation or execution of embedded calculations; existing compiled bytes and exact snapshots were inspected.",
+    "External primary webpages, restricted PDFs, remote Git provenance or real restaurant effects.",
+    "Original-site access, upload, publication or sharing."
+  ],
+  "retainedLimitations": [
+    "New robot subscription and AI practice articles preserve inherited root language; existing language attributes unchanged.",
+    "Existing Fourth S2 title omits page 19; unchanged and unresolved.",
+    "Five historical uncertain audit archives were neither copied nor retried.",
+    "Pattern scanning cannot guarantee absence of every possible sensitive datum."
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "standalone": {
+    "buildStatus": "complete",
+    "fullOriginals": 1,
+    "illustratedStories": 1,
+    "narrativeSections": 5,
+    "queries": 2,
+    "sourceUrls": 3,
+    "unchangedOfficialFiles": 241,
+    "privacyTextPayloads": 14,
+    "compiledContents": "equal reviewed source",
+    "buildManifest": "verified exact HTML/snapshot bytes and hashes",
+    "runtimeSha256": "b1771584910da746d0cf1b967a4889fee226053d841596104b457a04a2dd3d91",
+    "bytes": 2937369,
+    "sha256": "e70e4f0763384c6aa797a142a11974777c4bee335906f2dae133c206e4da5060"
+  },
+  "scope": {
+    "articleId": "research-2026-11-06-robot-subscription-exit-note",
+    "firstGit": "2c32d8b669ea8cf6c5835e9598325bbddc73297a",
+    "publishedAt": "2026-11-06T04:08:54Z",
+    "bodySha256": "f8cc36b0b78957265261a89f4bacac3063f9c3f1647f7ef790c7e6a39baa3938",
+    "published": false,
+    "largeHTMLGitArchive": "not attempted",
+    "portalIntegration": "not performed; standalone only"
+  },
+  "visualQA": "Browser visual and interaction checks were not run. Static checks do not establish rendered acceptance."
+}

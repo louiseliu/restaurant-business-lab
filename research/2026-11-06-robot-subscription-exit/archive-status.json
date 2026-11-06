@@ -79,5 +79,27 @@
     "workflow_runs": 0,
     "result": "未发现本次提交的CI执行记录，不声明CI通过。"
   },
-  "existing_work_note": "既有用户修改、历史归档缺件、附件、门户及原站状态均保留；本次未重试历史结果不确定的操作，未访问原站。README.md和state/current.md未修改。"
+  "existing_work_note": "既有用户修改、历史归档缺件、附件、门户及原站状态均保留；本次未重试历史结果不确定的操作，未访问原站。README.md和state/current.md未修改。",
+  "portal69_update": {
+    "scope": "2026-11-06 后续图文及完整本地门户增量；上文各字段保留原归档时点。",
+    "standalone_source": "reports/robot-subscription-source",
+    "portal_source": "reports/robot-practice-portal-source",
+    "local_counts": {
+      "research": 69,
+      "full_texts": 89,
+      "illustrated_stories": 69,
+      "samples": 2,
+      "ai": 46,
+      "queries": 142
+    },
+    "attachment_request_accepted_at": "2026-11-06T04:20:23Z",
+    "delivery_confirmed": false,
+    "opening_or_download_confirmed": false,
+    "resent_or_replaced": false,
+    "browser_test": false,
+    "html_or_zip_archived": false,
+    "original_site_synchronized": false,
+    "public_site_pending_sync_items": 52,
+    "historical_uncertain_archives_remain_open": true
+  }
 }
