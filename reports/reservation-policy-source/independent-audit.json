@@ -1,0 +1,42 @@
+{
+  "auditType": "independent static compiled-payload and privacy audit",
+  "artifact": "reservation-policy.html",
+  "sha256": "5dbcea9091c2427726e99c3cad9239f3ccfd41e91c0683e805f148096f309900",
+  "bytes": 2953665,
+  "conclusion": "PASS: no P0/P1 issues identified in audited static scope",
+  "checks": {
+    "frozen_content": "Full original body, seven sections and full source ledger match supplied frozen hashes exactly.",
+    "provenance": "First commit and UTC timestamp match supplied reference and compiled article source link.",
+    "diagrams": "Three compiled diagram node sets match embedded snapshot rows, component IDs and scoped source bindings.",
+    "protected_prepared_files_unchanged": 241,
+    "offline_static_assets": {
+      "count": 2,
+      "all_data_urls": true
+    },
+    "privacy": "Raw HTML, parsed JSON, snapshot and decoded data assets scanned. No selected concrete private path, thread/file/project identifier or credential patterns found. Generic codex://threads/${l} runtime template is not a private thread ID.",
+    "editorial": [
+      "Prepayment, authorization and contingent collection distinguished; no guaranteed capture assertion.",
+      "Denominator selection, unknown outcomes, cancellation timing and replacement seating retained.",
+      "No duplicate capacity benefit, meal-offset deposit revenue or previously counted costs.",
+      "2019 historical interview, current publicly readable policy and supplier AI statements separated; no merchant AI or causal benefit claim.",
+      "Three qualitative diagrams contain no fabricated numeric effect, probability or revenue series."
+    ],
+    "article_language": "Compiled article component explicitly sets lang=zh-CN on study-page; source and standalone authored component match. Root runtime remains unmodified."
+  },
+  "issues": [],
+  "limitations": [
+    "No browser, server, webpage visits, visual rendering or interaction tests performed.",
+    "Evidence checked against supplied frozen body and ledger; sources not revisited online.",
+    "Static asset embedding does not prove every optional runtime feature works offline.",
+    "Pattern scanning cannot prove absence of every possible secret.",
+    "No publication, upload, commit or content modification performed."
+  ],
+  "resolvedIssues": [
+    {
+      "severity": "P3",
+      "detail": "Chinese article language now explicit on compiled article container.",
+      "status": "resolved in static compiled component"
+    }
+  ],
+  "recheck": "Frozen full body, seven sections, ledger, first commit/time, three compiled source bindings, protected files, static data assets and decoded-payload privacy scan rerun on new artifact."
+}

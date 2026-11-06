@@ -1,0 +1,172 @@
+{
+  "result": "PASS",
+  "originalsPreserved": 91,
+  "storiesPreserved": 71,
+  "queriesPreserved": 146,
+  "unchangedFiles": 365,
+  "sections": [
+    7,
+    6
+  ],
+  "downloads": 5,
+  "recursiveArchives": 2,
+  "privacyPayloads": 206,
+  "queryEvidence": [
+    {
+      "id": "diagram-research-2026-11-06-reservation-policy-note",
+      "rows": 3,
+      "evidence": [
+        {
+          "title": "作者机制分析，案例事实边界见固定正文",
+          "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/fdb6fd9e3c9e34d4afc772a14bd82dc8e6a8d349/research/2026-11-06-reservation-policy/note.md"
+        },
+        {
+          "title": "S2 · LucAle官网入口",
+          "detail": "https://www.lucalehk.com/"
+        },
+        {
+          "title": "S2 · LucAle餐厅FAQ",
+          "detail": "https://www.lucalehk.com/faqs"
+        },
+        {
+          "title": "S3 · LITM公开订座政策",
+          "detail": "https://book.bistrochat.com/litm"
+        },
+        {
+          "title": "S4 · Bistrochat支付功能公告",
+          "detail": "https://www.bistrochat.com/foodforthought/en/posts/restaurant-deposit-payments-wechat-pay-alipay-promptpay-paynow-grabpay.html"
+        }
+      ]
+    },
+    {
+      "id": "diagram-research-2026-11-06-reservation-policy-note:second",
+      "rows": 5,
+      "evidence": [
+        {
+          "title": "作者机制分析，案例事实边界见固定正文",
+          "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/fdb6fd9e3c9e34d4afc772a14bd82dc8e6a8d349/research/2026-11-06-reservation-policy/note.md"
+        }
+      ]
+    },
+    {
+      "id": "diagram-research-2026-11-06-reservation-policy-note:third",
+      "rows": 3,
+      "evidence": [
+        {
+          "title": "作者机制分析，案例事实边界见固定正文",
+          "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/fdb6fd9e3c9e34d4afc772a14bd82dc8e6a8d349/research/2026-11-06-reservation-policy/note.md"
+        },
+        {
+          "title": "S1 · Bistrochat微信AI订座说明",
+          "detail": "https://www.bistrochat.com/foodforthought/en/posts/wechat-restaurant-reservations.html"
+        },
+        {
+          "title": "S2 · LucAle官网入口",
+          "detail": "https://www.lucalehk.com/"
+        },
+        {
+          "title": "S2 · LucAle餐厅FAQ",
+          "detail": "https://www.lucalehk.com/faqs"
+        },
+        {
+          "title": "S3 · LITM公开订座政策",
+          "detail": "https://book.bistrochat.com/litm"
+        },
+        {
+          "title": "S5 · 米其林指南2019年采访",
+          "detail": "https://guide.michelin.com/hk/en/article/features/feature-restaurant-deposit"
+        },
+        {
+          "title": "S6 · Brut!自营订座政策",
+          "detail": "https://www.brut.com.hk/reservations"
+        }
+      ]
+    },
+    {
+      "id": "diagram-research-2026-11-06-order-alert-note",
+      "rows": 6,
+      "evidence": [
+        {
+          "title": "作者机制分析，案例事实边界见固定正文",
+          "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/40d7d709015ed753668b52e22c0dd8d49ff96db9/research/2026-11-06-order-alert/note.md"
+        },
+        {
+          "title": "S1 · 河北日报客户端原报道",
+          "detail": "https://hbxw.hebnews.cn/news/635417.html"
+        }
+      ]
+    },
+    {
+      "id": "diagram-research-2026-11-06-order-alert-note:second",
+      "rows": 8,
+      "evidence": [
+        {
+          "title": "作者机制分析，案例事实边界见固定正文",
+          "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/40d7d709015ed753668b52e22c0dd8d49ff96db9/research/2026-11-06-order-alert/note.md"
+        }
+      ]
+    }
+  ],
+  "archiveInventory": [
+    [
+      "index.html",
+      "README.md",
+      "model.js",
+      "ui.js",
+      "index.template.html",
+      "build.py",
+      "tests/test-model.cjs",
+      "tests/test-results.json",
+      "tests/test-console.txt",
+      "tests/browser-qa.md",
+      "tests/demo-download.json",
+      "manifest.json"
+    ],
+    [
+      "ai-weekly/README.md",
+      "ai-weekly/case-demo.html",
+      "ai-weekly/data/generation_manifest.json",
+      "ai-weekly/data/simulated_daily_raw.csv",
+      "ai-weekly/docs/build.md",
+      "ai-weekly/docs/claims_manifest.json",
+      "ai-weekly/docs/data_dictionary.md",
+      "ai-weekly/docs/prompts.md",
+      "ai-weekly/docs/review_checklist.md",
+      "ai-weekly/docs/weekly_report.md",
+      "ai-weekly/html-source/ReportContent.jsx",
+      "ai-weekly/html-source/report.css",
+      "ai-weekly/qa/analysis-run.log",
+      "ai-weekly/qa/independent_recompute.json",
+      "ai-weekly/qa/independent_recompute.sql",
+      "ai-weekly/qa/test-run.log",
+      "ai-weekly/qa/verification.md",
+      "ai-weekly/results/analysis.json",
+      "ai-weekly/results/channel_weekly.csv",
+      "ai-weekly/results/cleaned_daily.csv",
+      "ai-weekly/results/daily_summary.csv",
+      "ai-weekly/results/metric_comparisons.csv",
+      "ai-weekly/results/quality_report.json",
+      "ai-weekly/results/store_channel_weekly.csv",
+      "ai-weekly/results/store_weekly.csv",
+      "ai-weekly/results/weekly_summary.csv",
+      "ai-weekly/reviewed-snapshot.json",
+      "ai-weekly/src/analyze.py",
+      "ai-weekly/src/generate_sample.py",
+      "ai-weekly/src/prepare_snapshot.py",
+      "ai-weekly/src/run_all.py",
+      "ai-weekly/src/test_analysis.py",
+      "ai-weekly/release-manifest.json"
+    ]
+  ],
+  "actualJsHelpers": {
+    "tests": 918,
+    "rawAi": 48,
+    "effectiveAi": 49,
+    "alertAi": false,
+    "browser": false
+  },
+  "htmlBytes": 14298346,
+  "htmlSha256": "e8fa0bf3c02d52ff25df61dafef0950dfe880de4ba6b17b7b22d4b40b270038b",
+  "inheritedRuntimeLimit": "Protected manifest and hosting configuration preserved byte-for-byte. Historical full-runtime hosting mismatch remains; no retry or alteration. Official installed/prebuilt build is a separate check.",
+  "limits": "Offline static and actual pure-JavaScript helpers only. No browser, HTTP, source re-verification, publication, remote history or visual checks."
+}

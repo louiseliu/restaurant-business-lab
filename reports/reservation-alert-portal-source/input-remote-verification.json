@@ -1,0 +1,33 @@
+{
+  "main": "1a22b1142a3265d25f504f3fcccb44bd471fc6de",
+  "records": [
+    {
+      "path": "research/2026-11-06-reservation-policy/note.md",
+      "gitBlobSha": "d12bb83cef7627c44226d8221babd1be32d253cb",
+      "sha256": "84faa5c93a104830d43392e532d5deff2ed86f5a6109031a4b281a6ef91b4c88",
+      "bytes": 11628,
+      "byteReadback": true
+    },
+    {
+      "path": "research/2026-11-06-reservation-policy/sources.md",
+      "gitBlobSha": "d73f63af85c0ed763dd6bf408dd439d98297f70d",
+      "sha256": "42dbc240f5d32f72b6e70c0bc40ed6d32587786f8d27f90e1fbe1849ade0e3c3",
+      "bytes": 5479,
+      "byteReadback": true
+    },
+    {
+      "path": "research/2026-11-06-order-alert/note.md",
+      "gitBlobSha": "035a0bdb4fcc3d344e1f761e2018058b178033b3",
+      "sha256": "3e5c8caa67a5be519088bad0680e4a111e7f1943a127c6172750960db6757124",
+      "bytes": 9748,
+      "byteReadback": true
+    },
+    {
+      "path": "research/2026-11-06-order-alert/sources.md",
+      "gitBlobSha": "84fd8c8ba569a749890f0214fbbbb83dbc3d3dcc",
+      "sha256": "a5d2cc8cba107b218912ceb281ddbfc947cbcb920f6ca73c4b4b45349b7b85bb",
+      "bytes": 8310,
+      "byteReadback": true
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "originalAuthorInputsAndHtmlUnchanged": true,
+  "staticRecheck": true,
+  "authoringGuardCases": 8,
+  "sanitizationUnitTests": 3,
+  "frozenNoteAndLedgerRemoteByteReadback": true,
+  "buildRerunDuringArchive": false,
+  "browser": false,
+  "sourceInventoryPolicy": "Full original author inventories retained locally. Actual public files are listed in archive-manifest.json."
+}

@@ -1,0 +1,44 @@
+{
+  "https://www.bistrochat.com/foodforthought/en/posts/wechat-restaurant-reservations.html": {
+    "title": "S1 · Bistrochat微信AI订座说明",
+    "summary": "供应商宣称微信AI可处理预订、修改和取消，并设置订金适用范围；不证明本文餐厅启用AI或有净收益。",
+    "source": "Bistrochat，2026-08-20；供应商能力说明。",
+    "approvedForReport": true
+  },
+  "https://www.lucalehk.com/": {
+    "title": "S2 · LucAle官网入口",
+    "summary": "本次核验官网RESERVE入口指向Bistrochat；只证明公开入口，不证明AI启用或经营成效。",
+    "source": "LucAle自营官网；核验2026-11-06，首次发布与规则生效时间未知。",
+    "approvedForReport": true
+  },
+  "https://www.lucalehk.com/faqs": {
+    "title": "S2 · LucAle餐厅FAQ",
+    "summary": "FAQ写明高峰或五人及以上每人港币200元订金或卡担保；超过六人或包场另联系员工。没有前后经营结果；不解释其他页面用词差异为双重扣款。",
+    "source": "LucAle自营FAQ；核验2026-11-06。",
+    "approvedForReport": true
+  },
+  "https://book.bistrochat.com/litm": {
+    "title": "S3 · LITM公开订座政策",
+    "summary": "公开页说明预订时卡授权、不立即扣款，48小时内取消或当天缺席会扣款。未测试授权时长、扣款成功或AI启用。",
+    "source": "LITM商户页，由Bistrochat承载；核验2026-11-06。",
+    "approvedForReport": true
+  },
+  "https://www.bistrochat.com/foodforthought/en/posts/restaurant-deposit-payments-wechat-pay-alipay-promptpay-paynow-grabpay.html": {
+    "title": "S4 · Bistrochat支付功能公告",
+    "summary": "供应商描述本地支付方式和可选择的订金范围。没有足够的全费用、转化或净贡献数据；付款功能不单独改标为AI。",
+    "source": "Bistrochat，2026-08-14；供应商功能公告。",
+    "approvedForReport": true
+  },
+  "https://guide.michelin.com/hk/en/article/features/feature-restaurant-deposit": {
+    "title": "S5 · 米其林指南2019年采访",
+    "summary": "HAKU谈小餐厅准备成本与缺席影响；台北L’Atelier经营者当时对普通预订不收订金，团体和节日例外。经营者自述，不代表今日政策或同条件效果对照。",
+    "source": "MICHELIN Guide，2019-07-10；历史原始采访。",
+    "approvedForReport": true
+  },
+  "https://www.brut.com.hk/reservations": {
+    "title": "S6 · Brut!自营订座政策",
+    "summary": "官网指向Bistrochat，保留按空位接待随到客；原预订内取消、24小时提前期及迟取消等收费。未披露具体扣款实现，不证明AI启用或补售效果。",
+    "source": "Brut!自营官网；核验2026-11-06，规则生效日期未知。",
+    "approvedForReport": true
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "freshBuild": true,
+  "officialPrepareBuildExport": true,
+  "identicalOutputs": [
+    {
+      "path": "timeline73-reservation-alert.html",
+      "bytes": 14298346,
+      "sha256": "e8fa0bf3c02d52ff25df61dafef0950dfe880de4ba6b17b7b22d4b40b270038b"
+    },
+    {
+      "path": "portal73/dist/index.html",
+      "bytes": 13881665,
+      "sha256": "1f19ecdee3c80be8d4a0bc79b6324e9a55e381b8f43e80bf835a5f537fd19f5d"
+    },
+    {
+      "path": "portal73/dist/data-app-build.json",
+      "bytes": 594,
+      "sha256": "1c984adc5e5fce759e9c0d0d5102dde1bd328b3c88543f877b6631549e6759ce"
+    },
+    {
+      "path": "portal73/dist/snapshot.addb434d93bc93450d7386ca7c7b3b74e0a78f191918efbac43986a2ef107a01.json",
+      "bytes": 416607,
+      "sha256": "addb434d93bc93450d7386ca7c7b3b74e0a78f191918efbac43986a2ef107a01"
+    }
+  ],
+  "limits": "No browser or runtime-manifest repair. Full-runtime inherited hosting mismatch was not retried."
+}

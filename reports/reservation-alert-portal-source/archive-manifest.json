@@ -1,0 +1,121 @@
+{
+  "files": [
+    {
+      "path": "PORTAL_BUILD.md",
+      "bytes": 7001,
+      "sha256": "201f887b5cadd5f17c828a2a778524b3f1037082fc3323282c510128bbc87653"
+    },
+    {
+      "path": "archive-scope-limits.json",
+      "bytes": 1311,
+      "sha256": "a1db8e9d0b78b65377f53fb3b7bc925109ab1be1a6aaaa0e766ba7f1eb9aba00"
+    },
+    {
+      "path": "baseline-known-gaps.json",
+      "bytes": 2141,
+      "sha256": "51207677384d205a3e5f25307de501643961f3736a20866c7a0102dd4e7e313a"
+    },
+    {
+      "path": "build_portal.py",
+      "bytes": 1566,
+      "sha256": "5859448790d4890a3388c448a505f3397e5b94b8947b2d1e067ef0ae6eb6562f"
+    },
+    {
+      "path": "export-policy-review.json",
+      "bytes": 358,
+      "sha256": "2a0670474ecd64f9a532ca55172159cd3e8b92abba09ab8d79ae91a2ed99a145"
+    },
+    {
+      "path": "first-commit-verification.json",
+      "bytes": 458,
+      "sha256": "c455fd78465fe82c336039267a177fac3ec3768a44a5f1d22086b167d3849cc4"
+    },
+    {
+      "path": "independent-audit/BUILD.md",
+      "bytes": 2586,
+      "sha256": "dfd9ff1801a8b82c98378d9eedf94b9e5ebebd4c907d5916d4bcb6ebbfe192cb"
+    },
+    {
+      "path": "independent-audit/audit.py",
+      "bytes": 9807,
+      "sha256": "e95d7ef973e6b589c6ed4471bd5f38a0d7c5f19b5e1acf00a31810ed0001696f"
+    },
+    {
+      "path": "independent-audit/rebuild-result.json",
+      "bytes": 953,
+      "sha256": "40875353b0eef29507a2fbadff58f7eb086ea19db8a067613511495b0f378b61"
+    },
+    {
+      "path": "independent-audit/rebuild.py",
+      "bytes": 1296,
+      "sha256": "313992c9a1a4643d413c1d9aa0a589ea32926ec88c15b82902a60a2dbf51f744"
+    },
+    {
+      "path": "independent-audit/result.json",
+      "bytes": 6159,
+      "sha256": "9741d9fde2207d0de524aeedc03ed4c83bbe5f5a36caa235a45d75133d6ffd3d"
+    },
+    {
+      "path": "input-fingerprints.json",
+      "bytes": 2566,
+      "sha256": "497b2bb0398e2a7432a74197050ba2fe993849899d618b84aebe004d7821f6cf"
+    },
+    {
+      "path": "input-remote-verification.json",
+      "bytes": 1161,
+      "sha256": "41e02ff4c718d81ea06cd6e256185c58d344338e39b981d49c862f7c63bc787f"
+    },
+    {
+      "path": "integrate73.py",
+      "bytes": 3307,
+      "sha256": "bdc175550f3850f2636f322c2be52d0b9244de727717d4e966ae144a882fd675"
+    },
+    {
+      "path": "merge-guard-qa.json",
+      "bytes": 4136,
+      "sha256": "e16349d5f0b2fe32077ab19ba6c2c0c7b16c755dcc5cc2aa4defa72cfa179c7a"
+    },
+    {
+      "path": "portal-build-qa.json",
+      "bytes": 2595,
+      "sha256": "6034a0554293c02b41c02960230d14763c4b430255cb66d85337c402b1cd07b3"
+    },
+    {
+      "path": "portal-reproducibility.json",
+      "bytes": 2056,
+      "sha256": "bf4e541791052ca8ce7791db01070e8bb2473a93438944e65a0dff3c3336d894"
+    },
+    {
+      "path": "prepare_portal.py",
+      "bytes": 1133,
+      "sha256": "c7c343bc2e86fa3303322c76c56f8424bcb50fc23a7058c8b82c7fde93b3fecb"
+    },
+    {
+      "path": "reader_patch.py",
+      "bytes": 2918,
+      "sha256": "07fd5dcb48154fc0eb2fd79259162f4765e94e25fb4d0ccb6ffe000b0e4b70d3"
+    },
+    {
+      "path": "test_portal_merge_guard.py",
+      "bytes": 4644,
+      "sha256": "4fe26135f5a717967b1a8fc05bc200712c105a14b0a1197d1414e0e5553e28ef"
+    },
+    {
+      "path": "test_portal_preservation.py",
+      "bytes": 8680,
+      "sha256": "01912e6a747672094ea60d6db8d966e8e33ccc09d8a9220dc906276e00d8256d"
+    },
+    {
+      "path": "test_reader_routes.mjs",
+      "bytes": 3688,
+      "sha256": "495600b11f4bd1cec80ac8eca54bf619509bccd498f828d941ee049ea31ca9c1"
+    },
+    {
+      "path": "visual-qa-status.json",
+      "bytes": 370,
+      "sha256": "9db5458b0e6422d3d924b134a880342c1f1c6ff363eca46cfd0f684d90475312"
+    }
+  ],
+  "totalBytes": 70890,
+  "excludes": "Compiled HTML, ZIP, caches, full runtime, private identifiers and machine logs."
+}

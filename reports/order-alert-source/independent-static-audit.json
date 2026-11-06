@@ -1,0 +1,16 @@
+{
+  "scope": "Independent local static audit only; no browser, network, upload or repository changes.",
+  "htmlSha256": "fe20881ef159c420970e0c5df52b59ffdecb75b47429dc750f89af502af9a619",
+  "htmlBytes": 2950184,
+  "frozenBodyAndLedger": "Exact equal source drafts and decoded compiled payloads. Six sections.",
+  "firstGit": "40d7d709015ed753668b52e22c0dd8d49ff96db9",
+  "firstGitTime": "2026-11-06T06:20:11Z",
+  "timeVerification": "Matches supplied archive-worker evidence and frozen/source/compiled metadata; no independent remote verification.",
+  "queries": "Two diagrams: 6 and 8 rows; source/compiled snapshot/node/component bindings match.",
+  "evidence": "Non-AI and hypothesis boundaries retained; full four-source ledger retained; no unsupported profit or reliability claims.",
+  "privacy": "No concrete credentials, private paths, user email addresses or private thread/project/file identifiers found in HTML, decoded content and base64 runtime. Generic codex://threads/ template belongs to official runtime; sk-* matches are CSS class/property strings, not keys.",
+  "offlineAssets": "Only embedded data favicon and base64 runtime asset; no external stylesheet/image/script asset or CSS network URL detected. Public evidence links require network.",
+  "language": "Article lang=zh-CN confirmed in compiled content; official outer shell remains en.",
+  "limitations": "Static checks do not establish browser rendering, interaction or accessibility acceptance.",
+  "defects": []
+}

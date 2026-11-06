@@ -1,0 +1,67 @@
+{
+  "counts": {
+    "research": 73,
+    "fullOriginals": 93,
+    "stories": 73,
+    "samples": 2,
+    "ai": 49,
+    "rawAiTags": 48,
+    "scopedAiClassification": [
+      "research-2026-11-06-site-selection-rent-note"
+    ],
+    "queries": 151
+  },
+  "preserved": {
+    "unmodifiedOriginals": 91,
+    "unmodifiedStories": 71,
+    "originalQueries": 146,
+    "unchangedBaselineFiles": 365,
+    "baselineFingerprints": 369,
+    "legacySha256": "1c2034ad9bcd6457ba9ab65d42717940b3d552a488a06b2b417b6063140b292d",
+    "readerSha256": "9bf55a025b64ba69e8d7fb8168227f0202efe7434a104126c1bc7fa7e001aa4f"
+  },
+  "checks": {
+    "privacyPayloads": 207,
+    "downloads": 5,
+    "recursiveZipContainers": 2,
+    "releaseManifests": 1,
+    "compiledJSON": "matches source",
+    "buildManifest": "verified",
+    "runtimeSha256": "b1771584910da746d0cf1b967a4889fee226053d841596104b457a04a2dd3d91"
+  },
+  "frozenInputs": [
+    {
+      "id": "research-2026-11-06-reservation-policy-note",
+      "commit": "fdb6fd9e3c9e34d4afc772a14bd82dc8e6a8d349",
+      "time": "2026-11-06T06:16:18Z",
+      "sha256": "84faa5c93a104830d43392e532d5deff2ed86f5a6109031a4b281a6ef91b4c88",
+      "sourcesSha256": "42dbc240f5d32f72b6e70c0bc40ed6d32587786f8d27f90e1fbe1849ade0e3c3",
+      "editorialFrozen": true,
+      "remoteReadbackVerified": true
+    },
+    {
+      "id": "research-2026-11-06-order-alert-note",
+      "commit": "40d7d709015ed753668b52e22c0dd8d49ff96db9",
+      "time": "2026-11-06T06:20:11Z",
+      "timeBeijing": "2026-11-06T14:20:11+08:00",
+      "editorialFrozen": true,
+      "remoteReadbackVerified": true,
+      "sha256": "3e5c8caa67a5be519088bad0680e4a111e7f1943a127c6172750960db6757124",
+      "sourcesSha256": "a5d2cc8cba107b218912ceb281ddbfc947cbcb920f6ca73c4b4b45349b7b85bb",
+      "notePath": "research/2026-11-06-order-alert/note.md",
+      "sourcesPath": "research/2026-11-06-order-alert/sources.md"
+    }
+  ],
+  "html": {
+    "bytes": 14298346,
+    "sha256": "e8fa0bf3c02d52ff25df61dafef0950dfe880de4ba6b17b7b22d4b40b270038b"
+  },
+  "limits": {
+    "visual": "Not checked; prior local HTTP/file and original-site restrictions not retried or bypassed.",
+    "published": false,
+    "uploadedHTMLorZIP": false,
+    "historicalAuditGaps": "Five held items remain open; no retry or same-content upload.",
+    "presentation": "Existing language attributes are preserved; Both new articles preserve their standalone zh-CN article language. Older Fourth title display issue remains.",
+    "baseline": "Readable local 71-story baseline only; unavailable original-site edits/history not recovered."
+  }
+}

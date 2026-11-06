@@ -1,0 +1,7 @@
+{
+  "excludedFile": "standalone-prepared-sha256.json",
+  "keptLocally": true,
+  "localVerificationUnaffected": true,
+  "reproductionLimit": "Portal prepare/preservation needs the retained local 369-file baseline digest. Prepared-identity standalone verification needs retained local preparation digests. Fresh official preparation generates a new identity.",
+  "originalManifestPolicy": "The original author manifest remains local; archive-manifest.json enumerates actual uploaded files only."
+}

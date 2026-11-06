@@ -1,0 +1,7 @@
+{
+  "sameReportIdentity": true,
+  "sameFrozenInputs": true,
+  "officialBuildAndOfflineExportByteIdentical": true,
+  "sha256": "fe20881ef159c420970e0c5df52b59ffdecb75b47429dc750f89af502af9a619",
+  "scope": "Same prepared report identity; a new official preparation creates a new identity."
+}

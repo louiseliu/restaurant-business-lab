@@ -1,0 +1,27 @@
+{
+  "standalone": {
+    "buildStatus": "complete",
+    "fullOriginals": 1,
+    "illustratedStories": 1,
+    "narrativeSections": 6,
+    "queries": 2,
+    "sourceUrls": 4,
+    "unchangedOfficialFiles": 241,
+    "privacyTextPayloads": 14,
+    "compiledContents": "equal reviewed source",
+    "buildManifest": "verified exact HTML/snapshot bytes and hashes",
+    "runtimeSha256": "b1771584910da746d0cf1b967a4889fee226053d841596104b457a04a2dd3d91",
+    "bytes": 2950184,
+    "sha256": "fe20881ef159c420970e0c5df52b59ffdecb75b47429dc750f89af502af9a619"
+  },
+  "scope": {
+    "articleId": "research-2026-11-06-order-alert-note",
+    "firstGit": "40d7d709015ed753668b52e22c0dd8d49ff96db9",
+    "publishedAt": "2026-11-06T06:20:11Z",
+    "bodySha256": "3e5c8caa67a5be519088bad0680e4a111e7f1943a127c6172750960db6757124",
+    "published": false,
+    "largeHTMLGitArchive": "not attempted",
+    "portalIntegration": "not performed; standalone only"
+  },
+  "visualQA": "Browser visual and interaction checks were not run. Static checks do not establish rendered acceptance."
+}

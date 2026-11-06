@@ -1,0 +1,15 @@
+{
+  "attachmentRequestAcceptedAt": "2026-11-06T06:24:20Z",
+  "batchCount": 2,
+  "deliveryConfirmed": false,
+  "openingOrDownloadConfirmed": false,
+  "resentOrReplaced": false,
+  "html": {
+    "bytes": 2950184,
+    "sha256": "fe20881ef159c420970e0c5df52b59ffdecb75b47429dc750f89af502af9a619"
+  },
+  "htmlIncludedInGitArchive": false,
+  "portalIntegration": "Included in the local 73-study portal; public site not synchronized.",
+  "historicalScope": "Earlier standalone QA retains its original point-in-time standalone-only wording.",
+  "browserVerified": false
+}

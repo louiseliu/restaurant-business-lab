@@ -1,0 +1,61 @@
+{
+  "independentFreshRebuild": {
+    "status": "PASS",
+    "freshBuild": true,
+    "officialPrepareBuildExport": true,
+    "identicalOutputs": [
+      {
+        "path": "timeline73-reservation-alert.html",
+        "bytes": 14298346,
+        "sha256": "e8fa0bf3c02d52ff25df61dafef0950dfe880de4ba6b17b7b22d4b40b270038b"
+      },
+      {
+        "path": "portal73/dist/index.html",
+        "bytes": 13881665,
+        "sha256": "1f19ecdee3c80be8d4a0bc79b6324e9a55e381b8f43e80bf835a5f537fd19f5d"
+      },
+      {
+        "path": "portal73/dist/data-app-build.json",
+        "bytes": 594,
+        "sha256": "1c984adc5e5fce759e9c0d0d5102dde1bd328b3c88543f877b6631549e6759ce"
+      },
+      {
+        "path": "portal73/dist/snapshot.addb434d93bc93450d7386ca7c7b3b74e0a78f191918efbac43986a2ef107a01.json",
+        "bytes": 416607,
+        "sha256": "addb434d93bc93450d7386ca7c7b3b74e0a78f191918efbac43986a2ef107a01"
+      }
+    ],
+    "limits": "No browser or runtime-manifest repair. Full-runtime inherited hosting mismatch was not retried."
+  },
+  "sameExecutionSources": [
+    {
+      "path": "build_portal.py",
+      "sha256": "5859448790d4890a3388c448a505f3397e5b94b8947b2d1e067ef0ae6eb6562f"
+    },
+    {
+      "path": "integrate73.py",
+      "sha256": "bdc175550f3850f2636f322c2be52d0b9244de727717d4e966ae144a882fd675"
+    },
+    {
+      "path": "prepare_portal.py",
+      "sha256": "c7c343bc2e86fa3303322c76c56f8424bcb50fc23a7058c8b82c7fde93b3fecb"
+    },
+    {
+      "path": "reader_patch.py",
+      "sha256": "07fd5dcb48154fc0eb2fd79259162f4765e94e25fb4d0ccb6ffe000b0e4b70d3"
+    },
+    {
+      "path": "test_portal_merge_guard.py",
+      "sha256": "4fe26135f5a717967b1a8fc05bc200712c105a14b0a1197d1414e0e5553e28ef"
+    },
+    {
+      "path": "test_portal_preservation.py",
+      "sha256": "01912e6a747672094ea60d6db8d966e8e33ccc09d8a9220dc906276e00d8256d"
+    },
+    {
+      "path": "test_reader_routes.mjs",
+      "sha256": "495600b11f4bd1cec80ac8eca54bf619509bccd498f828d941ee049ea31ca9c1"
+    }
+  ],
+  "originalBaselineAndStandaloneUnchanged": true
+}

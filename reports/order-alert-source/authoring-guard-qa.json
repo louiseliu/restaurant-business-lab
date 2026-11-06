@@ -1,0 +1,45 @@
+{
+  "checks": [
+    {
+      "case": "identical",
+      "result": "no-op",
+      "filesPreserved": true
+    },
+    {
+      "case": "changed-original",
+      "result": "rejected before writes",
+      "filesPreserved": true
+    },
+    {
+      "case": "changed-story",
+      "result": "rejected before writes",
+      "filesPreserved": true
+    },
+    {
+      "case": "changed-query",
+      "result": "rejected before writes",
+      "filesPreserved": true
+    },
+    {
+      "case": "changed-reader",
+      "result": "rejected before writes",
+      "filesPreserved": true
+    },
+    {
+      "case": "changed-style",
+      "result": "rejected before writes",
+      "filesPreserved": true
+    },
+    {
+      "case": "multi-article-query",
+      "result": "rejected before writes",
+      "filesPreserved": true
+    },
+    {
+      "case": "missing-report-identity",
+      "result": "rejected before writes",
+      "filesPreserved": true
+    }
+  ],
+  "scope": "Disposable local copies only; no external writes or browser claims."
+}

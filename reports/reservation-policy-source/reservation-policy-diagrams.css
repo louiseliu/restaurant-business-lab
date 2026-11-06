@@ -1,0 +1,22 @@
+.reservation-policy-diagram{margin:18px 0 34px;color:var(--text)}
+.reservation-policy-comparison{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin:22px 0}
+.reservation-policy-card{border:1px solid var(--border);border-top:4px solid #538c81;border-radius:11px;padding:20px;min-width:0;background:var(--surface)}
+.reservation-policy-card:nth-child(2){border-top-color:#b78b45}.reservation-policy-card:nth-child(3){border-top-color:#637fb2}
+.reservation-policy-card header{display:flex;gap:10px;align-items:flex-start;border-bottom:1px solid var(--border);padding-bottom:16px;margin-bottom:18px}
+.reservation-policy-card h3,.reservation-policy-start h3,.reservation-policy-outcome h3{font-size:19px;line-height:1.6;margin:0;overflow-wrap:anywhere}
+.reservation-policy-number{font-size:19px;font-weight:700;color:var(--secondary);line-height:1.6}
+.reservation-policy-cell{margin:18px 0}.reservation-policy-cell:last-child{margin-bottom:0}
+.reservation-policy-cell h4{font-size:12px;color:var(--secondary);margin:0 0 6px;letter-spacing:.04em}
+.reservation-policy-card p,.reservation-policy-start p,.reservation-policy-outcome p{margin:7px 0 0;line-height:1.9;font-size:15px;overflow-wrap:anywhere}
+.reservation-policy-card small,.reservation-policy-start small,.reservation-policy-outcome small{display:block;color:var(--secondary);font-size:13px;line-height:1.8;margin-top:10px;overflow-wrap:anywhere}
+.reservation-policy-limit{border-left:2px dashed #b78b45;padding-left:12px}
+.reservation-policy-conclusion{border-left:4px solid #538c81;padding:14px 18px;background:var(--muted);line-height:1.9;margin-top:22px;border-radius:0 8px 8px 0}
+.reservation-policy-start{border:1px solid var(--border);border-left:4px solid #538c81;border-radius:10px;padding:20px;margin-top:22px;background:var(--surface)}
+.reservation-policy-kicker,.reservation-policy-start>span{font-size:12px;line-height:1.7;color:var(--secondary);display:block;margin-bottom:5px}
+.reservation-policy-fork-label,.reservation-policy-flow-arrow{text-align:center;color:var(--secondary);font-size:13px;line-height:1.8;padding:12px 0}
+.reservation-policy-fork{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}.reservation-policy-fork .reservation-policy-unconfirmed{border-top-style:dashed}
+.reservation-policy-outcome{display:grid;grid-template-columns:1fr 2fr;gap:20px;border:1px solid var(--border);border-left:4px solid #637fb2;border-radius:10px;padding:20px;margin:0 0 15px;background:var(--surface)}
+.reservation-policy-ledger{border:1px dashed var(--border);border-radius:10px;padding:20px;margin:22px 0;background:var(--surface)}
+@media(max-width:820px){.reservation-policy-comparison{grid-template-columns:1fr}.reservation-policy-card{padding:18px}.reservation-policy-card header{margin-bottom:14px}.reservation-policy-cell{margin:16px 0}.reservation-policy-outcome{grid-template-columns:1fr;gap:8px}}
+@media(max-width:560px){.reservation-policy-fork{grid-template-columns:1fr;gap:16px}.reservation-policy-fork-label{font-size:12px}.reservation-policy-start,.reservation-policy-outcome,.reservation-policy-ledger{padding:18px}.reservation-policy-conclusion{padding:12px 16px}}
+@media print{.reservation-policy-card,.reservation-policy-start,.reservation-policy-outcome,.reservation-policy-ledger{break-inside:avoid}.reservation-policy-comparison{grid-template-columns:1fr}}

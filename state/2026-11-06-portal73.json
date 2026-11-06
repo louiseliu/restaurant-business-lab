@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "repository": "louiseliu/restaurant-business-lab",
+  "basedOnMain": "1a22b1142a3265d25f504f3fcccb44bd471fc6de",
+  "scope": "第72、73篇单篇作者源与完整本地门户增量；历史状态不倒写。",
+  "portalSource": "reports/reservation-alert-portal-source",
+  "standaloneSources": [
+    "reports/reservation-policy-source",
+    "reports/order-alert-source"
+  ],
+  "counts": {
+    "research": 73,
+    "fullTexts": 93,
+    "illustratedStories": 73,
+    "samples": 2,
+    "ai": 49,
+    "rawAiTags": 48,
+    "queries": 151
+  },
+  "classification": {
+    "reservationPolicy": [
+      "ai",
+      "business"
+    ],
+    "orderAlert": [
+      "operations"
+    ],
+    "orderAlertIncludedInAI": false,
+    "inheritedSiteSelectionAdapterPreserved": true,
+    "meansVerifiedAiBenefit": false
+  },
+  "localHtml": {
+    "bytes": 14298346,
+    "sha256": "e8fa0bf3c02d52ff25df61dafef0950dfe880de4ba6b17b7b22d4b40b270038b"
+  },
+  "htmlUploadedSentOrArchived": false,
+  "attachmentRequest": {
+    "acceptedAt": "2026-11-06T06:24:20Z",
+    "count": 2,
+    "deliveryConfirmed": false,
+    "openingOrDownloadConfirmed": false,
+    "resentOrReplaced": false
+  },
+  "staticQA": {
+    "officialInstalledPrebuiltBuild": true,
+    "independentCleanRebuildByteEqual": true,
+    "mergeAndFrozenGuards": 33,
+    "mainActualHelperChecks": 666,
+    "independentActualHelperChecks": 918,
+    "independentStaticResult": "PASS",
+    "browserTest": false,
+    "legacyFullProjectVerifier": "Inherited FAIL on unchanged hosting configuration from baseline checks; not retried or repaired. Only official installed/prebuilt authored checks passed. Protected files and manifests preserved."
+  },
+  "publicSite": {
+    "synchronized": false,
+    "currentReadabilityChecked": false,
+    "lastVerifiedVersion": "v19",
+    "lastVerifiedCounts": {
+      "research": 20,
+      "fullTexts": 40,
+      "samples": 2,
+      "ai": 9
+    },
+    "pendingSyncItems": 56
+  },
+  "historicalUncertainArchives": {
+    "count": 5,
+    "remainOpen": true,
+    "retriedOrSameContentUploaded": false
+  },
+  "otherPending": "HTML归档、门户附件、旧附件替换、费用原归档、原站可读性与编辑保护、旧全站离线快照及既有视觉待办保留。",
+  "largeHistoricalFiles": "README.md与state/current.md原字节保持，仍是历史快照。",
+  "archiveScopeLimits": {
+    "excludedRuntimeDigestManifests": [
+      {
+        "path": "reports/reservation-policy-source/manifest.json",
+        "operation": "create_blob",
+        "status": "denied because it lists an excluded runtime digest; kept locally, not retried"
+      },
+      {
+        "path": "reports/order-alert-source/standalone-prepared-sha256.json",
+        "operation": "create_blob",
+        "status": "denied; not retried"
+      },
+      {
+        "path": "reports/reservation-policy-source/standalone-prepared-sha256.json",
+        "operation": "not attempted",
+        "status": "held locally as the same excluded class"
+      },
+      {
+        "path": "reports/reservation-alert-portal-source/baseline71-sha256.json",
+        "operation": "not attempted",
+        "status": "held locally as the same excluded class"
+      }
+    ],
+    "sameContentAlternatePathOrInterfaceUsed": false,
+    "completeLocalChecksRemainValid": true,
+    "remoteArchiveSelfContained": false,
+    "missingForRemoteValidation": "Portal prepare/preservation needs the retained local 369-file baseline digest. Prepared-identity standalone verification needs retained local preparation digests. Fresh official preparation generates a new identity.",
+    "originalManifestPolicy": "The original author manifest remains local; archive-manifest.json enumerates actual uploaded files only."
+  }
+}

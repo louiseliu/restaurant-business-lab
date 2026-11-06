@@ -1,0 +1,29 @@
+{
+  "excludedRuntimeDigestManifests": [
+    {
+      "path": "reports/reservation-policy-source/manifest.json",
+      "operation": "create_blob",
+      "status": "denied because it lists an excluded runtime digest; kept locally, not retried"
+    },
+    {
+      "path": "reports/order-alert-source/standalone-prepared-sha256.json",
+      "operation": "create_blob",
+      "status": "denied; not retried"
+    },
+    {
+      "path": "reports/reservation-policy-source/standalone-prepared-sha256.json",
+      "operation": "not attempted",
+      "status": "held locally as the same excluded class"
+    },
+    {
+      "path": "reports/reservation-alert-portal-source/baseline71-sha256.json",
+      "operation": "not attempted",
+      "status": "held locally as the same excluded class"
+    }
+  ],
+  "sameContentAlternatePathOrInterfaceUsed": false,
+  "completeLocalChecksRemainValid": true,
+  "remoteArchiveSelfContained": false,
+  "missingForRemoteValidation": "Portal prepare/preservation needs the retained local 369-file baseline digest. Prepared-identity standalone verification needs retained local preparation digests. Fresh official preparation generates a new identity.",
+  "originalManifestPolicy": "The original author manifest remains local; archive-manifest.json enumerates actual uploaded files only."
+}

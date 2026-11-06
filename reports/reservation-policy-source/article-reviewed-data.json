@@ -1,0 +1,210 @@
+{
+  "surface": "report",
+  "title": "用AI接订座，小店要扩大订金要求吗？",
+  "generatedAt": "2026-11-06T06:16:18Z",
+  "status": "reviewed",
+  "buildStatus": "creating",
+  "exportPreferences": {
+    "selected": null,
+    "destinations": []
+  },
+  "filters": [],
+  "report": {
+    "asOf": "2026-11-06"
+  },
+  "queries": {
+    "diagram-research-2026-11-06-reservation-policy-note": {
+      "rows": [
+        {
+          "方式": "预收订金",
+          "预订时": "顾客先付出资金，门店记录收款与适用规则。",
+          "取消或到店时": "按约定抵餐费、保留或退回款项，核对实际到账。",
+          "仍要面对": "支付便利、退款处理、异常与争议；订金抵餐费不重复记收入。"
+        },
+        {
+          "方式": "信用卡担保",
+          "预订时": "取得卡授权或担保；不能直接当作实际收入。",
+          "取消或到店时": "违约情形发生后，按规则处理扣款及争议。",
+          "仍要面对": "卡片可用性、授权有效性和扣款成功未知；不一定比小额预付更方便。"
+        },
+        {
+          "方式": "普通确认",
+          "预订时": "完成预订确认，不新增上述付款或卡担保步骤。",
+          "取消或到店时": "仍需接收取消、更新桌况，并安排候补或随到客。",
+          "仍要面对": "约束较轻；是否值得加严，取决于准备损失与补售机会。"
+        }
+      ],
+      "source": {
+        "label": "三种确认方式，把工作放在不同时间",
+        "files": [
+          "research/2026-11-06-reservation-policy/note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "三种确认方式，把工作放在不同时间",
+            "definition": "作者定性示意，非门店实测，也不是三种方式的效果排名。资金时点与员工工作须以实际约定为准；没有把卡担保等同于已收款。 图1｜作者原创经营比较。依据[LucAle FAQ](https://www.lucalehk.com/faqs)、[LITM政策](https://book.bistrochat.com/litm)及[供应商支付公告](https://www.bistrochat.com/foodforthought/en/posts/restaurant-deposit-payments-wechat-pay-alipay-promptpay-paynow-grabpay.html)。只使用公开规则和产品说明，未测试授权、支付或退款，未证明门店AI启用。",
+            "componentIds": [
+              "diagram-research-2026-11-06-reservation-policy-note"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "作者机制分析，案例事实边界见固定正文",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/fdb6fd9e3c9e34d4afc772a14bd82dc8e6a8d349/research/2026-11-06-reservation-policy/note.md"
+          },
+          {
+            "title": "S2 · LucAle官网入口",
+            "detail": "https://www.lucalehk.com/"
+          },
+          {
+            "title": "S2 · LucAle餐厅FAQ",
+            "detail": "https://www.lucalehk.com/faqs"
+          },
+          {
+            "title": "S3 · LITM公开订座政策",
+            "detail": "https://book.bistrochat.com/litm"
+          },
+          {
+            "title": "S4 · Bistrochat支付功能公告",
+            "detail": "https://www.bistrochat.com/foodforthought/en/posts/restaurant-deposit-payments-wechat-pay-alipay-promptpay-paynow-grabpay.html"
+          }
+        ],
+        "caveats": [
+          "LucAle公开FAQ采用“订金或卡担保”的表述；LITM公开页说明预订时不立即扣款。门店要选择的是适用范围、方式和接手流程，不能把平台的付款选项直接当经营结论。",
+          "图1｜作者原创经营比较。依据[LucAle FAQ](https://www.lucalehk.com/faqs)、[LITM政策](https://book.bistrochat.com/litm)及[供应商支付公告](https://www.bistrochat.com/foodforthought/en/posts/restaurant-deposit-payments-wechat-pay-alipay-promptpay-paynow-grabpay.html)。只使用公开规则和产品说明，未测试授权、支付或退款，未证明门店AI启用。"
+        ]
+      }
+    },
+    "diagram-research-2026-11-06-reservation-policy-note:second": {
+      "rows": [
+        {
+          "层次": "起点",
+          "状态": "有位可订的有效请求",
+          "记录": "排除本来无位的咨询。先固定按笔数或人数、确认时点与观察截止。",
+          "判断边界": "星期、餐段、人数、容量、价格、渠道等需可比。"
+        },
+        {
+          "层次": "确认前分支",
+          "状态": "未完成付款或担保",
+          "记录": "区分放弃、改时间或渠道后到店、无法追踪。",
+          "判断边界": "未知不填成被订金劝退；同一顾客不重复计流失。"
+        },
+        {
+          "层次": "已确认队列",
+          "状态": "确认后的不同结局",
+          "记录": "实际到店、及时取消、迟取消、未取消却缺席分别列示。",
+          "判断边界": "事先固定取消是否留在分母；减人数另记。"
+        },
+        {
+          "层次": "座位后续",
+          "状态": "释放之后是否重新卖出",
+          "记录": "取消通知时间与实际释放时间分开，继续观察补售或空置。",
+          "判断边界": "同一可售时段只计一次容量收益；正常翻台另计。"
+        },
+        {
+          "层次": "餐段总结果",
+          "状态": "最终服务人数与实际贡献",
+          "记录": "同时保留订座者流程记录和餐段总接待记录，覆盖补入的新客。",
+          "判断边界": "爽约率下降、确认量下降都不能单独判定成功或失败。"
+        }
+      ],
+      "source": {
+        "label": "从有效请求到餐段结果，不能只看中间的爽约率",
+        "files": [
+          "research/2026-11-06-reservation-policy/note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "从有效请求到餐段结果，不能只看中间的爽约率",
+            "definition": "作者提出的观察框架，无比例、面积或数值编码。分支只表示应分别记录的去向，不表示发生概率，也不证明任何具名餐厅曾经流失顾客。 图2｜作者原创方法，来源为本篇固定研究原文的分母、补售与贡献核算分析。没有新增门店数据、虚构收益数字或实验结果。",
+            "componentIds": [
+              "diagram-research-2026-11-06-reservation-policy-note:second"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "作者机制分析，案例事实边界见固定正文",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/fdb6fd9e3c9e34d4afc772a14bd82dc8e6a8d349/research/2026-11-06-reservation-policy/note.md"
+          }
+        ],
+        "caveats": [
+          "可能筛去占位不来的人，也可能挡住原本会来的人。两种机制可以同时发生。核实净贡献并复核同期变化后，再决定扩大、保留或缩小范围；观察比较不能直接证明因果。",
+          "图2｜作者原创方法，来源为本篇固定研究原文的分母、补售与贡献核算分析。没有新增门店数据、虚构收益数字或实验结果。"
+        ]
+      }
+    },
+    "diagram-research-2026-11-06-reservation-policy-note:third": {
+      "rows": [
+        {
+          "证据层": "2019年经营者采访",
+          "已支持": "HAKU谈小店准备成本；台北L’Atelier当时普通预订不收订金，团体及特殊节日例外。",
+          "不能推出": "今天仍然这样做，或两家已完成同条件效果对照。",
+          "下一步": "把准备何时发生、取消后能否补售，带回本店判断。"
+        },
+        {
+          "证据层": "2026年核验的公开店规",
+          "已支持": "LucAle限定场景；LITM公开卡授权安排；Brut!保留取消入口和按空位接待随到客。",
+          "不能推出": "实际授权和退款都成功，门店已启用AI，或规则改善了经营效果。",
+          "下一步": "核对实际执行、取消接收、桌位释放与款项处理是否衔接。"
+        },
+        {
+          "证据层": "供应商AI功能说明",
+          "已支持": "Bistrochat宣称微信AI可处理预订、修改与取消，并连接可配置订金流程。",
+          "不能推出": "上述各店已启用AI，收订金本身就是AI，或AI带来独立净收益。",
+          "下一步": "先用已有系统记录必要状态，再验证AI承担的具体工作与全成本。"
+        }
+      ],
+      "source": {
+        "label": "历史取舍、当前店规、AI功能，是三层不同的证据",
+        "files": [
+          "research/2026-11-06-reservation-policy/note.md"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "历史取舍、当前店规、AI功能，是三层不同的证据",
+            "definition": "按证据能回答的问题分层，不把历史采访当今天店规，不把供应商功能当门店应用成效。 图3｜作者原创证据分层。[2019年米其林采访](https://guide.michelin.com/hk/en/article/features/feature-restaurant-deposit)、[Brut!当前可读政策](https://www.brut.com.hk/reservations)及[AI产品说明](https://www.bistrochat.com/foodforthought/en/posts/wechat-restaurant-reservations.html)分别引用。2026年11月6日是核验日期，不是未披露店规的生效日。",
+            "componentIds": [
+              "diagram-research-2026-11-06-reservation-policy-note:third"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "作者机制分析，案例事实边界见固定正文",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/fdb6fd9e3c9e34d4afc772a14bd82dc8e6a8d349/research/2026-11-06-reservation-policy/note.md"
+          },
+          {
+            "title": "S1 · Bistrochat微信AI订座说明",
+            "detail": "https://www.bistrochat.com/foodforthought/en/posts/wechat-restaurant-reservations.html"
+          },
+          {
+            "title": "S2 · LucAle官网入口",
+            "detail": "https://www.lucalehk.com/"
+          },
+          {
+            "title": "S2 · LucAle餐厅FAQ",
+            "detail": "https://www.lucalehk.com/faqs"
+          },
+          {
+            "title": "S3 · LITM公开订座政策",
+            "detail": "https://book.bistrochat.com/litm"
+          },
+          {
+            "title": "S5 · 米其林指南2019年采访",
+            "detail": "https://guide.michelin.com/hk/en/article/features/feature-restaurant-deposit"
+          },
+          {
+            "title": "S6 · Brut!自营订座政策",
+            "detail": "https://www.brut.com.hk/reservations"
+          }
+        ],
+        "caveats": [
+          "Brut!的取消入口提供的是机制线索：收到取消、释放桌位、处理款项要分别完成。有候补需求时才可能把早通知转为补售；公开资料没有证明这一因果效果。",
+          "图3｜作者原创证据分层。[2019年米其林采访](https://guide.michelin.com/hk/en/article/features/feature-restaurant-deposit)、[Brut!当前可读政策](https://www.brut.com.hk/reservations)及[AI产品说明](https://www.bistrochat.com/foodforthought/en/posts/wechat-restaurant-reservations.html)分别引用。2026年11月6日是核验日期，不是未披露店规的生效日。"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,78 @@
+[
+  {
+    "article-entry.json": {
+      "bytes": 12490,
+      "sha256": "6676f4fabadb0d523b690857756a4b90158b9ba31e6549a3f70cd08b296dd84b"
+    },
+    "illustrated-story.json": {
+      "bytes": 27776,
+      "sha256": "ff831b2b34cfb7bcfc408814967fdc25cb68df9e44b87c323daf049b2c8fa6dd"
+    },
+    "article-reviewed-data.json": {
+      "bytes": 11586,
+      "sha256": "6d7d86486a4a5eb767b569d12fc12fab1abd53c4e0f633128582846c147fb6f0"
+    },
+    "frozen.json": {
+      "bytes": 321,
+      "sha256": "e3dc73681f937bf2bfecb273272899dc6f2b652d17eb3c4cae0fda4bccb5877d"
+    },
+    "note.md": {
+      "bytes": 11628,
+      "sha256": "84faa5c93a104830d43392e532d5deff2ed86f5a6109031a4b281a6ef91b4c88"
+    },
+    "sources.md": {
+      "bytes": 5479,
+      "sha256": "42dbc240f5d32f72b6e70c0bc40ed6d32587786f8d27f90e1fbe1849ade0e3c3"
+    },
+    "ReservationPolicyDiagrams.jsx": {
+      "bytes": 2764,
+      "sha256": "5110a985971fe4f6c008e086978f484012c917b8278e6d2e1678df4fb157c2ff"
+    },
+    "reservation-policy-diagrams.css": {
+      "bytes": 3386,
+      "sha256": "9661430ce03a7821189a3b466270ab2e4b0a28b86bae061cea2d7d414da15191"
+    },
+    "reservation-policy-source-previews.json": {
+      "bytes": 2808,
+      "sha256": "84a5653f0440b5f40951811cd8132353eef4385bada17600b7daf186bdbee366"
+    }
+  },
+  {
+    "article-entry.json": {
+      "bytes": 10511,
+      "sha256": "31cc344f8e2bc2d46a99c1bba16edc444df354e66e32a4419d0c0d3e0afa3cc5"
+    },
+    "illustrated-story.json": {
+      "bytes": 28267,
+      "sha256": "24a3a3d0d915cfd6816e27876f19b9773285d739a075f6a30dfbd5ab4549d5ac"
+    },
+    "article-reviewed-data.json": {
+      "bytes": 9246,
+      "sha256": "2d88862da11fecfc4f71df06f37db1be41cbdb3ca1f44cea48c1dd22e4c18cf2"
+    },
+    "frozen.json": {
+      "bytes": 487,
+      "sha256": "0dcc997565d9fc4a4ccce4cbb8d60f10f34d2998024cb737b6fd2f149fc2a6d4"
+    },
+    "note.md": {
+      "bytes": 9748,
+      "sha256": "3e5c8caa67a5be519088bad0680e4a111e7f1943a127c6172750960db6757124"
+    },
+    "sources.md": {
+      "bytes": 8310,
+      "sha256": "a5d2cc8cba107b218912ceb281ddbfc947cbcb920f6ca73c4b4b45349b7b85bb"
+    },
+    "OrderAlertDiagrams.jsx": {
+      "bytes": 2712,
+      "sha256": "4b4862c18d9aa21daf8503ebcf45ef3a8da1069f55113ee9e2650b9922c5c734"
+    },
+    "order-alert-diagrams.css": {
+      "bytes": 4507,
+      "sha256": "450f9757812c1c86b23778ebec6243c2fee0e5d1feee5e2e254e0d6a82fbdd69"
+    },
+    "order-alert-source-previews.json": {
+      "bytes": 1994,
+      "sha256": "fe78c0f43c928b69991588bbfb42667e2ef28c7bf2093f2a13c193018853f460"
+    }
+  }
+]

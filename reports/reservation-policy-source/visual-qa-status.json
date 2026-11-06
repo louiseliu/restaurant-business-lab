@@ -1,0 +1,16 @@
+{
+  "status": "not-run",
+  "checksNotRun": [
+    "browser rendering",
+    "light and dark appearance",
+    "mobile viewport",
+    "table of contents",
+    "full text expansion",
+    "source inspector",
+    "edit persistence",
+    "export menu",
+    "printing",
+    "actual offline browser opening"
+  ],
+  "boundary": "Static checks and a successful build do not establish visual or interaction acceptance."
+}
