@@ -1,0 +1,85 @@
+{
+  "status": "author_constructed_illustration_not_measured",
+  "unit": "minutes after prior party leaves",
+  "assumptions": [
+    "One suitable table, one next party and one cleaner; no priority displacement or interactions with other tables.",
+    "Only notice time changes: minute 6 to minute 1. Neither value is a measured AI capability.",
+    "Notice means the responsible person has actionable departure information, not that a camera has just produced an output. It is not a claim of automated staff dispatch in the cited system.",
+    "Cleaner availability and guest readiness are fixed exogenous times, unchanged by the earlier notice; seating escort time is ignored.",
+    "Cleaning and reset take 4 minutes in every case; an illustrative input, not a target or safety standard.",
+    "The host receives ready-table information immediately when the table is ready. No synchronization waiting time is modeled at this step.",
+    "Restaurant permits seating as soon as the table and party are ready; service and kitchen capacity are assumed available.",
+    "No extra sales, causal effects, labor savings, or ROI are calculated."
+  ],
+  "formulas": {
+    "cleaning_start": "max(noticed, cleaner_available)",
+    "table_ready": "cleaning_start + cleaning_minutes",
+    "host_informed": "table_ready (zero synchronization wait)",
+    "seated": "max(host_informed, guest_ready)"
+  },
+  "scenarios": [
+    {
+      "id": "information_delay",
+      "label": "人员和合适顾客已可用",
+      "cleaner_available": 0,
+      "guest_ready": 0,
+      "baseline": {
+        "noticed": 6,
+        "cleaning_start": 6,
+        "table_ready": 10,
+        "host_informed": 10,
+        "seated": 10
+      },
+      "earlier_notice": {
+        "noticed": 1,
+        "cleaning_start": 1,
+        "table_ready": 5,
+        "host_informed": 5,
+        "seated": 5
+      },
+      "seating_minutes_saved": 5
+    },
+    {
+      "id": "cleaner_busy",
+      "label": "清台人员第8分钟才能接手",
+      "cleaner_available": 8,
+      "guest_ready": 0,
+      "baseline": {
+        "noticed": 6,
+        "cleaning_start": 8,
+        "table_ready": 12,
+        "host_informed": 12,
+        "seated": 12
+      },
+      "earlier_notice": {
+        "noticed": 1,
+        "cleaning_start": 8,
+        "table_ready": 12,
+        "host_informed": 12,
+        "seated": 12
+      },
+      "seating_minutes_saved": 0
+    },
+    {
+      "id": "guest_not_ready",
+      "label": "合适顾客第14分钟才准备好入座",
+      "cleaner_available": 0,
+      "guest_ready": 14,
+      "baseline": {
+        "noticed": 6,
+        "cleaning_start": 6,
+        "table_ready": 10,
+        "host_informed": 10,
+        "seated": 14
+      },
+      "earlier_notice": {
+        "noticed": 1,
+        "cleaning_start": 1,
+        "table_ready": 5,
+        "host_informed": 5,
+        "seated": 14
+      },
+      "seating_minutes_saved": 0
+    }
+  ]
+}
