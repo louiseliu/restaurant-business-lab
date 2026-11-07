@@ -1,0 +1,51 @@
+{
+  "classification": "author_calculated_hypothetical_scenario",
+  "currency": "GBP",
+  "assumptions": {
+    "hypothetical_list_price_gbp": "4",
+    "old_monthly_fee_gbp": "30",
+    "new_monthly_fee_gbp": "5",
+    "discount_fraction": "0.5",
+    "all_cups_eligible": true,
+    "same_cup_count_in_both_schemes": true,
+    "scope": "drinks_only_no_food_perks_or_tax_accounting_split",
+    "warning": "Not actual uniform Pret price, customer bill, costs, profits or causal effects."
+  },
+  "continuous_spending_crossover_cups": "12.5",
+  "integer_boundary": {
+    "12_cups_new_lower": true,
+    "13_cups_new_higher": true
+  },
+  "rows": [
+    {
+      "cups": 5,
+      "old_total_gbp": "30",
+      "new_total_gbp": "15.0",
+      "new_minus_old_gbp": "-15.0"
+    },
+    {
+      "cups": 12,
+      "old_total_gbp": "30",
+      "new_total_gbp": "29.0",
+      "new_minus_old_gbp": "-1.0"
+    },
+    {
+      "cups": 13,
+      "old_total_gbp": "30",
+      "new_total_gbp": "31.0",
+      "new_minus_old_gbp": "1.0"
+    },
+    {
+      "cups": 15,
+      "old_total_gbp": "30",
+      "new_total_gbp": "35.0",
+      "new_minus_old_gbp": "5.0"
+    },
+    {
+      "cups": 30,
+      "old_total_gbp": "30",
+      "new_total_gbp": "65.0",
+      "new_minus_old_gbp": "35.0"
+    }
+  ]
+}
