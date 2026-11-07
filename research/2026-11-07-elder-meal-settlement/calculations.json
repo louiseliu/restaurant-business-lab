@@ -1,0 +1,45 @@
+{
+  "classification": "author_hypothetical_not_observed",
+  "currency": "CNY",
+  "meal_receipts": [
+    {
+      "list_price_yuan": 20.0,
+      "merchant_discount_yuan": 2.0,
+      "customer_payment_yuan": 16.5,
+      "fiscal_receivable_yuan": 1.5,
+      "total_meal_receipts_after_full_redemption_yuan": 18.0
+    },
+    {
+      "list_price_yuan": 20.0,
+      "merchant_discount_yuan": 2.0,
+      "customer_payment_yuan": 15.0,
+      "fiscal_receivable_yuan": 3.0,
+      "total_meal_receipts_after_full_redemption_yuan": 18.0
+    }
+  ],
+  "receivable_scenario": {
+    "daily_eligible_meals": 60,
+    "per_meal_subsidy_yuan": 1.5,
+    "assumptions": [
+      "Every included transaction is eligible, within once-per-day and other applicable limits.",
+      "No redemption cash is received during the illustrated observation interval.",
+      "No refunds, reversals, duplicate claims or eligibility adjustments.",
+      "90 days is an illustrative interval, not a promised or observed payment delay.",
+      "Receivable balance is not total working capital and is not an accounting recognition instruction."
+    ],
+    "balances": [
+      {
+        "day": 30,
+        "unredeemed_subsidy_yuan": 2700.0
+      },
+      {
+        "day": 60,
+        "unredeemed_subsidy_yuan": 5400.0
+      },
+      {
+        "day": 90,
+        "unredeemed_subsidy_yuan": 8100.0
+      }
+    ]
+  }
+}

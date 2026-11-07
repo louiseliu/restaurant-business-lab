@@ -1,0 +1,11 @@
+{
+  "scope": "static_only_no_browser_render_test",
+  "figures": 2,
+  "full_prose_source_lines_preserved": true,
+  "local_anchors_valid": true,
+  "external_assets": 0,
+  "public_safety_scan": "passed",
+  "amount_assertions": "passed",
+  "html_bytes": 28997,
+  "html_sha256": "6380b095771fc23f5d7eb7c8a392c544c915c7f1fa08f964779313f7503385fb"
+}
