@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "checked_date": "2026-10-29",
+  "checked_date": "2026-11-07",
   "purpose": "中文中小餐饮与AI应用的扩充发现层；保留既有HKEX、SEC及品牌IR原始核验源",
   "scope": "只读公开网页；未登录、外联、付费、订阅或创建任务；不代表微信/抖音/小红书覆盖。访问状态仅描述本次实测。",
   "status_definitions": {
@@ -11,13 +11,13 @@
     "fetch_failed": "本轮抓取失败，不推断登录、权限或付费限制"
   },
   "counts": {
-    "readable": 12,
+    "readable": 13,
     "profile_only": 1,
     "index_only": 1,
     "fetch_failed": 1,
     "summary_only": 1
   },
-  "independence_warning": "16为登记主体条目，不代表16个彼此独立的证据；同机构子域或转载去重，跨机构转述同一主张亦须追溯来源",
+  "independence_warning": "17为登记主体/项目条目，不代表17个彼此独立的证据；同机构子域或转载去重，跨机构转述同一主张亦须追溯来源；同一报告的官网及项目托管副本只计一份资料",
   "coverage_warning": "一次可读不是持续稳定抓取；不代表公众号、抖音、小红书或全网覆盖；未新增订阅/定时/权限",
   "sources": [
     {
@@ -358,6 +358,55 @@
       "access_observation": "全文可读（代表报道）",
       "read_scope": "本轮代表正文/文章/报告可读；附加入口的失败情况另见limitations",
       "date_semantics": "代表页公开标示日期；空值表示本次未确认，不以访问时间补填"
+    },
+    {
+      "id": "cn-pride-on-our-plates",
+      "name": "舌尖上的骄傲：中小微餐饮减废研究与操作指南",
+      "publisher": "深圳市一个地球自然基金会牵头；2022指南列世界自然基金会（瑞士）北京代表处、中国科学院地理科学与资源研究所、瑞尔行为中心等起草单位，中国饭店协会指导；欧盟转型亚洲项目支持",
+      "home_url": "https://www.opfngo.org.cn/news/2187",
+      "category": "公益与公共研究合作项目/中小微餐饮实施方法",
+      "use_for": "发现中国中小餐饮减废的人工测量基线、岗位分工和流程障碍；为比较人工记录与AI采集提供方法参照",
+      "evidence_role": "项目原始操作指南及研究发布页；项目推广与减废倡议视角，不是AI独立效果验证、门店利润审计或供应商报价",
+      "access_status": "readable",
+      "representative_url": "https://www.switch-asia.eu/site/assets/files/3804/c66aa68cf9ca142cc76702869cb58d1f_compressed.pdf",
+      "representative_title": "餐饮业减少食物浪费操作指南2022",
+      "representative_date": null,
+      "date_semantics": "2022为报告标示年份，未确认精确发布日期；2024报告入口页面标示2024-04-18，不以访问时间补填发布日期",
+      "access_checked_at": "2026-11-07T08:03:37Z",
+      "access_observation": "2022指南PDF正文及2024报告发布入口本次可读；2024同一报告两处PDF均因web读取工具文件体积上限而失败",
+      "read_scope": "2022指南PDF共22页，本次可读；核对PDF第16页分类打卡说明及第19页行为调研说明。2024城市案例报告只读发布入口，报告全文未读",
+      "additional_verified_content": [
+        {
+          "url": "https://www.opfngo.org.cn/news/2187",
+          "title": "中国餐饮业减少食物浪费政策推进与城市案例经验分享报告",
+          "date": "2024-04-18",
+          "access_status": "summary_only",
+          "note": "报告发布页正文可读，有全文下载链接；页面所列协助企业至少减废10%是项目目标，不能当作已验证成果"
+        },
+        {
+          "url": "https://www.opfngo.org.cn/storage/uploads/file/2024/04/18/a16ae2ed576da2fd6bc1d2bd94d3a83d.pdf",
+          "title": "2024城市案例报告：官网PDF",
+          "date": null,
+          "access_status": "fetch_failed",
+          "note": "web工具返回Content length is too large: 18455328；未读取全文，不推断登录、权限或付费要求"
+        },
+        {
+          "url": "https://www.switch-asia.eu/site/assets/files/4111/zh_a16ae2ed576da2fd6bc1d2bd94d3a83d.pdf",
+          "title": "2024城市案例报告：项目托管PDF",
+          "date": null,
+          "access_status": "fetch_failed",
+          "note": "web工具返回同一体积上限错误18455328字节；同一报告的托管副本，不算第二份独立证据"
+        }
+      ],
+      "limitations": [
+        "本次实测可读不代表持续可用，也不代表项目全部研究报告已覆盖",
+        "2022指南的操作建议及其所述2021年访谈、问卷不能直接证明AI增量收益；抽样和场景限制需在实际引用时逐项核对",
+        "2024报告全文未读，不能引用未核实的案例、实施效果或利润结论",
+        "检索摘要出现未在已读PDF正文中核实的内容时不采用；摘要不替代原文",
+        "一个地球、WWF、SWITCH-Asia及合作机构承载同一项目或报告，不因此构成多个独立效果样本",
+        "未访问项目微信小程序或公众号资料，未登录、外联、付费、订阅或新增定时任务"
+      ]
     }
-  ]
+  ],
+  "checked_date_semantics": "最近一次增量维护日期；不表示全表重新实测，各条目以 access_checked_at 为准"
 }
