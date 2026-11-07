@@ -1,0 +1,11 @@
+{
+  "full_text_paragraphs": 27,
+  "figures": 2,
+  "source_links": [
+    "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0326/2026032600487_c.pdf#page=182",
+    "https://www.court.gov.cn/zixun/xiangqing/459321.html"
+  ],
+  "html_bytes": 11786,
+  "sha256": "cfcbc28821a2c01626e30f67f71c153ae7495a998d3ceff36167d8c1396e7625",
+  "tests": "static only; no browser or screen reader test"
+}
