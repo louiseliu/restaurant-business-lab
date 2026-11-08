@@ -43,8 +43,8 @@
         ],
         "evidenceFlow": [
           {
-            "title": "固定公开研究版本",
-            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/c748b63ec97fae5b6fd93807a69dc793315f47b3/research/2026-10-31-energy-control/note.md"
+            "title": "当前修订正文",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/main/research/2026-10-31-energy-control/note.md"
           },
           {
             "title": "展示边界",
@@ -88,8 +88,8 @@
         ],
         "evidenceFlow": [
           {
-            "title": "固定公开研究版本",
-            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/c748b63ec97fae5b6fd93807a69dc793315f47b3/research/2026-10-31-energy-control/note.md"
+            "title": "当前修订正文",
+            "detail": "https://github.com/louiseliu/restaurant-business-lab/blob/main/research/2026-10-31-energy-control/note.md"
           },
           {
             "title": "展示边界",
@@ -98,5 +98,13 @@
         ]
       }
     }
+  },
+  "revisedAt": "2026-11-08",
+  "revisionEvidence": {
+    "url": "https://www.chinahotel.org.cn/articles/17799",
+    "evidence": "协会刊载案例，不是独立验证",
+    "ratioDropPercent": 27.058823529411764,
+    "assumedCostRatioRevenueThresholdPercent": 37.09677419354838,
+    "limit": "费用率解释仅是假设；原文分子单位未明。"
   }
 }

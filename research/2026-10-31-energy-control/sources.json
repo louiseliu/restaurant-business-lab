@@ -32,6 +32,17 @@
       "access_status": "2026-10-31上一轮PDF正文可读；纸面28–29页文字已复核；截图请求Cache miss，未做图像复核",
       "support": "L676–699／纸面28页（PDF索引31）：自学习、专用芯片、格力指定机型；L700–722／纸面29页（PDF索引32）：LoRa远程与场景调节技术介绍，未披露机器学习机制。",
       "limits": "未取得其所称第三方检测原报告，不把政府刊载当独立餐饮效果背书；没有具名餐饮门店或完整改造成本；不采用节能数字、酒店案例效果或其他页面安全绝对化说法。"
+    },
+    {
+      "id": "wangshunge-cha",
+      "url": "https://www.chinahotel.org.cn/articles/17799",
+      "publisher": "中国饭店协会",
+      "publication_date": "2026-05-26",
+      "checked_at": "2026-11-08",
+      "type": "association_published_case_self_report_not_independent_audit",
+      "access_status": "本次正文可读，不代表持续可访问",
+      "support": "具名门店；综合组织/设备/监测改善；原文总能耗占营收8.5%至6.2%",
+      "limits": "未说明该比率分子计量单位；无营收账单或算法对照，不按AI效果采用。"
     }
   ],
   "editorial_checks": {
