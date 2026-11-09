@@ -1,0 +1,58 @@
+{
+  "checks": {
+    "language": true,
+    "title": true,
+    "headings": true,
+    "two_figures": true,
+    "source_ledger_complete": true,
+    "no_external_runtime": true,
+    "unique_ids": true,
+    "links_https": true,
+    "svg_well_formed": true,
+    "no_private_content": true,
+    "overlap_warning": true,
+    "independent_projects": true,
+    "source_boundary": true,
+    "all_body_paragraphs_preserved": true,
+    "mobile_diagram_scroll_declared": true,
+    "no_fabricated_timing_scale": true
+  },
+  "all_passed": true,
+  "verification": {
+    "evidence": "Independent read-only review completed; overlap and purchase conditions revised.",
+    "figures": "Two original SVGs rendered with Inkscape and visually inspected.",
+    "html": "Structural and content checks only. Browser layout, scrolling, details interaction, and assistive technology not tested.",
+    "site": "No existing site access or publication attempted.",
+    "pro": "No new consultation."
+  },
+  "files": {
+    "note.md": {
+      "bytes": 8496,
+      "sha256": "1fe73f9c78939fea7a1b46725db6fc5697e6ac3ec41e050a7b5bf6ae7a72e1ee"
+    },
+    "sources.md": {
+      "bytes": 3890,
+      "sha256": "2878b09747842ba14001194677f9141c3c11da83b1899f638b8f5782b2776e0f"
+    },
+    "waiting-shift.svg": {
+      "bytes": 3055,
+      "sha256": "d2ac671cf21fdfa2096f96896816dee0cbafdcf4e6f0126be3419008dc6142a3"
+    },
+    "decision-path.svg": {
+      "bytes": 2125,
+      "sha256": "020587d5f9ab06ab225ec9efdc69af3487e6e6e22f3a154b80a0a8dcff0d2353"
+    },
+    "build.py": {
+      "bytes": 7551,
+      "sha256": "178535e83fed987dda125be708298097cd3b52816dd1ab564d0c0a0fc8a21fbb"
+    },
+    "verify.py": {
+      "bytes": 2594,
+      "sha256": "53ff7f1f798e9d9960b66bb1be5c4e79c0adc7ffe75389e4e74e52c032a4bad9"
+    },
+    "骑手等待与厨房投入-完整图文.html": {
+      "bytes": 20606,
+      "sha256": "6f09659db877b2b4408268fdd3c4468637d0af07dac744443a1931eccad720f4"
+    }
+  }
+}
