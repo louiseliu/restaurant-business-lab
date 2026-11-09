@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 690" role="img" aria-labelledby="matrix-title matrix-desc">
+<title id="matrix-title">运输节省空间与取餐辨认负担共同决定合批范围</title><desc id="matrix-desc">定性决策矩阵：运输节省大且辨认容易时保留合批并验证净收益；节省大但辨认困难时先改分组和交付方式；节省小时不必追求装满，辨认困难时优先小批或单桌。分档需要门店观察，不是实测分类。</desc>
+<rect width="560" height="690" rx="14" fill="#f1f4ee"/>
+<g font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" fill="#173b31">
+<text x="28" y="44" font-size="25" font-weight="700">同一台机器人 可以有不同批次</text><text x="28" y="78" font-size="19" fill="#53675e">原创定性决策矩阵 · 非实测分档</text>
+<text x="150" y="119" text-anchor="middle" font-size="22" font-weight="700">辨认较容易</text><text x="410" y="119" text-anchor="middle" font-size="22" font-weight="700">辨认负担较高</text>
+<rect x="28" y="140" width="504" height="44" rx="7" fill="#173b31"/><text x="280" y="170" text-anchor="middle" font-size="21" fill="#fff">运输节省空间较大</text>
+<rect x="28" y="195" width="244" height="160" rx="10" fill="#d6e5d7"/><text x="150" y="234" text-anchor="middle" font-size="23" font-weight="700">保留合批</text><text x="150" y="277" text-anchor="middle" font-size="21">验证净工时与等待</text><text x="150" y="311" text-anchor="middle" font-size="21">再逐步扩大范围</text>
+<rect x="288" y="195" width="244" height="160" rx="10" fill="#ede0cb"/><text x="410" y="234" text-anchor="middle" font-size="23" font-weight="700">先改分组与交付</text><text x="410" y="277" text-anchor="middle" font-size="21">让需要帮助的任务</text><text x="410" y="311" text-anchor="middle" font-size="21">回到人工可接手处</text>
+<rect x="28" y="380" width="504" height="44" rx="7" fill="#53675e"/><text x="280" y="410" text-anchor="middle" font-size="21" fill="#fff">运输节省空间较小</text>
+<rect x="28" y="435" width="244" height="160" rx="10" fill="#fff" stroke="#bccbbd"/><text x="150" y="474" text-anchor="middle" font-size="23" font-weight="700">不必追求装满</text><text x="150" y="517" text-anchor="middle" font-size="21">保留简单安排</text><text x="150" y="551" text-anchor="middle" font-size="21">优先解决真正瓶颈</text>
+<rect x="288" y="435" width="244" height="160" rx="10" fill="#eee6dc"/><text x="410" y="474" text-anchor="middle" font-size="23" font-weight="700">优先小批或单桌</text><text x="410" y="517" text-anchor="middle" font-size="21">少量路程收益</text><text x="410" y="551" text-anchor="middle" font-size="21">未必值得多道规则</text>
+<text x="280" y="638" text-anchor="middle" font-size="20" fill="#53675e">分档依据门店观察 不按机型或套餐自动归类</text><text x="280" y="669" text-anchor="middle" font-size="19" fill="#53675e">所有区域都保留必要的人工帮助</text>
+</g></svg>

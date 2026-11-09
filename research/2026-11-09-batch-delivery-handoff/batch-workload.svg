@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 680" role="img" aria-labelledby="flow-title flow-desc">
+<title id="flow-title">合批把运输工作和取餐工作放在了不同环节</title><desc id="flow-desc">多桌同趟可能减少往返，但需要装载分组、说明与辨认。顺利取餐时形成运输节省；出现异常则增加核单补餐、重新配送和解释工作。评估时应比较人工净工时，同时单列顾客等待。本图是原创定性流程图，不含实测数据。</desc>
+<defs><marker id="flow-arrow" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#65796e"/></marker></defs>
+<rect width="560" height="680" rx="14" fill="#f1f4ee"/>
+<g font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" fill="#173b31">
+<text x="28" y="44" font-size="25" font-weight="700">少跑一趟之后 工作去了哪里</text><text x="28" y="78" font-size="19" fill="#53675e">原创定性流程图 · 非实测数据</text>
+<rect x="28" y="110" width="504" height="77" rx="10" fill="#d6e5d7"/><text x="280" y="142" text-anchor="middle" font-size="24" font-weight="700">一次装载多桌餐品</text><text x="280" y="172" text-anchor="middle" font-size="20">运输机会　少往返　少空跑</text>
+<path d="M280 190V216" stroke="#65796e" stroke-width="2" marker-end="url(#flow-arrow)"/>
+<rect x="28" y="228" width="504" height="80" rx="10" fill="#fff" stroke="#bccbbd"/><text x="280" y="261" text-anchor="middle" font-size="24" font-weight="700">每一桌仍要辨认和取餐</text><text x="280" y="291" text-anchor="middle" font-size="20">装载分组　入店说明　现场协助</text>
+<path d="M280 311V331" stroke="#65796e" stroke-width="2" fill="none"/><path d="M280 331H150V356" stroke="#65796e" stroke-width="2" fill="none" marker-end="url(#flow-arrow)"/><path d="M280 331H410V356" stroke="#65796e" stroke-width="2" fill="none" marker-end="url(#flow-arrow)"/>
+<rect x="28" y="368" width="244" height="174" rx="10" fill="#d6e5d7"/><text x="150" y="407" text-anchor="middle" font-size="24" font-weight="700">顺利取餐</text><text x="150" y="447" text-anchor="middle" font-size="22">运输节省有机会</text><text x="150" y="479" text-anchor="middle" font-size="22">转为服务能力</text><text x="150" y="517" text-anchor="middle" font-size="19">仍须核对新增工时</text>
+<rect x="288" y="368" width="244" height="174" rx="10" fill="#ede0cb"/><text x="410" y="407" text-anchor="middle" font-size="24" font-weight="700">需要纠正</text><text x="410" y="447" text-anchor="middle" font-size="22">核单补餐</text><text x="410" y="479" text-anchor="middle" font-size="22">重新配送与解释</text><text x="410" y="517" text-anchor="middle" font-size="19">前厅和厨房都计入</text>
+<rect x="28" y="570" width="504" height="80" rx="10" fill="#173b31"/><text x="280" y="603" text-anchor="middle" font-size="23" fill="#fff" font-weight="700">验收人工净负担 另看顾客等待</text><text x="280" y="634" text-anchor="middle" font-size="19" fill="#eef4eb">机器少跑的分钟数 ≠ 现金节省</text>
+</g></svg>

@@ -1,0 +1,44 @@
+{
+  "checks": {
+    "lang_zh_CN": true,
+    "viewport": true,
+    "one_h1": true,
+    "one_main": true,
+    "two_inline_svg": true,
+    "two_captions": true,
+    "no_script": true,
+    "no_external_assets": true,
+    "svg_parse": true,
+    "svg_accessibility": true,
+    "qualitative_labels": true,
+    "unique_ids": true,
+    "internal_links_resolve": true,
+    "exact_external_sources": true,
+    "all_markdown_paragraphs_in_html": true,
+    "body_length_2200_3000": true,
+    "no_private_paths_or_tokens": true,
+    "no_unresolved_placeholders": true,
+    "responsive_css": true
+  },
+  "passed": 19,
+  "total": 19,
+  "body_cjk_chars": 2305,
+  "artifacts": {
+    "note.md": {
+      "bytes": 8711,
+      "sha256": "c8966ee13a1a4936efaaac19b2d81c197ec6f004aa84cfeb24bb2d6dff496059"
+    },
+    "report.html": {
+      "bytes": 21272,
+      "sha256": "c357f638a311bb17ffe69ab2cabba0fbfec7d5f340c13d1778c719b8aa8d4e4b"
+    },
+    "batch-workload.svg": {
+      "bytes": 3155,
+      "sha256": "1b665971b947a6cd60bc3df0438f7fd0132f2176fd9e07d53f607586c63670d5"
+    },
+    "batch-decision.svg": {
+      "bytes": 3054,
+      "sha256": "9a09d2dd8edd9041f0ecbd8dc28526613cfbdc4c6963f88aa609026c8802ac7e"
+    }
+  }
+}
