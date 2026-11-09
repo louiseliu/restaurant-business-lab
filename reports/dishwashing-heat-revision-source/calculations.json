@@ -1,0 +1,31 @@
+{
+  "type": "Conditional calculation; not measured store results",
+  "currency": "HKD",
+  "annual_rent": "14400",
+  "source_rounded_annual_kwh": "16656",
+  "gross_from_rounded_kwh": "27315.84",
+  "two_item_difference": "12915.84",
+  "break_even_hours_per_day": "5.999035155179208677271072236",
+  "scenarios": [
+    {
+      "hours_per_day": "4",
+      "gross": "9601.5440",
+      "gross_less_rent": "-4798.4560"
+    },
+    {
+      "hours_per_day": "6",
+      "gross": "14402.3160",
+      "gross_less_rent": "2.3160"
+    },
+    {
+      "hours_per_day": "8",
+      "gross": "19203.0880",
+      "gross_less_rent": "4803.0880"
+    },
+    {
+      "hours_per_day": "11.38",
+      "gross": "27316.392680",
+      "gross_less_rent": "12916.392680"
+    }
+  ]
+}
