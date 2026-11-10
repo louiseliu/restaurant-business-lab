@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1196" viewBox="0 0 480 1196" role="img" aria-labelledby="tests-title tests-desc">
+<title id="tests-title">两项标准试验与门店补充验证不能混为一谈</title><desc id="tests-desc">6.4.9在蒜苔炒肉质量比3比1条件下，从单次最大生料量起始，按规定条件可减料重测，连续工作3次，记录总出菜量G、总能耗E、总时间T，出菜率W等于G除以T，能耗率η等于G除以E。6.5.3.1另检验五类食材各一道菜的自动烹饪和平均时间。门店常用菜单、常用批量和完整劳动仍需另作验证，不能把标准出菜率直接当成整餐段合格交付能力。</desc><style>text{font-family:system-ui,-apple-system,"PingFang SC","Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#173b39}.small{font-size:21px}.body{font-size:23px}.title{font-size:26px;font-weight:750}.muted{fill:#5d706b}.accent{fill:#af4c28}.bold{font-weight:750}</style>
+<rect width="480" height="1196" rx="4" fill="#fffdf7"/>
+<text x="26" y="42" class="small accent bold">试验口径与外推边界</text>
+<text x="26" y="87" class="title">两项试验，回答不同问题</text>
+<rect x="22" y="116" width="436" height="486" rx="8" fill="#eef1e8" stroke="#d4ddd0"/>
+<text x="42" y="156" class="small accent bold">标准 6.4.9</text>
+<text x="42" y="195" class="title">出菜率与能耗率</text>
+<text x="42" y="240" class="body bold">蒜苔炒肉 · 蒜苔∶猪肉＝3∶1</text>
+<text x="42" y="279" class="small">生料从单次最大烹饪量起始</text>
+<text x="42" y="314" class="small">不达规定温度条件时减料重测</text>
+<text x="42" y="353" class="body bold">连续工作3次</text>
+<path d="M42 375h396" stroke="#c4d1c2"/>
+<text x="42" y="411" class="small">G 总出菜量 · E 总能耗</text>
+<text x="42" y="446" class="small">T 总时间</text>
+<text x="42" y="493" class="body bold">W＝G / T　kg/h</text>
+<text x="42" y="535" class="body bold">η＝G / E　kg/(kWh)</text>
+<text x="42" y="577" class="small muted">生料起始量不等于总出菜量G</text>
+<rect x="22" y="626" width="436" height="212" rx="8" fill="#f3eee5" stroke="#ddd4c8"/>
+<text x="42" y="666" class="small accent bold">标准 6.5.3.1</text>
+<text x="42" y="705" class="title">自动烹饪与平均时间</text>
+<text x="42" y="750" class="body bold">五类食材 · 每类一道菜</text>
+<text x="42" y="796" class="small muted">另一项验证，不拼成同一个结果</text>
+<path d="M240 855v32" fill="none" stroke="#55786b" stroke-width="2" stroke-dasharray="4 4"/>
+<path d="m233 880 7 10 7-10" fill="none" stroke="#55786b" stroke-width="2"/>
+<rect x="22" y="909" width="436" height="259" rx="8" fill="#173b39"/>
+<text x="42" y="949" style="fill:#dbe7d6;font-size:21px;font-weight:750">门店补充验证 · 研究建议</text>
+<text x="42" y="991" style="fill:#fffdf7;font-size:26px;font-weight:750">菜单、批量、完整劳动</text>
+<text x="42" y="1033" style="fill:#fffdf7;font-size:23px">用本店常卖菜与常用批量比较</text>
+<text x="42" y="1074" style="fill:#fffdf7;font-size:23px">记录合格交付与全过程劳动</text>
+<text x="42" y="1122" style="fill:#dbe7d6;font-size:21px">不直接换算成整餐段交付能力</text>
+</svg>

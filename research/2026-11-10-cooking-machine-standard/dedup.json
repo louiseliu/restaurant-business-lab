@@ -1,0 +1,767 @@
+{
+  "baseline_commit": "0202a6ce62e27272bc6cfbe16fd77b1a7eb36af2",
+  "baseline_tree": "fcb8dc39e0c596d6ebeec06dda30f8ba47c179c9",
+  "scanned": [
+    {
+      "path": "research/2026-10-27-franchise-evidence/final-report.md",
+      "sha": "04fad7b0012f3c95137c4d77a4d0144cf96b2569",
+      "returned_sha": "04fad7b0012f3c95137c4d77a4d0144cf96b2569",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-10-28-delivery-mix/note.md",
+      "sha": "49e048f197e760a367ea0bdfb35059d6ec132aec",
+      "returned_sha": "49e048f197e760a367ea0bdfb35059d6ec132aec",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-10-28-entry-cashflow/note.md",
+      "sha": "d799b0095025eb5723b043a69cbeebe8f2fb0b4c",
+      "returned_sha": "d799b0095025eb5723b043a69cbeebe8f2fb0b4c",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-10-28-franchise-payback-definitions/continuation-note.md",
+      "sha": "560e508f30e3e8431e04da1b72c17f535fe18c45",
+      "returned_sha": "560e508f30e3e8431e04da1b72c17f535fe18c45",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-10-28-capacity-bottlenecks/note.md",
+      "sha": "344ac229c5c7a2737d3626444460b043ccb6b897",
+      "returned_sha": "344ac229c5c7a2737d3626444460b043ccb6b897",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-10-28-same-store-splits/note.md",
+      "sha": "90b9305b826d9fd61141129bb97ddbe18d37a68e",
+      "returned_sha": "90b9305b826d9fd61141129bb97ddbe18d37a68e",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-10-29-advertising-total-outcomes/note.md",
+      "sha": "29c8a92b5b7a4cf7d6bcab476c44d8c96a22b7d3",
+      "returned_sha": "29c8a92b5b7a4cf7d6bcab476c44d8c96a22b7d3",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-10-28-franchise-payback-definitions/research-note.md",
+      "sha": "5f9b6af4cf8fb61a2eb6847036338071d2cf2c4a",
+      "returned_sha": "5f9b6af4cf8fb61a2eb6847036338071d2cf2c4a",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-10-30-food-images/note.md",
+      "sha": "fee574e3a383359437b833260e883f53b48cdddb",
+      "returned_sha": "fee574e3a383359437b833260e883f53b48cdddb",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-10-29-ai-food-waste/note.md",
+      "sha": "be1c5be2518107c607883beb5c2b9295fbacc2fb",
+      "returned_sha": "be1c5be2518107c607883beb5c2b9295fbacc2fb",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-10-30-robot-kitchen/note.md",
+      "sha": "08d7f269789607318bb9730d9e1647564b93b4d1",
+      "returned_sha": "08d7f269789607318bb9730d9e1647564b93b4d1",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-10-30-restocking-controls/note.md",
+      "sha": "3758d98d9e271989496efa9144b092d8fcff83d0",
+      "returned_sha": "3758d98d9e271989496efa9144b092d8fcff83d0",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-10-30-expense-evidence/note.md",
+      "sha": "e00fba8cc1efbc17f916e9a6182d176655462e37",
+      "returned_sha": "e00fba8cc1efbc17f916e9a6182d176655462e37",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-10-30-qsmart/note.md",
+      "sha": "e4227d30b125a17972f3985b64b111edc776a3ce",
+      "returned_sha": "e4227d30b125a17972f3985b64b111edc776a3ce",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-10-29-ai-cart-recommendations/note.md",
+      "sha": "e28682491e9e4b4aad8b36ff4b15532dc12c41d1",
+      "returned_sha": "e28682491e9e4b4aad8b36ff4b15532dc12c41d1",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-10-30-software-exit/note.md",
+      "sha": "8a25ef1bb0f6ac4367c3cef9c8f6ef7458e968a8",
+      "returned_sha": "8a25ef1bb0f6ac4367c3cef9c8f6ef7458e968a8",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-10-31-energy-control/note.md",
+      "sha": "07566c9577163f711a261fed16638b41a3b2e9d7",
+      "returned_sha": "07566c9577163f711a261fed16638b41a3b2e9d7",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-10-30-voice-receptionist/note.md",
+      "sha": "bad0087791fe5053a1be2b26fdea298c41141330",
+      "returned_sha": "bad0087791fe5053a1be2b26fdea298c41141330",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-10-31-replenishment-constraints/note.md",
+      "sha": "25d32e51ef7e684c0dd2085c78f9cc2caec1fa0d",
+      "returned_sha": "25d32e51ef7e684c0dd2085c78f9cc2caec1fa0d",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-10-30-vision-checkout/note.md",
+      "sha": "53947d534db5db6119ffc12ed25ddbdc95de42cf",
+      "returned_sha": "53947d534db5db6119ffc12ed25ddbdc95de42cf",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-10-31-queue-promise/note.md",
+      "sha": "63a7d391ed1d8c5f6ac066540ea90eeb036c243b",
+      "returned_sha": "63a7d391ed1d8c5f6ac066540ea90eeb036c243b",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-10-30-video-event-audit/note.md",
+      "sha": "2348eabeabcc44c44462f4c1e3b095c4db054770",
+      "returned_sha": "2348eabeabcc44c44462f4c1e3b095c4db054770",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-10-31-knowledge-withdrawal/note.md",
+      "sha": "79780e688c0d29ce23e9c18d87739a03a9344fa1",
+      "returned_sha": "79780e688c0d29ce23e9c18d87739a03a9344fa1",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-10-31-menu-translation-scope/note.md",
+      "sha": "c1f58315e1edc033b76ce7870fa7dbb2a259657a",
+      "returned_sha": "c1f58315e1edc033b76ce7870fa7dbb2a259657a",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-11-01-shift-constraints/note.md",
+      "sha": "3e35784518c7b2cd76315d71f6b19d29718873c6",
+      "returned_sha": "3e35784518c7b2cd76315d71f6b19d29718873c6",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-10-31-review-to-action/note.md",
+      "sha": "63dd89ae170c8454129f0066a88ddbc55e1ba4fd",
+      "returned_sha": "63dd89ae170c8454129f0066a88ddbc55e1ba4fd",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-11-01-crossplatform-operations/note.md",
+      "sha": "2cbf61b3152e4bdca244c1ad83228dafd3c5e2f8",
+      "returned_sha": "2cbf61b3152e4bdca244c1ad83228dafd3c5e2f8",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-11-01-management-anomaly/note.md",
+      "sha": "75a08e56ebcd531b40fc8984270052da38a6c100",
+      "returned_sha": "75a08e56ebcd531b40fc8984270052da38a6c100",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-11-01-waste-resale/note.md",
+      "sha": "0355c8d4d82a690342ce11de4e7fce91a00c7cbf",
+      "returned_sha": "0355c8d4d82a690342ce11de4e7fce91a00c7cbf",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-11-01-inventory-capture/note.md",
+      "sha": "dbfcee2af3796e04f50a0b3bed555a915fd5d4c1",
+      "returned_sha": "dbfcee2af3796e04f50a0b3bed555a915fd5d4c1",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-10-31-shared-knowledge/note.md",
+      "sha": "8d578f9b41a0a49d9c770a16ffe4e897b22ef15a",
+      "returned_sha": "8d578f9b41a0a49d9c770a16ffe4e897b22ef15a",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-10-31-training-content-insourcing/note.md",
+      "sha": "d2d4d30f6a2bd1a980221ef0c55a3bea252097d4",
+      "returned_sha": "d2d4d30f6a2bd1a980221ef0c55a3bea252097d4",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-11-02-pass-confirmation/note.md",
+      "sha": "a4dde71279d9cb6ca4811fdef12e8a5749912869",
+      "returned_sha": "a4dde71279d9cb6ca4811fdef12e8a5749912869",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-11-03-order-cancellation/note.md",
+      "sha": "9c725b18c83e755e48d3b2d2555724ab995a031c",
+      "returned_sha": "9c725b18c83e755e48d3b2d2555724ab995a031c",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-11-02-stockout-demand/note.md",
+      "sha": "4b416d4f46801e986f4d8c883769d2436376596d",
+      "returned_sha": "4b416d4f46801e986f4d8c883769d2436376596d",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-11-02-ai-camera-cost-stack/note.md",
+      "sha": "d063a826897f02696c7865cb5bc2499483573542",
+      "returned_sha": "d063a826897f02696c7865cb5bc2499483573542",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-11-03-food-waste-measurement/note.md",
+      "sha": "6daa12b15a6a06d64cb702c79275a8d8d2c0996a",
+      "returned_sha": "6daa12b15a6a06d64cb702c79275a8d8d2c0996a",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-11-03-customer-agent-entry/note.md",
+      "sha": "8d1455a269dc201e430281fecc30663d76b76914",
+      "returned_sha": "8d1455a269dc201e430281fecc30663d76b76914",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-11-02-vision-feedback-timing/note.md",
+      "sha": "f9d08e895013e3cb5320585520b7cded7c6a4415",
+      "returned_sha": "f9d08e895013e3cb5320585520b7cded7c6a4415",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-11-02-robot-route-infrastructure/note.md",
+      "sha": "cfeb19d5da356211504d7de2314eb8eb3e543353",
+      "returned_sha": "cfeb19d5da356211504d7de2314eb8eb3e543353",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-11-03-service-handoff/note.md",
+      "sha": "f1fc411cc27a5a878991e6dd0362f745a7ef2a94",
+      "returned_sha": "f1fc411cc27a5a878991e6dd0362f745a7ef2a94",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-11-05-forecast-reimport/note.md",
+      "sha": "c29731099b1c2731d3eec98e8b32bc8a8b67cb37",
+      "returned_sha": "c29731099b1c2731d3eec98e8b32bc8a8b67cb37",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-11-04-store-accounting/note.md",
+      "sha": "ba1ba398e741d3ec738a766716c5a74ab6e29f67",
+      "returned_sha": "ba1ba398e741d3ec738a766716c5a74ab6e29f67",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-11-04-menu-change-release/note.md",
+      "sha": "9e37508628f41cbe7b2ce939597c068dce1364b0",
+      "returned_sha": "9e37508628f41cbe7b2ce939597c068dce1364b0",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-11-04-offline-pos/note.md",
+      "sha": "3b191a59ede7ffd6c329caa9eff4a13aa0c2b1de",
+      "returned_sha": "3b191a59ede7ffd6c329caa9eff4a13aa0c2b1de",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-11-05-agent-stop/note.md",
+      "sha": "271c0199af37f76ef1ac1a0c7dbeb3a746573631",
+      "returned_sha": "271c0199af37f76ef1ac1a0c7dbeb3a746573631",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-11-04-menu-option-equivalence/evidence-review.md",
+      "sha": "ac985dc9daace2e112e91f106bd706c388174e97",
+      "returned_sha": "ac985dc9daace2e112e91f106bd706c388174e97",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-11-05-dq-robot-experience/note.md",
+      "sha": "6abfd8634830942003fd829397270afedfda7952",
+      "returned_sha": "6abfd8634830942003fd829397270afedfda7952",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-11-05-pickup-economics/note.md",
+      "sha": "7534b47bebcb560475862181272764f1c48fcf18",
+      "returned_sha": "7534b47bebcb560475862181272764f1c48fcf18",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-11-05-kitchen-label/note.md",
+      "sha": "7346a854125eb3d52e91677e6044febcf98f7942",
+      "returned_sha": "7346a854125eb3d52e91677e6044febcf98f7942",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-11-05-hiring-access/note.md",
+      "sha": "d1870bf3725a1a55c462a6f56b1c92928917ddc7",
+      "returned_sha": "d1870bf3725a1a55c462a6f56b1c92928917ddc7",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-11-05-menu-equivalence/note.md",
+      "sha": "6deb16bc4261bfb379d4f7785f811d42664e27b3",
+      "returned_sha": "6deb16bc4261bfb379d4f7785f811d42664e27b3",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-11-05-monthly-meal-customization/note.md",
+      "sha": "5d5832a6bd0dfe46f7ab91f9648d9465a5291618",
+      "returned_sha": "5d5832a6bd0dfe46f7ab91f9648d9465a5291618",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-11-05-membership-marketing/note.md",
+      "sha": "723199471a685998e55c1c581dc50c637c09e961",
+      "returned_sha": "723199471a685998e55c1c581dc50c637c09e961",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-11-05-model-update-acceptance/note.md",
+      "sha": "7bc716a49b74968ee70386de086db915efb72410",
+      "returned_sha": "7bc716a49b74968ee70386de086db915efb72410",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-11-05-kotipizza-pricing/note.md",
+      "sha": "5c429b39a56835850b9c69ff19d1ddd7e889f9ee",
+      "returned_sha": "5c429b39a56835850b9c69ff19d1ddd7e889f9ee",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-11-05-satellite-store/note.md",
+      "sha": "24c8d8ab7314de02f25aee95092a8299a87e15c6",
+      "returned_sha": "24c8d8ab7314de02f25aee95092a8299a87e15c6",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-11-05-procurement-acceptance/evidence-review.md",
+      "sha": "3cbfaaaa893e13f29c7fe8dc98db5e35a3029de1",
+      "returned_sha": "3cbfaaaa893e13f29c7fe8dc98db5e35a3029de1",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-11-05-replenishment-override/note.md",
+      "sha": "15c18c343d87d73dff743772a0b573c49843a69b",
+      "returned_sha": "15c18c343d87d73dff743772a0b573c49843a69b",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-11-05-xiabu-exit/note.md",
+      "sha": "5fa6fc05413d235866da274003cf42736359f31c",
+      "returned_sha": "5fa6fc05413d235866da274003cf42736359f31c",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-11-05-platform-appeals/note.md",
+      "sha": "75142bc7a61a4ece7cbb6ce337f369a9603e5ddb",
+      "returned_sha": "75142bc7a61a4ece7cbb6ce337f369a9603e5ddb",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-11-05-self-built-release-validation/note.md",
+      "sha": "8894d1bb267b3d5f41f5cca8672a7c51a6560d6a",
+      "returned_sha": "8894d1bb267b3d5f41f5cca8672a7c51a6560d6a",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-11-05-site-fitout/note.md",
+      "sha": "593d16687df198d63461477587a01aaee2dce6c6",
+      "returned_sha": "593d16687df198d63461477587a01aaee2dce6c6",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-11-05-presto-remote/note.md",
+      "sha": "215e01b4652354ca256d9efdd1bb0a218c2da611",
+      "returned_sha": "215e01b4652354ca256d9efdd1bb0a218c2da611",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-11-06-cold-chain/note.md",
+      "sha": "b04ae673b60bb97290b75725a5a0152555b9aea4",
+      "returned_sha": "b04ae673b60bb97290b75725a5a0152555b9aea4",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-11-06-catering-minimum/note.md",
+      "sha": "443138b0419b231794b21368c148a726f8295b93",
+      "returned_sha": "443138b0419b231794b21368c148a726f8295b93",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-11-06-camera-reuse/note.md",
+      "sha": "aef88b2fa39e7e6133910a5a54840c72dbe5a366",
+      "returned_sha": "aef88b2fa39e7e6133910a5a54840c72dbe5a366",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-11-06-ai-recipe-development/note.md",
+      "sha": "82bedd8f9b487aad625943566155bc2aae3f3ed6",
+      "returned_sha": "82bedd8f9b487aad625943566155bc2aae3f3ed6",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-11-06-digitalhuman-livestream/note.md",
+      "sha": "81bcab57c27796fba011cd62fb486e00a84cabd9",
+      "returned_sha": "81bcab57c27796fba011cd62fb486e00a84cabd9",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-11-06-ai-discovery-value/note.md",
+      "sha": "a6377d2fd6c11d833e7015c3e89dabd739b87de2",
+      "returned_sha": "a6377d2fd6c11d833e7015c3e89dabd739b87de2",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-11-06-ai-customer-authority/note.md",
+      "sha": "67f3e176f18cf375ea0b75e08fddf86ef337222f",
+      "returned_sha": "67f3e176f18cf375ea0b75e08fddf86ef337222f",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-11-06-ai-practice-validation/note.md",
+      "sha": "02a701ee2cd0076bd3eb493ae792daef80d0804d",
+      "returned_sha": "02a701ee2cd0076bd3eb493ae792daef80d0804d",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-11-06-jinyong-meeting/note.md",
+      "sha": "ccf6883e702c7a5db7ac43b60c2aa4af2aecfb0e",
+      "returned_sha": "ccf6883e702c7a5db7ac43b60c2aa4af2aecfb0e",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-11-06-exhaust-monitor/note.md",
+      "sha": "f97226276936a14fe372b21b87e3aeb03cc02c9a",
+      "returned_sha": "f97226276936a14fe372b21b87e3aeb03cc02c9a",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-11-06-extended-hours/note.md",
+      "sha": "c4cf764cbd046c4d25eba3df809b7914e79069c9",
+      "returned_sha": "c4cf764cbd046c4d25eba3df809b7914e79069c9",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-11-06-nutrition-data/note.md",
+      "sha": "a7c61f1f72fa04789ee3e09ee0b85938397e519b",
+      "returned_sha": "a7c61f1f72fa04789ee3e09ee0b85938397e519b",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-11-06-dishwashing-workflow/note.md",
+      "sha": "22f181a4eea921365c3bfaea632a8c5eee87b92e",
+      "returned_sha": "22f181a4eea921365c3bfaea632a8c5eee87b92e",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-11-06-order-alert/note.md",
+      "sha": "035a0bdb4fcc3d344e1f761e2018058b178033b3",
+      "returned_sha": "035a0bdb4fcc3d344e1f761e2018058b178033b3",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-11-06-menu-retention/note.md",
+      "sha": "6e0e40147165521ed1fdaf79623c08b4f62476dd",
+      "returned_sha": "6e0e40147165521ed1fdaf79623c08b4f62476dd",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-11-06-footfall-conversion/note.md",
+      "sha": "e18cf355c5dc278396df64c47ceeabef1803f895",
+      "returned_sha": "e18cf355c5dc278396df64c47ceeabef1803f895",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-11-06-shared-premises/note.md",
+      "sha": "5e4cdf837fc65b80e993a903f868f0312390e880",
+      "returned_sha": "5e4cdf837fc65b80e993a903f868f0312390e880",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-11-06-reusable-cup/note.md",
+      "sha": "10cb386ced447e671bb98103df98d6ac7d62d0b9",
+      "returned_sha": "10cb386ced447e671bb98103df98d6ac7d62d0b9",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-11-06-promotion-floor/note.md",
+      "sha": "b12fdd977e5fcfbbd21bfff25e5b1c7042cad094",
+      "returned_sha": "b12fdd977e5fcfbbd21bfff25e5b1c7042cad094",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-11-06-robot-subscription-exit/note.md",
+      "sha": "734dda247c0372a440d1a314f0a5cd74677e7679",
+      "returned_sha": "734dda247c0372a440d1a314f0a5cd74677e7679",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-11-06-pest-monitor/note.md",
+      "sha": "7aaa526a4c9f6613058c27beb9a14f81ff24a711",
+      "returned_sha": "7aaa526a4c9f6613058c27beb9a14f81ff24a711",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-11-06-reservation-fairness/note.md",
+      "sha": "76508d93681f8c372ffd9e8b256d39e1f136ba60",
+      "returned_sha": "76508d93681f8c372ffd9e8b256d39e1f136ba60",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-11-06-site-selection-rent/note.md",
+      "sha": "7256fd82ca14f0ab8d2624b6f348e6871ae1ba05",
+      "returned_sha": "7256fd82ca14f0ab8d2624b6f348e6871ae1ba05",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-11-06-reservation-policy/note.md",
+      "sha": "d12bb83cef7627c44226d8221babd1be32d253cb",
+      "returned_sha": "d12bb83cef7627c44226d8221babd1be32d253cb",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-11-06-supplier-recommendation/note.md",
+      "sha": "6d87e0f7202f8fe9d25a1973747948f1f3926962",
+      "returned_sha": "6d87e0f7202f8fe9d25a1973747948f1f3926962",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-11-07-coffee-subscription/note.md",
+      "sha": "0833b4862d5daa46d5619759e8e29924c53eecf5",
+      "returned_sha": "0833b4862d5daa46d5619759e8e29924c53eecf5",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-11-07-elder-meal-settlement/note.md",
+      "sha": "b20e3768d1d98449b8d9c9b9b830459f43554ffd",
+      "returned_sha": "b20e3768d1d98449b8d9c9b9b830459f43554ffd",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-11-06-supplier-alias-mapping/note.md",
+      "sha": "17c87ea0ab57b3e43ccefa3164e8a0edc784533b",
+      "returned_sha": "17c87ea0ab57b3e43ccefa3164e8a0edc784533b",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-11-07-morning-check/note.md",
+      "sha": "2af88759e0e0071a3caf53fd931e9c26a715724b",
+      "returned_sha": "2af88759e0e0071a3caf53fd931e9c26a715724b",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-11-07-food-sampling/note.md",
+      "sha": "097ea2053b7aa42775d34bcf93b00f22f593118d",
+      "returned_sha": "097ea2053b7aa42775d34bcf93b00f22f593118d",
+      "ok": true,
+      "hits": [
+        "这里不能推导出“所有餐厅都要买AI留样秤”。中国标准化研究院对GB 31654-2021范围的解读还说明，地方规定按小餐饮管理的活动可参照该标准执行。具体经营场景仍需结合当地适用规定及食品安全管理要求确认。[标准机构解读](https://www.cnis.ac.cn/ynbm/spynyzlyjs/kydt/202106/t20210615_51600.html)"
+      ]
+    },
+    {
+      "path": "research/2026-11-07-food-safety-bundle/note.md",
+      "sha": "d7a0574cdbb10999bf7d99b67d79932ef2d2e118",
+      "returned_sha": "d7a0574cdbb10999bf7d99b67d79932ef2d2e118",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-11-06-table-turnover/note.md",
+      "sha": "343264a3400afdaf1c011e3fbabadc63dba1ec1f",
+      "returned_sha": "343264a3400afdaf1c011e3fbabadc63dba1ec1f",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-11-07-peak-ai-ordering/note.md",
+      "sha": "673f4bac5cab16b4720c65fbf04e702b28e63a42",
+      "returned_sha": "673f4bac5cab16b4720c65fbf04e702b28e63a42",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-11-07-receiving-settlement/note.md",
+      "sha": "680817b10680661cf7b2dca873658a67f1d58bcf",
+      "returned_sha": "680817b10680661cf7b2dca873658a67f1d58bcf",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-11-07-prepaid-cashflow/note.md",
+      "sha": "9ac36366569c0ec53c23b7c766da0d3940e1cdaf",
+      "returned_sha": "9ac36366569c0ec53c23b7c766da0d3940e1cdaf",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-11-08-oil-quality/note.md",
+      "sha": "084adde7c299afcac1910f735cbed3f616c7a474",
+      "returned_sha": "084adde7c299afcac1910f735cbed3f616c7a474",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-11-07-repair-dispatch/note.md",
+      "sha": "9b2f40a1b83503f798059d3aa99c27ebfca1e56a",
+      "returned_sha": "9b2f40a1b83503f798059d3aa99c27ebfca1e56a",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-11-07-store-replication/note.md",
+      "sha": "f9ced61a16b2c3a69dfeec7ec015da6155348ff1",
+      "returned_sha": "f9ced61a16b2c3a69dfeec7ec015da6155348ff1",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-11-09-batch-delivery-handoff/note.md",
+      "sha": "212d04ffc02976f789d6055cf78c1931b6a6be90",
+      "returned_sha": "212d04ffc02976f789d6055cf78c1931b6a6be90",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-11-09-dispatch-readiness/note.md",
+      "sha": "d12846214ff8118d26854d104d92a427723c9fb8",
+      "returned_sha": "d12846214ff8118d26854d104d92a427723c9fb8",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-11-09-maintenance-risk-prediction/note.md",
+      "sha": "3bed9dbb8c059e88a12e6b53fb1bacf83297aee3",
+      "returned_sha": "3bed9dbb8c059e88a12e6b53fb1bacf83297aee3",
+      "ok": true,
+      "hits": [
+        "预测性维护要求多走一步：用设备状态的变化判断未来风险，并让提醒早于可采取行动的最后时点。美国国家标准与技术研究院的相关说明，将依据温度、噪声、振动等状态信息预判故障的做法，与按周期安排的预防性维护区分开来。[3] 这里借用的是定义，不把美国制造业的成本或收益数字搬进餐厅。"
+      ]
+    },
+    {
+      "path": "research/2026-11-09-partial-refund-valuation/note.md",
+      "sha": "ca798c5d86f9ae24f156cfaacbc76eb26c6ad8dc",
+      "returned_sha": "ca798c5d86f9ae24f156cfaacbc76eb26c6ad8dc",
+      "ok": true,
+      "hits": []
+    },
+    {
+      "path": "research/2026-11-09-grease-interceptor-service/note.md",
+      "sha": "37464ac8182e447b869e16ffbb747937fc8aaed1",
+      "returned_sha": "37464ac8182e447b869e16ffbb747937fc8aaed1",
+      "ok": true,
+      "hits": []
+    }
+  ],
+  "terms": [
+    "46718",
+    "商用智能炒菜机",
+    "智能化评价",
+    "优特智厨",
+    "国标",
+    "国家标准"
+  ]
+}

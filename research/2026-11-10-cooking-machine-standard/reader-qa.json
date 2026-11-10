@@ -1,0 +1,37 @@
+{
+  "input_sha256": {
+    "note.md": "cd87c314b2fa8eebd090127a5787490b40a430a25f269499b002c0a6f304f1ab",
+    "sources.md": "4f49ef783670108ab69a6e2b1d38c56a19b1e006cf8f7c96f11b24d959ca438e"
+  },
+  "output_sha256": {
+    "index.html": "bb814fc2d4ca2be09bae0c464f5c48f578123d5492cb3e22eda85b3ebf370931",
+    "炒菜机器人新国标-采购研究-20261110.html": "bb814fc2d4ca2be09bae0c464f5c48f578123d5492cb3e22eda85b3ebf370931",
+    "intelligence-levels.svg": "70418226f2da6ff499d360cc6cc137ce3bc124e9623a6ffd16dffa03a896e97f",
+    "test-boundaries.svg": "d9c6bc7643b665be9fb0a5a2b15872d0ce5f494e34da3a67b406fe2da3ee5e6c"
+  },
+  "verified_research_baseline": "0202a6ce62e27272bc6cfbe16fd77b1a7eb36af2",
+  "retained_note_blocks": 31,
+  "retained_source_bullets": 17,
+  "inline_svg_count": 2,
+  "external_asset_count": 0,
+  "script_count": 0,
+  "hyperlink_count": 23,
+  "unique_external_urls": [
+    "https://github.com/louiseliu/restaurant-business-lab/blob/0202a6ce62e27272bc6cfbe16fd77b1a7eb36af2/research/2026-10-30-robot-kitchen/note.md",
+    "https://github.com/louiseliu/restaurant-business-lab/blob/0202a6ce62e27272bc6cfbe16fd77b1a7eb36af2/research/2026-11-06-robot-subscription-exit/note.md",
+    "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=DD8D5C28C70FA67A6AADFB8F15375FC2",
+    "https://openstd.samr.gov.cn/bzgk/std/showGb?type=online&hcno=DD8D5C28C70FA67A6AADFB8F15375FC2&request_locale=zh",
+    "https://std.samr.gov.cn//gb/search/gbDetailed?id=42BA7D06A45DE936E06397BE0A0ACDC9",
+    "https://www.zhsme.org.cn/news/getNewsByNewsId?newsId=46990d38-4aa7-43ab-bc28-5eeef05ddbef"
+  ],
+  "source_exclusions": {
+    "note": "正文末尾一条执行记录（不涉及研究论证）",
+    "sources": [
+      "去重和研究增量",
+      "执行与交付边界"
+    ]
+  },
+  "static_checks": "passed",
+  "browser_visual_qa": "not_run",
+  "network_link_recheck": "not_run; links inherited from reviewed sources and verified repository snapshot"
+}

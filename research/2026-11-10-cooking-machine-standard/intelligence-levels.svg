@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="664" viewBox="0 0 480 664" role="img" aria-labelledby="level-title level-desc">
+<title id="level-title">标准原例 2、C3、S1综合判为L2</title><desc id="level-desc">自动性2、协同性C3、学习性S1，三个维度需同时达到相应要求。标准原例综合判为L2。L3要求2、C3、S2，原例学习性S1未达S2。强项不能抵消不足。这是标准例解读，不是产品实测。</desc><style>text{font-family:system-ui,-apple-system,"PingFang SC","Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#173b39}.small{font-size:21px}.body{font-size:23px}.title{font-size:26px;font-weight:750}.muted{fill:#5d706b}.accent{fill:#af4c28}.bold{font-weight:750}</style>
+<rect width="480" height="664" rx="4" fill="#fffdf7"/>
+<text x="26" y="42" class="small accent bold">附录A · 表A.5 / A.3.2.2</text>
+<text x="26" y="88" class="title">三个维度必须同时达标</text>
+<text x="26" y="124" class="small muted">下面是标准原例，不是产品实测</text>
+<g fill="#eef1e8" stroke="#d4ddd0"><rect x="26" y="156" width="132" height="123" rx="8"/><rect x="174" y="156" width="132" height="123" rx="8"/><rect x="322" y="156" width="132" height="123" rx="8"/></g>
+<g class="body" text-anchor="middle"><text x="92" y="194">自动性</text><text x="240" y="194">协同性</text><text x="388" y="194">学习性</text></g>
+<g font-size="42" font-weight="800" text-anchor="middle"><text x="92" y="252">2</text><text x="240" y="252">C3</text><text x="388" y="252">S1</text></g>
+<path d="M92 292v20h296v-20M240 312v29" fill="none" stroke="#55786b" stroke-width="2"/>
+<path d="m233 334 7 10 7-10" fill="none" stroke="#55786b" stroke-width="2"/>
+<rect x="26" y="364" width="428" height="128" rx="8" fill="#173b39"/>
+<text x="49" y="406" style="fill:#dbe7d6;font-size:23px">综合等级</text>
+<text x="48" y="465" style="fill:#fffdf7;font-size:49px;font-weight:800">L2</text>
+<text x="183" y="455" style="fill:#fffdf7;font-size:23px">强项不能抵消不足</text>
+<text x="26" y="543" class="body bold">L3要求：2 / C3 / S2</text>
+<text x="26" y="582" class="body accent">原例学习性S1未达到S2</text>
+<text x="26" y="631" class="small muted">等级用于核对能力，不直接代表回本</text>
+</svg>
