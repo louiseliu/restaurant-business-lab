@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 880" role="img" aria-labelledby="workflow-title workflow-desc">
+<title id="workflow-title">从检测结果到异常处置的建议验收关系</title><desc id="workflow-desc">在受控验证中依次检查样本条件，目标检测，实物对应和隔离，人工处置记录，持续维护成本。任一步不明都不能用屏幕识别成功替代整体确认。本图是作者建议，不是西南航食现场系统图。</desc>
+<style>text{font-family:Arial,'Noto Sans CJK SC','Microsoft YaHei',sans-serif;fill:#172e2a}.h{font-size:24px;font-weight:700}.b{font-size:20px}.s{font-size:17px}</style>
+<rect width="480" height="880" rx="20" fill="#f4f7f3"/>
+<text x="28" y="48" class="h">图二 屏幕识别之后还验什么</text>
+<text x="28" y="79" class="s">作者建议关系图，不是案例现场架构</text>
+<rect x="26" y="108" width="428" height="110" rx="14" fill="#e3ebe5"/>
+<text x="46" y="146" class="h">1 固定受控样本条件</text>
+<text x="46" y="184" class="b">餐食、容器、对象、通过方式</text>
+<path d="M240 228v24m-8-8 8 8 8-8" fill="none" stroke="#60786e" stroke-width="2"/>
+<rect x="26" y="264" width="428" height="110" rx="14" fill="#d5e9df"/>
+<text x="46" y="302" class="h">2 核对检测表现</text>
+<text x="46" y="340" class="b">同时看检出、遗漏与误判</text>
+<path d="M240 384v24m-8-8 8 8 8-8" fill="none" stroke="#60786e" stroke-width="2"/>
+<rect x="26" y="420" width="428" height="110" rx="14" fill="#d5e9df"/>
+<text x="46" y="458" class="h">3 对应并控制正确实物</text>
+<text x="46" y="496" class="b">检查剔除、停线与隔离的衔接</text>
+<path d="M240 540v24m-8-8 8 8 8-8" fill="none" stroke="#60786e" stroke-width="2"/>
+<rect x="26" y="576" width="428" height="110" rx="14" fill="#f2e7cf"/>
+<text x="46" y="614" class="h">4 有人处理并留下记录</text>
+<text x="46" y="652" class="b">核对任务、实物流向与异常结果</text>
+<path d="M240 696v24m-8-8 8 8 8-8" fill="none" stroke="#60786e" stroke-width="2"/>
+<rect x="26" y="732" width="428" height="92" rx="14" fill="#e3ebe5"/>
+<text x="46" y="769" class="h">再判断持续负担能否承受</text>
+<text x="46" y="805" class="b">人工、停机、维护与变更支持</text>
+<text x="28" y="856" class="s">测试餐食隔离管理，不进入销售或供餐</text>
+</svg>

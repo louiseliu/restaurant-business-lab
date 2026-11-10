@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 780" role="img" aria-labelledby="conditions-title conditions-desc">
+<title id="conditions-title">同一个检测尺寸之前先看测试条件</title><desc id="conditions-desc">买方技术方案分开列示输送带表面最佳值和带产品陶瓷容器要求。本店餐食还要单独受控验证。三层条件不是性能排名，不能相除计算提升倍数。</desc>
+<style>text{font-family:Arial,'Noto Sans CJK SC','Microsoft YaHei',sans-serif;fill:#172e2a}.h{font-size:24px;font-weight:700}.b{font-size:20px}.s{font-size:17px}.n{font-size:30px;font-weight:700}</style>
+<rect width="480" height="780" rx="20" fill="#f4f7f3"/>
+<text x="28" y="48" class="h">图一 先把测试条件对齐</text>
+<text x="28" y="79" class="s">不同测试对象，不能直接比较毫米数</text>
+<rect x="26" y="112" width="428" height="164" rx="14" fill="#e3ebe5"/>
+<text x="46" y="149" class="h">输送带表面</text>
+<text x="46" y="191" class="n">ø0.3 mm 不锈钢球</text>
+<text x="46" y="229" class="b">技术方案列为最佳检测值</text>
+<text x="46" y="256" class="s">只对应文件所列条件</text>
+<path d="M240 286v31m-8-8 8 8 8-8" fill="none" stroke="#60786e" stroke-width="2"/>
+<rect x="26" y="330" width="428" height="164" rx="14" fill="#d5e9df"/>
+<text x="46" y="367" class="h">陶瓷容器带产品</text>
+<text x="46" y="409" class="n">≥1.0 mm 不锈钢</text>
+<text x="46" y="447" class="b">技术方案另列带餐要求</text>
+<text x="46" y="474" class="s">该表未完整交代不锈钢形态</text>
+<path d="M240 504v31m-8-8 8 8 8-8" fill="none" stroke="#60786e" stroke-width="2"/>
+<rect x="26" y="548" width="428" height="144" rx="14" fill="#f2e7cf"/>
+<text x="46" y="585" class="h">本店实际餐食与容器</text>
+<text x="46" y="625" class="b">补齐条件，再做受控验证</text>
+<text x="46" y="663" class="s">不能从上面两项推定本店表现</text>
+<text x="28" y="731" class="s">上两层：买方要求，不是实测结果</text>
+<text x="28" y="757" class="s">第三层：作者建议；箭头不表示性能提升</text>
+</svg>

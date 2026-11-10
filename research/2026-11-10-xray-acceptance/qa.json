@@ -1,0 +1,32 @@
+{
+  "checks": "passed",
+  "scope": "deterministic build, HTML structure, links, privacy patterns, SVG XML and text-anchor bounds; not browser rendering or device testing",
+  "html": {
+    "bytes": 20804,
+    "sha256": "4d79f91c5ee1e1f2673c208f66c209eeebbfa7cde0a0ab8da6db4f57f5be5e40"
+  },
+  "figure_count": 2,
+  "unique_ids": 15,
+  "external_source_urls": [
+    "https://foodsafety.meyerop.com/upload/image/20240611/20240611162530_43570.jpg",
+    "https://www.airchina.com.cn/airchinacms/4/upload/resources/file/7142.pdf",
+    "https://www.meyerop.com/cn/news/company-news/2024/06/1763"
+  ],
+  "remote_assets": 0,
+  "scripts": 0,
+  "svg": [
+    {
+      "file": "test-conditions.svg",
+      "xml_valid": true,
+      "text_anchor_bounds": true,
+      "visual_rendering": "not verified"
+    },
+    {
+      "file": "inspection-workflow.svg",
+      "xml_valid": true,
+      "text_anchor_bounds": true,
+      "visual_rendering": "not verified"
+    }
+  ],
+  "visual_status": "Browser, SVG raster rendering, interaction, print, screen reader and real offline operation unverified. Installed ImageMagick SVG rendering failed because rsvg-convert is absent. No browser permission or preview restriction was retried or bypassed."
+}
