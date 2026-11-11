@@ -1,0 +1,13 @@
+{
+  "article_id": "research-2026-11-05-hiring-access-note",
+  "publishedAt": "2026-11-05T21:05:54Z",
+  "updatedDate": "2026-11-11",
+  "full_prose_and_ledger": true,
+  "private_link_scan": true,
+  "external_script_or_image_dependencies": false,
+  "html_sha256": "f702a922230d5aae14244ab0a0d31b5a47fc7a11ffc211af3e49f0616f5c9b8a",
+  "html_bytes": 37699,
+  "browser_visual_test": "not_run; existing access limitations not retried",
+  "site_synced": false,
+  "github_html_archived": false
+}

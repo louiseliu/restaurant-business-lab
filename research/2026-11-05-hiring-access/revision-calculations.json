@@ -1,0 +1,12 @@
+{
+  "录用通知": {
+    "human_percent": "8.70",
+    "ai_percent": "9.73",
+    "difference_pp": "1.03"
+  },
+  "满一个月仍在岗": {
+    "human_percent": "4.98",
+    "ai_percent": "5.89",
+    "difference_pp": "0.91"
+  }
+}
