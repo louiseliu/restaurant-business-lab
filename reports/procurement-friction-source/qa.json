@@ -1,0 +1,13 @@
+{
+  "full_prose": true,
+  "sources_preserved": true,
+  "diagrams": 2,
+  "diagram_type": "qualitative author analysis",
+  "private_link_scan": "pass",
+  "external_script_images": false,
+  "html_sha256": "a69463d638d6af5bc98b0ff228d1a9b98a7536fe547cafe4f69e7997e80b1f83",
+  "html_bytes": 21370,
+  "browser_visual_test": "not_run",
+  "site_synced": false,
+  "github_html_archived": false
+}
