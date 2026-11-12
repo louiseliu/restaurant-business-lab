@@ -3,7 +3,7 @@ from pathlib import Path
 import html,re,json,hashlib
 p=Path(__file__).parent
 inputs=p if (p/'note.md').exists() else p.parents[1]/'research'/'2026-11-12-procurement-friction'
-note=(inputs/'note.md').read_text(); sources=(inputs/'sources.md').read_text()
+note=(inputs/'note.md').read_text().rstrip()+'\n\n'; sources=(inputs/'sources.md').read_text().rstrip()+'\n\n'
 def render(s):
  out=[]
  for block in s.strip().split('\n\n'):
